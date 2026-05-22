@@ -1,0 +1,73 @@
+rules:
+  - name: lower_inflation
+    keywords: [lower than expected, cooler, cools, disinflation, softer CPI, softer PCE]
+    impacts:
+      - {asset: QQQ, asset_class: equity, direction: positive, strength: high, reason: 通胀低于预期通常压低利率预期，有利于久期较长的成长股。}
+      - {asset: SPY, asset_class: equity, direction: positive, strength: medium, reason: 通胀降温改善软着陆预期，对宽基股指偏正面。}
+      - {asset: TLT, asset_class: rates, direction: positive, strength: high, reason: 降息预期升温时长债价格通常受益。}
+      - {asset: DXY, asset_class: fx, direction: negative, strength: medium, reason: 美元可能随美债收益率和政策利率预期回落。}
+      - {asset: GC=F, asset_class: commodity, direction: positive, strength: medium, reason: 实际利率压力下降时黄金通常受益。}
+      - {asset: BTC, asset_class: crypto, direction: positive, strength: medium, reason: 流动性预期改善通常支持高 beta 加密资产。}
+
+  - name: inflation
+    keywords: [inflation, CPI, PCE, hotter, higher than expected, sticky inflation]
+    impacts:
+      - {asset: DXY, asset_class: fx, direction: positive, strength: high, reason: 通胀压力可能推高政策利率预期并支撑美元。}
+      - {asset: TLT, asset_class: rates, direction: negative, strength: high, reason: 通胀上行通常推升收益率、压低长债价格。}
+      - {asset: QQQ, asset_class: equity, direction: negative, strength: high, reason: 更高利率对成长股估值折现率不利。}
+      - {asset: SPY, asset_class: equity, direction: mixed, strength: medium, reason: 名义增长可能支撑收入，但更高利率压制估值。}
+      - {asset: GC=F, asset_class: commodity, direction: mixed, strength: medium, reason: 通胀对黄金是支撑，但实际利率上行会形成压力。}
+      - {asset: BTC, asset_class: crypto, direction: mixed, strength: medium, reason: 抗通胀叙事和流动性收紧可能相互抵消。}
+
+  - name: dovish_policy
+    keywords: [rate cut, dovish, easing, QE, liquidity injection]
+    impacts:
+      - {asset: QQQ, asset_class: equity, direction: positive, strength: high, reason: 宽松预期降低折现率，有利于成长股。}
+      - {asset: SPY, asset_class: equity, direction: positive, strength: high, reason: 宽松政策通常改善风险偏好。}
+      - {asset: TLT, asset_class: rates, direction: positive, strength: high, reason: 降息预期通常推升长债价格。}
+      - {asset: DXY, asset_class: fx, direction: negative, strength: medium, reason: 利差预期回落通常压制美元。}
+      - {asset: GC=F, asset_class: commodity, direction: positive, strength: medium, reason: 实际利率下降通常利好黄金。}
+      - {asset: BTC, asset_class: crypto, direction: positive, strength: high, reason: 流动性改善通常支持加密资产。}
+
+  - name: hawkish_policy
+    keywords: [rate hike, hawkish, tightening, QT, higher for longer]
+    impacts:
+      - {asset: QQQ, asset_class: equity, direction: negative, strength: high, reason: 鹰派政策提高折现率，压制成长股估值。}
+      - {asset: SPY, asset_class: equity, direction: negative, strength: medium, reason: 更紧政策通常削弱风险偏好。}
+      - {asset: TLT, asset_class: rates, direction: negative, strength: high, reason: 利率上行通常压低长债价格。}
+      - {asset: DXY, asset_class: fx, direction: positive, strength: high, reason: 更高利率预期通常支撑美元。}
+      - {asset: BTC, asset_class: crypto, direction: negative, strength: high, reason: 流动性收紧通常压制高 beta 加密资产。}
+
+  - name: oil_supply
+    keywords: [oil, OPEC, Middle East, supply disruption, crude]
+    impacts:
+      - {asset: CL=F, asset_class: commodity, direction: positive, strength: high, reason: 供给扰动或 OPEC 减产通常推升 WTI 原油。}
+      - {asset: BZ=F, asset_class: commodity, direction: positive, strength: high, reason: 全球供给风险通常直接影响 Brent 原油。}
+      - {asset: SPY, asset_class: equity, direction: mixed, strength: medium, reason: 能源股可能受益，但通胀和成本压力不利于宽基风险资产。}
+
+  - name: china_stimulus
+    keywords: [China stimulus, PBOC, RRR, reserve requirement, real estate support]
+    impacts:
+      - {asset: ^HSI, asset_class: equity, direction: positive, strength: high, reason: 中国政策宽松通常改善港股中国资产风险偏好。}
+      - {asset: 沪深300, asset_class: equity, direction: positive, strength: high, reason: 稳增长政策通常利好 A 股核心指数。}
+      - {asset: commodities, asset_class: commodity, direction: positive, strength: medium, reason: 中国需求预期改善通常支撑工业品。}
+      - {asset: CNH, asset_class: fx, direction: mixed, strength: medium, reason: 增长预期改善利好人民币，但宽松流动性可能形成抵消。}
+
+  - name: crypto_regulation
+    keywords: [SEC, ETF, stablecoin, custody, crypto market structure]
+    impacts:
+      - {asset: BTC, asset_class: crypto, direction: mixed, strength: high, reason: 加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。}
+      - {asset: ETH, asset_class: crypto, direction: mixed, strength: high, reason: 监管框架会影响 ETH 产品化和机构参与度。}
+      - {asset: COIN, asset_class: equity, direction: mixed, strength: medium, reason: 监管清晰度和执法风险会影响交易平台估值。}
+      - {asset: crypto market, asset_class: crypto, direction: mixed, strength: high, reason: 信息影响整个加密市场结构，但方向取决于细节。}
+
+  - name: ai_capex
+    keywords: [AI capex, Nvidia, Microsoft, Meta, Google, Amazon, hyperscaler]
+    impacts:
+      - {asset: QQQ, asset_class: equity, direction: mixed, strength: high, reason: AI 资本开支会影响大型科技股盈利和估值预期。}
+      - {asset: SMH, asset_class: equity, direction: mixed, strength: high, reason: AI 投资周期直接影响半导体需求。}
+      - {asset: NVDA, asset_class: equity, direction: mixed, strength: high, reason: AI 训练和推理需求是英伟达收入预期核心变量。}
+      - {asset: MSFT, asset_class: equity, direction: mixed, strength: medium, reason: 云和 AI 资本开支影响利润率与增长叙事。}
+      - {asset: GOOGL, asset_class: equity, direction: mixed, strength: medium, reason: AI 投资和搜索商业化影响估值。}
+      - {asset: META, asset_class: equity, direction: mixed, strength: medium, reason: AI 基建支出与广告效率共同影响市场预期。}
+      - {asset: AMZN, asset_class: equity, direction: mixed, strength: medium, reason: AWS AI 需求和资本开支影响利润路径。}

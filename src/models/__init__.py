@@ -1,3 +1,19 @@
-from src.models.schemas import DailyBrief, MarketBar, MarketSnapshot, NewsItem
+from src.models.schemas import (
+    AssetImpact,
+    DailyBrief,
+    MarketBar,
+    MarketNarrative,
+    MarketSnapshot,
+    NewsAnalysis,
+    NewsItem,
+)
 
-__all__ = ["DailyBrief", "MarketBar", "MarketSnapshot", "NewsItem"]
+__all__ = [
+    "AssetImpact",
+    "DailyBrief",
+    "MarketBar",
+    "MarketNarrative",
+    "MarketSnapshot",
+    "NewsAnalysis",
+    "NewsItem",
+]

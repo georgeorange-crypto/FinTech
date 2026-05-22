@@ -18,6 +18,7 @@ def test_main_pipeline_continues_when_news_source_fails(monkeypatch, tmp_path) -
     monkeypatch.setattr(main_module, "write_markdown_report", fake_write_markdown)
     monkeypatch.setattr(main_module, "render_html_report", lambda path: path.with_suffix(".html"))
     monkeypatch.setattr(main_module, "build_index", lambda: tmp_path / "index.html")
+    monkeypatch.setattr(main_module, "append_history", lambda *args, **kwargs: None)
 
     brief = main_module.run_daily_brief(date(2026, 5, 22), only_news=True, no_llm=True)
     assert brief.date == date(2026, 5, 22)

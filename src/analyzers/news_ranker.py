@@ -2,7 +2,7 @@ from __future__ import annotations
 
 from datetime import datetime, timezone
 
-from src.analyzers.asset_impact_mapper import map_asset_impacts
+from src.analyzers.news_importance import rank_news_by_importance
 from src.models import NewsItem
 
 HIGH_FREQUENCY_KEYWORDS = [
@@ -63,6 +63,5 @@ def score_news_item(item: NewsItem, now: datetime | None = None) -> NewsItem:
 
 
 def rank_news(items: list[NewsItem], limit: int | None = None) -> list[NewsItem]:
-    mapped = map_asset_impacts(items)
-    ranked = sorted((score_news_item(item) for item in mapped), key=lambda x: x.relevance_score, reverse=True)
+    ranked = rank_news_by_importance(items)
     return ranked[:limit] if limit else ranked

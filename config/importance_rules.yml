@@ -1,0 +1,186 @@
+defaults:
+  max_tier3_in_top_news: 2
+  tier_score:
+    1: 100
+    2: 50
+    3: 10
+
+rules:
+  - event_type: macro_data
+    tier: 1
+    is_routine: false
+    is_market_moving: true
+    keywords:
+      - CPI
+      - PCE
+      - NFP
+      - payrolls
+      - unemployment
+      - GDP
+      - retail sales
+      - PMI
+      - ISM
+    regions: [US, global]
+    reason: 这类宏观数据会直接改变市场对通胀、增长和政策路径的预期。
+
+  - event_type: central_bank_decision
+    tier: 1
+    is_routine: false
+    is_market_moving: true
+    keywords:
+      - FOMC
+      - rate decision
+      - dot plot
+      - press conference
+      - rate cut
+      - rate hike
+      - QE
+      - QT
+      - balance sheet
+      - yield curve control
+      - reserve requirement
+      - RRR
+    regions: [US, EU, Japan, China, global]
+    reason: 央行决策会重定价利率、汇率、久期资产和风险资产。
+
+  - event_type: central_bank_speech
+    tier: 2
+    is_routine: false
+    is_market_moving: true
+    keywords:
+      - speech
+      - remarks
+      - testimony
+      - governor
+      - chair
+      - president
+      - hawkish
+      - dovish
+    regions: [US, EU, Japan, China, global]
+    reason: 央行官员表态可能影响市场对下一次会议的定价。
+
+  - event_type: fiscal_policy
+    tier: 1
+    is_routine: false
+    is_market_moving: true
+    keywords:
+      - stimulus
+      - tariff
+      - sanctions
+      - debt ceiling
+      - fiscal
+      - tax
+      - budget
+    regions: [US, China, EU, global]
+    reason: 财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。
+
+  - event_type: geopolitical_risk
+    tier: 1
+    is_routine: false
+    is_market_moving: true
+    keywords:
+      - war
+      - conflict
+      - Middle East
+      - sanctions
+      - attack
+      - escalation
+    regions: [global]
+    reason: 地缘风险可能推升避险需求、能源价格和市场波动率。
+
+  - event_type: commodity_supply
+    tier: 2
+    is_routine: false
+    is_market_moving: true
+    keywords:
+      - OPEC
+      - oil supply
+      - supply disruption
+      - crude
+      - inventories
+      - natural gas
+    regions: [global]
+    reason: 大宗商品供给变化会影响能源价格、通胀预期和资源股。
+
+  - event_type: crypto_market_structure
+    tier: 2
+    is_routine: false
+    is_market_moving: true
+    keywords:
+      - SEC crypto ETF
+      - spot ETF
+      - stablecoin bill
+      - stablecoin
+      - ETF approval
+      - custody
+    regions: [US, global]
+    reason: 加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。
+
+  - event_type: regulation
+    tier: 2
+    is_routine: false
+    is_market_moving: true
+    keywords:
+      - SEC
+      - CFTC
+      - regulation
+      - antitrust
+      - enforcement
+      - rulemaking
+    regions: [US, EU, China, global]
+    reason: 监管变化会改变行业盈利预期和资产风险溢价。
+
+  - event_type: earnings
+    tier: 2
+    is_routine: false
+    is_market_moving: true
+    keywords:
+      - earnings
+      - guidance
+      - AI capex
+      - Nvidia
+      - Microsoft
+      - Meta
+      - Google
+      - Amazon
+    regions: [US, global]
+    reason: 大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。
+
+  - event_type: financial_stability
+    tier: 1
+    is_routine: false
+    is_market_moving: true
+    keywords:
+      - liquidity
+      - bank stress
+      - credit spread
+      - default
+      - funding stress
+      - financial stability
+    regions: [global]
+    reason: 金融稳定信号可能放大跨资产波动，并影响央行反应函数。
+
+  - event_type: research_publication
+    tier: 3
+    is_routine: true
+    is_market_moving: false
+    keywords:
+      - research paper
+      - working paper
+      - staff paper
+      - discussion paper
+    regions: [global]
+    reason: 研究论文通常是背景材料，本身不一定代表即时政策变化。
+
+  - event_type: routine_announcement
+    tier: 3
+    is_routine: true
+    is_market_moving: false
+    keywords:
+      - statistics table
+      - accounts
+      - minutes archive
+      - routine enforcement action
+      - operational notice
+    regions: [global]
+    reason: 普通统计表、账户或例行公告通常不构成市场主线。

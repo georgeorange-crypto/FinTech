@@ -7,6 +7,8 @@ from datetime import date
 from bs4 import BeautifulSoup
 
 from src.analyzers.llm_summarizer import summarize_news
+from src.analyzers.market_narrative import build_market_narrative
+from src.analyzers.news_importance import background_materials, policy_watch, select_top_news
 from src.analyzers.news_ranker import rank_news
 from src.charts.chart_builder import build_charts
 from src.collectors.china_market_collector import collect_china_market_data
@@ -18,30 +20,38 @@ from src.collectors.sec_collector import collect_sec_filings
 from src.models import DailyBrief, MarketSnapshot, NewsItem
 from src.reports.html_report import render_html_report
 from src.reports.index_builder import build_index
-from src.reports.markdown_report import default_learning_notes, write_markdown_report
+from src.reports.markdown_report import dynamic_learning_notes, write_markdown_report
 from src.utils.config import load_yaml
+from src.utils.history import append_history
 from src.utils.json_io import write_json
 from src.utils.logging import configure_logging
 from src.utils.paths import CONFIG_DIR, INPUT_REPORTS_DIR, PROCESSED_DATA_DIR, dated_dir, ensure_dir
+from src.utils.timezones import parse_run_date
 
 LOGGER = logging.getLogger(__name__)
 POLICY_CATEGORIES = {"central_banks", "china_policy", "us_policy", "crypto_policy"}
-
-
-def parse_run_date(value: str | None) -> date:
-    if not value or value == "today":
-        return date.today()
-    return date.fromisoformat(value)
 
 
 def _json_models(items: list) -> list[dict]:
     return [item.model_dump(mode="json") if hasattr(item, "model_dump") else item for item in items]
 
 
-def _summary_from_news(news: list[NewsItem], snapshots: list[MarketSnapshot]) -> str:
+def _top_themes(news: list[NewsItem]) -> list[str]:
+    if not news:
+        return ["暂无足够新闻形成明确主线"]
+    themes = []
+    for item in news:
+        if item.importance_tier <= 2:
+            themes.append(f"{item.event_type}: {item.title}")
+        if len(themes) == 3:
+            break
+    return themes or [item.title for item in news[:3]]
+
+
+def _summary_from_news(news: list[NewsItem], snapshots: list[MarketSnapshot], regime_summary: str) -> str:
     if not news and not snapshots:
         return "今日暂无足够可靠数据生成完整总览；系统已保留合规免责声明并记录失败数据源。"
-    top_titles = "；".join(item.title for item in news[:3]) or "新闻数据有限"
+    top_titles = "；".join(item.human_importance_reason for item in news[:2]) or "新闻数据有限"
     risk_assets = [snapshot for snapshot in snapshots if snapshot.symbol in {"SPY", "QQQ", "^VIX", "TLT", "GC=F", "CL=F", "BTC", "ETH"}]
     market_line = "；".join(
         f"{snapshot.symbol} 1D {snapshot.one_day_return * 100:.2f}%"
@@ -50,7 +60,7 @@ def _summary_from_news(news: list[NewsItem], snapshots: list[MarketSnapshot]) ->
     )
     market_line = market_line or "核心资产行情数据有限"
     return (
-        f"今日晨报重点关注：{top_titles}。跨资产方面，{market_line}。"
+        f"今日晨报重点关注：{top_titles}。跨资产方面，{market_line}；{regime_summary}"
         "政策、通胀、利率、美元、美债、能源和加密监管仍是主要观察线索。"
         "所有结论仅基于公开数据与短摘要整理，不构成投资建议。"
     )
@@ -98,11 +108,18 @@ def _public_wall_street_views(news: list[NewsItem]) -> list[str]:
 
 def _calendar(sec_filings: list[dict[str, str]], fred_series: dict[str, list[dict[str, str]]]) -> list[str]:
     entries: list[str] = []
+    entries.append("经济数据：暂无可靠公开日历数据；如配置经济日历源后可自动填充。")
+    entries.append("央行讲话：暂无可靠公开日历数据；重点跟踪 Fed、ECB、BoJ、PBOC 官网 RSS。")
     if sec_filings:
-        entries.append(f"SEC filings watch: 最近 7 天发现 {len(sec_filings)} 条 watchlist 披露。")
+        entries.append(f"财报：SEC watchlist 最近 7 天发现 {len(sec_filings)} 条 10-K/10-Q/8-K/20-F/6-K 披露。")
+    else:
+        entries.append("财报：暂无可靠数据。")
     if fred_series:
-        entries.append(f"FRED macro watch: 已更新 {len(fred_series)} 个宏观序列。")
-    return entries or ["暂无可靠数据。"]
+        entries.append(f"政策事件：FRED macro watch 已更新 {len(fred_series)} 个宏观序列。")
+    else:
+        entries.append("政策事件：暂无可靠数据。")
+    entries.append("风险提醒：关注数据源失败项、突发地缘风险、利率和美元的二阶反应。")
+    return entries
 
 
 def run_daily_brief(
@@ -113,6 +130,7 @@ def run_daily_brief(
     only_news: bool = False,
 ) -> DailyBrief:
     assets = load_yaml(CONFIG_DIR / "assets.yml")
+    profile = load_yaml(CONFIG_DIR / "report_profile.yml")
     processed_dir = dated_dir(PROCESSED_DATA_DIR, run_date)
     warnings: list[str] = []
     frames = {}
@@ -155,17 +173,28 @@ def run_daily_brief(
         warnings.extend(sec_warnings)
 
     chart_paths = build_charts(frames, snapshots, run_date) if frames else {}
-    policy_watch = [item for item in news if item.category in POLICY_CATEGORIES]
+    market_narrative = build_market_narrative(snapshots)
+    top_news = select_top_news(
+        news,
+        limit=int(profile.get("top_news_limit", 10)),
+        max_tier3=int(profile.get("max_tier3_in_top_news", 2)),
+    )
+    policy_items = policy_watch(news)
+    background_items = background_materials(news)
+    top_themes = _top_themes(top_news)
     brief = DailyBrief(
         date=run_date,
-        executive_summary=_summary_from_news(news, snapshots),
+        executive_summary=_summary_from_news(top_news, snapshots, market_narrative.summary_cn),
         market_overview=snapshots,
-        top_news=news[:10],
-        policy_watch=policy_watch,
+        top_news=top_news,
+        policy_watch=policy_items,
+        background_materials=background_items if profile.get("include_background_materials", True) else [],
+        market_narrative=market_narrative,
+        top_themes=top_themes,
         asset_charts=chart_paths,
         wall_street_public_views=_public_wall_street_views(news),
         today_calendar=_calendar(sec_filings, fred_series),
-        learning_notes=default_learning_notes(),
+        learning_notes=dynamic_learning_notes(top_news),
         disclaimers=[
             "Not financial advice / 非投资建议。",
             "仅使用公开数据、公开 RSS 摘要和用户自有文件；不绕过任何付费墙。",
@@ -173,11 +202,15 @@ def run_daily_brief(
     )
 
     write_json(processed_dir / "news.json", _json_models(news))
+    write_json(processed_dir / "news_analysis.json", _json_models(news))
+    write_json(processed_dir / "events.json", _json_models(top_news + background_items))
+    write_json(processed_dir / "market_narrative.json", market_narrative.model_dump(mode="json"))
     write_json(processed_dir / "market_snapshots.json", _json_models(snapshots))
     write_json(processed_dir / "fred_series.json", fred_series)
     write_json(processed_dir / "sec_filings.json", sec_filings)
     write_json(processed_dir / "warnings.json", warnings)
     write_json(processed_dir / "daily_brief.json", brief.model_dump(mode="json"))
+    append_history(run_date.isoformat(), top_news + background_items, snapshots)
 
     markdown_path = write_markdown_report(brief, warnings)
     render_html_report(markdown_path)
