@@ -36,6 +36,7 @@ def test_build_index_exports_pages_ready_static_site(monkeypatch, tmp_path) -> N
     monkeypatch.setattr(index_builder, "CHARTS_DIR", charts_dir)
     monkeypatch.setattr(index_builder, "PROCESSED_DATA_DIR", processed_dir)
     monkeypatch.setattr(index_builder, "PUBLIC_DIR", public_dir)
+    monkeypatch.setattr(index_builder, "ROOT", tmp_path)
 
     output = index_builder.build_index()
     html = output.read_text(encoding="utf-8")
@@ -44,4 +45,5 @@ def test_build_index_exports_pages_ready_static_site(monkeypatch, tmp_path) -> N
     assert 'src="charts/2026-05-22/SPY.png"' in html
     assert (public_dir / "reports" / f"{date_text}.html").exists()
     assert (public_dir / "charts" / date_text / "SPY.png").exists()
+    assert (tmp_path / "index.html").exists()
     assert json.loads((public_dir / "metadata.json").read_text(encoding="utf-8"))["latest_report_href"] == "reports/2026-05-22.html"

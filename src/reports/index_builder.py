@@ -14,6 +14,7 @@ from src.utils.paths import (
     PROCESSED_DATA_DIR,
     PUBLIC_DIR,
     REPORTS_DIR,
+    ROOT,
     TEMPLATES_DIR,
     ensure_dir,
 )
@@ -109,8 +110,7 @@ def build_index(limit: int = 30) -> Path:
     metadata["latest_report_href"] = entries[0]["href"] if entries else ""
     write_json(PUBLIC_DIR / "metadata.json", metadata)
     output_path = PUBLIC_DIR / "index.html"
-    output_path.write_text(
-        template.render(entries=entries, metadata=metadata, latest_report_body=_latest_report_body(reports[0] if reports else None)),
-        encoding="utf-8",
-    )
+    html = template.render(entries=entries, metadata=metadata, latest_report_body=_latest_report_body(reports[0] if reports else None))
+    output_path.write_text(html, encoding="utf-8")
+    (ROOT / "index.html").write_text(html, encoding="utf-8")
     return output_path

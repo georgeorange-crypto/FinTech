@@ -9,8 +9,17 @@
 
 ## 最新报告首页
 
+GitHub Pages:
+
+```text
+https://georgeorange-crypto.github.io/FinTech/
+```
+
+如果 Pages 尚未启用，请按下方“GitHub Pages 设置”开启。启用后，这个链接会打开每日最新晨报首页。
+
 每天运行后，系统会自动生成：
 
+- `index.html`
 - `reports/YYYY-MM-DD.md`
 - `reports/YYYY-MM-DD.html`
 - `charts/YYYY-MM-DD/*.png`
@@ -21,6 +30,7 @@
 - `public/metadata.json`
 
 其中 `public/index.html` 会直接内嵌最新一天晨报正文，并展示 dashboard cards、市场状态和今日三大主线。  
+根目录 `index.html` 也会同步生成一份，方便仓库首页或其他静态托管方式直接使用。
 只要 GitHub Pages 指向 `/public`，打开 Pages 网址看到的就是每日最新晨报。
 
 ## GitHub Pages 设置
@@ -36,6 +46,12 @@
 - Folder: `/public`
 
 保存后，GitHub Pages 会把 `public/index.html` 作为站点首页。项目每日自动运行后，`public/index.html` 会被更新并提交，Pages 首页也会跟着更新。
+
+Pages 链接：
+
+```text
+https://georgeorange-crypto.github.io/FinTech/
+```
 
 ## 自动运行
 
