@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ title }}</title>
+  <style>
+    :root { color-scheme: light dark; --bg: #fafafa; --fg: #17202a; --muted: #596775; --card: #ffffff; --line: #d8dee6; --accent: #0f766e; }
+    @media (prefers-color-scheme: dark) { :root { --bg: #111315; --fg: #edf2f7; --muted: #a8b3bd; --card: #191d21; --line: #323a43; --accent: #5eead4; } }
+    body { margin: 0; background: var(--bg); color: var(--fg); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.65; }
+    main { max-width: 1080px; margin: 0 auto; padding: 32px 20px 64px; }
+    h1, h2, h3 { line-height: 1.25; }
+    h1 { font-size: 2rem; margin-bottom: 8px; }
+    h2 { border-top: 1px solid var(--line); padding-top: 24px; margin-top: 32px; }
+    a { color: var(--accent); }
+    blockquote { border-left: 4px solid var(--accent); color: var(--muted); margin: 16px 0; padding: 8px 16px; background: var(--card); }
+    table { border-collapse: collapse; width: 100%; font-size: 0.92rem; display: block; overflow-x: auto; }
+    th, td { border: 1px solid var(--line); padding: 7px 10px; white-space: nowrap; }
+    th { background: var(--card); }
+    img { max-width: 100%; height: auto; border: 1px solid var(--line); background: var(--card); }
+    code { background: var(--card); padding: 2px 4px; border-radius: 4px; }
+  </style>
+</head>
+<body>
+  <main>{{ body | safe }}</main>
+</body>
+</html>

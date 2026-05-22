@@ -1,0 +1,103 @@
+global_macro:
+  - name: IMF News
+    url: https://www.imf.org/en/News/RSS
+    region: global
+    category: global_macro
+    language: en
+    credibility_weight: 0.95
+  - name: World Bank News
+    url: https://www.worldbank.org/en/news/all?format=rss
+    region: global
+    category: global_macro
+    language: en
+    credibility_weight: 0.9
+central_banks:
+  - name: Federal Reserve Press Releases
+    url: https://www.federalreserve.gov/feeds/press_all.xml
+    region: US
+    category: central_banks
+    language: en
+    credibility_weight: 1.0
+  - name: ECB Press Releases
+    url: https://www.ecb.europa.eu/rss/press.html
+    region: EU
+    category: central_banks
+    language: en
+    credibility_weight: 1.0
+  - name: Bank of Japan Announcements
+    url: https://www.boj.or.jp/en/rss/whatsnew.xml
+    region: Japan
+    category: central_banks
+    language: en
+    credibility_weight: 1.0
+china_policy:
+  - name: PBOC News
+    url: http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/index.xml
+    region: China
+    category: china_policy
+    language: zh
+    credibility_weight: 1.0
+  - name: China State Council
+    url: https://english.www.gov.cn/rss/topnews.xml
+    region: China
+    category: china_policy
+    language: en
+    credibility_weight: 0.95
+us_policy:
+  - name: U.S. Treasury Press Releases
+    url: https://home.treasury.gov/news/press-releases/rss
+    region: US
+    category: us_policy
+    language: en
+    credibility_weight: 1.0
+  - name: White House Briefing Room
+    url: https://www.whitehouse.gov/briefing-room/feed/
+    region: US
+    category: us_policy
+    language: en
+    credibility_weight: 0.9
+crypto_policy:
+  - name: SEC Press Releases
+    url: https://www.sec.gov/news/pressreleases.rss
+    region: US
+    category: crypto_policy
+    language: en
+    credibility_weight: 0.95
+  - name: CFTC Press Room
+    url: https://www.cftc.gov/PressRoom/PressReleases/rss.xml
+    region: US
+    category: crypto_policy
+    language: en
+    credibility_weight: 0.9
+wall_street_public:
+  - name: Goldman Sachs Insights
+    url: https://www.goldmansachs.com/insights/rss.xml
+    region: global
+    category: wall_street_public
+    language: en
+    credibility_weight: 0.85
+  - name: Morgan Stanley Ideas
+    url: https://www.morganstanley.com/ideas/rss.xml
+    region: global
+    category: wall_street_public
+    language: en
+    credibility_weight: 0.85
+financial_media_public:
+  - name: CNBC Economy
+    url: https://www.cnbc.com/id/10000664/device/rss/rss.html
+    region: US
+    category: financial_media_public
+    language: en
+    credibility_weight: 0.75
+  - name: MarketWatch Top Stories
+    url: https://feeds.content.dowjones.io/public/rss/mw_topstories
+    region: US
+    category: financial_media_public
+    language: en
+    credibility_weight: 0.7
+  - name: CoinDesk
+    url: https://www.coindesk.com/arc/outboundfeeds/rss/
+    region: global
+    category: financial_media_public
+    language: en
+    credibility_weight: 0.7

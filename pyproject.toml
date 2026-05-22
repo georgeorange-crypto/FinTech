@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "global-macro-morning-brief"
+version = "0.1.0"
+description = "Daily global macro and cross-asset morning brief generator."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "beautifulsoup4>=4.12.0",
+  "feedparser>=6.0.11",
+  "jinja2>=3.1.0",
+  "markdown>=3.5.0",
+  "matplotlib>=3.8.0",
+  "numpy>=1.26.0",
+  "pandas>=2.1.0",
+  "pydantic>=2.5.0",
+  "pypdf>=4.0.0",
+  "pyyaml>=6.0.1",
+  "requests>=2.31.0",
+  "yfinance>=0.2.36",
+  "akshare>=1.12.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0.0", "ruff>=0.4.0"]
+
+[tool.setuptools]
+packages = ["src", "src.models", "src.collectors", "src.analyzers", "src.charts", "src.reports", "src.utils"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+ignore = ["E501", "UP017"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
