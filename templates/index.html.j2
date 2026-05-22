@@ -7,8 +7,8 @@
   <style>
     :root { color-scheme: light dark; --bg: #f6f8fa; --fg: #17202a; --muted: #5b6773; --panel: #fff; --line: #d5dde5; --accent: #0f766e; --soft: #eef7f5; }
     @media (prefers-color-scheme: dark) { :root { --bg: #101214; --fg: #edf2f7; --muted: #a7b0ba; --panel: #181c20; --line: #303840; --accent: #5eead4; --soft: #14221f; } }
-    body { margin: 0; background: var(--bg); color: var(--fg); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
-    .layout { display: grid; grid-template-columns: 270px 1fr; min-height: 100vh; }
+    body { margin: 0; background: var(--bg); color: var(--fg); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.65; }
+    .layout { display: grid; grid-template-columns: 270px minmax(0, 1fr); min-height: 100vh; }
     aside { border-right: 1px solid var(--line); background: var(--panel); padding: 24px 18px; position: sticky; top: 0; height: 100vh; overflow: auto; }
     main { padding: 24px; overflow-x: hidden; }
     h1 { font-size: 1.2rem; margin: 0 0 18px; }
@@ -26,10 +26,18 @@
     .card .value { font-size: 1.15rem; font-weight: 700; margin-top: 4px; }
     .themes { border: 1px solid var(--line); background: var(--soft); padding: 14px 18px; border-radius: 8px; }
     .themes ol { margin: 8px 0 0 20px; padding: 0; }
-    iframe { width: 100%; min-height: calc(100vh - 280px); border: 1px solid var(--line); background: var(--panel); border-radius: 8px; }
+    .report-shell { border: 1px solid var(--line); background: var(--panel); border-radius: 8px; padding: 28px; }
+    .report-shell h1 { font-size: 2rem; }
+    .report-shell h2 { border-top: 1px solid var(--line); padding-top: 24px; margin-top: 32px; font-size: 1.45rem; }
+    .report-shell h3 { font-size: 1.1rem; }
+    .report-shell table { border-collapse: collapse; width: 100%; font-size: 0.92rem; display: block; overflow-x: auto; }
+    .report-shell th, .report-shell td { border: 1px solid var(--line); padding: 7px 10px; white-space: nowrap; }
+    .report-shell th { background: var(--bg); }
+    .report-shell img { max-width: 100%; height: auto; border: 1px solid var(--line); background: var(--panel); }
+    .report-shell blockquote { border-left: 4px solid var(--accent); color: var(--muted); margin: 16px 0; padding: 8px 16px; background: var(--bg); }
     .empty { color: var(--muted); padding: 32px; }
     @media (max-width: 1100px) { .cards { grid-template-columns: repeat(3, minmax(120px, 1fr)); } }
-    @media (max-width: 800px) { .layout { grid-template-columns: 1fr; } aside { position: static; height: auto; border-right: 0; border-bottom: 1px solid var(--line); } main { padding: 16px; } .cards { grid-template-columns: repeat(2, minmax(120px, 1fr)); } }
+    @media (max-width: 800px) { .layout { grid-template-columns: 1fr; } aside { position: static; height: auto; border-right: 0; border-bottom: 1px solid var(--line); } main { padding: 16px; } .cards { grid-template-columns: repeat(2, minmax(120px, 1fr)); } .report-shell { padding: 18px; } }
   </style>
 </head>
 <body>
@@ -38,7 +46,7 @@
       <h1>Morning Briefs</h1>
       <nav class="links">
         {% for entry in entries %}
-          <a href="{{ entry.href }}" target="brief-frame">{{ entry.date }}</a>
+          <a href="{{ entry.href }}">{{ entry.date }}</a>
         {% endfor %}
       </nav>
     </aside>
@@ -65,7 +73,9 @@
             </ol>
           </div>
         </section>
-        <iframe name="brief-frame" src="{{ entries[0].href }}" title="Latest brief"></iframe>
+        <article class="report-shell">
+          {{ latest_report_body | safe }}
+        </article>
       {% else %}
         <div class="empty">No reports yet. Run <code>python -m src.main</code> to generate one.</div>
       {% endif %}

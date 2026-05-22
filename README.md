@@ -1,66 +1,135 @@
-# global-macro-morning-brief
+# Global Macro Morning Brief
 
-每天早上自动生成的全球经济与跨资产市场晨报系统。项目从一个能产出报告的 MVP，升级为偏 **Research Radar** 的宏观与跨资产信息雷达：它会采集公开 RSS、主要资产行情、加密资产、A 股指数、FRED 宏观指标、SEC 披露和用户自有研报文件，并生成 Markdown、HTML、PNG 图表、结构化事件数据库和静态首页 dashboard。
+一个每天早上自动更新的全球宏观与跨资产市场晨报系统。
 
-> Not financial advice / 非投资建议。本项目仅供个人学习、研究与信息整理，不做自动交易，不构成投资建议。
+项目会采集公开 RSS、主要市场行情、加密资产、港股、A 股指数、FRED、SEC 披露和用户自有研报文件，生成结构化数据、Markdown/HTML 报告、图表，并自动导出 GitHub Pages 可直接打开的 `public/index.html`。
 
-## 截图区域
+> Not financial advice / 非投资建议。  
+> 本项目仅用于个人学习、研究和信息整理，不提供投资建议，不做自动交易，不绕过任何付费墙。
 
-生成报告后，可打开 `public/index.html` 查看 dashboard、最近 30 天报告列表和最新晨报。截图可放在 `docs/screenshots/`，再在这里替换为真实图片。
+## 最新报告首页
 
-## 功能列表
+每天运行后，系统会自动生成：
 
-- 公开 RSS 新闻采集、去重、关键词过滤、事件分类和重要性分桶
-- 美股 ETF、港股、美元、美债、VIX、商品行情采集
-- CoinGecko 加密资产行情采集，支持无 API key 模式
-- AKShare A 股指数采集，失败时不影响主流程
-- FRED 宏观指标采集，需要 `FRED_API_KEY`
-- SEC watchlist 披露追踪，需要合规 `SEC_USER_AGENT`
+- `reports/YYYY-MM-DD.md`
+- `reports/YYYY-MM-DD.html`
+- `charts/YYYY-MM-DD/*.png`
+- `data/processed/YYYY-MM-DD/*.json`
+- `public/index.html`
+- `public/reports/YYYY-MM-DD.html`
+- `public/charts/YYYY-MM-DD/*.png`
+- `public/metadata.json`
+
+其中 `public/index.html` 会直接内嵌最新一天晨报正文，并展示 dashboard cards、市场状态和今日三大主线。  
+只要 GitHub Pages 指向 `/public`，打开 Pages 网址看到的就是每日最新晨报。
+
+## GitHub Pages 设置
+
+在 GitHub 仓库中进入：
+
+`Settings -> Pages`
+
+选择：
+
+- Source: `Deploy from a branch`
+- Branch: `main`
+- Folder: `/public`
+
+保存后，GitHub Pages 会把 `public/index.html` 作为站点首页。项目每日自动运行后，`public/index.html` 会被更新并提交，Pages 首页也会跟着更新。
+
+## 自动运行
+
+工作流文件：
+
+```text
+.github/workflows/daily-brief.yml
+```
+
+触发方式：
+
+- 每天 Asia/Taipei 06:00 自动运行
+- 支持 `workflow_dispatch` 手动运行
+- 推送核心代码或配置时自动运行
+
+GitHub Actions 的 cron 使用 UTC，因此配置为：
+
+```yaml
+cron: "0 22 * * *"
+```
+
+这等价于 Asia/Taipei 每天 06:00。
+
+## 功能概览
+
+- 公开 RSS 新闻采集、去重、关键词过滤
+- 新闻事件分类：宏观数据、央行决策、央行讲话、财政政策、监管、地缘风险、财报、商品供给、加密市场结构、金融稳定、研究论文、普通公告等
+- 新闻重要性分桶：Tier 1 / Tier 2 / Tier 3
+- Top 10 新闻限制低价值背景材料数量，避免普通研究论文挤占头条
+- 为每条重要新闻生成自然语言“为什么重要”
+- 为新闻生成逐资产影响解释：资产、资产类别、方向、强度、原因
+- 采集 Yahoo Finance、CoinGecko、AKShare、FRED、SEC 数据
 - 计算 1D、5D、1M、YTD、20D 波动率、MA20、MA60、RSI14 和趋势标签
-- 生成跨资产市场状态：risk_on、risk_off、rates_shock、inflation_shock、dollar_liquidity_tightening、crypto_specific、mixed、unknown
-- 为新闻生成自然语言“为什么重要”和逐资产影响解释
-- 生成 `reports/YYYY-MM-DD.md`、`reports/YYYY-MM-DD.html`、`public/index.html`、`public/metadata.json`
-- 生成结构化文件：`events.json`、`news_analysis.json`、`market_narrative.json`
-- 追加历史库：`data/history/events.jsonl`、`data/history/market_snapshots.jsonl`
-- GitHub Actions 每天 Asia/Taipei 06:00 自动运行，并支持手动触发
+- 识别跨资产市场状态：`risk_on`、`risk_off`、`rates_shock`、`inflation_shock`、`dollar_liquidity_tightening`、`crypto_specific`、`mixed`、`unknown`
+- 生成 PNG 图表和资产组 summary chart
+- 生成结构化事件数据库和历史 JSONL
+- 导出 GitHub Pages 可用静态站点
 
-## 数据源与合规
+## 目录结构
 
-配置位于 `config/`：
+```text
+config/                  配置文件
+src/                     核心代码
+  collectors/            数据采集
+  analyzers/             新闻、资产影响、市场状态分析
+  charts/                图表生成
+  reports/               Markdown/HTML/Public 首页生成
+  models/                Pydantic 数据结构
+  utils/                 工具函数
+reports/                 每日 Markdown 和 HTML 报告
+charts/                  每日图表
+data/processed/          每日结构化数据
+data/history/            事件和行情历史 JSONL
+public/                  GitHub Pages 静态站点输出
+tests/                   pytest 测试
+```
 
-- `config/rss_feeds.yml`：公开 RSS 源
-- `config/assets.yml`：资产分组
-- `config/macro_series.yml`：FRED 宏观序列
-- `config/watchlist_cik.yml`：SEC 公司 watchlist
-- `config/importance_rules.yml`：事件分类、tier 和 routine 规则
-- `config/asset_impact_rules.yml`：资产影响方向、强度和解释
-- `config/report_profile.yml`：晨报偏好
+## 配置文件
 
-项目不会绕过 WSJ、Bloomberg、FT、Reuters 等付费墙。对付费媒体或机构内容，只使用公开 RSS 中的标题、摘要、链接和发布时间。用户自有研报应放入 `inputs/reports/`，系统只读取用户已授权的本地文件。
+核心配置都在 `config/`：
 
-## 新闻重要性排序逻辑
+- `assets.yml`：资产分组
+- `rss_feeds.yml`：公开 RSS 源
+- `macro_series.yml`：FRED 宏观序列
+- `watchlist_cik.yml`：SEC watchlist
+- `importance_rules.yml`：事件分类、tier、routine 规则
+- `asset_impact_rules.yml`：资产影响方向、强度和原因
+- `report_profile.yml`：晨报偏好
 
-新闻先进入事件分类器，再进行分桶排序：
+示例 `report_profile.yml`：
 
-- Tier 1：重大宏观、央行决策、财政政策、地缘风险、金融稳定事件
-- Tier 2：重要但非系统性事件，例如央行讲话、监管变化、OPEC、AI capex、加密市场结构
-- Tier 3：背景材料、研究论文、统计表、普通公告
-
-`credibility_weight` 只代表来源可靠性，不再直接等于新闻重要性。央行 RSS 中的 research paper、working paper、statistics table、accounts 默认降为 Tier 3，除非标题或摘要同时涉及重大市场主题。Top 10 会优先选择 Tier 1 和 Tier 2，Tier 3 默认最多进入 2 条。
-
-## 市场状态 Regime
-
-`src/analyzers/market_narrative.py` 会读取 `MarketSnapshot` 并生成：
-
-- `risk_on`：SPY/QQQ 上涨，VIX 或美元回落，或长债走强
-- `risk_off`：SPY/QQQ 下跌，VIX 上涨，长债或黄金走强
-- `rates_shock`：TLT 下跌、DXY 上涨、QQQ 下跌
-- `dollar_liquidity_tightening`：美元走强并压制风险资产
-- `inflation_shock`：原油和黄金上涨、股指下跌
-- `crypto_specific`：BTC/ETH 明显上涨但美股平淡
-- `mixed`：信号冲突
-
-报告会展示市场状态、关键异动、矛盾信号和风险观察。
+```yaml
+language: zh
+top_news_limit: 10
+include_background_materials: true
+max_tier3_in_top_news: 2
+focus_regions:
+  - US
+  - China
+  - Hong Kong
+  - EU
+  - Japan
+focus_assets:
+  - SPY
+  - QQQ
+  - TLT
+  - DXY
+  - GC=F
+  - CL=F
+  - BTC
+  - ETH
+  - ^HSI
+  - 沪深300
+```
 
 ## 本地运行
 
@@ -71,7 +140,7 @@ pip install -r requirements.txt
 python -m src.main --date today --no-llm
 ```
 
-常用 CLI：
+常用命令：
 
 ```bash
 python -m src.main --date today
@@ -82,50 +151,11 @@ python -m src.main --only-news
 python -m src.main --build-index
 ```
 
-`today` 默认使用 Asia/Taipei 日期，避免 GitHub runner 的 UTC 日期影响晨报归档。
+`today` 默认使用 Asia/Taipei 日期，避免 GitHub runner 的 UTC 日期导致晨报日期偏差。
 
-## 自定义 report_profile.yml
+## Secrets
 
-编辑 `config/report_profile.yml`：
-
-```yaml
-language: zh
-top_news_limit: 10
-include_background_materials: true
-max_tier3_in_top_news: 2
-focus_regions:
-  - US
-  - China
-focus_assets:
-  - SPY
-  - QQQ
-  - TLT
-  - BTC
-```
-
-## GitHub Actions 配置
-
-工作流文件在 `.github/workflows/daily-brief.yml`。GitHub Actions 的 cron 使用 UTC，不支持 `timezone` 字段，所以配置为：
-
-```yaml
-cron: "0 22 * * *"
-```
-
-这等价于 Asia/Taipei 每天 06:00。也可以在 Actions 页面使用 `workflow_dispatch` 手动运行。
-
-## GitHub Pages 发布
-
-在仓库 `Settings -> Pages` 中选择：
-
-- Source: Deploy from a branch
-- Branch: `main`
-- Folder: `/public`
-
-启用后，`public/index.html` 会作为静态首页展示 dashboard 和最新晨报入口。
-
-## Secrets 配置
-
-在 GitHub 仓库 `Settings -> Secrets and variables -> Actions` 中按需添加：
+在 `Settings -> Secrets and variables -> Actions` 中按需配置：
 
 - `FRED_API_KEY`
 - `COINGECKO_API_KEY`
@@ -134,37 +164,33 @@ cron: "0 22 * * *"
 - `LLM_API_KEY`
 - `SEC_USER_AGENT`
 
-本地可复制 `.env.example`，但不要提交 `.env`。
+没有这些 key 时，相关模块会跳过或降级，不会中断主流程。
 
-## 添加新的 RSS 源
+## 数据合规
 
-编辑 `config/rss_feeds.yml`，在对应分类下添加：
+- 不绕过 WSJ、Bloomberg、FT、Reuters 等付费墙
+- 对付费媒体只使用公开 RSS 标题、摘要、链接和发布时间
+- 不复制长篇原文
+- 用户自有研报可放入 `inputs/reports/`
+- 所有输出必须标注 `Not financial advice / 非投资建议`
+- 本项目不做自动交易
 
-```yaml
-- name: Example Source
-  url: https://example.com/rss
-  region: US
-  category: global_macro
-  language: en
-  credibility_weight: 0.8
-```
-
-## 添加新的资产
-
-编辑 `config/assets.yml`。Yahoo Finance 支持的资产可直接加入对应组；CoinGecko 使用 coin id；A 股指数需要在 `src/collectors/china_market_collector.py` 的 `INDEX_CODE_MAP` 中维护代码映射。
-
-## 添加自己的研报 PDF/Markdown/HTML
-
-把自有或已授权文件放入 `inputs/reports/`。系统会读取 Markdown、TXT、HTML 和 PDF 的前几页文本，并在“华尔街与机构公开观点”中做短摘录。不会抓取未授权内容。
-
-## 开发与质量检查
+## 开发检查
 
 ```bash
 pytest
 ruff check .
+python -m src.main --date today --no-llm
+python -m src.main --build-index
 ```
 
-所有网络请求都设置了 timeout、retry 或异常处理；数据源失败会写入 `data/processed/YYYY-MM-DD/warnings.json`，不会中断整个晨报生成。
+外部数据源失败会写入：
+
+```text
+data/processed/YYYY-MM-DD/warnings.json
+```
+
+不会导致整个晨报失败。
 
 ## Roadmap
 
