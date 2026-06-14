@@ -3,140 +3,26 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Global Macro Morning Brief</title>
+  <title>2026-06-15</title>
   <style>
-    :root { color-scheme: light dark; --bg: #f6f8fa; --fg: #17202a; --muted: #5b6773; --panel: #fff; --line: #d5dde5; --accent: #0f766e; --soft: #eef7f5; }
-    @media (prefers-color-scheme: dark) { :root { --bg: #101214; --fg: #edf2f7; --muted: #a7b0ba; --panel: #181c20; --line: #303840; --accent: #5eead4; --soft: #14221f; } }
+    :root { color-scheme: light dark; --bg: #fafafa; --fg: #17202a; --muted: #596775; --card: #ffffff; --line: #d8dee6; --accent: #0f766e; }
+    @media (prefers-color-scheme: dark) { :root { --bg: #111315; --fg: #edf2f7; --muted: #a8b3bd; --card: #191d21; --line: #323a43; --accent: #5eead4; } }
     body { margin: 0; background: var(--bg); color: var(--fg); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.65; }
-    .layout { display: grid; grid-template-columns: 270px minmax(0, 1fr); min-height: 100vh; }
-    aside { border-right: 1px solid var(--line); background: var(--panel); padding: 24px 18px; position: sticky; top: 0; height: 100vh; overflow: auto; }
-    main { padding: 24px; overflow-x: hidden; }
-    h1 { font-size: 1.2rem; margin: 0 0 18px; }
-    h2 { font-size: 1.05rem; margin: 0 0 12px; }
-    a { color: var(--accent); text-decoration: none; }
-    .links { display: grid; gap: 8px; }
-    .links a { padding: 8px 10px; border: 1px solid var(--line); background: var(--bg); border-radius: 6px; }
-    .dashboard { display: grid; gap: 16px; margin-bottom: 18px; }
-    .summary { border: 1px solid var(--line); background: var(--panel); padding: 18px; border-radius: 8px; }
-    .meta { color: var(--muted); font-size: 0.9rem; margin-bottom: 8px; }
-    .regime { color: var(--accent); font-weight: 700; }
-    .cards { display: grid; grid-template-columns: repeat(7, minmax(110px, 1fr)); gap: 10px; }
-    .card { border: 1px solid var(--line); background: var(--panel); padding: 12px; border-radius: 8px; }
-    .card .label { color: var(--muted); font-size: 0.84rem; }
-    .card .value { font-size: 1.15rem; font-weight: 700; margin-top: 4px; }
-    .themes { border: 1px solid var(--line); background: var(--soft); padding: 14px 18px; border-radius: 8px; }
-    .themes ol { margin: 8px 0 0 20px; padding: 0; }
-    .report-shell { border: 1px solid var(--line); background: var(--panel); border-radius: 8px; padding: 28px; }
-    .report-shell h1 { font-size: 2rem; }
-    .report-shell h2 { border-top: 1px solid var(--line); padding-top: 24px; margin-top: 32px; font-size: 1.45rem; }
-    .report-shell h3 { font-size: 1.1rem; }
-    .report-shell table { border-collapse: collapse; width: 100%; font-size: 0.92rem; display: block; overflow-x: auto; }
-    .report-shell th, .report-shell td { border: 1px solid var(--line); padding: 7px 10px; white-space: nowrap; }
-    .report-shell th { background: var(--bg); }
-    .report-shell img { max-width: 100%; height: auto; border: 1px solid var(--line); background: var(--panel); }
-    .report-shell blockquote { border-left: 4px solid var(--accent); color: var(--muted); margin: 16px 0; padding: 8px 16px; background: var(--bg); }
-    .empty { color: var(--muted); padding: 32px; }
-    @media (max-width: 1100px) { .cards { grid-template-columns: repeat(3, minmax(120px, 1fr)); } }
-    @media (max-width: 800px) { .layout { grid-template-columns: 1fr; } aside { position: static; height: auto; border-right: 0; border-bottom: 1px solid var(--line); } main { padding: 16px; } .cards { grid-template-columns: repeat(2, minmax(120px, 1fr)); } .report-shell { padding: 18px; } }
+    main { max-width: 1080px; margin: 0 auto; padding: 32px 20px 64px; }
+    h1, h2, h3 { line-height: 1.25; }
+    h1 { font-size: 2rem; margin-bottom: 8px; }
+    h2 { border-top: 1px solid var(--line); padding-top: 24px; margin-top: 32px; }
+    a { color: var(--accent); }
+    blockquote { border-left: 4px solid var(--accent); color: var(--muted); margin: 16px 0; padding: 8px 16px; background: var(--card); }
+    table { border-collapse: collapse; width: 100%; font-size: 0.92rem; display: block; overflow-x: auto; }
+    th, td { border: 1px solid var(--line); padding: 7px 10px; white-space: nowrap; }
+    th { background: var(--card); }
+    img { max-width: 100%; height: auto; border: 1px solid var(--line); background: var(--card); }
+    code { background: var(--card); padding: 2px 4px; border-radius: 4px; }
   </style>
 </head>
 <body>
-  <div class="layout">
-    <aside>
-      <h1>Morning Briefs</h1>
-      <nav class="links">
-        
-          <a href="reports/2026-06-15.html">2026-06-15</a>
-        
-          <a href="reports/2026-06-14.html">2026-06-14</a>
-        
-          <a href="reports/2026-06-13.html">2026-06-13</a>
-        
-          <a href="reports/2026-06-12.html">2026-06-12</a>
-        
-          <a href="reports/2026-06-11.html">2026-06-11</a>
-        
-          <a href="reports/2026-06-10.html">2026-06-10</a>
-        
-          <a href="reports/2026-06-09.html">2026-06-09</a>
-        
-          <a href="reports/2026-06-08.html">2026-06-08</a>
-        
-          <a href="reports/2026-06-07.html">2026-06-07</a>
-        
-          <a href="reports/2026-06-06.html">2026-06-06</a>
-        
-          <a href="reports/2026-06-05.html">2026-06-05</a>
-        
-          <a href="reports/2026-06-04.html">2026-06-04</a>
-        
-          <a href="reports/2026-06-03.html">2026-06-03</a>
-        
-          <a href="reports/2026-06-02.html">2026-06-02</a>
-        
-          <a href="reports/2026-06-01.html">2026-06-01</a>
-        
-          <a href="reports/2026-05-31.html">2026-05-31</a>
-        
-          <a href="reports/2026-05-30.html">2026-05-30</a>
-        
-          <a href="reports/2026-05-29.html">2026-05-29</a>
-        
-          <a href="reports/2026-05-28.html">2026-05-28</a>
-        
-          <a href="reports/2026-05-27.html">2026-05-27</a>
-        
-          <a href="reports/2026-05-26.html">2026-05-26</a>
-        
-          <a href="reports/2026-05-25.html">2026-05-25</a>
-        
-          <a href="reports/2026-05-24.html">2026-05-24</a>
-        
-          <a href="reports/2026-05-23.html">2026-05-23</a>
-        
-          <a href="reports/2026-05-22.html">2026-05-22</a>
-        
-      </nav>
-    </aside>
-    <main>
-      
-        <section class="dashboard">
-          <div class="summary">
-            <div class="meta">Latest: 2026-06-15</div>
-            <h2>市场状态：<span class="regime">risk_on</span></h2>
-            <div>股指上涨、波动率或美元回落，市场更接近风险偏好改善。</div>
-          </div>
-          <div class="cards">
-            <div class="card"><div class="label">最新日期</div><div class="value">2026-06-15</div></div>
-            
-              <div class="card"><div class="label">美股 SPY 1D</div><div class="value">0.54%</div></div>
-            
-              <div class="card"><div class="label">QQQ 1D</div><div class="value">0.59%</div></div>
-            
-              <div class="card"><div class="label">VIX 1D</div><div class="value">-9.05%</div></div>
-            
-              <div class="card"><div class="label">BTC 1D</div><div class="value">2.78%</div></div>
-            
-              <div class="card"><div class="label">Gold 1D</div><div class="value">2.30%</div></div>
-            
-              <div class="card"><div class="label">Oil 1D</div><div class="value">-4.23%</div></div>
-            
-          </div>
-          <div class="themes">
-            <h2>今日三大主线</h2>
-            <ol>
-              
-                <li>central_bank_decision: Will the real Kevin Warsh please stand up? Ahead of his first Fed meeting, economists honestly don’t know what to expect.</li>
-              
-                <li>financial_stability: Aerodrome is turning liquidity into a prediction market with its biggest upgrade yet</li>
-              
-                <li>regulation: SEC's big swing to clear tokenization path isn't likely to get resilience of full rule</li>
-              
-            </ol>
-          </div>
-        </section>
-        <article class="report-shell">
-          <h1 id="global-macro-morning-briefing-2026-06-15">Global Macro Morning Briefing - 2026-06-15</h1>
+  <main><h1 id="global-macro-morning-briefing-2026-06-15">Global Macro Morning Briefing - 2026-06-15</h1>
 <blockquote>
 <p>Not financial advice / 非投资建议。</p>
 </blockquote>
@@ -661,23 +547,23 @@
 <li>ETH 上涨 3.23%</li>
 </ul>
 <h3 id="spy">SPY</h3>
-<p><img alt="SPY" src="charts/2026-06-15/SPY.png"/></p>
+<p><img alt="SPY" src="../charts/2026-06-15/SPY.png" /></p>
 <h3 id="qqq">QQQ</h3>
-<p><img alt="QQQ" src="charts/2026-06-15/QQQ.png"/></p>
+<p><img alt="QQQ" src="../charts/2026-06-15/QQQ.png" /></p>
 <h3 id="vix">^VIX</h3>
-<p><img alt="^VIX" src="charts/2026-06-15/VIX.png"/></p>
+<p><img alt="^VIX" src="../charts/2026-06-15/VIX.png" /></p>
 <h3 id="tlt">TLT</h3>
-<p><img alt="TLT" src="charts/2026-06-15/TLT.png"/></p>
+<p><img alt="TLT" src="../charts/2026-06-15/TLT.png" /></p>
 <h3 id="gcf">GC=F</h3>
-<p><img alt="GC=F" src="charts/2026-06-15/GC_F.png"/></p>
+<p><img alt="GC=F" src="../charts/2026-06-15/GC_F.png" /></p>
 <h3 id="clf">CL=F</h3>
-<p><img alt="CL=F" src="charts/2026-06-15/CL_F.png"/></p>
+<p><img alt="CL=F" src="../charts/2026-06-15/CL_F.png" /></p>
 <h3 id="btc">BTC</h3>
-<p><img alt="BTC" src="charts/2026-06-15/BTC.png"/></p>
+<p><img alt="BTC" src="../charts/2026-06-15/BTC.png" /></p>
 <h3 id="eth">ETH</h3>
-<p><img alt="ETH" src="charts/2026-06-15/ETH.png"/></p>
+<p><img alt="ETH" src="../charts/2026-06-15/ETH.png" /></p>
 <h3 id="hsi">^HSI</h3>
-<p><img alt="^HSI" src="charts/2026-06-15/HSI.png"/></p>
+<p><img alt="^HSI" src="../charts/2026-06-15/HSI.png" /></p>
 <h2 id="5">5. 华尔街与机构公开观点</h2>
 <ul>
 <li>暂无可靠公开观点。</li>
@@ -733,10 +619,6 @@
 <li>SEC failed cik=0001045810</li>
 <li>SEC failed cik=0001318605</li>
 <li>SEC failed cik=0001577552</li>
-</ul>
-        </article>
-      
-    </main>
-  </div>
+</ul></main>
 </body>
 </html>
