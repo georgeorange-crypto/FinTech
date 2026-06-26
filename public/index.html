@@ -3,138 +3,485 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Global Macro Morning Brief</title>
+  <title>FinTech Macro Radar - 2026-06-26</title>
   <style>
-    :root { color-scheme: light dark; --bg: #f6f8fa; --fg: #17202a; --muted: #5b6773; --panel: #fff; --line: #d5dde5; --accent: #0f766e; --soft: #eef7f5; }
-    @media (prefers-color-scheme: dark) { :root { --bg: #101214; --fg: #edf2f7; --muted: #a7b0ba; --panel: #181c20; --line: #303840; --accent: #5eead4; --soft: #14221f; } }
-    body { margin: 0; background: var(--bg); color: var(--fg); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.65; }
-    .layout { display: grid; grid-template-columns: 270px minmax(0, 1fr); min-height: 100vh; }
-    aside { border-right: 1px solid var(--line); background: var(--panel); padding: 24px 18px; position: sticky; top: 0; height: 100vh; overflow: auto; }
-    main { padding: 24px; overflow-x: hidden; }
-    h1 { font-size: 1.2rem; margin: 0 0 18px; }
-    h2 { font-size: 1.05rem; margin: 0 0 12px; }
-    a { color: var(--accent); text-decoration: none; }
-    .links { display: grid; gap: 8px; }
-    .links a { padding: 8px 10px; border: 1px solid var(--line); background: var(--bg); border-radius: 6px; }
-    .dashboard { display: grid; gap: 16px; margin-bottom: 18px; }
-    .summary { border: 1px solid var(--line); background: var(--panel); padding: 18px; border-radius: 8px; }
-    .meta { color: var(--muted); font-size: 0.9rem; margin-bottom: 8px; }
-    .regime { color: var(--accent); font-weight: 700; }
-    .cards { display: grid; grid-template-columns: repeat(7, minmax(110px, 1fr)); gap: 10px; }
-    .card { border: 1px solid var(--line); background: var(--panel); padding: 12px; border-radius: 8px; }
-    .card .label { color: var(--muted); font-size: 0.84rem; }
-    .card .value { font-size: 1.15rem; font-weight: 700; margin-top: 4px; }
-    .themes { border: 1px solid var(--line); background: var(--soft); padding: 14px 18px; border-radius: 8px; }
-    .themes ol { margin: 8px 0 0 20px; padding: 0; }
-    .report-shell { border: 1px solid var(--line); background: var(--panel); border-radius: 8px; padding: 28px; }
-    .report-shell h1 { font-size: 2rem; }
-    .report-shell h2 { border-top: 1px solid var(--line); padding-top: 24px; margin-top: 32px; font-size: 1.45rem; }
-    .report-shell h3 { font-size: 1.1rem; }
-    .report-shell table { border-collapse: collapse; width: 100%; font-size: 0.92rem; display: block; overflow-x: auto; }
-    .report-shell th, .report-shell td { border: 1px solid var(--line); padding: 7px 10px; white-space: nowrap; }
-    .report-shell th { background: var(--bg); }
-    .report-shell img { max-width: 100%; height: auto; border: 1px solid var(--line); background: var(--panel); }
-    .report-shell blockquote { border-left: 4px solid var(--accent); color: var(--muted); margin: 16px 0; padding: 8px 16px; background: var(--bg); }
-    .empty { color: var(--muted); padding: 32px; }
-    @media (max-width: 1100px) { .cards { grid-template-columns: repeat(3, minmax(120px, 1fr)); } }
-    @media (max-width: 800px) { .layout { grid-template-columns: 1fr; } aside { position: static; height: auto; border-right: 0; border-bottom: 1px solid var(--line); } main { padding: 16px; } .cards { grid-template-columns: repeat(2, minmax(120px, 1fr)); } .report-shell { padding: 18px; } }
+    :root {
+      color-scheme: light;
+      --bg: #f8fafd;
+      --surface: #ffffff;
+      --surface-soft: #f1f5ff;
+      --text: #202124;
+      --muted: #5f6368;
+      --line: #dfe6f3;
+      --blue: #1a73e8;
+      --blue-soft: #e8f0fe;
+      --green: #188038;
+      --green-soft: #e6f4ea;
+      --yellow: #f9ab00;
+      --yellow-soft: #fef7e0;
+      --red: #d93025;
+      --red-soft: #fce8e6;
+      --purple: #9334e6;
+      --purple-soft: #f3e8fd;
+      --shadow: 0 18px 55px rgba(60, 64, 67, 0.10);
+      --shadow-soft: 0 8px 28px rgba(60, 64, 67, 0.08);
+      --radius-xl: 30px;
+      --radius-lg: 22px;
+      --radius-md: 16px;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      color: var(--text);
+      background:
+        radial-gradient(circle at top left, rgba(66, 133, 244, 0.15), transparent 32rem),
+        radial-gradient(circle at 88% 8%, rgba(52, 168, 83, 0.12), transparent 26rem),
+        radial-gradient(circle at 76% 42%, rgba(251, 188, 4, 0.12), transparent 23rem),
+        linear-gradient(180deg, #ffffff 0%, var(--bg) 34rem);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Google Sans", "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+      line-height: 1.72;
+    }
+    a { color: var(--blue); text-decoration: none; font-weight: 650; }
+    a:hover { text-decoration: underline; }
+    .app-shell { width: min(1440px, calc(100vw - 32px)); margin: 0 auto; padding: 22px 0 56px; }
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 40;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 13px 16px;
+      margin-bottom: 20px;
+      background: rgba(255, 255, 255, 0.78);
+      border: 1px solid rgba(223, 230, 243, 0.8);
+      border-radius: 999px;
+      backdrop-filter: blur(18px);
+      box-shadow: 0 8px 24px rgba(60, 64, 67, 0.08);
+    }
+    .brand { display: flex; align-items: center; gap: 12px; min-width: 250px; }
+    .brand-mark {
+      display: grid;
+      place-items: center;
+      width: 42px;
+      height: 42px;
+      border-radius: 15px;
+      color: white;
+      font-weight: 950;
+      background: conic-gradient(from 140deg, #4285f4, #34a853, #fbbc04, #ea4335, #4285f4);
+      box-shadow: 0 8px 20px rgba(26, 115, 232, 0.28);
+    }
+    .brand-title { font-size: 15px; font-weight: 850; letter-spacing: 0; }
+    .brand-subtitle { margin-top: -2px; color: var(--muted); font-size: 12px; }
+    .top-actions { display: flex; align-items: center; gap: 10px; flex: 1; justify-content: flex-end; }
+    .search-box { position: relative; flex: 1; max-width: 460px; }
+    .search-box input {
+      width: 100%;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 12px 44px;
+      background: #f8fafd;
+      color: var(--text);
+      outline: none;
+      font-size: 14px;
+      transition: border-color .18s ease, box-shadow .18s ease, background .18s ease;
+    }
+    .search-box input:focus { border-color: rgba(26, 115, 232, .55); background: white; box-shadow: 0 0 0 4px rgba(26, 115, 232, .12); }
+    .search-icon { position: absolute; left: 16px; top: 50%; transform: translateY(-50%); color: var(--muted); font-size: 16px; }
+    .pill-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      border: 1px solid var(--line);
+      background: white;
+      color: var(--text);
+      border-radius: 999px;
+      padding: 10px 14px;
+      font-size: 13px;
+      font-weight: 760;
+      white-space: nowrap;
+      box-shadow: 0 2px 10px rgba(60,64,67,.05);
+    }
+    .hero {
+      overflow: hidden;
+      position: relative;
+      border: 1px solid rgba(223, 230, 243, 0.9);
+      border-radius: var(--radius-xl);
+      background:
+        linear-gradient(135deg, rgba(232,240,254,.92), rgba(255,255,255,.96) 46%, rgba(230,244,234,.82)),
+        white;
+      box-shadow: var(--shadow);
+      padding: clamp(28px, 4.8vw, 58px);
+      margin-bottom: 22px;
+      min-height: min(620px, calc(100vh - 132px));
+      display: grid;
+      align-content: center;
+    }
+    .hero::after {
+      content: "";
+      position: absolute;
+      right: -120px;
+      top: -120px;
+      width: 340px;
+      height: 340px;
+      border-radius: 999px;
+      background: radial-gradient(circle, rgba(251,188,4,.32), rgba(251,188,4,0) 66%);
+    }
+    .hero::before {
+      content: "";
+      position: absolute;
+      left: 58%;
+      bottom: -160px;
+      width: 420px;
+      height: 420px;
+      border-radius: 999px;
+      background: radial-gradient(circle, rgba(147,52,230,.18), rgba(147,52,230,0) 67%);
+    }
+    .hero-inner { position: relative; z-index: 1; }
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, .76);
+      border: 1px solid rgba(223, 230, 243, .9);
+      color: var(--blue);
+      font-size: 13px;
+      font-weight: 850;
+      margin-bottom: 18px;
+    }
+    h1 {
+      margin: 0 0 12px;
+      font-size: clamp(44px, 8.6vw, 96px);
+      line-height: 0.96;
+      letter-spacing: 0;
+      max-width: 1060px;
+    }
+    .hero-copy { margin: 0; max-width: 880px; color: var(--muted); font-size: clamp(17px, 2vw, 22px); }
+    .hero-copy strong { color: var(--text); }
+    .status-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; margin-top: 26px; }
+    .metric-card {
+      min-height: 108px;
+      padding: 17px;
+      border-radius: 22px;
+      background: rgba(255, 255, 255, .82);
+      border: 1px solid rgba(223, 230, 243, .92);
+      box-shadow: 0 10px 24px rgba(60, 64, 67, .06);
+    }
+    .metric-card.red { background: linear-gradient(135deg, white, var(--red-soft)); }
+    .metric-card.blue { background: linear-gradient(135deg, white, var(--blue-soft)); }
+    .metric-card.green { background: linear-gradient(135deg, white, var(--green-soft)); }
+    .metric-card.yellow { background: linear-gradient(135deg, white, var(--yellow-soft)); }
+    .metric-label { display: block; color: var(--muted); font-size: 12px; font-weight: 800; text-transform: uppercase; letter-spacing: .04em; }
+    .metric-value { display: block; margin-top: 7px; color: var(--text); font-size: 22px; font-weight: 900; line-height: 1.25; word-break: break-word; }
+    .layout { display: grid; grid-template-columns: 286px minmax(0, 1fr); gap: 22px; align-items: start; }
+    .side-panel {
+      position: sticky;
+      top: 92px;
+      max-height: calc(100vh - 112px);
+      overflow: auto;
+      padding: 18px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius-lg);
+      background: rgba(255, 255, 255, .84);
+      backdrop-filter: blur(14px);
+      box-shadow: var(--shadow-soft);
+    }
+    .side-panel h2 { margin: 0 0 12px; font-size: 14px; letter-spacing: .02em; color: var(--muted); text-transform: uppercase; }
+    .filter-chips { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
+    .filter-chip {
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 8px 11px;
+      background: #fff;
+      color: var(--muted);
+      cursor: pointer;
+      font-size: 12px;
+      font-weight: 850;
+    }
+    .filter-chip.active { color: var(--blue); background: var(--blue-soft); border-color: rgba(26,115,232,.26); }
+    .toc, .archive { display: grid; gap: 7px; }
+    .toc a, .archive a { display: block; color: #3c4043; border-radius: 12px; padding: 8px 10px; font-size: 13px; font-weight: 680; }
+    .toc a:hover, .archive a:hover { background: var(--surface-soft); text-decoration: none; }
+    .archive a:first-child { background: var(--blue-soft); color: var(--blue); }
+    .content-panel { display: grid; gap: 18px; }
+    .section-block {
+      padding: clamp(18px, 3vw, 28px);
+      border: 1px solid var(--line);
+      border-radius: var(--radius-xl);
+      background: rgba(255,255,255,.88);
+      box-shadow: var(--shadow-soft);
+    }
+    .section-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin-bottom: 16px; }
+    h2, h3, h4 { scroll-margin-top: 110px; }
+    h2 { margin: 0; font-size: clamp(25px, 3vw, 36px); line-height: 1.14; letter-spacing: 0; }
+    h3 { margin: 20px 0 12px; color: #174ea6; font-size: 21px; letter-spacing: 0; }
+    .section-note { color: var(--muted); font-size: 13px; font-weight: 680; }
+    .themes { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; list-style: none; margin: 0; padding: 0; }
+    .themes li {
+      min-height: 92px;
+      padding: 15px;
+      border-radius: 20px;
+      border: 1px solid var(--line);
+      background: linear-gradient(135deg, #ffffff, #f7faff);
+      color: #3c4043;
+      font-weight: 720;
+      overflow-wrap: anywhere;
+    }
+    .themes li:nth-child(2) { background: linear-gradient(135deg, #fff, var(--green-soft)); }
+    .themes li:nth-child(3) { background: linear-gradient(135deg, #fff, var(--yellow-soft)); }
+    .asset-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+    .asset-card {
+      min-height: 96px;
+      padding: 16px;
+      border-radius: 22px;
+      background: white;
+      border: 1px solid var(--line);
+      box-shadow: 0 8px 22px rgba(60,64,67,.05);
+    }
+    .asset-label { color: var(--muted); font-size: 13px; font-weight: 760; }
+    .asset-value { margin-top: 8px; font-size: 24px; font-weight: 950; }
+    .up .asset-value, .up .move { color: var(--green); }
+    .down .asset-value, .down .move { color: var(--red); }
+    .flat .asset-value, .flat .move { color: var(--muted); }
+    .movers { display: grid; gap: 9px; }
+    .mover {
+      display: grid;
+      grid-template-columns: minmax(118px, 0.34fr) minmax(0, 1fr) auto;
+      gap: 10px;
+      align-items: center;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 12px;
+      background: #fff;
+      min-width: 0;
+    }
+    .ticker { font-weight: 920; overflow-wrap: anywhere; }
+    .mover-meta { color: var(--muted); font-size: 13px; overflow-wrap: anywhere; }
+    .move { font-weight: 920; white-space: nowrap; }
+    .news-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+    .radar-card {
+      position: relative;
+      padding: 20px;
+      border: 1px solid var(--line);
+      border-radius: 26px;
+      background: white;
+      box-shadow: var(--shadow-soft);
+      transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+      min-width: 0;
+    }
+    .radar-card:hover { transform: translateY(-2px); box-shadow: var(--shadow); border-color: rgba(26, 115, 232, .28); }
+    .card-head { display: flex; align-items: start; justify-content: space-between; gap: 16px; margin-bottom: 12px; }
+    .tier-badge {
+      flex: none;
+      display: inline-flex;
+      align-items: center;
+      border-radius: 999px;
+      padding: 7px 10px;
+      font-size: 11px;
+      letter-spacing: .04em;
+      font-weight: 900;
+      text-transform: uppercase;
+      background: var(--red-soft);
+      color: var(--red);
+    }
+    .radar-card h3 { margin: 0; color: var(--text); font-size: 19px; line-height: 1.35; }
+    .radar-card p { margin: 10px 0 0; color: #3c4043; }
+    .badge-row { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 13px; }
+    .badge { border: 1px solid var(--line); border-radius: 999px; padding: 4px 9px; color: var(--muted); font-size: 12px; background: #f8fafd; }
+    .policy-list { display: grid; gap: 12px; margin: 0; padding: 0; list-style: none; }
+    .policy-list li {
+      border-left: 5px solid var(--yellow);
+      border-radius: 0 18px 18px 0;
+      padding: 12px 14px;
+      background: var(--yellow-soft);
+      color: #3c4043;
+    }
+    .chart-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+    .chart-card { margin: 0; padding: 12px; border: 1px solid var(--line); border-radius: 22px; background: white; box-shadow: var(--shadow-soft); }
+    .chart-card img { display: block; width: 100%; height: auto; border: 1px solid var(--line); border-radius: 16px; background: #fff; }
+    .chart-label { margin-top: 8px; color: var(--muted); font-size: 13px; }
+    .report-shell {
+      padding: clamp(18px, 3vw, 28px);
+      border: 1px solid var(--line);
+      border-radius: var(--radius-xl);
+      background: rgba(255,255,255,.88);
+      box-shadow: var(--shadow-soft);
+    }
+    .report-shell h1 { font-size: clamp(30px, 4vw, 46px); line-height: 1.1; }
+    .report-shell h2 { border-top: 1px solid var(--line); padding-top: 24px; margin-top: 32px; font-size: 28px; }
+    .report-shell table { border-collapse: separate; border-spacing: 0; width: 100%; font-size: 0.92rem; display: block; overflow-x: auto; }
+    .report-shell th, .report-shell td { border-bottom: 1px solid var(--line); padding: 10px 12px; white-space: nowrap; }
+    .report-shell th { background: var(--blue-soft); color: #174ea6; }
+    .report-shell img { max-width: 100%; height: auto; border: 1px solid var(--line); border-radius: 16px; background: #fff; }
+    .report-shell blockquote { margin: 16px 0; padding: 14px 18px; border-left: 5px solid var(--blue); border-radius: 0 18px 18px 0; background: var(--blue-soft); color: #174ea6; }
+    .hidden { display: none !important; }
+    .empty-state, .empty { padding: 24px; border-radius: 24px; border: 1px dashed #cbd5e1; background: rgba(255,255,255,.8); color: var(--muted); }
+    .footer-note { color: var(--muted); font-size: 13px; text-align: center; margin: 28px 0 0; }
+    @media (max-width: 1080px) {
+      .layout { grid-template-columns: 1fr; }
+      .side-panel { position: relative; top: 0; max-height: none; }
+      .status-grid, .themes, .asset-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
+    @media (max-width: 720px) {
+      .app-shell { width: min(100% - 20px, 1440px); padding-top: 10px; }
+      .topbar { align-items: stretch; border-radius: 24px; flex-direction: column; }
+      .brand { min-width: 0; }
+      .top-actions { width: 100%; flex-direction: column; }
+      .search-box, .pill-link { width: 100%; max-width: none; }
+      .hero { min-height: auto; padding: 28px 18px; }
+      .status-grid, .themes, .asset-grid, .news-grid, .chart-grid { grid-template-columns: 1fr; }
+      .mover { grid-template-columns: minmax(92px, 0.4fr) minmax(0, 1fr) auto; }
+      .card-head { flex-direction: column-reverse; }
+    }
   </style>
 </head>
 <body>
-  <div class="layout">
-    <aside>
-      <h1>Morning Briefs</h1>
-      <nav class="links">
-        
-          <a href="reports/2026-06-26.html">2026-06-26</a>
-        
-          <a href="reports/2026-06-25.html">2026-06-25</a>
-        
-          <a href="reports/2026-06-24.html">2026-06-24</a>
-        
-          <a href="reports/2026-06-23.html">2026-06-23</a>
-        
-          <a href="reports/2026-06-22.html">2026-06-22</a>
-        
-          <a href="reports/2026-06-21.html">2026-06-21</a>
-        
-          <a href="reports/2026-06-20.html">2026-06-20</a>
-        
-          <a href="reports/2026-06-19.html">2026-06-19</a>
-        
-          <a href="reports/2026-06-18.html">2026-06-18</a>
-        
-          <a href="reports/2026-06-17.html">2026-06-17</a>
-        
-          <a href="reports/2026-06-16.html">2026-06-16</a>
-        
-          <a href="reports/2026-06-15.html">2026-06-15</a>
-        
-          <a href="reports/2026-06-14.html">2026-06-14</a>
-        
-          <a href="reports/2026-06-13.html">2026-06-13</a>
-        
-          <a href="reports/2026-06-12.html">2026-06-12</a>
-        
-          <a href="reports/2026-06-11.html">2026-06-11</a>
-        
-          <a href="reports/2026-06-10.html">2026-06-10</a>
-        
-          <a href="reports/2026-06-09.html">2026-06-09</a>
-        
-          <a href="reports/2026-06-08.html">2026-06-08</a>
-        
-          <a href="reports/2026-06-07.html">2026-06-07</a>
-        
-          <a href="reports/2026-06-06.html">2026-06-06</a>
-        
-          <a href="reports/2026-06-05.html">2026-06-05</a>
-        
-          <a href="reports/2026-06-04.html">2026-06-04</a>
-        
-          <a href="reports/2026-06-03.html">2026-06-03</a>
-        
-          <a href="reports/2026-06-02.html">2026-06-02</a>
-        
-          <a href="reports/2026-06-01.html">2026-06-01</a>
-        
-          <a href="reports/2026-05-31.html">2026-05-31</a>
-        
-          <a href="reports/2026-05-30.html">2026-05-30</a>
-        
-          <a href="reports/2026-05-29.html">2026-05-29</a>
-        
-          <a href="reports/2026-05-28.html">2026-05-28</a>
-        
-      </nav>
-    </aside>
-    <main>
-      
-        <section class="dashboard">
-          <div class="summary">
-            <div class="meta">Latest: 2026-06-26</div>
-            <h2>市场状态：<span class="regime">unknown</span></h2>
-            <div>市场信号不足，暂不判断明确状态。</div>
+  <div class="app-shell">
+    <nav class="topbar" aria-label="Page navigation">
+      <div class="brand">
+        <div class="brand-mark">F</div>
+        <div>
+          <div class="brand-title">FinTech Macro Radar</div>
+          <div class="brand-subtitle">Global macro morning intelligence</div>
+        </div>
+      </div>
+      <div class="top-actions">
+        <label class="search-box">
+          <span class="search-icon">⌕</span>
+          <input id="radar-search" type="search" placeholder="搜索资产、新闻、政策、关键词">
+        </label>
+        <a class="pill-link" href="reports/2026-06-26.html">Latest HTML</a>
+        <a class="pill-link" href="https://github.com/georgeorange-crypto/FinTech">GitHub</a>
+      </div>
+    </nav>
+
+    
+      <header class="hero" id="hero">
+        <div class="hero-inner">
+          <div class="eyebrow">Macro intelligence dashboard · 2026-06-26</div>
+          <h1>FinTech<br>Macro Radar</h1>
+          <p class="hero-copy">
+            把宏观新闻、政策线索和跨资产行情压缩成一个 <strong>彩色可筛选雷达</strong>：
+            先看市场状态，再看 Must Read，最后按资产和主题追踪。
+          </p>
+          <div class="status-grid">
+            <div class="metric-card blue">
+              <span class="metric-label">Market Regime</span>
+              <span class="metric-value">unknown</span>
+            </div>
+            <div class="metric-card red">
+              <span class="metric-label">Must Read</span>
+              <span class="metric-value">10</span>
+            </div>
+            <div class="metric-card yellow">
+              <span class="metric-label">Policy Watch</span>
+              <span class="metric-value">10</span>
+            </div>
+            <div class="metric-card green">
+              <span class="metric-label">Market Data</span>
+              <span class="metric-value">2026-06-26</span>
+            </div>
           </div>
-          <div class="cards">
-            <div class="card"><div class="label">最新日期</div><div class="value">2026-06-26</div></div>
-            
-              <div class="card"><div class="label">美股 SPY 1D</div><div class="value">0.14%</div></div>
-            
-              <div class="card"><div class="label">QQQ 1D</div><div class="value">0.81%</div></div>
-            
-              <div class="card"><div class="label">VIX 1D</div><div class="value">-4.41%</div></div>
-            
-              <div class="card"><div class="label">BTC 1D</div><div class="value">-4.48%</div></div>
-            
-              <div class="card"><div class="label">Gold 1D</div><div class="value">1.22%</div></div>
-            
-              <div class="card"><div class="label">Oil 1D</div><div class="value">1.62%</div></div>
-            
+        </div>
+      </header>
+
+      <div class="layout">
+        <aside class="side-panel">
+          <h2>Reading filters</h2>
+          <div class="filter-chips">
+            <button class="filter-chip active" type="button" data-filter="all">All</button>
+            <button class="filter-chip" type="button" data-filter="must">Must Read</button>
+            <button class="filter-chip" type="button" data-filter="policy">Policy</button>
+            <button class="filter-chip" type="button" data-filter="asset">Assets</button>
+            <button class="filter-chip" type="button" data-filter="chart">Charts</button>
           </div>
-          <div class="themes">
-            <h2>今日三大主线</h2>
-            <ol>
+          <h2>Sections</h2>
+          <nav class="toc">
+            <a href="#themes">今日主线</a>
+            <a href="#assets">核心资产</a>
+            <a href="#movers">异动雷达</a>
+            <a href="#must-read">Must Read</a>
+            <a href="#policy">Policy Watch</a>
+            <a href="#charts">图表面板</a>
+            <a href="#full-report">完整报告</a>
+          </nav>
+          <h2 style="margin-top:18px;">Archive</h2>
+          <nav class="archive">
+            
+              <a href="reports/2026-06-26.html">2026-06-26</a>
+            
+              <a href="reports/2026-06-25.html">2026-06-25</a>
+            
+              <a href="reports/2026-06-24.html">2026-06-24</a>
+            
+              <a href="reports/2026-06-23.html">2026-06-23</a>
+            
+              <a href="reports/2026-06-22.html">2026-06-22</a>
+            
+              <a href="reports/2026-06-21.html">2026-06-21</a>
+            
+              <a href="reports/2026-06-20.html">2026-06-20</a>
+            
+              <a href="reports/2026-06-19.html">2026-06-19</a>
+            
+              <a href="reports/2026-06-18.html">2026-06-18</a>
+            
+              <a href="reports/2026-06-17.html">2026-06-17</a>
+            
+              <a href="reports/2026-06-16.html">2026-06-16</a>
+            
+              <a href="reports/2026-06-15.html">2026-06-15</a>
+            
+              <a href="reports/2026-06-14.html">2026-06-14</a>
+            
+              <a href="reports/2026-06-13.html">2026-06-13</a>
+            
+              <a href="reports/2026-06-12.html">2026-06-12</a>
+            
+              <a href="reports/2026-06-11.html">2026-06-11</a>
+            
+              <a href="reports/2026-06-10.html">2026-06-10</a>
+            
+              <a href="reports/2026-06-09.html">2026-06-09</a>
+            
+              <a href="reports/2026-06-08.html">2026-06-08</a>
+            
+              <a href="reports/2026-06-07.html">2026-06-07</a>
+            
+              <a href="reports/2026-06-06.html">2026-06-06</a>
+            
+              <a href="reports/2026-06-05.html">2026-06-05</a>
+            
+              <a href="reports/2026-06-04.html">2026-06-04</a>
+            
+              <a href="reports/2026-06-03.html">2026-06-03</a>
+            
+              <a href="reports/2026-06-02.html">2026-06-02</a>
+            
+              <a href="reports/2026-06-01.html">2026-06-01</a>
+            
+              <a href="reports/2026-05-31.html">2026-05-31</a>
+            
+              <a href="reports/2026-05-30.html">2026-05-30</a>
+            
+              <a href="reports/2026-05-29.html">2026-05-29</a>
+            
+              <a href="reports/2026-05-28.html">2026-05-28</a>
+            
+          </nav>
+        </aside>
+
+        <main class="content-panel">
+          <section class="section-block radar-item" id="themes" data-filter="all" data-search="macro_data: Bitcoin derivatives signal panic. A weak core PCE reading could trigger snapback. financial_stability: Federal Reserve Board's annual bank stress test confirms that large banks are well positioned to weather a severe recession and able to continue to lend to households and businesses central_bank_speech: Chicago Fed President Goolsbee says inflation is too high; Williams sees price pressures easing">
+            <div class="section-head">
+              <h2>今日主线</h2>
+              <span class="section-note">Top themes</span>
+            </div>
+            <ol class="themes">
               
                 <li>macro_data: Bitcoin derivatives signal panic. A weak core PCE reading could trigger snapback.</li>
               
@@ -143,10 +490,261 @@
                 <li>central_bank_speech: Chicago Fed President Goolsbee says inflation is too high; Williams sees price pressures easing</li>
               
             </ol>
-          </div>
-        </section>
-        <article class="report-shell">
-          <h1 id="global-macro-morning-briefing-2026-06-26">Global Macro Morning Briefing - 2026-06-26</h1>
+          </section>
+
+          <section class="section-block radar-item" id="assets" data-filter="asset" data-search="美股 SPY 0.14% QQQ 0.81% VIX -4.41% BTC -4.48% Gold 1.22% Oil 1.62% ">
+            <div class="section-head">
+              <h2>核心资产</h2>
+              <span class="section-note">1D snapshot · 2026-06-26</span>
+            </div>
+            <div class="asset-grid">
+              
+                <article class="asset-card up">
+                  <div class="asset-label">美股 SPY</div>
+                  <div class="asset-value">0.14%</div>
+                </article>
+              
+                <article class="asset-card up">
+                  <div class="asset-label">QQQ</div>
+                  <div class="asset-value">0.81%</div>
+                </article>
+              
+                <article class="asset-card down">
+                  <div class="asset-label">VIX</div>
+                  <div class="asset-value">-4.41%</div>
+                </article>
+              
+                <article class="asset-card down">
+                  <div class="asset-label">BTC</div>
+                  <div class="asset-value">-4.48%</div>
+                </article>
+              
+                <article class="asset-card up">
+                  <div class="asset-label">Gold</div>
+                  <div class="asset-value">1.22%</div>
+                </article>
+              
+                <article class="asset-card up">
+                  <div class="asset-label">Oil</div>
+                  <div class="asset-value">1.62%</div>
+                </article>
+              
+            </div>
+          </section>
+
+          <section class="section-block radar-item" id="movers" data-filter="asset" data-search="RIPPLE CRYPTO strong_downtrend ETH CRYPTO downtrend BTC CRYPTO strong_downtrend 9988.HK HK_MARKET strong_downtrend ^VIX US_MACRO_MARKET range_bound SOLANA CRYPTO downtrend BINANCECOIN CRYPTO strong_downtrend HG=F COMMODITIES range_bound ">
+            <div class="section-head">
+              <h2>异动雷达</h2>
+              <span class="section-note">按 1D 绝对波动排序 · 2026-06-26</span>
+            </div>
+            <div class="movers">
+              
+                <article class="mover down">
+                  <div class="ticker">RIPPLE</div>
+                  <div class="mover-meta">CRYPTO · strong_downtrend · 1.04</div>
+                  <div class="move">-6.43%</div>
+                </article>
+              
+                <article class="mover down">
+                  <div class="ticker">ETH</div>
+                  <div class="mover-meta">CRYPTO · downtrend · 1,569.75</div>
+                  <div class="move">-5.72%</div>
+                </article>
+              
+                <article class="mover down">
+                  <div class="ticker">BTC</div>
+                  <div class="mover-meta">CRYPTO · strong_downtrend · 59,846.86</div>
+                  <div class="move">-4.48%</div>
+                </article>
+              
+                <article class="mover down">
+                  <div class="ticker">9988.HK</div>
+                  <div class="mover-meta">HK_MARKET · strong_downtrend · 95.00</div>
+                  <div class="move">-4.43%</div>
+                </article>
+              
+                <article class="mover down">
+                  <div class="ticker">^VIX</div>
+                  <div class="mover-meta">US_MACRO_MARKET · range_bound · 18.63</div>
+                  <div class="move">-4.41%</div>
+                </article>
+              
+                <article class="mover down">
+                  <div class="ticker">SOLANA</div>
+                  <div class="mover-meta">CRYPTO · downtrend · 67.01</div>
+                  <div class="move">-3.73%</div>
+                </article>
+              
+                <article class="mover down">
+                  <div class="ticker">BINANCECOIN</div>
+                  <div class="mover-meta">CRYPTO · strong_downtrend · 559.28</div>
+                  <div class="move">-3.15%</div>
+                </article>
+              
+                <article class="mover up">
+                  <div class="ticker">HG=F</div>
+                  <div class="mover-meta">COMMODITIES · range_bound · 6.12</div>
+                  <div class="move">3.01%</div>
+                </article>
+              
+            </div>
+          </section>
+
+          <section class="section-block radar-item" id="must-read" data-filter="must" data-search="Bitcoin derivatives signal panic. A weak core PCE reading could trigger snapback. CoinDesk macro_data 这类宏观数据会直接改变市场对通胀、增长和政策路径的预期。 Federal Reserve Board's annual bank stress test confirms that large banks are well positioned to weather a severe recession and able to continue to lend to households and businesses Federal Reserve Press Releases financial_stability 金融稳定信号可能放大跨资产波动，并影响央行反应函数。 Chicago Fed President Goolsbee says inflation is too high; Williams sees price pressures easing CNBC Economy central_bank_speech 央行官员表态可能影响市场对下一次会议的定价。 Asset management giant Invesco files for tokenized fund targeting stablecoin reserve market CoinDesk crypto_market_structure 加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。 ">
+            <div class="section-head">
+              <h2>Must Read</h2>
+              <span class="section-note">优先阅读</span>
+            </div>
+            <div class="news-grid">
+              
+                <article class="radar-card">
+                  <div class="card-head">
+                    <div>
+                      <h3><a href="https://www.coindesk.com/daybook-us/2026/06/25/bitcoin-derivatives-signal-panic-a-weak-core-pce-reading-could-trigger-snapback">Bitcoin derivatives signal panic. A weak core PCE reading could trigger snapback.</a></h3>
+                      <p>这类宏观数据会直接改变市场对通胀、增长和政策路径的预期。</p>
+                    </div>
+                    <span class="tier-badge">Tier 1</span>
+                  </div>
+                  <div class="badge-row">
+                    <span class="badge">CoinDesk</span>
+                    <span class="badge">macro_data</span>
+                    <span class="badge">high</span>
+                    
+                      <span class="badge">BTC</span>
+                    
+                      <span class="badge">DXY</span>
+                    
+                      <span class="badge">GC=F</span>
+                    
+                      <span class="badge">QQQ</span>
+                    
+                      <span class="badge">SPY</span>
+                    
+                  </div>
+                </article>
+              
+                <article class="radar-card">
+                  <div class="card-head">
+                    <div>
+                      <h3><a href="https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260624a.htm">Federal Reserve Board's annual bank stress test confirms that large banks are well positioned to weather a severe recession and able to continue to lend to households and businesses</a></h3>
+                      <p>金融稳定信号可能放大跨资产波动，并影响央行反应函数。</p>
+                    </div>
+                    <span class="tier-badge">Tier 1</span>
+                  </div>
+                  <div class="badge-row">
+                    <span class="badge">Federal Reserve Press Releases</span>
+                    <span class="badge">financial_stability</span>
+                    <span class="badge">low</span>
+                    
+                  </div>
+                </article>
+              
+                <article class="radar-card">
+                  <div class="card-head">
+                    <div>
+                      <h3><a href="https://www.cnbc.com/2026/06/25/chicago-fed-president-goolsbee-says-inflation-is-too-high-calls-warsh-a-serious-guy.html">Chicago Fed President Goolsbee says inflation is too high; Williams sees price pressures easing</a></h3>
+                      <p>央行官员表态可能影响市场对下一次会议的定价。</p>
+                    </div>
+                    <span class="tier-badge">Tier 2</span>
+                  </div>
+                  <div class="badge-row">
+                    <span class="badge">CNBC Economy</span>
+                    <span class="badge">central_bank_speech</span>
+                    <span class="badge">high</span>
+                    
+                      <span class="badge">BTC</span>
+                    
+                      <span class="badge">DXY</span>
+                    
+                      <span class="badge">GC=F</span>
+                    
+                      <span class="badge">QQQ</span>
+                    
+                      <span class="badge">SPY</span>
+                    
+                  </div>
+                </article>
+              
+                <article class="radar-card">
+                  <div class="card-head">
+                    <div>
+                      <h3><a href="https://www.coindesk.com/business/2026/06/25/asset-management-giant-invesco-files-for-tokenized-fund-targeting-stablecoin-reserve-market">Asset management giant Invesco files for tokenized fund targeting stablecoin reserve market</a></h3>
+                      <p>加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。</p>
+                    </div>
+                    <span class="tier-badge">Tier 2</span>
+                  </div>
+                  <div class="badge-row">
+                    <span class="badge">CoinDesk</span>
+                    <span class="badge">crypto_market_structure</span>
+                    <span class="badge">high</span>
+                    
+                      <span class="badge">BTC</span>
+                    
+                      <span class="badge">COIN</span>
+                    
+                      <span class="badge">ETH</span>
+                    
+                      <span class="badge">crypto market</span>
+                    
+                  </div>
+                </article>
+              
+            </div>
+          </section>
+
+          <section class="section-block radar-item" id="policy" data-filter="policy" data-search="Federal Reserve Board's annual bank stress test confirms that large banks are well positioned to weather a severe recession and able to continue to lend to households and businesses 可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。 Chicago Fed President Goolsbee says inflation is too high; Williams sees price pressures easing 主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。 Asset management giant Invesco files for tokenized fund targeting stablecoin reserve market 主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。 关注后续数据是否确认当前跨资产信号。 ">
+            <div class="section-head">
+              <h2>Policy Watch</h2>
+              <span class="section-note">政策与风险观察</span>
+            </div>
+            <ul class="policy-list">
+              
+                <li><a href="https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260624a.htm">Federal Reserve Board's annual bank stress test confirms that large banks are well positioned to weather a severe recession and able to continue to lend to households and businesses</a><br>可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。</li>
+              
+                <li><a href="https://www.cnbc.com/2026/06/25/chicago-fed-president-goolsbee-says-inflation-is-too-high-calls-warsh-a-serious-guy.html">Chicago Fed President Goolsbee says inflation is too high; Williams sees price pressures easing</a><br>主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。</li>
+              
+                <li><a href="https://www.coindesk.com/business/2026/06/25/asset-management-giant-invesco-files-for-tokenized-fund-targeting-stablecoin-reserve-market">Asset management giant Invesco files for tokenized fund targeting stablecoin reserve market</a><br>主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。</li>
+              
+              
+                <li>关注后续数据是否确认当前跨资产信号。</li>
+              
+            </ul>
+          </section>
+
+          
+            <section class="section-block radar-item" id="charts" data-filter="chart" data-search="COMMODITIES CRYPTO HK_MARKET US_EQUITY ">
+              <div class="section-head">
+                <h2>图表面板</h2>
+                <span class="section-note">Summary charts · 2026-06-26</span>
+              </div>
+              <div class="chart-grid">
+                
+                  <figure class="chart-card">
+                    <img src="charts/2026-06-26/COMMODITIES_summary.png" alt="COMMODITIES summary chart">
+                    <figcaption class="chart-label">COMMODITIES</figcaption>
+                  </figure>
+                
+                  <figure class="chart-card">
+                    <img src="charts/2026-06-26/CRYPTO_summary.png" alt="CRYPTO summary chart">
+                    <figcaption class="chart-label">CRYPTO</figcaption>
+                  </figure>
+                
+                  <figure class="chart-card">
+                    <img src="charts/2026-06-26/HK_MARKET_summary.png" alt="HK_MARKET summary chart">
+                    <figcaption class="chart-label">HK_MARKET</figcaption>
+                  </figure>
+                
+                  <figure class="chart-card">
+                    <img src="charts/2026-06-26/US_EQUITY_summary.png" alt="US_EQUITY summary chart">
+                    <figcaption class="chart-label">US_EQUITY</figcaption>
+                  </figure>
+                
+              </div>
+            </section>
+          
+
+          <article class="report-shell radar-item" id="full-report" data-filter="all" data-search="full report macro morning brief">
+            <h1 id="global-macro-morning-briefing-2026-06-26">Global Macro Morning Briefing - 2026-06-26</h1>
 <blockquote>
 <p>Not financial advice / 非投资建议。</p>
 </blockquote>
@@ -1058,9 +1656,44 @@
 <li>SEC failed cik=0001318605</li>
 <li>SEC failed cik=0001577552</li>
 </ul>
-        </article>
-      
-    </main>
+          </article>
+          <p class="footer-note">Generated by Global Macro Morning Brief. Designed for fast triage, not investment advice.</p>
+        </main>
+      </div>
+    
   </div>
+  <script>
+    (function () {
+      const input = document.getElementById("radar-search");
+      const chips = Array.from(document.querySelectorAll(".filter-chip"));
+      const items = Array.from(document.querySelectorAll(".radar-item"));
+      let active = "all";
+
+      function normalize(text) {
+        return String(text || "").toLowerCase().replace(/\s+/g, " ").trim();
+      }
+
+      function applyFilters() {
+        const query = normalize(input ? input.value : "");
+        items.forEach(function (item) {
+          const filter = item.dataset.filter || "all";
+          const text = normalize((item.dataset.search || "") + " " + item.textContent);
+          const filterOk = active === "all" || filter === active || filter === "all";
+          const queryOk = !query || text.includes(query);
+          item.classList.toggle("hidden", !(filterOk && queryOk));
+        });
+      }
+
+      chips.forEach(function (chip) {
+        chip.addEventListener("click", function () {
+          chips.forEach(function (item) { item.classList.remove("active"); });
+          chip.classList.add("active");
+          active = chip.dataset.filter || "all";
+          applyFilters();
+        });
+      });
+      if (input) input.addEventListener("input", applyFilters);
+    })();
+  </script>
 </body>
 </html>
