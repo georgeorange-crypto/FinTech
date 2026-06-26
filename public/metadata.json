@@ -6,11 +6,11 @@
   "regime_summary": "市场信号不足，暂不判断明确状态。",
   "key_moves": [
     "QQQ 上涨 0.81%",
-    "VIX 下跌 -4.41%",
-    "Gold 上涨 1.22%",
-    "Oil 上涨 1.62%",
-    "BTC 下跌 -4.48%",
-    "ETH 下跌 -5.72%"
+    "VIX 上涨 6.03%",
+    "Gold 上涨 0.78%",
+    "Oil 下跌 -2.50%",
+    "BTC 下跌 -2.68%",
+    "ETH 下跌 -4.73%"
   ],
   "watch_points": [
     "关注后续数据是否确认当前跨资产信号。"
@@ -26,50 +26,32 @@
     },
     {
       "label": "VIX",
-      "value": "-4.41%"
+      "value": "6.03%"
     },
     {
       "label": "BTC",
-      "value": "-4.48%"
+      "value": "-2.68%"
     },
     {
       "label": "Gold",
-      "value": "1.22%"
+      "value": "0.78%"
     },
     {
       "label": "Oil",
-      "value": "1.62%"
+      "value": "-2.50%"
     }
   ],
   "top_themes": [
-    "macro_data: Bitcoin derivatives signal panic. A weak core PCE reading could trigger snapback.",
     "financial_stability: Federal Reserve Board's annual bank stress test confirms that large banks are well positioned to weather a severe recession and able to continue to lend to households and businesses",
-    "central_bank_speech: Chicago Fed President Goolsbee says inflation is too high; Williams sees price pressures easing"
+    "central_bank_speech: Chicago Fed President Goolsbee says inflation is too high; Williams sees price pressures easing",
+    "crypto_market_structure: Asset management giant Invesco files for tokenized fund targeting stablecoin reserve market"
   ],
   "news_counts": {
     "must_read": 10,
-    "policy_watch": 10,
-    "background": 18
+    "policy_watch": 9,
+    "background": 20
   },
   "focus_news": [
-    {
-      "title": "Bitcoin derivatives signal panic. A weak core PCE reading could trigger snapback.",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/daybook-us/2026/06/25/bitcoin-derivatives-signal-panic-a-weak-core-pce-reading-could-trigger-snapback",
-      "event_type": "macro_data",
-      "importance_tier": 1,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "这类宏观数据会直接改变市场对通胀、增长和政策路径的预期。",
-      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
-      "assets": [
-        "BTC",
-        "DXY",
-        "GC=F",
-        "QQQ",
-        "SPY"
-      ]
-    },
     {
       "title": "Federal Reserve Board's annual bank stress test confirms that large banks are well positioned to weather a severe recession and able to continue to lend to households and businesses",
       "source": "Federal Reserve Press Releases",
@@ -104,6 +86,23 @@
       "title": "Asset management giant Invesco files for tokenized fund targeting stablecoin reserve market",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/business/2026/06/25/asset-management-giant-invesco-files-for-tokenized-fund-targeting-stablecoin-reserve-market",
+      "event_type": "crypto_market_structure",
+      "importance_tier": 2,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
+      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "assets": [
+        "BTC",
+        "COIN",
+        "ETH",
+        "crypto market"
+      ]
+    },
+    {
+      "title": "Uniswap, Spark aim to build stablecoin FX market as banks, fintechs enter the industry",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/06/25/uniswap-spark-aim-to-build-stablecoin-fx-market-as-banks-fintechs-enter-the-industry",
       "event_type": "crypto_market_structure",
       "importance_tier": 2,
       "impact_strength": "high",
@@ -169,76 +168,76 @@
   ],
   "asset_movers": [
     {
+      "symbol": "^VIX",
+      "group": "US_MACRO_MARKET",
+      "price": "20.03",
+      "one_day": "6.03%",
+      "five_day": "22.13%",
+      "trend": "range_bound",
+      "direction": "up"
+    },
+    {
+      "symbol": "9988.HK",
+      "group": "HK_MARKET",
+      "price": "89.50",
+      "one_day": "-5.79%",
+      "five_day": "-14.68%",
+      "trend": "strong_downtrend",
+      "direction": "down"
+    },
+    {
       "symbol": "RIPPLE",
       "group": "CRYPTO",
-      "price": "1.04",
-      "one_day": "-6.43%",
-      "five_day": "-8.39%",
+      "price": "1.02",
+      "one_day": "-4.75%",
+      "five_day": "-11.17%",
       "trend": "strong_downtrend",
       "direction": "down"
     },
     {
       "symbol": "ETH",
       "group": "CRYPTO",
-      "price": "1,569.75",
-      "one_day": "-5.72%",
-      "five_day": "-8.00%",
-      "trend": "downtrend",
+      "price": "1,541.27",
+      "one_day": "-4.73%",
+      "five_day": "-11.38%",
+      "trend": "strong_downtrend",
+      "direction": "down"
+    },
+    {
+      "symbol": "1211.HK",
+      "group": "HK_MARKET",
+      "price": "72.65",
+      "one_day": "-4.47%",
+      "five_day": "-10.14%",
+      "trend": "strong_downtrend",
+      "direction": "down"
+    },
+    {
+      "symbol": "1810.HK",
+      "group": "HK_MARKET",
+      "price": "21.42",
+      "one_day": "-3.95%",
+      "five_day": "-12.86%",
+      "trend": "strong_downtrend",
+      "direction": "down"
+    },
+    {
+      "symbol": "3690.HK",
+      "group": "HK_MARKET",
+      "price": "64.25",
+      "one_day": "-2.80%",
+      "five_day": "-10.52%",
+      "trend": "strong_downtrend",
       "direction": "down"
     },
     {
       "symbol": "BTC",
       "group": "CRYPTO",
-      "price": "59,846.86",
-      "one_day": "-4.48%",
-      "five_day": "-5.77%",
+      "price": "59,278.53",
+      "one_day": "-2.68%",
+      "five_day": "-7.72%",
       "trend": "strong_downtrend",
       "direction": "down"
-    },
-    {
-      "symbol": "9988.HK",
-      "group": "HK_MARKET",
-      "price": "95.00",
-      "one_day": "-4.43%",
-      "five_day": "-11.13%",
-      "trend": "strong_downtrend",
-      "direction": "down"
-    },
-    {
-      "symbol": "^VIX",
-      "group": "US_MACRO_MARKET",
-      "price": "18.63",
-      "one_day": "-4.41%",
-      "five_day": "13.53%",
-      "trend": "range_bound",
-      "direction": "down"
-    },
-    {
-      "symbol": "SOLANA",
-      "group": "CRYPTO",
-      "price": "67.01",
-      "one_day": "-3.73%",
-      "five_day": "-3.45%",
-      "trend": "downtrend",
-      "direction": "down"
-    },
-    {
-      "symbol": "BINANCECOIN",
-      "group": "CRYPTO",
-      "price": "559.28",
-      "one_day": "-3.15%",
-      "five_day": "-3.60%",
-      "trend": "strong_downtrend",
-      "direction": "down"
-    },
-    {
-      "symbol": "HG=F",
-      "group": "COMMODITIES",
-      "price": "6.12",
-      "one_day": "3.01%",
-      "five_day": "-5.55%",
-      "trend": "range_bound",
-      "direction": "up"
     }
   ],
   "chart_tiles": [
