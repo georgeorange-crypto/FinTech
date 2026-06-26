@@ -1,0 +1,2200 @@
+{
+  "date": "2026-06-27",
+  "executive_summary": "今日晨报重点关注：央行决策会重定价利率、汇率、久期资产和风险资产。；央行决策会重定价利率、汇率、久期资产和风险资产。。跨资产方面，SPY 1D -0.72%；QQQ 1D -1.38%；^VIX 1D -2.54%；TLT 1D 0.01%；GC=F 1D 1.80%；CL=F 1D -2.34%；BTC 1D -1.57%；ETH 1D -2.55%；市场信号不足，暂不判断明确状态。政策、通胀、利率、美元、美债、能源和加密监管仍是主要观察线索。所有结论仅基于公开数据与短摘要整理，不构成投资建议。",
+  "market_overview": [
+    {
+      "symbol": "SPY",
+      "name": "SPY",
+      "group": "US_EQUITY",
+      "latest_close": 728.989990234375,
+      "one_day_return": -0.007231373616869652,
+      "five_day_return": -0.02376998718714518,
+      "one_month_return": -0.02860916119401702,
+      "ytd_return": 0.06706970222701458,
+      "volatility_20d": 0.1672213170768889,
+      "ma_20": 743.6019989013672,
+      "ma_60": 724.3778330485026,
+      "rsi_14": 44.92770605888978,
+      "trend_label": "range_bound"
+    },
+    {
+      "symbol": "QQQ",
+      "name": "QQQ",
+      "group": "US_EQUITY",
+      "latest_close": 706.52001953125,
+      "one_day_return": -0.013763624451209266,
+      "five_day_return": -0.0460424722674978,
+      "one_month_return": -0.031434631972112825,
+      "ytd_return": 0.15233563602213085,
+      "volatility_20d": 0.3203554951764206,
+      "ma_20": 724.7625030517578,
+      "ma_60": 686.6131673177083,
+      "rsi_14": 50.432163781780865,
+      "trend_label": "range_bound"
+    },
+    {
+      "symbol": "DIA",
+      "name": "DIA",
+      "group": "US_EQUITY",
+      "latest_close": 517.75,
+      "one_day_return": -0.002908003191515851,
+      "five_day_return": 0.004325691310257396,
+      "one_month_return": 0.021444908089638615,
+      "ytd_return": 0.07054978965884273,
+      "volatility_20d": 0.14714103102804849,
+      "ma_20": 513.6425033569336,
+      "ma_60": 498.6558334350586,
+      "rsi_14": 59.20418494486185,
+      "trend_label": "uptrend"
+    },
+    {
+      "symbol": "IWM",
+      "name": "IWM",
+      "group": "US_EQUITY",
+      "latest_close": 299.8299865722656,
+      "one_day_return": 0.0030777923083371572,
+      "five_day_return": 0.014344160109966086,
+      "one_month_return": 0.03257909430779948,
+      "ytd_return": 0.20520133468710777,
+      "volatility_20d": 0.22253965193424205,
+      "ma_20": 291.4029998779297,
+      "ma_60": 280.3893341064453,
+      "rsi_14": 73.0945114859647,
+      "trend_label": "strong_uptrend"
+    },
+    {
+      "symbol": "VTI",
+      "name": "VTI",
+      "group": "US_EQUITY",
+      "latest_close": 362.2200012207031,
+      "one_day_return": -0.004835457202321813,
+      "five_day_return": -0.02100053844362082,
+      "one_month_return": -0.019330692045765097,
+      "ytd_return": 0.07704202625613354,
+      "volatility_20d": 0.17089905774488787,
+      "ma_20": 367.3279998779297,
+      "ma_60": 357.1936650594076,
+      "rsi_14": 48.60038073355647,
+      "trend_label": "range_bound"
+    },
+    {
+      "symbol": "^VIX",
+      "name": "^VIX",
+      "group": "US_MACRO_MARKET",
+      "latest_close": 18.40999984741211,
+      "one_day_return": -0.025410246572022843,
+      "five_day_return": 0.12256099241677698,
+      "one_month_return": 0.130141118031738,
+      "ytd_return": 0.26878012108968896,
+      "volatility_20d": 1.8939509311320295,
+      "ma_20": 17.919499969482423,
+      "ma_60": 18.27600005467733,
+      "rsi_14": 42.57662714064038,
+      "trend_label": "range_bound"
+    },
+    {
+      "symbol": "DX-Y.NYB",
+      "name": "DX-Y.NYB",
+      "group": "US_MACRO_MARKET",
+      "latest_close": 101.36599731445312,
+      "one_day_return": -0.000631006512176735,
+      "five_day_return": 0.00511649824629834,
+      "one_month_return": 0.021731662633569293,
+      "ytd_return": 0.029932932334044482,
+      "volatility_20d": 0.04568123182659187,
+      "ma_20": 100.14029998779297,
+      "ma_60": 99.1909336090088,
+      "rsi_14": 72.16147036031029,
+      "trend_label": "uptrend"
+    },
+    {
+      "symbol": "TLT",
+      "name": "TLT",
+      "group": "US_MACRO_MARKET",
+      "latest_close": 87.36000061035156,
+      "one_day_return": 0.00011450642707711012,
+      "five_day_return": 0.007031707323937431,
+      "one_month_return": 0.024150029131227546,
+      "ytd_return": 0.0037918170249726657,
+      "volatility_20d": 0.08863430703259692,
+      "ma_20": 85.92449989318848,
+      "ma_60": 85.83233337402343,
+      "rsi_14": 70.6834330000741,
+      "trend_label": "uptrend"
+    },
+    {
+      "symbol": "IEF",
+      "name": "IEF",
+      "group": "US_MACRO_MARKET",
+      "latest_close": 95.02999877929688,
+      "one_day_return": 0.002531890088105504,
+      "five_day_return": 0.0071004468483630845,
+      "one_month_return": 0.007527556051419415,
+      "ytd_return": -0.010928424560233907,
+      "volatility_20d": 0.05606951574722529,
+      "ma_20": 94.20799980163574,
+      "ma_60": 94.62783330281576,
+      "rsi_14": 68.40728678001216,
+      "trend_label": "range_bound"
+    },
+    {
+      "symbol": "GC=F",
+      "name": "GC=F",
+      "group": "COMMODITIES",
+      "latest_close": 4103.0,
+      "one_day_return": 0.01798784269941689,
+      "five_day_return": -0.028668851318992772,
+      "one_month_return": -0.0774592467678471,
+      "ytd_return": -0.048998680495266456,
+      "volatility_20d": 0.31314077652826805,
+      "ma_20": 4273.065014648438,
+      "ma_60": 4530.814990234375,
+      "rsi_14": 38.25623725958865,
+      "trend_label": "strong_downtrend"
+    },
+    {
+      "symbol": "SI=F",
+      "name": "SI=F",
+      "group": "COMMODITIES",
+      "latest_close": 59.60499954223633,
+      "one_day_return": 0.02154315449863997,
+      "five_day_return": -0.10036975302777751,
+      "one_month_return": -0.20099464707951864,
+      "ytd_return": -0.15521004948574357,
+      "volatility_20d": 0.5354910020032077,
+      "ma_20": 67.62309989929199,
+      "ma_60": 73.9126828511556,
+      "rsi_14": 32.314395147359264,
+      "trend_label": "strong_downtrend"
+    },
+    {
+      "symbol": "CL=F",
+      "name": "CL=F",
+      "group": "COMMODITIES",
+      "latest_close": 70.23999786376953,
+      "one_day_return": -0.023359292935872134,
+      "five_day_return": -0.08302873024860769,
+      "one_month_return": -0.20793868265616144,
+      "ytd_return": 0.22540122536169416,
+      "volatility_20d": 0.46260344388549307,
+      "ma_20": 83.28599967956544,
+      "ma_60": 93.46483319600424,
+      "rsi_14": 16.30146736611202,
+      "trend_label": "strong_downtrend"
+    },
+    {
+      "symbol": "BZ=F",
+      "name": "BZ=F",
+      "group": "COMMODITIES",
+      "latest_close": 73.56999969482422,
+      "one_day_return": -0.022455519445071515,
+      "five_day_return": -0.07864745021043662,
+      "one_month_return": -0.21974759804346367,
+      "ytd_return": 0.21102880156089254,
+      "volatility_20d": 0.39970675337975786,
+      "ma_20": 86.22749977111816,
+      "ma_60": 97.7681666056315,
+      "rsi_14": 17.423252173014006,
+      "trend_label": "strong_downtrend"
+    },
+    {
+      "symbol": "NG=F",
+      "name": "NG=F",
+      "group": "COMMODITIES",
+      "latest_close": 3.2869999408721924,
+      "one_day_return": -0.01675141949275538,
+      "five_day_return": 0.016702721976138202,
+      "one_month_return": 0.08124999411796252,
+      "ytd_return": -0.09148703340337838,
+      "volatility_20d": 0.39362177052197084,
+      "ma_20": 3.2054499983787537,
+      "ma_60": 2.930400005976359,
+      "rsi_14": 53.07202589872312,
+      "trend_label": "uptrend"
+    },
+    {
+      "symbol": "HG=F",
+      "name": "HG=F",
+      "group": "COMMODITIES",
+      "latest_close": 6.197500228881836,
+      "one_day_return": 0.02092090174342287,
+      "five_day_return": -0.027766816935143934,
+      "one_month_return": -0.01704989728526507,
+      "ytd_return": 0.09884758432514484,
+      "volatility_20d": 0.31605792272657673,
+      "ma_20": 6.344749999046326,
+      "ma_60": 6.163241672515869,
+      "rsi_14": 47.219883341635466,
+      "trend_label": "range_bound"
+    },
+    {
+      "symbol": "^HSI",
+      "name": "^HSI",
+      "group": "HK_MARKET",
+      "latest_close": 23076.91015625,
+      "one_day_return": -0.014320304035125964,
+      "five_day_return": -0.05080790814396019,
+      "one_month_return": -0.09853880218064992,
+      "ytd_return": -0.12383257113284196,
+      "volatility_20d": 0.19398606420748338,
+      "ma_20": 24561.97001953125,
+      "ma_60": 25412.294889322915,
+      "rsi_14": 19.040432692654974,
+      "trend_label": "strong_downtrend"
+    },
+    {
+      "symbol": "0700.HK",
+      "name": "0700.HK",
+      "group": "HK_MARKET",
+      "latest_close": 411.79998779296875,
+      "one_day_return": -0.022781220319319284,
+      "five_day_return": -0.06451618270447856,
+      "one_month_return": -0.052025797470202306,
+      "ytd_return": -0.3390048350032604,
+      "volatility_20d": 0.507584593126268,
+      "ma_20": 445.59000091552736,
+      "ma_60": 467.0300013224284,
+      "rsi_14": 32.83581598563903,
+      "trend_label": "strong_downtrend"
+    },
+    {
+      "symbol": "9988.HK",
+      "name": "9988.HK",
+      "group": "HK_MARKET",
+      "latest_close": 89.5,
+      "one_day_return": -0.05789473684210522,
+      "five_day_return": -0.14680649477473762,
+      "one_month_return": -0.2799678374687351,
+      "ytd_return": -0.3993288590604027,
+      "volatility_20d": 0.45461073517014583,
+      "ma_20": 111.39750022888184,
+      "ma_60": 123.42916641235351,
+      "rsi_14": 8.248730645011065,
+      "trend_label": "strong_downtrend"
+    },
+    {
+      "symbol": "3690.HK",
+      "name": "3690.HK",
+      "group": "HK_MARKET",
+      "latest_close": 64.25,
+      "one_day_return": -0.027987874687249614,
+      "five_day_return": -0.1051532413768188,
+      "one_month_return": -0.1731016406242789,
+      "ytd_return": -0.38575524916574466,
+      "volatility_20d": 0.5814629118408672,
+      "ma_20": 75.20249977111817,
+      "ma_60": 80.85083300272623,
+      "rsi_14": 14.798193851046776,
+      "trend_label": "strong_downtrend"
+    },
+    {
+      "symbol": "1810.HK",
+      "name": "1810.HK",
+      "group": "HK_MARKET",
+      "latest_close": 21.420000076293945,
+      "one_day_return": -0.039461847124376725,
+      "five_day_return": -0.1285597989105144,
+      "one_month_return": -0.24577463507013775,
+      "ytd_return": -0.46822242488985866,
+      "volatility_20d": 0.3491028802901691,
+      "ma_20": 25.95099992752075,
+      "ma_60": 29.33199993769328,
+      "rsi_14": 9.620237028030559,
+      "trend_label": "strong_downtrend"
+    },
+    {
+      "symbol": "1211.HK",
+      "name": "1211.HK",
+      "group": "HK_MARKET",
+      "latest_close": 72.6500015258789,
+      "one_day_return": -0.04470744759293366,
+      "five_day_return": -0.10142235130489075,
+      "one_month_return": -0.19900767397669794,
+      "ytd_return": -0.26430378201641613,
+      "volatility_20d": 0.3838977962913166,
+      "ma_20": 84.96750030517578,
+      "ma_60": 96.25000025431315,
+      "rsi_14": 10.070294015592552,
+      "trend_label": "strong_downtrend"
+    },
+    {
+      "symbol": "BTC",
+      "name": "bitcoin",
+      "group": "CRYPTO",
+      "latest_close": 59953.68460442771,
+      "one_day_return": -0.015684227306062004,
+      "five_day_return": -0.0667268468751454,
+      "one_month_return": -0.060231902703305584,
+      "ytd_return": -0.3149730237012096,
+      "volatility_20d": 0.30252208234025985,
+      "ma_20": 63260.36168363595,
+      "ma_60": 71918.64092764327,
+      "rsi_14": 36.42617450940863,
+      "trend_label": "strong_downtrend"
+    },
+    {
+      "symbol": "ETH",
+      "name": "ethereum",
+      "group": "CRYPTO",
+      "latest_close": 1576.5697845193515,
+      "one_day_return": -0.02546811586477038,
+      "five_day_return": -0.09348926805886448,
+      "one_month_return": -0.1088693116915681,
+      "ytd_return": -0.4685912412051171,
+      "volatility_20d": 0.4453617932279781,
+      "ma_20": 1686.1887265781213,
+      "ma_60": 1997.2893475583553,
+      "rsi_14": 39.71636394266303,
+      "trend_label": "strong_downtrend"
+    },
+    {
+      "symbol": "SOLANA",
+      "name": "solana",
+      "group": "CRYPTO",
+      "latest_close": 71.7547451241844,
+      "one_day_return": 0.056939878598651905,
+      "five_day_return": -0.019773328553908898,
+      "one_month_return": 0.04333006631455061,
+      "ytd_return": -0.42373265512165237,
+      "volatility_20d": 0.5369055633712486,
+      "ma_20": 69.08956940891073,
+      "ma_60": 79.50284595617951,
+      "rsi_14": 60.0978720985018,
+      "trend_label": "range_bound"
+    },
+    {
+      "symbol": "BINANCECOIN",
+      "name": "binancecoin",
+      "group": "CRYPTO",
+      "latest_close": 567.5949128005924,
+      "one_day_return": 0.007390827411137613,
+      "five_day_return": -0.03407693986570326,
+      "one_month_return": -0.060473535342611684,
+      "ytd_return": -0.3424202017071615,
+      "volatility_20d": 0.3163651693227671,
+      "ma_20": 592.1961273306264,
+      "ma_60": 628.355664516284,
+      "rsi_14": 31.963369166146677,
+      "trend_label": "strong_downtrend"
+    },
+    {
+      "symbol": "RIPPLE",
+      "name": "ripple",
+      "group": "CRYPTO",
+      "latest_close": 1.0470068899415208,
+      "one_day_return": -0.02302389467649113,
+      "five_day_return": -0.08888236738803401,
+      "one_month_return": -0.1030356092641781,
+      "ytd_return": -0.4307704958904963,
+      "volatility_20d": 0.4443142647644764,
+      "ma_20": 1.1401890015466953,
+      "ma_60": 1.2878415980522837,
+      "rsi_14": 36.49558752503901,
+      "trend_label": "strong_downtrend"
+    }
+  ],
+  "top_news": [
+    {
+      "title": "Minneapolis Fed President Neel Kashkari says he expects a rate hike this year",
+      "source": "CNBC Economy",
+      "url": "https://www.cnbc.com/2026/06/26/minneapolis-fed-president-neel-kashkari-says-he-expects-a-rate-hike-this-year.html",
+      "published_at": "2026-06-26T16:04:42Z",
+      "region": "US",
+      "category": "financial_media_public",
+      "language": "en",
+      "summary": "Kashkari said he sees a hike likely this year as the economy continues to feel the hit from spiking inflation.",
+      "credibility_weight": 0.75,
+      "relevance_score": 129.4736,
+      "related_assets": [
+        "BTC",
+        "DXY",
+        "GC=F",
+        "QQQ",
+        "SPY",
+        "TLT"
+      ],
+      "impact_direction": "mixed",
+      "impact_strength": "high",
+      "asset_impacts": [
+        {
+          "asset": "DXY",
+          "asset_class": "fx",
+          "direction": "positive",
+          "strength": "high",
+          "reason": "通胀压力可能推高政策利率预期并支撑美元。"
+        },
+        {
+          "asset": "TLT",
+          "asset_class": "rates",
+          "direction": "negative",
+          "strength": "high",
+          "reason": "通胀上行通常推升收益率、压低长债价格。"
+        },
+        {
+          "asset": "QQQ",
+          "asset_class": "equity",
+          "direction": "negative",
+          "strength": "high",
+          "reason": "更高利率对成长股估值折现率不利。"
+        },
+        {
+          "asset": "SPY",
+          "asset_class": "equity",
+          "direction": "mixed",
+          "strength": "medium",
+          "reason": "名义增长可能支撑收入，但更高利率压制估值。"
+        },
+        {
+          "asset": "GC=F",
+          "asset_class": "commodity",
+          "direction": "mixed",
+          "strength": "medium",
+          "reason": "通胀对黄金是支撑，但实际利率上行会形成压力。"
+        },
+        {
+          "asset": "BTC",
+          "asset_class": "crypto",
+          "direction": "negative",
+          "strength": "high",
+          "reason": "流动性收紧通常压制高 beta 加密资产。"
+        }
+      ],
+      "event_type": "central_bank_decision",
+      "importance_tier": 1,
+      "human_importance_reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
+      "expected_market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
+      "affected_regions": [
+        "China",
+        "EU",
+        "Japan",
+        "US",
+        "global"
+      ],
+      "affected_asset_classes": [
+        "commodity",
+        "crypto",
+        "equity",
+        "fx",
+        "rates"
+      ],
+      "is_routine": false,
+      "is_market_moving": true
+    },
+    {
+      "title": "Fed’s Kashkari now projects one interest-rate hike this year. Here’s what changed his mind.",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/feds-kashkari-projects-one-interest-rate-hike-this-year-heres-what-changed-his-mind-3a6b428c?mod=mw_rss_topstories",
+      "published_at": "2026-06-26T20:27:00Z",
+      "region": "US",
+      "category": "financial_media_public",
+      "language": "en",
+      "summary": "Doubts over the U.S.-Iran peace deal and the AI buildup mean a rate hike is possible, the Minneapolis Fed president says.",
+      "credibility_weight": 0.7,
+      "relevance_score": 127.8094,
+      "related_assets": [
+        "BTC",
+        "DXY",
+        "QQQ",
+        "SPY",
+        "TLT"
+      ],
+      "impact_direction": "mixed",
+      "impact_strength": "high",
+      "asset_impacts": [
+        {
+          "asset": "QQQ",
+          "asset_class": "equity",
+          "direction": "negative",
+          "strength": "high",
+          "reason": "鹰派政策提高折现率，压制成长股估值。"
+        },
+        {
+          "asset": "SPY",
+          "asset_class": "equity",
+          "direction": "negative",
+          "strength": "medium",
+          "reason": "更紧政策通常削弱风险偏好。"
+        },
+        {
+          "asset": "TLT",
+          "asset_class": "rates",
+          "direction": "negative",
+          "strength": "high",
+          "reason": "利率上行通常压低长债价格。"
+        },
+        {
+          "asset": "DXY",
+          "asset_class": "fx",
+          "direction": "positive",
+          "strength": "high",
+          "reason": "更高利率预期通常支撑美元。"
+        },
+        {
+          "asset": "BTC",
+          "asset_class": "crypto",
+          "direction": "negative",
+          "strength": "high",
+          "reason": "流动性收紧通常压制高 beta 加密资产。"
+        }
+      ],
+      "event_type": "central_bank_decision",
+      "importance_tier": 1,
+      "human_importance_reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
+      "expected_market_impact": "主要影响 QQQ，方向为 negative，强度 high；鹰派政策提高折现率，压制成长股估值。",
+      "affected_regions": [
+        "China",
+        "EU",
+        "Japan",
+        "US",
+        "global"
+      ],
+      "affected_asset_classes": [
+        "crypto",
+        "equity",
+        "fx",
+        "rates"
+      ],
+      "is_routine": false,
+      "is_market_moving": true
+    },
+    {
+      "title": "Bond yields are falling as inflation pops. The Fed’s tough talk under Warsh is helping.",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/bond-yields-are-falling-as-inflation-pops-the-feds-tough-talk-under-warsh-is-helping-7d538b3b?mod=mw_rss_topstories",
+      "published_at": "2026-06-26T20:38:00Z",
+      "region": "US",
+      "category": "financial_media_public",
+      "language": "en",
+      "summary": "Kevin Warsh, the new Federal Reserve chair, is helping coax Treasury yields lower by talking tough on inflation.",
+      "credibility_weight": 0.7,
+      "relevance_score": 79.8297,
+      "related_assets": [
+        "BTC",
+        "DXY",
+        "GC=F",
+        "QQQ",
+        "SPY",
+        "TLT"
+      ],
+      "impact_direction": "mixed",
+      "impact_strength": "high",
+      "asset_impacts": [
+        {
+          "asset": "DXY",
+          "asset_class": "fx",
+          "direction": "positive",
+          "strength": "high",
+          "reason": "通胀压力可能推高政策利率预期并支撑美元。"
+        },
+        {
+          "asset": "TLT",
+          "asset_class": "rates",
+          "direction": "negative",
+          "strength": "high",
+          "reason": "通胀上行通常推升收益率、压低长债价格。"
+        },
+        {
+          "asset": "QQQ",
+          "asset_class": "equity",
+          "direction": "negative",
+          "strength": "high",
+          "reason": "更高利率对成长股估值折现率不利。"
+        },
+        {
+          "asset": "SPY",
+          "asset_class": "equity",
+          "direction": "mixed",
+          "strength": "medium",
+          "reason": "名义增长可能支撑收入，但更高利率压制估值。"
+        },
+        {
+          "asset": "GC=F",
+          "asset_class": "commodity",
+          "direction": "mixed",
+          "strength": "medium",
+          "reason": "通胀对黄金是支撑，但实际利率上行会形成压力。"
+        },
+        {
+          "asset": "BTC",
+          "asset_class": "crypto",
+          "direction": "mixed",
+          "strength": "medium",
+          "reason": "抗通胀叙事和流动性收紧可能相互抵消。"
+        }
+      ],
+      "event_type": "central_bank_speech",
+      "importance_tier": 2,
+      "human_importance_reason": "央行官员表态可能影响市场对下一次会议的定价。",
+      "expected_market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
+      "affected_regions": [
+        "China",
+        "EU",
+        "Japan",
+        "US",
+        "global"
+      ],
+      "affected_asset_classes": [
+        "commodity",
+        "crypto",
+        "equity",
+        "fx",
+        "rates"
+      ],
+      "is_routine": false,
+      "is_market_moving": true
+    },
+    {
+      "title": "Chicago Fed President Goolsbee says inflation is too high; Williams sees price pressures easing",
+      "source": "CNBC Economy",
+      "url": "https://www.cnbc.com/2026/06/25/chicago-fed-president-goolsbee-says-inflation-is-too-high-calls-warsh-a-serious-guy.html",
+      "published_at": "2026-06-25T21:03:16Z",
+      "region": "US",
+      "category": "financial_media_public",
+      "language": "en",
+      "summary": "In a live CNBC interview from his home district, Goolsbee declined to speculate on where he thinks interest rates are headed.",
+      "credibility_weight": 0.75,
+      "relevance_score": 77.3599,
+      "related_assets": [
+        "BTC",
+        "DXY",
+        "GC=F",
+        "QQQ",
+        "SPY",
+        "TLT"
+      ],
+      "impact_direction": "mixed",
+      "impact_strength": "high",
+      "asset_impacts": [
+        {
+          "asset": "DXY",
+          "asset_class": "fx",
+          "direction": "positive",
+          "strength": "high",
+          "reason": "通胀压力可能推高政策利率预期并支撑美元。"
+        },
+        {
+          "asset": "TLT",
+          "asset_class": "rates",
+          "direction": "negative",
+          "strength": "high",
+          "reason": "通胀上行通常推升收益率、压低长债价格。"
+        },
+        {
+          "asset": "QQQ",
+          "asset_class": "equity",
+          "direction": "negative",
+          "strength": "high",
+          "reason": "更高利率对成长股估值折现率不利。"
+        },
+        {
+          "asset": "SPY",
+          "asset_class": "equity",
+          "direction": "positive",
+          "strength": "high",
+          "reason": "宽松政策通常改善风险偏好。"
+        },
+        {
+          "asset": "GC=F",
+          "asset_class": "commodity",
+          "direction": "mixed",
+          "strength": "medium",
+          "reason": "通胀对黄金是支撑，但实际利率上行会形成压力。"
+        },
+        {
+          "asset": "BTC",
+          "asset_class": "crypto",
+          "direction": "positive",
+          "strength": "high",
+          "reason": "流动性改善通常支持加密资产。"
+        }
+      ],
+      "event_type": "central_bank_speech",
+      "importance_tier": 2,
+      "human_importance_reason": "央行官员表态可能影响市场对下一次会议的定价。",
+      "expected_market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
+      "affected_regions": [
+        "China",
+        "EU",
+        "Japan",
+        "US",
+        "global"
+      ],
+      "affected_asset_classes": [
+        "commodity",
+        "crypto",
+        "equity",
+        "fx",
+        "rates"
+      ],
+      "is_routine": false,
+      "is_market_moving": true
+    },
+    {
+      "title": "SEC, CFTC Seek Public Comment on the Harmonization of Portfolio Margining Frameworks",
+      "source": "SEC Press Releases",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-59-sec-cftc-seek-public-comment-harmonization-portfolio-margining-frameworks",
+      "published_at": "2026-06-26T08:58:32-04:00",
+      "region": "US",
+      "category": "crypto_policy",
+      "language": "en",
+      "summary": "The Securities and Exchange Commission and the Commodity Futures Trading Commission today issued a joint request for public comment on potential approaches to further harmonize regulatory frameworks applicable to portfolio margining across securities,…",
+      "credibility_weight": 0.95,
+      "relevance_score": 75.7289,
+      "related_assets": [
+        "BTC",
+        "COIN",
+        "ETH",
+        "crypto market"
+      ],
+      "impact_direction": "mixed",
+      "impact_strength": "high",
+      "asset_impacts": [
+        {
+          "asset": "BTC",
+          "asset_class": "crypto",
+          "direction": "mixed",
+          "strength": "high",
+          "reason": "加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。"
+        },
+        {
+          "asset": "ETH",
+          "asset_class": "crypto",
+          "direction": "mixed",
+          "strength": "high",
+          "reason": "监管框架会影响 ETH 产品化和机构参与度。"
+        },
+        {
+          "asset": "COIN",
+          "asset_class": "equity",
+          "direction": "mixed",
+          "strength": "medium",
+          "reason": "监管清晰度和执法风险会影响交易平台估值。"
+        },
+        {
+          "asset": "crypto market",
+          "asset_class": "crypto",
+          "direction": "mixed",
+          "strength": "high",
+          "reason": "信息影响整个加密市场结构，但方向取决于细节。"
+        }
+      ],
+      "event_type": "regulation",
+      "importance_tier": 2,
+      "human_importance_reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "expected_market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "affected_regions": [
+        "China",
+        "EU",
+        "US",
+        "global"
+      ],
+      "affected_asset_classes": [
+        "crypto",
+        "equity"
+      ],
+      "is_routine": false,
+      "is_market_moving": true
+    },
+    {
+      "title": "Asset management giant Invesco files for tokenized fund targeting stablecoin reserve market",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/06/25/asset-management-giant-invesco-files-for-tokenized-fund-targeting-stablecoin-reserve-market",
+      "published_at": "2026-06-25T20:47:24Z",
+      "region": "global",
+      "category": "financial_media_public",
+      "language": "en",
+      "summary": "Asset management giant Invesco files for tokenized fund targeting stablecoin reserve market",
+      "credibility_weight": 0.7,
+      "relevance_score": 73.1805,
+      "related_assets": [
+        "BTC",
+        "COIN",
+        "ETH",
+        "crypto market"
+      ],
+      "impact_direction": "mixed",
+      "impact_strength": "high",
+      "asset_impacts": [
+        {
+          "asset": "BTC",
+          "asset_class": "crypto",
+          "direction": "mixed",
+          "strength": "high",
+          "reason": "加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。"
+        },
+        {
+          "asset": "ETH",
+          "asset_class": "crypto",
+          "direction": "mixed",
+          "strength": "high",
+          "reason": "监管框架会影响 ETH 产品化和机构参与度。"
+        },
+        {
+          "asset": "COIN",
+          "asset_class": "equity",
+          "direction": "mixed",
+          "strength": "medium",
+          "reason": "监管清晰度和执法风险会影响交易平台估值。"
+        },
+        {
+          "asset": "crypto market",
+          "asset_class": "crypto",
+          "direction": "mixed",
+          "strength": "high",
+          "reason": "信息影响整个加密市场结构，但方向取决于细节。"
+        }
+      ],
+      "event_type": "crypto_market_structure",
+      "importance_tier": 2,
+      "human_importance_reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
+      "expected_market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "affected_regions": [
+        "US",
+        "global"
+      ],
+      "affected_asset_classes": [
+        "crypto",
+        "equity"
+      ],
+      "is_routine": false,
+      "is_market_moving": true
+    },
+    {
+      "title": "Federal Reserve Board issues enforcement action with employee of Bank of Eufaula and S N B Bancshares, Inc.",
+      "source": "Federal Reserve Press Releases",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260625b.htm",
+      "published_at": "2026-06-25T15:00:00Z",
+      "region": "US",
+      "category": "central_banks",
+      "language": "en",
+      "summary": "Federal Reserve Board issues enforcement action with employee of Bank of Eufaula and S N B Bancshares, Inc.",
+      "credibility_weight": 1.0,
+      "relevance_score": 65.4372,
+      "related_assets": [],
+      "impact_direction": "unknown",
+      "impact_strength": "low",
+      "asset_impacts": [],
+      "event_type": "regulation",
+      "importance_tier": 2,
+      "human_importance_reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "expected_market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "affected_regions": [
+        "China",
+        "EU",
+        "US",
+        "global"
+      ],
+      "affected_asset_classes": [],
+      "is_routine": false,
+      "is_market_moving": true
+    },
+    {
+      "title": "Federal Reserve Board announces termination of enforcement action with Jiko Group, Inc.",
+      "source": "Federal Reserve Press Releases",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260625a.htm",
+      "published_at": "2026-06-25T15:00:00Z",
+      "region": "US",
+      "category": "central_banks",
+      "language": "en",
+      "summary": "Federal Reserve Board announces termination of enforcement action with Jiko Group, Inc.",
+      "credibility_weight": 1.0,
+      "relevance_score": 65.4372,
+      "related_assets": [],
+      "impact_direction": "unknown",
+      "impact_strength": "low",
+      "asset_impacts": [],
+      "event_type": "regulation",
+      "importance_tier": 2,
+      "human_importance_reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "expected_market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "affected_regions": [
+        "China",
+        "EU",
+        "US",
+        "global"
+      ],
+      "affected_asset_classes": [],
+      "is_routine": false,
+      "is_market_moving": true
+    },
+    {
+      "title": "Speech by Board Member TAMURA in Hyogo (Economic Activity, Prices, and Monetary Policy in Japan)",
+      "source": "Bank of Japan Announcements",
+      "url": "http://www.boj.or.jp/en/about/press/koen_2026/ko260625a.htm",
+      "published_at": "2026-06-25T10:00:00+09:00",
+      "region": "Japan",
+      "category": "central_banks",
+      "language": "en",
+      "summary": "Speech by Board Member TAMURA in Hyogo (Economic Activity, Prices, and Monetary Policy in Japan)",
+      "credibility_weight": 1.0,
+      "relevance_score": 63.8816,
+      "related_assets": [],
+      "impact_direction": "unknown",
+      "impact_strength": "low",
+      "asset_impacts": [],
+      "event_type": "central_bank_speech",
+      "importance_tier": 2,
+      "human_importance_reason": "央行官员表态可能影响市场对下一次会议的定价。",
+      "expected_market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "affected_regions": [
+        "China",
+        "EU",
+        "Japan",
+        "US",
+        "global"
+      ],
+      "affected_asset_classes": [],
+      "is_routine": false,
+      "is_market_moving": true
+    },
+    {
+      "title": "Bond ETF flows surge in hunt for yield: 'Market sniffing out something here,' says BlackRock exec",
+      "source": "CNBC Economy",
+      "url": "https://www.cnbc.com/2026/06/25/inflation-fed-bond-etf-flows-surge-blackrock.html",
+      "published_at": "2026-06-25T17:29:00Z",
+      "region": "US",
+      "category": "financial_media_public",
+      "language": "en",
+      "summary": "Bond investors are abandoning aggregate benchmarks in favor of a broad mix of fixed-income investments to maximize yield with the stock market on edge.",
+      "credibility_weight": 0.75,
+      "relevance_score": 24.9631,
+      "related_assets": [
+        "BTC",
+        "COIN",
+        "ETH",
+        "crypto market"
+      ],
+      "impact_direction": "mixed",
+      "impact_strength": "high",
+      "asset_impacts": [
+        {
+          "asset": "BTC",
+          "asset_class": "crypto",
+          "direction": "mixed",
+          "strength": "high",
+          "reason": "加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。"
+        },
+        {
+          "asset": "ETH",
+          "asset_class": "crypto",
+          "direction": "mixed",
+          "strength": "high",
+          "reason": "监管框架会影响 ETH 产品化和机构参与度。"
+        },
+        {
+          "asset": "COIN",
+          "asset_class": "equity",
+          "direction": "mixed",
+          "strength": "medium",
+          "reason": "监管清晰度和执法风险会影响交易平台估值。"
+        },
+        {
+          "asset": "crypto market",
+          "asset_class": "crypto",
+          "direction": "mixed",
+          "strength": "high",
+          "reason": "信息影响整个加密市场结构，但方向取决于细节。"
+        }
+      ],
+      "event_type": "other",
+      "importance_tier": 3,
+      "human_importance_reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "expected_market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "affected_regions": [
+        "US"
+      ],
+      "affected_asset_classes": [
+        "crypto",
+        "equity"
+      ],
+      "is_routine": false,
+      "is_market_moving": false
+    }
+  ],
+  "policy_watch": [
+    {
+      "title": "Minneapolis Fed President Neel Kashkari says he expects a rate hike this year",
+      "source": "CNBC Economy",
+      "url": "https://www.cnbc.com/2026/06/26/minneapolis-fed-president-neel-kashkari-says-he-expects-a-rate-hike-this-year.html",
+      "published_at": "2026-06-26T16:04:42Z",
+      "region": "US",
+      "category": "financial_media_public",
+      "language": "en",
+      "summary": "Kashkari said he sees a hike likely this year as the economy continues to feel the hit from spiking inflation.",
+      "credibility_weight": 0.75,
+      "relevance_score": 129.4736,
+      "related_assets": [
+        "BTC",
+        "DXY",
+        "GC=F",
+        "QQQ",
+        "SPY",
+        "TLT"
+      ],
+      "impact_direction": "mixed",
+      "impact_strength": "high",
+      "asset_impacts": [
+        {
+          "asset": "DXY",
+          "asset_class": "fx",
+          "direction": "positive",
+          "strength": "high",
+          "reason": "通胀压力可能推高政策利率预期并支撑美元。"
+        },
+        {
+          "asset": "TLT",
+          "asset_class": "rates",
+          "direction": "negative",
+          "strength": "high",
+          "reason": "通胀上行通常推升收益率、压低长债价格。"
+        },
+        {
+          "asset": "QQQ",
+          "asset_class": "equity",
+          "direction": "negative",
+          "strength": "high",
+          "reason": "更高利率对成长股估值折现率不利。"
+        },
+        {
+          "asset": "SPY",
+          "asset_class": "equity",
+          "direction": "mixed",
+          "strength": "medium",
+          "reason": "名义增长可能支撑收入，但更高利率压制估值。"
+        },
+        {
+          "asset": "GC=F",
+          "asset_class": "commodity",
+          "direction": "mixed",
+          "strength": "medium",
+          "reason": "通胀对黄金是支撑，但实际利率上行会形成压力。"
+        },
+        {
+          "asset": "BTC",
+          "asset_class": "crypto",
+          "direction": "negative",
+          "strength": "high",
+          "reason": "流动性收紧通常压制高 beta 加密资产。"
+        }
+      ],
+      "event_type": "central_bank_decision",
+      "importance_tier": 1,
+      "human_importance_reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
+      "expected_market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
+      "affected_regions": [
+        "China",
+        "EU",
+        "Japan",
+        "US",
+        "global"
+      ],
+      "affected_asset_classes": [
+        "commodity",
+        "crypto",
+        "equity",
+        "fx",
+        "rates"
+      ],
+      "is_routine": false,
+      "is_market_moving": true
+    },
+    {
+      "title": "Fed’s Kashkari now projects one interest-rate hike this year. Here’s what changed his mind.",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/feds-kashkari-projects-one-interest-rate-hike-this-year-heres-what-changed-his-mind-3a6b428c?mod=mw_rss_topstories",
+      "published_at": "2026-06-26T20:27:00Z",
+      "region": "US",
+      "category": "financial_media_public",
+      "language": "en",
+      "summary": "Doubts over the U.S.-Iran peace deal and the AI buildup mean a rate hike is possible, the Minneapolis Fed president says.",
+      "credibility_weight": 0.7,
+      "relevance_score": 127.8094,
+      "related_assets": [
+        "BTC",
+        "DXY",
+        "QQQ",
+        "SPY",
+        "TLT"
+      ],
+      "impact_direction": "mixed",
+      "impact_strength": "high",
+      "asset_impacts": [
+        {
+          "asset": "QQQ",
+          "asset_class": "equity",
+          "direction": "negative",
+          "strength": "high",
+          "reason": "鹰派政策提高折现率，压制成长股估值。"
+        },
+        {
+          "asset": "SPY",
+          "asset_class": "equity",
+          "direction": "negative",
+          "strength": "medium",
+          "reason": "更紧政策通常削弱风险偏好。"
+        },
+        {
+          "asset": "TLT",
+          "asset_class": "rates",
+          "direction": "negative",
+          "strength": "high",
+          "reason": "利率上行通常压低长债价格。"
+        },
+        {
+          "asset": "DXY",
+          "asset_class": "fx",
+          "direction": "positive",
+          "strength": "high",
+          "reason": "更高利率预期通常支撑美元。"
+        },
+        {
+          "asset": "BTC",
+          "asset_class": "crypto",
+          "direction": "negative",
+          "strength": "high",
+          "reason": "流动性收紧通常压制高 beta 加密资产。"
+        }
+      ],
+      "event_type": "central_bank_decision",
+      "importance_tier": 1,
+      "human_importance_reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
+      "expected_market_impact": "主要影响 QQQ，方向为 negative，强度 high；鹰派政策提高折现率，压制成长股估值。",
+      "affected_regions": [
+        "China",
+        "EU",
+        "Japan",
+        "US",
+        "global"
+      ],
+      "affected_asset_classes": [
+        "crypto",
+        "equity",
+        "fx",
+        "rates"
+      ],
+      "is_routine": false,
+      "is_market_moving": true
+    },
+    {
+      "title": "Bond yields are falling as inflation pops. The Fed’s tough talk under Warsh is helping.",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/bond-yields-are-falling-as-inflation-pops-the-feds-tough-talk-under-warsh-is-helping-7d538b3b?mod=mw_rss_topstories",
+      "published_at": "2026-06-26T20:38:00Z",
+      "region": "US",
+      "category": "financial_media_public",
+      "language": "en",
+      "summary": "Kevin Warsh, the new Federal Reserve chair, is helping coax Treasury yields lower by talking tough on inflation.",
+      "credibility_weight": 0.7,
+      "relevance_score": 79.8297,
+      "related_assets": [
+        "BTC",
+        "DXY",
+        "GC=F",
+        "QQQ",
+        "SPY",
+        "TLT"
+      ],
+      "impact_direction": "mixed",
+      "impact_strength": "high",
+      "asset_impacts": [
+        {
+          "asset": "DXY",
+          "asset_class": "fx",
+          "direction": "positive",
+          "strength": "high",
+          "reason": "通胀压力可能推高政策利率预期并支撑美元。"
+        },
+        {
+          "asset": "TLT",
+          "asset_class": "rates",
+          "direction": "negative",
+          "strength": "high",
+          "reason": "通胀上行通常推升收益率、压低长债价格。"
+        },
+        {
+          "asset": "QQQ",
+          "asset_class": "equity",
+          "direction": "negative",
+          "strength": "high",
+          "reason": "更高利率对成长股估值折现率不利。"
+        },
+        {
+          "asset": "SPY",
+          "asset_class": "equity",
+          "direction": "mixed",
+          "strength": "medium",
+          "reason": "名义增长可能支撑收入，但更高利率压制估值。"
+        },
+        {
+          "asset": "GC=F",
+          "asset_class": "commodity",
+          "direction": "mixed",
+          "strength": "medium",
+          "reason": "通胀对黄金是支撑，但实际利率上行会形成压力。"
+        },
+        {
+          "asset": "BTC",
+          "asset_class": "crypto",
+          "direction": "mixed",
+          "strength": "medium",
+          "reason": "抗通胀叙事和流动性收紧可能相互抵消。"
+        }
+      ],
+      "event_type": "central_bank_speech",
+      "importance_tier": 2,
+      "human_importance_reason": "央行官员表态可能影响市场对下一次会议的定价。",
+      "expected_market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
+      "affected_regions": [
+        "China",
+        "EU",
+        "Japan",
+        "US",
+        "global"
+      ],
+      "affected_asset_classes": [
+        "commodity",
+        "crypto",
+        "equity",
+        "fx",
+        "rates"
+      ],
+      "is_routine": false,
+      "is_market_moving": true
+    },
+    {
+      "title": "Chicago Fed President Goolsbee says inflation is too high; Williams sees price pressures easing",
+      "source": "CNBC Economy",
+      "url": "https://www.cnbc.com/2026/06/25/chicago-fed-president-goolsbee-says-inflation-is-too-high-calls-warsh-a-serious-guy.html",
+      "published_at": "2026-06-25T21:03:16Z",
+      "region": "US",
+      "category": "financial_media_public",
+      "language": "en",
+      "summary": "In a live CNBC interview from his home district, Goolsbee declined to speculate on where he thinks interest rates are headed.",
+      "credibility_weight": 0.75,
+      "relevance_score": 77.3599,
+      "related_assets": [
+        "BTC",
+        "DXY",
+        "GC=F",
+        "QQQ",
+        "SPY",
+        "TLT"
+      ],
+      "impact_direction": "mixed",
+      "impact_strength": "high",
+      "asset_impacts": [
+        {
+          "asset": "DXY",
+          "asset_class": "fx",
+          "direction": "positive",
+          "strength": "high",
+          "reason": "通胀压力可能推高政策利率预期并支撑美元。"
+        },
+        {
+          "asset": "TLT",
+          "asset_class": "rates",
+          "direction": "negative",
+          "strength": "high",
+          "reason": "通胀上行通常推升收益率、压低长债价格。"
+        },
+        {
+          "asset": "QQQ",
+          "asset_class": "equity",
+          "direction": "negative",
+          "strength": "high",
+          "reason": "更高利率对成长股估值折现率不利。"
+        },
+        {
+          "asset": "SPY",
+          "asset_class": "equity",
+          "direction": "positive",
+          "strength": "high",
+          "reason": "宽松政策通常改善风险偏好。"
+        },
+        {
+          "asset": "GC=F",
+          "asset_class": "commodity",
+          "direction": "mixed",
+          "strength": "medium",
+          "reason": "通胀对黄金是支撑，但实际利率上行会形成压力。"
+        },
+        {
+          "asset": "BTC",
+          "asset_class": "crypto",
+          "direction": "positive",
+          "strength": "high",
+          "reason": "流动性改善通常支持加密资产。"
+        }
+      ],
+      "event_type": "central_bank_speech",
+      "importance_tier": 2,
+      "human_importance_reason": "央行官员表态可能影响市场对下一次会议的定价。",
+      "expected_market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
+      "affected_regions": [
+        "China",
+        "EU",
+        "Japan",
+        "US",
+        "global"
+      ],
+      "affected_asset_classes": [
+        "commodity",
+        "crypto",
+        "equity",
+        "fx",
+        "rates"
+      ],
+      "is_routine": false,
+      "is_market_moving": true
+    },
+    {
+      "title": "SEC, CFTC Seek Public Comment on the Harmonization of Portfolio Margining Frameworks",
+      "source": "SEC Press Releases",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-59-sec-cftc-seek-public-comment-harmonization-portfolio-margining-frameworks",
+      "published_at": "2026-06-26T08:58:32-04:00",
+      "region": "US",
+      "category": "crypto_policy",
+      "language": "en",
+      "summary": "The Securities and Exchange Commission and the Commodity Futures Trading Commission today issued a joint request for public comment on potential approaches to further harmonize regulatory frameworks applicable to portfolio margining across securities,…",
+      "credibility_weight": 0.95,
+      "relevance_score": 75.7289,
+      "related_assets": [
+        "BTC",
+        "COIN",
+        "ETH",
+        "crypto market"
+      ],
+      "impact_direction": "mixed",
+      "impact_strength": "high",
+      "asset_impacts": [
+        {
+          "asset": "BTC",
+          "asset_class": "crypto",
+          "direction": "mixed",
+          "strength": "high",
+          "reason": "加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。"
+        },
+        {
+          "asset": "ETH",
+          "asset_class": "crypto",
+          "direction": "mixed",
+          "strength": "high",
+          "reason": "监管框架会影响 ETH 产品化和机构参与度。"
+        },
+        {
+          "asset": "COIN",
+          "asset_class": "equity",
+          "direction": "mixed",
+          "strength": "medium",
+          "reason": "监管清晰度和执法风险会影响交易平台估值。"
+        },
+        {
+          "asset": "crypto market",
+          "asset_class": "crypto",
+          "direction": "mixed",
+          "strength": "high",
+          "reason": "信息影响整个加密市场结构，但方向取决于细节。"
+        }
+      ],
+      "event_type": "regulation",
+      "importance_tier": 2,
+      "human_importance_reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "expected_market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "affected_regions": [
+        "China",
+        "EU",
+        "US",
+        "global"
+      ],
+      "affected_asset_classes": [
+        "crypto",
+        "equity"
+      ],
+      "is_routine": false,
+      "is_market_moving": true
+    },
+    {
+      "title": "Asset management giant Invesco files for tokenized fund targeting stablecoin reserve market",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/06/25/asset-management-giant-invesco-files-for-tokenized-fund-targeting-stablecoin-reserve-market",
+      "published_at": "2026-06-25T20:47:24Z",
+      "region": "global",
+      "category": "financial_media_public",
+      "language": "en",
+      "summary": "Asset management giant Invesco files for tokenized fund targeting stablecoin reserve market",
+      "credibility_weight": 0.7,
+      "relevance_score": 73.1805,
+      "related_assets": [
+        "BTC",
+        "COIN",
+        "ETH",
+        "crypto market"
+      ],
+      "impact_direction": "mixed",
+      "impact_strength": "high",
+      "asset_impacts": [
+        {
+          "asset": "BTC",
+          "asset_class": "crypto",
+          "direction": "mixed",
+          "strength": "high",
+          "reason": "加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。"
+        },
+        {
+          "asset": "ETH",
+          "asset_class": "crypto",
+          "direction": "mixed",
+          "strength": "high",
+          "reason": "监管框架会影响 ETH 产品化和机构参与度。"
+        },
+        {
+          "asset": "COIN",
+          "asset_class": "equity",
+          "direction": "mixed",
+          "strength": "medium",
+          "reason": "监管清晰度和执法风险会影响交易平台估值。"
+        },
+        {
+          "asset": "crypto market",
+          "asset_class": "crypto",
+          "direction": "mixed",
+          "strength": "high",
+          "reason": "信息影响整个加密市场结构，但方向取决于细节。"
+        }
+      ],
+      "event_type": "crypto_market_structure",
+      "importance_tier": 2,
+      "human_importance_reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
+      "expected_market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "affected_regions": [
+        "US",
+        "global"
+      ],
+      "affected_asset_classes": [
+        "crypto",
+        "equity"
+      ],
+      "is_routine": false,
+      "is_market_moving": true
+    },
+    {
+      "title": "Federal Reserve Board issues enforcement action with employee of Bank of Eufaula and S N B Bancshares, Inc.",
+      "source": "Federal Reserve Press Releases",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260625b.htm",
+      "published_at": "2026-06-25T15:00:00Z",
+      "region": "US",
+      "category": "central_banks",
+      "language": "en",
+      "summary": "Federal Reserve Board issues enforcement action with employee of Bank of Eufaula and S N B Bancshares, Inc.",
+      "credibility_weight": 1.0,
+      "relevance_score": 65.4372,
+      "related_assets": [],
+      "impact_direction": "unknown",
+      "impact_strength": "low",
+      "asset_impacts": [],
+      "event_type": "regulation",
+      "importance_tier": 2,
+      "human_importance_reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "expected_market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "affected_regions": [
+        "China",
+        "EU",
+        "US",
+        "global"
+      ],
+      "affected_asset_classes": [],
+      "is_routine": false,
+      "is_market_moving": true
+    },
+    {
+      "title": "Federal Reserve Board announces termination of enforcement action with Jiko Group, Inc.",
+      "source": "Federal Reserve Press Releases",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260625a.htm",
+      "published_at": "2026-06-25T15:00:00Z",
+      "region": "US",
+      "category": "central_banks",
+      "language": "en",
+      "summary": "Federal Reserve Board announces termination of enforcement action with Jiko Group, Inc.",
+      "credibility_weight": 1.0,
+      "relevance_score": 65.4372,
+      "related_assets": [],
+      "impact_direction": "unknown",
+      "impact_strength": "low",
+      "asset_impacts": [],
+      "event_type": "regulation",
+      "importance_tier": 2,
+      "human_importance_reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "expected_market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "affected_regions": [
+        "China",
+        "EU",
+        "US",
+        "global"
+      ],
+      "affected_asset_classes": [],
+      "is_routine": false,
+      "is_market_moving": true
+    },
+    {
+      "title": "Speech by Board Member TAMURA in Hyogo (Economic Activity, Prices, and Monetary Policy in Japan)",
+      "source": "Bank of Japan Announcements",
+      "url": "http://www.boj.or.jp/en/about/press/koen_2026/ko260625a.htm",
+      "published_at": "2026-06-25T10:00:00+09:00",
+      "region": "Japan",
+      "category": "central_banks",
+      "language": "en",
+      "summary": "Speech by Board Member TAMURA in Hyogo (Economic Activity, Prices, and Monetary Policy in Japan)",
+      "credibility_weight": 1.0,
+      "relevance_score": 63.8816,
+      "related_assets": [],
+      "impact_direction": "unknown",
+      "impact_strength": "low",
+      "asset_impacts": [],
+      "event_type": "central_bank_speech",
+      "importance_tier": 2,
+      "human_importance_reason": "央行官员表态可能影响市场对下一次会议的定价。",
+      "expected_market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "affected_regions": [
+        "China",
+        "EU",
+        "Japan",
+        "US",
+        "global"
+      ],
+      "affected_asset_classes": [],
+      "is_routine": false,
+      "is_market_moving": true
+    }
+  ],
+  "background_materials": [
+    {
+      "title": "Healthcare stocks have become a haven for investors ditching tech",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/healthcare-stocks-have-become-a-haven-for-investors-ditching-tech-81c544d0?mod=mw_rss_topstories",
+      "published_at": "2026-06-26T20:25:00Z",
+      "region": "US",
+      "category": "financial_media_public",
+      "language": "en",
+      "summary": "Shares of AbbVie, Eli Lilly and Johnson & Johnson were on track to hit all-time highs Friday, in the latest signal that investor appetite for the biopharmaceutical sector is back.",
+      "credibility_weight": 0.7,
+      "relevance_score": 19.8057,
+      "related_assets": [],
+      "impact_direction": "unknown",
+      "impact_strength": "low",
+      "asset_impacts": [],
+      "event_type": "other",
+      "importance_tier": 3,
+      "human_importance_reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "expected_market_impact": "更偏背景信息，短期市场影响可能有限。",
+      "affected_regions": [
+        "US"
+      ],
+      "affected_asset_classes": [],
+      "is_routine": false,
+      "is_market_moving": false
+    },
+    {
+      "title": "Aave, Solana ecosystem tokens lead crypto rebound as bitcoin steadies near $60,000",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/06/26/aave-solana-ecosystem-tokens-lead-crypto-rebound-as-bitcoin-steadies-near-usd60-000",
+      "published_at": "2026-06-26T20:15:03Z",
+      "region": "global",
+      "category": "financial_media_public",
+      "language": "en",
+      "summary": "Aave, Solana ecosystem tokens lead crypto rebound as bitcoin steadies near $60,000",
+      "credibility_weight": 0.7,
+      "relevance_score": 19.7872,
+      "related_assets": [],
+      "impact_direction": "unknown",
+      "impact_strength": "low",
+      "asset_impacts": [],
+      "event_type": "other",
+      "importance_tier": 3,
+      "human_importance_reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "expected_market_impact": "更偏背景信息，短期市场影响可能有限。",
+      "affected_regions": [
+        "global"
+      ],
+      "affected_asset_classes": [],
+      "is_routine": false,
+      "is_market_moving": false
+    },
+    {
+      "title": "Anti-trafficking group says Clarity Act's Section 604 could weaken accountability",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/06/26/anti-trafficking-group-warns-clarity-act-s-section-604-could-weaken-accountability",
+      "published_at": "2026-06-26T18:24:24Z",
+      "region": "global",
+      "category": "financial_media_public",
+      "language": "en",
+      "summary": "Anti-trafficking group says Clarity Act's Section 604 could weaken accountability",
+      "credibility_weight": 0.7,
+      "relevance_score": 19.5823,
+      "related_assets": [],
+      "impact_direction": "unknown",
+      "impact_strength": "low",
+      "asset_impacts": [],
+      "event_type": "other",
+      "importance_tier": 3,
+      "human_importance_reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "expected_market_impact": "更偏背景信息，短期市场影响可能有限。",
+      "affected_regions": [
+        "global"
+      ],
+      "affected_asset_classes": [],
+      "is_routine": false,
+      "is_market_moving": false
+    },
+    {
+      "title": "Securitize expects to raise $400 million as tokenization firm nears public debut",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/06/26/securitize-expects-to-raise-usd400-million-as-tokenization-firm-nears-public-debut",
+      "published_at": "2026-06-26T15:04:44Z",
+      "region": "global",
+      "category": "financial_media_public",
+      "language": "en",
+      "summary": "Securitize expects to raise $400 million as tokenization firm nears public debut",
+      "credibility_weight": 0.7,
+      "relevance_score": 19.2126,
+      "related_assets": [],
+      "impact_direction": "unknown",
+      "impact_strength": "low",
+      "asset_impacts": [],
+      "event_type": "other",
+      "importance_tier": 3,
+      "human_importance_reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "expected_market_impact": "更偏背景信息，短期市场影响可能有限。",
+      "affected_regions": [
+        "global"
+      ],
+      "affected_asset_classes": [],
+      "is_routine": false,
+      "is_market_moving": false
+    },
+    {
+      "title": "Wall Street's IPO revival hasn't reached dot-com euphoria levels, Goldman Sachs says",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/06/26/wall-street-s-ipo-revival-hasn-t-reached-dot-com-euphoria-levels-goldman-sachs-says",
+      "published_at": "2026-06-26T12:25:36Z",
+      "region": "global",
+      "category": "financial_media_public",
+      "language": "en",
+      "summary": "Wall Street's IPO revival hasn't reached dot-com euphoria levels, Goldman Sachs says",
+      "credibility_weight": 0.7,
+      "relevance_score": 18.9179,
+      "related_assets": [],
+      "impact_direction": "unknown",
+      "impact_strength": "low",
+      "asset_impacts": [],
+      "event_type": "other",
+      "importance_tier": 3,
+      "human_importance_reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "expected_market_impact": "更偏背景信息，短期市场影响可能有限。",
+      "affected_regions": [
+        "global"
+      ],
+      "affected_asset_classes": [],
+      "is_routine": false,
+      "is_market_moving": false
+    },
+    {
+      "title": "With crypto ending the first half in the red, bitcoin's solace is it beat Strategy",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/daybook-us/2026/06/26/with-crypto-ending-the-first-half-in-the-red-bitcoin-s-solace-is-it-beat-strategy",
+      "published_at": "2026-06-26T11:36:01Z",
+      "region": "global",
+      "category": "financial_media_public",
+      "language": "en",
+      "summary": "With crypto ending the first half in the red, bitcoin's solace is it beat Strategy",
+      "credibility_weight": 0.7,
+      "relevance_score": 18.8261,
+      "related_assets": [],
+      "impact_direction": "unknown",
+      "impact_strength": "low",
+      "asset_impacts": [],
+      "event_type": "other",
+      "importance_tier": 3,
+      "human_importance_reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "expected_market_impact": "更偏背景信息，短期市场影响可能有限。",
+      "affected_regions": [
+        "global"
+      ],
+      "affected_asset_classes": [],
+      "is_routine": false,
+      "is_market_moving": false
+    },
+    {
+      "title": "Bitcoin bounces from $58,000 as derivatives signal more pain in the pipeline",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/06/26/bitcoin-bounces-from-usd58-000-as-derivatives-signal-more-pain-in-the-pipeline",
+      "published_at": "2026-06-26T11:03:20Z",
+      "region": "global",
+      "category": "financial_media_public",
+      "language": "en",
+      "summary": "Bitcoin bounces from $58,000 as derivatives signal more pain in the pipeline",
+      "credibility_weight": 0.7,
+      "relevance_score": 18.7655,
+      "related_assets": [],
+      "impact_direction": "unknown",
+      "impact_strength": "low",
+      "asset_impacts": [],
+      "event_type": "other",
+      "importance_tier": 3,
+      "human_importance_reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "expected_market_impact": "更偏背景信息，短期市场影响可能有限。",
+      "affected_regions": [
+        "global"
+      ],
+      "affected_asset_classes": [],
+      "is_routine": false,
+      "is_market_moving": false
+    },
+    {
+      "title": "Binance tells EU users it will no longer provide services after failing to secure MiCA license",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/06/26/binance-tells-eu-users-it-will-no-longer-provide-services-after-failing-to-secure-mica-license",
+      "published_at": "2026-06-26T10:19:22Z",
+      "region": "global",
+      "category": "financial_media_public",
+      "language": "en",
+      "summary": "Binance tells EU users it will no longer provide services after failing to secure MiCA license",
+      "credibility_weight": 0.7,
+      "relevance_score": 18.6841,
+      "related_assets": [],
+      "impact_direction": "unknown",
+      "impact_strength": "low",
+      "asset_impacts": [],
+      "event_type": "other",
+      "importance_tier": 3,
+      "human_importance_reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "expected_market_impact": "更偏背景信息，短期市场影响可能有限。",
+      "affected_regions": [
+        "global"
+      ],
+      "affected_asset_classes": [],
+      "is_routine": false,
+      "is_market_moving": false
+    },
+    {
+      "title": "Ethereum treasury firm Sharplink buys ether for the first time in eight months",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/06/26/ethereum-treasury-firm-sharplink-takes-in-ether-for-the-first-time-in-eight-months",
+      "published_at": "2026-06-26T09:47:07Z",
+      "region": "global",
+      "category": "financial_media_public",
+      "language": "en",
+      "summary": "Ethereum treasury firm Sharplink buys ether for the first time in eight months",
+      "credibility_weight": 0.7,
+      "relevance_score": 18.6244,
+      "related_assets": [],
+      "impact_direction": "unknown",
+      "impact_strength": "low",
+      "asset_impacts": [],
+      "event_type": "other",
+      "importance_tier": 3,
+      "human_importance_reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "expected_market_impact": "更偏背景信息，短期市场影响可能有限。",
+      "affected_regions": [
+        "global"
+      ],
+      "affected_asset_classes": [],
+      "is_routine": false,
+      "is_market_moving": false
+    },
+    {
+      "title": "Grant Cardone says he will keep buying bitcoin using real estate cash flows",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/06/26/grant-cardone-says-he-will-keep-buying-bitcoin-using-real-estate-cash-flows",
+      "published_at": "2026-06-26T08:25:44Z",
+      "region": "global",
+      "category": "financial_media_public",
+      "language": "en",
+      "summary": "Grant Cardone says he will keep buying bitcoin using real estate cash flows",
+      "credibility_weight": 0.7,
+      "relevance_score": 18.4737,
+      "related_assets": [],
+      "impact_direction": "unknown",
+      "impact_strength": "low",
+      "asset_impacts": [],
+      "event_type": "other",
+      "importance_tier": 3,
+      "human_importance_reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "expected_market_impact": "更偏背景信息，短期市场影响可能有限。",
+      "affected_regions": [
+        "global"
+      ],
+      "affected_asset_classes": [],
+      "is_routine": false,
+      "is_market_moving": false
+    },
+    {
+      "title": "ECB Consumer Expectations Survey results – May 2026",
+      "source": "ECB Press Releases",
+      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260626_1~60a21704a8.en.html",
+      "published_at": "2026-06-26T10:00:00+02:00",
+      "region": "EU",
+      "category": "central_banks",
+      "language": "en",
+      "summary": "ECB Consumer Expectations Survey results – May 2026",
+      "credibility_weight": 1.0,
+      "relevance_score": 19.3261,
+      "related_assets": [],
+      "impact_direction": "unknown",
+      "impact_strength": "low",
+      "asset_impacts": [],
+      "event_type": "other",
+      "importance_tier": 3,
+      "human_importance_reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "expected_market_impact": "更偏背景信息，短期市场影响可能有限。",
+      "affected_regions": [
+        "EU"
+      ],
+      "affected_asset_classes": [],
+      "is_routine": false,
+      "is_market_moving": false
+    },
+    {
+      "title": "Too big to fail: Strategy’s $13 billion bitcoin paper loss alone dwarfs hundreds of prominent tokens",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/06/26/too-big-to-fail-strategy-s-usd13-billion-bitcoin-paper-loss-alone-dwarfs-hundreds-of-prominent-tokens",
+      "published_at": "2026-06-26T06:37:29Z",
+      "region": "global",
+      "category": "financial_media_public",
+      "language": "en",
+      "summary": "Too big to fail: Strategy’s $13 billion bitcoin paper loss alone dwarfs hundreds of prominent tokens",
+      "credibility_weight": 0.7,
+      "relevance_score": 18.2732,
+      "related_assets": [],
+      "impact_direction": "unknown",
+      "impact_strength": "low",
+      "asset_impacts": [],
+      "event_type": "other",
+      "importance_tier": 3,
+      "human_importance_reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "expected_market_impact": "更偏背景信息，短期市场影响可能有限。",
+      "affected_regions": [
+        "global"
+      ],
+      "affected_asset_classes": [],
+      "is_routine": false,
+      "is_market_moving": false
+    },
+    {
+      "title": "Live markets: Bitcoin edges higher as U.S. stocks recover from big early losses",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/tech/2026/06/26/live-markets-bitcoin-rebounds-to-nearly-usd60-000-kospi-nikkei-sink",
+      "published_at": "2026-06-26T05:10:37Z",
+      "region": "global",
+      "category": "financial_media_public",
+      "language": "en",
+      "summary": "Live markets: Bitcoin edges higher as U.S. stocks recover from big early losses",
+      "credibility_weight": 0.7,
+      "relevance_score": 18.1124,
+      "related_assets": [],
+      "impact_direction": "unknown",
+      "impact_strength": "low",
+      "asset_impacts": [],
+      "event_type": "other",
+      "importance_tier": 3,
+      "human_importance_reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "expected_market_impact": "更偏背景信息，短期市场影响可能有限。",
+      "affected_regions": [
+        "global"
+      ],
+      "affected_asset_classes": [],
+      "is_routine": false,
+      "is_market_moving": false
+    },
+    {
+      "title": "Wendy's turns lower as meme rally fails to extend to a second day",
+      "source": "CNBC Economy",
+      "url": "https://www.cnbc.com/2026/06/25/wendys-shares-soar-for-a-second-day-as-retail-investors-pile-into-their-new-meme-darling.html",
+      "published_at": "2026-06-25T20:27:33Z",
+      "region": "US",
+      "category": "financial_media_public",
+      "language": "en",
+      "summary": "The stock's volatile run appeared largely disconnected from company fundamentals and instead reflected a burst of social media enthusiasm.",
+      "credibility_weight": 0.75,
+      "relevance_score": 17.2937,
+      "related_assets": [],
+      "impact_direction": "unknown",
+      "impact_strength": "low",
+      "asset_impacts": [],
+      "event_type": "other",
+      "importance_tier": 3,
+      "human_importance_reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "expected_market_impact": "更偏背景信息，短期市场影响可能有限。",
+      "affected_regions": [
+        "US"
+      ],
+      "affected_asset_classes": [],
+      "is_routine": false,
+      "is_market_moving": false
+    },
+    {
+      "title": "Bond ETF flows surge in hunt for yield: 'Market sniffing out something here,' says BlackRock exec",
+      "source": "CNBC Economy",
+      "url": "https://www.cnbc.com/2026/06/25/inflation-fed-bond-etf-flows-surge-blackrock.html",
+      "published_at": "2026-06-25T17:29:00Z",
+      "region": "US",
+      "category": "financial_media_public",
+      "language": "en",
+      "summary": "Bond investors are abandoning aggregate benchmarks in favor of a broad mix of fixed-income investments to maximize yield with the stock market on edge.",
+      "credibility_weight": 0.75,
+      "relevance_score": 24.9631,
+      "related_assets": [
+        "BTC",
+        "COIN",
+        "ETH",
+        "crypto market"
+      ],
+      "impact_direction": "mixed",
+      "impact_strength": "high",
+      "asset_impacts": [
+        {
+          "asset": "BTC",
+          "asset_class": "crypto",
+          "direction": "mixed",
+          "strength": "high",
+          "reason": "加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。"
+        },
+        {
+          "asset": "ETH",
+          "asset_class": "crypto",
+          "direction": "mixed",
+          "strength": "high",
+          "reason": "监管框架会影响 ETH 产品化和机构参与度。"
+        },
+        {
+          "asset": "COIN",
+          "asset_class": "equity",
+          "direction": "mixed",
+          "strength": "medium",
+          "reason": "监管清晰度和执法风险会影响交易平台估值。"
+        },
+        {
+          "asset": "crypto market",
+          "asset_class": "crypto",
+          "direction": "mixed",
+          "strength": "high",
+          "reason": "信息影响整个加密市场结构，但方向取决于细节。"
+        }
+      ],
+      "event_type": "other",
+      "importance_tier": 3,
+      "human_importance_reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "expected_market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "affected_regions": [
+        "US"
+      ],
+      "affected_asset_classes": [
+        "crypto",
+        "equity"
+      ],
+      "is_routine": false,
+      "is_market_moving": false
+    },
+    {
+      "title": "Piero Cipollone: Central bank money for the digital era",
+      "source": "ECB Press Releases",
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260625~db26a75179.en.pdf",
+      "published_at": "2026-06-25T14:00:00+02:00",
+      "region": "EU",
+      "category": "central_banks",
+      "language": "en",
+      "summary": "Piero Cipollone: Central bank money for the digital era",
+      "credibility_weight": 1.0,
+      "relevance_score": 17.1038,
+      "related_assets": [],
+      "impact_direction": "unknown",
+      "impact_strength": "low",
+      "asset_impacts": [],
+      "event_type": "other",
+      "importance_tier": 3,
+      "human_importance_reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "expected_market_impact": "更偏背景信息，短期市场影响可能有限。",
+      "affected_regions": [
+        "EU"
+      ],
+      "affected_asset_classes": [],
+      "is_routine": false,
+      "is_market_moving": false
+    },
+    {
+      "title": "ECB to integrate non-financial credit claim portfolios into general collateral framework, phasing out temporary measures",
+      "source": "ECB Press Releases",
+      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260625~edee181785.en.html",
+      "published_at": "2026-06-25T10:00:00+02:00",
+      "region": "EU",
+      "category": "central_banks",
+      "language": "en",
+      "summary": "ECB to integrate non-financial credit claim portfolios into general collateral framework, phasing out temporary measures",
+      "credibility_weight": 1.0,
+      "relevance_score": 16.6594,
+      "related_assets": [],
+      "impact_direction": "unknown",
+      "impact_strength": "low",
+      "asset_impacts": [],
+      "event_type": "other",
+      "importance_tier": 3,
+      "human_importance_reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "expected_market_impact": "更偏背景信息，短期市场影响可能有限。",
+      "affected_regions": [
+        "EU"
+      ],
+      "affected_asset_classes": [],
+      "is_routine": false,
+      "is_market_moving": false
+    },
+    {
+      "title": "Isabel Schnabel: Interview with Die Zeit",
+      "source": "ECB Press Releases",
+      "url": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260626~c18c7252f3.en.html",
+      "published_at": "2026-06-25T09:00:00+02:00",
+      "region": "EU",
+      "category": "central_banks",
+      "language": "en",
+      "summary": "Isabel Schnabel: Interview with Die Zeit",
+      "credibility_weight": 1.0,
+      "relevance_score": 16.5483,
+      "related_assets": [],
+      "impact_direction": "unknown",
+      "impact_strength": "low",
+      "asset_impacts": [],
+      "event_type": "other",
+      "importance_tier": 3,
+      "human_importance_reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "expected_market_impact": "更偏背景信息，短期市场影响可能有限。",
+      "affected_regions": [
+        "EU"
+      ],
+      "affected_asset_classes": [],
+      "is_routine": false,
+      "is_market_moving": false
+    },
+    {
+      "title": "Flow of Funds Accounts (Retroactive Revision and 1st Quarter 2026, Preliminary Figures)",
+      "source": "Bank of Japan Announcements",
+      "url": "http://www.boj.or.jp/en/statistics/sj/sj.htm",
+      "published_at": "2026-06-25T08:50:00+09:00",
+      "region": "Japan",
+      "category": "central_banks",
+      "language": "en",
+      "summary": "Flow of Funds Accounts (Retroactive Revision and 1st Quarter 2026, Preliminary Figures)",
+      "credibility_weight": 1.0,
+      "relevance_score": -4.248,
+      "related_assets": [],
+      "impact_direction": "unknown",
+      "impact_strength": "low",
+      "asset_impacts": [],
+      "event_type": "routine_announcement",
+      "importance_tier": 3,
+      "human_importance_reason": "普通统计表、账户或例行公告通常不构成市场主线。",
+      "expected_market_impact": "更偏背景信息，短期市场影响可能有限。",
+      "affected_regions": [
+        "Japan",
+        "global"
+      ],
+      "affected_asset_classes": [],
+      "is_routine": true,
+      "is_market_moving": false
+    }
+  ],
+  "market_narrative": {
+    "regime": "unknown",
+    "summary_cn": "市场信号不足，暂不判断明确状态。",
+    "key_moves": [
+      "SPY 下跌 -0.72%",
+      "QQQ 下跌 -1.38%",
+      "Gold 上涨 1.80%",
+      "Oil 下跌 -2.34%",
+      "ETH 下跌 -2.55%"
+    ],
+    "contradictions": [],
+    "watch_points": [
+      "关注后续数据是否确认当前跨资产信号。"
+    ]
+  },
+  "top_themes": [
+    "central_bank_decision: Minneapolis Fed President Neel Kashkari says he expects a rate hike this year",
+    "central_bank_decision: Fed’s Kashkari now projects one interest-rate hike this year. Here’s what changed his mind.",
+    "central_bank_speech: Bond yields are falling as inflation pops. The Fed’s tough talk under Warsh is helping."
+  ],
+  "asset_charts": {
+    "SPY": "/home/runner/work/FinTech/FinTech/charts/2026-06-27/SPY.png",
+    "QQQ": "/home/runner/work/FinTech/FinTech/charts/2026-06-27/QQQ.png",
+    "DIA": "/home/runner/work/FinTech/FinTech/charts/2026-06-27/DIA.png",
+    "IWM": "/home/runner/work/FinTech/FinTech/charts/2026-06-27/IWM.png",
+    "VTI": "/home/runner/work/FinTech/FinTech/charts/2026-06-27/VTI.png",
+    "^VIX": "/home/runner/work/FinTech/FinTech/charts/2026-06-27/VIX.png",
+    "DX-Y.NYB": "/home/runner/work/FinTech/FinTech/charts/2026-06-27/DX-Y.NYB.png",
+    "TLT": "/home/runner/work/FinTech/FinTech/charts/2026-06-27/TLT.png",
+    "IEF": "/home/runner/work/FinTech/FinTech/charts/2026-06-27/IEF.png",
+    "GC=F": "/home/runner/work/FinTech/FinTech/charts/2026-06-27/GC_F.png",
+    "SI=F": "/home/runner/work/FinTech/FinTech/charts/2026-06-27/SI_F.png",
+    "CL=F": "/home/runner/work/FinTech/FinTech/charts/2026-06-27/CL_F.png",
+    "BZ=F": "/home/runner/work/FinTech/FinTech/charts/2026-06-27/BZ_F.png",
+    "NG=F": "/home/runner/work/FinTech/FinTech/charts/2026-06-27/NG_F.png",
+    "HG=F": "/home/runner/work/FinTech/FinTech/charts/2026-06-27/HG_F.png",
+    "^HSI": "/home/runner/work/FinTech/FinTech/charts/2026-06-27/HSI.png",
+    "0700.HK": "/home/runner/work/FinTech/FinTech/charts/2026-06-27/0700.HK.png",
+    "9988.HK": "/home/runner/work/FinTech/FinTech/charts/2026-06-27/9988.HK.png",
+    "3690.HK": "/home/runner/work/FinTech/FinTech/charts/2026-06-27/3690.HK.png",
+    "1810.HK": "/home/runner/work/FinTech/FinTech/charts/2026-06-27/1810.HK.png",
+    "1211.HK": "/home/runner/work/FinTech/FinTech/charts/2026-06-27/1211.HK.png",
+    "BTC": "/home/runner/work/FinTech/FinTech/charts/2026-06-27/BTC.png",
+    "ETH": "/home/runner/work/FinTech/FinTech/charts/2026-06-27/ETH.png",
+    "SOLANA": "/home/runner/work/FinTech/FinTech/charts/2026-06-27/SOLANA.png",
+    "BINANCECOIN": "/home/runner/work/FinTech/FinTech/charts/2026-06-27/BINANCECOIN.png",
+    "RIPPLE": "/home/runner/work/FinTech/FinTech/charts/2026-06-27/RIPPLE.png",
+    "COMMODITIES_summary": "/home/runner/work/FinTech/FinTech/charts/2026-06-27/COMMODITIES_summary.png",
+    "CRYPTO_summary": "/home/runner/work/FinTech/FinTech/charts/2026-06-27/CRYPTO_summary.png",
+    "HK_MARKET_summary": "/home/runner/work/FinTech/FinTech/charts/2026-06-27/HK_MARKET_summary.png",
+    "US_EQUITY_summary": "/home/runner/work/FinTech/FinTech/charts/2026-06-27/US_EQUITY_summary.png",
+    "US_MACRO_MARKET_summary": "/home/runner/work/FinTech/FinTech/charts/2026-06-27/US_MACRO_MARKET_summary.png"
+  },
+  "wall_street_public_views": [],
+  "today_calendar": [
+    "经济数据：暂无可靠公开日历数据；如配置经济日历源后可自动填充。",
+    "央行讲话：暂无可靠公开日历数据；重点跟踪 Fed、ECB、BoJ、PBOC 官网 RSS。",
+    "财报：暂无可靠数据。",
+    "政策事件：暂无可靠数据。",
+    "风险提醒：关注数据源失败项、突发地缘风险、利率和美元的二阶反应。"
+  ],
+  "learning_notes": [
+    {
+      "term": "inflation expectations",
+      "zh": "通胀预期，指家庭、企业或市场对未来通胀的预估。",
+      "example": "Inflation expectations can shape wage bargaining and bond yields."
+    },
+    {
+      "term": "real yield",
+      "zh": "实际收益率，名义利率扣除通胀预期后的收益率。",
+      "example": "Gold often reacts more to real yields than nominal yields."
+    },
+    {
+      "term": "terminal rate",
+      "zh": "终端利率，市场预期本轮加息周期的最高政策利率。",
+      "example": "A higher terminal rate can pressure growth stocks."
+    },
+    {
+      "term": "risk-off",
+      "zh": "避险模式，资金偏向美元、国债、黄金等防御资产。",
+      "example": "A geopolitical shock can push markets into risk-off mode."
+    },
+    {
+      "term": "market structure",
+      "zh": "市场结构，指交易、托管、清算、ETF、监管等制度安排。",
+      "example": "Crypto market structure rules can affect institutional participation."
+    },
+    {
+      "term": "soft landing",
+      "zh": "软着陆，指通胀回落而经济避免明显衰退。",
+      "example": "Markets often rally when data support a soft landing."
+    }
+  ],
+  "disclaimers": [
+    "Not financial advice / 非投资建议。",
+    "仅使用公开数据、公开 RSS 摘要和用户自有文件；不绕过任何付费墙。"
+  ]
+}
