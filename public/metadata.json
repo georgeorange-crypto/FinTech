@@ -1,15 +1,14 @@
 {
-  "latest_date": "2026-06-27",
-  "market_data_date": "2026-06-27",
-  "chart_date": "2026-06-27",
+  "latest_date": "2026-06-28",
+  "market_data_date": "2026-06-28",
+  "chart_date": "2026-06-28",
   "regime": "unknown",
   "regime_summary": "市场信号不足，暂不判断明确状态。",
   "key_moves": [
     "SPY 下跌 -0.72%",
     "QQQ 下跌 -1.38%",
-    "Gold 上涨 1.80%",
-    "Oil 下跌 -2.34%",
-    "ETH 下跌 -2.55%"
+    "Gold 上涨 1.20%",
+    "Oil 下跌 -3.74%"
   ],
   "watch_points": [
     "关注后续数据是否确认当前跨资产信号。"
@@ -29,26 +28,25 @@
     },
     {
       "label": "BTC",
-      "value": "-1.57%"
+      "value": "0.71%"
     },
     {
       "label": "Gold",
-      "value": "1.80%"
+      "value": "1.20%"
     },
     {
       "label": "Oil",
-      "value": "-2.34%"
+      "value": "-3.74%"
     }
   ],
   "top_themes": [
     "central_bank_decision: Minneapolis Fed President Neel Kashkari says he expects a rate hike this year",
-    "central_bank_decision: Fed’s Kashkari now projects one interest-rate hike this year. Here’s what changed his mind.",
-    "central_bank_speech: Bond yields are falling as inflation pops. The Fed’s tough talk under Warsh is helping."
+    "regulation: SEC, CFTC Seek Public Comment on the Harmonization of Portfolio Margining Frameworks"
   ],
   "news_counts": {
-    "must_read": 10,
-    "policy_watch": 9,
-    "background": 19
+    "must_read": 4,
+    "policy_watch": 2,
+    "background": 20
   },
   "focus_news": [
     {
@@ -70,32 +68,31 @@
       ]
     },
     {
-      "title": "Fed’s Kashkari now projects one interest-rate hike this year. Here’s what changed his mind.",
-      "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/feds-kashkari-projects-one-interest-rate-hike-this-year-heres-what-changed-his-mind-3a6b428c?mod=mw_rss_topstories",
-      "event_type": "central_bank_decision",
-      "importance_tier": 1,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
-      "market_impact": "主要影响 QQQ，方向为 negative，强度 high；鹰派政策提高折现率，压制成长股估值。",
-      "assets": [
-        "BTC",
-        "DXY",
-        "QQQ",
-        "SPY",
-        "TLT"
-      ]
-    },
-    {
-      "title": "Bond yields are falling as inflation pops. The Fed’s tough talk under Warsh is helping.",
-      "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/bond-yields-are-falling-as-inflation-pops-the-feds-tough-talk-under-warsh-is-helping-7d538b3b?mod=mw_rss_topstories",
-      "event_type": "central_bank_speech",
+      "title": "SEC, CFTC Seek Public Comment on the Harmonization of Portfolio Margining Frameworks",
+      "source": "SEC Press Releases",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-59-sec-cftc-seek-public-comment-harmonization-portfolio-margining-frameworks",
+      "event_type": "regulation",
       "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "央行官员表态可能影响市场对下一次会议的定价。",
+      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "assets": [
+        "BTC",
+        "COIN",
+        "ETH",
+        "crypto market"
+      ]
+    },
+    {
+      "title": "Isabel Schnabel: Is inflation back?",
+      "source": "ECB Press Releases",
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260627~3807c2766e.en.pdf",
+      "event_type": "other",
+      "importance_tier": 3,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
       "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
       "assets": [
         "BTC",
@@ -106,14 +103,14 @@
       ]
     },
     {
-      "title": "Chicago Fed President Goolsbee says inflation is too high; Williams sees price pressures easing",
+      "title": "Why investors may want to prioritize bond markets outside the U.S.",
       "source": "CNBC Economy",
-      "url": "https://www.cnbc.com/2026/06/25/chicago-fed-president-goolsbee-says-inflation-is-too-high-calls-warsh-a-serious-guy.html",
-      "event_type": "central_bank_speech",
-      "importance_tier": 2,
+      "url": "https://www.cnbc.com/2026/06/27/inflation-as-major-reason-to-invest-in-global-bond-markets.html",
+      "event_type": "other",
+      "importance_tier": 3,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "央行官员表态可能影响市场对下一次会议的定价。",
+      "reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
       "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
       "assets": [
         "BTC",
@@ -144,39 +141,20 @@
       ]
     },
     {
-      "title": "Fed’s Kashkari now projects one interest-rate hike this year. Here’s what changed his mind.",
-      "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/feds-kashkari-projects-one-interest-rate-hike-this-year-heres-what-changed-his-mind-3a6b428c?mod=mw_rss_topstories",
-      "event_type": "central_bank_decision",
-      "importance_tier": 1,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
-      "market_impact": "主要影响 QQQ，方向为 negative，强度 high；鹰派政策提高折现率，压制成长股估值。",
-      "assets": [
-        "BTC",
-        "DXY",
-        "QQQ",
-        "SPY",
-        "TLT"
-      ]
-    },
-    {
-      "title": "Bond yields are falling as inflation pops. The Fed’s tough talk under Warsh is helping.",
-      "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/bond-yields-are-falling-as-inflation-pops-the-feds-tough-talk-under-warsh-is-helping-7d538b3b?mod=mw_rss_topstories",
-      "event_type": "central_bank_speech",
+      "title": "SEC, CFTC Seek Public Comment on the Harmonization of Portfolio Margining Frameworks",
+      "source": "SEC Press Releases",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-59-sec-cftc-seek-public-comment-harmonization-portfolio-margining-frameworks",
+      "event_type": "regulation",
       "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "央行官员表态可能影响市场对下一次会议的定价。",
-      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
+      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
       "assets": [
         "BTC",
-        "DXY",
-        "GC=F",
-        "QQQ",
-        "SPY"
+        "COIN",
+        "ETH",
+        "crypto market"
       ]
     }
   ],
@@ -193,9 +171,9 @@
     {
       "symbol": "SOLANA",
       "group": "CRYPTO",
-      "price": "71.75",
-      "one_day": "5.69%",
-      "five_day": "-1.98%",
+      "price": "70.94",
+      "one_day": "4.90%",
+      "five_day": "-2.09%",
       "trend": "range_bound",
       "direction": "up"
     },
@@ -209,12 +187,39 @@
       "direction": "down"
     },
     {
+      "symbol": "BZ=F",
+      "group": "COMMODITIES",
+      "price": "71.99",
+      "one_day": "-4.34%",
+      "five_day": "-9.84%",
+      "trend": "strong_downtrend",
+      "direction": "down"
+    },
+    {
       "symbol": "1810.HK",
       "group": "HK_MARKET",
       "price": "21.42",
       "one_day": "-3.95%",
       "five_day": "-12.86%",
       "trend": "strong_downtrend",
+      "direction": "down"
+    },
+    {
+      "symbol": "CL=F",
+      "group": "COMMODITIES",
+      "price": "69.23",
+      "one_day": "-3.74%",
+      "five_day": "-9.62%",
+      "trend": "strong_downtrend",
+      "direction": "down"
+    },
+    {
+      "symbol": "NG=F",
+      "group": "COMMODITIES",
+      "price": "3.23",
+      "one_day": "-3.35%",
+      "five_day": "-0.06%",
+      "trend": "uptrend",
       "direction": "down"
     },
     {
@@ -225,52 +230,25 @@
       "five_day": "-10.52%",
       "trend": "strong_downtrend",
       "direction": "down"
-    },
-    {
-      "symbol": "ETH",
-      "group": "CRYPTO",
-      "price": "1,576.57",
-      "one_day": "-2.55%",
-      "five_day": "-9.35%",
-      "trend": "strong_downtrend",
-      "direction": "down"
-    },
-    {
-      "symbol": "^VIX",
-      "group": "US_MACRO_MARKET",
-      "price": "18.41",
-      "one_day": "-2.54%",
-      "five_day": "12.26%",
-      "trend": "range_bound",
-      "direction": "down"
-    },
-    {
-      "symbol": "CL=F",
-      "group": "COMMODITIES",
-      "price": "70.24",
-      "one_day": "-2.34%",
-      "five_day": "-8.30%",
-      "trend": "strong_downtrend",
-      "direction": "down"
     }
   ],
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-06-27/COMMODITIES_summary.png"
+      "src": "charts/2026-06-28/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-06-27/CRYPTO_summary.png"
+      "src": "charts/2026-06-28/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-06-27/HK_MARKET_summary.png"
+      "src": "charts/2026-06-28/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-06-27/US_EQUITY_summary.png"
+      "src": "charts/2026-06-28/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-06-27.html"
+  "latest_report_href": "reports/2026-06-28.html"
 }
