@@ -1,16 +1,15 @@
 {
-  "latest_date": "2026-06-30",
-  "market_data_date": "2026-06-30",
-  "chart_date": "2026-06-30",
+  "latest_date": "2026-07-01",
+  "market_data_date": "2026-07-01",
+  "chart_date": "2026-07-01",
   "regime": "risk_on",
   "regime_summary": "股指上涨、波动率或美元回落，市场更接近风险偏好改善。",
   "key_moves": [
-    "SPY 上涨 1.65%",
-    "QQQ 上涨 2.49%",
-    "VIX 下跌 -4.13%",
-    "Gold 下跌 -1.23%",
-    "Oil 上涨 1.53%",
-    "ETH 上涨 2.56%"
+    "SPY 上涨 0.78%",
+    "QQQ 上涨 1.70%",
+    "VIX 下跌 -6.80%",
+    "TLT 下跌 -1.18%",
+    "Oil 下跌 -1.09%"
   ],
   "watch_points": [
     "确认风险偏好是否扩散到小盘股、信用利差和周期品。"
@@ -18,37 +17,38 @@
   "cards": [
     {
       "label": "美股 SPY",
-      "value": "1.65%"
+      "value": "0.78%"
     },
     {
       "label": "QQQ",
-      "value": "2.49%"
+      "value": "1.70%"
     },
     {
       "label": "VIX",
-      "value": "-4.13%"
+      "value": "-6.80%"
     },
     {
       "label": "BTC",
-      "value": "0.59%"
+      "value": "-1.80%"
     },
     {
       "label": "Gold",
-      "value": "-1.23%"
+      "value": "0.09%"
     },
     {
       "label": "Oil",
-      "value": "1.53%"
+      "value": "-1.09%"
     }
   ],
   "top_themes": [
     "financial_stability: Liquidity Indicators in the JGB Markets (May)",
-    "crypto_market_structure: Wall Street's BNY expands stablecoin services for institutions, starting with Circle's USDC"
+    "central_bank_speech: Cleveland Fed President Hammack says AI could fuel inflation, rate hikes may be necessary",
+    "regulation: SEC Seeks Public Comment on Novel Exchange-Traded Funds"
   ],
   "news_counts": {
-    "must_read": 4,
-    "policy_watch": 2,
-    "background": 13
+    "must_read": 10,
+    "policy_watch": 8,
+    "background": 19
   },
   "focus_news": [
     {
@@ -64,31 +64,14 @@
       "assets": []
     },
     {
-      "title": "Wall Street's BNY expands stablecoin services for institutions, starting with Circle's USDC",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/06/29/wall-street-s-bny-expands-stablecoin-services-for-institutions-starting-with-circle-s-usdc",
-      "event_type": "crypto_market_structure",
+      "title": "Cleveland Fed President Hammack says AI could fuel inflation, rate hikes may be necessary",
+      "source": "CNBC Economy",
+      "url": "https://www.cnbc.com/2026/06/30/cleveland-fed-president-hammack-sees-ai-fueling-inflation-says-rate-hikes-may-be-necessary.html",
+      "event_type": "central_bank_speech",
       "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
-      "assets": [
-        "BTC",
-        "COIN",
-        "ETH",
-        "crypto market"
-      ]
-    },
-    {
-      "title": "Value stocks beat growth when inflation is high. Here are 13 stocks top newsletters are betting on now.",
-      "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/value-stocks-beat-growth-when-inflation-is-high-here-are-13-stocks-top-newsletters-are-betting-on-now-f6f4a265?mod=mw_rss_topstories",
-      "event_type": "other",
-      "importance_tier": 3,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "reason": "央行官员表态可能影响市场对下一次会议的定价。",
       "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
       "assets": [
         "BTC",
@@ -99,14 +82,31 @@
       ]
     },
     {
-      "title": "SpaceX to join the Nasdaq-100 in a fast-tracked process that will drive huge ETF buying demand",
-      "source": "CNBC Economy",
-      "url": "https://www.cnbc.com/2026/06/26/spacex-added-to-nasdaq-100.html",
-      "event_type": "other",
-      "importance_tier": 3,
+      "title": "SEC Seeks Public Comment on Novel Exchange-Traded Funds",
+      "source": "SEC Press Releases",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-60-sec-seeks-public-comment-novel-exchange-traded-funds",
+      "event_type": "regulation",
+      "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "assets": [
+        "BTC",
+        "COIN",
+        "ETH",
+        "crypto market"
+      ]
+    },
+    {
+      "title": "SEC giving novel ETFs a rethink as it opens comment period on overhauling U.S. rules",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/06/30/sec-giving-novel-etfs-a-rethink-as-it-opens-comment-period-on-overhauling-u-s-rules",
+      "event_type": "regulation",
+      "importance_tier": 2,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
       "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
       "assets": [
         "BTC",
@@ -130,14 +130,32 @@
       "assets": []
     },
     {
-      "title": "Wall Street's BNY expands stablecoin services for institutions, starting with Circle's USDC",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/06/29/wall-street-s-bny-expands-stablecoin-services-for-institutions-starting-with-circle-s-usdc",
-      "event_type": "crypto_market_structure",
+      "title": "Cleveland Fed President Hammack says AI could fuel inflation, rate hikes may be necessary",
+      "source": "CNBC Economy",
+      "url": "https://www.cnbc.com/2026/06/30/cleveland-fed-president-hammack-sees-ai-fueling-inflation-says-rate-hikes-may-be-necessary.html",
+      "event_type": "central_bank_speech",
       "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
+      "reason": "央行官员表态可能影响市场对下一次会议的定价。",
+      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
+      "assets": [
+        "BTC",
+        "DXY",
+        "GC=F",
+        "QQQ",
+        "SPY"
+      ]
+    },
+    {
+      "title": "SEC Seeks Public Comment on Novel Exchange-Traded Funds",
+      "source": "SEC Press Releases",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-60-sec-seeks-public-comment-novel-exchange-traded-funds",
+      "event_type": "regulation",
+      "importance_tier": 2,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
       "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
       "assets": [
         "BTC",
@@ -149,74 +167,74 @@
   ],
   "asset_movers": [
     {
+      "symbol": "^VIX",
+      "group": "US_MACRO_MARKET",
+      "price": "16.45",
+      "one_day": "-6.80%",
+      "five_day": "-15.60%",
+      "trend": "range_bound",
+      "direction": "down"
+    },
+    {
       "symbol": "SOLANA",
       "group": "CRYPTO",
-      "price": "75.12",
-      "one_day": "6.61%",
-      "five_day": "7.92%",
+      "price": "73.29",
+      "one_day": "2.65%",
+      "five_day": "7.96%",
       "trend": "range_bound",
       "direction": "up"
     },
     {
-      "symbol": "3690.HK",
-      "group": "HK_MARKET",
-      "price": "67.65",
-      "one_day": "5.29%",
-      "five_day": "-6.04%",
-      "trend": "strong_downtrend",
+      "symbol": "HG=F",
+      "group": "COMMODITIES",
+      "price": "6.25",
+      "one_day": "2.54%",
+      "five_day": "1.82%",
+      "trend": "range_bound",
       "direction": "up"
     },
     {
-      "symbol": "^VIX",
-      "group": "US_MACRO_MARKET",
-      "price": "17.65",
-      "one_day": "-4.13%",
-      "five_day": "2.14%",
-      "trend": "downtrend",
-      "direction": "down"
-    },
-    {
-      "symbol": "9988.HK",
-      "group": "HK_MARKET",
-      "price": "93.00",
-      "one_day": "3.91%",
-      "five_day": "-9.62%",
-      "trend": "strong_downtrend",
-      "direction": "up"
-    },
-    {
-      "symbol": "ETH",
-      "group": "CRYPTO",
-      "price": "1,611.96",
-      "one_day": "2.56%",
-      "five_day": "-3.19%",
-      "trend": "strong_downtrend",
-      "direction": "up"
-    },
-    {
-      "symbol": "QQQ",
-      "group": "US_EQUITY",
-      "price": "724.08",
-      "one_day": "2.49%",
-      "five_day": "-1.88%",
+      "symbol": "NG=F",
+      "group": "COMMODITIES",
+      "price": "3.26",
+      "one_day": "2.33%",
+      "five_day": "3.43%",
       "trend": "uptrend",
       "direction": "up"
     },
     {
-      "symbol": "BZ=F",
-      "group": "COMMODITIES",
-      "price": "73.56",
-      "one_day": "2.18%",
-      "five_day": "-5.57%",
-      "trend": "strong_downtrend",
+      "symbol": "0700.HK",
+      "group": "HK_MARKET",
+      "price": "429.80",
+      "one_day": "2.28%",
+      "five_day": "3.62%",
+      "trend": "downtrend",
       "direction": "up"
     },
     {
-      "symbol": "1810.HK",
-      "group": "HK_MARKET",
-      "price": "21.86",
-      "one_day": "2.05%",
-      "five_day": "-7.84%",
+      "symbol": "BTC",
+      "group": "CRYPTO",
+      "price": "58,539.37",
+      "one_day": "-1.80%",
+      "five_day": "-3.89%",
+      "trend": "strong_downtrend",
+      "direction": "down"
+    },
+    {
+      "symbol": "QQQ",
+      "group": "US_EQUITY",
+      "price": "736.40",
+      "one_day": "1.70%",
+      "five_day": "3.19%",
+      "trend": "uptrend",
+      "direction": "up"
+    },
+    {
+      "symbol": "SI=F",
+      "group": "COMMODITIES",
+      "price": "59.14",
+      "one_day": "1.66%",
+      "five_day": "-4.64%",
       "trend": "strong_downtrend",
       "direction": "up"
     }
@@ -224,20 +242,20 @@
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-06-30/COMMODITIES_summary.png"
+      "src": "charts/2026-07-01/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-06-30/CRYPTO_summary.png"
+      "src": "charts/2026-07-01/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-06-30/HK_MARKET_summary.png"
+      "src": "charts/2026-07-01/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-06-30/US_EQUITY_summary.png"
+      "src": "charts/2026-07-01/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-06-30.html"
+  "latest_report_href": "reports/2026-07-01.html"
 }
