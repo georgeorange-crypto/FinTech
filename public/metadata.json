@@ -1,67 +1,72 @@
 {
-  "latest_date": "2026-07-01",
-  "market_data_date": "2026-07-01",
-  "chart_date": "2026-07-01",
-  "regime": "risk_on",
-  "regime_summary": "股指上涨、波动率或美元回落，市场更接近风险偏好改善。",
+  "latest_date": "2026-07-02",
+  "market_data_date": "2026-07-02",
+  "chart_date": "2026-07-02",
+  "regime": "unknown",
+  "regime_summary": "市场信号不足，暂不判断明确状态。",
   "key_moves": [
-    "SPY 上涨 0.78%",
-    "QQQ 上涨 1.70%",
-    "VIX 下跌 -6.80%",
-    "TLT 下跌 -1.18%",
-    "Oil 下跌 -1.09%"
+    "QQQ 下跌 -1.52%",
+    "TLT 下跌 -1.04%",
+    "Gold 上涨 0.82%",
+    "Oil 下跌 -2.16%"
   ],
   "watch_points": [
-    "确认风险偏好是否扩散到小盘股、信用利差和周期品。"
+    "关注后续数据是否确认当前跨资产信号。"
   ],
   "cards": [
     {
       "label": "美股 SPY",
-      "value": "0.78%"
+      "value": "-0.14%"
     },
     {
       "label": "QQQ",
-      "value": "1.70%"
+      "value": "-1.52%"
     },
     {
       "label": "VIX",
-      "value": "-6.80%"
+      "value": "0.85%"
     },
     {
       "label": "BTC",
-      "value": "-1.80%"
+      "value": "0.14%"
     },
     {
       "label": "Gold",
-      "value": "0.09%"
+      "value": "0.82%"
     },
     {
       "label": "Oil",
-      "value": "-1.09%"
+      "value": "-2.16%"
     }
   ],
   "top_themes": [
-    "financial_stability: Liquidity Indicators in the JGB Markets (May)",
+    "central_bank_speech: Bitcoin breaks above $60,000 after Fed Chair Warsh said inflation risks has come down",
     "central_bank_speech: Cleveland Fed President Hammack says AI could fuel inflation, rate hikes may be necessary",
-    "regulation: SEC Seeks Public Comment on Novel Exchange-Traded Funds"
+    "regulation: SEC Publishes Updated Market Statistics, Highlighting Increase in IPOs and Proceeds Raised"
   ],
   "news_counts": {
-    "must_read": 10,
-    "policy_watch": 8,
-    "background": 19
+    "must_read": 7,
+    "policy_watch": 5,
+    "background": 20
   },
   "focus_news": [
     {
-      "title": "Liquidity Indicators in the JGB Markets (May)",
-      "source": "Bank of Japan Announcements",
-      "url": "http://www.boj.or.jp/en/paym/bond/ryudo.pdf",
-      "event_type": "financial_stability",
-      "importance_tier": 1,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "金融稳定信号可能放大跨资产波动，并影响央行反应函数。",
-      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
-      "assets": []
+      "title": "Bitcoin breaks above $60,000 after Fed Chair Warsh said inflation risks has come down",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/07/01/bitcoin-retakes-usd60-000-level-after-fed-chair-warsh-said-inflation-risks-has-come-down",
+      "event_type": "central_bank_speech",
+      "importance_tier": 2,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "央行官员表态可能影响市场对下一次会议的定价。",
+      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
+      "assets": [
+        "BTC",
+        "DXY",
+        "GC=F",
+        "QQQ",
+        "SPY"
+      ]
     },
     {
       "title": "Cleveland Fed President Hammack says AI could fuel inflation, rate hikes may be necessary",
@@ -82,9 +87,9 @@
       ]
     },
     {
-      "title": "SEC Seeks Public Comment on Novel Exchange-Traded Funds",
+      "title": "SEC Publishes Updated Market Statistics, Highlighting Increase in IPOs and Proceeds Raised",
       "source": "SEC Press Releases",
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-60-sec-seeks-public-comment-novel-exchange-traded-funds",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-61-sec-publishes-updated-market-statistics-highlighting-increase-ipos-proceeds-raised",
       "event_type": "regulation",
       "importance_tier": 2,
       "impact_strength": "high",
@@ -99,14 +104,14 @@
       ]
     },
     {
-      "title": "SEC giving novel ETFs a rethink as it opens comment period on overhauling U.S. rules",
+      "title": "French banking giant Crédit Agricole rolls out euro stablecoin, EURXT",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/06/30/sec-giving-novel-etfs-a-rethink-as-it-opens-comment-period-on-overhauling-u-s-rules",
-      "event_type": "regulation",
+      "url": "https://www.coindesk.com/business/2026/07/01/french-banking-giant-credit-agricole-rolls-out-euro-stablecoin-eurxt",
+      "event_type": "crypto_market_structure",
       "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
       "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
       "assets": [
         "BTC",
@@ -118,16 +123,22 @@
   ],
   "policy_news": [
     {
-      "title": "Liquidity Indicators in the JGB Markets (May)",
-      "source": "Bank of Japan Announcements",
-      "url": "http://www.boj.or.jp/en/paym/bond/ryudo.pdf",
-      "event_type": "financial_stability",
-      "importance_tier": 1,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "金融稳定信号可能放大跨资产波动，并影响央行反应函数。",
-      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
-      "assets": []
+      "title": "Bitcoin breaks above $60,000 after Fed Chair Warsh said inflation risks has come down",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/07/01/bitcoin-retakes-usd60-000-level-after-fed-chair-warsh-said-inflation-risks-has-come-down",
+      "event_type": "central_bank_speech",
+      "importance_tier": 2,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "央行官员表态可能影响市场对下一次会议的定价。",
+      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
+      "assets": [
+        "BTC",
+        "DXY",
+        "GC=F",
+        "QQQ",
+        "SPY"
+      ]
     },
     {
       "title": "Cleveland Fed President Hammack says AI could fuel inflation, rate hikes may be necessary",
@@ -148,9 +159,9 @@
       ]
     },
     {
-      "title": "SEC Seeks Public Comment on Novel Exchange-Traded Funds",
+      "title": "SEC Publishes Updated Market Statistics, Highlighting Increase in IPOs and Proceeds Raised",
       "source": "SEC Press Releases",
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-60-sec-seeks-public-comment-novel-exchange-traded-funds",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-61-sec-publishes-updated-market-statistics-highlighting-increase-ipos-proceeds-raised",
       "event_type": "regulation",
       "importance_tier": 2,
       "impact_strength": "high",
@@ -167,40 +178,22 @@
   ],
   "asset_movers": [
     {
-      "symbol": "^VIX",
-      "group": "US_MACRO_MARKET",
-      "price": "16.45",
-      "one_day": "-6.80%",
-      "five_day": "-15.60%",
-      "trend": "range_bound",
-      "direction": "down"
-    },
-    {
       "symbol": "SOLANA",
       "group": "CRYPTO",
-      "price": "73.29",
-      "one_day": "2.65%",
-      "five_day": "7.96%",
+      "price": "77.60",
+      "one_day": "3.48%",
+      "five_day": "14.74%",
       "trend": "range_bound",
       "direction": "up"
     },
     {
-      "symbol": "HG=F",
+      "symbol": "BZ=F",
       "group": "COMMODITIES",
-      "price": "6.25",
-      "one_day": "2.54%",
-      "five_day": "1.82%",
-      "trend": "range_bound",
-      "direction": "up"
-    },
-    {
-      "symbol": "NG=F",
-      "group": "COMMODITIES",
-      "price": "3.26",
-      "one_day": "2.33%",
-      "five_day": "3.43%",
-      "trend": "uptrend",
-      "direction": "up"
+      "price": "71.18",
+      "one_day": "-2.39%",
+      "five_day": "-3.47%",
+      "trend": "strong_downtrend",
+      "direction": "down"
     },
     {
       "symbol": "0700.HK",
@@ -212,50 +205,68 @@
       "direction": "up"
     },
     {
-      "symbol": "BTC",
-      "group": "CRYPTO",
-      "price": "58,539.37",
-      "one_day": "-1.80%",
-      "five_day": "-3.89%",
+      "symbol": "CL=F",
+      "group": "COMMODITIES",
+      "price": "68.00",
+      "one_day": "-2.16%",
+      "five_day": "-3.33%",
       "trend": "strong_downtrend",
+      "direction": "down"
+    },
+    {
+      "symbol": "NG=F",
+      "group": "COMMODITIES",
+      "price": "3.21",
+      "one_day": "-2.02%",
+      "five_day": "-0.37%",
+      "trend": "uptrend",
       "direction": "down"
     },
     {
       "symbol": "QQQ",
       "group": "US_EQUITY",
-      "price": "736.40",
-      "one_day": "1.70%",
-      "five_day": "3.19%",
+      "price": "725.17",
+      "one_day": "-1.52%",
+      "five_day": "2.05%",
       "trend": "uptrend",
+      "direction": "down"
+    },
+    {
+      "symbol": "3690.HK",
+      "group": "HK_MARKET",
+      "price": "68.50",
+      "one_day": "1.26%",
+      "five_day": "-1.58%",
+      "trend": "strong_downtrend",
       "direction": "up"
     },
     {
-      "symbol": "SI=F",
-      "group": "COMMODITIES",
-      "price": "59.14",
-      "one_day": "1.66%",
-      "five_day": "-4.64%",
+      "symbol": "BINANCECOIN",
+      "group": "CRYPTO",
+      "price": "552.17",
+      "one_day": "-1.17%",
+      "five_day": "-1.36%",
       "trend": "strong_downtrend",
-      "direction": "up"
+      "direction": "down"
     }
   ],
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-07-01/COMMODITIES_summary.png"
+      "src": "charts/2026-07-02/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-07-01/CRYPTO_summary.png"
+      "src": "charts/2026-07-02/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-07-01/HK_MARKET_summary.png"
+      "src": "charts/2026-07-02/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-07-01/US_EQUITY_summary.png"
+      "src": "charts/2026-07-02/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-07-01.html"
+  "latest_report_href": "reports/2026-07-02.html"
 }
