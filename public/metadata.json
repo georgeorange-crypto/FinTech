@@ -1,14 +1,15 @@
 {
-  "latest_date": "2026-07-02",
-  "market_data_date": "2026-07-02",
-  "chart_date": "2026-07-02",
+  "latest_date": "2026-07-03",
+  "market_data_date": "2026-07-03",
+  "chart_date": "2026-07-03",
   "regime": "unknown",
   "regime_summary": "市场信号不足，暂不判断明确状态。",
   "key_moves": [
-    "QQQ 下跌 -1.52%",
-    "TLT 下跌 -1.04%",
-    "Gold 上涨 0.82%",
-    "Oil 下跌 -2.16%"
+    "QQQ 下跌 -1.73%",
+    "DXY 下跌 -0.53%",
+    "Gold 上涨 1.66%",
+    "BTC 上涨 4.78%",
+    "ETH 上涨 7.84%"
   ],
   "watch_points": [
     "关注后续数据是否确认当前跨资产信号。"
@@ -16,74 +17,67 @@
   "cards": [
     {
       "label": "美股 SPY",
-      "value": "-0.14%"
+      "value": "-0.13%"
     },
     {
       "label": "QQQ",
-      "value": "-1.52%"
+      "value": "-1.73%"
     },
     {
       "label": "VIX",
-      "value": "0.85%"
+      "value": "-2.65%"
     },
     {
       "label": "BTC",
-      "value": "0.14%"
+      "value": "4.78%"
     },
     {
       "label": "Gold",
-      "value": "0.82%"
+      "value": "1.66%"
     },
     {
       "label": "Oil",
-      "value": "-2.16%"
+      "value": "-0.15%"
     }
   ],
   "top_themes": [
-    "central_bank_speech: Bitcoin breaks above $60,000 after Fed Chair Warsh said inflation risks has come down",
-    "central_bank_speech: Cleveland Fed President Hammack says AI could fuel inflation, rate hikes may be necessary",
+    "fiscal_policy: US Treasury sanctions over 100 ISIS-K crypto addresses that moved over $1.4 million",
+    "regulation: Ondo Finance debuts SEC-aligned tokenized stock model with BlackRock ETF, Micron shares",
     "regulation: SEC Publishes Updated Market Statistics, Highlighting Increase in IPOs and Proceeds Raised"
   ],
   "news_counts": {
-    "must_read": 7,
-    "policy_watch": 5,
+    "must_read": 6,
+    "policy_watch": 4,
     "background": 20
   },
   "focus_news": [
     {
-      "title": "Bitcoin breaks above $60,000 after Fed Chair Warsh said inflation risks has come down",
+      "title": "US Treasury sanctions over 100 ISIS-K crypto addresses that moved over $1.4 million",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/07/01/bitcoin-retakes-usd60-000-level-after-fed-chair-warsh-said-inflation-risks-has-come-down",
-      "event_type": "central_bank_speech",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "央行官员表态可能影响市场对下一次会议的定价。",
-      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
-      "assets": [
-        "BTC",
-        "DXY",
-        "GC=F",
-        "QQQ",
-        "SPY"
-      ]
+      "url": "https://www.coindesk.com/policy/2026/07/02/us-treasury-sanctions-over-100-isis-k-crypto-addresses-in-latest-enforcement-action",
+      "event_type": "fiscal_policy",
+      "importance_tier": 1,
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "assets": []
     },
     {
-      "title": "Cleveland Fed President Hammack says AI could fuel inflation, rate hikes may be necessary",
-      "source": "CNBC Economy",
-      "url": "https://www.cnbc.com/2026/06/30/cleveland-fed-president-hammack-sees-ai-fueling-inflation-says-rate-hikes-may-be-necessary.html",
-      "event_type": "central_bank_speech",
+      "title": "Ondo Finance debuts SEC-aligned tokenized stock model with BlackRock ETF, Micron shares",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/07/01/ondo-finance-debuts-sec-aligned-tokenized-stock-model-with-blackrock-etf-micron-shares",
+      "event_type": "regulation",
       "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "央行官员表态可能影响市场对下一次会议的定价。",
-      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
+      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
       "assets": [
         "BTC",
-        "DXY",
-        "GC=F",
-        "QQQ",
-        "SPY"
+        "COIN",
+        "ETH",
+        "crypto market"
       ]
     },
     {
@@ -104,58 +98,46 @@
       ]
     },
     {
-      "title": "French banking giant Crédit Agricole rolls out euro stablecoin, EURXT",
+      "title": "Federal Reserve Board issues enforcement action with Small Business Bank and announces termination enforcement actions with BNP Paribas S.A., BNP Paribas USA, Inc., BNP Paribas Securities Corp., and Community Bankshares, Inc.",
+      "source": "Federal Reserve Press Releases",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260702a.htm",
+      "event_type": "regulation",
+      "importance_tier": 2,
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "assets": []
+    }
+  ],
+  "policy_news": [
+    {
+      "title": "US Treasury sanctions over 100 ISIS-K crypto addresses that moved over $1.4 million",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/07/01/french-banking-giant-credit-agricole-rolls-out-euro-stablecoin-eurxt",
-      "event_type": "crypto_market_structure",
+      "url": "https://www.coindesk.com/policy/2026/07/02/us-treasury-sanctions-over-100-isis-k-crypto-addresses-in-latest-enforcement-action",
+      "event_type": "fiscal_policy",
+      "importance_tier": 1,
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "assets": []
+    },
+    {
+      "title": "Ondo Finance debuts SEC-aligned tokenized stock model with BlackRock ETF, Micron shares",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/07/01/ondo-finance-debuts-sec-aligned-tokenized-stock-model-with-blackrock-etf-micron-shares",
+      "event_type": "regulation",
       "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
+      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
       "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
       "assets": [
         "BTC",
         "COIN",
         "ETH",
         "crypto market"
-      ]
-    }
-  ],
-  "policy_news": [
-    {
-      "title": "Bitcoin breaks above $60,000 after Fed Chair Warsh said inflation risks has come down",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/07/01/bitcoin-retakes-usd60-000-level-after-fed-chair-warsh-said-inflation-risks-has-come-down",
-      "event_type": "central_bank_speech",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "央行官员表态可能影响市场对下一次会议的定价。",
-      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
-      "assets": [
-        "BTC",
-        "DXY",
-        "GC=F",
-        "QQQ",
-        "SPY"
-      ]
-    },
-    {
-      "title": "Cleveland Fed President Hammack says AI could fuel inflation, rate hikes may be necessary",
-      "source": "CNBC Economy",
-      "url": "https://www.cnbc.com/2026/06/30/cleveland-fed-president-hammack-sees-ai-fueling-inflation-says-rate-hikes-may-be-necessary.html",
-      "event_type": "central_bank_speech",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "央行官员表态可能影响市场对下一次会议的定价。",
-      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
-      "assets": [
-        "BTC",
-        "DXY",
-        "GC=F",
-        "QQQ",
-        "SPY"
       ]
     },
     {
@@ -180,93 +162,93 @@
     {
       "symbol": "SOLANA",
       "group": "CRYPTO",
-      "price": "77.60",
-      "one_day": "3.48%",
-      "five_day": "14.74%",
+      "price": "80.61",
+      "one_day": "9.65%",
+      "five_day": "12.22%",
       "trend": "range_bound",
       "direction": "up"
     },
     {
-      "symbol": "BZ=F",
-      "group": "COMMODITIES",
-      "price": "71.18",
-      "one_day": "-2.39%",
-      "five_day": "-3.47%",
+      "symbol": "1211.HK",
+      "group": "HK_MARKET",
+      "price": "78.30",
+      "one_day": "8.07%",
+      "five_day": "3.09%",
       "trend": "strong_downtrend",
-      "direction": "down"
+      "direction": "up"
     },
     {
-      "symbol": "0700.HK",
-      "group": "HK_MARKET",
-      "price": "429.80",
-      "one_day": "2.28%",
-      "five_day": "3.62%",
+      "symbol": "ETH",
+      "group": "CRYPTO",
+      "price": "1,693.08",
+      "one_day": "7.84%",
+      "five_day": "7.43%",
+      "trend": "range_bound",
+      "direction": "up"
+    },
+    {
+      "symbol": "BTC",
+      "group": "CRYPTO",
+      "price": "61,351.52",
+      "one_day": "4.78%",
+      "five_day": "2.28%",
       "trend": "downtrend",
       "direction": "up"
     },
     {
-      "symbol": "CL=F",
-      "group": "COMMODITIES",
-      "price": "68.00",
-      "one_day": "-2.16%",
-      "five_day": "-3.33%",
-      "trend": "strong_downtrend",
-      "direction": "down"
-    },
-    {
-      "symbol": "NG=F",
-      "group": "COMMODITIES",
-      "price": "3.21",
-      "one_day": "-2.02%",
-      "five_day": "-0.37%",
-      "trend": "uptrend",
-      "direction": "down"
-    },
-    {
-      "symbol": "QQQ",
-      "group": "US_EQUITY",
-      "price": "725.17",
-      "one_day": "-1.52%",
-      "five_day": "2.05%",
-      "trend": "uptrend",
-      "direction": "down"
-    },
-    {
-      "symbol": "3690.HK",
+      "symbol": "1810.HK",
       "group": "HK_MARKET",
-      "price": "68.50",
-      "one_day": "1.26%",
-      "five_day": "-1.58%",
+      "price": "22.60",
+      "one_day": "4.44%",
+      "five_day": "-1.57%",
       "trend": "strong_downtrend",
       "direction": "up"
     },
     {
-      "symbol": "BINANCECOIN",
+      "symbol": "RIPPLE",
       "group": "CRYPTO",
-      "price": "552.17",
-      "one_day": "-1.17%",
-      "five_day": "-1.36%",
+      "price": "1.08",
+      "one_day": "4.18%",
+      "five_day": "3.37%",
+      "trend": "downtrend",
+      "direction": "up"
+    },
+    {
+      "symbol": "3690.HK",
+      "group": "HK_MARKET",
+      "price": "70.85",
+      "one_day": "3.43%",
+      "five_day": "4.58%",
       "trend": "strong_downtrend",
+      "direction": "up"
+    },
+    {
+      "symbol": "^VIX",
+      "group": "US_MACRO_MARKET",
+      "price": "16.15",
+      "one_day": "-2.65%",
+      "five_day": "-14.51%",
+      "trend": "range_bound",
       "direction": "down"
     }
   ],
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-07-02/COMMODITIES_summary.png"
+      "src": "charts/2026-07-03/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-07-02/CRYPTO_summary.png"
+      "src": "charts/2026-07-03/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-07-02/HK_MARKET_summary.png"
+      "src": "charts/2026-07-03/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-07-02/US_EQUITY_summary.png"
+      "src": "charts/2026-07-03/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-07-02.html"
+  "latest_report_href": "reports/2026-07-03.html"
 }
