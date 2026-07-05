@@ -1,14 +1,12 @@
 {
-  "latest_date": "2026-07-05",
-  "market_data_date": "2026-07-05",
-  "chart_date": "2026-07-05",
+  "latest_date": "2026-07-06",
+  "market_data_date": "2026-07-06",
+  "chart_date": "2026-07-06",
   "regime": "unknown",
   "regime_summary": "市场信号不足，暂不判断明确状态。",
   "key_moves": [
     "QQQ 下跌 -1.73%",
-    "Gold 上涨 1.81%",
-    "BTC 上涨 2.70%",
-    "ETH 上涨 4.94%"
+    "Gold 上涨 2.09%"
   ],
   "watch_points": [
     "关注后续数据是否确认当前跨资产信号。"
@@ -28,65 +26,58 @@
     },
     {
       "label": "BTC",
-      "value": "2.70%"
+      "value": "1.67%"
     },
     {
       "label": "Gold",
-      "value": "1.81%"
+      "value": "2.09%"
     },
     {
       "label": "Oil",
-      "value": "0.13%"
+      "value": "-0.55%"
     }
   ],
   "top_themes": [
-    "crypto_market_structure: This sanctioned Russian stablecoin claims it processes billions, but blockchain analysts disagree"
+    "commodity_supply: OPEC+ raises output levels again despite tumbling crude prices"
   ],
   "news_counts": {
     "must_read": 3,
-    "policy_watch": 1,
-    "background": 16
+    "policy_watch": 0,
+    "background": 9
   },
   "focus_news": [
     {
-      "title": "This sanctioned Russian stablecoin claims it processes billions, but blockchain analysts disagree",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/07/03/this-sanctioned-russian-stablecoin-claims-it-processes-billions-but-blockchain-analysts-disagree",
-      "event_type": "crypto_market_structure",
+      "title": "OPEC+ raises output levels again despite tumbling crude prices",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/opec-raises-output-levels-again-despite-tumbling-crude-prices-534791c8?mod=mw_rss_topstories",
+      "event_type": "commodity_supply",
       "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "reason": "大宗商品供给变化会影响能源价格、通胀预期和资源股。",
+      "market_impact": "主要影响 CL=F，方向为 positive，强度 high；供给扰动或 OPEC 减产通常推升 WTI 原油。",
       "assets": [
-        "BTC",
-        "COIN",
-        "ETH",
-        "crypto market"
-      ]
-    },
-    {
-      "title": "Why June’s jobs and inflation data are bullish for bonds",
-      "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/why-the-jobs-and-inflation-data-are-bullish-for-bonds-fcedffd2?mod=mw_rss_topstories",
-      "event_type": "other",
-      "importance_tier": 3,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
-      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
-      "assets": [
-        "BTC",
-        "DXY",
-        "GC=F",
-        "QQQ",
+        "BZ=F",
+        "CL=F",
         "SPY"
       ]
     },
     {
-      "title": "Here’s what’s worth streaming in July 2026 on Netflix, Hulu, HBO Max and more",
-      "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/heres-whats-worth-streaming-in-july-2026-on-netflix-hulu-hbo-max-and-more-58d07528?mod=mw_rss_topstories",
+      "title": "Banks have stopped asking if stablecoins belong in finance, now they're considering how",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/07/05/banks-have-stopped-asking-if-stablecoins-belong-in-finance-now-they-re-considering-how",
+      "event_type": "other",
+      "importance_tier": 3,
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "market_impact": "更偏背景信息，短期市场影响可能有限。",
+      "assets": []
+    },
+    {
+      "title": "Collateral, not yield, will decide which stablecoins win",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/opinion/2026/07/05/collateral-not-yield-will-decide-which-stablecoins-win",
       "event_type": "other",
       "importance_tier": 3,
       "impact_strength": "low",
@@ -96,25 +87,7 @@
       "assets": []
     }
   ],
-  "policy_news": [
-    {
-      "title": "This sanctioned Russian stablecoin claims it processes billions, but blockchain analysts disagree",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/07/03/this-sanctioned-russian-stablecoin-claims-it-processes-billions-but-blockchain-analysts-disagree",
-      "event_type": "crypto_market_structure",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
-      "assets": [
-        "BTC",
-        "COIN",
-        "ETH",
-        "crypto market"
-      ]
-    }
-  ],
+  "policy_news": [],
   "asset_movers": [
     {
       "symbol": "1211.HK",
@@ -126,47 +99,20 @@
       "direction": "up"
     },
     {
-      "symbol": "RIPPLE",
-      "group": "CRYPTO",
-      "price": "1.16",
-      "one_day": "6.78%",
-      "five_day": "10.64%",
-      "trend": "range_bound",
-      "direction": "up"
-    },
-    {
-      "symbol": "ETH",
-      "group": "CRYPTO",
-      "price": "1,782.37",
-      "one_day": "4.94%",
-      "five_day": "13.40%",
-      "trend": "range_bound",
-      "direction": "up"
-    },
-    {
       "symbol": "SI=F",
       "group": "COMMODITIES",
-      "price": "62.81",
-      "one_day": "3.58%",
-      "five_day": "6.08%",
+      "price": "63.59",
+      "one_day": "4.86%",
+      "five_day": "7.38%",
       "trend": "strong_downtrend",
       "direction": "up"
     },
     {
       "symbol": "BINANCECOIN",
       "group": "CRYPTO",
-      "price": "576.07",
-      "one_day": "3.23%",
-      "five_day": "4.56%",
-      "trend": "downtrend",
-      "direction": "up"
-    },
-    {
-      "symbol": "BTC",
-      "group": "CRYPTO",
-      "price": "63,148.69",
-      "one_day": "2.70%",
-      "five_day": "5.93%",
+      "price": "590.25",
+      "one_day": "2.94%",
+      "five_day": "5.65%",
       "trend": "range_bound",
       "direction": "up"
     },
@@ -182,30 +128,57 @@
     {
       "symbol": "GC=F",
       "group": "COMMODITIES",
-      "price": "4,187.30",
-      "one_day": "1.81%",
-      "five_day": "2.66%",
+      "price": "4,198.80",
+      "one_day": "2.09%",
+      "five_day": "2.94%",
       "trend": "range_bound",
       "direction": "up"
+    },
+    {
+      "symbol": "HG=F",
+      "group": "COMMODITIES",
+      "price": "6.24",
+      "one_day": "2.08%",
+      "five_day": "1.63%",
+      "trend": "range_bound",
+      "direction": "up"
+    },
+    {
+      "symbol": "RIPPLE",
+      "group": "CRYPTO",
+      "price": "1.15",
+      "one_day": "1.82%",
+      "five_day": "9.15%",
+      "trend": "range_bound",
+      "direction": "up"
+    },
+    {
+      "symbol": "QQQ",
+      "group": "US_EQUITY",
+      "price": "712.60",
+      "one_day": "-1.73%",
+      "five_day": "-0.53%",
+      "trend": "range_bound",
+      "direction": "down"
     }
   ],
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-07-05/COMMODITIES_summary.png"
+      "src": "charts/2026-07-06/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-07-05/CRYPTO_summary.png"
+      "src": "charts/2026-07-06/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-07-05/HK_MARKET_summary.png"
+      "src": "charts/2026-07-06/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-07-05/US_EQUITY_summary.png"
+      "src": "charts/2026-07-06/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-07-05.html"
+  "latest_report_href": "reports/2026-07-06.html"
 }
