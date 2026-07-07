@@ -1,55 +1,75 @@
 {
-  "latest_date": "2026-07-07",
-  "market_data_date": "2026-07-07",
-  "chart_date": "2026-07-07",
-  "regime": "risk_on",
-  "regime_summary": "股指上涨、波动率或美元回落，市场更接近风险偏好改善。",
+  "latest_date": "2026-07-08",
+  "market_data_date": "2026-07-08",
+  "chart_date": "2026-07-08",
+  "regime": "mixed",
+  "regime_summary": "市场信号不足，暂不判断明确状态。 但存在信号冲突，需要降低单一叙事置信度。",
   "key_moves": [
-    "SPY 上涨 0.87%",
-    "QQQ 上涨 1.43%",
-    "VIX 下跌 -3.59%",
-    "Gold 上涨 1.53%"
+    "SPY 下跌 -0.48%",
+    "QQQ 下跌 -1.85%",
+    "VIX 上涨 3.60%",
+    "TLT 下跌 -1.05%",
+    "Gold 下跌 -1.10%",
+    "Oil 上涨 5.65%"
   ],
   "watch_points": [
-    "确认风险偏好是否扩散到小盘股、信用利差和周期品。"
+    "关注后续数据是否确认当前跨资产信号。"
   ],
   "cards": [
     {
       "label": "美股 SPY",
-      "value": "0.87%"
+      "value": "-0.48%"
     },
     {
       "label": "QQQ",
-      "value": "1.43%"
+      "value": "-1.85%"
     },
     {
       "label": "VIX",
-      "value": "-3.59%"
+      "value": "3.60%"
     },
     {
       "label": "BTC",
-      "value": "1.84%"
+      "value": "-0.09%"
     },
     {
       "label": "Gold",
-      "value": "1.53%"
+      "value": "-1.10%"
     },
     {
       "label": "Oil",
-      "value": "0.04%"
+      "value": "5.65%"
     }
   ],
   "top_themes": [
+    "geopolitical_risk: Traders on Kalshi think the Nasdaq-100 will end 2026 above 30,000, predicting a cooler second half of the year",
     "geopolitical_risk: Securitize eyes acquisitions with $400 million war chest after going public, CEO says",
-    "central_bank_decision: FOMC minutes, SpaceX joins Nasdaq 100: Crypto Week Ahead",
-    "regulation: SEC Names Paul Knight as Chief Operating Officer"
+    "regulation: SEC Forms New Retail Fraud Working Group"
   ],
   "news_counts": {
-    "must_read": 8,
-    "policy_watch": 3,
-    "background": 11
+    "must_read": 10,
+    "policy_watch": 5,
+    "background": 20
   },
   "focus_news": [
+    {
+      "title": "Traders on Kalshi think the Nasdaq-100 will end 2026 above 30,000, predicting a cooler second half of the year",
+      "source": "CNBC Economy",
+      "url": "https://www.cnbc.com/2026/07/07/traders-on-kalshi-think-the-nasdaq-100-will-end-2026-above-30000.html",
+      "event_type": "geopolitical_risk",
+      "importance_tier": 1,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "地缘风险可能推升避险需求、能源价格和市场波动率。",
+      "market_impact": "主要影响 QQQ，方向为 positive，强度 high；通胀低于预期通常压低利率预期，有利于久期较长的成长股。",
+      "assets": [
+        "BTC",
+        "DXY",
+        "GC=F",
+        "QQQ",
+        "SPY"
+      ]
+    },
     {
       "title": "Securitize eyes acquisitions with $400 million war chest after going public, CEO says",
       "source": "CoinDesk",
@@ -63,21 +83,9 @@
       "assets": []
     },
     {
-      "title": "FOMC minutes, SpaceX joins Nasdaq 100: Crypto Week Ahead",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/07/06/fomc-minutes-spacex-joins-nasdaq-100-crypto-week-ahead",
-      "event_type": "central_bank_decision",
-      "importance_tier": 1,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
-      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
-      "assets": []
-    },
-    {
-      "title": "SEC Names Paul Knight as Chief Operating Officer",
+      "title": "SEC Forms New Retail Fraud Working Group",
       "source": "SEC Press Releases",
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-62-sec-names-paul-knight-chief-operating-officer",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-63-sec-forms-new-retail-fraud-working-group",
       "event_type": "regulation",
       "importance_tier": 2,
       "impact_strength": "high",
@@ -92,14 +100,14 @@
       ]
     },
     {
-      "title": "Circle’s USDC is leaving Tether behind in the stablecoin volume race, new data from Visa shows",
+      "title": "U.S. SEC to propose crypto rule as soon as this month to ease startups, fundraising",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/07/06/circle-s-usdc-is-leaving-tether-behind-in-the-stablecoin-volume-race",
-      "event_type": "crypto_market_structure",
+      "url": "https://www.coindesk.com/policy/2026/07/07/u-s-sec-to-propose-crypto-rule-as-soon-as-this-month-to-ease-startups-fundraising",
+      "event_type": "regulation",
       "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
+      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
       "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
       "assets": [
         "BTC",
@@ -111,21 +119,9 @@
   ],
   "policy_news": [
     {
-      "title": "FOMC minutes, SpaceX joins Nasdaq 100: Crypto Week Ahead",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/07/06/fomc-minutes-spacex-joins-nasdaq-100-crypto-week-ahead",
-      "event_type": "central_bank_decision",
-      "importance_tier": 1,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
-      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
-      "assets": []
-    },
-    {
-      "title": "SEC Names Paul Knight as Chief Operating Officer",
+      "title": "SEC Forms New Retail Fraud Working Group",
       "source": "SEC Press Releases",
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-62-sec-names-paul-knight-chief-operating-officer",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-63-sec-forms-new-retail-fraud-working-group",
       "event_type": "regulation",
       "importance_tier": 2,
       "impact_strength": "high",
@@ -140,9 +136,26 @@
       ]
     },
     {
-      "title": "Circle’s USDC is leaving Tether behind in the stablecoin volume race, new data from Visa shows",
+      "title": "U.S. SEC to propose crypto rule as soon as this month to ease startups, fundraising",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/07/06/circle-s-usdc-is-leaving-tether-behind-in-the-stablecoin-volume-race",
+      "url": "https://www.coindesk.com/policy/2026/07/07/u-s-sec-to-propose-crypto-rule-as-soon-as-this-month-to-ease-startups-fundraising",
+      "event_type": "regulation",
+      "importance_tier": 2,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "assets": [
+        "BTC",
+        "COIN",
+        "ETH",
+        "crypto market"
+      ]
+    },
+    {
+      "title": "Former Tether investment chief is looking to sell part of his stake in the stablecoin giant: Bloomberg",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/07/07/former-tether-investment-chief-is-looking-to-sell-part-of-his-stake-in-the-stablecoin-giant-bloomberg",
       "event_type": "crypto_market_structure",
       "importance_tier": 2,
       "impact_strength": "high",
@@ -159,95 +172,95 @@
   ],
   "asset_movers": [
     {
-      "symbol": "0700.HK",
-      "group": "HK_MARKET",
-      "price": "452.00",
-      "one_day": "4.82%",
-      "five_day": "9.76%",
-      "trend": "range_bound",
+      "symbol": "BZ=F",
+      "group": "COMMODITIES",
+      "price": "76.22",
+      "one_day": "5.88%",
+      "five_day": "4.20%",
+      "trend": "strong_downtrend",
+      "direction": "up"
+    },
+    {
+      "symbol": "CL=F",
+      "group": "COMMODITIES",
+      "price": "72.42",
+      "one_day": "5.65%",
+      "five_day": "2.36%",
+      "trend": "strong_downtrend",
       "direction": "up"
     },
     {
       "symbol": "3690.HK",
       "group": "HK_MARKET",
-      "price": "74.95",
-      "one_day": "4.68%",
-      "five_day": "16.65%",
+      "price": "78.35",
+      "one_day": "4.54%",
+      "five_day": "15.82%",
       "trend": "range_bound",
       "direction": "up"
     },
     {
-      "symbol": "^VIX",
-      "group": "US_MACRO_MARKET",
-      "price": "15.57",
-      "one_day": "-3.59%",
-      "five_day": "-15.43%",
+      "symbol": "RIPPLE",
+      "group": "CRYPTO",
+      "price": "1.12",
+      "one_day": "-3.64%",
+      "five_day": "5.99%",
       "trend": "range_bound",
       "direction": "down"
     },
     {
+      "symbol": "^VIX",
+      "group": "US_MACRO_MARKET",
+      "price": "16.13",
+      "one_day": "3.60%",
+      "five_day": "-8.61%",
+      "trend": "range_bound",
+      "direction": "up"
+    },
+    {
       "symbol": "SI=F",
       "group": "COMMODITIES",
-      "price": "62.47",
-      "one_day": "3.01%",
-      "five_day": "5.49%",
+      "price": "60.08",
+      "one_day": "-2.97%",
+      "five_day": "3.27%",
       "trend": "strong_downtrend",
-      "direction": "up"
+      "direction": "down"
     },
     {
-      "symbol": "BINANCECOIN",
-      "group": "CRYPTO",
-      "price": "587.96",
-      "one_day": "2.28%",
-      "five_day": "7.74%",
-      "trend": "range_bound",
-      "direction": "up"
-    },
-    {
-      "symbol": "HG=F",
-      "group": "COMMODITIES",
-      "price": "6.25",
-      "one_day": "2.27%",
-      "five_day": "1.82%",
-      "trend": "range_bound",
-      "direction": "up"
-    },
-    {
-      "symbol": "9988.HK",
+      "symbol": "0700.HK",
       "group": "HK_MARKET",
-      "price": "95.95",
-      "one_day": "1.97%",
-      "five_day": "7.21%",
-      "trend": "strong_downtrend",
+      "price": "461.20",
+      "one_day": "2.04%",
+      "five_day": "9.76%",
+      "trend": "range_bound",
       "direction": "up"
     },
     {
-      "symbol": "BTC",
-      "group": "CRYPTO",
-      "price": "64,255.54",
-      "one_day": "1.84%",
-      "five_day": "9.74%",
+      "symbol": "QQQ",
+      "group": "US_EQUITY",
+      "price": "709.43",
+      "one_day": "-1.85%",
+      "five_day": "-2.02%",
       "trend": "range_bound",
-      "direction": "up"
+      "direction": "down"
     }
   ],
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-07-07/COMMODITIES_summary.png"
+      "src": "charts/2026-07-08/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-07-07/CRYPTO_summary.png"
+      "src": "charts/2026-07-08/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-07-07/HK_MARKET_summary.png"
+      "src": "charts/2026-07-08/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-07-07/US_EQUITY_summary.png"
+      "src": "charts/2026-07-08/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-07-07.html"
+  "latest_report_href": "reports/2026-07-08.html"
 }
