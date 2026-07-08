@@ -1,16 +1,15 @@
 {
-  "latest_date": "2026-07-08",
-  "market_data_date": "2026-07-08",
-  "chart_date": "2026-07-08",
-  "regime": "mixed",
-  "regime_summary": "市场信号不足，暂不判断明确状态。 但存在信号冲突，需要降低单一叙事置信度。",
+  "latest_date": "2026-07-09",
+  "market_data_date": "2026-07-09",
+  "chart_date": "2026-07-09",
+  "regime": "unknown",
+  "regime_summary": "市场信号不足，暂不判断明确状态。",
   "key_moves": [
-    "SPY 下跌 -0.48%",
-    "QQQ 下跌 -1.85%",
-    "VIX 上涨 3.60%",
-    "TLT 下跌 -1.05%",
-    "Gold 下跌 -1.10%",
-    "Oil 上涨 5.65%"
+    "VIX 上涨 4.77%",
+    "Gold 下跌 -1.37%",
+    "Oil 上涨 5.91%",
+    "BTC 下跌 -2.82%",
+    "ETH 下跌 -3.34%"
   ],
   "watch_points": [
     "关注后续数据是否确认当前跨资产信号。"
@@ -18,40 +17,76 @@
   "cards": [
     {
       "label": "美股 SPY",
-      "value": "-0.48%"
+      "value": "-0.31%"
     },
     {
       "label": "QQQ",
-      "value": "-1.85%"
+      "value": "0.28%"
     },
     {
       "label": "VIX",
-      "value": "3.60%"
+      "value": "4.77%"
     },
     {
       "label": "BTC",
-      "value": "-0.09%"
+      "value": "-2.82%"
     },
     {
       "label": "Gold",
-      "value": "-1.10%"
+      "value": "-1.37%"
     },
     {
       "label": "Oil",
-      "value": "5.65%"
+      "value": "5.91%"
     }
   ],
   "top_themes": [
-    "geopolitical_risk: Traders on Kalshi think the Nasdaq-100 will end 2026 above 30,000, predicting a cooler second half of the year",
-    "geopolitical_risk: Securitize eyes acquisitions with $400 million war chest after going public, CEO says",
-    "regulation: SEC Forms New Retail Fraud Working Group"
+    "geopolitical_risk: Investors haven’t been this bullish on the dollar in a decade. How the buck can keep climbing.",
+    "geopolitical_risk: Bitcoin's inflation quagmire gets stickier as renewed MidEast conflict sends oil price soaring",
+    "geopolitical_risk: Traders on Kalshi think the Nasdaq-100 will end 2026 above 30,000, predicting a cooler second half of the year"
   ],
   "news_counts": {
     "must_read": 10,
-    "policy_watch": 5,
-    "background": 20
+    "policy_watch": 6,
+    "background": 19
   },
   "focus_news": [
+    {
+      "title": "Investors haven’t been this bullish on the dollar in a decade. How the buck can keep climbing.",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/traders-havent-been-this-bullish-on-the-dollar-in-a-decade-how-the-buck-can-keep-climbing-2e2bb287?mod=mw_rss_topstories",
+      "event_type": "geopolitical_risk",
+      "importance_tier": 1,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "地缘风险可能推升避险需求、能源价格和市场波动率。",
+      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
+      "assets": [
+        "BTC",
+        "BZ=F",
+        "CL=F",
+        "DXY",
+        "GC=F"
+      ]
+    },
+    {
+      "title": "Bitcoin's inflation quagmire gets stickier as renewed MidEast conflict sends oil price soaring",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/daybook-us/2026/07/08/bitcoin-s-inflation-quagmire-gets-stickier-as-renewed-mideast-conflict-sends-oil-price-soaring",
+      "event_type": "geopolitical_risk",
+      "importance_tier": 1,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "地缘风险可能推升避险需求、能源价格和市场波动率。",
+      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
+      "assets": [
+        "BTC",
+        "BZ=F",
+        "CL=F",
+        "DXY",
+        "GC=F"
+      ]
+    },
     {
       "title": "Traders on Kalshi think the Nasdaq-100 will end 2026 above 30,000, predicting a cooler second half of the year",
       "source": "CNBC Economy",
@@ -71,57 +106,35 @@
       ]
     },
     {
-      "title": "Securitize eyes acquisitions with $400 million war chest after going public, CEO says",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/07/06/securitize-eyes-acquisitions-with-usd400-million-war-chest-after-going-public-ceo-says",
-      "event_type": "geopolitical_risk",
+      "title": "‘I’d hate to end up with an unexpected tax bill’: I’m 73 and still work full time. Can I avoid paying taxes on my Social Security benefits?",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/im-73-and-still-work-full-time-can-i-avoid-paying-taxes-on-my-social-security-benefits-06ecc7c2?mod=mw_rss_topstories",
+      "event_type": "fiscal_policy",
       "importance_tier": 1,
       "impact_strength": "low",
       "impact_direction": "unknown",
-      "reason": "地缘风险可能推升避险需求、能源价格和市场波动率。",
+      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
       "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
       "assets": []
-    },
-    {
-      "title": "SEC Forms New Retail Fraud Working Group",
-      "source": "SEC Press Releases",
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-63-sec-forms-new-retail-fraud-working-group",
-      "event_type": "regulation",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
-      "assets": [
-        "BTC",
-        "COIN",
-        "ETH",
-        "crypto market"
-      ]
-    },
-    {
-      "title": "U.S. SEC to propose crypto rule as soon as this month to ease startups, fundraising",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/07/07/u-s-sec-to-propose-crypto-rule-as-soon-as-this-month-to-ease-startups-fundraising",
-      "event_type": "regulation",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
-      "assets": [
-        "BTC",
-        "COIN",
-        "ETH",
-        "crypto market"
-      ]
     }
   ],
   "policy_news": [
     {
-      "title": "SEC Forms New Retail Fraud Working Group",
+      "title": "‘I’d hate to end up with an unexpected tax bill’: I’m 73 and still work full time. Can I avoid paying taxes on my Social Security benefits?",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/im-73-and-still-work-full-time-can-i-avoid-paying-taxes-on-my-social-security-benefits-06ecc7c2?mod=mw_rss_topstories",
+      "event_type": "fiscal_policy",
+      "importance_tier": 1,
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "assets": []
+    },
+    {
+      "title": "SEC to Host Virtual Roundtable on Modernizing IPOs and Expanding Access to Public Markets",
       "source": "SEC Press Releases",
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-63-sec-forms-new-retail-fraud-working-group",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-65-sec-host-virtual-roundtable-modernizing-ipos-expanding-access-public-markets",
       "event_type": "regulation",
       "importance_tier": 2,
       "impact_strength": "high",
@@ -136,31 +149,14 @@
       ]
     },
     {
-      "title": "U.S. SEC to propose crypto rule as soon as this month to ease startups, fundraising",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/07/07/u-s-sec-to-propose-crypto-rule-as-soon-as-this-month-to-ease-startups-fundraising",
+      "title": "SEC Small Business Advisory Committee to Explore Modernizing Market Access",
+      "source": "SEC Press Releases",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-64-sec-small-business-advisory-committee-explore-modernizing-market-access",
       "event_type": "regulation",
       "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
       "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
-      "assets": [
-        "BTC",
-        "COIN",
-        "ETH",
-        "crypto market"
-      ]
-    },
-    {
-      "title": "Former Tether investment chief is looking to sell part of his stake in the stablecoin giant: Bloomberg",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/07/07/former-tether-investment-chief-is-looking-to-sell-part-of-his-stake-in-the-stablecoin-giant-bloomberg",
-      "event_type": "crypto_market_structure",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
       "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
       "assets": [
         "BTC",
@@ -172,95 +168,95 @@
   ],
   "asset_movers": [
     {
+      "symbol": "9988.HK",
+      "group": "HK_MARKET",
+      "price": "107.50",
+      "one_day": "12.21%",
+      "five_day": "15.78%",
+      "trend": "range_bound",
+      "direction": "up"
+    },
+    {
+      "symbol": "1810.HK",
+      "group": "HK_MARKET",
+      "price": "25.30",
+      "one_day": "9.52%",
+      "five_day": "16.91%",
+      "trend": "range_bound",
+      "direction": "up"
+    },
+    {
       "symbol": "BZ=F",
       "group": "COMMODITIES",
-      "price": "76.22",
-      "one_day": "5.88%",
-      "five_day": "4.20%",
-      "trend": "strong_downtrend",
+      "price": "79.09",
+      "one_day": "6.65%",
+      "five_day": "8.46%",
+      "trend": "range_bound",
       "direction": "up"
     },
     {
       "symbol": "CL=F",
       "group": "COMMODITIES",
-      "price": "72.42",
-      "one_day": "5.65%",
-      "five_day": "2.36%",
-      "trend": "strong_downtrend",
+      "price": "74.60",
+      "one_day": "5.91%",
+      "five_day": "7.34%",
+      "trend": "downtrend",
       "direction": "up"
     },
     {
-      "symbol": "3690.HK",
-      "group": "HK_MARKET",
-      "price": "78.35",
-      "one_day": "4.54%",
-      "five_day": "15.82%",
-      "trend": "range_bound",
-      "direction": "up"
-    },
-    {
-      "symbol": "RIPPLE",
+      "symbol": "DOGECOIN",
       "group": "CRYPTO",
-      "price": "1.12",
-      "one_day": "-3.64%",
-      "five_day": "5.99%",
+      "price": "0.07",
+      "one_day": "-5.53%",
+      "five_day": "-2.32%",
+      "trend": "strong_downtrend",
+      "direction": "down"
+    },
+    {
+      "symbol": "SOLANA",
+      "group": "CRYPTO",
+      "price": "77.45",
+      "one_day": "-5.49%",
+      "five_day": "-3.93%",
       "trend": "range_bound",
       "direction": "down"
     },
     {
       "symbol": "^VIX",
       "group": "US_MACRO_MARKET",
-      "price": "16.13",
-      "one_day": "3.60%",
-      "five_day": "-8.61%",
+      "price": "16.90",
+      "one_day": "4.77%",
+      "five_day": "2.74%",
       "trend": "range_bound",
       "direction": "up"
     },
     {
-      "symbol": "SI=F",
-      "group": "COMMODITIES",
-      "price": "60.08",
-      "one_day": "-2.97%",
-      "five_day": "3.27%",
-      "trend": "strong_downtrend",
-      "direction": "down"
-    },
-    {
-      "symbol": "0700.HK",
-      "group": "HK_MARKET",
-      "price": "461.20",
-      "one_day": "2.04%",
-      "five_day": "9.76%",
-      "trend": "range_bound",
-      "direction": "up"
-    },
-    {
-      "symbol": "QQQ",
-      "group": "US_EQUITY",
-      "price": "709.43",
-      "one_day": "-1.85%",
-      "five_day": "-2.02%",
-      "trend": "range_bound",
+      "symbol": "RIPPLE",
+      "group": "CRYPTO",
+      "price": "1.09",
+      "one_day": "-4.57%",
+      "five_day": "0.49%",
+      "trend": "downtrend",
       "direction": "down"
     }
   ],
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-07-08/COMMODITIES_summary.png"
+      "src": "charts/2026-07-09/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-07-08/CRYPTO_summary.png"
+      "src": "charts/2026-07-09/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-07-08/HK_MARKET_summary.png"
+      "src": "charts/2026-07-09/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-07-08/US_EQUITY_summary.png"
+      "src": "charts/2026-07-09/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-07-08.html"
+  "latest_report_href": "reports/2026-07-09.html"
 }
