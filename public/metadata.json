@@ -1,135 +1,89 @@
 {
-  "latest_date": "2026-07-09",
-  "market_data_date": "2026-07-09",
-  "chart_date": "2026-07-09",
-  "regime": "unknown",
-  "regime_summary": "市场信号不足，暂不判断明确状态。",
+  "latest_date": "2026-07-10",
+  "market_data_date": "2026-07-10",
+  "chart_date": "2026-07-10",
+  "regime": "risk_on",
+  "regime_summary": "股指上涨、波动率或美元回落，市场更接近风险偏好改善。",
   "key_moves": [
-    "VIX 上涨 4.77%",
-    "Gold 下跌 -1.37%",
-    "Oil 上涨 5.91%",
-    "BTC 下跌 -2.82%",
-    "ETH 下跌 -3.34%"
+    "SPY 上涨 0.85%",
+    "QQQ 上涨 1.66%",
+    "VIX 下跌 -6.27%",
+    "Gold 上涨 1.50%",
+    "Oil 下跌 -2.33%"
   ],
   "watch_points": [
-    "关注后续数据是否确认当前跨资产信号。"
+    "确认风险偏好是否扩散到小盘股、信用利差和周期品。"
   ],
   "cards": [
     {
       "label": "美股 SPY",
-      "value": "-0.31%"
+      "value": "0.85%"
     },
     {
       "label": "QQQ",
-      "value": "0.28%"
+      "value": "1.66%"
     },
     {
       "label": "VIX",
-      "value": "4.77%"
+      "value": "-6.27%"
     },
     {
       "label": "BTC",
-      "value": "-2.82%"
+      "value": "-0.30%"
     },
     {
       "label": "Gold",
-      "value": "-1.37%"
+      "value": "1.50%"
     },
     {
       "label": "Oil",
-      "value": "5.91%"
+      "value": "-2.33%"
     }
   ],
   "top_themes": [
-    "geopolitical_risk: Investors haven’t been this bullish on the dollar in a decade. How the buck can keep climbing.",
-    "geopolitical_risk: Bitcoin's inflation quagmire gets stickier as renewed MidEast conflict sends oil price soaring",
-    "geopolitical_risk: Traders on Kalshi think the Nasdaq-100 will end 2026 above 30,000, predicting a cooler second half of the year"
+    "regulation: With SEC fight over, Coinbase's top legal exec Grewal moves on, and others reassigned",
+    "crypto_market_structure: Sony secures conditional approval to set up U.S. stablecoin trust bank",
+    "regulation: SEC to Host Virtual Roundtable on Modernizing IPOs and Expanding Access to Public Markets"
   ],
   "news_counts": {
-    "must_read": 10,
-    "policy_watch": 6,
-    "background": 19
+    "must_read": 7,
+    "policy_watch": 5,
+    "background": 20
   },
   "focus_news": [
     {
-      "title": "Investors haven’t been this bullish on the dollar in a decade. How the buck can keep climbing.",
-      "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/traders-havent-been-this-bullish-on-the-dollar-in-a-decade-how-the-buck-can-keep-climbing-2e2bb287?mod=mw_rss_topstories",
-      "event_type": "geopolitical_risk",
-      "importance_tier": 1,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "地缘风险可能推升避险需求、能源价格和市场波动率。",
-      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
-      "assets": [
-        "BTC",
-        "BZ=F",
-        "CL=F",
-        "DXY",
-        "GC=F"
-      ]
-    },
-    {
-      "title": "Bitcoin's inflation quagmire gets stickier as renewed MidEast conflict sends oil price soaring",
+      "title": "With SEC fight over, Coinbase's top legal exec Grewal moves on, and others reassigned",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/daybook-us/2026/07/08/bitcoin-s-inflation-quagmire-gets-stickier-as-renewed-mideast-conflict-sends-oil-price-soaring",
-      "event_type": "geopolitical_risk",
-      "importance_tier": 1,
+      "url": "https://www.coindesk.com/policy/2026/07/09/with-sec-fight-over-coinbase-s-top-legal-exec-grewal-moves-on-and-others-reassigned",
+      "event_type": "regulation",
+      "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "地缘风险可能推升避险需求、能源价格和市场波动率。",
-      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
+      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
       "assets": [
         "BTC",
-        "BZ=F",
-        "CL=F",
-        "DXY",
-        "GC=F"
+        "COIN",
+        "ETH",
+        "crypto market"
       ]
     },
     {
-      "title": "Traders on Kalshi think the Nasdaq-100 will end 2026 above 30,000, predicting a cooler second half of the year",
-      "source": "CNBC Economy",
-      "url": "https://www.cnbc.com/2026/07/07/traders-on-kalshi-think-the-nasdaq-100-will-end-2026-above-30000.html",
-      "event_type": "geopolitical_risk",
-      "importance_tier": 1,
+      "title": "Sony secures conditional approval to set up U.S. stablecoin trust bank",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/07/09/sony-secures-conditional-approval-to-set-up-u-s-stablecoin-trust-bank",
+      "event_type": "crypto_market_structure",
+      "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "地缘风险可能推升避险需求、能源价格和市场波动率。",
-      "market_impact": "主要影响 QQQ，方向为 positive，强度 high；通胀低于预期通常压低利率预期，有利于久期较长的成长股。",
+      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
+      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
       "assets": [
         "BTC",
-        "DXY",
-        "GC=F",
-        "QQQ",
-        "SPY"
+        "COIN",
+        "ETH",
+        "crypto market"
       ]
-    },
-    {
-      "title": "‘I’d hate to end up with an unexpected tax bill’: I’m 73 and still work full time. Can I avoid paying taxes on my Social Security benefits?",
-      "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/im-73-and-still-work-full-time-can-i-avoid-paying-taxes-on-my-social-security-benefits-06ecc7c2?mod=mw_rss_topstories",
-      "event_type": "fiscal_policy",
-      "importance_tier": 1,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
-      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
-      "assets": []
-    }
-  ],
-  "policy_news": [
-    {
-      "title": "‘I’d hate to end up with an unexpected tax bill’: I’m 73 and still work full time. Can I avoid paying taxes on my Social Security benefits?",
-      "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/im-73-and-still-work-full-time-can-i-avoid-paying-taxes-on-my-social-security-benefits-06ecc7c2?mod=mw_rss_topstories",
-      "event_type": "fiscal_policy",
-      "importance_tier": 1,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
-      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
-      "assets": []
     },
     {
       "title": "SEC to Host Virtual Roundtable on Modernizing IPOs and Expanding Access to Public Markets",
@@ -166,97 +120,150 @@
       ]
     }
   ],
+  "policy_news": [
+    {
+      "title": "With SEC fight over, Coinbase's top legal exec Grewal moves on, and others reassigned",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/07/09/with-sec-fight-over-coinbase-s-top-legal-exec-grewal-moves-on-and-others-reassigned",
+      "event_type": "regulation",
+      "importance_tier": 2,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "assets": [
+        "BTC",
+        "COIN",
+        "ETH",
+        "crypto market"
+      ]
+    },
+    {
+      "title": "Sony secures conditional approval to set up U.S. stablecoin trust bank",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/07/09/sony-secures-conditional-approval-to-set-up-u-s-stablecoin-trust-bank",
+      "event_type": "crypto_market_structure",
+      "importance_tier": 2,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
+      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "assets": [
+        "BTC",
+        "COIN",
+        "ETH",
+        "crypto market"
+      ]
+    },
+    {
+      "title": "SEC to Host Virtual Roundtable on Modernizing IPOs and Expanding Access to Public Markets",
+      "source": "SEC Press Releases",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-65-sec-host-virtual-roundtable-modernizing-ipos-expanding-access-public-markets",
+      "event_type": "regulation",
+      "importance_tier": 2,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "assets": [
+        "BTC",
+        "COIN",
+        "ETH",
+        "crypto market"
+      ]
+    }
+  ],
   "asset_movers": [
     {
-      "symbol": "9988.HK",
-      "group": "HK_MARKET",
-      "price": "107.50",
-      "one_day": "12.21%",
-      "five_day": "15.78%",
-      "trend": "range_bound",
-      "direction": "up"
-    },
-    {
-      "symbol": "1810.HK",
-      "group": "HK_MARKET",
-      "price": "25.30",
-      "one_day": "9.52%",
-      "five_day": "16.91%",
-      "trend": "range_bound",
-      "direction": "up"
-    },
-    {
-      "symbol": "BZ=F",
+      "symbol": "NG=F",
       "group": "COMMODITIES",
-      "price": "79.09",
-      "one_day": "6.65%",
-      "five_day": "8.46%",
-      "trend": "range_bound",
-      "direction": "up"
-    },
-    {
-      "symbol": "CL=F",
-      "group": "COMMODITIES",
-      "price": "74.60",
-      "one_day": "5.91%",
-      "five_day": "7.34%",
-      "trend": "downtrend",
-      "direction": "up"
-    },
-    {
-      "symbol": "DOGECOIN",
-      "group": "CRYPTO",
-      "price": "0.07",
-      "one_day": "-5.53%",
-      "five_day": "-2.32%",
-      "trend": "strong_downtrend",
-      "direction": "down"
-    },
-    {
-      "symbol": "SOLANA",
-      "group": "CRYPTO",
-      "price": "77.45",
-      "one_day": "-5.49%",
-      "five_day": "-3.93%",
+      "price": "3.01",
+      "one_day": "-6.32%",
+      "five_day": "-6.55%",
       "trend": "range_bound",
       "direction": "down"
     },
     {
       "symbol": "^VIX",
       "group": "US_MACRO_MARKET",
-      "price": "16.90",
-      "one_day": "4.77%",
-      "five_day": "2.74%",
+      "price": "15.84",
+      "one_day": "-6.27%",
+      "five_day": "-4.52%",
+      "trend": "strong_downtrend",
+      "direction": "down"
+    },
+    {
+      "symbol": "SI=F",
+      "group": "COMMODITIES",
+      "price": "60.37",
+      "one_day": "3.79%",
+      "five_day": "0.47%",
+      "trend": "strong_downtrend",
+      "direction": "up"
+    },
+    {
+      "symbol": "1211.HK",
+      "group": "HK_MARKET",
+      "price": "82.65",
+      "one_day": "-3.73%",
+      "five_day": "5.56%",
+      "trend": "range_bound",
+      "direction": "down"
+    },
+    {
+      "symbol": "SOLANA",
+      "group": "CRYPTO",
+      "price": "78.08",
+      "one_day": "-3.25%",
+      "five_day": "-5.10%",
+      "trend": "range_bound",
+      "direction": "down"
+    },
+    {
+      "symbol": "HG=F",
+      "group": "COMMODITIES",
+      "price": "6.25",
+      "one_day": "3.16%",
+      "five_day": "2.00%",
+      "trend": "uptrend",
+      "direction": "up"
+    },
+    {
+      "symbol": "^HSI",
+      "group": "HK_MARKET",
+      "price": "24,199.46",
+      "one_day": "2.99%",
+      "five_day": "5.76%",
       "trend": "range_bound",
       "direction": "up"
     },
     {
-      "symbol": "RIPPLE",
-      "group": "CRYPTO",
-      "price": "1.09",
-      "one_day": "-4.57%",
-      "five_day": "0.49%",
-      "trend": "downtrend",
+      "symbol": "3690.HK",
+      "group": "HK_MARKET",
+      "price": "78.50",
+      "one_day": "-2.97%",
+      "five_day": "10.80%",
+      "trend": "range_bound",
       "direction": "down"
     }
   ],
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-07-09/COMMODITIES_summary.png"
+      "src": "charts/2026-07-10/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-07-09/CRYPTO_summary.png"
+      "src": "charts/2026-07-10/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-07-09/HK_MARKET_summary.png"
+      "src": "charts/2026-07-10/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-07-09/US_EQUITY_summary.png"
+      "src": "charts/2026-07-10/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-07-09.html"
+  "latest_report_href": "reports/2026-07-10.html"
 }
