@@ -1,15 +1,14 @@
 {
-  "latest_date": "2026-07-10",
-  "market_data_date": "2026-07-10",
-  "chart_date": "2026-07-10",
+  "latest_date": "2026-07-11",
+  "market_data_date": "2026-07-11",
+  "chart_date": "2026-07-11",
   "regime": "risk_on",
   "regime_summary": "股指上涨、波动率或美元回落，市场更接近风险偏好改善。",
   "key_moves": [
-    "SPY 上涨 0.85%",
-    "QQQ 上涨 1.66%",
-    "VIX 下跌 -6.27%",
-    "Gold 上涨 1.50%",
-    "Oil 下跌 -2.33%"
+    "SPY 上涨 0.43%",
+    "VIX 下跌 -5.11%",
+    "BTC 上涨 2.94%",
+    "ETH 上涨 2.96%"
   ],
   "watch_points": [
     "确认风险偏好是否扩散到小盘股、信用利差和周期品。"
@@ -17,33 +16,33 @@
   "cards": [
     {
       "label": "美股 SPY",
-      "value": "0.85%"
+      "value": "0.43%"
     },
     {
       "label": "QQQ",
-      "value": "1.66%"
+      "value": "0.31%"
     },
     {
       "label": "VIX",
-      "value": "-6.27%"
+      "value": "-5.11%"
     },
     {
       "label": "BTC",
-      "value": "-0.30%"
+      "value": "2.94%"
     },
     {
       "label": "Gold",
-      "value": "1.50%"
+      "value": "-0.04%"
     },
     {
       "label": "Oil",
-      "value": "-2.33%"
+      "value": "-0.79%"
     }
   ],
   "top_themes": [
-    "regulation: With SEC fight over, Coinbase's top legal exec Grewal moves on, and others reassigned",
-    "crypto_market_structure: Sony secures conditional approval to set up U.S. stablecoin trust bank",
-    "regulation: SEC to Host Virtual Roundtable on Modernizing IPOs and Expanding Access to Public Markets"
+    "fiscal_policy: ‘I’d hate to end up with an unexpected tax bill’: I’m 73 and still work full time. Can I avoid paying taxes on my Social Security benefits?",
+    "regulation: SEC Office of Municipal Securities Updates FAQs for Registration of Municipal Advisors",
+    "crypto_market_structure: Hyundai becomes first major South Korean company to introduce internal stablecoin transfers"
   ],
   "news_counts": {
     "must_read": 7,
@@ -52,9 +51,21 @@
   },
   "focus_news": [
     {
-      "title": "With SEC fight over, Coinbase's top legal exec Grewal moves on, and others reassigned",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/07/09/with-sec-fight-over-coinbase-s-top-legal-exec-grewal-moves-on-and-others-reassigned",
+      "title": "‘I’d hate to end up with an unexpected tax bill’: I’m 73 and still work full time. Can I avoid paying taxes on my Social Security benefits?",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/im-73-and-still-work-full-time-can-i-avoid-paying-taxes-on-my-social-security-benefits-06ecc7c2?mod=mw_rss_topstories",
+      "event_type": "fiscal_policy",
+      "importance_tier": 1,
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "assets": []
+    },
+    {
+      "title": "SEC Office of Municipal Securities Updates FAQs for Registration of Municipal Advisors",
+      "source": "SEC Press Releases",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-66-sec-office-municipal-securities-updates-faqs-registration-municipal-advisors",
       "event_type": "regulation",
       "importance_tier": 2,
       "impact_strength": "high",
@@ -69,9 +80,9 @@
       ]
     },
     {
-      "title": "Sony secures conditional approval to set up U.S. stablecoin trust bank",
+      "title": "Hyundai becomes first major South Korean company to introduce internal stablecoin transfers",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/07/09/sony-secures-conditional-approval-to-set-up-u-s-stablecoin-trust-bank",
+      "url": "https://www.coindesk.com/business/2026/07/10/hyundai-becomes-first-major-south-korean-company-to-introduce-internal-stablecoin-transfers",
       "event_type": "crypto_market_structure",
       "importance_tier": 2,
       "impact_strength": "high",
@@ -86,26 +97,9 @@
       ]
     },
     {
-      "title": "SEC to Host Virtual Roundtable on Modernizing IPOs and Expanding Access to Public Markets",
-      "source": "SEC Press Releases",
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-65-sec-host-virtual-roundtable-modernizing-ipos-expanding-access-public-markets",
-      "event_type": "regulation",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
-      "assets": [
-        "BTC",
-        "COIN",
-        "ETH",
-        "crypto market"
-      ]
-    },
-    {
-      "title": "SEC Small Business Advisory Committee to Explore Modernizing Market Access",
-      "source": "SEC Press Releases",
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-64-sec-small-business-advisory-committee-explore-modernizing-market-access",
+      "title": "With SEC fight over, Coinbase's top legal exec Grewal moves on, and others reassigned",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/07/09/with-sec-fight-over-coinbase-s-top-legal-exec-grewal-moves-on-and-others-reassigned",
       "event_type": "regulation",
       "importance_tier": 2,
       "impact_strength": "high",
@@ -122,9 +116,21 @@
   ],
   "policy_news": [
     {
-      "title": "With SEC fight over, Coinbase's top legal exec Grewal moves on, and others reassigned",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/07/09/with-sec-fight-over-coinbase-s-top-legal-exec-grewal-moves-on-and-others-reassigned",
+      "title": "‘I’d hate to end up with an unexpected tax bill’: I’m 73 and still work full time. Can I avoid paying taxes on my Social Security benefits?",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/im-73-and-still-work-full-time-can-i-avoid-paying-taxes-on-my-social-security-benefits-06ecc7c2?mod=mw_rss_topstories",
+      "event_type": "fiscal_policy",
+      "importance_tier": 1,
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "assets": []
+    },
+    {
+      "title": "SEC Office of Municipal Securities Updates FAQs for Registration of Municipal Advisors",
+      "source": "SEC Press Releases",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-66-sec-office-municipal-securities-updates-faqs-registration-municipal-advisors",
       "event_type": "regulation",
       "importance_tier": 2,
       "impact_strength": "high",
@@ -139,9 +145,9 @@
       ]
     },
     {
-      "title": "Sony secures conditional approval to set up U.S. stablecoin trust bank",
+      "title": "Hyundai becomes first major South Korean company to introduce internal stablecoin transfers",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/07/09/sony-secures-conditional-approval-to-set-up-u-s-stablecoin-trust-bank",
+      "url": "https://www.coindesk.com/business/2026/07/10/hyundai-becomes-first-major-south-korean-company-to-introduce-internal-stablecoin-transfers",
       "event_type": "crypto_market_structure",
       "importance_tier": 2,
       "impact_strength": "high",
@@ -154,95 +160,78 @@
         "ETH",
         "crypto market"
       ]
-    },
-    {
-      "title": "SEC to Host Virtual Roundtable on Modernizing IPOs and Expanding Access to Public Markets",
-      "source": "SEC Press Releases",
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-65-sec-host-virtual-roundtable-modernizing-ipos-expanding-access-public-markets",
-      "event_type": "regulation",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
-      "assets": [
-        "BTC",
-        "COIN",
-        "ETH",
-        "crypto market"
-      ]
     }
   ],
   "asset_movers": [
     {
-      "symbol": "NG=F",
-      "group": "COMMODITIES",
-      "price": "3.01",
-      "one_day": "-6.32%",
-      "five_day": "-6.55%",
-      "trend": "range_bound",
-      "direction": "down"
-    },
-    {
       "symbol": "^VIX",
       "group": "US_MACRO_MARKET",
-      "price": "15.84",
-      "one_day": "-6.27%",
-      "five_day": "-4.52%",
+      "price": "15.03",
+      "one_day": "-5.11%",
+      "five_day": "-6.93%",
       "trend": "strong_downtrend",
       "direction": "down"
     },
     {
-      "symbol": "SI=F",
-      "group": "COMMODITIES",
-      "price": "60.37",
-      "one_day": "3.79%",
-      "five_day": "0.47%",
-      "trend": "strong_downtrend",
+      "symbol": "1810.HK",
+      "group": "HK_MARKET",
+      "price": "25.84",
+      "one_day": "3.36%",
+      "five_day": "12.54%",
+      "trend": "range_bound",
+      "direction": "up"
+    },
+    {
+      "symbol": "ETH",
+      "group": "CRYPTO",
+      "price": "1,794.19",
+      "one_day": "2.96%",
+      "five_day": "0.86%",
+      "trend": "range_bound",
+      "direction": "up"
+    },
+    {
+      "symbol": "BTC",
+      "group": "CRYPTO",
+      "price": "64,081.19",
+      "one_day": "2.94%",
+      "five_day": "1.56%",
+      "trend": "range_bound",
       "direction": "up"
     },
     {
       "symbol": "1211.HK",
       "group": "HK_MARKET",
-      "price": "82.65",
-      "one_day": "-3.73%",
-      "five_day": "5.56%",
+      "price": "84.90",
+      "one_day": "2.72%",
+      "five_day": "0.95%",
       "trend": "range_bound",
-      "direction": "down"
+      "direction": "up"
     },
     {
-      "symbol": "SOLANA",
-      "group": "CRYPTO",
-      "price": "78.08",
-      "one_day": "-3.25%",
-      "five_day": "-5.10%",
-      "trend": "range_bound",
-      "direction": "down"
-    },
-    {
-      "symbol": "HG=F",
+      "symbol": "NG=F",
       "group": "COMMODITIES",
-      "price": "6.25",
-      "one_day": "3.16%",
-      "five_day": "2.00%",
-      "trend": "uptrend",
-      "direction": "up"
+      "price": "2.95",
+      "one_day": "-2.12%",
+      "five_day": "-7.76%",
+      "trend": "range_bound",
+      "direction": "down"
     },
     {
-      "symbol": "^HSI",
+      "symbol": "9988.HK",
       "group": "HK_MARKET",
-      "price": "24,199.46",
-      "one_day": "2.99%",
-      "five_day": "5.76%",
+      "price": "110.20",
+      "one_day": "2.04%",
+      "five_day": "17.11%",
       "trend": "range_bound",
       "direction": "up"
     },
     {
-      "symbol": "3690.HK",
+      "symbol": "0700.HK",
       "group": "HK_MARKET",
-      "price": "78.50",
-      "one_day": "-2.97%",
-      "five_day": "10.80%",
+      "price": "460.20",
+      "one_day": "-2.00%",
+      "five_day": "6.73%",
       "trend": "range_bound",
       "direction": "down"
     }
@@ -250,20 +239,20 @@
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-07-10/COMMODITIES_summary.png"
+      "src": "charts/2026-07-11/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-07-10/CRYPTO_summary.png"
+      "src": "charts/2026-07-11/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-07-10/HK_MARKET_summary.png"
+      "src": "charts/2026-07-11/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-07-10/US_EQUITY_summary.png"
+      "src": "charts/2026-07-11/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-07-10.html"
+  "latest_report_href": "reports/2026-07-11.html"
 }
