@@ -1,14 +1,14 @@
 {
-  "latest_date": "2026-07-11",
-  "market_data_date": "2026-07-11",
-  "chart_date": "2026-07-11",
+  "latest_date": "2026-07-12",
+  "market_data_date": "2026-07-12",
+  "chart_date": "2026-07-12",
   "regime": "risk_on",
   "regime_summary": "股指上涨、波动率或美元回落，市场更接近风险偏好改善。",
   "key_moves": [
     "SPY 上涨 0.43%",
     "VIX 下跌 -5.11%",
-    "BTC 上涨 2.94%",
-    "ETH 上涨 2.96%"
+    "Gold 下跌 -0.64%",
+    "ETH 上涨 3.87%"
   ],
   "watch_points": [
     "确认风险偏好是否扩散到小盘股、信用利差和周期品。"
@@ -28,40 +28,27 @@
     },
     {
       "label": "BTC",
-      "value": "2.94%"
+      "value": "1.47%"
     },
     {
       "label": "Gold",
-      "value": "-0.04%"
+      "value": "-0.64%"
     },
     {
       "label": "Oil",
-      "value": "-0.79%"
+      "value": "-0.93%"
     }
   ],
   "top_themes": [
-    "fiscal_policy: ‘I’d hate to end up with an unexpected tax bill’: I’m 73 and still work full time. Can I avoid paying taxes on my Social Security benefits?",
     "regulation: SEC Office of Municipal Securities Updates FAQs for Registration of Municipal Advisors",
     "crypto_market_structure: Hyundai becomes first major South Korean company to introduce internal stablecoin transfers"
   ],
   "news_counts": {
-    "must_read": 7,
-    "policy_watch": 5,
-    "background": 20
+    "must_read": 4,
+    "policy_watch": 2,
+    "background": 17
   },
   "focus_news": [
-    {
-      "title": "‘I’d hate to end up with an unexpected tax bill’: I’m 73 and still work full time. Can I avoid paying taxes on my Social Security benefits?",
-      "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/im-73-and-still-work-full-time-can-i-avoid-paying-taxes-on-my-social-security-benefits-06ecc7c2?mod=mw_rss_topstories",
-      "event_type": "fiscal_policy",
-      "importance_tier": 1,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
-      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
-      "assets": []
-    },
     {
       "title": "SEC Office of Municipal Securities Updates FAQs for Registration of Municipal Advisors",
       "source": "SEC Press Releases",
@@ -97,14 +84,14 @@
       ]
     },
     {
-      "title": "With SEC fight over, Coinbase's top legal exec Grewal moves on, and others reassigned",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/07/09/with-sec-fight-over-coinbase-s-top-legal-exec-grewal-moves-on-and-others-reassigned",
-      "event_type": "regulation",
-      "importance_tier": 2,
+      "title": "These underperforming trades could yield big returns over next six months",
+      "source": "CNBC Economy",
+      "url": "https://www.cnbc.com/2026/07/11/mag-7-and-software-could-boost-portfolio-in-second-half-etf-action.html",
+      "event_type": "other",
+      "importance_tier": 3,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
       "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
       "assets": [
         "BTC",
@@ -112,21 +99,21 @@
         "ETH",
         "crypto market"
       ]
+    },
+    {
+      "title": "‘I get $1,460 in Social Security’: My millionaire ex-husband, 74, refuses to pay alimony. What can I do?",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/i-get-1-460-in-social-security-my-millionaire-ex-husband-74-refuses-to-pay-alimony-what-can-i-do-c5e60824?mod=mw_rss_topstories",
+      "event_type": "other",
+      "importance_tier": 3,
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "market_impact": "更偏背景信息，短期市场影响可能有限。",
+      "assets": []
     }
   ],
   "policy_news": [
-    {
-      "title": "‘I’d hate to end up with an unexpected tax bill’: I’m 73 and still work full time. Can I avoid paying taxes on my Social Security benefits?",
-      "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/im-73-and-still-work-full-time-can-i-avoid-paying-taxes-on-my-social-security-benefits-06ecc7c2?mod=mw_rss_topstories",
-      "event_type": "fiscal_policy",
-      "importance_tier": 1,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
-      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
-      "assets": []
-    },
     {
       "title": "SEC Office of Municipal Securities Updates FAQs for Registration of Municipal Advisors",
       "source": "SEC Press Releases",
@@ -173,29 +160,20 @@
       "direction": "down"
     },
     {
+      "symbol": "ETH",
+      "group": "CRYPTO",
+      "price": "1,813.01",
+      "one_day": "3.87%",
+      "five_day": "1.66%",
+      "trend": "range_bound",
+      "direction": "up"
+    },
+    {
       "symbol": "1810.HK",
       "group": "HK_MARKET",
       "price": "25.84",
       "one_day": "3.36%",
       "five_day": "12.54%",
-      "trend": "range_bound",
-      "direction": "up"
-    },
-    {
-      "symbol": "ETH",
-      "group": "CRYPTO",
-      "price": "1,794.19",
-      "one_day": "2.96%",
-      "five_day": "0.86%",
-      "trend": "range_bound",
-      "direction": "up"
-    },
-    {
-      "symbol": "BTC",
-      "group": "CRYPTO",
-      "price": "64,081.19",
-      "one_day": "2.94%",
-      "five_day": "1.56%",
       "trend": "range_bound",
       "direction": "up"
     },
@@ -211,9 +189,9 @@
     {
       "symbol": "NG=F",
       "group": "COMMODITIES",
-      "price": "2.95",
-      "one_day": "-2.12%",
-      "five_day": "-7.76%",
+      "price": "2.94",
+      "one_day": "-2.39%",
+      "five_day": "-8.01%",
       "trend": "range_bound",
       "direction": "down"
     },
@@ -234,25 +212,34 @@
       "five_day": "6.73%",
       "trend": "range_bound",
       "direction": "down"
+    },
+    {
+      "symbol": "BINANCECOIN",
+      "group": "CRYPTO",
+      "price": "579.77",
+      "one_day": "1.99%",
+      "five_day": "-1.58%",
+      "trend": "range_bound",
+      "direction": "up"
     }
   ],
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-07-11/COMMODITIES_summary.png"
+      "src": "charts/2026-07-12/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-07-11/CRYPTO_summary.png"
+      "src": "charts/2026-07-12/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-07-11/HK_MARKET_summary.png"
+      "src": "charts/2026-07-12/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-07-11/US_EQUITY_summary.png"
+      "src": "charts/2026-07-12/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-07-11.html"
+  "latest_report_href": "reports/2026-07-12.html"
 }
