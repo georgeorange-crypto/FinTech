@@ -1,14 +1,13 @@
 {
-  "latest_date": "2026-07-12",
-  "market_data_date": "2026-07-12",
-  "chart_date": "2026-07-12",
+  "latest_date": "2026-07-13",
+  "market_data_date": "2026-07-13",
+  "chart_date": "2026-07-13",
   "regime": "risk_on",
   "regime_summary": "股指上涨、波动率或美元回落，市场更接近风险偏好改善。",
   "key_moves": [
     "SPY 上涨 0.43%",
     "VIX 下跌 -5.11%",
-    "Gold 下跌 -0.64%",
-    "ETH 上涨 3.87%"
+    "Oil 上涨 3.14%"
   ],
   "watch_points": [
     "确认风险偏好是否扩散到小盘股、信用利差和周期品。"
@@ -28,48 +27,32 @@
     },
     {
       "label": "BTC",
-      "value": "1.47%"
+      "value": "-0.52%"
     },
     {
       "label": "Gold",
-      "value": "-0.64%"
+      "value": "-0.29%"
     },
     {
       "label": "Oil",
-      "value": "-0.93%"
+      "value": "3.14%"
     }
   ],
   "top_themes": [
-    "regulation: SEC Office of Municipal Securities Updates FAQs for Registration of Municipal Advisors",
-    "crypto_market_structure: Hyundai becomes first major South Korean company to introduce internal stablecoin transfers"
+    "crypto_market_structure: Stablecoin market cap has shrunk by $10 billion since May, but analyst sees no reason to panic",
+    "earnings: The stock-market rally now hinges more on AI than oil",
+    "earnings: Why Citigroup is the one to watch when banks report earnings this week"
   ],
   "news_counts": {
-    "must_read": 4,
-    "policy_watch": 2,
-    "background": 17
+    "must_read": 6,
+    "policy_watch": 1,
+    "background": 10
   },
   "focus_news": [
     {
-      "title": "SEC Office of Municipal Securities Updates FAQs for Registration of Municipal Advisors",
-      "source": "SEC Press Releases",
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-66-sec-office-municipal-securities-updates-faqs-registration-municipal-advisors",
-      "event_type": "regulation",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
-      "assets": [
-        "BTC",
-        "COIN",
-        "ETH",
-        "crypto market"
-      ]
-    },
-    {
-      "title": "Hyundai becomes first major South Korean company to introduce internal stablecoin transfers",
+      "title": "Stablecoin market cap has shrunk by $10 billion since May, but analyst sees no reason to panic",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/07/10/hyundai-becomes-first-major-south-korean-company-to-introduce-internal-stablecoin-transfers",
+      "url": "https://www.coindesk.com/markets/2026/07/12/stablecoin-market-cap-has-shrunk-by-usd10-billion-since-may-but-analyst-sees-no-reason-to-panic",
       "event_type": "crypto_market_structure",
       "importance_tier": 2,
       "impact_strength": "high",
@@ -84,57 +67,51 @@
       ]
     },
     {
-      "title": "These underperforming trades could yield big returns over next six months",
-      "source": "CNBC Economy",
-      "url": "https://www.cnbc.com/2026/07/11/mag-7-and-software-could-boost-portfolio-in-second-half-etf-action.html",
-      "event_type": "other",
-      "importance_tier": 3,
+      "title": "The stock-market rally now hinges more on AI than oil",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/the-stock-market-rally-now-hinges-more-on-ai-than-oil-1292260a?mod=mw_rss_topstories",
+      "event_type": "earnings",
+      "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
+      "market_impact": "主要影响 CL=F，方向为 positive，强度 high；供给扰动或 OPEC 减产通常推升 WTI 原油。",
       "assets": [
-        "BTC",
-        "COIN",
-        "ETH",
-        "crypto market"
+        "BZ=F",
+        "CL=F",
+        "SPY"
       ]
     },
     {
-      "title": "‘I get $1,460 in Social Security’: My millionaire ex-husband, 74, refuses to pay alimony. What can I do?",
+      "title": "Why Citigroup is the one to watch when banks report earnings this week",
       "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/i-get-1-460-in-social-security-my-millionaire-ex-husband-74-refuses-to-pay-alimony-what-can-i-do-c5e60824?mod=mw_rss_topstories",
-      "event_type": "other",
-      "importance_tier": 3,
+      "url": "https://www.marketwatch.com/story/as-five-big-u-s-banks-report-earnings-on-the-same-day-citigroup-is-the-one-to-watch-683c3707?mod=mw_rss_topstories",
+      "event_type": "earnings",
+      "importance_tier": 2,
       "impact_strength": "low",
       "impact_direction": "unknown",
-      "reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
-      "market_impact": "更偏背景信息，短期市场影响可能有限。",
+      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "assets": []
+    },
+    {
+      "title": "Earnings estimates have been following an unusual pattern this time around",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/earnings-estimates-have-been-following-an-unusual-pattern-this-time-around-fbebfb62?mod=mw_rss_topstories",
+      "event_type": "earnings",
+      "importance_tier": 2,
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
       "assets": []
     }
   ],
   "policy_news": [
     {
-      "title": "SEC Office of Municipal Securities Updates FAQs for Registration of Municipal Advisors",
-      "source": "SEC Press Releases",
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-66-sec-office-municipal-securities-updates-faqs-registration-municipal-advisors",
-      "event_type": "regulation",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
-      "assets": [
-        "BTC",
-        "COIN",
-        "ETH",
-        "crypto market"
-      ]
-    },
-    {
-      "title": "Hyundai becomes first major South Korean company to introduce internal stablecoin transfers",
+      "title": "Stablecoin market cap has shrunk by $10 billion since May, but analyst sees no reason to panic",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/07/10/hyundai-becomes-first-major-south-korean-company-to-introduce-internal-stablecoin-transfers",
+      "url": "https://www.coindesk.com/markets/2026/07/12/stablecoin-market-cap-has-shrunk-by-usd10-billion-since-may-but-analyst-sees-no-reason-to-panic",
       "event_type": "crypto_market_structure",
       "importance_tier": 2,
       "impact_strength": "high",
@@ -160,20 +137,29 @@
       "direction": "down"
     },
     {
-      "symbol": "ETH",
-      "group": "CRYPTO",
-      "price": "1,813.01",
-      "one_day": "3.87%",
-      "five_day": "1.66%",
-      "trend": "range_bound",
-      "direction": "up"
-    },
-    {
       "symbol": "1810.HK",
       "group": "HK_MARKET",
       "price": "25.84",
       "one_day": "3.36%",
       "five_day": "12.54%",
+      "trend": "range_bound",
+      "direction": "up"
+    },
+    {
+      "symbol": "CL=F",
+      "group": "COMMODITIES",
+      "price": "73.65",
+      "one_day": "3.14%",
+      "five_day": "7.44%",
+      "trend": "range_bound",
+      "direction": "up"
+    },
+    {
+      "symbol": "BZ=F",
+      "group": "COMMODITIES",
+      "price": "78.39",
+      "one_day": "3.13%",
+      "five_day": "8.89%",
       "trend": "range_bound",
       "direction": "up"
     },
@@ -185,15 +171,6 @@
       "five_day": "0.95%",
       "trend": "range_bound",
       "direction": "up"
-    },
-    {
-      "symbol": "NG=F",
-      "group": "COMMODITIES",
-      "price": "2.94",
-      "one_day": "-2.39%",
-      "five_day": "-8.01%",
-      "trend": "range_bound",
-      "direction": "down"
     },
     {
       "symbol": "9988.HK",
@@ -214,32 +191,32 @@
       "direction": "down"
     },
     {
-      "symbol": "BINANCECOIN",
+      "symbol": "SOLANA",
       "group": "CRYPTO",
-      "price": "579.77",
-      "one_day": "1.99%",
-      "five_day": "-1.58%",
+      "price": "76.60",
+      "one_day": "-1.85%",
+      "five_day": "-6.54%",
       "trend": "range_bound",
-      "direction": "up"
+      "direction": "down"
     }
   ],
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-07-12/COMMODITIES_summary.png"
+      "src": "charts/2026-07-13/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-07-12/CRYPTO_summary.png"
+      "src": "charts/2026-07-13/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-07-12/HK_MARKET_summary.png"
+      "src": "charts/2026-07-13/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-07-12/US_EQUITY_summary.png"
+      "src": "charts/2026-07-13/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-07-12.html"
+  "latest_report_href": "reports/2026-07-13.html"
 }
