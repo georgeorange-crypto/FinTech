@@ -1,59 +1,111 @@
 {
-  "latest_date": "2026-07-14",
-  "market_data_date": "2026-07-14",
-  "chart_date": "2026-07-14",
-  "regime": "mixed",
-  "regime_summary": "长债下跌、美元走强且成长股承压，市场像是在交易利率冲击。 但存在信号冲突，需要降低单一叙事置信度。",
+  "latest_date": "2026-07-15",
+  "market_data_date": "2026-07-15",
+  "chart_date": "2026-07-15",
+  "regime": "risk_on",
+  "regime_summary": "股指上涨、波动率或美元回落，市场更接近风险偏好改善。",
   "key_moves": [
-    "SPY 下跌 -0.77%",
-    "QQQ 下跌 -1.90%",
-    "VIX 上涨 14.17%",
-    "TLT 下跌 -0.59%",
-    "DXY 上涨 0.30%",
-    "Gold 下跌 -2.29%",
-    "Oil 上涨 9.56%",
-    "BTC 下跌 -3.03%"
+    "QQQ 上涨 1.12%",
+    "VIX 下跌 -3.85%",
+    "DXY 下跌 -0.33%",
+    "Gold 上涨 1.48%",
+    "Oil 上涨 2.32%",
+    "ETH 上涨 4.33%"
   ],
   "watch_points": [
-    "关注美债收益率、实际利率和成长股估值压力。"
+    "确认风险偏好是否扩散到小盘股、信用利差和周期品。"
   ],
   "cards": [
     {
       "label": "美股 SPY",
-      "value": "-0.77%"
+      "value": "0.36%"
     },
     {
       "label": "QQQ",
-      "value": "-1.90%"
+      "value": "1.12%"
     },
     {
       "label": "VIX",
-      "value": "14.17%"
+      "value": "-3.85%"
     },
     {
       "label": "BTC",
-      "value": "-3.03%"
+      "value": "1.79%"
     },
     {
       "label": "Gold",
-      "value": "-2.29%"
+      "value": "1.48%"
     },
     {
       "label": "Oil",
-      "value": "9.56%"
+      "value": "2.32%"
     }
   ],
   "top_themes": [
-    "central_bank_decision: A July rate hike from the Fed? The odds are rising",
-    "central_bank_decision: Live markets: Bitcoin, stocks, bonds sharply lower as Fed's Waller signals near-term rate hike",
-    "geopolitical_risk: Bitcoin holds near $63,800 as war-driven selloff hits everything but crypto"
+    "fiscal_policy: Warsh pledges Fed policy 'regime change' to rid inflation 'tax' on American people",
+    "macro_data: U.S. June CPI fell 0.4%, likely cooling move toward Fed rate hikes",
+    "central_bank_decision: Bitcoin slips as traders lift July Fed rate hike bets ahead of Inflation report"
   ],
   "news_counts": {
     "must_read": 10,
     "policy_watch": 7,
-    "background": 13
+    "background": 16
   },
   "focus_news": [
+    {
+      "title": "Warsh pledges Fed policy 'regime change' to rid inflation 'tax' on American people",
+      "source": "CNBC Economy",
+      "url": "https://www.cnbc.com/2026/07/14/warsh-promises-inflation-will-be-a-thing-of-the-past-cites-benefits-of-ai-investment-boom.html",
+      "event_type": "fiscal_policy",
+      "importance_tier": 1,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
+      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
+      "assets": [
+        "BTC",
+        "DXY",
+        "GC=F",
+        "QQQ",
+        "SPY"
+      ]
+    },
+    {
+      "title": "U.S. June CPI fell 0.4%, likely cooling move toward Fed rate hikes",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/07/14/u-s-june-cpi-fell-0-4-likely-cooling-move-toward-fed-rate-hikes",
+      "event_type": "macro_data",
+      "importance_tier": 1,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "这类宏观数据会直接改变市场对通胀、增长和政策路径的预期。",
+      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
+      "assets": [
+        "BTC",
+        "DXY",
+        "GC=F",
+        "QQQ",
+        "SPY"
+      ]
+    },
+    {
+      "title": "Bitcoin slips as traders lift July Fed rate hike bets ahead of Inflation report",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/07/14/bitcoin-slips-as-traders-lift-july-fed-rate-hike-bets-ahead-of-inflation-report",
+      "event_type": "central_bank_decision",
+      "importance_tier": 1,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
+      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
+      "assets": [
+        "BTC",
+        "DXY",
+        "GC=F",
+        "QQQ",
+        "SPY"
+      ]
+    },
     {
       "title": "A July rate hike from the Fed? The odds are rising",
       "source": "CNBC Economy",
@@ -70,59 +122,47 @@
         "CL=F",
         "DXY",
         "QQQ"
-      ]
-    },
-    {
-      "title": "Live markets: Bitcoin, stocks, bonds sharply lower as Fed's Waller signals near-term rate hike",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/07/13/bitcoin-slips-below-usd63-000-in-an-asian-session-leverage-flush",
-      "event_type": "central_bank_decision",
-      "importance_tier": 1,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
-      "market_impact": "主要影响 QQQ，方向为 negative，强度 high；鹰派政策提高折现率，压制成长股估值。",
-      "assets": [
-        "BTC",
-        "DXY",
-        "QQQ",
-        "SPY",
-        "TLT"
-      ]
-    },
-    {
-      "title": "Bitcoin holds near $63,800 as war-driven selloff hits everything but crypto",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/07/13/bitcoin-holds-near-usd63-800-as-war-driven-selloff-hits-everything-but-crypto",
-      "event_type": "geopolitical_risk",
-      "importance_tier": 1,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "地缘风险可能推升避险需求、能源价格和市场波动率。",
-      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
-      "assets": []
-    },
-    {
-      "title": "Waller says Fed shouldn't 'fight the last war' on inflation but warns hikes still possible",
-      "source": "CNBC Economy",
-      "url": "https://www.cnbc.com/2026/07/13/waller-says-fed-shouldnt-fight-the-last-war-on-inflation-but-warns-hikes-still-possible.html",
-      "event_type": "central_bank_speech",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "央行官员表态可能影响市场对下一次会议的定价。",
-      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
-      "assets": [
-        "BTC",
-        "DXY",
-        "GC=F",
-        "QQQ",
-        "SPY"
       ]
     }
   ],
   "policy_news": [
     {
+      "title": "Warsh pledges Fed policy 'regime change' to rid inflation 'tax' on American people",
+      "source": "CNBC Economy",
+      "url": "https://www.cnbc.com/2026/07/14/warsh-promises-inflation-will-be-a-thing-of-the-past-cites-benefits-of-ai-investment-boom.html",
+      "event_type": "fiscal_policy",
+      "importance_tier": 1,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
+      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
+      "assets": [
+        "BTC",
+        "DXY",
+        "GC=F",
+        "QQQ",
+        "SPY"
+      ]
+    },
+    {
+      "title": "Bitcoin slips as traders lift July Fed rate hike bets ahead of Inflation report",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/07/14/bitcoin-slips-as-traders-lift-july-fed-rate-hike-bets-ahead-of-inflation-report",
+      "event_type": "central_bank_decision",
+      "importance_tier": 1,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
+      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
+      "assets": [
+        "BTC",
+        "DXY",
+        "GC=F",
+        "QQQ",
+        "SPY"
+      ]
+    },
+    {
       "title": "A July rate hike from the Fed? The odds are rising",
       "source": "CNBC Economy",
       "url": "https://www.cnbc.com/2026/07/13/-a-july-rate-hike-from-the-fed-the-odds-are-rising.html",
@@ -139,135 +179,99 @@
         "DXY",
         "QQQ"
       ]
-    },
-    {
-      "title": "Live markets: Bitcoin, stocks, bonds sharply lower as Fed's Waller signals near-term rate hike",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/07/13/bitcoin-slips-below-usd63-000-in-an-asian-session-leverage-flush",
-      "event_type": "central_bank_decision",
-      "importance_tier": 1,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
-      "market_impact": "主要影响 QQQ，方向为 negative，强度 high；鹰派政策提高折现率，压制成长股估值。",
-      "assets": [
-        "BTC",
-        "DXY",
-        "QQQ",
-        "SPY",
-        "TLT"
-      ]
-    },
-    {
-      "title": "Waller says Fed shouldn't 'fight the last war' on inflation but warns hikes still possible",
-      "source": "CNBC Economy",
-      "url": "https://www.cnbc.com/2026/07/13/waller-says-fed-shouldnt-fight-the-last-war-on-inflation-but-warns-hikes-still-possible.html",
-      "event_type": "central_bank_speech",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "央行官员表态可能影响市场对下一次会议的定价。",
-      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
-      "assets": [
-        "BTC",
-        "DXY",
-        "GC=F",
-        "QQQ",
-        "SPY"
-      ]
     }
   ],
   "asset_movers": [
     {
+      "symbol": "ETH",
+      "group": "CRYPTO",
+      "price": "1,883.79",
+      "one_day": "4.33%",
+      "five_day": "8.11%",
+      "trend": "range_bound",
+      "direction": "up"
+    },
+    {
       "symbol": "^VIX",
       "group": "US_MACRO_MARKET",
-      "price": "17.16",
-      "one_day": "14.17%",
-      "five_day": "10.21%",
+      "price": "16.50",
+      "one_day": "-3.85%",
+      "five_day": "2.29%",
+      "trend": "strong_downtrend",
+      "direction": "down"
+    },
+    {
+      "symbol": "1211.HK",
+      "group": "HK_MARKET",
+      "price": "86.15",
+      "one_day": "2.62%",
+      "five_day": "3.24%",
       "trend": "range_bound",
       "direction": "up"
     },
     {
       "symbol": "BZ=F",
       "group": "COMMODITIES",
-      "price": "83.40",
-      "one_day": "9.72%",
-      "five_day": "15.85%",
+      "price": "85.44",
+      "one_day": "2.57%",
+      "five_day": "15.21%",
       "trend": "range_bound",
+      "direction": "up"
+    },
+    {
+      "symbol": "SI=F",
+      "group": "COMMODITIES",
+      "price": "59.01",
+      "one_day": "2.38%",
+      "five_day": "-3.16%",
+      "trend": "strong_downtrend",
       "direction": "up"
     },
     {
       "symbol": "CL=F",
       "group": "COMMODITIES",
-      "price": "78.24",
-      "one_day": "9.56%",
-      "five_day": "14.14%",
+      "price": "79.95",
+      "one_day": "2.32%",
+      "five_day": "13.50%",
       "trend": "range_bound",
       "direction": "up"
     },
     {
       "symbol": "RIPPLE",
       "group": "CRYPTO",
-      "price": "1.06",
-      "one_day": "-3.60%",
-      "five_day": "-4.80%",
-      "trend": "downtrend",
-      "direction": "down"
-    },
-    {
-      "symbol": "SOLANA",
-      "group": "CRYPTO",
-      "price": "74.51",
-      "one_day": "-3.21%",
-      "five_day": "-7.67%",
-      "trend": "downtrend",
-      "direction": "down"
-    },
-    {
-      "symbol": "SI=F",
-      "group": "COMMODITIES",
-      "price": "57.99",
-      "one_day": "-3.05%",
-      "five_day": "-6.35%",
-      "trend": "strong_downtrend",
-      "direction": "down"
-    },
-    {
-      "symbol": "BTC",
-      "group": "CRYPTO",
-      "price": "61,956.64",
-      "one_day": "-3.03%",
-      "five_day": "-2.20%",
+      "price": "1.11",
+      "one_day": "2.25%",
+      "five_day": "1.97%",
       "trend": "range_bound",
-      "direction": "down"
+      "direction": "up"
     },
     {
-      "symbol": "GC=F",
+      "symbol": "HG=F",
       "group": "COMMODITIES",
-      "price": "4,010.20",
-      "one_day": "-2.29%",
-      "five_day": "-3.49%",
-      "trend": "downtrend",
-      "direction": "down"
+      "price": "6.37",
+      "one_day": "2.13%",
+      "five_day": "3.14%",
+      "trend": "range_bound",
+      "direction": "up"
     }
   ],
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-07-14/COMMODITIES_summary.png"
+      "src": "charts/2026-07-15/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-07-14/CRYPTO_summary.png"
+      "src": "charts/2026-07-15/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-07-14/HK_MARKET_summary.png"
+      "src": "charts/2026-07-15/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-07-14/US_EQUITY_summary.png"
+      "src": "charts/2026-07-15/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-07-14.html"
+  "latest_report_href": "reports/2026-07-15.html"
 }
