@@ -1,83 +1,76 @@
 {
-  "latest_date": "2026-07-16",
-  "market_data_date": "2026-07-16",
-  "chart_date": "2026-07-16",
-  "regime": "crypto_specific",
-  "regime_summary": "BTC/ETH 明显走强但美股平淡，行情更像加密自身事件驱动。",
+  "latest_date": "2026-07-17",
+  "market_data_date": "2026-07-17",
+  "chart_date": "2026-07-17",
+  "regime": "unknown",
+  "regime_summary": "市场信号不足，暂不判断明确状态。",
   "key_moves": [
-    "VIX 下跌 -5.03%",
-    "DXY 下跌 -0.44%",
-    "Oil 上涨 1.25%",
-    "BTC 上涨 4.18%",
-    "ETH 上涨 8.35%"
+    "SPY 下跌 -0.54%",
+    "QQQ 下跌 -1.64%",
+    "VIX 上涨 6.76%",
+    "Gold 下跌 -1.65%"
   ],
   "watch_points": [
-    "关注 ETF、监管、稳定币或链上流动性新闻。"
+    "关注后续数据是否确认当前跨资产信号。"
   ],
   "cards": [
     {
       "label": "美股 SPY",
-      "value": "0.40%"
+      "value": "-0.54%"
     },
     {
       "label": "QQQ",
-      "value": "-0.27%"
+      "value": "-1.64%"
     },
     {
       "label": "VIX",
-      "value": "-5.03%"
+      "value": "6.76%"
     },
     {
       "label": "BTC",
-      "value": "4.18%"
+      "value": "-1.61%"
     },
     {
       "label": "Gold",
-      "value": "0.12%"
+      "value": "-1.65%"
     },
     {
       "label": "Oil",
-      "value": "1.25%"
+      "value": "-0.79%"
     }
   ],
   "top_themes": [
-    "geopolitical_risk: Crypto steadies as Middle East tensions counter U.S. inflation report boost",
-    "fiscal_policy: Warsh pledges Fed policy 'regime change' to rid inflation 'tax' on American people",
-    "fiscal_policy: The Clarity Act isn't a ticket to sanctions evasion, actually"
+    "fiscal_policy: U.S. adds four Iran central bank crypto wallets to sanctions, Tether freezes $131 million of contents",
+    "central_bank_speech: Dallas Fed President Logan calls for 'modestly' higher interest rates",
+    "central_bank_speech: New York Fed President Williams says inflation has peaked, rates 'well positioned'"
   ],
   "news_counts": {
-    "must_read": 7,
-    "policy_watch": 4,
-    "background": 17
+    "must_read": 10,
+    "policy_watch": 7,
+    "background": 19
   },
   "focus_news": [
     {
-      "title": "Crypto steadies as Middle East tensions counter U.S. inflation report boost",
+      "title": "U.S. adds four Iran central bank crypto wallets to sanctions, Tether freezes $131 million of contents",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/07/15/crypto-steadies-as-middle-east-tensions-counter-u-s-inflation-report-boost",
-      "event_type": "geopolitical_risk",
-      "importance_tier": 1,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "地缘风险可能推升避险需求、能源价格和市场波动率。",
-      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
-      "assets": [
-        "BTC",
-        "BZ=F",
-        "CL=F",
-        "DXY",
-        "GC=F"
-      ]
-    },
-    {
-      "title": "Warsh pledges Fed policy 'regime change' to rid inflation 'tax' on American people",
-      "source": "CNBC Economy",
-      "url": "https://www.cnbc.com/2026/07/14/warsh-promises-inflation-will-be-a-thing-of-the-past-cites-benefits-of-ai-investment-boom.html",
+      "url": "https://www.coindesk.com/business/2026/07/16/u-s-adds-four-iran-central-bank-crypto-wallets-to-sanctions-tether-freezes-usd131-million-of-contents",
       "event_type": "fiscal_policy",
       "importance_tier": 1,
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "assets": []
+    },
+    {
+      "title": "Dallas Fed President Logan calls for 'modestly' higher interest rates",
+      "source": "CNBC Economy",
+      "url": "https://www.cnbc.com/2026/07/16/dallas-fed-president-logan-calls-for-modestly-higher-interest-rates.html",
+      "event_type": "central_bank_speech",
+      "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
+      "reason": "央行官员表态可能影响市场对下一次会议的定价。",
       "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
       "assets": [
         "BTC",
@@ -86,18 +79,6 @@
         "QQQ",
         "SPY"
       ]
-    },
-    {
-      "title": "The Clarity Act isn't a ticket to sanctions evasion, actually",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/opinion/2026/07/14/the-clarity-act-isn-t-a-ticket-to-sanctions-evasion-actually",
-      "event_type": "fiscal_policy",
-      "importance_tier": 1,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
-      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
-      "assets": []
     },
     {
       "title": "New York Fed President Williams says inflation has peaked, rates 'well positioned'",
@@ -116,18 +97,47 @@
         "QQQ",
         "SPY"
       ]
+    },
+    {
+      "title": "SEC Proposes New E-Delivery Approach to Make Information More Readily Accessible and Useful for Investors",
+      "source": "SEC Press Releases",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-67-sec-proposes-new-e-delivery-approach-make-information-more-readily-accessible-useful-investors",
+      "event_type": "regulation",
+      "importance_tier": 2,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "assets": [
+        "BTC",
+        "COIN",
+        "ETH",
+        "crypto market"
+      ]
     }
   ],
   "policy_news": [
     {
-      "title": "Warsh pledges Fed policy 'regime change' to rid inflation 'tax' on American people",
-      "source": "CNBC Economy",
-      "url": "https://www.cnbc.com/2026/07/14/warsh-promises-inflation-will-be-a-thing-of-the-past-cites-benefits-of-ai-investment-boom.html",
+      "title": "U.S. adds four Iran central bank crypto wallets to sanctions, Tether freezes $131 million of contents",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/07/16/u-s-adds-four-iran-central-bank-crypto-wallets-to-sanctions-tether-freezes-usd131-million-of-contents",
       "event_type": "fiscal_policy",
       "importance_tier": 1,
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "assets": []
+    },
+    {
+      "title": "Dallas Fed President Logan calls for 'modestly' higher interest rates",
+      "source": "CNBC Economy",
+      "url": "https://www.cnbc.com/2026/07/16/dallas-fed-president-logan-calls-for-modestly-higher-interest-rates.html",
+      "event_type": "central_bank_speech",
+      "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
+      "reason": "央行官员表态可能影响市场对下一次会议的定价。",
       "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
       "assets": [
         "BTC",
@@ -136,18 +146,6 @@
         "QQQ",
         "SPY"
       ]
-    },
-    {
-      "title": "The Clarity Act isn't a ticket to sanctions evasion, actually",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/opinion/2026/07/14/the-clarity-act-isn-t-a-ticket-to-sanctions-evasion-actually",
-      "event_type": "fiscal_policy",
-      "importance_tier": 1,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
-      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
-      "assets": []
     },
     {
       "title": "New York Fed President Williams says inflation has peaked, rates 'well positioned'",
@@ -170,74 +168,74 @@
   ],
   "asset_movers": [
     {
-      "symbol": "ETH",
-      "group": "CRYPTO",
-      "price": "1,921.81",
-      "one_day": "8.35%",
-      "five_day": "10.10%",
+      "symbol": "^VIX",
+      "group": "US_MACRO_MARKET",
+      "price": "16.73",
+      "one_day": "6.76%",
+      "five_day": "5.62%",
+      "trend": "downtrend",
+      "direction": "up"
+    },
+    {
+      "symbol": "1810.HK",
+      "group": "HK_MARKET",
+      "price": "27.50",
+      "one_day": "6.34%",
+      "five_day": "10.00%",
+      "trend": "range_bound",
+      "direction": "up"
+    },
+    {
+      "symbol": "1211.HK",
+      "group": "HK_MARKET",
+      "price": "90.95",
+      "one_day": "4.60%",
+      "five_day": "10.04%",
       "trend": "range_bound",
       "direction": "up"
     },
     {
       "symbol": "3690.HK",
       "group": "HK_MARKET",
-      "price": "83.40",
-      "one_day": "5.30%",
-      "five_day": "3.09%",
+      "price": "87.20",
+      "one_day": "4.56%",
+      "five_day": "11.08%",
       "trend": "range_bound",
       "direction": "up"
     },
     {
-      "symbol": "^VIX",
-      "group": "US_MACRO_MARKET",
-      "price": "15.67",
-      "one_day": "-5.03%",
-      "five_day": "-7.28%",
-      "trend": "strong_downtrend",
-      "direction": "down"
-    },
-    {
-      "symbol": "RIPPLE",
-      "group": "CRYPTO",
-      "price": "1.12",
-      "one_day": "4.78%",
-      "five_day": "2.08%",
-      "trend": "range_bound",
-      "direction": "up"
-    },
-    {
-      "symbol": "BTC",
-      "group": "CRYPTO",
-      "price": "64,843.91",
-      "one_day": "4.18%",
-      "five_day": "2.57%",
-      "trend": "range_bound",
-      "direction": "up"
-    },
-    {
-      "symbol": "0700.HK",
+      "symbol": "9988.HK",
       "group": "HK_MARKET",
-      "price": "474.00",
-      "one_day": "3.90%",
-      "five_day": "-1.00%",
+      "price": "116.90",
+      "one_day": "3.09%",
+      "five_day": "8.24%",
       "trend": "range_bound",
       "direction": "up"
     },
     {
       "symbol": "SOLANA",
       "group": "CRYPTO",
-      "price": "77.49",
-      "one_day": "3.61%",
-      "five_day": "-0.69%",
-      "trend": "strong_uptrend",
-      "direction": "up"
+      "price": "75.44",
+      "one_day": "-2.95%",
+      "five_day": "-3.33%",
+      "trend": "range_bound",
+      "direction": "down"
     },
     {
-      "symbol": "BINANCECOIN",
-      "group": "CRYPTO",
-      "price": "580.65",
-      "one_day": "2.47%",
-      "five_day": "2.15%",
+      "symbol": "SI=F",
+      "group": "COMMODITIES",
+      "price": "55.73",
+      "one_day": "-2.42%",
+      "five_day": "-7.70%",
+      "trend": "strong_downtrend",
+      "direction": "down"
+    },
+    {
+      "symbol": "0700.HK",
+      "group": "HK_MARKET",
+      "price": "484.00",
+      "one_day": "2.11%",
+      "five_day": "3.07%",
       "trend": "range_bound",
       "direction": "up"
     }
@@ -245,20 +243,20 @@
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-07-16/COMMODITIES_summary.png"
+      "src": "charts/2026-07-17/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-07-16/CRYPTO_summary.png"
+      "src": "charts/2026-07-17/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-07-16/HK_MARKET_summary.png"
+      "src": "charts/2026-07-17/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-07-16/US_EQUITY_summary.png"
+      "src": "charts/2026-07-17/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-07-16.html"
+  "latest_report_href": "reports/2026-07-17.html"
 }
