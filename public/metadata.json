@@ -1,16 +1,15 @@
 {
-  "latest_date": "2026-07-18",
-  "market_data_date": "2026-07-18",
-  "chart_date": "2026-07-18",
+  "latest_date": "2026-07-19",
+  "market_data_date": "2026-07-19",
+  "chart_date": "2026-07-19",
   "regime": "risk_off",
   "regime_summary": "股指回落、VIX 抬升且避险资产走强，市场偏风险规避。",
   "key_moves": [
     "SPY 下跌 -0.99%",
     "QQQ 下跌 -1.50%",
     "VIX 上涨 12.19%",
-    "Gold 上涨 0.94%",
-    "Oil 上涨 3.57%",
-    "ETH 下跌 -4.19%"
+    "Gold 上涨 0.68%",
+    "Oil 上涨 4.48%"
   ],
   "watch_points": [
     "关注避险是否演变为信用或流动性压力。"
@@ -30,150 +29,75 @@
     },
     {
       "label": "BTC",
-      "value": "-1.26%"
+      "value": "1.46%"
     },
     {
       "label": "Gold",
-      "value": "0.94%"
+      "value": "0.68%"
     },
     {
       "label": "Oil",
-      "value": "3.57%"
+      "value": "4.48%"
     }
   ],
   "top_themes": [
-    "central_bank_speech: Dallas Fed President Logan calls for 'modestly' higher interest rates",
-    "regulation: SEC Proposes New E-Delivery Approach to Make Information More Readily Accessible and Useful for Investors",
-    "crypto_market_structure: Visa backs Open USD with new stablecoin platform as Circle faces fresh competition"
+    "financial_stability: Here is why a massive $1.6 billion in crypto liquidity is sitting idle and wasting away"
   ],
   "news_counts": {
-    "must_read": 7,
-    "policy_watch": 5,
+    "must_read": 3,
+    "policy_watch": 1,
     "background": 17
   },
   "focus_news": [
     {
-      "title": "Dallas Fed President Logan calls for 'modestly' higher interest rates",
-      "source": "CNBC Economy",
-      "url": "https://www.cnbc.com/2026/07/16/dallas-fed-president-logan-calls-for-modestly-higher-interest-rates.html",
-      "event_type": "central_bank_speech",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "央行官员表态可能影响市场对下一次会议的定价。",
-      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
-      "assets": [
-        "BTC",
-        "DXY",
-        "GC=F",
-        "QQQ",
-        "SPY"
-      ]
-    },
-    {
-      "title": "SEC Proposes New E-Delivery Approach to Make Information More Readily Accessible and Useful for Investors",
-      "source": "SEC Press Releases",
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-67-sec-proposes-new-e-delivery-approach-make-information-more-readily-accessible-useful-investors",
-      "event_type": "regulation",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
-      "assets": [
-        "BTC",
-        "COIN",
-        "ETH",
-        "crypto market"
-      ]
-    },
-    {
-      "title": "Visa backs Open USD with new stablecoin platform as Circle faces fresh competition",
+      "title": "Here is why a massive $1.6 billion in crypto liquidity is sitting idle and wasting away",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/07/16/visa-backs-open-usd-with-new-stablecoin-platform-as-circle-faces-fresh-competition",
-      "event_type": "crypto_market_structure",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
-      "assets": [
-        "BTC",
-        "COIN",
-        "ETH",
-        "crypto market"
-      ]
+      "url": "https://www.coindesk.com/web3/2026/07/18/here-is-why-a-massive-usd1-6-billion-in-crypto-liquidity-is-sitting-idle-and-wasting-away",
+      "event_type": "financial_stability",
+      "importance_tier": 1,
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "金融稳定信号可能放大跨资产波动，并影响央行反应函数。",
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "assets": []
     },
     {
-      "title": "Galaxy targets institutional stablecoin yield with new DeFi vaults",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/tech/2026/07/16/galaxy-targets-institutional-stablecoin-yield-with-new-defi-vaults",
-      "event_type": "crypto_market_structure",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
-      "assets": [
-        "BTC",
-        "COIN",
-        "ETH",
-        "crypto market"
-      ]
+      "title": "Netflix is spending big money on sports. Is the company making the right bets?",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/netflix-is-paying-up-for-costly-sports-rights-is-the-company-making-the-right-bets-9ce54df7?mod=mw_rss_topstories",
+      "event_type": "other",
+      "importance_tier": 3,
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "market_impact": "更偏背景信息，短期市场影响可能有限。",
+      "assets": []
+    },
+    {
+      "title": "Your Netflix bill is up 29% in just over a year. It’s time for Washington to step in.",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/your-monthly-netflix-bill-is-up-29-in-just-over-a-year-critics-say-washington-needs-to-fix-it-bcab6e5b?mod=mw_rss_topstories",
+      "event_type": "other",
+      "importance_tier": 3,
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "market_impact": "更偏背景信息，短期市场影响可能有限。",
+      "assets": []
     }
   ],
   "policy_news": [
     {
-      "title": "Dallas Fed President Logan calls for 'modestly' higher interest rates",
-      "source": "CNBC Economy",
-      "url": "https://www.cnbc.com/2026/07/16/dallas-fed-president-logan-calls-for-modestly-higher-interest-rates.html",
-      "event_type": "central_bank_speech",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "央行官员表态可能影响市场对下一次会议的定价。",
-      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
-      "assets": [
-        "BTC",
-        "DXY",
-        "GC=F",
-        "QQQ",
-        "SPY"
-      ]
-    },
-    {
-      "title": "SEC Proposes New E-Delivery Approach to Make Information More Readily Accessible and Useful for Investors",
-      "source": "SEC Press Releases",
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-67-sec-proposes-new-e-delivery-approach-make-information-more-readily-accessible-useful-investors",
-      "event_type": "regulation",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
-      "assets": [
-        "BTC",
-        "COIN",
-        "ETH",
-        "crypto market"
-      ]
-    },
-    {
-      "title": "Visa backs Open USD with new stablecoin platform as Circle faces fresh competition",
+      "title": "Here is why a massive $1.6 billion in crypto liquidity is sitting idle and wasting away",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/07/16/visa-backs-open-usd-with-new-stablecoin-platform-as-circle-faces-fresh-competition",
-      "event_type": "crypto_market_structure",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
-      "assets": [
-        "BTC",
-        "COIN",
-        "ETH",
-        "crypto market"
-      ]
+      "url": "https://www.coindesk.com/web3/2026/07/18/here-is-why-a-massive-usd1-6-billion-in-crypto-liquidity-is-sitting-idle-and-wasting-away",
+      "event_type": "financial_stability",
+      "importance_tier": 1,
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "金融稳定信号可能放大跨资产波动，并影响央行反应函数。",
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "assets": []
     }
   ],
   "asset_movers": [
@@ -198,20 +122,20 @@
     {
       "symbol": "BZ=F",
       "group": "COMMODITIES",
-      "price": "88.09",
-      "one_day": "4.58%",
-      "five_day": "15.89%",
+      "price": "88.10",
+      "one_day": "4.59%",
+      "five_day": "15.91%",
       "trend": "range_bound",
       "direction": "up"
     },
     {
-      "symbol": "ETH",
-      "group": "CRYPTO",
-      "price": "1,837.07",
-      "one_day": "-4.19%",
-      "five_day": "2.59%",
+      "symbol": "CL=F",
+      "group": "COMMODITIES",
+      "price": "82.49",
+      "one_day": "4.48%",
+      "five_day": "15.52%",
       "trend": "range_bound",
-      "direction": "down"
+      "direction": "up"
     },
     {
       "symbol": "3690.HK",
@@ -232,20 +156,20 @@
       "direction": "down"
     },
     {
-      "symbol": "CL=F",
-      "group": "COMMODITIES",
-      "price": "81.77",
-      "one_day": "3.57%",
-      "five_day": "14.51%",
+      "symbol": "1211.HK",
+      "group": "HK_MARKET",
+      "price": "88.70",
+      "one_day": "-2.47%",
+      "five_day": "4.48%",
       "trend": "range_bound",
-      "direction": "up"
+      "direction": "down"
     },
     {
-      "symbol": "SOLANA",
-      "group": "CRYPTO",
-      "price": "74.88",
-      "one_day": "-3.06%",
-      "five_day": "-2.73%",
+      "symbol": "1810.HK",
+      "group": "HK_MARKET",
+      "price": "26.88",
+      "one_day": "-2.25%",
+      "five_day": "4.02%",
       "trend": "range_bound",
       "direction": "down"
     }
@@ -253,20 +177,20 @@
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-07-18/COMMODITIES_summary.png"
+      "src": "charts/2026-07-19/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-07-18/CRYPTO_summary.png"
+      "src": "charts/2026-07-19/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-07-18/HK_MARKET_summary.png"
+      "src": "charts/2026-07-19/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-07-18/US_EQUITY_summary.png"
+      "src": "charts/2026-07-19/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-07-18.html"
+  "latest_report_href": "reports/2026-07-19.html"
 }
