@@ -1,15 +1,14 @@
 {
-  "latest_date": "2026-07-19",
-  "market_data_date": "2026-07-19",
-  "chart_date": "2026-07-19",
+  "latest_date": "2026-07-20",
+  "market_data_date": "2026-07-20",
+  "chart_date": "2026-07-20",
   "regime": "risk_off",
   "regime_summary": "股指回落、VIX 抬升且避险资产走强，市场偏风险规避。",
   "key_moves": [
     "SPY 下跌 -0.99%",
     "QQQ 下跌 -1.50%",
     "VIX 上涨 12.19%",
-    "Gold 上涨 0.68%",
-    "Oil 上涨 4.48%"
+    "Oil 上涨 2.19%"
   ],
   "watch_points": [
     "关注避险是否演变为信用或流动性压力。"
@@ -29,26 +28,43 @@
     },
     {
       "label": "BTC",
-      "value": "1.46%"
+      "value": "1.23%"
     },
     {
       "label": "Gold",
-      "value": "0.68%"
+      "value": "-0.30%"
     },
     {
       "label": "Oil",
-      "value": "4.48%"
+      "value": "2.19%"
     }
   ],
   "top_themes": [
+    "geopolitical_risk: Oil prices surge, stock futures flat as fighting between U.S. and Iran intensifies",
     "financial_stability: Here is why a massive $1.6 billion in crypto liquidity is sitting idle and wasting away"
   ],
   "news_counts": {
-    "must_read": 3,
+    "must_read": 4,
     "policy_watch": 1,
-    "background": 17
+    "background": 6
   },
   "focus_news": [
+    {
+      "title": "Oil prices surge, stock futures flat as fighting between U.S. and Iran intensifies",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/oil-prices-surge-stock-futures-dip-as-fighting-between-u-s-and-iran-intensifies-6fb37c79?mod=mw_rss_topstories",
+      "event_type": "geopolitical_risk",
+      "importance_tier": 1,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "地缘风险可能推升避险需求、能源价格和市场波动率。",
+      "market_impact": "主要影响 CL=F，方向为 positive，强度 high；供给扰动或 OPEC 减产通常推升 WTI 原油。",
+      "assets": [
+        "BZ=F",
+        "CL=F",
+        "SPY"
+      ]
+    },
     {
       "title": "Here is why a massive $1.6 billion in crypto liquidity is sitting idle and wasting away",
       "source": "CoinDesk",
@@ -62,9 +78,9 @@
       "assets": []
     },
     {
-      "title": "Netflix is spending big money on sports. Is the company making the right bets?",
-      "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/netflix-is-paying-up-for-costly-sports-rights-is-the-company-making-the-right-bets-9ce54df7?mod=mw_rss_topstories",
+      "title": "Bitcoin's biggest advocate, Michael Saylor, says new plan to clean up the blockchain is 'a bad idea'",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/tech/2026/07/19/bitcoin-s-biggest-advocate-michael-saylor-says-new-plan-to-clean-up-the-blockchain-is-a-bad-idea",
       "event_type": "other",
       "importance_tier": 3,
       "impact_strength": "low",
@@ -74,9 +90,9 @@
       "assets": []
     },
     {
-      "title": "Your Netflix bill is up 29% in just over a year. It’s time for Washington to step in.",
-      "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/your-monthly-netflix-bill-is-up-29-in-just-over-a-year-critics-say-washington-needs-to-fix-it-bcab6e5b?mod=mw_rss_topstories",
+      "title": "Bitcoin’s quantum problem gets a recovery tool, but not for Satoshi’s 1.1 million coins",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/tech/2026/07/19/bitcoin-s-quantum-problem-gets-a-recovery-tool-but-not-for-satoshi-s-1-1-million-coin",
       "event_type": "other",
       "importance_tier": 3,
       "impact_strength": "low",
@@ -120,24 +136,6 @@
       "direction": "down"
     },
     {
-      "symbol": "BZ=F",
-      "group": "COMMODITIES",
-      "price": "88.10",
-      "one_day": "4.59%",
-      "five_day": "15.91%",
-      "trend": "range_bound",
-      "direction": "up"
-    },
-    {
-      "symbol": "CL=F",
-      "group": "COMMODITIES",
-      "price": "82.49",
-      "one_day": "4.48%",
-      "five_day": "15.52%",
-      "trend": "range_bound",
-      "direction": "up"
-    },
-    {
       "symbol": "3690.HK",
       "group": "HK_MARKET",
       "price": "83.65",
@@ -156,6 +154,15 @@
       "direction": "down"
     },
     {
+      "symbol": "BZ=F",
+      "group": "COMMODITIES",
+      "price": "91.23",
+      "one_day": "3.55%",
+      "five_day": "9.52%",
+      "trend": "range_bound",
+      "direction": "up"
+    },
+    {
       "symbol": "1211.HK",
       "group": "HK_MARKET",
       "price": "88.70",
@@ -172,25 +179,34 @@
       "five_day": "4.02%",
       "trend": "range_bound",
       "direction": "down"
+    },
+    {
+      "symbol": "CL=F",
+      "group": "COMMODITIES",
+      "price": "84.30",
+      "one_day": "2.19%",
+      "five_day": "7.88%",
+      "trend": "range_bound",
+      "direction": "up"
     }
   ],
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-07-19/COMMODITIES_summary.png"
+      "src": "charts/2026-07-20/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-07-19/CRYPTO_summary.png"
+      "src": "charts/2026-07-20/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-07-19/HK_MARKET_summary.png"
+      "src": "charts/2026-07-20/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-07-19/US_EQUITY_summary.png"
+      "src": "charts/2026-07-20/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-07-19.html"
+  "latest_report_href": "reports/2026-07-20.html"
 }
