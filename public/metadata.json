@@ -1,68 +1,78 @@
 {
-  "latest_date": "2026-07-21",
-  "market_data_date": "2026-07-21",
-  "chart_date": "2026-07-21",
-  "regime": "unknown",
-  "regime_summary": "市场信号不足，暂不判断明确状态。",
+  "latest_date": "2026-07-22",
+  "market_data_date": "2026-07-22",
+  "chart_date": "2026-07-22",
+  "regime": "risk_on",
+  "regime_summary": "股指上涨、波动率或美元回落，市场更接近风险偏好改善。",
   "key_moves": [
-    "TLT 下跌 -0.75%"
+    "SPY 上涨 0.83%",
+    "QQQ 上涨 1.85%",
+    "VIX 下跌 -8.58%",
+    "Gold 上涨 1.93%",
+    "Oil 上涨 1.78%",
+    "BTC 上涨 2.42%",
+    "ETH 上涨 2.55%"
   ],
   "watch_points": [
-    "关注后续数据是否确认当前跨资产信号。"
+    "确认风险偏好是否扩散到小盘股、信用利差和周期品。"
   ],
   "cards": [
     {
       "label": "美股 SPY",
-      "value": "-0.16%"
+      "value": "0.83%"
     },
     {
       "label": "QQQ",
-      "value": "0.10%"
+      "value": "1.85%"
     },
     {
       "label": "VIX",
-      "value": "-0.64%"
+      "value": "-8.58%"
     },
     {
       "label": "BTC",
-      "value": "0.46%"
+      "value": "2.42%"
     },
     {
       "label": "Gold",
-      "value": "-0.12%"
+      "value": "1.93%"
     },
     {
       "label": "Oil",
-      "value": "0.15%"
+      "value": "1.78%"
     }
   ],
   "top_themes": [
-    "central_bank_decision: U.S. regulatory developments and earnings, ECB rate decision: Crypto Week Ahead",
-    "crypto_market_structure: Amazon Japan supplier AZ-Com Maruwa to adopt yen stablecoin JPYC for payments",
+    "geopolitical_risk: Why energy stocks still look so cheap, even after their big rally this month",
+    "crypto_market_structure: Augustus raises $180 million to build a clearing bank for the AI and stablecoin era",
     "earnings: Capital One bet big on Discover. Now it must prove the gamble was worth it"
   ],
   "news_counts": {
     "must_read": 6,
-    "policy_watch": 2,
-    "background": 14
+    "policy_watch": 1,
+    "background": 17
   },
   "focus_news": [
     {
-      "title": "U.S. regulatory developments and earnings, ECB rate decision: Crypto Week Ahead",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/07/20/u-s-regulatory-developments-and-earnings-ecb-rate-decision-crypto-week-ahead",
-      "event_type": "central_bank_decision",
+      "title": "Why energy stocks still look so cheap, even after their big rally this month",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/why-energy-stocks-still-look-so-cheap-even-after-their-big-rally-this-month-7f1a298b?mod=mw_rss_topstories",
+      "event_type": "geopolitical_risk",
       "importance_tier": 1,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
-      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
-      "assets": []
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "地缘风险可能推升避险需求、能源价格和市场波动率。",
+      "market_impact": "主要影响 CL=F，方向为 positive，强度 high；供给扰动或 OPEC 减产通常推升 WTI 原油。",
+      "assets": [
+        "BZ=F",
+        "CL=F",
+        "SPY"
+      ]
     },
     {
-      "title": "Amazon Japan supplier AZ-Com Maruwa to adopt yen stablecoin JPYC for payments",
+      "title": "Augustus raises $180 million to build a clearing bank for the AI and stablecoin era",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/07/20/amazon-japan-supplier-az-com-maruwa-to-adopt-yen-stablecoin-jpyc-for-payments",
+      "url": "https://www.coindesk.com/business/2026/07/21/augustus-raises-usd180-million-to-build-a-clearing-bank-for-the-ai-and-stablecoin-era",
       "event_type": "crypto_market_structure",
       "importance_tier": 2,
       "impact_strength": "high",
@@ -70,11 +80,10 @@
       "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
       "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
       "assets": [
-        "AMZN",
         "BTC",
         "COIN",
         "ETH",
-        "GOOGL"
+        "crypto market"
       ]
     },
     {
@@ -104,21 +113,9 @@
   ],
   "policy_news": [
     {
-      "title": "U.S. regulatory developments and earnings, ECB rate decision: Crypto Week Ahead",
+      "title": "Augustus raises $180 million to build a clearing bank for the AI and stablecoin era",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/07/20/u-s-regulatory-developments-and-earnings-ecb-rate-decision-crypto-week-ahead",
-      "event_type": "central_bank_decision",
-      "importance_tier": 1,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
-      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
-      "assets": []
-    },
-    {
-      "title": "Amazon Japan supplier AZ-Com Maruwa to adopt yen stablecoin JPYC for payments",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/07/20/amazon-japan-supplier-az-com-maruwa-to-adopt-yen-stablecoin-jpyc-for-payments",
+      "url": "https://www.coindesk.com/business/2026/07/21/augustus-raises-usd180-million-to-build-a-clearing-bank-for-the-ai-and-stablecoin-era",
       "event_type": "crypto_market_structure",
       "importance_tier": 2,
       "impact_strength": "high",
@@ -126,105 +123,104 @@
       "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
       "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
       "assets": [
-        "AMZN",
         "BTC",
         "COIN",
         "ETH",
-        "GOOGL"
+        "crypto market"
       ]
     }
   ],
   "asset_movers": [
     {
-      "symbol": "9988.HK",
-      "group": "HK_MARKET",
-      "price": "116.80",
-      "one_day": "3.73%",
-      "five_day": "5.51%",
-      "trend": "range_bound",
-      "direction": "up"
-    },
-    {
-      "symbol": "0700.HK",
-      "group": "HK_MARKET",
-      "price": "477.80",
-      "one_day": "3.51%",
-      "five_day": "4.41%",
-      "trend": "range_bound",
-      "direction": "up"
-    },
-    {
-      "symbol": "1810.HK",
-      "group": "HK_MARKET",
-      "price": "27.74",
-      "one_day": "3.20%",
-      "five_day": "7.35%",
-      "trend": "range_bound",
-      "direction": "up"
-    },
-    {
-      "symbol": "3690.HK",
-      "group": "HK_MARKET",
-      "price": "86.30",
-      "one_day": "3.17%",
-      "five_day": "10.71%",
-      "trend": "range_bound",
-      "direction": "up"
-    },
-    {
-      "symbol": "SOLANA",
-      "group": "CRYPTO",
-      "price": "77.41",
-      "one_day": "2.62%",
-      "five_day": "-0.41%",
-      "trend": "range_bound",
-      "direction": "up"
-    },
-    {
-      "symbol": "NG=F",
-      "group": "COMMODITIES",
-      "price": "2.84",
-      "one_day": "-2.37%",
-      "five_day": "-1.90%",
-      "trend": "range_bound",
+      "symbol": "^VIX",
+      "group": "US_MACRO_MARKET",
+      "price": "17.05",
+      "one_day": "-8.58%",
+      "five_day": "3.33%",
+      "trend": "downtrend",
       "direction": "down"
+    },
+    {
+      "symbol": "SI=F",
+      "group": "COMMODITIES",
+      "price": "59.17",
+      "one_day": "4.16%",
+      "five_day": "0.67%",
+      "trend": "range_bound",
+      "direction": "up"
+    },
+    {
+      "symbol": "RIPPLE",
+      "group": "CRYPTO",
+      "price": "1.14",
+      "one_day": "4.14%",
+      "five_day": "2.55%",
+      "trend": "range_bound",
+      "direction": "up"
     },
     {
       "symbol": "HG=F",
       "group": "COMMODITIES",
-      "price": "6.33",
-      "one_day": "1.84%",
-      "five_day": "1.63%",
+      "price": "6.53",
+      "one_day": "3.68%",
+      "five_day": "3.18%",
+      "trend": "range_bound",
+      "direction": "up"
+    },
+    {
+      "symbol": "BZ=F",
+      "group": "COMMODITIES",
+      "price": "91.64",
+      "one_day": "2.71%",
+      "five_day": "8.16%",
+      "trend": "range_bound",
+      "direction": "up"
+    },
+    {
+      "symbol": "ETH",
+      "group": "CRYPTO",
+      "price": "1,918.52",
+      "one_day": "2.55%",
+      "five_day": "0.06%",
+      "trend": "strong_uptrend",
+      "direction": "up"
+    },
+    {
+      "symbol": "BTC",
+      "group": "CRYPTO",
+      "price": "66,244.43",
+      "one_day": "2.42%",
+      "five_day": "2.35%",
       "trend": "range_bound",
       "direction": "up"
     },
     {
       "symbol": "^HSI",
       "group": "HK_MARKET",
-      "price": "24,562.24",
-      "one_day": "-1.78%",
-      "five_day": "1.60%",
+      "price": "25,143.05",
+      "one_day": "2.36%",
+      "five_day": "3.84%",
       "trend": "range_bound",
-      "direction": "down"
+      "direction": "up"
     }
   ],
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-07-21/COMMODITIES_summary.png"
+      "src": "charts/2026-07-22/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-07-21/CRYPTO_summary.png"
+      "src": "charts/2026-07-22/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-07-21/HK_MARKET_summary.png"
+      "src": "charts/2026-07-22/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-07-21/US_EQUITY_summary.png"
+      "src": "charts/2026-07-22/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-07-21.html"
+  "latest_report_href": "reports/2026-07-22.html"
 }
