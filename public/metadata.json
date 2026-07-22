@@ -1,78 +1,92 @@
 {
-  "latest_date": "2026-07-22",
-  "market_data_date": "2026-07-22",
-  "chart_date": "2026-07-22",
-  "regime": "risk_on",
-  "regime_summary": "股指上涨、波动率或美元回落，市场更接近风险偏好改善。",
+  "latest_date": "2026-07-23",
+  "market_data_date": "2026-07-23",
+  "chart_date": "2026-07-23",
+  "regime": "unknown",
+  "regime_summary": "市场信号不足，暂不判断明确状态。",
   "key_moves": [
-    "SPY 上涨 0.83%",
-    "QQQ 上涨 1.85%",
-    "VIX 下跌 -8.58%",
-    "Gold 上涨 1.93%",
-    "Oil 上涨 1.78%",
-    "BTC 上涨 2.42%",
-    "ETH 上涨 2.55%"
+    "QQQ 下跌 -0.51%",
+    "Gold 上涨 1.41%",
+    "Oil 上涨 3.63%"
   ],
   "watch_points": [
-    "确认风险偏好是否扩散到小盘股、信用利差和周期品。"
+    "关注后续数据是否确认当前跨资产信号。"
   ],
   "cards": [
     {
       "label": "美股 SPY",
-      "value": "0.83%"
+      "value": "-0.12%"
     },
     {
       "label": "QQQ",
-      "value": "1.85%"
+      "value": "-0.51%"
     },
     {
       "label": "VIX",
-      "value": "-8.58%"
+      "value": "-2.40%"
     },
     {
       "label": "BTC",
-      "value": "2.42%"
+      "value": "1.20%"
     },
     {
       "label": "Gold",
-      "value": "1.93%"
+      "value": "1.41%"
     },
     {
       "label": "Oil",
-      "value": "1.78%"
+      "value": "3.63%"
     }
   ],
   "top_themes": [
-    "geopolitical_risk: Why energy stocks still look so cheap, even after their big rally this month",
-    "crypto_market_structure: Augustus raises $180 million to build a clearing bank for the AI and stablecoin era",
-    "earnings: Capital One bet big on Discover. Now it must prove the gamble was worth it"
+    "regulation: SEC Announces Departure of Principal Deputy Director of Enforcement Sam Waldon",
+    "regulation: SEC's Peirce warns some DeFi vaults, onchain lending may fall under securities laws",
+    "crypto_market_structure: Balance stablecoin collapses 99% after $1 million exploit drains its bitcoin vaults"
   ],
   "news_counts": {
-    "must_read": 6,
-    "policy_watch": 1,
-    "background": 17
+    "must_read": 7,
+    "policy_watch": 3,
+    "background": 20
   },
   "focus_news": [
     {
-      "title": "Why energy stocks still look so cheap, even after their big rally this month",
-      "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/why-energy-stocks-still-look-so-cheap-even-after-their-big-rally-this-month-7f1a298b?mod=mw_rss_topstories",
-      "event_type": "geopolitical_risk",
-      "importance_tier": 1,
+      "title": "SEC Announces Departure of Principal Deputy Director of Enforcement Sam Waldon",
+      "source": "SEC Press Releases",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-68-sec-announces-departure-principal-deputy-director-enforcement-sam-waldon",
+      "event_type": "regulation",
+      "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "地缘风险可能推升避险需求、能源价格和市场波动率。",
-      "market_impact": "主要影响 CL=F，方向为 positive，强度 high；供给扰动或 OPEC 减产通常推升 WTI 原油。",
+      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
       "assets": [
-        "BZ=F",
-        "CL=F",
-        "SPY"
+        "BTC",
+        "COIN",
+        "ETH",
+        "crypto market"
       ]
     },
     {
-      "title": "Augustus raises $180 million to build a clearing bank for the AI and stablecoin era",
+      "title": "SEC's Peirce warns some DeFi vaults, onchain lending may fall under securities laws",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/07/21/augustus-raises-usd180-million-to-build-a-clearing-bank-for-the-ai-and-stablecoin-era",
+      "url": "https://www.coindesk.com/policy/2026/07/22/sec-s-peirce-warns-some-defi-vaults-onchain-lending-may-fall-under-securities-laws",
+      "event_type": "regulation",
+      "importance_tier": 2,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "assets": [
+        "BTC",
+        "COIN",
+        "ETH",
+        "crypto market"
+      ]
+    },
+    {
+      "title": "Balance stablecoin collapses 99% after $1 million exploit drains its bitcoin vaults",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/tech/2026/07/22/balance-stablecoin-collapses-99-after-usd1-million-exploit-drains-its-bitcoin-vaults",
       "event_type": "crypto_market_structure",
       "importance_tier": 2,
       "impact_strength": "high",
@@ -87,21 +101,9 @@
       ]
     },
     {
-      "title": "Capital One bet big on Discover. Now it must prove the gamble was worth it",
-      "source": "CNBC Economy",
-      "url": "https://www.cnbc.com/2026/07/20/capital-one-bet-big-on-discover-now-it-must-prove-the-gamble-was-worth-it-.html",
-      "event_type": "earnings",
-      "importance_tier": 2,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
-      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
-      "assets": []
-    },
-    {
-      "title": "Coinbase trading results may fall short of expectations, according to prediction markets",
-      "source": "CNBC Economy",
-      "url": "https://www.cnbc.com/2026/07/20/kalshi-traders-think-coinbases-trading-volume-will-fall-again.html",
+      "title": "IBM just cut its outlook, but not by as much as investors feared",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/ibm-just-cut-its-outlook-why-its-stock-is-bouncing-anyway-9d36e22a?mod=mw_rss_topstories",
       "event_type": "earnings",
       "importance_tier": 2,
       "impact_strength": "low",
@@ -113,9 +115,43 @@
   ],
   "policy_news": [
     {
-      "title": "Augustus raises $180 million to build a clearing bank for the AI and stablecoin era",
+      "title": "SEC Announces Departure of Principal Deputy Director of Enforcement Sam Waldon",
+      "source": "SEC Press Releases",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-68-sec-announces-departure-principal-deputy-director-enforcement-sam-waldon",
+      "event_type": "regulation",
+      "importance_tier": 2,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "assets": [
+        "BTC",
+        "COIN",
+        "ETH",
+        "crypto market"
+      ]
+    },
+    {
+      "title": "SEC's Peirce warns some DeFi vaults, onchain lending may fall under securities laws",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/07/21/augustus-raises-usd180-million-to-build-a-clearing-bank-for-the-ai-and-stablecoin-era",
+      "url": "https://www.coindesk.com/policy/2026/07/22/sec-s-peirce-warns-some-defi-vaults-onchain-lending-may-fall-under-securities-laws",
+      "event_type": "regulation",
+      "importance_tier": 2,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "assets": [
+        "BTC",
+        "COIN",
+        "ETH",
+        "crypto market"
+      ]
+    },
+    {
+      "title": "Balance stablecoin collapses 99% after $1 million exploit drains its bitcoin vaults",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/tech/2026/07/22/balance-stablecoin-collapses-99-after-usd1-million-exploit-drains-its-bitcoin-vaults",
       "event_type": "crypto_market_structure",
       "importance_tier": 2,
       "impact_strength": "high",
@@ -132,95 +168,95 @@
   ],
   "asset_movers": [
     {
-      "symbol": "^VIX",
-      "group": "US_MACRO_MARKET",
-      "price": "17.05",
-      "one_day": "-8.58%",
-      "five_day": "3.33%",
+      "symbol": "0700.HK",
+      "group": "HK_MARKET",
+      "price": "440.60",
+      "one_day": "-7.05%",
+      "five_day": "-7.05%",
       "trend": "downtrend",
       "direction": "down"
     },
     {
-      "symbol": "SI=F",
+      "symbol": "BZ=F",
       "group": "COMMODITIES",
-      "price": "59.17",
-      "one_day": "4.16%",
-      "five_day": "0.67%",
+      "price": "95.58",
+      "one_day": "5.02%",
+      "five_day": "12.51%",
       "trend": "range_bound",
       "direction": "up"
+    },
+    {
+      "symbol": "CL=F",
+      "group": "COMMODITIES",
+      "price": "87.99",
+      "one_day": "3.63%",
+      "five_day": "10.54%",
+      "trend": "range_bound",
+      "direction": "up"
+    },
+    {
+      "symbol": "9988.HK",
+      "group": "HK_MARKET",
+      "price": "113.60",
+      "one_day": "-2.91%",
+      "five_day": "0.18%",
+      "trend": "range_bound",
+      "direction": "down"
+    },
+    {
+      "symbol": "1810.HK",
+      "group": "HK_MARKET",
+      "price": "26.68",
+      "one_day": "-2.70%",
+      "five_day": "3.17%",
+      "trend": "range_bound",
+      "direction": "down"
     },
     {
       "symbol": "RIPPLE",
       "group": "CRYPTO",
       "price": "1.14",
-      "one_day": "4.14%",
-      "five_day": "2.55%",
+      "one_day": "2.65%",
+      "five_day": "5.06%",
       "trend": "range_bound",
       "direction": "up"
     },
     {
-      "symbol": "HG=F",
+      "symbol": "NG=F",
       "group": "COMMODITIES",
-      "price": "6.53",
-      "one_day": "3.68%",
-      "five_day": "3.18%",
-      "trend": "range_bound",
-      "direction": "up"
-    },
-    {
-      "symbol": "BZ=F",
-      "group": "COMMODITIES",
-      "price": "91.64",
-      "one_day": "2.71%",
-      "five_day": "8.16%",
-      "trend": "range_bound",
-      "direction": "up"
-    },
-    {
-      "symbol": "ETH",
-      "group": "CRYPTO",
-      "price": "1,918.52",
+      "price": "2.94",
       "one_day": "2.55%",
-      "five_day": "0.06%",
-      "trend": "strong_uptrend",
-      "direction": "up"
-    },
-    {
-      "symbol": "BTC",
-      "group": "CRYPTO",
-      "price": "66,244.43",
-      "one_day": "2.42%",
-      "five_day": "2.35%",
+      "five_day": "0.48%",
       "trend": "range_bound",
       "direction": "up"
     },
     {
-      "symbol": "^HSI",
-      "group": "HK_MARKET",
-      "price": "25,143.05",
-      "one_day": "2.36%",
-      "five_day": "3.84%",
-      "trend": "range_bound",
-      "direction": "up"
+      "symbol": "^VIX",
+      "group": "US_MACRO_MARKET",
+      "price": "16.64",
+      "one_day": "-2.40%",
+      "five_day": "6.19%",
+      "trend": "downtrend",
+      "direction": "down"
     }
   ],
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-07-22/COMMODITIES_summary.png"
+      "src": "charts/2026-07-23/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-07-22/CRYPTO_summary.png"
+      "src": "charts/2026-07-23/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-07-22/HK_MARKET_summary.png"
+      "src": "charts/2026-07-23/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-07-22/US_EQUITY_summary.png"
+      "src": "charts/2026-07-23/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-07-22.html"
+  "latest_report_href": "reports/2026-07-23.html"
 }
