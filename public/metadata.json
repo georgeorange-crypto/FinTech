@@ -1,17 +1,14 @@
 {
-  "latest_date": "2026-07-24",
-  "market_data_date": "2026-07-24",
-  "chart_date": "2026-07-24",
-  "regime": "mixed",
-  "regime_summary": "市场信号不足，暂不判断明确状态。 但存在信号冲突，需要降低单一叙事置信度。",
+  "latest_date": "2026-07-25",
+  "market_data_date": "2026-07-25",
+  "chart_date": "2026-07-25",
+  "regime": "unknown",
+  "regime_summary": "市场信号不足，暂不判断明确状态。",
   "key_moves": [
-    "SPY 下跌 -1.23%",
-    "QQQ 下跌 -1.90%",
-    "VIX 上涨 12.38%",
-    "Gold 下跌 -2.30%",
-    "Oil 上涨 6.02%",
-    "BTC 下跌 -2.10%",
-    "ETH 下跌 -2.46%"
+    "QQQ 下跌 -1.12%",
+    "Oil 下跌 -1.87%",
+    "BTC 下跌 -2.98%",
+    "ETH 下跌 -3.83%"
   ],
   "watch_points": [
     "关注后续数据是否确认当前跨资产信号。"
@@ -19,59 +16,41 @@
   "cards": [
     {
       "label": "美股 SPY",
-      "value": "-1.23%"
+      "value": "0.10%"
     },
     {
       "label": "QQQ",
-      "value": "-1.90%"
+      "value": "-1.12%"
     },
     {
       "label": "VIX",
-      "value": "12.38%"
+      "value": "-0.64%"
     },
     {
       "label": "BTC",
-      "value": "-2.10%"
+      "value": "-2.98%"
     },
     {
       "label": "Gold",
-      "value": "-2.30%"
+      "value": "0.22%"
     },
     {
       "label": "Oil",
-      "value": "6.02%"
+      "value": "-1.87%"
     }
   ],
   "top_themes": [
-    "central_bank_decision: Odds of Federal Reserve rate hike surge as oil prices rip higher",
     "fiscal_policy: These 16 states are offering tax-free shopping days as back-to-school costs soar to over $800 per student",
-    "geopolitical_risk: Live markets: Bitcoin slides as stocks slump on Iran war expansion, AI spending concern"
+    "central_bank_decision: Odds of Federal Reserve rate hike surge as oil prices rip higher",
+    "fiscal_policy: EU hits Russia with massive 21st sanctions package targeting $120B crypto network"
   ],
   "news_counts": {
-    "must_read": 10,
-    "policy_watch": 8,
-    "background": 17
+    "must_read": 8,
+    "policy_watch": 6,
+    "background": 20
   },
   "focus_news": [
     {
-      "title": "Odds of Federal Reserve rate hike surge as oil prices rip higher",
-      "source": "CNBC Economy",
-      "url": "https://www.cnbc.com/2026/07/23/fed-interest-rate-odds-oil-jobless-claims.html",
-      "event_type": "central_bank_decision",
-      "importance_tier": 1,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
-      "market_impact": "主要影响 QQQ，方向为 negative，强度 high；鹰派政策提高折现率，压制成长股估值。",
-      "assets": [
-        "BTC",
-        "BZ=F",
-        "CL=F",
-        "DXY",
-        "QQQ"
-      ]
-    },
-    {
       "title": "These 16 states are offering tax-free shopping days as back-to-school costs soar to over $800 per student",
       "source": "MarketWatch Top Stories",
       "url": "https://www.marketwatch.com/story/these-16-states-are-offering-tax-holidays-as-back-to-school-costs-soar-to-over-800-per-student-0ec92464?mod=mw_rss_topstories",
@@ -90,72 +69,34 @@
       ]
     },
     {
-      "title": "Live markets: Bitcoin slides as stocks slump on Iran war expansion, AI spending concern",
+      "title": "Odds of Federal Reserve rate hike surge as oil prices rip higher",
+      "source": "CNBC Economy",
+      "url": "https://www.cnbc.com/2026/07/23/fed-interest-rate-odds-oil-jobless-claims.html",
+      "event_type": "central_bank_decision",
+      "importance_tier": 1,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
+      "market_impact": "主要影响 QQQ，方向为 negative，强度 high；鹰派政策提高折现率，压制成长股估值。",
+      "assets": [
+        "BTC",
+        "BZ=F",
+        "CL=F",
+        "DXY",
+        "QQQ"
+      ]
+    },
+    {
+      "title": "EU hits Russia with massive 21st sanctions package targeting $120B crypto network",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/tech/2026/07/23/live-markets-bitcoin-trades-above-usd65-000-as-alphabet-s-bigger-ai-bill-props-up-the-chip-trade",
-      "event_type": "geopolitical_risk",
+      "url": "https://www.coindesk.com/policy/2026/07/24/eu-hits-russia-with-massive-21st-sanctions-package-targeting-usd120b-crypto-network",
+      "event_type": "fiscal_policy",
       "importance_tier": 1,
       "impact_strength": "low",
       "impact_direction": "unknown",
-      "reason": "地缘风险可能推升避险需求、能源价格和市场波动率。",
+      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
       "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
       "assets": []
-    },
-    {
-      "title": "S&P 500 flashes sell signals — options traders are bracing for wild swings in Apple, Meta and Microsoft",
-      "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/s-p-500-flashes-sell-signals-options-traders-are-bracing-for-wild-swings-in-apple-meta-and-microsoft-83ff7d65?mod=mw_rss_topstories",
-      "event_type": "earnings",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
-      "market_impact": "主要影响 QQQ，方向为 mixed，强度 high；AI 资本开支会影响大型科技股盈利和估值预期。",
-      "assets": [
-        "AMZN",
-        "GOOGL",
-        "META",
-        "MSFT",
-        "NVDA"
-      ]
-    }
-  ],
-  "policy_news": [
-    {
-      "title": "Odds of Federal Reserve rate hike surge as oil prices rip higher",
-      "source": "CNBC Economy",
-      "url": "https://www.cnbc.com/2026/07/23/fed-interest-rate-odds-oil-jobless-claims.html",
-      "event_type": "central_bank_decision",
-      "importance_tier": 1,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
-      "market_impact": "主要影响 QQQ，方向为 negative，强度 high；鹰派政策提高折现率，压制成长股估值。",
-      "assets": [
-        "BTC",
-        "BZ=F",
-        "CL=F",
-        "DXY",
-        "QQQ"
-      ]
-    },
-    {
-      "title": "These 16 states are offering tax-free shopping days as back-to-school costs soar to over $800 per student",
-      "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/these-16-states-are-offering-tax-holidays-as-back-to-school-costs-soar-to-over-800-per-student-0ec92464?mod=mw_rss_topstories",
-      "event_type": "fiscal_policy",
-      "importance_tier": 1,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
-      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
-      "assets": [
-        "BTC",
-        "DXY",
-        "GC=F",
-        "QQQ",
-        "SPY"
-      ]
     },
     {
       "title": "SEC Announces Roundtable on Preparations for 24-Hour Trading",
@@ -175,97 +116,147 @@
       ]
     }
   ],
+  "policy_news": [
+    {
+      "title": "These 16 states are offering tax-free shopping days as back-to-school costs soar to over $800 per student",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/these-16-states-are-offering-tax-holidays-as-back-to-school-costs-soar-to-over-800-per-student-0ec92464?mod=mw_rss_topstories",
+      "event_type": "fiscal_policy",
+      "importance_tier": 1,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
+      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
+      "assets": [
+        "BTC",
+        "DXY",
+        "GC=F",
+        "QQQ",
+        "SPY"
+      ]
+    },
+    {
+      "title": "Odds of Federal Reserve rate hike surge as oil prices rip higher",
+      "source": "CNBC Economy",
+      "url": "https://www.cnbc.com/2026/07/23/fed-interest-rate-odds-oil-jobless-claims.html",
+      "event_type": "central_bank_decision",
+      "importance_tier": 1,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
+      "market_impact": "主要影响 QQQ，方向为 negative，强度 high；鹰派政策提高折现率，压制成长股估值。",
+      "assets": [
+        "BTC",
+        "BZ=F",
+        "CL=F",
+        "DXY",
+        "QQQ"
+      ]
+    },
+    {
+      "title": "EU hits Russia with massive 21st sanctions package targeting $120B crypto network",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/07/24/eu-hits-russia-with-massive-21st-sanctions-package-targeting-usd120b-crypto-network",
+      "event_type": "fiscal_policy",
+      "importance_tier": 1,
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "assets": []
+    }
+  ],
   "asset_movers": [
     {
-      "symbol": "^VIX",
-      "group": "US_MACRO_MARKET",
-      "price": "18.70",
-      "one_day": "12.38%",
-      "five_day": "11.78%",
+      "symbol": "SOLANA",
+      "group": "CRYPTO",
+      "price": "73.89",
+      "one_day": "-5.20%",
+      "five_day": "-2.11%",
       "trend": "range_bound",
-      "direction": "up"
-    },
-    {
-      "symbol": "BZ=F",
-      "group": "COMMODITIES",
-      "price": "100.40",
-      "one_day": "6.73%",
-      "five_day": "19.20%",
-      "trend": "range_bound",
-      "direction": "up"
-    },
-    {
-      "symbol": "CL=F",
-      "group": "COMMODITIES",
-      "price": "92.06",
-      "one_day": "6.02%",
-      "five_day": "16.61%",
-      "trend": "range_bound",
-      "direction": "up"
-    },
-    {
-      "symbol": "3690.HK",
-      "group": "HK_MARKET",
-      "price": "87.30",
-      "one_day": "4.36%",
-      "five_day": "0.11%",
-      "trend": "range_bound",
-      "direction": "up"
-    },
-    {
-      "symbol": "SI=F",
-      "group": "COMMODITIES",
-      "price": "57.92",
-      "one_day": "-3.51%",
-      "five_day": "3.61%",
-      "trend": "strong_downtrend",
       "direction": "down"
     },
     {
       "symbol": "RIPPLE",
       "group": "CRYPTO",
-      "price": "1.11",
-      "one_day": "-2.75%",
-      "five_day": "2.06%",
-      "trend": "range_bound",
+      "price": "1.09",
+      "one_day": "-4.38%",
+      "five_day": "-0.07%",
+      "trend": "downtrend",
       "direction": "down"
     },
     {
-      "symbol": "SOLANA",
-      "group": "CRYPTO",
-      "price": "76.11",
-      "one_day": "-2.57%",
-      "five_day": "1.49%",
+      "symbol": "9988.HK",
+      "group": "HK_MARKET",
+      "price": "110.00",
+      "one_day": "-4.26%",
+      "five_day": "-2.31%",
       "trend": "range_bound",
       "direction": "down"
     },
     {
       "symbol": "ETH",
       "group": "CRYPTO",
-      "price": "1,881.33",
-      "one_day": "-2.46%",
-      "five_day": "2.22%",
+      "price": "1,859.39",
+      "one_day": "-3.83%",
+      "five_day": "-0.16%",
       "trend": "strong_uptrend",
+      "direction": "down"
+    },
+    {
+      "symbol": "BTC",
+      "group": "CRYPTO",
+      "price": "64,116.23",
+      "one_day": "-2.98%",
+      "five_day": "-1.04%",
+      "trend": "range_bound",
+      "direction": "down"
+    },
+    {
+      "symbol": "0700.HK",
+      "group": "HK_MARKET",
+      "price": "434.60",
+      "one_day": "-2.38%",
+      "five_day": "-5.85%",
+      "trend": "downtrend",
+      "direction": "down"
+    },
+    {
+      "symbol": "BZ=F",
+      "group": "COMMODITIES",
+      "price": "98.38",
+      "one_day": "-2.29%",
+      "five_day": "11.67%",
+      "trend": "range_bound",
+      "direction": "down"
+    },
+    {
+      "symbol": "CL=F",
+      "group": "COMMODITIES",
+      "price": "90.47",
+      "one_day": "-1.87%",
+      "five_day": "9.67%",
+      "trend": "range_bound",
       "direction": "down"
     }
   ],
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-07-24/COMMODITIES_summary.png"
+      "src": "charts/2026-07-25/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-07-24/CRYPTO_summary.png"
+      "src": "charts/2026-07-25/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-07-24/HK_MARKET_summary.png"
+      "src": "charts/2026-07-25/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-07-24/US_EQUITY_summary.png"
+      "src": "charts/2026-07-25/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-07-24.html"
+  "latest_report_href": "reports/2026-07-25.html"
 }
