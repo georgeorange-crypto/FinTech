@@ -1,70 +1,105 @@
 {
-  "latest_date": "2026-07-26",
-  "market_data_date": "2026-07-26",
-  "chart_date": "2026-07-26",
-  "regime": "mixed",
-  "regime_summary": "股指回落、VIX 抬升且避险资产走强，市场偏风险规避。 但存在信号冲突，需要降低单一叙事置信度。",
+  "latest_date": "2026-07-27",
+  "market_data_date": "2026-07-27",
+  "chart_date": "2026-07-27",
+  "regime": "unknown",
+  "regime_summary": "市场信号不足，暂不判断明确状态。",
   "key_moves": [
-    "SPY 下跌 -1.23%",
-    "QQQ 下跌 -1.90%",
-    "VIX 上涨 12.38%",
-    "Gold 上涨 0.52%",
-    "Oil 下跌 -3.12%"
+    "QQQ 下跌 -1.12%",
+    "Gold 上涨 0.66%",
+    "Oil 下跌 -5.31%",
+    "ETH 上涨 4.71%"
   ],
   "watch_points": [
-    "关注避险是否演变为信用或流动性压力。"
+    "关注后续数据是否确认当前跨资产信号。"
   ],
   "cards": [
     {
       "label": "美股 SPY",
-      "value": "-1.23%"
+      "value": "0.10%"
     },
     {
       "label": "QQQ",
-      "value": "-1.90%"
+      "value": "-1.12%"
     },
     {
       "label": "VIX",
-      "value": "12.38%"
+      "value": "-0.64%"
     },
     {
       "label": "BTC",
-      "value": "-1.03%"
+      "value": "1.97%"
     },
     {
       "label": "Gold",
-      "value": "0.52%"
+      "value": "0.66%"
     },
     {
       "label": "Oil",
-      "value": "-3.12%"
+      "value": "-5.31%"
     }
   ],
   "top_themes": [
-    "fiscal_policy: EU hits Russia with massive 21st sanctions package targeting $120B crypto network"
+    "central_bank_speech: The Treasury market is sending Fed Chair Kevin Warsh a clear warning about rates",
+    "earnings: Oil prices sink, stock futures rally as U.S. and Iran pause attacks, Wall Street awaits busy week",
+    "earnings: The S&P 500’s earnings growth has gone bonkers thanks to one company"
   ],
   "news_counts": {
-    "must_read": 3,
+    "must_read": 5,
     "policy_watch": 1,
-    "background": 19
+    "background": 3
   },
   "focus_news": [
     {
-      "title": "EU hits Russia with massive 21st sanctions package targeting $120B crypto network",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/07/24/eu-hits-russia-with-massive-21st-sanctions-package-targeting-usd120b-crypto-network",
-      "event_type": "fiscal_policy",
-      "importance_tier": 1,
+      "title": "The Treasury market is sending Fed Chair Kevin Warsh a clear warning about rates",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/the-treasury-market-is-sending-fed-chair-kevin-warsh-a-clear-warning-about-rates-d0026da9?mod=mw_rss_topstories",
+      "event_type": "central_bank_speech",
+      "importance_tier": 2,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "央行官员表态可能影响市场对下一次会议的定价。",
+      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
+      "assets": [
+        "BTC",
+        "DXY",
+        "GC=F",
+        "QQQ",
+        "SPY"
+      ]
+    },
+    {
+      "title": "Oil prices sink, stock futures rally as U.S. and Iran pause attacks, Wall Street awaits busy week",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/oil-prices-sink-stock-futures-rally-as-u-s-and-iran-pause-attacks-wall-street-awaits-busy-week-75030e00?mod=mw_rss_topstories",
+      "event_type": "earnings",
+      "importance_tier": 2,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
+      "market_impact": "主要影响 CL=F，方向为 positive，强度 high；供给扰动或 OPEC 减产通常推升 WTI 原油。",
+      "assets": [
+        "BZ=F",
+        "CL=F",
+        "SPY"
+      ]
+    },
+    {
+      "title": "The S&P 500’s earnings growth has gone bonkers thanks to one company",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/the-s-p-500s-earnings-growth-has-gone-bonkers-thanks-to-one-company-1c45b2ba?mod=mw_rss_topstories",
+      "event_type": "earnings",
+      "importance_tier": 2,
       "impact_strength": "low",
       "impact_direction": "unknown",
-      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
+      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
       "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
       "assets": []
     },
     {
-      "title": "Bitcoin settles near $65,000 as oil's march toward $100 fails to spook the market",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/07/24/bitcoin-settles-near-usd65-000-as-oil-s-march-toward-usd100-fails-to-spook-the-market",
+      "title": "There’s a technical ‘triple threat’ for stocks, but also places investors can hide",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/theres-a-technical-triple-threat-for-stocks-but-also-places-investors-can-hide-59108c6b?mod=mw_rss_topstories",
       "event_type": "other",
       "importance_tier": 3,
       "impact_strength": "high",
@@ -76,42 +111,54 @@
         "CL=F",
         "SPY"
       ]
-    },
-    {
-      "title": "I am a 63-year-old semiretired physician. If I saved $2 million for retirement, should my Social Security become optional?",
-      "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/i-am-a-63-year-old-semiretired-physician-if-you-have-saved-2-million-for-retirement-should-social-security-be-optional-0de70d53?mod=mw_rss_topstories",
-      "event_type": "other",
-      "importance_tier": 3,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
-      "market_impact": "更偏背景信息，短期市场影响可能有限。",
-      "assets": []
     }
   ],
   "policy_news": [
     {
-      "title": "EU hits Russia with massive 21st sanctions package targeting $120B crypto network",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/07/24/eu-hits-russia-with-massive-21st-sanctions-package-targeting-usd120b-crypto-network",
-      "event_type": "fiscal_policy",
-      "importance_tier": 1,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
-      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
-      "assets": []
+      "title": "The Treasury market is sending Fed Chair Kevin Warsh a clear warning about rates",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/the-treasury-market-is-sending-fed-chair-kevin-warsh-a-clear-warning-about-rates-d0026da9?mod=mw_rss_topstories",
+      "event_type": "central_bank_speech",
+      "importance_tier": 2,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "央行官员表态可能影响市场对下一次会议的定价。",
+      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
+      "assets": [
+        "BTC",
+        "DXY",
+        "GC=F",
+        "QQQ",
+        "SPY"
+      ]
     }
   ],
   "asset_movers": [
     {
-      "symbol": "^VIX",
-      "group": "US_MACRO_MARKET",
-      "price": "18.70",
-      "one_day": "12.38%",
-      "five_day": "11.78%",
+      "symbol": "CL=F",
+      "group": "COMMODITIES",
+      "price": "84.57",
+      "one_day": "-5.31%",
+      "five_day": "1.61%",
       "trend": "range_bound",
+      "direction": "down"
+    },
+    {
+      "symbol": "BZ=F",
+      "group": "COMMODITIES",
+      "price": "91.68",
+      "one_day": "-5.27%",
+      "five_day": "2.76%",
+      "trend": "range_bound",
+      "direction": "down"
+    },
+    {
+      "symbol": "ETH",
+      "group": "CRYPTO",
+      "price": "1,947.63",
+      "one_day": "4.71%",
+      "five_day": "2.36%",
+      "trend": "strong_uptrend",
       "direction": "up"
     },
     {
@@ -124,22 +171,22 @@
       "direction": "down"
     },
     {
-      "symbol": "BZ=F",
-      "group": "COMMODITIES",
-      "price": "96.78",
-      "one_day": "-3.88%",
-      "five_day": "9.85%",
+      "symbol": "SOLANA",
+      "group": "CRYPTO",
+      "price": "76.62",
+      "one_day": "3.64%",
+      "five_day": "-1.45%",
       "trend": "range_bound",
-      "direction": "down"
+      "direction": "up"
     },
     {
-      "symbol": "CL=F",
+      "symbol": "SI=F",
       "group": "COMMODITIES",
-      "price": "89.31",
-      "one_day": "-3.12%",
-      "five_day": "8.27%",
+      "price": "60.12",
+      "one_day": "2.50%",
+      "five_day": "5.85%",
       "trend": "range_bound",
-      "direction": "down"
+      "direction": "up"
     },
     {
       "symbol": "0700.HK",
@@ -151,50 +198,32 @@
       "direction": "down"
     },
     {
-      "symbol": "QQQ",
-      "group": "US_EQUITY",
-      "price": "691.96",
-      "one_day": "-1.90%",
-      "five_day": "-1.98%",
-      "trend": "range_bound",
-      "direction": "down"
-    },
-    {
-      "symbol": "SOLANA",
+      "symbol": "BTC",
       "group": "CRYPTO",
-      "price": "74.46",
-      "one_day": "-1.72%",
-      "five_day": "-2.42%",
-      "trend": "range_bound",
-      "direction": "down"
-    },
-    {
-      "symbol": "1810.HK",
-      "group": "HK_MARKET",
-      "price": "26.72",
-      "one_day": "-1.55%",
-      "five_day": "-0.60%",
-      "trend": "range_bound",
-      "direction": "down"
+      "price": "65,363.65",
+      "one_day": "1.97%",
+      "five_day": "0.27%",
+      "trend": "strong_uptrend",
+      "direction": "up"
     }
   ],
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-07-26/COMMODITIES_summary.png"
+      "src": "charts/2026-07-27/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-07-26/CRYPTO_summary.png"
+      "src": "charts/2026-07-27/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-07-26/HK_MARKET_summary.png"
+      "src": "charts/2026-07-27/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-07-26/US_EQUITY_summary.png"
+      "src": "charts/2026-07-27/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-07-26.html"
+  "latest_report_href": "reports/2026-07-27.html"
 }
