@@ -1,14 +1,12 @@
 {
-  "latest_date": "2026-07-27",
-  "market_data_date": "2026-07-27",
-  "chart_date": "2026-07-27",
+  "latest_date": "2026-07-28",
+  "market_data_date": "2026-07-28",
+  "chart_date": "2026-07-28",
   "regime": "unknown",
   "regime_summary": "市场信号不足，暂不判断明确状态。",
   "key_moves": [
-    "QQQ 下跌 -1.12%",
-    "Gold 上涨 0.66%",
-    "Oil 下跌 -5.31%",
-    "ETH 上涨 4.71%"
+    "TLT 上涨 0.60%",
+    "Oil 下跌 -8.21%"
   ],
   "watch_points": [
     "关注后续数据是否确认当前跨资产信号。"
@@ -16,193 +14,234 @@
   "cards": [
     {
       "label": "美股 SPY",
-      "value": "0.10%"
+      "value": "0.02%"
     },
     {
       "label": "QQQ",
-      "value": "-1.12%"
+      "value": "-0.31%"
     },
     {
       "label": "VIX",
-      "value": "-0.64%"
+      "value": "0.48%"
     },
     {
       "label": "BTC",
-      "value": "1.97%"
+      "value": "-0.53%"
     },
     {
       "label": "Gold",
-      "value": "0.66%"
+      "value": "0.20%"
     },
     {
       "label": "Oil",
-      "value": "-5.31%"
+      "value": "-8.21%"
     }
   ],
   "top_themes": [
-    "central_bank_speech: The Treasury market is sending Fed Chair Kevin Warsh a clear warning about rates",
-    "earnings: Oil prices sink, stock futures rally as U.S. and Iran pause attacks, Wall Street awaits busy week",
-    "earnings: The S&P 500’s earnings growth has gone bonkers thanks to one company"
+    "earnings: More cracks emerge in AI-related bonds as Meta, Microsoft earnings loom",
+    "earnings: Nvidia forms 37-member AI security alliance without OpenAI, Anthropic or Google",
+    "regulation: Small Business Forum’s Report to Congress Highlights Recommendations to Improve Capital-Raising Policy"
   ],
   "news_counts": {
-    "must_read": 5,
-    "policy_watch": 1,
-    "background": 3
+    "must_read": 9,
+    "policy_watch": 3,
+    "background": 9
   },
   "focus_news": [
     {
-      "title": "The Treasury market is sending Fed Chair Kevin Warsh a clear warning about rates",
+      "title": "More cracks emerge in AI-related bonds as Meta, Microsoft earnings loom",
       "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/the-treasury-market-is-sending-fed-chair-kevin-warsh-a-clear-warning-about-rates-d0026da9?mod=mw_rss_topstories",
-      "event_type": "central_bank_speech",
+      "url": "https://www.marketwatch.com/story/more-cracks-emerge-in-ai-related-bonds-as-meta-microsoft-earnings-loom-04275db2?mod=mw_rss_topstories",
+      "event_type": "earnings",
       "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "央行官员表态可能影响市场对下一次会议的定价。",
-      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
+      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
+      "market_impact": "主要影响 QQQ，方向为 mixed，强度 high；AI 资本开支会影响大型科技股盈利和估值预期。",
+      "assets": [
+        "AMZN",
+        "GOOGL",
+        "META",
+        "MSFT",
+        "NVDA"
+      ]
+    },
+    {
+      "title": "Nvidia forms 37-member AI security alliance without OpenAI, Anthropic or Google",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/tech/2026/07/27/nvidia-forms-37-member-ai-security-alliance-without-openai-anthropic-or-google",
+      "event_type": "earnings",
+      "importance_tier": 2,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
+      "market_impact": "主要影响 QQQ，方向为 mixed，强度 high；AI 资本开支会影响大型科技股盈利和估值预期。",
+      "assets": [
+        "AMZN",
+        "GOOGL",
+        "META",
+        "MSFT",
+        "NVDA"
+      ]
+    },
+    {
+      "title": "Small Business Forum’s Report to Congress Highlights Recommendations to Improve Capital-Raising Policy",
+      "source": "SEC Press Releases",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-70-small-business-forums-report-congress-highlights-recommendations-improve-capital-raising-policy",
+      "event_type": "regulation",
+      "importance_tier": 2,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
       "assets": [
         "BTC",
-        "DXY",
-        "GC=F",
-        "QQQ",
-        "SPY"
+        "COIN",
+        "ETH",
+        "crypto market"
       ]
     },
     {
-      "title": "Oil prices sink, stock futures rally as U.S. and Iran pause attacks, Wall Street awaits busy week",
-      "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/oil-prices-sink-stock-futures-rally-as-u-s-and-iran-pause-attacks-wall-street-awaits-busy-week-75030e00?mod=mw_rss_topstories",
-      "event_type": "earnings",
+      "title": "Thailand's SEC alleges Bitkub concealed cyberattack that led to $50 million hack",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/07/27/thailand-s-sec-alleges-bitkub-concealed-cyberattack-that-led-to-usd50-million-hack",
+      "event_type": "regulation",
       "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
-      "market_impact": "主要影响 CL=F，方向为 positive，强度 high；供给扰动或 OPEC 减产通常推升 WTI 原油。",
+      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
       "assets": [
-        "BZ=F",
-        "CL=F",
-        "SPY"
-      ]
-    },
-    {
-      "title": "The S&P 500’s earnings growth has gone bonkers thanks to one company",
-      "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/the-s-p-500s-earnings-growth-has-gone-bonkers-thanks-to-one-company-1c45b2ba?mod=mw_rss_topstories",
-      "event_type": "earnings",
-      "importance_tier": 2,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
-      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
-      "assets": []
-    },
-    {
-      "title": "There’s a technical ‘triple threat’ for stocks, but also places investors can hide",
-      "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/theres-a-technical-triple-threat-for-stocks-but-also-places-investors-can-hide-59108c6b?mod=mw_rss_topstories",
-      "event_type": "other",
-      "importance_tier": 3,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
-      "market_impact": "主要影响 CL=F，方向为 positive，强度 high；供给扰动或 OPEC 减产通常推升 WTI 原油。",
-      "assets": [
-        "BZ=F",
-        "CL=F",
-        "SPY"
+        "BTC",
+        "COIN",
+        "ETH",
+        "crypto market"
       ]
     }
   ],
   "policy_news": [
     {
-      "title": "The Treasury market is sending Fed Chair Kevin Warsh a clear warning about rates",
-      "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/the-treasury-market-is-sending-fed-chair-kevin-warsh-a-clear-warning-about-rates-d0026da9?mod=mw_rss_topstories",
-      "event_type": "central_bank_speech",
+      "title": "Small Business Forum’s Report to Congress Highlights Recommendations to Improve Capital-Raising Policy",
+      "source": "SEC Press Releases",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-70-small-business-forums-report-congress-highlights-recommendations-improve-capital-raising-policy",
+      "event_type": "regulation",
       "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "央行官员表态可能影响市场对下一次会议的定价。",
-      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
+      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
       "assets": [
         "BTC",
-        "DXY",
-        "GC=F",
-        "QQQ",
-        "SPY"
+        "COIN",
+        "ETH",
+        "crypto market"
+      ]
+    },
+    {
+      "title": "Thailand's SEC alleges Bitkub concealed cyberattack that led to $50 million hack",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/07/27/thailand-s-sec-alleges-bitkub-concealed-cyberattack-that-led-to-usd50-million-hack",
+      "event_type": "regulation",
+      "importance_tier": 2,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "assets": [
+        "BTC",
+        "COIN",
+        "ETH",
+        "crypto market"
+      ]
+    },
+    {
+      "title": "Securitize builds Wall Street credentials with SEC adviser license as tokenization expands",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/07/27/securitize-builds-wall-street-credentials-with-sec-adviser-license-as-tokenization-expands",
+      "event_type": "regulation",
+      "importance_tier": 2,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "assets": [
+        "BTC",
+        "COIN",
+        "ETH",
+        "crypto market"
       ]
     }
   ],
   "asset_movers": [
     {
-      "symbol": "CL=F",
-      "group": "COMMODITIES",
-      "price": "84.57",
-      "one_day": "-5.31%",
-      "five_day": "1.61%",
-      "trend": "range_bound",
-      "direction": "down"
-    },
-    {
       "symbol": "BZ=F",
       "group": "COMMODITIES",
-      "price": "91.68",
-      "one_day": "-5.27%",
-      "five_day": "2.76%",
+      "price": "87.76",
+      "one_day": "-9.32%",
+      "five_day": "-1.64%",
       "trend": "range_bound",
       "direction": "down"
     },
     {
-      "symbol": "ETH",
-      "group": "CRYPTO",
-      "price": "1,947.63",
-      "one_day": "4.71%",
-      "five_day": "2.36%",
+      "symbol": "CL=F",
+      "group": "COMMODITIES",
+      "price": "81.98",
+      "one_day": "-8.21%",
+      "five_day": "-1.50%",
+      "trend": "range_bound",
+      "direction": "down"
+    },
+    {
+      "symbol": "1810.HK",
+      "group": "HK_MARKET",
+      "price": "28.68",
+      "one_day": "7.34%",
+      "five_day": "3.39%",
+      "trend": "range_bound",
+      "direction": "up"
+    },
+    {
+      "symbol": "NG=F",
+      "group": "COMMODITIES",
+      "price": "2.77",
+      "one_day": "-3.52%",
+      "five_day": "-3.15%",
+      "trend": "strong_downtrend",
+      "direction": "down"
+    },
+    {
+      "symbol": "3690.HK",
+      "group": "HK_MARKET",
+      "price": "89.30",
+      "one_day": "3.00%",
+      "five_day": "3.48%",
       "trend": "strong_uptrend",
       "direction": "up"
     },
     {
-      "symbol": "9988.HK",
-      "group": "HK_MARKET",
-      "price": "110.00",
-      "one_day": "-4.26%",
-      "five_day": "-2.31%",
-      "trend": "range_bound",
-      "direction": "down"
-    },
-    {
-      "symbol": "SOLANA",
+      "symbol": "RIPPLE",
       "group": "CRYPTO",
-      "price": "76.62",
-      "one_day": "3.64%",
-      "five_day": "-1.45%",
-      "trend": "range_bound",
-      "direction": "up"
-    },
-    {
-      "symbol": "SI=F",
-      "group": "COMMODITIES",
-      "price": "60.12",
-      "one_day": "2.50%",
-      "five_day": "5.85%",
-      "trend": "range_bound",
-      "direction": "up"
-    },
-    {
-      "symbol": "0700.HK",
-      "group": "HK_MARKET",
-      "price": "434.60",
-      "one_day": "-2.38%",
-      "five_day": "-5.85%",
+      "price": "1.07",
+      "one_day": "-2.59%",
+      "five_day": "-6.44%",
       "trend": "downtrend",
       "direction": "down"
     },
     {
-      "symbol": "BTC",
+      "symbol": "0700.HK",
+      "group": "HK_MARKET",
+      "price": "443.00",
+      "one_day": "1.93%",
+      "five_day": "-7.28%",
+      "trend": "range_bound",
+      "direction": "up"
+    },
+    {
+      "symbol": "ETH",
       "group": "CRYPTO",
-      "price": "65,363.65",
-      "one_day": "1.97%",
-      "five_day": "0.27%",
+      "price": "1,899.44",
+      "one_day": "1.43%",
+      "five_day": "-1.38%",
       "trend": "strong_uptrend",
       "direction": "up"
     }
@@ -210,20 +249,20 @@
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-07-27/COMMODITIES_summary.png"
+      "src": "charts/2026-07-28/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-07-27/CRYPTO_summary.png"
+      "src": "charts/2026-07-28/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-07-27/HK_MARKET_summary.png"
+      "src": "charts/2026-07-28/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-07-27/US_EQUITY_summary.png"
+      "src": "charts/2026-07-28/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-07-27.html"
+  "latest_report_href": "reports/2026-07-28.html"
 }
