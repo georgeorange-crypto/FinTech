@@ -1,168 +1,56 @@
 {
-  "latest_date": "2026-07-30",
-  "market_data_date": "2026-07-30",
-  "chart_date": "2026-07-30",
-  "regime": "mixed",
-  "regime_summary": "股指回落、VIX 抬升且避险资产走强，市场偏风险规避。 但存在信号冲突，需要降低单一叙事置信度。",
+  "latest_date": "2026-07-31",
+  "market_data_date": "2026-07-31",
+  "chart_date": "2026-07-31",
+  "regime": "risk_on",
+  "regime_summary": "股指上涨、波动率或美元回落，市场更接近风险偏好改善。",
   "key_moves": [
-    "SPY 下跌 -1.54%",
-    "QQQ 下跌 -2.04%",
-    "VIX 上涨 13.45%",
-    "TLT 下跌 -1.65%",
-    "DXY 下跌 -0.57%",
-    "Gold 上涨 2.57%",
-    "Oil 上涨 6.51%"
+    "SPY 上涨 1.68%",
+    "QQQ 上涨 3.30%",
+    "VIX 下跌 -17.28%",
+    "DXY 下跌 -0.82%",
+    "Gold 上涨 3.33%"
   ],
   "watch_points": [
-    "关注避险是否演变为信用或流动性压力。"
+    "确认风险偏好是否扩散到小盘股、信用利差和周期品。"
   ],
   "cards": [
     {
       "label": "美股 SPY",
-      "value": "-1.54%"
+      "value": "1.68%"
     },
     {
       "label": "QQQ",
-      "value": "-2.04%"
+      "value": "3.30%"
     },
     {
       "label": "VIX",
-      "value": "13.45%"
+      "value": "-17.28%"
     },
     {
       "label": "BTC",
-      "value": "0.31%"
+      "value": "1.32%"
     },
     {
       "label": "Gold",
-      "value": "2.57%"
+      "value": "3.33%"
     },
     {
       "label": "Oil",
-      "value": "6.51%"
+      "value": "-0.59%"
     }
   ],
   "top_themes": [
-    "geopolitical_risk: Why the USO oil ETF is a better buy than crude futures as the Iran war rages",
-    "central_bank_decision: Bond market is calling Warsh’s bluff on inflation fight as yields surge",
-    "macro_data: Indicators for Core CPI"
+    "central_bank_decision: Federal Reserve issues FOMC statement",
+    "earnings: Micron, Sandisk and other chip stocks get major boosts in the wake of Microsoft’s earnings",
+    "earnings: Why Microsoft’s stock soared to a historic gain after earnings"
   ],
   "news_counts": {
     "must_read": 10,
     "policy_watch": 6,
-    "background": 12
+    "background": 14
   },
   "focus_news": [
-    {
-      "title": "Why the USO oil ETF is a better buy than crude futures as the Iran war rages",
-      "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/why-the-uso-oil-etf-is-a-better-buy-than-crude-futures-as-the-iran-war-rages-85d1ebe0?mod=mw_rss_topstories",
-      "event_type": "geopolitical_risk",
-      "importance_tier": 1,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "地缘风险可能推升避险需求、能源价格和市场波动率。",
-      "market_impact": "主要影响 CL=F，方向为 positive，强度 high；供给扰动或 OPEC 减产通常推升 WTI 原油。",
-      "assets": [
-        "BTC",
-        "BZ=F",
-        "CL=F",
-        "COIN",
-        "ETH"
-      ]
-    },
-    {
-      "title": "Bond market is calling Warsh’s bluff on inflation fight as yields surge",
-      "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/bond-market-is-calling-warshs-bluff-on-inflation-fight-as-yields-surge-4700f9b5?mod=mw_rss_topstories",
-      "event_type": "central_bank_decision",
-      "importance_tier": 1,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
-      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
-      "assets": [
-        "BTC",
-        "DXY",
-        "GC=F",
-        "QQQ",
-        "SPY"
-      ]
-    },
-    {
-      "title": "Indicators for Core CPI",
-      "source": "Bank of Japan Announcements",
-      "url": "http://www.boj.or.jp/en/research/research_data/cpi/index.htm",
-      "event_type": "macro_data",
-      "importance_tier": 1,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "这类宏观数据会直接改变市场对通胀、增长和政策路径的预期。",
-      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
-      "assets": [
-        "BTC",
-        "DXY",
-        "GC=F",
-        "QQQ",
-        "SPY"
-      ]
-    },
-    {
-      "title": "Citadel bets on a Fed rate hike Wednesday as bitcoin analysts call a hold. Someone will be wrong.",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/07/29/citadel-bets-on-a-fed-rate-hike-wednesday-as-bitcoin-analysts-call-a-hold-someone-will-be-wrong",
-      "event_type": "central_bank_decision",
-      "importance_tier": 1,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
-      "market_impact": "主要影响 QQQ，方向为 negative，强度 high；鹰派政策提高折现率，压制成长股估值。",
-      "assets": [
-        "BTC",
-        "DXY",
-        "QQQ",
-        "SPY",
-        "TLT"
-      ]
-    }
-  ],
-  "policy_news": [
-    {
-      "title": "Bond market is calling Warsh’s bluff on inflation fight as yields surge",
-      "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/bond-market-is-calling-warshs-bluff-on-inflation-fight-as-yields-surge-4700f9b5?mod=mw_rss_topstories",
-      "event_type": "central_bank_decision",
-      "importance_tier": 1,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
-      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
-      "assets": [
-        "BTC",
-        "DXY",
-        "GC=F",
-        "QQQ",
-        "SPY"
-      ]
-    },
-    {
-      "title": "Citadel bets on a Fed rate hike Wednesday as bitcoin analysts call a hold. Someone will be wrong.",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/07/29/citadel-bets-on-a-fed-rate-hike-wednesday-as-bitcoin-analysts-call-a-hold-someone-will-be-wrong",
-      "event_type": "central_bank_decision",
-      "importance_tier": 1,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
-      "market_impact": "主要影响 QQQ，方向为 negative，强度 high；鹰派政策提高折现率，压制成长股估值。",
-      "assets": [
-        "BTC",
-        "DXY",
-        "QQQ",
-        "SPY",
-        "TLT"
-      ]
-    },
     {
       "title": "Federal Reserve issues FOMC statement",
       "source": "Federal Reserve Press Releases",
@@ -174,99 +62,203 @@
       "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
       "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
       "assets": []
+    },
+    {
+      "title": "Micron, Sandisk and other chip stocks get major boosts in the wake of Microsoft’s earnings",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/micron-sandisk-and-other-chip-stocks-get-major-boosts-in-the-wake-of-microsofts-earnings-25460e61?mod=mw_rss_topstories",
+      "event_type": "earnings",
+      "importance_tier": 2,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
+      "market_impact": "主要影响 QQQ，方向为 mixed，强度 high；AI 资本开支会影响大型科技股盈利和估值预期。",
+      "assets": [
+        "AMZN",
+        "GOOGL",
+        "META",
+        "MSFT",
+        "NVDA"
+      ]
+    },
+    {
+      "title": "Why Microsoft’s stock soared to a historic gain after earnings",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/why-microsofts-stock-is-soaring-toward-a-historic-gain-after-earnings-96cd5b1e?mod=mw_rss_topstories",
+      "event_type": "earnings",
+      "importance_tier": 2,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
+      "market_impact": "主要影响 QQQ，方向为 mixed，强度 high；AI 资本开支会影响大型科技股盈利和估值预期。",
+      "assets": [
+        "AMZN",
+        "GOOGL",
+        "META",
+        "MSFT",
+        "NVDA"
+      ]
+    },
+    {
+      "title": "Warsh’s Wall Street cred takes a hit as investors doubt the Fed chair’s inflation-fighting resolve",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/warshs-wall-street-cred-takes-a-hit-as-investors-doubt-the-fed-chairs-inflation-fighting-resolve-82be4f77?mod=mw_rss_topstories",
+      "event_type": "central_bank_speech",
+      "importance_tier": 2,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "央行官员表态可能影响市场对下一次会议的定价。",
+      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
+      "assets": [
+        "BTC",
+        "DXY",
+        "GC=F",
+        "QQQ",
+        "SPY"
+      ]
+    }
+  ],
+  "policy_news": [
+    {
+      "title": "Federal Reserve issues FOMC statement",
+      "source": "Federal Reserve Press Releases",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
+      "event_type": "central_bank_decision",
+      "importance_tier": 1,
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "assets": []
+    },
+    {
+      "title": "Warsh’s Wall Street cred takes a hit as investors doubt the Fed chair’s inflation-fighting resolve",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/warshs-wall-street-cred-takes-a-hit-as-investors-doubt-the-fed-chairs-inflation-fighting-resolve-82be4f77?mod=mw_rss_topstories",
+      "event_type": "central_bank_speech",
+      "importance_tier": 2,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "央行官员表态可能影响市场对下一次会议的定价。",
+      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
+      "assets": [
+        "BTC",
+        "DXY",
+        "GC=F",
+        "QQQ",
+        "SPY"
+      ]
+    },
+    {
+      "title": "Bitcoin analysts agree the Fed's hold was hawkish. They are split on what happens next.",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/07/30/bitcoin-analysts-agree-the-fed-s-hold-was-hawkish-they-don-t-agree-on-what-happens-next",
+      "event_type": "central_bank_speech",
+      "importance_tier": 2,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "央行官员表态可能影响市场对下一次会议的定价。",
+      "market_impact": "主要影响 QQQ，方向为 negative，强度 high；鹰派政策提高折现率，压制成长股估值。",
+      "assets": [
+        "BTC",
+        "DXY",
+        "QQQ",
+        "SPY",
+        "TLT"
+      ]
     }
   ],
   "asset_movers": [
     {
       "symbol": "^VIX",
       "group": "US_MACRO_MARKET",
-      "price": "20.66",
-      "one_day": "13.45%",
-      "five_day": "24.16%",
+      "price": "17.09",
+      "one_day": "-17.28%",
+      "five_day": "-8.61%",
+      "trend": "downtrend",
+      "direction": "down"
+    },
+    {
+      "symbol": "BINANCECOIN",
+      "group": "CRYPTO",
+      "price": "592.12",
+      "one_day": "3.78%",
+      "five_day": "4.92%",
       "trend": "range_bound",
       "direction": "up"
     },
     {
-      "symbol": "1810.HK",
-      "group": "HK_MARKET",
-      "price": "31.88",
-      "one_day": "8.95%",
-      "five_day": "19.49%",
-      "trend": "range_bound",
-      "direction": "up"
-    },
-    {
-      "symbol": "BZ=F",
+      "symbol": "HG=F",
       "group": "COMMODITIES",
-      "price": "90.40",
-      "one_day": "7.50%",
-      "five_day": "-3.90%",
-      "trend": "range_bound",
-      "direction": "up"
-    },
-    {
-      "symbol": "CL=F",
-      "group": "COMMODITIES",
-      "price": "84.42",
-      "one_day": "6.51%",
-      "five_day": "-2.78%",
-      "trend": "range_bound",
-      "direction": "up"
-    },
-    {
-      "symbol": "0700.HK",
-      "group": "HK_MARKET",
-      "price": "466.40",
-      "one_day": "4.29%",
-      "five_day": "5.86%",
-      "trend": "uptrend",
-      "direction": "up"
-    },
-    {
-      "symbol": "1211.HK",
-      "group": "HK_MARKET",
-      "price": "93.60",
-      "one_day": "4.23%",
-      "five_day": "6.55%",
+      "price": "6.50",
+      "one_day": "3.63%",
+      "five_day": "3.12%",
       "trend": "range_bound",
       "direction": "up"
     },
     {
       "symbol": "GC=F",
       "group": "COMMODITIES",
-      "price": "4,139.90",
-      "one_day": "2.57%",
-      "five_day": "-0.17%",
+      "price": "4,169.20",
+      "one_day": "3.33%",
+      "five_day": "3.03%",
       "trend": "range_bound",
       "direction": "up"
     },
     {
-      "symbol": "NG=F",
-      "group": "COMMODITIES",
-      "price": "2.73",
-      "one_day": "2.48%",
-      "five_day": "-6.74%",
+      "symbol": "QQQ",
+      "group": "US_EQUITY",
+      "price": "683.55",
+      "one_day": "3.30%",
+      "five_day": "-1.22%",
       "trend": "strong_downtrend",
+      "direction": "up"
+    },
+    {
+      "symbol": "1810.HK",
+      "group": "HK_MARKET",
+      "price": "31.04",
+      "one_day": "-2.63%",
+      "five_day": "14.37%",
+      "trend": "range_bound",
+      "direction": "down"
+    },
+    {
+      "symbol": "SI=F",
+      "group": "COMMODITIES",
+      "price": "59.31",
+      "one_day": "2.49%",
+      "five_day": "2.61%",
+      "trend": "range_bound",
+      "direction": "up"
+    },
+    {
+      "symbol": "^HSI",
+      "group": "HK_MARKET",
+      "price": "25,807.92",
+      "one_day": "1.96%",
+      "five_day": "3.68%",
+      "trend": "range_bound",
       "direction": "up"
     }
   ],
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-07-30/COMMODITIES_summary.png"
+      "src": "charts/2026-07-31/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-07-30/CRYPTO_summary.png"
+      "src": "charts/2026-07-31/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-07-30/HK_MARKET_summary.png"
+      "src": "charts/2026-07-31/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-07-30/US_EQUITY_summary.png"
+      "src": "charts/2026-07-31/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-07-30.html"
+  "latest_report_href": "reports/2026-07-31.html"
 }
