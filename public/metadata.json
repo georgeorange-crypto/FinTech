@@ -1,15 +1,16 @@
 {
-  "latest_date": "2026-07-31",
-  "market_data_date": "2026-07-31",
-  "chart_date": "2026-07-31",
+  "latest_date": "2026-08-01",
+  "market_data_date": "2026-08-01",
+  "chart_date": "2026-08-01",
   "regime": "risk_on",
   "regime_summary": "股指上涨、波动率或美元回落，市场更接近风险偏好改善。",
   "key_moves": [
-    "SPY 上涨 1.68%",
-    "QQQ 上涨 3.30%",
-    "VIX 下跌 -17.28%",
-    "DXY 下跌 -0.82%",
-    "Gold 上涨 3.33%"
+    "SPY 上涨 0.72%",
+    "QQQ 上涨 0.65%",
+    "VIX 下跌 -6.44%",
+    "TLT 下跌 -0.66%",
+    "Oil 上涨 3.84%",
+    "ETH 下跌 -2.50%"
   ],
   "watch_points": [
     "确认风险偏好是否扩散到小盘股、信用利差和周期品。"
@@ -17,92 +18,68 @@
   "cards": [
     {
       "label": "美股 SPY",
-      "value": "1.68%"
+      "value": "0.72%"
     },
     {
       "label": "QQQ",
-      "value": "3.30%"
+      "value": "0.65%"
     },
     {
       "label": "VIX",
-      "value": "-17.28%"
+      "value": "-6.44%"
     },
     {
       "label": "BTC",
-      "value": "1.32%"
+      "value": "-1.65%"
     },
     {
       "label": "Gold",
-      "value": "3.33%"
+      "value": "-0.04%"
     },
     {
       "label": "Oil",
-      "value": "-0.59%"
+      "value": "3.84%"
     }
   ],
   "top_themes": [
-    "central_bank_decision: Federal Reserve issues FOMC statement",
-    "earnings: Micron, Sandisk and other chip stocks get major boosts in the wake of Microsoft’s earnings",
-    "earnings: Why Microsoft’s stock soared to a historic gain after earnings"
+    "financial_stability: More consumer companies are staying private for longer, avoiding the IPO road",
+    "fiscal_policy: U.S. sanctions Iran-linked bitcoin insurance scheme for Strait of Hormuz ships",
+    "central_bank_speech: Fed officials who voted to hike rates say action is needed now against inflation"
   ],
   "news_counts": {
-    "must_read": 10,
-    "policy_watch": 6,
-    "background": 14
+    "must_read": 9,
+    "policy_watch": 7,
+    "background": 20
   },
   "focus_news": [
     {
-      "title": "Federal Reserve issues FOMC statement",
-      "source": "Federal Reserve Press Releases",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
-      "event_type": "central_bank_decision",
+      "title": "More consumer companies are staying private for longer, avoiding the IPO road",
+      "source": "CNBC Economy",
+      "url": "https://www.cnbc.com/2026/07/31/private-consumer-companies-ipo.html",
+      "event_type": "financial_stability",
       "importance_tier": 1,
       "impact_strength": "low",
       "impact_direction": "unknown",
-      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
+      "reason": "金融稳定信号可能放大跨资产波动，并影响央行反应函数。",
       "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
       "assets": []
     },
     {
-      "title": "Micron, Sandisk and other chip stocks get major boosts in the wake of Microsoft’s earnings",
-      "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/micron-sandisk-and-other-chip-stocks-get-major-boosts-in-the-wake-of-microsofts-earnings-25460e61?mod=mw_rss_topstories",
-      "event_type": "earnings",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
-      "market_impact": "主要影响 QQQ，方向为 mixed，强度 high；AI 资本开支会影响大型科技股盈利和估值预期。",
-      "assets": [
-        "AMZN",
-        "GOOGL",
-        "META",
-        "MSFT",
-        "NVDA"
-      ]
+      "title": "U.S. sanctions Iran-linked bitcoin insurance scheme for Strait of Hormuz ships",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/07/31/u-s-sanctions-iran-linked-bitcoin-insurance-scheme-for-strait-of-hormuz-ships",
+      "event_type": "fiscal_policy",
+      "importance_tier": 1,
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "assets": []
     },
     {
-      "title": "Why Microsoft’s stock soared to a historic gain after earnings",
-      "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/why-microsofts-stock-is-soaring-toward-a-historic-gain-after-earnings-96cd5b1e?mod=mw_rss_topstories",
-      "event_type": "earnings",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
-      "market_impact": "主要影响 QQQ，方向为 mixed，强度 high；AI 资本开支会影响大型科技股盈利和估值预期。",
-      "assets": [
-        "AMZN",
-        "GOOGL",
-        "META",
-        "MSFT",
-        "NVDA"
-      ]
-    },
-    {
-      "title": "Warsh’s Wall Street cred takes a hit as investors doubt the Fed chair’s inflation-fighting resolve",
-      "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/warshs-wall-street-cred-takes-a-hit-as-investors-doubt-the-fed-chairs-inflation-fighting-resolve-82be4f77?mod=mw_rss_topstories",
+      "title": "Fed officials who voted to hike rates say action is needed now against inflation",
+      "source": "CNBC Economy",
+      "url": "https://www.cnbc.com/2026/07/31/fed-officials-who-voted-to-hike-rates-say-action-is-needed-now-against-inflation.html",
       "event_type": "central_bank_speech",
       "importance_tier": 2,
       "impact_strength": "high",
@@ -115,26 +92,55 @@
         "GC=F",
         "QQQ",
         "SPY"
+      ]
+    },
+    {
+      "title": "Coldcard's $38 million (so far) exploit shakes faith in self-custody, may push investors to ETFs",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/07/31/coldcard-s-usd38-million-so-far-exploit-shakes-faith-in-self-custody-may-push-investors-to-etfs",
+      "event_type": "crypto_market_structure",
+      "importance_tier": 2,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
+      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "assets": [
+        "BTC",
+        "COIN",
+        "ETH",
+        "crypto market"
       ]
     }
   ],
   "policy_news": [
     {
-      "title": "Federal Reserve issues FOMC statement",
-      "source": "Federal Reserve Press Releases",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
-      "event_type": "central_bank_decision",
+      "title": "More consumer companies are staying private for longer, avoiding the IPO road",
+      "source": "CNBC Economy",
+      "url": "https://www.cnbc.com/2026/07/31/private-consumer-companies-ipo.html",
+      "event_type": "financial_stability",
       "importance_tier": 1,
       "impact_strength": "low",
       "impact_direction": "unknown",
-      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
+      "reason": "金融稳定信号可能放大跨资产波动，并影响央行反应函数。",
       "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
       "assets": []
     },
     {
-      "title": "Warsh’s Wall Street cred takes a hit as investors doubt the Fed chair’s inflation-fighting resolve",
-      "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/warshs-wall-street-cred-takes-a-hit-as-investors-doubt-the-fed-chairs-inflation-fighting-resolve-82be4f77?mod=mw_rss_topstories",
+      "title": "U.S. sanctions Iran-linked bitcoin insurance scheme for Strait of Hormuz ships",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/07/31/u-s-sanctions-iran-linked-bitcoin-insurance-scheme-for-strait-of-hormuz-ships",
+      "event_type": "fiscal_policy",
+      "importance_tier": 1,
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "assets": []
+    },
+    {
+      "title": "Fed officials who voted to hike rates say action is needed now against inflation",
+      "source": "CNBC Economy",
+      "url": "https://www.cnbc.com/2026/07/31/fed-officials-who-voted-to-hike-rates-say-action-is-needed-now-against-inflation.html",
       "event_type": "central_bank_speech",
       "importance_tier": 2,
       "impact_strength": "high",
@@ -148,117 +154,99 @@
         "QQQ",
         "SPY"
       ]
-    },
-    {
-      "title": "Bitcoin analysts agree the Fed's hold was hawkish. They are split on what happens next.",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/07/30/bitcoin-analysts-agree-the-fed-s-hold-was-hawkish-they-don-t-agree-on-what-happens-next",
-      "event_type": "central_bank_speech",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "央行官员表态可能影响市场对下一次会议的定价。",
-      "market_impact": "主要影响 QQQ，方向为 negative，强度 high；鹰派政策提高折现率，压制成长股估值。",
-      "assets": [
-        "BTC",
-        "DXY",
-        "QQQ",
-        "SPY",
-        "TLT"
-      ]
     }
   ],
   "asset_movers": [
     {
+      "symbol": "1810.HK",
+      "group": "HK_MARKET",
+      "price": "28.78",
+      "one_day": "-7.28%",
+      "five_day": "7.71%",
+      "trend": "range_bound",
+      "direction": "down"
+    },
+    {
       "symbol": "^VIX",
       "group": "US_MACRO_MARKET",
-      "price": "17.09",
-      "one_day": "-17.28%",
-      "five_day": "-8.61%",
+      "price": "15.99",
+      "one_day": "-6.44%",
+      "five_day": "-13.94%",
       "trend": "downtrend",
       "direction": "down"
     },
     {
+      "symbol": "9988.HK",
+      "group": "HK_MARKET",
+      "price": "117.00",
+      "one_day": "4.65%",
+      "five_day": "6.36%",
+      "trend": "range_bound",
+      "direction": "up"
+    },
+    {
+      "symbol": "CL=F",
+      "group": "COMMODITIES",
+      "price": "86.80",
+      "one_day": "3.84%",
+      "five_day": "-2.81%",
+      "trend": "range_bound",
+      "direction": "up"
+    },
+    {
       "symbol": "BINANCECOIN",
       "group": "CRYPTO",
-      "price": "592.12",
-      "one_day": "3.78%",
-      "five_day": "4.92%",
+      "price": "586.30",
+      "one_day": "2.62%",
+      "five_day": "3.07%",
       "trend": "range_bound",
       "direction": "up"
     },
     {
-      "symbol": "HG=F",
-      "group": "COMMODITIES",
-      "price": "6.50",
-      "one_day": "3.63%",
-      "five_day": "3.12%",
-      "trend": "range_bound",
-      "direction": "up"
-    },
-    {
-      "symbol": "GC=F",
-      "group": "COMMODITIES",
-      "price": "4,169.20",
-      "one_day": "3.33%",
-      "five_day": "3.03%",
-      "trend": "range_bound",
-      "direction": "up"
-    },
-    {
-      "symbol": "QQQ",
-      "group": "US_EQUITY",
-      "price": "683.55",
-      "one_day": "3.30%",
-      "five_day": "-1.22%",
-      "trend": "strong_downtrend",
-      "direction": "up"
-    },
-    {
-      "symbol": "1810.HK",
-      "group": "HK_MARKET",
-      "price": "31.04",
-      "one_day": "-2.63%",
-      "five_day": "14.37%",
+      "symbol": "ETH",
+      "group": "CRYPTO",
+      "price": "1,860.16",
+      "one_day": "-2.50%",
+      "five_day": "-0.74%",
       "trend": "range_bound",
       "direction": "down"
     },
     {
       "symbol": "SI=F",
       "group": "COMMODITIES",
-      "price": "59.31",
-      "one_day": "2.49%",
-      "five_day": "2.61%",
-      "trend": "range_bound",
-      "direction": "up"
+      "price": "57.78",
+      "one_day": "-1.77%",
+      "five_day": "-1.50%",
+      "trend": "downtrend",
+      "direction": "down"
     },
     {
-      "symbol": "^HSI",
-      "group": "HK_MARKET",
-      "price": "25,807.92",
-      "one_day": "1.96%",
-      "five_day": "3.68%",
+      "symbol": "BTC",
+      "group": "CRYPTO",
+      "price": "62,877.32",
+      "one_day": "-1.65%",
+      "five_day": "-2.24%",
       "trend": "range_bound",
-      "direction": "up"
+      "direction": "down"
     }
   ],
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-07-31/COMMODITIES_summary.png"
+      "src": "charts/2026-08-01/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-07-31/CRYPTO_summary.png"
+      "src": "charts/2026-08-01/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-07-31/HK_MARKET_summary.png"
+      "src": "charts/2026-08-01/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-07-31/US_EQUITY_summary.png"
+      "src": "charts/2026-08-01/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-07-31.html"
+  "latest_report_href": "reports/2026-08-01.html"
 }
