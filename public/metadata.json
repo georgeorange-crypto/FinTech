@@ -1,7 +1,7 @@
 {
-  "latest_date": "2026-08-02",
-  "market_data_date": "2026-08-02",
-  "chart_date": "2026-08-02",
+  "latest_date": "2026-08-03",
+  "market_data_date": "2026-08-03",
+  "chart_date": "2026-08-03",
   "regime": "risk_on",
   "regime_summary": "股指上涨、波动率或美元回落，市场更接近风险偏好改善。",
   "key_moves": [
@@ -9,10 +9,8 @@
     "QQQ 上涨 0.65%",
     "VIX 下跌 -6.44%",
     "TLT 下跌 -0.66%",
-    "Gold 下跌 -1.24%",
-    "Oil 上涨 1.29%",
-    "BTC 下跌 -3.06%",
-    "ETH 下跌 -3.78%"
+    "Gold 上涨 1.85%",
+    "Oil 下跌 -4.45%"
   ],
   "watch_points": [
     "确认风险偏好是否扩散到小盘股、信用利差和周期品。"
@@ -32,26 +30,26 @@
     },
     {
       "label": "BTC",
-      "value": "-3.06%"
+      "value": "0.78%"
     },
     {
       "label": "Gold",
-      "value": "-1.24%"
+      "value": "1.85%"
     },
     {
       "label": "Oil",
-      "value": "1.29%"
+      "value": "-4.45%"
     }
   ],
   "top_themes": [
     "geopolitical_risk: Bitcoin cold-wallet attack spreads to 4,500 addresses as losses near $89 million",
     "geopolitical_risk: How bitcoin cold wallets lost $70 million in an attack that never touched the devices",
-    "financial_stability: More consumer companies are staying private for longer, avoiding the IPO road"
+    "earnings: Here’s what’s worth streaming in August 2026 on Netflix, Hulu, HBO Max and more"
   ],
   "news_counts": {
-    "must_read": 9,
-    "policy_watch": 5,
-    "background": 18
+    "must_read": 8,
+    "policy_watch": 1,
+    "background": 7
   },
   "focus_news": [
     {
@@ -79,71 +77,58 @@
       "assets": []
     },
     {
-      "title": "More consumer companies are staying private for longer, avoiding the IPO road",
-      "source": "CNBC Economy",
-      "url": "https://www.cnbc.com/2026/07/31/private-consumer-companies-ipo.html",
-      "event_type": "financial_stability",
-      "importance_tier": 1,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "金融稳定信号可能放大跨资产波动，并影响央行反应函数。",
-      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
-      "assets": []
+      "title": "Here’s what’s worth streaming in August 2026 on Netflix, Hulu, HBO Max and more",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/heres-whats-worth-streaming-in-august-2026-on-netflix-hulu-hbo-max-and-more-21b78a08?mod=mw_rss_topstories",
+      "event_type": "earnings",
+      "importance_tier": 2,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
+      "market_impact": "主要影响 QQQ，方向为 mixed，强度 high；AI 资本开支会影响大型科技股盈利和估值预期。",
+      "assets": [
+        "AMZN",
+        "GOOGL",
+        "META",
+        "MSFT",
+        "NVDA"
+      ]
     },
     {
-      "title": "U.S. sanctions Iran-linked bitcoin insurance scheme for Strait of Hormuz ships",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/07/31/u-s-sanctions-iran-linked-bitcoin-insurance-scheme-for-strait-of-hormuz-ships",
-      "event_type": "fiscal_policy",
-      "importance_tier": 1,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
-      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
-      "assets": []
+      "title": "S&P 500 profit growth is getting even wilder as Amazon makes its mark",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/s-p-500-profit-growth-is-getting-even-wilder-as-amazon-makes-its-mark-5ddf2082?mod=mw_rss_topstories",
+      "event_type": "earnings",
+      "importance_tier": 2,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
+      "market_impact": "主要影响 QQQ，方向为 mixed，强度 high；AI 资本开支会影响大型科技股盈利和估值预期。",
+      "assets": [
+        "AMZN",
+        "GOOGL",
+        "META",
+        "MSFT",
+        "NVDA"
+      ]
     }
   ],
   "policy_news": [
     {
-      "title": "More consumer companies are staying private for longer, avoiding the IPO road",
-      "source": "CNBC Economy",
-      "url": "https://www.cnbc.com/2026/07/31/private-consumer-companies-ipo.html",
-      "event_type": "financial_stability",
-      "importance_tier": 1,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "金融稳定信号可能放大跨资产波动，并影响央行反应函数。",
-      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
-      "assets": []
-    },
-    {
-      "title": "U.S. sanctions Iran-linked bitcoin insurance scheme for Strait of Hormuz ships",
+      "title": "SEC to review Nasdaq bitcoin options approval after CME challenge",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/07/31/u-s-sanctions-iran-linked-bitcoin-insurance-scheme-for-strait-of-hormuz-ships",
-      "event_type": "fiscal_policy",
-      "importance_tier": 1,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
-      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
-      "assets": []
-    },
-    {
-      "title": "Fed officials who voted to hike rates say action is needed now against inflation",
-      "source": "CNBC Economy",
-      "url": "https://www.cnbc.com/2026/07/31/fed-officials-who-voted-to-hike-rates-say-action-is-needed-now-against-inflation.html",
-      "event_type": "central_bank_speech",
+      "url": "https://www.coindesk.com/policy/2026/08/01/sec-to-review-nasdaq-bitcoin-options-approval-after-cme-challenge",
+      "event_type": "regulation",
       "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "央行官员表态可能影响市场对下一次会议的定价。",
-      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
+      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
       "assets": [
         "BTC",
-        "DXY",
-        "GC=F",
-        "QQQ",
-        "SPY"
+        "COIN",
+        "ETH",
+        "crypto market"
       ]
     }
   ],
@@ -176,68 +161,68 @@
       "direction": "up"
     },
     {
-      "symbol": "ETH",
-      "group": "CRYPTO",
-      "price": "1,846.18",
-      "one_day": "-3.78%",
-      "five_day": "-5.41%",
+      "symbol": "CL=F",
+      "group": "COMMODITIES",
+      "price": "80.90",
+      "one_day": "-4.45%",
+      "five_day": "-2.07%",
       "trend": "range_bound",
       "direction": "down"
     },
     {
-      "symbol": "SOLANA",
+      "symbol": "RIPPLE",
       "group": "CRYPTO",
-      "price": "71.88",
-      "one_day": "-3.54%",
-      "five_day": "-6.16%",
-      "trend": "range_bound",
-      "direction": "down"
+      "price": "1.09",
+      "one_day": "2.25%",
+      "five_day": "2.03%",
+      "trend": "downtrend",
+      "direction": "up"
     },
     {
-      "symbol": "BTC",
-      "group": "CRYPTO",
-      "price": "62,793.66",
-      "one_day": "-3.06%",
-      "five_day": "-3.85%",
+      "symbol": "SI=F",
+      "group": "COMMODITIES",
+      "price": "58.67",
+      "one_day": "1.86%",
+      "five_day": "0.33%",
       "trend": "range_bound",
-      "direction": "down"
+      "direction": "up"
     },
     {
-      "symbol": "BINANCECOIN",
-      "group": "CRYPTO",
-      "price": "575.56",
-      "one_day": "-2.70%",
-      "five_day": "0.09%",
+      "symbol": "GC=F",
+      "group": "COMMODITIES",
+      "price": "4,124.10",
+      "one_day": "1.85%",
+      "five_day": "1.22%",
       "trend": "range_bound",
-      "direction": "down"
+      "direction": "up"
     },
     {
-      "symbol": "DOGECOIN",
-      "group": "CRYPTO",
-      "price": "0.07",
-      "one_day": "-2.25%",
-      "five_day": "-5.83%",
-      "trend": "strong_downtrend",
-      "direction": "down"
+      "symbol": "HG=F",
+      "group": "COMMODITIES",
+      "price": "6.55",
+      "one_day": "1.77%",
+      "five_day": "3.33%",
+      "trend": "range_bound",
+      "direction": "up"
     }
   ],
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-08-02/COMMODITIES_summary.png"
+      "src": "charts/2026-08-03/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-08-02/CRYPTO_summary.png"
+      "src": "charts/2026-08-03/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-08-02/HK_MARKET_summary.png"
+      "src": "charts/2026-08-03/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-08-02/US_EQUITY_summary.png"
+      "src": "charts/2026-08-03/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-08-02.html"
+  "latest_report_href": "reports/2026-08-03.html"
 }
