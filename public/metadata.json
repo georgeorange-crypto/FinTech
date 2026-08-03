@@ -1,135 +1,116 @@
 {
-  "latest_date": "2026-08-03",
-  "market_data_date": "2026-08-03",
-  "chart_date": "2026-08-03",
-  "regime": "risk_on",
-  "regime_summary": "股指上涨、波动率或美元回落，市场更接近风险偏好改善。",
+  "latest_date": "2026-08-04",
+  "market_data_date": "2026-08-04",
+  "chart_date": "2026-08-04",
+  "regime": "unknown",
+  "regime_summary": "市场信号不足，暂不判断明确状态。",
   "key_moves": [
-    "SPY 上涨 0.72%",
-    "QQQ 上涨 0.65%",
-    "VIX 下跌 -6.44%",
-    "TLT 下跌 -0.66%",
-    "Gold 上涨 1.85%",
-    "Oil 下跌 -4.45%"
+    "SPY 上涨 1.42%",
+    "QQQ 上涨 1.76%",
+    "Gold 上涨 1.46%",
+    "Oil 下跌 -5.62%"
   ],
   "watch_points": [
-    "确认风险偏好是否扩散到小盘股、信用利差和周期品。"
+    "关注后续数据是否确认当前跨资产信号。"
   ],
   "cards": [
     {
       "label": "美股 SPY",
-      "value": "0.72%"
+      "value": "1.42%"
     },
     {
       "label": "QQQ",
-      "value": "0.65%"
+      "value": "1.76%"
     },
     {
       "label": "VIX",
-      "value": "-6.44%"
+      "value": "-0.81%"
     },
     {
       "label": "BTC",
-      "value": "0.78%"
+      "value": "1.23%"
     },
     {
       "label": "Gold",
-      "value": "1.85%"
+      "value": "1.46%"
     },
     {
       "label": "Oil",
-      "value": "-4.45%"
+      "value": "-5.62%"
     }
   ],
   "top_themes": [
-    "geopolitical_risk: Bitcoin cold-wallet attack spreads to 4,500 addresses as losses near $89 million",
-    "geopolitical_risk: How bitcoin cold wallets lost $70 million in an attack that never touched the devices",
-    "earnings: Here’s what’s worth streaming in August 2026 on Netflix, Hulu, HBO Max and more"
+    "earnings: Palantir’s stock climbs after earnings, as AI drives turbocharged growth",
+    "central_bank_speech: Trump-linked American Bitcoin president Matt Prusak departs for Giga Energy",
+    "earnings: U.S. Jobs, Circle, Galaxy, American Bitcoin earnings: Crypto Week Ahead"
   ],
   "news_counts": {
-    "must_read": 8,
+    "must_read": 5,
     "policy_watch": 1,
-    "background": 7
+    "background": 17
   },
   "focus_news": [
     {
-      "title": "Bitcoin cold-wallet attack spreads to 4,500 addresses as losses near $89 million",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/tech/2026/08/02/bitcoin-cold-wallet-attack-spreads-to-4-500-addresses-as-losses-near-usd89-million",
-      "event_type": "geopolitical_risk",
-      "importance_tier": 1,
+      "title": "Palantir’s stock climbs after earnings, as AI drives turbocharged growth",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/palantirs-stock-gains-as-ai-drives-turbocharged-growth-e006b70a?mod=mw_rss_topstories",
+      "event_type": "earnings",
+      "importance_tier": 2,
       "impact_strength": "low",
       "impact_direction": "unknown",
-      "reason": "地缘风险可能推升避险需求、能源价格和市场波动率。",
+      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
       "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
       "assets": []
     },
     {
-      "title": "How bitcoin cold wallets lost $70 million in an attack that never touched the devices",
+      "title": "Trump-linked American Bitcoin president Matt Prusak departs for Giga Energy",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/tech/2026/08/01/how-bitcoin-cold-wallets-lost-usd70-million-in-an-attack-that-never-touched-the-devices",
-      "event_type": "geopolitical_risk",
-      "importance_tier": 1,
+      "url": "https://www.coindesk.com/business/2026/08/03/trump-linked-american-bitcoin-president-matt-prusak-departs-for-giga-energy",
+      "event_type": "central_bank_speech",
+      "importance_tier": 2,
       "impact_strength": "low",
       "impact_direction": "unknown",
-      "reason": "地缘风险可能推升避险需求、能源价格和市场波动率。",
+      "reason": "央行官员表态可能影响市场对下一次会议的定价。",
       "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
       "assets": []
     },
     {
-      "title": "Here’s what’s worth streaming in August 2026 on Netflix, Hulu, HBO Max and more",
-      "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/heres-whats-worth-streaming-in-august-2026-on-netflix-hulu-hbo-max-and-more-21b78a08?mod=mw_rss_topstories",
+      "title": "U.S. Jobs, Circle, Galaxy, American Bitcoin earnings: Crypto Week Ahead",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/08/03/u-s-jobs-circle-galaxy-american-bitcoin-earnings-crypto-week-ahead",
       "event_type": "earnings",
       "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
+      "impact_strength": "low",
+      "impact_direction": "unknown",
       "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
-      "market_impact": "主要影响 QQQ，方向为 mixed，强度 high；AI 资本开支会影响大型科技股盈利和估值预期。",
-      "assets": [
-        "AMZN",
-        "GOOGL",
-        "META",
-        "MSFT",
-        "NVDA"
-      ]
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "assets": []
     },
     {
-      "title": "S&P 500 profit growth is getting even wilder as Amazon makes its mark",
+      "title": "Should wealthier Americans forgo their Social Security benefits as a charitable gesture?",
       "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/s-p-500-profit-growth-is-getting-even-wilder-as-amazon-makes-its-mark-5ddf2082?mod=mw_rss_topstories",
-      "event_type": "earnings",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
-      "market_impact": "主要影响 QQQ，方向为 mixed，强度 high；AI 资本开支会影响大型科技股盈利和估值预期。",
-      "assets": [
-        "AMZN",
-        "GOOGL",
-        "META",
-        "MSFT",
-        "NVDA"
-      ]
+      "url": "https://www.marketwatch.com/story/should-wealthier-americans-forgo-their-social-security-benefits-as-a-charitable-gesture-2c7b6801?mod=mw_rss_topstories",
+      "event_type": "other",
+      "importance_tier": 3,
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "market_impact": "更偏背景信息，短期市场影响可能有限。",
+      "assets": []
     }
   ],
   "policy_news": [
     {
-      "title": "SEC to review Nasdaq bitcoin options approval after CME challenge",
+      "title": "Trump-linked American Bitcoin president Matt Prusak departs for Giga Energy",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/08/01/sec-to-review-nasdaq-bitcoin-options-approval-after-cme-challenge",
-      "event_type": "regulation",
+      "url": "https://www.coindesk.com/business/2026/08/03/trump-linked-american-bitcoin-president-matt-prusak-departs-for-giga-energy",
+      "event_type": "central_bank_speech",
       "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
-      "assets": [
-        "BTC",
-        "COIN",
-        "ETH",
-        "crypto market"
-      ]
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "央行官员表态可能影响市场对下一次会议的定价。",
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "assets": []
     }
   ],
   "asset_movers": [
@@ -143,11 +124,20 @@
       "direction": "down"
     },
     {
-      "symbol": "^VIX",
-      "group": "US_MACRO_MARKET",
-      "price": "15.99",
-      "one_day": "-6.44%",
-      "five_day": "-13.94%",
+      "symbol": "BZ=F",
+      "group": "COMMODITIES",
+      "price": "83.58",
+      "one_day": "-7.26%",
+      "five_day": "-5.41%",
+      "trend": "downtrend",
+      "direction": "down"
+    },
+    {
+      "symbol": "CL=F",
+      "group": "COMMODITIES",
+      "price": "79.91",
+      "one_day": "-5.62%",
+      "five_day": "-3.27%",
       "trend": "downtrend",
       "direction": "down"
     },
@@ -161,68 +151,59 @@
       "direction": "up"
     },
     {
-      "symbol": "CL=F",
-      "group": "COMMODITIES",
-      "price": "80.90",
-      "one_day": "-4.45%",
-      "five_day": "-2.07%",
-      "trend": "range_bound",
-      "direction": "down"
-    },
-    {
-      "symbol": "RIPPLE",
+      "symbol": "BINANCECOIN",
       "group": "CRYPTO",
-      "price": "1.09",
-      "one_day": "2.25%",
-      "five_day": "2.03%",
-      "trend": "downtrend",
-      "direction": "up"
-    },
-    {
-      "symbol": "SI=F",
-      "group": "COMMODITIES",
-      "price": "58.67",
-      "one_day": "1.86%",
-      "five_day": "0.33%",
+      "price": "589.60",
+      "one_day": "2.57%",
+      "five_day": "3.21%",
       "trend": "range_bound",
       "direction": "up"
     },
     {
-      "symbol": "GC=F",
-      "group": "COMMODITIES",
-      "price": "4,124.10",
-      "one_day": "1.85%",
-      "five_day": "1.22%",
+      "symbol": "SOLANA",
+      "group": "CRYPTO",
+      "price": "73.48",
+      "one_day": "2.20%",
+      "five_day": "-0.56%",
       "trend": "range_bound",
       "direction": "up"
     },
     {
-      "symbol": "HG=F",
-      "group": "COMMODITIES",
-      "price": "6.55",
-      "one_day": "1.77%",
-      "five_day": "3.33%",
+      "symbol": "QQQ",
+      "group": "US_EQUITY",
+      "price": "700.07",
+      "one_day": "1.76%",
+      "five_day": "2.63%",
       "trend": "range_bound",
+      "direction": "up"
+    },
+    {
+      "symbol": "IWM",
+      "group": "US_EQUITY",
+      "price": "296.22",
+      "one_day": "1.72%",
+      "five_day": "1.13%",
+      "trend": "uptrend",
       "direction": "up"
     }
   ],
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-08-03/COMMODITIES_summary.png"
+      "src": "charts/2026-08-04/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-08-03/CRYPTO_summary.png"
+      "src": "charts/2026-08-04/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-08-03/HK_MARKET_summary.png"
+      "src": "charts/2026-08-04/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-08-03/US_EQUITY_summary.png"
+      "src": "charts/2026-08-04/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-08-03.html"
+  "latest_report_href": "reports/2026-08-04.html"
 }
