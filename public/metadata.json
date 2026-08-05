@@ -1,66 +1,64 @@
 {
-  "latest_date": "2026-08-05",
-  "market_data_date": "2026-08-05",
-  "chart_date": "2026-08-05",
-  "regime": "mixed",
-  "regime_summary": "股指上涨、波动率或美元回落，市场更接近风险偏好改善。 但存在信号冲突，需要降低单一叙事置信度。",
+  "latest_date": "2026-08-06",
+  "market_data_date": "2026-08-06",
+  "chart_date": "2026-08-06",
+  "regime": "unknown",
+  "regime_summary": "市场信号不足，暂不判断明确状态。",
   "key_moves": [
-    "SPY 上涨 1.80%",
-    "QQQ 上涨 3.40%",
-    "VIX 上涨 4.04%",
-    "TLT 上涨 0.77%",
-    "Gold 上涨 2.64%",
-    "Oil 下跌 -6.24%"
+    "QQQ 下跌 -0.90%",
+    "VIX 下跌 -4.18%",
+    "Gold 上涨 5.18%",
+    "ETH 上涨 2.64%"
   ],
   "watch_points": [
-    "确认风险偏好是否扩散到小盘股、信用利差和周期品。"
+    "关注后续数据是否确认当前跨资产信号。"
   ],
   "cards": [
     {
       "label": "美股 SPY",
-      "value": "1.80%"
+      "value": "-0.20%"
     },
     {
       "label": "QQQ",
-      "value": "3.40%"
+      "value": "-0.90%"
     },
     {
       "label": "VIX",
-      "value": "4.04%"
+      "value": "-4.18%"
     },
     {
       "label": "BTC",
-      "value": "1.18%"
+      "value": "1.81%"
     },
     {
       "label": "Gold",
-      "value": "2.64%"
+      "value": "5.18%"
     },
     {
       "label": "Oil",
-      "value": "-6.24%"
+      "value": "-0.95%"
     }
   ],
   "top_themes": [
-    "central_bank_speech: So what’s the plan to bring down inflation? The new Fed chair and his White House allies say you shouldn’t ask.",
-    "crypto_market_structure: Samsung is poised to become a dominant stablecoin distributor, analysts say",
-    "regulation: Clarity Act sits idle over Trump ethics question as Warren asks SEC to investigate him"
+    "central_bank_decision: Fed Governor Cook says she's 'prepared to act' on rate hike to address inflation",
+    "regulation: SEC Establishes Financial Reporting and Accounting Unit in Enforcement Division",
+    "crypto_market_structure: Yellow Card raises $40 million to link banks to stablecoin processing"
   ],
   "news_counts": {
-    "must_read": 5,
-    "policy_watch": 3,
+    "must_read": 10,
+    "policy_watch": 6,
     "background": 20
   },
   "focus_news": [
     {
-      "title": "So what’s the plan to bring down inflation? The new Fed chair and his White House allies say you shouldn’t ask.",
-      "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/bessent-defends-warsh-saying-markets-are-going-through-detox-from-too-much-fed-guidance-39dfc765?mod=mw_rss_topstories",
-      "event_type": "central_bank_speech",
-      "importance_tier": 2,
+      "title": "Fed Governor Cook says she's 'prepared to act' on rate hike to address inflation",
+      "source": "CNBC Economy",
+      "url": "https://www.cnbc.com/2026/08/05/fed-governor-cook-says-shes-prepared-to-act-on-rate-hike-to-address-inflation.html",
+      "event_type": "central_bank_decision",
+      "importance_tier": 1,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "央行官员表态可能影响市场对下一次会议的定价。",
+      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
       "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
       "assets": [
         "BTC",
@@ -71,26 +69,9 @@
       ]
     },
     {
-      "title": "Samsung is poised to become a dominant stablecoin distributor, analysts say",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/08/04/samsung-is-poised-to-become-a-dominant-stablecoin-distributor-analysts-say",
-      "event_type": "crypto_market_structure",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
-      "assets": [
-        "BTC",
-        "COIN",
-        "ETH",
-        "crypto market"
-      ]
-    },
-    {
-      "title": "Clarity Act sits idle over Trump ethics question as Warren asks SEC to investigate him",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/08/04/clarity-act-sits-idle-over-trump-ethics-question-as-warren-asks-sec-to-investigate-him",
+      "title": "SEC Establishes Financial Reporting and Accounting Unit in Enforcement Division",
+      "source": "SEC Press Releases",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-72-sec-establishes-financial-reporting-accounting-unit-enforcement-division",
       "event_type": "regulation",
       "importance_tier": 2,
       "impact_strength": "high",
@@ -105,14 +86,31 @@
       ]
     },
     {
-      "title": "Intesa Sanpaolo slashed IBIT stake by 94% in 2Q, tripled ether ETF holding as crypto prices slumped",
+      "title": "Yellow Card raises $40 million to link banks to stablecoin processing",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/08/04/intesa-sanpaolo-slashed-ibit-stake-by-94-in-2q-tripled-ether-etf-holding-as-crypto-prices-slumped",
-      "event_type": "other",
-      "importance_tier": 3,
+      "url": "https://www.coindesk.com/business/2026/08/05/yellow-card-raises-usd40-million-to-link-banks-to-stablecoin-processing",
+      "event_type": "crypto_market_structure",
+      "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
+      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "assets": [
+        "BTC",
+        "COIN",
+        "ETH",
+        "crypto market"
+      ]
+    },
+    {
+      "title": "Circle shares fall 3% despite earnings beat as stablecoin issuer misses on revenue",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/08/05/circle-shares-jump-as-earnings-beat-offsets-revenue-miss-arc-blockchain-gains-wall-street-backing",
+      "event_type": "crypto_market_structure",
+      "importance_tier": 2,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
       "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
       "assets": [
         "BTC",
@@ -124,14 +122,14 @@
   ],
   "policy_news": [
     {
-      "title": "So what’s the plan to bring down inflation? The new Fed chair and his White House allies say you shouldn’t ask.",
-      "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/bessent-defends-warsh-saying-markets-are-going-through-detox-from-too-much-fed-guidance-39dfc765?mod=mw_rss_topstories",
-      "event_type": "central_bank_speech",
-      "importance_tier": 2,
+      "title": "Fed Governor Cook says she's 'prepared to act' on rate hike to address inflation",
+      "source": "CNBC Economy",
+      "url": "https://www.cnbc.com/2026/08/05/fed-governor-cook-says-shes-prepared-to-act-on-rate-hike-to-address-inflation.html",
+      "event_type": "central_bank_decision",
+      "importance_tier": 1,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "央行官员表态可能影响市场对下一次会议的定价。",
+      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
       "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
       "assets": [
         "BTC",
@@ -142,26 +140,9 @@
       ]
     },
     {
-      "title": "Samsung is poised to become a dominant stablecoin distributor, analysts say",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/08/04/samsung-is-poised-to-become-a-dominant-stablecoin-distributor-analysts-say",
-      "event_type": "crypto_market_structure",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
-      "assets": [
-        "BTC",
-        "COIN",
-        "ETH",
-        "crypto market"
-      ]
-    },
-    {
-      "title": "Clarity Act sits idle over Trump ethics question as Warren asks SEC to investigate him",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/08/04/clarity-act-sits-idle-over-trump-ethics-question-as-warren-asks-sec-to-investigate-him",
+      "title": "SEC Establishes Financial Reporting and Accounting Unit in Enforcement Division",
+      "source": "SEC Press Releases",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-72-sec-establishes-financial-reporting-accounting-unit-enforcement-division",
       "event_type": "regulation",
       "importance_tier": 2,
       "impact_strength": "high",
@@ -174,99 +155,116 @@
         "ETH",
         "crypto market"
       ]
+    },
+    {
+      "title": "Yellow Card raises $40 million to link banks to stablecoin processing",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/08/05/yellow-card-raises-usd40-million-to-link-banks-to-stablecoin-processing",
+      "event_type": "crypto_market_structure",
+      "importance_tier": 2,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
+      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "assets": [
+        "BTC",
+        "COIN",
+        "ETH",
+        "crypto market"
+      ]
     }
   ],
   "asset_movers": [
     {
-      "symbol": "CL=F",
+      "symbol": "GC=F",
       "group": "COMMODITIES",
-      "price": "75.33",
-      "one_day": "-6.24%",
-      "five_day": "-4.96%",
-      "trend": "downtrend",
-      "direction": "down"
-    },
-    {
-      "symbol": "BZ=F",
-      "group": "COMMODITIES",
-      "price": "78.87",
-      "one_day": "-5.85%",
-      "five_day": "-6.21%",
-      "trend": "downtrend",
-      "direction": "down"
+      "price": "4,307.50",
+      "one_day": "5.18%",
+      "five_day": "6.76%",
+      "trend": "range_bound",
+      "direction": "up"
     },
     {
       "symbol": "^VIX",
       "group": "US_MACRO_MARKET",
-      "price": "16.50",
-      "one_day": "4.04%",
-      "five_day": "-9.39%",
+      "price": "15.81",
+      "one_day": "-4.18%",
+      "five_day": "-23.48%",
       "trend": "downtrend",
-      "direction": "up"
+      "direction": "down"
     },
     {
       "symbol": "SI=F",
       "group": "COMMODITIES",
-      "price": "59.76",
-      "one_day": "3.62%",
-      "five_day": "4.29%",
+      "price": "62.26",
+      "one_day": "3.68%",
+      "five_day": "7.61%",
       "trend": "range_bound",
       "direction": "up"
     },
     {
-      "symbol": "QQQ",
-      "group": "US_EQUITY",
-      "price": "723.85",
-      "one_day": "3.40%",
-      "five_day": "7.16%",
-      "trend": "range_bound",
-      "direction": "up"
-    },
-    {
-      "symbol": "NG=F",
-      "group": "COMMODITIES",
-      "price": "2.69",
-      "one_day": "-3.38%",
-      "five_day": "0.94%",
-      "trend": "strong_downtrend",
-      "direction": "down"
-    },
-    {
-      "symbol": "GC=F",
-      "group": "COMMODITIES",
-      "price": "4,140.10",
+      "symbol": "ETH",
+      "group": "CRYPTO",
+      "price": "1,907.26",
       "one_day": "2.64%",
-      "five_day": "2.57%",
-      "trend": "range_bound",
-      "direction": "up"
-    },
-    {
-      "symbol": "VTI",
-      "group": "US_EQUITY",
-      "price": "380.82",
-      "one_day": "1.87%",
-      "five_day": "4.05%",
+      "five_day": "-0.60%",
       "trend": "uptrend",
       "direction": "up"
+    },
+    {
+      "symbol": "HG=F",
+      "group": "COMMODITIES",
+      "price": "6.75",
+      "one_day": "2.04%",
+      "five_day": "7.65%",
+      "trend": "strong_uptrend",
+      "direction": "up"
+    },
+    {
+      "symbol": "9988.HK",
+      "group": "HK_MARKET",
+      "price": "128.10",
+      "one_day": "1.83%",
+      "five_day": "12.76%",
+      "trend": "strong_uptrend",
+      "direction": "up"
+    },
+    {
+      "symbol": "BTC",
+      "group": "CRYPTO",
+      "price": "64,622.12",
+      "one_day": "1.81%",
+      "five_day": "-0.24%",
+      "trend": "uptrend",
+      "direction": "up"
+    },
+    {
+      "symbol": "1810.HK",
+      "group": "HK_MARKET",
+      "price": "27.64",
+      "one_day": "-1.14%",
+      "five_day": "-13.30%",
+      "trend": "uptrend",
+      "direction": "down"
     }
   ],
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-08-05/COMMODITIES_summary.png"
+      "src": "charts/2026-08-06/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-08-05/CRYPTO_summary.png"
+      "src": "charts/2026-08-06/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-08-05/HK_MARKET_summary.png"
+      "src": "charts/2026-08-06/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-08-05/US_EQUITY_summary.png"
+      "src": "charts/2026-08-06/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-08-05.html"
+  "latest_report_href": "reports/2026-08-06.html"
 }
