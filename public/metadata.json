@@ -1,77 +1,87 @@
 {
-  "latest_date": "2026-08-07",
-  "market_data_date": "2026-08-07",
-  "chart_date": "2026-08-07",
-  "regime": "unknown",
-  "regime_summary": "市场信号不足，暂不判断明确状态。",
+  "latest_date": "2026-08-08",
+  "market_data_date": "2026-08-08",
+  "chart_date": "2026-08-08",
+  "regime": "risk_on",
+  "regime_summary": "股指上涨、波动率或美元回落，市场更接近风险偏好改善。",
   "key_moves": [
-    "VIX 下跌 -4.17%",
-    "TLT 下跌 -0.58%",
-    "Gold 上涨 1.32%",
-    "Oil 上涨 3.51%"
+    "SPY 上涨 0.61%",
+    "QQQ 上涨 1.17%",
+    "DXY 下跌 -0.37%",
+    "Gold 上涨 3.76%"
   ],
   "watch_points": [
-    "关注后续数据是否确认当前跨资产信号。"
+    "确认风险偏好是否扩散到小盘股、信用利差和周期品。"
   ],
   "cards": [
     {
       "label": "美股 SPY",
-      "value": "-0.16%"
+      "value": "0.61%"
     },
     {
       "label": "QQQ",
-      "value": "-0.37%"
+      "value": "1.17%"
     },
     {
       "label": "VIX",
-      "value": "-4.17%"
+      "value": "-1.65%"
     },
     {
       "label": "BTC",
-      "value": "-0.35%"
+      "value": "0.49%"
     },
     {
       "label": "Gold",
-      "value": "1.32%"
+      "value": "3.76%"
     },
     {
       "label": "Oil",
-      "value": "3.51%"
+      "value": "-0.27%"
     }
   ],
   "top_themes": [
-    "central_bank_decision: Fed Governor Cook says she's 'prepared to act' on rate hike to address inflation",
-    "regulation: SEC Establishes Financial Reporting and Accounting Unit in Enforcement Division",
-    "earnings: Trade Desk shares tumble on earnings miss and weak outlook"
+    "geopolitical_risk: Bitcoin hovers below $65,000 as Middle East tensions escalate further",
+    "fiscal_policy: U.S. widens Iran crypto crackdown with sanctions on two exchanges",
+    "regulation: Crypto market maker Wintermute lands SEC approval to trade equities and ETF blocks"
   ],
   "news_counts": {
-    "must_read": 7,
-    "policy_watch": 2,
-    "background": 18
+    "must_read": 6,
+    "policy_watch": 3,
+    "background": 20
   },
   "focus_news": [
     {
-      "title": "Fed Governor Cook says she's 'prepared to act' on rate hike to address inflation",
-      "source": "CNBC Economy",
-      "url": "https://www.cnbc.com/2026/08/05/fed-governor-cook-says-shes-prepared-to-act-on-rate-hike-to-address-inflation.html",
-      "event_type": "central_bank_decision",
+      "title": "Bitcoin hovers below $65,000 as Middle East tensions escalate further",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/08/07/cmt",
+      "event_type": "geopolitical_risk",
       "importance_tier": 1,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
-      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
+      "reason": "地缘风险可能推升避险需求、能源价格和市场波动率。",
+      "market_impact": "主要影响 CL=F，方向为 positive，强度 high；供给扰动或 OPEC 减产通常推升 WTI 原油。",
       "assets": [
-        "BTC",
-        "DXY",
-        "GC=F",
-        "QQQ",
+        "BZ=F",
+        "CL=F",
         "SPY"
       ]
     },
     {
-      "title": "SEC Establishes Financial Reporting and Accounting Unit in Enforcement Division",
-      "source": "SEC Press Releases",
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-72-sec-establishes-financial-reporting-accounting-unit-enforcement-division",
+      "title": "U.S. widens Iran crypto crackdown with sanctions on two exchanges",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/08/07/u-s-widens-iran-crypto-crackdown-with-sanctions-on-two-exchanges",
+      "event_type": "fiscal_policy",
+      "importance_tier": 1,
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "assets": []
+    },
+    {
+      "title": "Crypto market maker Wintermute lands SEC approval to trade equities and ETF blocks",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/08/07/wintermute-gains-u-s-broker-dealer-status-in-wall-street-push",
       "event_type": "regulation",
       "importance_tier": 2,
       "impact_strength": "high",
@@ -86,53 +96,35 @@
       ]
     },
     {
-      "title": "Trade Desk shares tumble on earnings miss and weak outlook",
+      "title": "Trump is trying to fire Lisa Cook again. He still wants to stack the Fed with his allies.",
       "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/trade-desk-shares-tumble-on-earnings-miss-and-weak-outlook-9f4640e9?mod=mw_rss_topstories",
-      "event_type": "earnings",
+      "url": "https://www.marketwatch.com/story/trump-is-trying-to-fire-lisa-cook-again-he-still-wants-to-stack-the-fed-with-allies-e6f40aa5?mod=mw_rss_topstories",
+      "event_type": "central_bank_speech",
       "importance_tier": 2,
       "impact_strength": "low",
       "impact_direction": "unknown",
-      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
-      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
-      "assets": []
-    },
-    {
-      "title": "Honeywell Aerospace lands in Wall Street’s ‘penalty box’ after gloomy guidance triggers 23% stock selloff",
-      "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/honeywell-aerospace-lands-in-wall-streets-penalty-box-after-gloomy-guidance-triggers-21-stock-selloff-ea8b032c?mod=mw_rss_topstories",
-      "event_type": "earnings",
-      "importance_tier": 2,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
+      "reason": "央行官员表态可能影响市场对下一次会议的定价。",
       "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
       "assets": []
     }
   ],
   "policy_news": [
     {
-      "title": "Fed Governor Cook says she's 'prepared to act' on rate hike to address inflation",
-      "source": "CNBC Economy",
-      "url": "https://www.cnbc.com/2026/08/05/fed-governor-cook-says-shes-prepared-to-act-on-rate-hike-to-address-inflation.html",
-      "event_type": "central_bank_decision",
+      "title": "U.S. widens Iran crypto crackdown with sanctions on two exchanges",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/08/07/u-s-widens-iran-crypto-crackdown-with-sanctions-on-two-exchanges",
+      "event_type": "fiscal_policy",
       "importance_tier": 1,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
-      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
-      "assets": [
-        "BTC",
-        "DXY",
-        "GC=F",
-        "QQQ",
-        "SPY"
-      ]
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "assets": []
     },
     {
-      "title": "SEC Establishes Financial Reporting and Accounting Unit in Enforcement Division",
-      "source": "SEC Press Releases",
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-72-sec-establishes-financial-reporting-accounting-unit-enforcement-division",
+      "title": "Crypto market maker Wintermute lands SEC approval to trade equities and ETF blocks",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/08/07/wintermute-gains-u-s-broker-dealer-status-in-wall-street-push",
       "event_type": "regulation",
       "importance_tier": 2,
       "impact_strength": "high",
@@ -145,99 +137,111 @@
         "ETH",
         "crypto market"
       ]
+    },
+    {
+      "title": "Trump is trying to fire Lisa Cook again. He still wants to stack the Fed with his allies.",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/trump-is-trying-to-fire-lisa-cook-again-he-still-wants-to-stack-the-fed-with-allies-e6f40aa5?mod=mw_rss_topstories",
+      "event_type": "central_bank_speech",
+      "importance_tier": 2,
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "央行官员表态可能影响市场对下一次会议的定价。",
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "assets": []
     }
   ],
   "asset_movers": [
     {
-      "symbol": "1211.HK",
-      "group": "HK_MARKET",
-      "price": "89.85",
-      "one_day": "-4.21%",
-      "five_day": "-5.22%",
+      "symbol": "SI=F",
+      "group": "COMMODITIES",
+      "price": "63.80",
+      "one_day": "3.84%",
+      "five_day": "10.78%",
       "trend": "range_bound",
-      "direction": "down"
+      "direction": "up"
     },
     {
-      "symbol": "^VIX",
-      "group": "US_MACRO_MARKET",
-      "price": "15.15",
-      "one_day": "-4.17%",
-      "five_day": "-11.35%",
+      "symbol": "RIPPLE",
+      "group": "CRYPTO",
+      "price": "1.02",
+      "one_day": "-3.84%",
+      "five_day": "-3.84%",
       "trend": "strong_downtrend",
       "direction": "down"
     },
     {
-      "symbol": "CL=F",
+      "symbol": "GC=F",
       "group": "COMMODITIES",
-      "price": "77.86",
-      "one_day": "3.51%",
-      "five_day": "-6.85%",
-      "trend": "downtrend",
+      "price": "4,401.30",
+      "one_day": "3.76%",
+      "five_day": "8.70%",
+      "trend": "range_bound",
       "direction": "up"
     },
     {
-      "symbol": "9988.HK",
-      "group": "HK_MARKET",
-      "price": "124.40",
-      "one_day": "-2.89%",
-      "five_day": "11.27%",
+      "symbol": "^VIX",
+      "group": "US_MACRO_MARKET",
+      "price": "14.90",
+      "one_day": "-1.65%",
+      "five_day": "-6.82%",
+      "trend": "strong_downtrend",
+      "direction": "down"
+    },
+    {
+      "symbol": "HG=F",
+      "group": "COMMODITIES",
+      "price": "6.59",
+      "one_day": "-1.53%",
+      "five_day": "2.32%",
       "trend": "strong_uptrend",
       "direction": "down"
     },
     {
-      "symbol": "1810.HK",
+      "symbol": "^HSI",
       "group": "HK_MARKET",
-      "price": "26.86",
-      "one_day": "-2.82%",
-      "five_day": "-13.47%",
-      "trend": "range_bound",
-      "direction": "down"
-    },
-    {
-      "symbol": "0700.HK",
-      "group": "HK_MARKET",
-      "price": "479.20",
-      "one_day": "-2.64%",
-      "five_day": "1.57%",
-      "trend": "uptrend",
+      "price": "25,530.28",
+      "one_day": "-1.49%",
+      "five_day": "-1.27%",
+      "trend": "strong_uptrend",
       "direction": "down"
     },
     {
       "symbol": "NG=F",
       "group": "COMMODITIES",
-      "price": "2.62",
-      "one_day": "-2.46%",
-      "five_day": "-4.93%",
+      "price": "2.67",
+      "one_day": "1.17%",
+      "five_day": "-2.77%",
       "trend": "strong_downtrend",
-      "direction": "down"
+      "direction": "up"
     },
     {
-      "symbol": "RIPPLE",
-      "group": "CRYPTO",
-      "price": "1.04",
-      "one_day": "-2.23%",
-      "five_day": "-2.23%",
-      "trend": "strong_downtrend",
-      "direction": "down"
+      "symbol": "QQQ",
+      "group": "US_EQUITY",
+      "price": "723.03",
+      "one_day": "1.17%",
+      "five_day": "5.09%",
+      "trend": "range_bound",
+      "direction": "up"
     }
   ],
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-08-07/COMMODITIES_summary.png"
+      "src": "charts/2026-08-08/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-08-07/CRYPTO_summary.png"
+      "src": "charts/2026-08-08/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-08-07/HK_MARKET_summary.png"
+      "src": "charts/2026-08-08/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-08-07/US_EQUITY_summary.png"
+      "src": "charts/2026-08-08/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-08-07.html"
+  "latest_report_href": "reports/2026-08-08.html"
 }
