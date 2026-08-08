@@ -1,14 +1,15 @@
 {
-  "latest_date": "2026-08-08",
-  "market_data_date": "2026-08-08",
-  "chart_date": "2026-08-08",
+  "latest_date": "2026-08-09",
+  "market_data_date": "2026-08-09",
+  "chart_date": "2026-08-09",
   "regime": "risk_on",
   "regime_summary": "股指上涨、波动率或美元回落，市场更接近风险偏好改善。",
   "key_moves": [
     "SPY 上涨 0.61%",
     "QQQ 上涨 1.17%",
     "DXY 下跌 -0.37%",
-    "Gold 上涨 3.76%"
+    "Gold 上涨 2.33%",
+    "Oil 上涨 1.15%"
   ],
   "watch_points": [
     "确认风险偏好是否扩散到小盘股、信用利差和周期品。"
@@ -28,15 +29,15 @@
     },
     {
       "label": "BTC",
-      "value": "0.49%"
+      "value": "1.03%"
     },
     {
       "label": "Gold",
-      "value": "3.76%"
+      "value": "2.33%"
     },
     {
       "label": "Oil",
-      "value": "-0.27%"
+      "value": "1.15%"
     }
   ],
   "top_themes": [
@@ -46,7 +47,7 @@
   ],
   "news_counts": {
     "must_read": 6,
-    "policy_watch": 3,
+    "policy_watch": 2,
     "background": 20
   },
   "focus_news": [
@@ -96,14 +97,14 @@
       ]
     },
     {
-      "title": "Trump is trying to fire Lisa Cook again. He still wants to stack the Fed with his allies.",
-      "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/trump-is-trying-to-fire-lisa-cook-again-he-still-wants-to-stack-the-fed-with-allies-e6f40aa5?mod=mw_rss_topstories",
-      "event_type": "central_bank_speech",
+      "title": "Berkshire earnings rose last quarter and CEO Greg Abel is starting to deploy Buffett's massive cash hoard",
+      "source": "CNBC Economy",
+      "url": "https://www.cnbc.com/2026/08/08/berkshire-hathaway-earnings-q2-2026.html",
+      "event_type": "earnings",
       "importance_tier": 2,
       "impact_strength": "low",
       "impact_direction": "unknown",
-      "reason": "央行官员表态可能影响市场对下一次会议的定价。",
+      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
       "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
       "assets": []
     }
@@ -137,47 +138,44 @@
         "ETH",
         "crypto market"
       ]
-    },
-    {
-      "title": "Trump is trying to fire Lisa Cook again. He still wants to stack the Fed with his allies.",
-      "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/trump-is-trying-to-fire-lisa-cook-again-he-still-wants-to-stack-the-fed-with-allies-e6f40aa5?mod=mw_rss_topstories",
-      "event_type": "central_bank_speech",
-      "importance_tier": 2,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "央行官员表态可能影响市场对下一次会议的定价。",
-      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
-      "assets": []
     }
   ],
   "asset_movers": [
     {
-      "symbol": "SI=F",
-      "group": "COMMODITIES",
-      "price": "63.80",
-      "one_day": "3.84%",
-      "five_day": "10.78%",
-      "trend": "range_bound",
+      "symbol": "SOLANA",
+      "group": "CRYPTO",
+      "price": "76.18",
+      "one_day": "4.84%",
+      "five_day": "3.66%",
+      "trend": "uptrend",
       "direction": "up"
     },
     {
-      "symbol": "RIPPLE",
-      "group": "CRYPTO",
-      "price": "1.02",
-      "one_day": "-3.84%",
-      "five_day": "-3.84%",
-      "trend": "strong_downtrend",
-      "direction": "down"
+      "symbol": "SI=F",
+      "group": "COMMODITIES",
+      "price": "63.33",
+      "one_day": "3.08%",
+      "five_day": "9.97%",
+      "trend": "range_bound",
+      "direction": "up"
     },
     {
       "symbol": "GC=F",
       "group": "COMMODITIES",
-      "price": "4,401.30",
-      "one_day": "3.76%",
-      "five_day": "8.70%",
+      "price": "4,340.70",
+      "one_day": "2.33%",
+      "five_day": "7.20%",
       "trend": "range_bound",
       "direction": "up"
+    },
+    {
+      "symbol": "HG=F",
+      "group": "COMMODITIES",
+      "price": "6.57",
+      "one_day": "-1.74%",
+      "five_day": "2.09%",
+      "trend": "strong_uptrend",
+      "direction": "down"
     },
     {
       "symbol": "^VIX",
@@ -189,30 +187,12 @@
       "direction": "down"
     },
     {
-      "symbol": "HG=F",
+      "symbol": "BZ=F",
       "group": "COMMODITIES",
-      "price": "6.59",
-      "one_day": "-1.53%",
-      "five_day": "2.32%",
-      "trend": "strong_uptrend",
-      "direction": "down"
-    },
-    {
-      "symbol": "^HSI",
-      "group": "HK_MARKET",
-      "price": "25,530.28",
-      "one_day": "-1.49%",
-      "five_day": "-1.27%",
-      "trend": "strong_uptrend",
-      "direction": "down"
-    },
-    {
-      "symbol": "NG=F",
-      "group": "COMMODITIES",
-      "price": "2.67",
-      "one_day": "1.17%",
-      "five_day": "-2.77%",
-      "trend": "strong_downtrend",
+      "price": "83.55",
+      "one_day": "1.29%",
+      "five_day": "-7.29%",
+      "trend": "downtrend",
       "direction": "up"
     },
     {
@@ -223,25 +203,34 @@
       "five_day": "5.09%",
       "trend": "range_bound",
       "direction": "up"
+    },
+    {
+      "symbol": "CL=F",
+      "group": "COMMODITIES",
+      "price": "78.18",
+      "one_day": "1.15%",
+      "five_day": "-7.67%",
+      "trend": "downtrend",
+      "direction": "up"
     }
   ],
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-08-08/COMMODITIES_summary.png"
+      "src": "charts/2026-08-09/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-08-08/CRYPTO_summary.png"
+      "src": "charts/2026-08-09/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-08-08/HK_MARKET_summary.png"
+      "src": "charts/2026-08-09/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-08-08/US_EQUITY_summary.png"
+      "src": "charts/2026-08-09/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-08-08.html"
+  "latest_report_href": "reports/2026-08-09.html"
 }
