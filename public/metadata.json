@@ -1,74 +1,53 @@
 {
-  "latest_date": "2026-08-11",
-  "market_data_date": "2026-08-11",
-  "chart_date": "2026-08-11",
-  "regime": "unknown",
-  "regime_summary": "市场信号不足，暂不判断明确状态。",
+  "latest_date": "2026-08-12",
+  "market_data_date": "2026-08-12",
+  "chart_date": "2026-08-12",
+  "regime": "inflation_shock",
+  "regime_summary": "原油和黄金走强、股指承压，市场可能在交易通胀或地缘风险冲击。",
   "key_moves": [
-    "VIX 上涨 3.76%",
-    "TLT 下跌 -0.85%",
-    "Gold 上涨 2.57%",
-    "Oil 上涨 5.04%",
-    "ETH 下跌 -2.15%"
+    "Gold 上涨 1.67%",
+    "Oil 上涨 1.72%"
   ],
   "watch_points": [
-    "关注后续数据是否确认当前跨资产信号。"
+    "关注能源价格是否传导到通胀预期和央行沟通。"
   ],
   "cards": [
     {
       "label": "美股 SPY",
-      "value": "-0.03%"
+      "value": "-0.32%"
     },
     {
       "label": "QQQ",
-      "value": "-0.30%"
+      "value": "-0.34%"
     },
     {
       "label": "VIX",
-      "value": "3.76%"
+      "value": "-1.16%"
     },
     {
       "label": "BTC",
-      "value": "-1.51%"
+      "value": "-1.83%"
     },
     {
       "label": "Gold",
-      "value": "2.57%"
+      "value": "1.67%"
     },
     {
       "label": "Oil",
-      "value": "5.04%"
+      "value": "1.72%"
     }
   ],
   "top_themes": [
-    "macro_data: U.S. CPI inflation, Securitize, Gemini among earnings reports: Crypto Week Ahead",
     "regulation: SEC Charges Private Fund Adviser Adit Ventures Management, Its CEO and Affiliated General Partners in Alleged Fraud",
-    "crypto_market_structure: Inside stablecoin firm BVNK’s journey to a $1.8B acquisition by Mastercard"
+    "earnings: Lumentum sees sales more than double as AI demand swells",
+    "earnings: Super Micro’s earnings report brings more good news, and the stock is climbing"
   ],
   "news_counts": {
-    "must_read": 8,
-    "policy_watch": 2,
-    "background": 20
+    "must_read": 6,
+    "policy_watch": 1,
+    "background": 17
   },
   "focus_news": [
-    {
-      "title": "U.S. CPI inflation, Securitize, Gemini among earnings reports: Crypto Week Ahead",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/08/10/u-s-cpi-inflation-securitize-gemini-among-earnings-reports-crypto-week-ahead",
-      "event_type": "macro_data",
-      "importance_tier": 1,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "这类宏观数据会直接改变市场对通胀、增长和政策路径的预期。",
-      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
-      "assets": [
-        "BTC",
-        "DXY",
-        "GC=F",
-        "QQQ",
-        "SPY"
-      ]
-    },
     {
       "title": "SEC Charges Private Fund Adviser Adit Ventures Management, Its CEO and Affiliated General Partners in Alleged Fraud",
       "source": "SEC Press Releases",
@@ -87,37 +66,40 @@
       ]
     },
     {
-      "title": "Inside stablecoin firm BVNK’s journey to a $1.8B acquisition by Mastercard",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/08/10/inside-stablecoin-firm-bvnk-s-journey-to-a-usd1-8b-acquisition-by-mastercard",
-      "event_type": "crypto_market_structure",
+      "title": "Lumentum sees sales more than double as AI demand swells",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/lumentum-sees-sales-more-than-double-as-ai-demand-swells-6ebe6ef1?mod=mw_rss_topstories",
+      "event_type": "earnings",
       "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
-      "assets": [
-        "BTC",
-        "COIN",
-        "ETH",
-        "crypto market"
-      ]
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "assets": []
     },
     {
-      "title": "Live updates: WTI crude oil up 5% and back to $80, as bitcoin drops below $64,000",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/08/10/live-updates-btc-above-usd65-000-even-as-the-senate-punts-the-clarity-act-to-the-fall",
-      "event_type": "commodity_supply",
+      "title": "Super Micro’s earnings report brings more good news, and the stock is climbing",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/super-micros-earnings-report-brings-more-good-news-and-the-stock-is-climbing-30e5ca89?mod=mw_rss_topstories",
+      "event_type": "earnings",
       "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "大宗商品供给变化会影响能源价格、通胀预期和资源股。",
-      "market_impact": "主要影响 CL=F，方向为 positive，强度 high；供给扰动或 OPEC 减产通常推升 WTI 原油。",
-      "assets": [
-        "BZ=F",
-        "CL=F",
-        "SPY"
-      ]
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "assets": []
+    },
+    {
+      "title": "CoreWeave’s stock soars as earnings show major AI momentum",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/coreweaves-stock-soars-as-earnings-show-major-ai-momentum-d3a5bede?mod=mw_rss_topstories",
+      "event_type": "earnings",
+      "importance_tier": 2,
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "assets": []
     }
   ],
   "policy_news": [
@@ -137,95 +119,78 @@
         "ETH",
         "crypto market"
       ]
-    },
-    {
-      "title": "Inside stablecoin firm BVNK’s journey to a $1.8B acquisition by Mastercard",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/08/10/inside-stablecoin-firm-bvnk-s-journey-to-a-usd1-8b-acquisition-by-mastercard",
-      "event_type": "crypto_market_structure",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
-      "assets": [
-        "BTC",
-        "COIN",
-        "ETH",
-        "crypto market"
-      ]
     }
   ],
   "asset_movers": [
     {
-      "symbol": "CL=F",
-      "group": "COMMODITIES",
-      "price": "82.12",
-      "one_day": "5.04%",
-      "five_day": "2.22%",
+      "symbol": "1810.HK",
+      "group": "HK_MARKET",
+      "price": "26.66",
+      "one_day": "-3.48%",
+      "five_day": "-4.65%",
       "trend": "range_bound",
-      "direction": "up"
-    },
-    {
-      "symbol": "BZ=F",
-      "group": "COMMODITIES",
-      "price": "87.70",
-      "one_day": "4.97%",
-      "five_day": "4.69%",
-      "trend": "range_bound",
-      "direction": "up"
-    },
-    {
-      "symbol": "NG=F",
-      "group": "COMMODITIES",
-      "price": "2.78",
-      "one_day": "4.32%",
-      "five_day": "-0.14%",
-      "trend": "strong_downtrend",
-      "direction": "up"
-    },
-    {
-      "symbol": "SI=F",
-      "group": "COMMODITIES",
-      "price": "65.93",
-      "one_day": "4.11%",
-      "five_day": "14.34%",
-      "trend": "range_bound",
-      "direction": "up"
-    },
-    {
-      "symbol": "^VIX",
-      "group": "US_MACRO_MARKET",
-      "price": "15.46",
-      "one_day": "3.76%",
-      "five_day": "-2.52%",
-      "trend": "downtrend",
-      "direction": "up"
-    },
-    {
-      "symbol": "RIPPLE",
-      "group": "CRYPTO",
-      "price": "1.01",
-      "one_day": "-2.75%",
-      "five_day": "-5.76%",
-      "trend": "strong_downtrend",
       "direction": "down"
-    },
-    {
-      "symbol": "GC=F",
-      "group": "COMMODITIES",
-      "price": "4,452.40",
-      "one_day": "2.57%",
-      "five_day": "10.38%",
-      "trend": "range_bound",
-      "direction": "up"
     },
     {
       "symbol": "1211.HK",
       "group": "HK_MARKET",
-      "price": "92.30",
-      "one_day": "2.38%",
-      "five_day": "-2.74%",
+      "price": "89.70",
+      "one_day": "-2.82%",
+      "five_day": "-4.01%",
+      "trend": "range_bound",
+      "direction": "down"
+    },
+    {
+      "symbol": "0700.HK",
+      "group": "HK_MARKET",
+      "price": "470.80",
+      "one_day": "-2.20%",
+      "five_day": "-3.45%",
+      "trend": "uptrend",
+      "direction": "down"
+    },
+    {
+      "symbol": "BTC",
+      "group": "CRYPTO",
+      "price": "63,671.68",
+      "one_day": "-1.83%",
+      "five_day": "-1.40%",
+      "trend": "range_bound",
+      "direction": "down"
+    },
+    {
+      "symbol": "BZ=F",
+      "group": "COMMODITIES",
+      "price": "89.29",
+      "one_day": "1.79%",
+      "five_day": "12.51%",
+      "trend": "uptrend",
+      "direction": "up"
+    },
+    {
+      "symbol": "CL=F",
+      "group": "COMMODITIES",
+      "price": "83.54",
+      "one_day": "1.72%",
+      "five_day": "10.25%",
+      "trend": "range_bound",
+      "direction": "up"
+    },
+    {
+      "symbol": "GC=F",
+      "group": "COMMODITIES",
+      "price": "4,434.50",
+      "one_day": "1.67%",
+      "five_day": "8.28%",
+      "trend": "range_bound",
+      "direction": "up"
+    },
+    {
+      "symbol": "BINANCECOIN",
+      "group": "CRYPTO",
+      "price": "612.54",
+      "one_day": "1.62%",
+      "five_day": "3.19%",
       "trend": "strong_uptrend",
       "direction": "up"
     }
@@ -233,20 +198,20 @@
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-08-11/COMMODITIES_summary.png"
+      "src": "charts/2026-08-12/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-08-11/CRYPTO_summary.png"
+      "src": "charts/2026-08-12/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-08-11/HK_MARKET_summary.png"
+      "src": "charts/2026-08-12/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-08-11/US_EQUITY_summary.png"
+      "src": "charts/2026-08-12/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-08-11.html"
+  "latest_report_href": "reports/2026-08-12.html"
 }
