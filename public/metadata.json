@@ -1,62 +1,143 @@
 {
-  "latest_date": "2026-08-12",
-  "market_data_date": "2026-08-12",
-  "chart_date": "2026-08-12",
-  "regime": "inflation_shock",
-  "regime_summary": "原油和黄金走强、股指承压，市场可能在交易通胀或地缘风险冲击。",
+  "latest_date": "2026-08-13",
+  "market_data_date": "2026-08-13",
+  "chart_date": "2026-08-13",
+  "regime": "unknown",
+  "regime_summary": "市场信号不足，暂不判断明确状态。",
   "key_moves": [
-    "Gold 上涨 1.67%",
-    "Oil 上涨 1.72%"
+    "QQQ 上涨 0.73%",
+    "VIX 下跌 -4.78%",
+    "Gold 上涨 1.70%"
   ],
   "watch_points": [
-    "关注能源价格是否传导到通胀预期和央行沟通。"
+    "关注后续数据是否确认当前跨资产信号。"
   ],
   "cards": [
     {
       "label": "美股 SPY",
-      "value": "-0.32%"
+      "value": "0.25%"
     },
     {
       "label": "QQQ",
-      "value": "-0.34%"
+      "value": "0.73%"
     },
     {
       "label": "VIX",
-      "value": "-1.16%"
+      "value": "-4.78%"
     },
     {
       "label": "BTC",
-      "value": "-1.83%"
+      "value": "-0.82%"
     },
     {
       "label": "Gold",
-      "value": "1.67%"
+      "value": "1.70%"
     },
     {
       "label": "Oil",
-      "value": "1.72%"
+      "value": "-0.53%"
     }
   ],
   "top_themes": [
-    "regulation: SEC Charges Private Fund Adviser Adit Ventures Management, Its CEO and Affiliated General Partners in Alleged Fraud",
-    "earnings: Lumentum sees sales more than double as AI demand swells",
-    "earnings: Super Micro’s earnings report brings more good news, and the stock is climbing"
+    "macro_data: U.S. CPI inflation slows to 3.4% as expected, bitcoin holds near $64,000",
+    "macro_data: XRP trading could get spicy after CPI report as futures bets hit highest since October",
+    "macro_data: Here's what bitcoin and ether traders are doing ahead of the binary U.S. CPI print"
   ],
   "news_counts": {
-    "must_read": 6,
-    "policy_watch": 1,
-    "background": 17
+    "must_read": 10,
+    "policy_watch": 3,
+    "background": 15
   },
   "focus_news": [
     {
-      "title": "SEC Charges Private Fund Adviser Adit Ventures Management, Its CEO and Affiliated General Partners in Alleged Fraud",
-      "source": "SEC Press Releases",
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-73-sec-charges-private-fund-adviser-adit-ventures-management-its-ceo-affiliated-general-partners",
-      "event_type": "regulation",
+      "title": "U.S. CPI inflation slows to 3.4% as expected, bitcoin holds near $64,000",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/08/12/u-s-cpi-inflation-edges-lower-to-3-4-as-expected",
+      "event_type": "macro_data",
+      "importance_tier": 1,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "这类宏观数据会直接改变市场对通胀、增长和政策路径的预期。",
+      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
+      "assets": [
+        "BTC",
+        "DXY",
+        "GC=F",
+        "QQQ",
+        "SPY"
+      ]
+    },
+    {
+      "title": "XRP trading could get spicy after CPI report as futures bets hit highest since October",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/daybook-us/2026/08/12/xrp-trading-could-get-spicy-after-cpi-report-as-futures-bets-hit-highest-since-october",
+      "event_type": "macro_data",
+      "importance_tier": 1,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "这类宏观数据会直接改变市场对通胀、增长和政策路径的预期。",
+      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
+      "assets": [
+        "BTC",
+        "DXY",
+        "GC=F",
+        "QQQ",
+        "SPY"
+      ]
+    },
+    {
+      "title": "Here's what bitcoin and ether traders are doing ahead of the binary U.S. CPI print",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/08/12/here-s-what-bitcoin-and-ether-traders-are-doing-ahead-of-the-binary-u-s-cpi-print",
+      "event_type": "macro_data",
+      "importance_tier": 1,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "这类宏观数据会直接改变市场对通胀、增长和政策路径的预期。",
+      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
+      "assets": [
+        "BTC",
+        "DXY",
+        "GC=F",
+        "QQQ",
+        "SPY"
+      ]
+    },
+    {
+      "title": "(Research Paper) Market Operations in Fiscal 2025",
+      "source": "Bank of Japan Announcements",
+      "url": "http://www.boj.or.jp/en/research/brp/mor/mor260812.htm",
+      "event_type": "fiscal_policy",
+      "importance_tier": 1,
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "assets": []
+    }
+  ],
+  "policy_news": [
+    {
+      "title": "(Research Paper) Market Operations in Fiscal 2025",
+      "source": "Bank of Japan Announcements",
+      "url": "http://www.boj.or.jp/en/research/brp/mor/mor260812.htm",
+      "event_type": "fiscal_policy",
+      "importance_tier": 1,
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "assets": []
+    },
+    {
+      "title": "Standard Chartered-led Anchorpoint launches Hong Kong dollar stablecoin",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/08/12/standard-chartered-led-anchorpoint-launches-hong-kong-dollar-stablecoin",
+      "event_type": "crypto_market_structure",
       "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
       "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
       "assets": [
         "BTC",
@@ -66,52 +147,14 @@
       ]
     },
     {
-      "title": "Lumentum sees sales more than double as AI demand swells",
-      "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/lumentum-sees-sales-more-than-double-as-ai-demand-swells-6ebe6ef1?mod=mw_rss_topstories",
-      "event_type": "earnings",
-      "importance_tier": 2,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
-      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
-      "assets": []
-    },
-    {
-      "title": "Super Micro’s earnings report brings more good news, and the stock is climbing",
-      "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/super-micros-earnings-report-brings-more-good-news-and-the-stock-is-climbing-30e5ca89?mod=mw_rss_topstories",
-      "event_type": "earnings",
-      "importance_tier": 2,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
-      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
-      "assets": []
-    },
-    {
-      "title": "CoreWeave’s stock soars as earnings show major AI momentum",
-      "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/coreweaves-stock-soars-as-earnings-show-major-ai-momentum-d3a5bede?mod=mw_rss_topstories",
-      "event_type": "earnings",
-      "importance_tier": 2,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
-      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
-      "assets": []
-    }
-  ],
-  "policy_news": [
-    {
-      "title": "SEC Charges Private Fund Adviser Adit Ventures Management, Its CEO and Affiliated General Partners in Alleged Fraud",
-      "source": "SEC Press Releases",
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-73-sec-charges-private-fund-adviser-adit-ventures-management-its-ceo-affiliated-general-partners",
-      "event_type": "regulation",
+      "title": "Bank of England to test stablecoin, digital currency use in cross-border finance",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/08/12/bank-of-england-to-test-stablecoin-digital-currency-use-in-cross-border-finance",
+      "event_type": "crypto_market_structure",
       "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
       "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
       "assets": [
         "BTC",
@@ -123,95 +166,95 @@
   ],
   "asset_movers": [
     {
-      "symbol": "1810.HK",
-      "group": "HK_MARKET",
-      "price": "26.66",
-      "one_day": "-3.48%",
-      "five_day": "-4.65%",
-      "trend": "range_bound",
+      "symbol": "^VIX",
+      "group": "US_MACRO_MARKET",
+      "price": "14.55",
+      "one_day": "-4.78%",
+      "five_day": "-7.97%",
+      "trend": "strong_downtrend",
       "direction": "down"
     },
     {
-      "symbol": "1211.HK",
+      "symbol": "9988.HK",
       "group": "HK_MARKET",
-      "price": "89.70",
-      "one_day": "-2.82%",
-      "five_day": "-4.01%",
-      "trend": "range_bound",
+      "price": "122.60",
+      "one_day": "-3.01%",
+      "five_day": "-4.29%",
+      "trend": "strong_uptrend",
       "direction": "down"
     },
     {
       "symbol": "0700.HK",
       "group": "HK_MARKET",
-      "price": "470.80",
-      "one_day": "-2.20%",
-      "five_day": "-3.45%",
-      "trend": "uptrend",
+      "price": "461.60",
+      "one_day": "-1.95%",
+      "five_day": "-6.22%",
+      "trend": "range_bound",
       "direction": "down"
     },
     {
-      "symbol": "BTC",
+      "symbol": "BINANCECOIN",
       "group": "CRYPTO",
-      "price": "63,671.68",
-      "one_day": "-1.83%",
-      "five_day": "-1.40%",
-      "trend": "range_bound",
-      "direction": "down"
-    },
-    {
-      "symbol": "BZ=F",
-      "group": "COMMODITIES",
-      "price": "89.29",
-      "one_day": "1.79%",
-      "five_day": "12.51%",
-      "trend": "uptrend",
-      "direction": "up"
-    },
-    {
-      "symbol": "CL=F",
-      "group": "COMMODITIES",
-      "price": "83.54",
-      "one_day": "1.72%",
-      "five_day": "10.25%",
-      "trend": "range_bound",
+      "price": "609.81",
+      "one_day": "1.86%",
+      "five_day": "2.92%",
+      "trend": "strong_uptrend",
       "direction": "up"
     },
     {
       "symbol": "GC=F",
       "group": "COMMODITIES",
-      "price": "4,434.50",
-      "one_day": "1.67%",
-      "five_day": "8.28%",
+      "price": "4,457.40",
+      "one_day": "1.70%",
+      "five_day": "4.98%",
       "trend": "range_bound",
       "direction": "up"
     },
     {
-      "symbol": "BINANCECOIN",
-      "group": "CRYPTO",
-      "price": "612.54",
-      "one_day": "1.62%",
-      "five_day": "3.19%",
+      "symbol": "3690.HK",
+      "group": "HK_MARKET",
+      "price": "91.65",
+      "one_day": "-1.50%",
+      "five_day": "-1.50%",
       "trend": "strong_uptrend",
-      "direction": "up"
+      "direction": "down"
+    },
+    {
+      "symbol": "1810.HK",
+      "group": "HK_MARKET",
+      "price": "26.36",
+      "one_day": "-1.13%",
+      "five_day": "-4.63%",
+      "trend": "range_bound",
+      "direction": "down"
+    },
+    {
+      "symbol": "^HSI",
+      "group": "HK_MARKET",
+      "price": "25,652.82",
+      "one_day": "-1.10%",
+      "five_day": "-0.77%",
+      "trend": "strong_uptrend",
+      "direction": "down"
     }
   ],
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-08-12/COMMODITIES_summary.png"
+      "src": "charts/2026-08-13/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-08-12/CRYPTO_summary.png"
+      "src": "charts/2026-08-13/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-08-12/HK_MARKET_summary.png"
+      "src": "charts/2026-08-13/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-08-12/US_EQUITY_summary.png"
+      "src": "charts/2026-08-13/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-08-12.html"
+  "latest_report_href": "reports/2026-08-13.html"
 }
