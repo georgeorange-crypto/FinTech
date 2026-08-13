@@ -1,58 +1,59 @@
 {
-  "latest_date": "2026-08-13",
-  "market_data_date": "2026-08-13",
-  "chart_date": "2026-08-13",
-  "regime": "unknown",
-  "regime_summary": "市场信号不足，暂不判断明确状态。",
+  "latest_date": "2026-08-14",
+  "market_data_date": "2026-08-14",
+  "chart_date": "2026-08-14",
+  "regime": "risk_on",
+  "regime_summary": "股指上涨、波动率或美元回落，市场更接近风险偏好改善。",
   "key_moves": [
-    "QQQ 上涨 0.73%",
-    "VIX 下跌 -4.78%",
-    "Gold 上涨 1.70%"
+    "SPY 上涨 0.70%",
+    "QQQ 上涨 1.16%",
+    "TLT 上涨 0.58%",
+    "Oil 下跌 -2.61%"
   ],
   "watch_points": [
-    "关注后续数据是否确认当前跨资产信号。"
+    "确认风险偏好是否扩散到小盘股、信用利差和周期品。"
   ],
   "cards": [
     {
       "label": "美股 SPY",
-      "value": "0.25%"
+      "value": "0.70%"
     },
     {
       "label": "QQQ",
-      "value": "0.73%"
+      "value": "1.16%"
     },
     {
       "label": "VIX",
-      "value": "-4.78%"
+      "value": "0.55%"
     },
     {
       "label": "BTC",
-      "value": "-0.82%"
+      "value": "0.00%"
     },
     {
       "label": "Gold",
-      "value": "1.70%"
+      "value": "0.07%"
     },
     {
       "label": "Oil",
-      "value": "-0.53%"
+      "value": "-2.61%"
     }
   ],
   "top_themes": [
-    "macro_data: U.S. CPI inflation slows to 3.4% as expected, bitcoin holds near $64,000",
-    "macro_data: XRP trading could get spicy after CPI report as futures bets hit highest since October",
-    "macro_data: Here's what bitcoin and ether traders are doing ahead of the binary U.S. CPI print"
+    "macro_data: Bitcoin slips near $63,500 as traders look past CPI to Fed’s next tests",
+    "central_bank_decision: Live updates: Bitcoin slips back even as Fed rate hike expectations dwindle",
+    "fiscal_policy: (Research Paper) Market Operations in Fiscal 2025"
   ],
   "news_counts": {
     "must_read": 10,
-    "policy_watch": 3,
-    "background": 15
+    "policy_watch": 6,
+    "background": 17
   },
   "focus_news": [
     {
-      "title": "U.S. CPI inflation slows to 3.4% as expected, bitcoin holds near $64,000",
+      "title": "Bitcoin slips near $63,500 as traders look past CPI to Fed’s next tests",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/08/12/u-s-cpi-inflation-edges-lower-to-3-4-as-expected",
+      "url": "https://www.coindesk.com/markets/2026/08/13/bitcoin-slips-near-usd63-500-as-traders-look-past-cpi-to-fed-s-next-tests",
       "event_type": "macro_data",
       "importance_tier": 1,
       "impact_strength": "high",
@@ -68,39 +69,21 @@
       ]
     },
     {
-      "title": "XRP trading could get spicy after CPI report as futures bets hit highest since October",
+      "title": "Live updates: Bitcoin slips back even as Fed rate hike expectations dwindle",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/daybook-us/2026/08/12/xrp-trading-could-get-spicy-after-cpi-report-as-futures-bets-hit-highest-since-october",
-      "event_type": "macro_data",
+      "url": "https://www.coindesk.com/tech/2026/08/13/live-markets-u-s-inflation-is-stickier-than-july-s-mild-cpi-suggests",
+      "event_type": "central_bank_decision",
       "importance_tier": 1,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "这类宏观数据会直接改变市场对通胀、增长和政策路径的预期。",
-      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
+      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
+      "market_impact": "主要影响 QQQ，方向为 negative，强度 high；鹰派政策提高折现率，压制成长股估值。",
       "assets": [
         "BTC",
         "DXY",
-        "GC=F",
         "QQQ",
-        "SPY"
-      ]
-    },
-    {
-      "title": "Here's what bitcoin and ether traders are doing ahead of the binary U.S. CPI print",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/08/12/here-s-what-bitcoin-and-ether-traders-are-doing-ahead-of-the-binary-u-s-cpi-print",
-      "event_type": "macro_data",
-      "importance_tier": 1,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "这类宏观数据会直接改变市场对通胀、增长和政策路径的预期。",
-      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
-      "assets": [
-        "BTC",
-        "DXY",
-        "GC=F",
-        "QQQ",
-        "SPY"
+        "SPY",
+        "TLT"
       ]
     },
     {
@@ -114,30 +97,16 @@
       "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
       "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
       "assets": []
-    }
-  ],
-  "policy_news": [
-    {
-      "title": "(Research Paper) Market Operations in Fiscal 2025",
-      "source": "Bank of Japan Announcements",
-      "url": "http://www.boj.or.jp/en/research/brp/mor/mor260812.htm",
-      "event_type": "fiscal_policy",
-      "importance_tier": 1,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
-      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
-      "assets": []
     },
     {
-      "title": "Standard Chartered-led Anchorpoint launches Hong Kong dollar stablecoin",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/08/12/standard-chartered-led-anchorpoint-launches-hong-kong-dollar-stablecoin",
-      "event_type": "crypto_market_structure",
+      "title": "SEC Charges Toms River Trio in Connection with Alleged $47 Million Fraud Targeting Orthodox Jewish Communities",
+      "source": "SEC Press Releases",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-74-sec-charges-toms-river-trio-connection-alleged-47-million-fraud-targeting-orthodox-jewish",
+      "event_type": "regulation",
       "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
+      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
       "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
       "assets": [
         "BTC",
@@ -145,16 +114,48 @@
         "ETH",
         "crypto market"
       ]
+    }
+  ],
+  "policy_news": [
+    {
+      "title": "Live updates: Bitcoin slips back even as Fed rate hike expectations dwindle",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/tech/2026/08/13/live-markets-u-s-inflation-is-stickier-than-july-s-mild-cpi-suggests",
+      "event_type": "central_bank_decision",
+      "importance_tier": 1,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
+      "market_impact": "主要影响 QQQ，方向为 negative，强度 high；鹰派政策提高折现率，压制成长股估值。",
+      "assets": [
+        "BTC",
+        "DXY",
+        "QQQ",
+        "SPY",
+        "TLT"
+      ]
     },
     {
-      "title": "Bank of England to test stablecoin, digital currency use in cross-border finance",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/08/12/bank-of-england-to-test-stablecoin-digital-currency-use-in-cross-border-finance",
-      "event_type": "crypto_market_structure",
+      "title": "(Research Paper) Market Operations in Fiscal 2025",
+      "source": "Bank of Japan Announcements",
+      "url": "http://www.boj.or.jp/en/research/brp/mor/mor260812.htm",
+      "event_type": "fiscal_policy",
+      "importance_tier": 1,
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "assets": []
+    },
+    {
+      "title": "SEC Charges Toms River Trio in Connection with Alleged $47 Million Fraud Targeting Orthodox Jewish Communities",
+      "source": "SEC Press Releases",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-74-sec-charges-toms-river-trio-connection-alleged-47-million-fraud-targeting-orthodox-jewish",
+      "event_type": "regulation",
       "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
+      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
       "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
       "assets": [
         "BTC",
@@ -166,95 +167,95 @@
   ],
   "asset_movers": [
     {
-      "symbol": "^VIX",
-      "group": "US_MACRO_MARKET",
-      "price": "14.55",
-      "one_day": "-4.78%",
+      "symbol": "0700.HK",
+      "group": "HK_MARKET",
+      "price": "441.00",
+      "one_day": "-4.46%",
       "five_day": "-7.97%",
+      "trend": "range_bound",
+      "direction": "down"
+    },
+    {
+      "symbol": "CL=F",
+      "group": "COMMODITIES",
+      "price": "81.10",
+      "one_day": "-2.61%",
+      "five_day": "4.93%",
+      "trend": "range_bound",
+      "direction": "down"
+    },
+    {
+      "symbol": "NG=F",
+      "group": "COMMODITIES",
+      "price": "2.73",
+      "one_day": "-2.57%",
+      "five_day": "3.48%",
       "trend": "strong_downtrend",
       "direction": "down"
     },
     {
-      "symbol": "9988.HK",
-      "group": "HK_MARKET",
-      "price": "122.60",
-      "one_day": "-3.01%",
-      "five_day": "-4.29%",
-      "trend": "strong_uptrend",
-      "direction": "down"
-    },
-    {
-      "symbol": "0700.HK",
-      "group": "HK_MARKET",
-      "price": "461.60",
-      "one_day": "-1.95%",
-      "five_day": "-6.22%",
-      "trend": "range_bound",
-      "direction": "down"
-    },
-    {
-      "symbol": "BINANCECOIN",
-      "group": "CRYPTO",
-      "price": "609.81",
-      "one_day": "1.86%",
-      "five_day": "2.92%",
-      "trend": "strong_uptrend",
-      "direction": "up"
-    },
-    {
-      "symbol": "GC=F",
+      "symbol": "BZ=F",
       "group": "COMMODITIES",
-      "price": "4,457.40",
-      "one_day": "1.70%",
-      "five_day": "4.98%",
+      "price": "86.94",
+      "one_day": "-2.29%",
+      "five_day": "5.39%",
       "trend": "range_bound",
-      "direction": "up"
-    },
-    {
-      "symbol": "3690.HK",
-      "group": "HK_MARKET",
-      "price": "91.65",
-      "one_day": "-1.50%",
-      "five_day": "-1.50%",
-      "trend": "strong_uptrend",
       "direction": "down"
     },
     {
       "symbol": "1810.HK",
       "group": "HK_MARKET",
-      "price": "26.36",
-      "one_day": "-1.13%",
-      "five_day": "-4.63%",
+      "price": "25.88",
+      "one_day": "-1.82%",
+      "five_day": "-3.65%",
       "trend": "range_bound",
       "direction": "down"
     },
     {
-      "symbol": "^HSI",
+      "symbol": "SI=F",
+      "group": "COMMODITIES",
+      "price": "64.61",
+      "one_day": "-1.43%",
+      "five_day": "5.17%",
+      "trend": "range_bound",
+      "direction": "down"
+    },
+    {
+      "symbol": "1211.HK",
       "group": "HK_MARKET",
-      "price": "25,652.82",
-      "one_day": "-1.10%",
-      "five_day": "-0.77%",
-      "trend": "strong_uptrend",
+      "price": "88.40",
+      "one_day": "-1.34%",
+      "five_day": "-1.61%",
+      "trend": "range_bound",
+      "direction": "down"
+    },
+    {
+      "symbol": "RIPPLE",
+      "group": "CRYPTO",
+      "price": "1.01",
+      "one_day": "-1.21%",
+      "five_day": "-1.01%",
+      "trend": "strong_downtrend",
       "direction": "down"
     }
   ],
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-08-13/COMMODITIES_summary.png"
+      "src": "charts/2026-08-14/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-08-13/CRYPTO_summary.png"
+      "src": "charts/2026-08-14/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-08-13/HK_MARKET_summary.png"
+      "src": "charts/2026-08-14/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-08-13/US_EQUITY_summary.png"
+      "src": "charts/2026-08-14/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-08-13.html"
+  "latest_report_href": "reports/2026-08-14.html"
 }
