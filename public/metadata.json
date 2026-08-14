@@ -1,95 +1,59 @@
 {
-  "latest_date": "2026-08-14",
-  "market_data_date": "2026-08-14",
-  "chart_date": "2026-08-14",
-  "regime": "risk_on",
-  "regime_summary": "股指上涨、波动率或美元回落，市场更接近风险偏好改善。",
+  "latest_date": "2026-08-15",
+  "market_data_date": "2026-08-15",
+  "chart_date": "2026-08-15",
+  "regime": "unknown",
+  "regime_summary": "市场信号不足，暂不判断明确状态。",
   "key_moves": [
-    "SPY 上涨 0.70%",
-    "QQQ 上涨 1.16%",
-    "TLT 上涨 0.58%",
-    "Oil 下跌 -2.61%"
+    "TLT 下跌 -0.67%",
+    "DXY 下跌 -0.32%",
+    "Gold 上涨 1.57%",
+    "Oil 上涨 1.42%"
   ],
   "watch_points": [
-    "确认风险偏好是否扩散到小盘股、信用利差和周期品。"
+    "关注后续数据是否确认当前跨资产信号。"
   ],
   "cards": [
     {
       "label": "美股 SPY",
-      "value": "0.70%"
+      "value": "-0.20%"
     },
     {
       "label": "QQQ",
-      "value": "1.16%"
+      "value": "-0.14%"
     },
     {
       "label": "VIX",
-      "value": "0.55%"
+      "value": "-2.60%"
     },
     {
       "label": "BTC",
-      "value": "0.00%"
+      "value": "-1.04%"
     },
     {
       "label": "Gold",
-      "value": "0.07%"
+      "value": "1.57%"
     },
     {
       "label": "Oil",
-      "value": "-2.61%"
+      "value": "1.42%"
     }
   ],
   "top_themes": [
-    "macro_data: Bitcoin slips near $63,500 as traders look past CPI to Fed’s next tests",
-    "central_bank_decision: Live updates: Bitcoin slips back even as Fed rate hike expectations dwindle",
-    "fiscal_policy: (Research Paper) Market Operations in Fiscal 2025"
+    "fiscal_policy: A plan to save Social Security involves high earners paying more in taxes — without getting more in benefits",
+    "earnings: Goldman’s latest cash cow is all about funding the AI infrastructure boom",
+    "regulation: SEC Charges Boiler Room Operator and Three Entities with Defrauding Retail Investors in $74 Million Pre-IPO Investment Scam"
   ],
   "news_counts": {
     "must_read": 10,
-    "policy_watch": 6,
-    "background": 17
+    "policy_watch": 8,
+    "background": 14
   },
   "focus_news": [
     {
-      "title": "Bitcoin slips near $63,500 as traders look past CPI to Fed’s next tests",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/08/13/bitcoin-slips-near-usd63-500-as-traders-look-past-cpi-to-fed-s-next-tests",
-      "event_type": "macro_data",
-      "importance_tier": 1,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "这类宏观数据会直接改变市场对通胀、增长和政策路径的预期。",
-      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
-      "assets": [
-        "BTC",
-        "DXY",
-        "GC=F",
-        "QQQ",
-        "SPY"
-      ]
-    },
-    {
-      "title": "Live updates: Bitcoin slips back even as Fed rate hike expectations dwindle",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/tech/2026/08/13/live-markets-u-s-inflation-is-stickier-than-july-s-mild-cpi-suggests",
-      "event_type": "central_bank_decision",
-      "importance_tier": 1,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
-      "market_impact": "主要影响 QQQ，方向为 negative，强度 high；鹰派政策提高折现率，压制成长股估值。",
-      "assets": [
-        "BTC",
-        "DXY",
-        "QQQ",
-        "SPY",
-        "TLT"
-      ]
-    },
-    {
-      "title": "(Research Paper) Market Operations in Fiscal 2025",
-      "source": "Bank of Japan Announcements",
-      "url": "http://www.boj.or.jp/en/research/brp/mor/mor260812.htm",
+      "title": "A plan to save Social Security involves high earners paying more in taxes — without getting more in benefits",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/a-plan-to-save-social-security-involves-wealthy-people-paying-more-without-getting-an-increase-in-benefits-f9d70307?mod=mw_rss_topstories",
       "event_type": "fiscal_policy",
       "importance_tier": 1,
       "impact_strength": "low",
@@ -99,9 +63,44 @@
       "assets": []
     },
     {
-      "title": "SEC Charges Toms River Trio in Connection with Alleged $47 Million Fraud Targeting Orthodox Jewish Communities",
+      "title": "Goldman’s latest cash cow is all about funding the AI infrastructure boom",
+      "source": "CNBC Economy",
+      "url": "https://www.cnbc.com/2026/08/14/goldmans-latest-cash-cow-is-all-about-funding-the-ai-infrastructure-boom.html",
+      "event_type": "earnings",
+      "importance_tier": 2,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
+      "market_impact": "主要影响 QQQ，方向为 mixed，强度 high；AI 资本开支会影响大型科技股盈利和估值预期。",
+      "assets": [
+        "AMZN",
+        "GOOGL",
+        "META",
+        "MSFT",
+        "NVDA"
+      ]
+    },
+    {
+      "title": "SEC Charges Boiler Room Operator and Three Entities with Defrauding Retail Investors in $74 Million Pre-IPO Investment Scam",
       "source": "SEC Press Releases",
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-74-sec-charges-toms-river-trio-connection-alleged-47-million-fraud-targeting-orthodox-jewish",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-75-sec-charges-boiler-room-operator-three-entities-defrauding-retail-investors-74-million-pre-ipo",
+      "event_type": "regulation",
+      "importance_tier": 2,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "assets": [
+        "BTC",
+        "COIN",
+        "ETH",
+        "crypto market"
+      ]
+    },
+    {
+      "title": "Tokenization stocks slip as SEC delay puts 'speed bump' in crypto’s Wall Street push",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/08/14/tokenization-stocks-slip-as-sec-delay-puts-speed-bump-in-crypto-s-wall-street-push",
       "event_type": "regulation",
       "importance_tier": 2,
       "impact_strength": "high",
@@ -118,27 +117,9 @@
   ],
   "policy_news": [
     {
-      "title": "Live updates: Bitcoin slips back even as Fed rate hike expectations dwindle",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/tech/2026/08/13/live-markets-u-s-inflation-is-stickier-than-july-s-mild-cpi-suggests",
-      "event_type": "central_bank_decision",
-      "importance_tier": 1,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
-      "market_impact": "主要影响 QQQ，方向为 negative，强度 high；鹰派政策提高折现率，压制成长股估值。",
-      "assets": [
-        "BTC",
-        "DXY",
-        "QQQ",
-        "SPY",
-        "TLT"
-      ]
-    },
-    {
-      "title": "(Research Paper) Market Operations in Fiscal 2025",
-      "source": "Bank of Japan Announcements",
-      "url": "http://www.boj.or.jp/en/research/brp/mor/mor260812.htm",
+      "title": "A plan to save Social Security involves high earners paying more in taxes — without getting more in benefits",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/a-plan-to-save-social-security-involves-wealthy-people-paying-more-without-getting-an-increase-in-benefits-f9d70307?mod=mw_rss_topstories",
       "event_type": "fiscal_policy",
       "importance_tier": 1,
       "impact_strength": "low",
@@ -148,9 +129,26 @@
       "assets": []
     },
     {
-      "title": "SEC Charges Toms River Trio in Connection with Alleged $47 Million Fraud Targeting Orthodox Jewish Communities",
+      "title": "SEC Charges Boiler Room Operator and Three Entities with Defrauding Retail Investors in $74 Million Pre-IPO Investment Scam",
       "source": "SEC Press Releases",
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-74-sec-charges-toms-river-trio-connection-alleged-47-million-fraud-targeting-orthodox-jewish",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-75-sec-charges-boiler-room-operator-three-entities-defrauding-retail-investors-74-million-pre-ipo",
+      "event_type": "regulation",
+      "importance_tier": 2,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "assets": [
+        "BTC",
+        "COIN",
+        "ETH",
+        "crypto market"
+      ]
+    },
+    {
+      "title": "Tokenization stocks slip as SEC delay puts 'speed bump' in crypto’s Wall Street push",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/08/14/tokenization-stocks-slip-as-sec-delay-puts-speed-bump-in-crypto-s-wall-street-push",
       "event_type": "regulation",
       "importance_tier": 2,
       "impact_strength": "high",
@@ -167,58 +165,58 @@
   ],
   "asset_movers": [
     {
-      "symbol": "0700.HK",
+      "symbol": "3690.HK",
       "group": "HK_MARKET",
-      "price": "441.00",
-      "one_day": "-4.46%",
-      "five_day": "-7.97%",
+      "price": "87.20",
+      "one_day": "-4.44%",
+      "five_day": "-5.42%",
       "trend": "range_bound",
       "direction": "down"
     },
     {
-      "symbol": "CL=F",
-      "group": "COMMODITIES",
-      "price": "81.10",
-      "one_day": "-2.61%",
-      "five_day": "4.93%",
-      "trend": "range_bound",
-      "direction": "down"
-    },
-    {
-      "symbol": "NG=F",
-      "group": "COMMODITIES",
-      "price": "2.73",
-      "one_day": "-2.57%",
-      "five_day": "3.48%",
+      "symbol": "^VIX",
+      "group": "US_MACRO_MARKET",
+      "price": "14.25",
+      "one_day": "-2.60%",
+      "five_day": "-4.36%",
       "trend": "strong_downtrend",
       "direction": "down"
     },
     {
       "symbol": "BZ=F",
       "group": "COMMODITIES",
-      "price": "86.94",
-      "one_day": "-2.29%",
-      "five_day": "5.39%",
-      "trend": "range_bound",
-      "direction": "down"
+      "price": "88.59",
+      "one_day": "1.75%",
+      "five_day": "6.03%",
+      "trend": "uptrend",
+      "direction": "up"
     },
     {
-      "symbol": "1810.HK",
+      "symbol": "9988.HK",
       "group": "HK_MARKET",
-      "price": "25.88",
-      "one_day": "-1.82%",
-      "five_day": "-3.65%",
-      "trend": "range_bound",
+      "price": "119.90",
+      "one_day": "-1.64%",
+      "five_day": "-3.15%",
+      "trend": "uptrend",
       "direction": "down"
     },
     {
-      "symbol": "SI=F",
+      "symbol": "GC=F",
       "group": "COMMODITIES",
-      "price": "64.61",
-      "one_day": "-1.43%",
-      "five_day": "5.17%",
+      "price": "4,432.00",
+      "one_day": "1.57%",
+      "five_day": "2.10%",
       "trend": "range_bound",
-      "direction": "down"
+      "direction": "up"
+    },
+    {
+      "symbol": "CL=F",
+      "group": "COMMODITIES",
+      "price": "82.40",
+      "one_day": "1.42%",
+      "five_day": "5.40%",
+      "trend": "range_bound",
+      "direction": "up"
     },
     {
       "symbol": "1211.HK",
@@ -232,9 +230,9 @@
     {
       "symbol": "RIPPLE",
       "group": "CRYPTO",
-      "price": "1.01",
-      "one_day": "-1.21%",
-      "five_day": "-1.01%",
+      "price": "0.99",
+      "one_day": "-1.07%",
+      "five_day": "-4.39%",
       "trend": "strong_downtrend",
       "direction": "down"
     }
@@ -242,20 +240,20 @@
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-08-14/COMMODITIES_summary.png"
+      "src": "charts/2026-08-15/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-08-14/CRYPTO_summary.png"
+      "src": "charts/2026-08-15/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-08-14/HK_MARKET_summary.png"
+      "src": "charts/2026-08-15/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-08-14/US_EQUITY_summary.png"
+      "src": "charts/2026-08-15/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-08-14.html"
+  "latest_report_href": "reports/2026-08-15.html"
 }
