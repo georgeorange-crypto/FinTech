@@ -1,12 +1,15 @@
 {
-  "latest_date": "2026-08-17",
-  "market_data_date": "2026-08-17",
-  "chart_date": "2026-08-17",
+  "latest_date": "2026-08-18",
+  "market_data_date": "2026-08-18",
+  "chart_date": "2026-08-18",
   "regime": "unknown",
   "regime_summary": "市场信号不足，暂不判断明确状态。",
   "key_moves": [
-    "TLT 下跌 -0.67%",
-    "Gold 上涨 1.30%"
+    "SPY 下跌 -0.47%",
+    "VIX 上涨 6.60%",
+    "TLT 下跌 -0.84%",
+    "Gold 上涨 2.10%",
+    "Oil 上涨 3.37%"
   ],
   "watch_points": [
     "关注后续数据是否确认当前跨资产信号。"
@@ -14,56 +17,71 @@
   "cards": [
     {
       "label": "美股 SPY",
-      "value": "-0.20%"
+      "value": "-0.47%"
     },
     {
       "label": "QQQ",
-      "value": "-0.14%"
+      "value": "-0.16%"
     },
     {
       "label": "VIX",
-      "value": "-2.60%"
+      "value": "6.60%"
     },
     {
       "label": "BTC",
-      "value": "-0.20%"
+      "value": "1.95%"
     },
     {
       "label": "Gold",
-      "value": "1.30%"
+      "value": "2.10%"
     },
     {
       "label": "Oil",
-      "value": "0.00%"
+      "value": "3.37%"
     }
   ],
   "top_themes": [
-    "earnings: Walmart and Target are about to reveal the health of the U.S. consumer",
-    "regulation: The SEC meeting that wasn't: State of Crypto",
-    "crypto_market_structure: The stablecoin yield clash that won't go away has banks, crypto battling over tradition"
+    "central_bank_decision: Coinbase-Circle USDC collaboration, FOMC minutes, oil price: Crypto Week Ahead",
+    "crypto_market_structure: U.S. Treasury Department proposes GENIUS Act stablecoin rule",
+    "regulation: The SEC meeting that wasn't: State of Crypto"
   ],
   "news_counts": {
     "must_read": 5,
-    "policy_watch": 2,
-    "background": 5
+    "policy_watch": 3,
+    "background": 16
   },
   "focus_news": [
     {
-      "title": "Walmart and Target are about to reveal the health of the U.S. consumer",
-      "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/walmart-and-target-are-about-to-reveal-the-health-of-the-u-s-consumer-d5b89491?mod=mw_rss_topstories",
-      "event_type": "earnings",
+      "title": "Coinbase-Circle USDC collaboration, FOMC minutes, oil price: Crypto Week Ahead",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/08/17/coinbase-circle-usdc-collaboration-fomc-minutes-oil-price-crypto-week-ahead",
+      "event_type": "central_bank_decision",
+      "importance_tier": 1,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
+      "market_impact": "主要影响 CL=F，方向为 positive，强度 high；供给扰动或 OPEC 减产通常推升 WTI 原油。",
+      "assets": [
+        "BZ=F",
+        "CL=F",
+        "SPY"
+      ]
+    },
+    {
+      "title": "U.S. Treasury Department proposes GENIUS Act stablecoin rule",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/08/17/u-s-treasury-department-proposes-genius-act-stablecoin-rule",
+      "event_type": "crypto_market_structure",
       "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
-      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
+      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
+      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
       "assets": [
         "BTC",
-        "DXY",
-        "GC=F",
-        "QQQ",
-        "SPY"
+        "COIN",
+        "ETH",
+        "crypto market"
       ]
     },
     {
@@ -84,26 +102,9 @@
       ]
     },
     {
-      "title": "The stablecoin yield clash that won't go away has banks, crypto battling over tradition",
+      "title": "Bitcoin tracks equity bounce, but $390 million ETF outflow week keeps bulls on back foot",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/news-analysis/2026/08/14/the-stablecoin-yield-clash-that-won-t-go-away-has-banks-crypto-battling-over-tradition",
-      "event_type": "crypto_market_structure",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
-      "assets": [
-        "BTC",
-        "COIN",
-        "ETH",
-        "crypto market"
-      ]
-    },
-    {
-      "title": "Swiss mega-bank UBS ramps up its Bitcoin exposure with a massive 24-fold surge in ETF call options",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/08/15/swiss-mega-bank-ubs-ramps-up-its-bitcoin-exposure-with-a-massive-24-fold-surge-in-etf-call-options",
+      "url": "https://www.coindesk.com/markets/2026/08/17/bitcoin-tracks-equity-bounce-but-usd390-million-etf-outflow-week-keeps-bulls-on-back-foot",
       "event_type": "other",
       "importance_tier": 3,
       "impact_strength": "high",
@@ -120,6 +121,39 @@
   ],
   "policy_news": [
     {
+      "title": "Coinbase-Circle USDC collaboration, FOMC minutes, oil price: Crypto Week Ahead",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/08/17/coinbase-circle-usdc-collaboration-fomc-minutes-oil-price-crypto-week-ahead",
+      "event_type": "central_bank_decision",
+      "importance_tier": 1,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
+      "market_impact": "主要影响 CL=F，方向为 positive，强度 high；供给扰动或 OPEC 减产通常推升 WTI 原油。",
+      "assets": [
+        "BZ=F",
+        "CL=F",
+        "SPY"
+      ]
+    },
+    {
+      "title": "U.S. Treasury Department proposes GENIUS Act stablecoin rule",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/08/17/u-s-treasury-department-proposes-genius-act-stablecoin-rule",
+      "event_type": "crypto_market_structure",
+      "importance_tier": 2,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
+      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "assets": [
+        "BTC",
+        "COIN",
+        "ETH",
+        "crypto market"
+      ]
+    },
+    {
       "title": "The SEC meeting that wasn't: State of Crypto",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/policy/2026/08/16/the-sec-meeting-that-wasn-t-state-of-crypto",
@@ -135,116 +169,99 @@
         "ETH",
         "crypto market"
       ]
-    },
-    {
-      "title": "The stablecoin yield clash that won't go away has banks, crypto battling over tradition",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/news-analysis/2026/08/14/the-stablecoin-yield-clash-that-won-t-go-away-has-banks-crypto-battling-over-tradition",
-      "event_type": "crypto_market_structure",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
-      "assets": [
-        "BTC",
-        "COIN",
-        "ETH",
-        "crypto market"
-      ]
     }
   ],
   "asset_movers": [
     {
-      "symbol": "3690.HK",
-      "group": "HK_MARKET",
-      "price": "87.20",
-      "one_day": "-4.44%",
-      "five_day": "-5.42%",
-      "trend": "range_bound",
-      "direction": "down"
-    },
-    {
       "symbol": "^VIX",
       "group": "US_MACRO_MARKET",
-      "price": "14.25",
-      "one_day": "-2.60%",
-      "five_day": "-4.36%",
+      "price": "15.19",
+      "one_day": "6.60%",
+      "five_day": "-1.75%",
       "trend": "strong_downtrend",
-      "direction": "down"
+      "direction": "up"
     },
     {
-      "symbol": "9988.HK",
-      "group": "HK_MARKET",
-      "price": "119.90",
-      "one_day": "-1.64%",
-      "five_day": "-3.15%",
-      "trend": "uptrend",
-      "direction": "down"
+      "symbol": "CL=F",
+      "group": "COMMODITIES",
+      "price": "85.18",
+      "one_day": "3.37%",
+      "five_day": "3.71%",
+      "trend": "strong_uptrend",
+      "direction": "up"
+    },
+    {
+      "symbol": "BZ=F",
+      "group": "COMMODITIES",
+      "price": "91.37",
+      "one_day": "3.22%",
+      "five_day": "4.16%",
+      "trend": "strong_uptrend",
+      "direction": "up"
     },
     {
       "symbol": "GC=F",
       "group": "COMMODITIES",
-      "price": "4,437.30",
-      "one_day": "1.30%",
-      "five_day": "1.73%",
+      "price": "4,472.30",
+      "one_day": "2.10%",
+      "five_day": "2.53%",
       "trend": "range_bound",
       "direction": "up"
     },
     {
-      "symbol": "SOLANA",
+      "symbol": "1211.HK",
+      "group": "HK_MARKET",
+      "price": "90.05",
+      "one_day": "2.04%",
+      "five_day": "-2.44%",
+      "trend": "range_bound",
+      "direction": "up"
+    },
+    {
+      "symbol": "BTC",
       "group": "CRYPTO",
-      "price": "74.39",
-      "one_day": "-1.26%",
-      "five_day": "-2.03%",
-      "trend": "downtrend",
-      "direction": "down"
+      "price": "64,246.05",
+      "one_day": "1.95%",
+      "five_day": "1.12%",
+      "trend": "uptrend",
+      "direction": "up"
     },
     {
-      "symbol": "^HSI",
+      "symbol": "9988.HK",
       "group": "HK_MARKET",
-      "price": "25,116.85",
-      "one_day": "-1.10%",
-      "five_day": "-2.15%",
-      "trend": "range_bound",
-      "direction": "down"
+      "price": "122.20",
+      "one_day": "1.92%",
+      "five_day": "-3.55%",
+      "trend": "strong_uptrend",
+      "direction": "up"
     },
     {
-      "symbol": "1810.HK",
+      "symbol": "0700.HK",
       "group": "HK_MARKET",
-      "price": "25.62",
-      "one_day": "-1.00%",
-      "five_day": "-5.32%",
+      "price": "446.40",
+      "one_day": "1.45%",
+      "five_day": "-7.27%",
       "trend": "range_bound",
-      "direction": "down"
-    },
-    {
-      "symbol": "TLT",
-      "group": "US_MACRO_MARKET",
-      "price": "82.04",
-      "one_day": "-0.67%",
-      "five_day": "-0.87%",
-      "trend": "downtrend",
-      "direction": "down"
+      "direction": "up"
     }
   ],
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-08-17/COMMODITIES_summary.png"
+      "src": "charts/2026-08-18/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-08-17/CRYPTO_summary.png"
+      "src": "charts/2026-08-18/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-08-17/HK_MARKET_summary.png"
+      "src": "charts/2026-08-18/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-08-17/US_EQUITY_summary.png"
+      "src": "charts/2026-08-18/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-08-17.html"
+  "latest_report_href": "reports/2026-08-18.html"
 }
