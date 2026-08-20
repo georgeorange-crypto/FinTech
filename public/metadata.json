@@ -1,55 +1,56 @@
 {
-  "latest_date": "2026-08-20",
-  "market_data_date": "2026-08-20",
-  "chart_date": "2026-08-20",
-  "regime": "crypto_specific",
-  "regime_summary": "BTC/ETH 明显走强但美股平淡，行情更像加密自身事件驱动。",
+  "latest_date": "2026-08-21",
+  "market_data_date": "2026-08-21",
+  "chart_date": "2026-08-21",
+  "regime": "mixed",
+  "regime_summary": "股指回落、VIX 抬升且避险资产走强，市场偏风险规避。 但存在信号冲突，需要降低单一叙事置信度。",
   "key_moves": [
-    "VIX 下跌 -6.00%",
-    "TLT 上涨 1.67%",
-    "DXY 下跌 -0.89%",
-    "Gold 上涨 4.82%",
-    "BTC 上涨 7.54%",
-    "ETH 上涨 18.81%"
+    "SPY 下跌 -0.84%",
+    "QQQ 下跌 -0.72%",
+    "VIX 上涨 7.52%",
+    "TLT 下跌 -0.82%",
+    "Gold 上涨 1.90%",
+    "BTC 上涨 12.39%",
+    "ETH 上涨 20.69%"
   ],
   "watch_points": [
-    "关注 ETF、监管、稳定币或链上流动性新闻。"
+    "关注避险是否演变为信用或流动性压力。"
   ],
   "cards": [
     {
       "label": "美股 SPY",
-      "value": "0.21%"
+      "value": "-0.84%"
     },
     {
       "label": "QQQ",
-      "value": "-0.20%"
+      "value": "-0.72%"
     },
     {
       "label": "VIX",
-      "value": "-6.00%"
+      "value": "7.52%"
     },
     {
       "label": "BTC",
-      "value": "7.54%"
+      "value": "12.39%"
     },
     {
       "label": "Gold",
-      "value": "4.82%"
+      "value": "1.90%"
     },
     {
       "label": "Oil",
-      "value": "-0.69%"
+      "value": "0.59%"
     }
   ],
   "top_themes": [
     "central_bank_decision: Fed officials saw need for rate hike if inflation doesn't cool, minutes show",
-    "regulation: SEC Charges Former Executives With Fraud in Connection With $1.9 Billion Collapse of Subprime Auto Lender Tricolor",
-    "regulation: SEC Proposes New Regulation Crypto Assets"
+    "financial_stability: Fed liquidity promises, dollar weakness could determine bitcoin's next move",
+    "regulation: Federal Reserve Board issues enforcement action with SouthPoint Bancshares, Inc. and announces termination of enforcement action with Deutsche Bank AG, DB USA Corporation, and Deutsche Bank AG New York Branch"
   ],
   "news_counts": {
-    "must_read": 6,
-    "policy_watch": 4,
-    "background": 15
+    "must_read": 7,
+    "policy_watch": 5,
+    "background": 19
   },
   "focus_news": [
     {
@@ -71,48 +72,38 @@
       ]
     },
     {
-      "title": "SEC Charges Former Executives With Fraud in Connection With $1.9 Billion Collapse of Subprime Auto Lender Tricolor",
-      "source": "SEC Press Releases",
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-77-sec-charges-former-executives-fraud-connection-19-billion-collapse-subprime-auto-lender-tricolor",
-      "event_type": "regulation",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
-      "assets": [
-        "BTC",
-        "COIN",
-        "ETH",
-        "crypto market"
-      ]
+      "title": "Fed liquidity promises, dollar weakness could determine bitcoin's next move",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/daybook-us/2026/08/20/fed-liquidity-promises-dollar-weakness-could-determine-bitcoin-s-next-move",
+      "event_type": "financial_stability",
+      "importance_tier": 1,
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "金融稳定信号可能放大跨资产波动，并影响央行反应函数。",
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "assets": []
     },
     {
-      "title": "SEC Proposes New Regulation Crypto Assets",
-      "source": "SEC Press Releases",
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-76-sec-proposes-new-regulation-crypto-assets",
+      "title": "Federal Reserve Board issues enforcement action with SouthPoint Bancshares, Inc. and announces termination of enforcement action with Deutsche Bank AG, DB USA Corporation, and Deutsche Bank AG New York Branch",
+      "source": "Federal Reserve Press Releases",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260820b.htm",
       "event_type": "regulation",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
-      "assets": [
-        "BTC",
-        "COIN",
-        "ETH",
-        "crypto market"
-      ]
-    },
-    {
-      "title": "Christine Lagarde: Panel remarks about the European economy during a discussion on the global economic outlook at the World Economic Forum",
-      "source": "ECB Press Releases",
-      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260819~98ddf24b7b.en.html",
-      "event_type": "central_bank_speech",
       "importance_tier": 2,
       "impact_strength": "low",
       "impact_direction": "unknown",
-      "reason": "央行官员表态可能影响市场对下一次会议的定价。",
+      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "assets": []
+    },
+    {
+      "title": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of United Community Bank",
+      "source": "Federal Reserve Press Releases",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260820a.htm",
+      "event_type": "regulation",
+      "importance_tier": 2,
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
       "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
       "assets": []
     }
@@ -137,131 +128,121 @@
       ]
     },
     {
-      "title": "SEC Charges Former Executives With Fraud in Connection With $1.9 Billion Collapse of Subprime Auto Lender Tricolor",
-      "source": "SEC Press Releases",
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-77-sec-charges-former-executives-fraud-connection-19-billion-collapse-subprime-auto-lender-tricolor",
-      "event_type": "regulation",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
-      "assets": [
-        "BTC",
-        "COIN",
-        "ETH",
-        "crypto market"
-      ]
+      "title": "Fed liquidity promises, dollar weakness could determine bitcoin's next move",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/daybook-us/2026/08/20/fed-liquidity-promises-dollar-weakness-could-determine-bitcoin-s-next-move",
+      "event_type": "financial_stability",
+      "importance_tier": 1,
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "金融稳定信号可能放大跨资产波动，并影响央行反应函数。",
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "assets": []
     },
     {
-      "title": "SEC Proposes New Regulation Crypto Assets",
-      "source": "SEC Press Releases",
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-76-sec-proposes-new-regulation-crypto-assets",
+      "title": "Federal Reserve Board issues enforcement action with SouthPoint Bancshares, Inc. and announces termination of enforcement action with Deutsche Bank AG, DB USA Corporation, and Deutsche Bank AG New York Branch",
+      "source": "Federal Reserve Press Releases",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260820b.htm",
       "event_type": "regulation",
       "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
+      "impact_strength": "low",
+      "impact_direction": "unknown",
       "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
-      "assets": [
-        "BTC",
-        "COIN",
-        "ETH",
-        "crypto market"
-      ]
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "assets": []
     }
   ],
   "asset_movers": [
     {
+      "symbol": "RIPPLE",
+      "group": "CRYPTO",
+      "price": "1.26",
+      "one_day": "25.95%",
+      "five_day": "26.13%",
+      "trend": "range_bound",
+      "direction": "up"
+    },
+    {
       "symbol": "ETH",
       "group": "CRYPTO",
-      "price": "2,270.89",
-      "one_day": "18.81%",
-      "five_day": "20.49%",
+      "price": "2,310.92",
+      "one_day": "20.69%",
+      "five_day": "22.88%",
       "trend": "strong_uptrend",
       "direction": "up"
     },
     {
       "symbol": "SOLANA",
       "group": "CRYPTO",
-      "price": "85.96",
-      "one_day": "13.21%",
-      "five_day": "12.78%",
-      "trend": "range_bound",
-      "direction": "up"
-    },
-    {
-      "symbol": "RIPPLE",
-      "group": "CRYPTO",
-      "price": "1.13",
-      "one_day": "12.86%",
-      "five_day": "12.16%",
+      "price": "87.42",
+      "one_day": "13.54%",
+      "five_day": "16.03%",
       "trend": "range_bound",
       "direction": "up"
     },
     {
       "symbol": "BTC",
       "group": "CRYPTO",
-      "price": "69,318.43",
-      "one_day": "7.54%",
-      "five_day": "9.31%",
+      "price": "72,676.80",
+      "one_day": "12.39%",
+      "five_day": "15.37%",
+      "trend": "strong_uptrend",
+      "direction": "up"
+    },
+    {
+      "symbol": "BINANCECOIN",
+      "group": "CRYPTO",
+      "price": "653.96",
+      "one_day": "8.45%",
+      "five_day": "7.73%",
       "trend": "strong_uptrend",
       "direction": "up"
     },
     {
       "symbol": "^VIX",
       "group": "US_MACRO_MARKET",
-      "price": "14.89",
-      "one_day": "-6.00%",
-      "five_day": "2.34%",
+      "price": "16.01",
+      "one_day": "7.52%",
+      "five_day": "9.43%",
       "trend": "strong_downtrend",
-      "direction": "down"
+      "direction": "up"
     },
     {
       "symbol": "SI=F",
       "group": "COMMODITIES",
-      "price": "67.10",
-      "one_day": "4.93%",
-      "five_day": "2.35%",
+      "price": "68.18",
+      "one_day": "3.72%",
+      "five_day": "5.10%",
       "trend": "range_bound",
       "direction": "up"
     },
     {
-      "symbol": "GC=F",
-      "group": "COMMODITIES",
-      "price": "4,576.60",
-      "one_day": "4.82%",
-      "five_day": "3.80%",
-      "trend": "strong_uptrend",
-      "direction": "up"
-    },
-    {
-      "symbol": "1810.HK",
+      "symbol": "1211.HK",
       "group": "HK_MARKET",
-      "price": "27.44",
-      "one_day": "4.81%",
-      "five_day": "4.10%",
-      "trend": "range_bound",
+      "price": "91.80",
+      "one_day": "2.68%",
+      "five_day": "3.85%",
+      "trend": "uptrend",
       "direction": "up"
     }
   ],
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-08-20/COMMODITIES_summary.png"
+      "src": "charts/2026-08-21/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-08-20/CRYPTO_summary.png"
+      "src": "charts/2026-08-21/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-08-20/HK_MARKET_summary.png"
+      "src": "charts/2026-08-21/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-08-20/US_EQUITY_summary.png"
+      "src": "charts/2026-08-21/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-08-20.html"
+  "latest_report_href": "reports/2026-08-21.html"
 }
