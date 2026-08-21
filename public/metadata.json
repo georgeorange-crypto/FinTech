@@ -1,68 +1,67 @@
 {
-  "latest_date": "2026-08-21",
-  "market_data_date": "2026-08-21",
-  "chart_date": "2026-08-21",
-  "regime": "mixed",
-  "regime_summary": "股指回落、VIX 抬升且避险资产走强，市场偏风险规避。 但存在信号冲突，需要降低单一叙事置信度。",
+  "latest_date": "2026-08-22",
+  "market_data_date": "2026-08-22",
+  "chart_date": "2026-08-22",
+  "regime": "risk_on",
+  "regime_summary": "股指上涨、波动率或美元回落，市场更接近风险偏好改善。",
   "key_moves": [
-    "SPY 下跌 -0.84%",
-    "QQQ 下跌 -0.72%",
-    "VIX 上涨 7.52%",
-    "TLT 下跌 -0.82%",
-    "Gold 上涨 1.90%",
-    "BTC 上涨 12.39%",
-    "ETH 上涨 20.69%"
+    "SPY 上涨 0.41%",
+    "VIX 下跌 -5.50%",
+    "Gold 上涨 3.22%",
+    "Oil 下跌 -1.35%",
+    "BTC 上涨 13.19%",
+    "ETH 上涨 12.67%"
   ],
   "watch_points": [
-    "关注避险是否演变为信用或流动性压力。"
+    "确认风险偏好是否扩散到小盘股、信用利差和周期品。"
   ],
   "cards": [
     {
       "label": "美股 SPY",
-      "value": "-0.84%"
+      "value": "0.41%"
     },
     {
       "label": "QQQ",
-      "value": "-0.72%"
+      "value": "0.35%"
     },
     {
       "label": "VIX",
-      "value": "7.52%"
+      "value": "-5.50%"
     },
     {
       "label": "BTC",
-      "value": "12.39%"
+      "value": "13.19%"
     },
     {
       "label": "Gold",
-      "value": "1.90%"
+      "value": "3.22%"
     },
     {
       "label": "Oil",
-      "value": "0.59%"
+      "value": "-1.35%"
     }
   ],
   "top_themes": [
-    "central_bank_decision: Fed officials saw need for rate hike if inflation doesn't cool, minutes show",
-    "financial_stability: Fed liquidity promises, dollar weakness could determine bitcoin's next move",
-    "regulation: Federal Reserve Board issues enforcement action with SouthPoint Bancshares, Inc. and announces termination of enforcement action with Deutsche Bank AG, DB USA Corporation, and Deutsche Bank AG New York Branch"
+    "central_bank_decision: Treasury's latest measure isn't QE or YCC. Still, bitcoin is skyrocketing. Here's why.",
+    "financial_stability: Bitcoin faces $80,000 test as thinner weekend liquidity looms",
+    "financial_stability: Fed liquidity promises, dollar weakness could determine bitcoin's next move"
   ],
   "news_counts": {
-    "must_read": 7,
+    "must_read": 8,
     "policy_watch": 5,
-    "background": 19
+    "background": 17
   },
   "focus_news": [
     {
-      "title": "Fed officials saw need for rate hike if inflation doesn't cool, minutes show",
-      "source": "CNBC Economy",
-      "url": "https://www.cnbc.com/2026/08/19/fed-minutes-july-2026-officials-saw-need-for-rate-hike-if-inflation-doesnt-cool.html",
+      "title": "Treasury's latest measure isn't QE or YCC. Still, bitcoin is skyrocketing. Here's why.",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/08/21/treasury-s-latest-measure-isn-t-qe-or-ycc-still-bitcoin-is-skyrocketing-here-s-why",
       "event_type": "central_bank_decision",
       "importance_tier": 1,
       "impact_strength": "high",
       "impact_direction": "mixed",
       "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
-      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
+      "market_impact": "主要影响 QQQ，方向为 positive，强度 high；宽松预期降低折现率，有利于成长股。",
       "assets": [
         "BTC",
         "DXY",
@@ -70,6 +69,18 @@
         "QQQ",
         "SPY"
       ]
+    },
+    {
+      "title": "Bitcoin faces $80,000 test as thinner weekend liquidity looms",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/daybook-us/2026/08/21/bitcoin-faces-usd80-000-test-as-thinner-weekend-liquidity-looms",
+      "event_type": "financial_stability",
+      "importance_tier": 1,
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "金融稳定信号可能放大跨资产波动，并影响央行反应函数。",
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "assets": []
     },
     {
       "title": "Fed liquidity promises, dollar weakness could determine bitcoin's next move",
@@ -84,41 +95,29 @@
       "assets": []
     },
     {
-      "title": "Federal Reserve Board issues enforcement action with SouthPoint Bancshares, Inc. and announces termination of enforcement action with Deutsche Bank AG, DB USA Corporation, and Deutsche Bank AG New York Branch",
-      "source": "Federal Reserve Press Releases",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260820b.htm",
-      "event_type": "regulation",
+      "title": "Labubu maker Pop Mart shares fall as key ex-China sales data drop, Citi cuts price target",
+      "source": "CNBC Economy",
+      "url": "https://www.cnbc.com/2026/08/21/labubu-maker-pop-mart-shares-fall-after-sales-drop-in-asia-americas-.html",
+      "event_type": "earnings",
       "importance_tier": 2,
       "impact_strength": "low",
       "impact_direction": "unknown",
-      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
-      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
-      "assets": []
-    },
-    {
-      "title": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of United Community Bank",
-      "source": "Federal Reserve Press Releases",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260820a.htm",
-      "event_type": "regulation",
-      "importance_tier": 2,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
       "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
       "assets": []
     }
   ],
   "policy_news": [
     {
-      "title": "Fed officials saw need for rate hike if inflation doesn't cool, minutes show",
-      "source": "CNBC Economy",
-      "url": "https://www.cnbc.com/2026/08/19/fed-minutes-july-2026-officials-saw-need-for-rate-hike-if-inflation-doesnt-cool.html",
+      "title": "Treasury's latest measure isn't QE or YCC. Still, bitcoin is skyrocketing. Here's why.",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/08/21/treasury-s-latest-measure-isn-t-qe-or-ycc-still-bitcoin-is-skyrocketing-here-s-why",
       "event_type": "central_bank_decision",
       "importance_tier": 1,
       "impact_strength": "high",
       "impact_direction": "mixed",
       "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
-      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
+      "market_impact": "主要影响 QQQ，方向为 positive，强度 high；宽松预期降低折现率，有利于成长股。",
       "assets": [
         "BTC",
         "DXY",
@@ -126,6 +125,18 @@
         "QQQ",
         "SPY"
       ]
+    },
+    {
+      "title": "Bitcoin faces $80,000 test as thinner weekend liquidity looms",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/daybook-us/2026/08/21/bitcoin-faces-usd80-000-test-as-thinner-weekend-liquidity-looms",
+      "event_type": "financial_stability",
+      "importance_tier": 1,
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "金融稳定信号可能放大跨资产波动，并影响央行反应函数。",
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "assets": []
     },
     {
       "title": "Fed liquidity promises, dollar weakness could determine bitcoin's next move",
@@ -136,18 +147,6 @@
       "impact_strength": "low",
       "impact_direction": "unknown",
       "reason": "金融稳定信号可能放大跨资产波动，并影响央行反应函数。",
-      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
-      "assets": []
-    },
-    {
-      "title": "Federal Reserve Board issues enforcement action with SouthPoint Bancshares, Inc. and announces termination of enforcement action with Deutsche Bank AG, DB USA Corporation, and Deutsche Bank AG New York Branch",
-      "source": "Federal Reserve Press Releases",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260820b.htm",
-      "event_type": "regulation",
-      "importance_tier": 2,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
       "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
       "assets": []
     }
@@ -156,93 +155,93 @@
     {
       "symbol": "RIPPLE",
       "group": "CRYPTO",
-      "price": "1.26",
-      "one_day": "25.95%",
-      "five_day": "26.13%",
-      "trend": "range_bound",
-      "direction": "up"
-    },
-    {
-      "symbol": "ETH",
-      "group": "CRYPTO",
-      "price": "2,310.92",
-      "one_day": "20.69%",
-      "five_day": "22.88%",
-      "trend": "strong_uptrend",
-      "direction": "up"
-    },
-    {
-      "symbol": "SOLANA",
-      "group": "CRYPTO",
-      "price": "87.42",
-      "one_day": "13.54%",
-      "five_day": "16.03%",
+      "price": "1.44",
+      "one_day": "29.75%",
+      "five_day": "43.28%",
       "trend": "range_bound",
       "direction": "up"
     },
     {
       "symbol": "BTC",
       "group": "CRYPTO",
-      "price": "72,676.80",
-      "one_day": "12.39%",
-      "five_day": "15.37%",
+      "price": "78,574.07",
+      "one_day": "13.19%",
+      "five_day": "24.69%",
+      "trend": "strong_uptrend",
+      "direction": "up"
+    },
+    {
+      "symbol": "ETH",
+      "group": "CRYPTO",
+      "price": "2,539.06",
+      "one_day": "12.67%",
+      "five_day": "34.98%",
+      "trend": "strong_uptrend",
+      "direction": "up"
+    },
+    {
+      "symbol": "SOLANA",
+      "group": "CRYPTO",
+      "price": "93.76",
+      "one_day": "9.70%",
+      "five_day": "24.55%",
       "trend": "strong_uptrend",
       "direction": "up"
     },
     {
       "symbol": "BINANCECOIN",
       "group": "CRYPTO",
-      "price": "653.96",
-      "one_day": "8.45%",
-      "five_day": "7.73%",
+      "price": "688.70",
+      "one_day": "9.69%",
+      "five_day": "13.41%",
       "trend": "strong_uptrend",
       "direction": "up"
     },
     {
       "symbol": "^VIX",
       "group": "US_MACRO_MARKET",
-      "price": "16.01",
-      "one_day": "7.52%",
-      "five_day": "9.43%",
-      "trend": "strong_downtrend",
-      "direction": "up"
+      "price": "15.13",
+      "one_day": "-5.50%",
+      "five_day": "6.18%",
+      "trend": "downtrend",
+      "direction": "down"
     },
     {
-      "symbol": "SI=F",
-      "group": "COMMODITIES",
-      "price": "68.18",
-      "one_day": "3.72%",
-      "five_day": "5.10%",
-      "trend": "range_bound",
-      "direction": "up"
-    },
-    {
-      "symbol": "1211.HK",
+      "symbol": "1810.HK",
       "group": "HK_MARKET",
-      "price": "91.80",
-      "one_day": "2.68%",
-      "five_day": "3.85%",
-      "trend": "uptrend",
+      "price": "29.02",
+      "one_day": "4.54%",
+      "five_day": "13.27%",
+      "trend": "strong_uptrend",
+      "direction": "up"
+    },
+    {
+      "symbol": "GC=F",
+      "group": "COMMODITIES",
+      "price": "4,661.60",
+      "one_day": "3.22%",
+      "five_day": "6.42%",
+      "trend": "strong_uptrend",
       "direction": "up"
     }
   ],
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-08-21/COMMODITIES_summary.png"
+      "src": "charts/2026-08-22/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-08-21/CRYPTO_summary.png"
+      "src": "charts/2026-08-22/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-08-21/HK_MARKET_summary.png"
+      "src": "charts/2026-08-22/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-08-21/US_EQUITY_summary.png"
+      "src": "charts/2026-08-22/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-08-21.html"
+  "latest_report_href": "reports/2026-08-22.html"
 }
