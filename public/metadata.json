@@ -1,16 +1,15 @@
 {
-  "latest_date": "2026-08-22",
-  "market_data_date": "2026-08-22",
-  "chart_date": "2026-08-22",
+  "latest_date": "2026-08-23",
+  "market_data_date": "2026-08-23",
+  "chart_date": "2026-08-23",
   "regime": "risk_on",
   "regime_summary": "股指上涨、波动率或美元回落，市场更接近风险偏好改善。",
   "key_moves": [
     "SPY 上涨 0.41%",
     "VIX 下跌 -5.50%",
-    "Gold 上涨 3.22%",
-    "Oil 下跌 -1.35%",
-    "BTC 上涨 13.19%",
-    "ETH 上涨 12.67%"
+    "Gold 上涨 2.39%",
+    "BTC 上涨 5.47%",
+    "ETH 上涨 3.97%"
   ],
   "watch_points": [
     "确认风险偏好是否扩散到小盘股、信用利差和周期品。"
@@ -30,26 +29,26 @@
     },
     {
       "label": "BTC",
-      "value": "13.19%"
+      "value": "5.47%"
     },
     {
       "label": "Gold",
-      "value": "3.22%"
+      "value": "2.39%"
     },
     {
       "label": "Oil",
-      "value": "-1.35%"
+      "value": "-0.88%"
     }
   ],
   "top_themes": [
     "central_bank_decision: Treasury's latest measure isn't QE or YCC. Still, bitcoin is skyrocketing. Here's why.",
     "financial_stability: Bitcoin faces $80,000 test as thinner weekend liquidity looms",
-    "financial_stability: Fed liquidity promises, dollar weakness could determine bitcoin's next move"
+    "crypto_market_structure: Zcash jumps 48% to over $800 as Grayscale spot ETF push adds to ‘next bitcoin’ buzz"
   ],
   "news_counts": {
-    "must_read": 8,
-    "policy_watch": 5,
-    "background": 17
+    "must_read": 6,
+    "policy_watch": 3,
+    "background": 15
   },
   "focus_news": [
     {
@@ -83,16 +82,21 @@
       "assets": []
     },
     {
-      "title": "Fed liquidity promises, dollar weakness could determine bitcoin's next move",
+      "title": "Zcash jumps 48% to over $800 as Grayscale spot ETF push adds to ‘next bitcoin’ buzz",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/daybook-us/2026/08/20/fed-liquidity-promises-dollar-weakness-could-determine-bitcoin-s-next-move",
-      "event_type": "financial_stability",
-      "importance_tier": 1,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "金融稳定信号可能放大跨资产波动，并影响央行反应函数。",
-      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
-      "assets": []
+      "url": "https://www.coindesk.com/markets/2026/08/22/zcash-tops-usd800-for-first-time-since-2016",
+      "event_type": "crypto_market_structure",
+      "importance_tier": 2,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
+      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "assets": [
+        "BTC",
+        "COIN",
+        "ETH",
+        "crypto market"
+      ]
     },
     {
       "title": "Labubu maker Pop Mart shares fall as key ex-China sales data drop, Citi cuts price target",
@@ -139,61 +143,48 @@
       "assets": []
     },
     {
-      "title": "Fed liquidity promises, dollar weakness could determine bitcoin's next move",
+      "title": "Zcash jumps 48% to over $800 as Grayscale spot ETF push adds to ‘next bitcoin’ buzz",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/daybook-us/2026/08/20/fed-liquidity-promises-dollar-weakness-could-determine-bitcoin-s-next-move",
-      "event_type": "financial_stability",
-      "importance_tier": 1,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "金融稳定信号可能放大跨资产波动，并影响央行反应函数。",
-      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
-      "assets": []
+      "url": "https://www.coindesk.com/markets/2026/08/22/zcash-tops-usd800-for-first-time-since-2016",
+      "event_type": "crypto_market_structure",
+      "importance_tier": 2,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
+      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "assets": [
+        "BTC",
+        "COIN",
+        "ETH",
+        "crypto market"
+      ]
     }
   ],
   "asset_movers": [
     {
       "symbol": "RIPPLE",
       "group": "CRYPTO",
-      "price": "1.44",
-      "one_day": "29.75%",
-      "five_day": "43.28%",
+      "price": "1.47",
+      "one_day": "16.08%",
+      "five_day": "48.04%",
       "trend": "range_bound",
-      "direction": "up"
-    },
-    {
-      "symbol": "BTC",
-      "group": "CRYPTO",
-      "price": "78,574.07",
-      "one_day": "13.19%",
-      "five_day": "24.69%",
-      "trend": "strong_uptrend",
-      "direction": "up"
-    },
-    {
-      "symbol": "ETH",
-      "group": "CRYPTO",
-      "price": "2,539.06",
-      "one_day": "12.67%",
-      "five_day": "34.98%",
-      "trend": "strong_uptrend",
       "direction": "up"
     },
     {
       "symbol": "SOLANA",
       "group": "CRYPTO",
-      "price": "93.76",
-      "one_day": "9.70%",
-      "five_day": "24.55%",
+      "price": "93.63",
+      "one_day": "6.83%",
+      "five_day": "25.59%",
       "trend": "strong_uptrend",
       "direction": "up"
     },
     {
       "symbol": "BINANCECOIN",
       "group": "CRYPTO",
-      "price": "688.70",
-      "one_day": "9.69%",
-      "five_day": "13.41%",
+      "price": "696.06",
+      "one_day": "6.39%",
+      "five_day": "15.58%",
       "trend": "strong_uptrend",
       "direction": "up"
     },
@@ -207,6 +198,15 @@
       "direction": "down"
     },
     {
+      "symbol": "BTC",
+      "group": "CRYPTO",
+      "price": "77,097.32",
+      "one_day": "5.47%",
+      "five_day": "22.66%",
+      "trend": "strong_uptrend",
+      "direction": "up"
+    },
+    {
       "symbol": "1810.HK",
       "group": "HK_MARKET",
       "price": "29.02",
@@ -216,32 +216,41 @@
       "direction": "up"
     },
     {
-      "symbol": "GC=F",
-      "group": "COMMODITIES",
-      "price": "4,661.60",
-      "one_day": "3.22%",
-      "five_day": "6.42%",
+      "symbol": "ETH",
+      "group": "CRYPTO",
+      "price": "2,419.15",
+      "one_day": "3.97%",
+      "five_day": "29.06%",
       "trend": "strong_uptrend",
       "direction": "up"
+    },
+    {
+      "symbol": "9988.HK",
+      "group": "HK_MARKET",
+      "price": "123.00",
+      "one_day": "-2.54%",
+      "five_day": "2.59%",
+      "trend": "uptrend",
+      "direction": "down"
     }
   ],
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-08-22/COMMODITIES_summary.png"
+      "src": "charts/2026-08-23/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-08-22/CRYPTO_summary.png"
+      "src": "charts/2026-08-23/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-08-22/HK_MARKET_summary.png"
+      "src": "charts/2026-08-23/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-08-22/US_EQUITY_summary.png"
+      "src": "charts/2026-08-23/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-08-22.html"
+  "latest_report_href": "reports/2026-08-23.html"
 }
