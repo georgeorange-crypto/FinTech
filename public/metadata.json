@@ -1,15 +1,14 @@
 {
-  "latest_date": "2026-08-23",
-  "market_data_date": "2026-08-23",
-  "chart_date": "2026-08-23",
+  "latest_date": "2026-08-24",
+  "market_data_date": "2026-08-24",
+  "chart_date": "2026-08-24",
   "regime": "risk_on",
   "regime_summary": "股指上涨、波动率或美元回落，市场更接近风险偏好改善。",
   "key_moves": [
     "SPY 上涨 0.41%",
     "VIX 下跌 -5.50%",
-    "Gold 上涨 2.39%",
-    "BTC 上涨 5.47%",
-    "ETH 上涨 3.97%"
+    "Gold 上涨 1.22%",
+    "ETH 下跌 -2.16%"
   ],
   "watch_points": [
     "确认风险偏好是否扩散到小盘股、信用利差和周期品。"
@@ -29,57 +28,44 @@
     },
     {
       "label": "BTC",
-      "value": "5.47%"
+      "value": "-0.89%"
     },
     {
       "label": "Gold",
-      "value": "2.39%"
+      "value": "1.22%"
     },
     {
       "label": "Oil",
-      "value": "-0.88%"
+      "value": "0.00%"
     }
   ],
   "top_themes": [
-    "central_bank_decision: Treasury's latest measure isn't QE or YCC. Still, bitcoin is skyrocketing. Here's why.",
-    "financial_stability: Bitcoin faces $80,000 test as thinner weekend liquidity looms",
+    "earnings: Nvidia is the beating heart of the AI boom and the stock market — which sets up a big test",
     "crypto_market_structure: Zcash jumps 48% to over $800 as Grayscale spot ETF push adds to ‘next bitcoin’ buzz"
   ],
   "news_counts": {
-    "must_read": 6,
-    "policy_watch": 3,
-    "background": 15
+    "must_read": 4,
+    "policy_watch": 1,
+    "background": 7
   },
   "focus_news": [
     {
-      "title": "Treasury's latest measure isn't QE or YCC. Still, bitcoin is skyrocketing. Here's why.",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/08/21/treasury-s-latest-measure-isn-t-qe-or-ycc-still-bitcoin-is-skyrocketing-here-s-why",
-      "event_type": "central_bank_decision",
-      "importance_tier": 1,
+      "title": "Nvidia is the beating heart of the AI boom and the stock market — which sets up a big test",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/nvidia-is-the-beating-heart-of-the-ai-boom-and-the-stock-market-which-sets-up-a-big-test-bed36f98?mod=mw_rss_topstories",
+      "event_type": "earnings",
+      "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
-      "market_impact": "主要影响 QQQ，方向为 positive，强度 high；宽松预期降低折现率，有利于成长股。",
+      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
+      "market_impact": "主要影响 QQQ，方向为 mixed，强度 high；AI 资本开支会影响大型科技股盈利和估值预期。",
       "assets": [
-        "BTC",
-        "DXY",
-        "GC=F",
-        "QQQ",
-        "SPY"
+        "AMZN",
+        "GOOGL",
+        "META",
+        "MSFT",
+        "NVDA"
       ]
-    },
-    {
-      "title": "Bitcoin faces $80,000 test as thinner weekend liquidity looms",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/daybook-us/2026/08/21/bitcoin-faces-usd80-000-test-as-thinner-weekend-liquidity-looms",
-      "event_type": "financial_stability",
-      "importance_tier": 1,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "金融稳定信号可能放大跨资产波动，并影响央行反应函数。",
-      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
-      "assets": []
     },
     {
       "title": "Zcash jumps 48% to over $800 as Grayscale spot ETF push adds to ‘next bitcoin’ buzz",
@@ -99,49 +85,31 @@
       ]
     },
     {
-      "title": "Labubu maker Pop Mart shares fall as key ex-China sales data drop, Citi cuts price target",
-      "source": "CNBC Economy",
-      "url": "https://www.cnbc.com/2026/08/21/labubu-maker-pop-mart-shares-fall-after-sales-drop-in-asia-americas-.html",
-      "event_type": "earnings",
-      "importance_tier": 2,
+      "title": "XRP on track for biggest weekly gain in 21 months as Treasury buyback spurs 'curve control' hopes",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/08/23/xrp-on-track-for-biggest-weekly-gain-in-21-months-as-treasury-buyback-spurs-curve-control-hopes",
+      "event_type": "other",
+      "importance_tier": 3,
       "impact_strength": "low",
       "impact_direction": "unknown",
-      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
-      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "market_impact": "更偏背景信息，短期市场影响可能有限。",
+      "assets": []
+    },
+    {
+      "title": "Crypto card spending tops $1 billion as stablecoins move into everyday purchases",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/08/23/crypto-card-spending-tops-usd1-billion-as-stablecoins-move-into-everyday-purchases",
+      "event_type": "other",
+      "importance_tier": 3,
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "market_impact": "更偏背景信息，短期市场影响可能有限。",
       "assets": []
     }
   ],
   "policy_news": [
-    {
-      "title": "Treasury's latest measure isn't QE or YCC. Still, bitcoin is skyrocketing. Here's why.",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/08/21/treasury-s-latest-measure-isn-t-qe-or-ycc-still-bitcoin-is-skyrocketing-here-s-why",
-      "event_type": "central_bank_decision",
-      "importance_tier": 1,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
-      "market_impact": "主要影响 QQQ，方向为 positive，强度 high；宽松预期降低折现率，有利于成长股。",
-      "assets": [
-        "BTC",
-        "DXY",
-        "GC=F",
-        "QQQ",
-        "SPY"
-      ]
-    },
-    {
-      "title": "Bitcoin faces $80,000 test as thinner weekend liquidity looms",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/daybook-us/2026/08/21/bitcoin-faces-usd80-000-test-as-thinner-weekend-liquidity-looms",
-      "event_type": "financial_stability",
-      "importance_tier": 1,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "金融稳定信号可能放大跨资产波动，并影响央行反应函数。",
-      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
-      "assets": []
-    },
     {
       "title": "Zcash jumps 48% to over $800 as Grayscale spot ETF push adds to ‘next bitcoin’ buzz",
       "source": "CoinDesk",
@@ -162,33 +130,6 @@
   ],
   "asset_movers": [
     {
-      "symbol": "RIPPLE",
-      "group": "CRYPTO",
-      "price": "1.47",
-      "one_day": "16.08%",
-      "five_day": "48.04%",
-      "trend": "range_bound",
-      "direction": "up"
-    },
-    {
-      "symbol": "SOLANA",
-      "group": "CRYPTO",
-      "price": "93.63",
-      "one_day": "6.83%",
-      "five_day": "25.59%",
-      "trend": "strong_uptrend",
-      "direction": "up"
-    },
-    {
-      "symbol": "BINANCECOIN",
-      "group": "CRYPTO",
-      "price": "696.06",
-      "one_day": "6.39%",
-      "five_day": "15.58%",
-      "trend": "strong_uptrend",
-      "direction": "up"
-    },
-    {
       "symbol": "^VIX",
       "group": "US_MACRO_MARKET",
       "price": "15.13",
@@ -196,15 +137,6 @@
       "five_day": "6.18%",
       "trend": "downtrend",
       "direction": "down"
-    },
-    {
-      "symbol": "BTC",
-      "group": "CRYPTO",
-      "price": "77,097.32",
-      "one_day": "5.47%",
-      "five_day": "22.66%",
-      "trend": "strong_uptrend",
-      "direction": "up"
     },
     {
       "symbol": "1810.HK",
@@ -216,12 +148,12 @@
       "direction": "up"
     },
     {
-      "symbol": "ETH",
+      "symbol": "RIPPLE",
       "group": "CRYPTO",
-      "price": "2,419.15",
-      "one_day": "3.97%",
-      "five_day": "29.06%",
-      "trend": "strong_uptrend",
+      "price": "1.52",
+      "one_day": "4.22%",
+      "five_day": "51.52%",
+      "trend": "range_bound",
       "direction": "up"
     },
     {
@@ -232,25 +164,61 @@
       "five_day": "2.59%",
       "trend": "uptrend",
       "direction": "down"
+    },
+    {
+      "symbol": "BINANCECOIN",
+      "group": "CRYPTO",
+      "price": "702.62",
+      "one_day": "2.16%",
+      "five_day": "16.08%",
+      "trend": "strong_uptrend",
+      "direction": "up"
+    },
+    {
+      "symbol": "ETH",
+      "group": "CRYPTO",
+      "price": "2,464.37",
+      "one_day": "-2.16%",
+      "five_day": "28.93%",
+      "trend": "strong_uptrend",
+      "direction": "down"
+    },
+    {
+      "symbol": "SOLANA",
+      "group": "CRYPTO",
+      "price": "95.36",
+      "one_day": "1.60%",
+      "five_day": "25.59%",
+      "trend": "strong_uptrend",
+      "direction": "up"
+    },
+    {
+      "symbol": "1211.HK",
+      "group": "HK_MARKET",
+      "price": "93.15",
+      "one_day": "1.47%",
+      "five_day": "5.55%",
+      "trend": "uptrend",
+      "direction": "up"
     }
   ],
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-08-23/COMMODITIES_summary.png"
+      "src": "charts/2026-08-24/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-08-23/CRYPTO_summary.png"
+      "src": "charts/2026-08-24/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-08-23/HK_MARKET_summary.png"
+      "src": "charts/2026-08-24/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-08-23/US_EQUITY_summary.png"
+      "src": "charts/2026-08-24/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-08-23.html"
+  "latest_report_href": "reports/2026-08-24.html"
 }
