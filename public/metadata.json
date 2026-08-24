@@ -1,76 +1,144 @@
 {
-  "latest_date": "2026-08-24",
-  "market_data_date": "2026-08-24",
-  "chart_date": "2026-08-24",
-  "regime": "risk_on",
-  "regime_summary": "股指上涨、波动率或美元回落，市场更接近风险偏好改善。",
+  "latest_date": "2026-08-25",
+  "market_data_date": "2026-08-25",
+  "chart_date": "2026-08-25",
+  "regime": "unknown",
+  "regime_summary": "市场信号不足，暂不判断明确状态。",
   "key_moves": [
-    "SPY 上涨 0.41%",
-    "VIX 下跌 -5.50%",
-    "Gold 上涨 1.22%",
-    "ETH 下跌 -2.16%"
+    "QQQ 下跌 -1.00%",
+    "VIX 上涨 4.76%",
+    "TLT 上涨 0.62%",
+    "Gold 上涨 1.99%",
+    "Oil 下跌 -2.35%",
+    "BTC 上涨 2.25%",
+    "ETH 上涨 2.24%"
   ],
   "watch_points": [
-    "确认风险偏好是否扩散到小盘股、信用利差和周期品。"
+    "关注后续数据是否确认当前跨资产信号。"
   ],
   "cards": [
     {
       "label": "美股 SPY",
-      "value": "0.41%"
+      "value": "-0.29%"
     },
     {
       "label": "QQQ",
-      "value": "0.35%"
+      "value": "-1.00%"
     },
     {
       "label": "VIX",
-      "value": "-5.50%"
+      "value": "4.76%"
     },
     {
       "label": "BTC",
-      "value": "-0.89%"
+      "value": "2.25%"
     },
     {
       "label": "Gold",
-      "value": "1.22%"
+      "value": "1.99%"
     },
     {
       "label": "Oil",
-      "value": "0.00%"
+      "value": "-2.35%"
     }
   ],
   "top_themes": [
-    "earnings: Nvidia is the beating heart of the AI boom and the stock market — which sets up a big test",
-    "crypto_market_structure: Zcash jumps 48% to over $800 as Grayscale spot ETF push adds to ‘next bitcoin’ buzz"
+    "geopolitical_risk: Trump’s trade war with Canada could lead the U.S. back to quantitative easing",
+    "macro_data: Jackson  Hole Symposium, U.S. PCE prices, IREN earnings: Crypto Week Ahead",
+    "fiscal_policy: Bessent’s sweeping sanctions against Iran send oil prices to their biggest drop in 3 weeks, while fueling hopes of de-escalation"
   ],
   "news_counts": {
-    "must_read": 4,
-    "policy_watch": 1,
-    "background": 7
+    "must_read": 8,
+    "policy_watch": 3,
+    "background": 20
   },
   "focus_news": [
     {
-      "title": "Nvidia is the beating heart of the AI boom and the stock market — which sets up a big test",
+      "title": "Trump’s trade war with Canada could lead the U.S. back to quantitative easing",
       "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/nvidia-is-the-beating-heart-of-the-ai-boom-and-the-stock-market-which-sets-up-a-big-test-bed36f98?mod=mw_rss_topstories",
-      "event_type": "earnings",
-      "importance_tier": 2,
+      "url": "https://www.marketwatch.com/story/trumps-canada-trade-war-could-lead-the-u-s-back-to-quantitative-easing-eef9be8b?mod=mw_rss_topstories",
+      "event_type": "geopolitical_risk",
+      "importance_tier": 1,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
-      "market_impact": "主要影响 QQQ，方向为 mixed，强度 high；AI 资本开支会影响大型科技股盈利和估值预期。",
+      "reason": "地缘风险可能推升避险需求、能源价格和市场波动率。",
+      "market_impact": "主要影响 QQQ，方向为 positive，强度 high；宽松预期降低折现率，有利于成长股。",
       "assets": [
-        "AMZN",
-        "GOOGL",
-        "META",
-        "MSFT",
-        "NVDA"
+        "BTC",
+        "DXY",
+        "GC=F",
+        "QQQ",
+        "SPY"
       ]
     },
     {
-      "title": "Zcash jumps 48% to over $800 as Grayscale spot ETF push adds to ‘next bitcoin’ buzz",
+      "title": "Jackson  Hole Symposium, U.S. PCE prices, IREN earnings: Crypto Week Ahead",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/08/22/zcash-tops-usd800-for-first-time-since-2016",
+      "url": "https://www.coindesk.com/markets/2026/08/24/jackson-hole-symposium-u-s-pce-prices-iren-earnings-crypto-week-ahead",
+      "event_type": "macro_data",
+      "importance_tier": 1,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "这类宏观数据会直接改变市场对通胀、增长和政策路径的预期。",
+      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
+      "assets": [
+        "BTC",
+        "DXY",
+        "GC=F",
+        "QQQ",
+        "SPY"
+      ]
+    },
+    {
+      "title": "Bessent’s sweeping sanctions against Iran send oil prices to their biggest drop in 3 weeks, while fueling hopes of de-escalation",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/oil-trades-lower-even-as-bessent-promises-economic-d-day-announcement-on-iran-a90d862e?mod=mw_rss_topstories",
+      "event_type": "fiscal_policy",
+      "importance_tier": 1,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
+      "market_impact": "主要影响 CL=F，方向为 positive，强度 high；供给扰动或 OPEC 减产通常推升 WTI 原油。",
+      "assets": [
+        "BZ=F",
+        "CL=F",
+        "SPY"
+      ]
+    },
+    {
+      "title": "Ford’s $3 billion Canadian bet is getting caught in trade-war crosshairs",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/u-s-automakers-and-home-builders-are-among-the-big-losers-as-trump-launches-a-trade-war-against-canada-063c1d4c?mod=mw_rss_topstories",
+      "event_type": "geopolitical_risk",
+      "importance_tier": 1,
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "地缘风险可能推升避险需求、能源价格和市场波动率。",
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "assets": []
+    }
+  ],
+  "policy_news": [
+    {
+      "title": "Bessent’s sweeping sanctions against Iran send oil prices to their biggest drop in 3 weeks, while fueling hopes of de-escalation",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/oil-trades-lower-even-as-bessent-promises-economic-d-day-announcement-on-iran-a90d862e?mod=mw_rss_topstories",
+      "event_type": "fiscal_policy",
+      "importance_tier": 1,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
+      "market_impact": "主要影响 CL=F，方向为 positive，强度 high；供给扰动或 OPEC 减产通常推升 WTI 原油。",
+      "assets": [
+        "BZ=F",
+        "CL=F",
+        "SPY"
+      ]
+    },
+    {
+      "title": "Standard Chartered becomes first bank to distribute Hong Kong dollar stablecoin",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/08/24/standard-chartered-first-bank-to-distribute-anchorpoint-s-hong-kong-dollar-stablecoin",
       "event_type": "crypto_market_structure",
       "importance_tier": 2,
       "impact_strength": "high",
@@ -85,35 +153,9 @@
       ]
     },
     {
-      "title": "XRP on track for biggest weekly gain in 21 months as Treasury buyback spurs 'curve control' hopes",
+      "title": "Stablecoin neobank Fasset lands $1 billion valuation as SBI backs its payments push",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/08/23/xrp-on-track-for-biggest-weekly-gain-in-21-months-as-treasury-buyback-spurs-curve-control-hopes",
-      "event_type": "other",
-      "importance_tier": 3,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
-      "market_impact": "更偏背景信息，短期市场影响可能有限。",
-      "assets": []
-    },
-    {
-      "title": "Crypto card spending tops $1 billion as stablecoins move into everyday purchases",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/08/23/crypto-card-spending-tops-usd1-billion-as-stablecoins-move-into-everyday-purchases",
-      "event_type": "other",
-      "importance_tier": 3,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
-      "market_impact": "更偏背景信息，短期市场影响可能有限。",
-      "assets": []
-    }
-  ],
-  "policy_news": [
-    {
-      "title": "Zcash jumps 48% to over $800 as Grayscale spot ETF push adds to ‘next bitcoin’ buzz",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/08/22/zcash-tops-usd800-for-first-time-since-2016",
+      "url": "https://www.coindesk.com/business/2026/08/22/stablecoin-neobank-fasset-lands-usd1-billion-valuation-as-sbi-backs-its-payments-push",
       "event_type": "crypto_market_structure",
       "importance_tier": 2,
       "impact_strength": "high",
@@ -130,95 +172,95 @@
   ],
   "asset_movers": [
     {
+      "symbol": "9988.HK",
+      "group": "HK_MARKET",
+      "price": "112.50",
+      "one_day": "-8.54%",
+      "five_day": "-7.94%",
+      "trend": "range_bound",
+      "direction": "down"
+    },
+    {
       "symbol": "^VIX",
       "group": "US_MACRO_MARKET",
-      "price": "15.13",
-      "one_day": "-5.50%",
-      "five_day": "6.18%",
+      "price": "15.85",
+      "one_day": "4.76%",
+      "five_day": "4.34%",
       "trend": "downtrend",
-      "direction": "down"
+      "direction": "up"
     },
     {
       "symbol": "1810.HK",
       "group": "HK_MARKET",
-      "price": "29.02",
-      "one_day": "4.54%",
-      "five_day": "13.27%",
-      "trend": "strong_uptrend",
-      "direction": "up"
-    },
-    {
-      "symbol": "RIPPLE",
-      "group": "CRYPTO",
-      "price": "1.52",
-      "one_day": "4.22%",
-      "five_day": "51.52%",
-      "trend": "range_bound",
-      "direction": "up"
-    },
-    {
-      "symbol": "9988.HK",
-      "group": "HK_MARKET",
-      "price": "123.00",
-      "one_day": "-2.54%",
-      "five_day": "2.59%",
+      "price": "27.82",
+      "one_day": "-4.14%",
+      "five_day": "7.50%",
       "trend": "uptrend",
-      "direction": "down"
-    },
-    {
-      "symbol": "BINANCECOIN",
-      "group": "CRYPTO",
-      "price": "702.62",
-      "one_day": "2.16%",
-      "five_day": "16.08%",
-      "trend": "strong_uptrend",
-      "direction": "up"
-    },
-    {
-      "symbol": "ETH",
-      "group": "CRYPTO",
-      "price": "2,464.37",
-      "one_day": "-2.16%",
-      "five_day": "28.93%",
-      "trend": "strong_uptrend",
       "direction": "down"
     },
     {
       "symbol": "SOLANA",
       "group": "CRYPTO",
-      "price": "95.36",
-      "one_day": "1.60%",
-      "five_day": "25.59%",
+      "price": "97.47",
+      "one_day": "3.79%",
+      "five_day": "26.59%",
       "trend": "strong_uptrend",
       "direction": "up"
     },
     {
-      "symbol": "1211.HK",
+      "symbol": "0700.HK",
       "group": "HK_MARKET",
-      "price": "93.15",
-      "one_day": "1.47%",
-      "five_day": "5.55%",
+      "price": "440.00",
+      "one_day": "-3.72%",
+      "five_day": "-1.43%",
+      "trend": "range_bound",
+      "direction": "down"
+    },
+    {
+      "symbol": "3690.HK",
+      "group": "HK_MARKET",
+      "price": "82.70",
+      "one_day": "-2.71%",
+      "five_day": "-5.65%",
+      "trend": "range_bound",
+      "direction": "down"
+    },
+    {
+      "symbol": "BZ=F",
+      "group": "COMMODITIES",
+      "price": "92.05",
+      "one_day": "-2.48%",
+      "five_day": "1.30%",
       "trend": "uptrend",
-      "direction": "up"
+      "direction": "down"
+    },
+    {
+      "symbol": "CL=F",
+      "group": "COMMODITIES",
+      "price": "85.01",
+      "one_day": "-2.35%",
+      "five_day": "0.60%",
+      "trend": "uptrend",
+      "direction": "down"
     }
   ],
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-08-24/COMMODITIES_summary.png"
+      "src": "charts/2026-08-25/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-08-24/CRYPTO_summary.png"
+      "src": "charts/2026-08-25/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-08-24/HK_MARKET_summary.png"
+      "src": "charts/2026-08-25/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-08-24/US_EQUITY_summary.png"
+      "src": "charts/2026-08-25/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-08-24.html"
+  "latest_report_href": "reports/2026-08-25.html"
 }
