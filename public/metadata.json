@@ -1,53 +1,51 @@
 {
-  "latest_date": "2026-08-26",
-  "market_data_date": "2026-08-26",
-  "chart_date": "2026-08-26",
-  "regime": "risk_on",
-  "regime_summary": "股指上涨、波动率或美元回落，市场更接近风险偏好改善。",
+  "latest_date": "2026-08-27",
+  "market_data_date": "2026-08-27",
+  "chart_date": "2026-08-27",
+  "regime": "crypto_specific",
+  "regime_summary": "BTC/ETH 明显走强但美股平淡，行情更像加密自身事件驱动。",
   "key_moves": [
-    "QQQ 上涨 0.62%",
-    "TLT 上涨 1.10%",
-    "Gold 上涨 1.70%",
-    "Oil 下跌 -4.48%"
+    "Gold 上涨 0.89%",
+    "ETH 上涨 2.14%"
   ],
   "watch_points": [
-    "确认风险偏好是否扩散到小盘股、信用利差和周期品。"
+    "关注 ETF、监管、稳定币或链上流动性新闻。"
   ],
   "cards": [
     {
       "label": "美股 SPY",
-      "value": "0.32%"
+      "value": "0.02%"
     },
     {
       "label": "QQQ",
-      "value": "0.62%"
+      "value": "0.09%"
     },
     {
       "label": "VIX",
-      "value": "-2.52%"
+      "value": "-1.55%"
     },
     {
       "label": "BTC",
-      "value": "1.48%"
+      "value": "0.30%"
     },
     {
       "label": "Gold",
-      "value": "1.70%"
+      "value": "0.89%"
     },
     {
       "label": "Oil",
-      "value": "-4.48%"
+      "value": "-0.96%"
     }
   ],
   "top_themes": [
     "macro_data: Indicators for Core CPI",
     "fiscal_policy: China needs U.S. dollars but is building a hedge against Washington’s sanctions",
-    "earnings: Options traders are betting on the quietest Nvidia earnings reaction in years. It could be an opportunity for AI bulls."
+    "earnings: Nvidia shares rise after earnings top estimates, guides to $108 billion in revenue next quarter"
   ],
   "news_counts": {
-    "must_read": 5,
-    "policy_watch": 1,
-    "background": 20
+    "must_read": 10,
+    "policy_watch": 5,
+    "background": 12
   },
   "focus_news": [
     {
@@ -81,9 +79,9 @@
       "assets": []
     },
     {
-      "title": "Options traders are betting on the quietest Nvidia earnings reaction in years. It could be an opportunity for AI bulls.",
-      "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/options-traders-are-betting-on-the-quietest-nvidia-earnings-reaction-in-years-it-could-be-an-opportunity-for-ai-bulls-91955793?mod=mw_rss_topstories",
+      "title": "Nvidia shares rise after earnings top estimates, guides to $108 billion in revenue next quarter",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/08/26/nvidia-tops-earnings-estimates-guides-to-usd108-billion-in-revenue-next-quarter",
       "event_type": "earnings",
       "importance_tier": 2,
       "impact_strength": "high",
@@ -99,16 +97,22 @@
       ]
     },
     {
-      "title": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
-      "source": "Federal Reserve Press Releases",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
-      "event_type": "other",
-      "importance_tier": 3,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
-      "market_impact": "更偏背景信息，短期市场影响可能有限。",
-      "assets": []
+      "title": "Live updates: Bitcoin trades in tight range above $78,000 as Nvidia tops estimates",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/08/26/live-updates-zcash-pulls-back-8-as-its-grayscale-etf-goes-live-capping-a-60-rally",
+      "event_type": "earnings",
+      "importance_tier": 2,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
+      "market_impact": "主要影响 QQQ，方向为 mixed，强度 high；AI 资本开支会影响大型科技股盈利和估值预期。",
+      "assets": [
+        "AMZN",
+        "GOOGL",
+        "META",
+        "MSFT",
+        "NVDA"
+      ]
     }
   ],
   "policy_news": [
@@ -123,99 +127,133 @@
       "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
       "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
       "assets": []
+    },
+    {
+      "title": "SEC resurrecting U.S. crypto custody rule the previous administration failed to land",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/news-analysis/2026/08/26/sec-resurrecting-u-s-crypto-custody-rule-the-previous-administration-failed-to-land",
+      "event_type": "crypto_market_structure",
+      "importance_tier": 2,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
+      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "assets": [
+        "BTC",
+        "COIN",
+        "ETH",
+        "crypto market"
+      ]
+    },
+    {
+      "title": "South Korea’s top financial conglomerate team up with Visa to test stablecoin issuance and B2B settlements",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/08/26/south-korea-s-shinhan-financial-joins-visa-to-build-stablecoin-infrastructure",
+      "event_type": "crypto_market_structure",
+      "importance_tier": 2,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
+      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "assets": [
+        "BTC",
+        "COIN",
+        "ETH",
+        "crypto market"
+      ]
     }
   ],
   "asset_movers": [
     {
-      "symbol": "3690.HK",
-      "group": "HK_MARKET",
-      "price": "77.20",
-      "one_day": "-6.65%",
-      "five_day": "-9.76%",
+      "symbol": "NG=F",
+      "group": "COMMODITIES",
+      "price": "2.92",
+      "one_day": "5.42%",
+      "five_day": "3.77%",
       "trend": "range_bound",
-      "direction": "down"
+      "direction": "up"
+    },
+    {
+      "symbol": "SOLANA",
+      "group": "CRYPTO",
+      "price": "101.27",
+      "one_day": "4.86%",
+      "five_day": "8.08%",
+      "trend": "strong_uptrend",
+      "direction": "up"
     },
     {
       "symbol": "BZ=F",
       "group": "COMMODITIES",
-      "price": "86.15",
-      "one_day": "-6.53%",
-      "five_day": "-5.35%",
+      "price": "86.28",
+      "one_day": "-2.60%",
+      "five_day": "-5.83%",
       "trend": "range_bound",
       "direction": "down"
+    },
+    {
+      "symbol": "ETH",
+      "group": "CRYPTO",
+      "price": "2,494.38",
+      "one_day": "2.14%",
+      "five_day": "-0.82%",
+      "trend": "strong_uptrend",
+      "direction": "up"
     },
     {
       "symbol": "RIPPLE",
       "group": "CRYPTO",
-      "price": "1.45",
-      "one_day": "-4.51%",
-      "five_day": "31.06%",
+      "price": "1.41",
+      "one_day": "-2.01%",
+      "five_day": "-3.38%",
       "trend": "strong_uptrend",
       "direction": "down"
     },
     {
-      "symbol": "CL=F",
-      "group": "COMMODITIES",
-      "price": "81.20",
-      "one_day": "-4.48%",
-      "five_day": "-4.40%",
-      "trend": "range_bound",
+      "symbol": "1810.HK",
+      "group": "HK_MARKET",
+      "price": "27.94",
+      "one_day": "-1.83%",
+      "five_day": "0.65%",
+      "trend": "uptrend",
       "direction": "down"
     },
     {
       "symbol": "^VIX",
       "group": "US_MACRO_MARKET",
-      "price": "15.45",
-      "one_day": "-2.52%",
-      "five_day": "-2.46%",
+      "price": "15.21",
+      "one_day": "-1.55%",
+      "five_day": "2.15%",
       "trend": "downtrend",
       "direction": "down"
     },
     {
-      "symbol": "SOLANA",
+      "symbol": "BINANCECOIN",
       "group": "CRYPTO",
-      "price": "97.59",
-      "one_day": "2.38%",
-      "five_day": "14.18%",
+      "price": "703.18",
+      "one_day": "1.30%",
+      "five_day": "2.39%",
       "trend": "strong_uptrend",
       "direction": "up"
-    },
-    {
-      "symbol": "NG=F",
-      "group": "COMMODITIES",
-      "price": "2.84",
-      "one_day": "2.16%",
-      "five_day": "2.38%",
-      "trend": "range_bound",
-      "direction": "up"
-    },
-    {
-      "symbol": "^HSI",
-      "group": "HK_MARKET",
-      "price": "25,517.33",
-      "one_day": "-1.89%",
-      "five_day": "0.25%",
-      "trend": "range_bound",
-      "direction": "down"
     }
   ],
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-08-26/COMMODITIES_summary.png"
+      "src": "charts/2026-08-27/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-08-26/CRYPTO_summary.png"
+      "src": "charts/2026-08-27/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-08-26/HK_MARKET_summary.png"
+      "src": "charts/2026-08-27/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-08-26/US_EQUITY_summary.png"
+      "src": "charts/2026-08-27/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-08-26.html"
+  "latest_report_href": "reports/2026-08-27.html"
 }
