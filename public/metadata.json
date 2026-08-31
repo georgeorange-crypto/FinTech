@@ -1,18 +1,16 @@
 {
-  "latest_date": "2026-08-30",
-  "market_data_date": "2026-08-30",
-  "chart_date": "2026-08-30",
-  "regime": "rates_shock",
-  "regime_summary": "长债下跌、美元走强且成长股承压，市场像是在交易利率冲击。",
+  "latest_date": "2026-08-31",
+  "market_data_date": "2026-08-31",
+  "chart_date": "2026-08-31",
+  "regime": "unknown",
+  "regime_summary": "市场信号不足，暂不判断明确状态。",
   "key_moves": [
     "QQQ 下跌 -0.65%",
-    "DXY 上涨 0.54%",
-    "Gold 下跌 -2.85%",
-    "BTC 下跌 -2.50%",
-    "ETH 下跌 -2.09%"
+    "Gold 上涨 0.65%",
+    "Oil 上涨 1.46%"
   ],
   "watch_points": [
-    "关注美债收益率、实际利率和成长股估值压力。"
+    "关注后续数据是否确认当前跨资产信号。"
   ],
   "cards": [
     {
@@ -29,62 +27,43 @@
     },
     {
       "label": "BTC",
-      "value": "-2.50%"
+      "value": "-0.93%"
     },
     {
       "label": "Gold",
-      "value": "-2.85%"
+      "value": "0.65%"
     },
     {
       "label": "Oil",
-      "value": "-0.16%"
+      "value": "1.46%"
     }
   ],
   "top_themes": [
-    "central_bank_decision: September Fed decision is now a coin flip as rate hike odds increase post Warsh",
-    "central_bank_speech: Fed Chair Kevin Warsh at Jackson Hole: 'We have work to do' on inflation",
+    "central_bank_decision: U.S. stock futures slip as chances of rate hike rise after Warsh’s Jackson Hole comments",
     "crypto_market_structure: The next trillion-dollar currency may not be a stablecoin — it might not even have a name yet"
   ],
   "news_counts": {
-    "must_read": 10,
-    "policy_watch": 8,
-    "background": 9
+    "must_read": 4,
+    "policy_watch": 2,
+    "background": 5
   },
   "focus_news": [
     {
-      "title": "September Fed decision is now a coin flip as rate hike odds increase post Warsh",
-      "source": "CNBC Economy",
-      "url": "https://www.cnbc.com/2026/08/28/-september-fed-decision-now-a-coin-flip-as-rate-hike-odds-increase.html",
+      "title": "U.S. stock futures slip as chances of rate hike rise after Warsh’s Jackson Hole comments",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/u-s-stock-futures-flat-as-chances-of-rate-hike-rise-after-warshs-jackson-hole-comments-1f5287f2?mod=mw_rss_topstories",
       "event_type": "central_bank_decision",
       "importance_tier": 1,
       "impact_strength": "high",
       "impact_direction": "mixed",
       "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
-      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
+      "market_impact": "主要影响 QQQ，方向为 negative，强度 high；鹰派政策提高折现率，压制成长股估值。",
       "assets": [
         "BTC",
         "DXY",
-        "GC=F",
         "QQQ",
-        "SPY"
-      ]
-    },
-    {
-      "title": "Fed Chair Kevin Warsh at Jackson Hole: 'We have work to do' on inflation",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/08/28/warsh-at-jackson-hole-we-have-work-to-do-on-inflaiton",
-      "event_type": "central_bank_speech",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "央行官员表态可能影响市场对下一次会议的定价。",
-      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
-      "assets": [
-        "BTC",
-        "DXY",
-        "GC=F",
-        "QQQ",
-        "SPY"
+        "SPY",
+        "TLT"
       ]
     },
     {
@@ -105,14 +84,40 @@
       ]
     },
     {
-      "title": "Live updates: Bitcoin slides below $78,000 as markets digest Warsh's hawkish remarks",
+      "title": "Average Contract Interest Rates on Loans and Discounts (July)",
+      "source": "Bank of Japan Announcements",
+      "url": "http://www.boj.or.jp/en/statistics/dl/loan/yaku/yaku2607.pdf",
+      "event_type": "other",
+      "importance_tier": 3,
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "market_impact": "更偏背景信息，短期市场影响可能有限。",
+      "assets": []
+    },
+    {
+      "title": "Michael Saylor hints at first bitcoin purchase in two months",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/08/28/live-updates-bitcoin-options-worth-usd6-4-billion-just-expired-as-prices-hover-near-usd80-000",
-      "event_type": "central_bank_speech",
-      "importance_tier": 2,
+      "url": "https://www.coindesk.com/markets/2026/08/30/bitcoin-nears-usd79-000-as-michael-saylor-hints-at-first-bitcoin-purchase-in-two-months",
+      "event_type": "other",
+      "importance_tier": 3,
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "market_impact": "更偏背景信息，短期市场影响可能有限。",
+      "assets": []
+    }
+  ],
+  "policy_news": [
+    {
+      "title": "U.S. stock futures slip as chances of rate hike rise after Warsh’s Jackson Hole comments",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/u-s-stock-futures-flat-as-chances-of-rate-hike-rise-after-warshs-jackson-hole-comments-1f5287f2?mod=mw_rss_topstories",
+      "event_type": "central_bank_decision",
+      "importance_tier": 1,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "央行官员表态可能影响市场对下一次会议的定价。",
+      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
       "market_impact": "主要影响 QQQ，方向为 negative，强度 high；鹰派政策提高折现率，压制成长股估值。",
       "assets": [
         "BTC",
@@ -120,44 +125,6 @@
         "QQQ",
         "SPY",
         "TLT"
-      ]
-    }
-  ],
-  "policy_news": [
-    {
-      "title": "September Fed decision is now a coin flip as rate hike odds increase post Warsh",
-      "source": "CNBC Economy",
-      "url": "https://www.cnbc.com/2026/08/28/-september-fed-decision-now-a-coin-flip-as-rate-hike-odds-increase.html",
-      "event_type": "central_bank_decision",
-      "importance_tier": 1,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
-      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
-      "assets": [
-        "BTC",
-        "DXY",
-        "GC=F",
-        "QQQ",
-        "SPY"
-      ]
-    },
-    {
-      "title": "Fed Chair Kevin Warsh at Jackson Hole: 'We have work to do' on inflation",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/08/28/warsh-at-jackson-hole-we-have-work-to-do-on-inflaiton",
-      "event_type": "central_bank_speech",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "央行官员表态可能影响市场对下一次会议的定价。",
-      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
-      "assets": [
-        "BTC",
-        "DXY",
-        "GC=F",
-        "QQQ",
-        "SPY"
       ]
     },
     {
@@ -180,95 +147,95 @@
   ],
   "asset_movers": [
     {
-      "symbol": "RIPPLE",
-      "group": "CRYPTO",
-      "price": "1.40",
-      "one_day": "-3.94%",
-      "five_day": "-8.16%",
-      "trend": "strong_uptrend",
-      "direction": "down"
-    },
-    {
-      "symbol": "SI=F",
-      "group": "COMMODITIES",
-      "price": "67.00",
-      "one_day": "-3.51%",
-      "five_day": "-3.56%",
-      "trend": "strong_uptrend",
-      "direction": "down"
-    },
-    {
       "symbol": "SOLANA",
       "group": "CRYPTO",
-      "price": "105.73",
-      "one_day": "-3.16%",
-      "five_day": "10.82%",
+      "price": "101.42",
+      "one_day": "-3.96%",
+      "five_day": "5.01%",
       "trend": "strong_uptrend",
       "direction": "down"
     },
     {
-      "symbol": "GC=F",
-      "group": "COMMODITIES",
-      "price": "4,478.10",
-      "one_day": "-2.85%",
-      "five_day": "-3.16%",
-      "trend": "strong_uptrend",
-      "direction": "down"
-    },
-    {
-      "symbol": "BINANCECOIN",
+      "symbol": "RIPPLE",
       "group": "CRYPTO",
-      "price": "692.61",
-      "one_day": "-2.73%",
-      "five_day": "-1.37%",
+      "price": "1.35",
+      "one_day": "-3.08%",
+      "five_day": "-5.63%",
       "trend": "strong_uptrend",
       "direction": "down"
-    },
-    {
-      "symbol": "BTC",
-      "group": "CRYPTO",
-      "price": "78,261.01",
-      "one_day": "-2.50%",
-      "five_day": "0.71%",
-      "trend": "strong_uptrend",
-      "direction": "down"
-    },
-    {
-      "symbol": "NG=F",
-      "group": "COMMODITIES",
-      "price": "2.91",
-      "one_day": "2.29%",
-      "five_day": "6.37%",
-      "trend": "range_bound",
-      "direction": "up"
     },
     {
       "symbol": "ETH",
       "group": "CRYPTO",
-      "price": "2,458.85",
-      "one_day": "-2.09%",
-      "five_day": "-0.14%",
+      "price": "2,409.34",
+      "one_day": "-1.94%",
+      "five_day": "-1.34%",
       "trend": "strong_uptrend",
+      "direction": "down"
+    },
+    {
+      "symbol": "0700.HK",
+      "group": "HK_MARKET",
+      "price": "455.20",
+      "one_day": "1.65%",
+      "five_day": "-0.39%",
+      "trend": "range_bound",
+      "direction": "up"
+    },
+    {
+      "symbol": "CL=F",
+      "group": "COMMODITIES",
+      "price": "84.62",
+      "one_day": "1.46%",
+      "five_day": "-0.46%",
+      "trend": "uptrend",
+      "direction": "up"
+    },
+    {
+      "symbol": "BINANCECOIN",
+      "group": "CRYPTO",
+      "price": "682.70",
+      "one_day": "-1.42%",
+      "five_day": "-1.65%",
+      "trend": "strong_uptrend",
+      "direction": "down"
+    },
+    {
+      "symbol": "9988.HK",
+      "group": "HK_MARKET",
+      "price": "113.90",
+      "one_day": "-1.39%",
+      "five_day": "-7.40%",
+      "trend": "range_bound",
+      "direction": "down"
+    },
+    {
+      "symbol": "IWM",
+      "group": "US_EQUITY",
+      "price": "295.75",
+      "one_day": "-1.35%",
+      "five_day": "-1.40%",
+      "trend": "range_bound",
       "direction": "down"
     }
   ],
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-08-30/COMMODITIES_summary.png"
+      "src": "charts/2026-08-31/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-08-30/CRYPTO_summary.png"
+      "src": "charts/2026-08-31/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-08-30/HK_MARKET_summary.png"
+      "src": "charts/2026-08-31/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-08-30/US_EQUITY_summary.png"
+      "src": "charts/2026-08-31/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-08-30.html"
+  "latest_report_href": "reports/2026-08-31.html"
 }
