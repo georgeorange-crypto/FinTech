@@ -1,57 +1,75 @@
 {
-  "latest_date": "2026-09-01",
-  "market_data_date": "2026-09-01",
-  "chart_date": "2026-09-01",
-  "regime": "crypto_specific",
-  "regime_summary": "BTC/ETH 明显走强但美股平淡，行情更像加密自身事件驱动。",
+  "latest_date": "2026-09-02",
+  "market_data_date": "2026-09-02",
+  "chart_date": "2026-09-02",
+  "regime": "mixed",
+  "regime_summary": "市场信号不足，暂不判断明确状态。 但存在信号冲突，需要降低单一叙事置信度。",
   "key_moves": [
-    "VIX 上涨 3.40%",
-    "TLT 下跌 -0.43%",
-    "DXY 下跌 -0.31%",
-    "Gold 上涨 0.60%",
-    "Oil 上涨 3.90%",
-    "ETH 上涨 2.23%"
+    "SPY 下跌 -0.69%",
+    "QQQ 下跌 -1.27%",
+    "VIX 上涨 9.52%",
+    "TLT 下跌 -0.79%",
+    "Gold 下跌 -1.18%",
+    "Oil 上涨 5.76%"
   ],
   "watch_points": [
-    "关注 ETF、监管、稳定币或链上流动性新闻。"
+    "关注后续数据是否确认当前跨资产信号。"
   ],
   "cards": [
     {
       "label": "美股 SPY",
-      "value": "-0.30%"
+      "value": "-0.69%"
     },
     {
       "label": "QQQ",
-      "value": "0.05%"
+      "value": "-1.27%"
     },
     {
       "label": "VIX",
-      "value": "3.40%"
+      "value": "9.52%"
     },
     {
       "label": "BTC",
-      "value": "1.24%"
+      "value": "-0.21%"
     },
     {
       "label": "Gold",
-      "value": "0.60%"
+      "value": "-1.18%"
     },
     {
       "label": "Oil",
-      "value": "3.90%"
+      "value": "5.76%"
     }
   ],
   "top_themes": [
+    "central_bank_decision: Fed Governor Barr says he'll support rate hike if inflation doesn't ease",
     "central_bank_decision: Markets see Warsh endorsing a rate hike in September. Not everyone is convinced",
-    "central_bank_decision: September Fed rate hike fears look overblown as the probability stands at just 58%, not 90%",
-    "central_bank_speech: Jackson Hole analyst roundup: Warsh's speech sends hike chances higher, may put Fed 'at odds' with Treasury"
+    "regulation: SEC Announces Agenda and Panelists for Roundtable on Preparations for 24-Hour Trading"
   ],
   "news_counts": {
-    "must_read": 6,
-    "policy_watch": 4,
-    "background": 16
+    "must_read": 10,
+    "policy_watch": 10,
+    "background": 15
   },
   "focus_news": [
+    {
+      "title": "Fed Governor Barr says he'll support rate hike if inflation doesn't ease",
+      "source": "CNBC Economy",
+      "url": "https://www.cnbc.com/2026/09/01/fed-governor-barr-says-hell-support-rate-hike-if-inflation-doesnt-ease.html",
+      "event_type": "central_bank_decision",
+      "importance_tier": 1,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
+      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
+      "assets": [
+        "BTC",
+        "DXY",
+        "GC=F",
+        "QQQ",
+        "SPY"
+      ]
+    },
     {
       "title": "Markets see Warsh endorsing a rate hike in September. Not everyone is convinced",
       "source": "CNBC Economy",
@@ -71,45 +89,26 @@
       ]
     },
     {
-      "title": "September Fed rate hike fears look overblown as the probability stands at just 58%, not 90%",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/08/31/september-fed-rate-hike-fears-appear-overblown-as-the-probability-is-just-58-not-90",
-      "event_type": "central_bank_decision",
-      "importance_tier": 1,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
-      "market_impact": "主要影响 QQQ，方向为 negative，强度 high；鹰派政策提高折现率，压制成长股估值。",
-      "assets": [
-        "BTC",
-        "DXY",
-        "QQQ",
-        "SPY",
-        "TLT"
-      ]
-    },
-    {
-      "title": "Jackson Hole analyst roundup: Warsh's speech sends hike chances higher, may put Fed 'at odds' with Treasury",
-      "source": "CNBC Economy",
-      "url": "https://www.cnbc.com/2026/08/31/jackson-hole-fed-chair-kevin-warsh-hawkish-rate-hikes-analysts.html",
-      "event_type": "central_bank_speech",
+      "title": "SEC Announces Agenda and Panelists for Roundtable on Preparations for 24-Hour Trading",
+      "source": "SEC Press Releases",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-83-sec-announces-agenda-panelists-roundtable-preparations-24-hour-trading",
+      "event_type": "regulation",
       "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "央行官员表态可能影响市场对下一次会议的定价。",
-      "market_impact": "主要影响 QQQ，方向为 negative，强度 high；鹰派政策提高折现率，压制成长股估值。",
+      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
       "assets": [
         "BTC",
-        "DXY",
-        "QQQ",
-        "SPY",
-        "TLT"
+        "COIN",
+        "ETH",
+        "crypto market"
       ]
     },
     {
-      "title": "SEC and FDA Announce MOU to Bolster Cooperation and Ensure Market Integrity",
+      "title": "SEC Charges San Francisco Bay Area Private Fund Executives with Multimillion Dollar Ponzi-Like Scheme",
       "source": "SEC Press Releases",
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-80-sec-fda-announce-mou-bolster-cooperation-ensure-market-integrity",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-82-sec-charges-san-francisco-bay-area-private-fund-executives-multimillion-dollar-ponzi-scheme",
       "event_type": "regulation",
       "importance_tier": 2,
       "impact_strength": "high",
@@ -126,6 +125,24 @@
   ],
   "policy_news": [
     {
+      "title": "Fed Governor Barr says he'll support rate hike if inflation doesn't ease",
+      "source": "CNBC Economy",
+      "url": "https://www.cnbc.com/2026/09/01/fed-governor-barr-says-hell-support-rate-hike-if-inflation-doesnt-ease.html",
+      "event_type": "central_bank_decision",
+      "importance_tier": 1,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
+      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
+      "assets": [
+        "BTC",
+        "DXY",
+        "GC=F",
+        "QQQ",
+        "SPY"
+      ]
+    },
+    {
       "title": "Markets see Warsh endorsing a rate hike in September. Not everyone is convinced",
       "source": "CNBC Economy",
       "url": "https://www.cnbc.com/2026/08/31/markets-see-warsh-endorsing-a-rate-hike-in-september-not-everyone-is-convinced.html",
@@ -144,133 +161,114 @@
       ]
     },
     {
-      "title": "September Fed rate hike fears look overblown as the probability stands at just 58%, not 90%",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/08/31/september-fed-rate-hike-fears-appear-overblown-as-the-probability-is-just-58-not-90",
-      "event_type": "central_bank_decision",
-      "importance_tier": 1,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
-      "market_impact": "主要影响 QQQ，方向为 negative，强度 high；鹰派政策提高折现率，压制成长股估值。",
-      "assets": [
-        "BTC",
-        "DXY",
-        "QQQ",
-        "SPY",
-        "TLT"
-      ]
-    },
-    {
-      "title": "Jackson Hole analyst roundup: Warsh's speech sends hike chances higher, may put Fed 'at odds' with Treasury",
-      "source": "CNBC Economy",
-      "url": "https://www.cnbc.com/2026/08/31/jackson-hole-fed-chair-kevin-warsh-hawkish-rate-hikes-analysts.html",
-      "event_type": "central_bank_speech",
+      "title": "SEC Announces Agenda and Panelists for Roundtable on Preparations for 24-Hour Trading",
+      "source": "SEC Press Releases",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-83-sec-announces-agenda-panelists-roundtable-preparations-24-hour-trading",
+      "event_type": "regulation",
       "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "央行官员表态可能影响市场对下一次会议的定价。",
-      "market_impact": "主要影响 QQQ，方向为 negative，强度 high；鹰派政策提高折现率，压制成长股估值。",
+      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
       "assets": [
         "BTC",
-        "DXY",
-        "QQQ",
-        "SPY",
-        "TLT"
+        "COIN",
+        "ETH",
+        "crypto market"
       ]
     }
   ],
   "asset_movers": [
     {
-      "symbol": "CL=F",
-      "group": "COMMODITIES",
-      "price": "86.65",
-      "one_day": "3.90%",
-      "five_day": "1.93%",
-      "trend": "uptrend",
-      "direction": "up"
-    },
-    {
       "symbol": "^VIX",
       "group": "US_MACRO_MARKET",
-      "price": "14.92",
-      "one_day": "3.40%",
-      "five_day": "-5.87%",
-      "trend": "downtrend",
-      "direction": "up"
-    },
-    {
-      "symbol": "HG=F",
-      "group": "COMMODITIES",
-      "price": "6.72",
-      "one_day": "2.48%",
-      "five_day": "1.90%",
-      "trend": "strong_uptrend",
-      "direction": "up"
-    },
-    {
-      "symbol": "ETH",
-      "group": "CRYPTO",
-      "price": "2,470.24",
-      "one_day": "2.23%",
-      "five_day": "-1.44%",
-      "trend": "strong_uptrend",
-      "direction": "up"
-    },
-    {
-      "symbol": "RIPPLE",
-      "group": "CRYPTO",
-      "price": "1.38",
-      "one_day": "1.87%",
-      "five_day": "-2.75%",
-      "trend": "strong_uptrend",
-      "direction": "up"
-    },
-    {
-      "symbol": "0700.HK",
-      "group": "HK_MARKET",
-      "price": "455.20",
-      "one_day": "1.65%",
-      "five_day": "-0.39%",
+      "price": "16.34",
+      "one_day": "9.52%",
+      "five_day": "3.09%",
       "trend": "range_bound",
       "direction": "up"
     },
     {
-      "symbol": "SOLANA",
-      "group": "CRYPTO",
-      "price": "103.12",
-      "one_day": "1.41%",
-      "five_day": "1.05%",
+      "symbol": "CL=F",
+      "group": "COMMODITIES",
+      "price": "90.70",
+      "one_day": "5.76%",
+      "five_day": "10.13%",
+      "trend": "strong_uptrend",
+      "direction": "up"
+    },
+    {
+      "symbol": "BZ=F",
+      "group": "COMMODITIES",
+      "price": "95.17",
+      "one_day": "5.17%",
+      "five_day": "7.44%",
       "trend": "strong_uptrend",
       "direction": "up"
     },
     {
       "symbol": "9988.HK",
       "group": "HK_MARKET",
-      "price": "113.90",
-      "one_day": "-1.39%",
-      "five_day": "-7.40%",
+      "price": "110.40",
+      "one_day": "-3.33%",
+      "five_day": "-3.33%",
       "trend": "range_bound",
+      "direction": "down"
+    },
+    {
+      "symbol": "3690.HK",
+      "group": "HK_MARKET",
+      "price": "76.65",
+      "one_day": "-2.85%",
+      "five_day": "-0.71%",
+      "trend": "range_bound",
+      "direction": "down"
+    },
+    {
+      "symbol": "0700.HK",
+      "group": "HK_MARKET",
+      "price": "441.40",
+      "one_day": "-2.56%",
+      "five_day": "-0.14%",
+      "trend": "range_bound",
+      "direction": "down"
+    },
+    {
+      "symbol": "SI=F",
+      "group": "COMMODITIES",
+      "price": "64.72",
+      "one_day": "-2.26%",
+      "five_day": "-5.70%",
+      "trend": "range_bound",
+      "direction": "down"
+    },
+    {
+      "symbol": "SOLANA",
+      "group": "CRYPTO",
+      "price": "100.09",
+      "one_day": "-1.56%",
+      "five_day": "-1.92%",
+      "trend": "strong_uptrend",
       "direction": "down"
     }
   ],
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-09-01/COMMODITIES_summary.png"
+      "src": "charts/2026-09-02/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-09-01/CRYPTO_summary.png"
+      "src": "charts/2026-09-02/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-09-01/HK_MARKET_summary.png"
+      "src": "charts/2026-09-02/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-09-01/US_EQUITY_summary.png"
+      "src": "charts/2026-09-02/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-09-01.html"
+  "latest_report_href": "reports/2026-09-02.html"
 }
