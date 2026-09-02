@@ -1,16 +1,14 @@
 {
-  "latest_date": "2026-09-02",
-  "market_data_date": "2026-09-02",
-  "chart_date": "2026-09-02",
-  "regime": "mixed",
-  "regime_summary": "市场信号不足，暂不判断明确状态。 但存在信号冲突，需要降低单一叙事置信度。",
+  "latest_date": "2026-09-03",
+  "market_data_date": "2026-09-03",
+  "chart_date": "2026-09-03",
+  "regime": "unknown",
+  "regime_summary": "市场信号不足，暂不判断明确状态。",
   "key_moves": [
-    "SPY 下跌 -0.69%",
-    "QQQ 下跌 -1.27%",
-    "VIX 上涨 9.52%",
-    "TLT 下跌 -0.79%",
-    "Gold 下跌 -1.18%",
-    "Oil 上涨 5.76%"
+    "SPY 上涨 0.44%",
+    "VIX 下跌 -6.98%",
+    "Gold 上涨 1.87%",
+    "ETH 下跌 -3.28%"
   ],
   "watch_points": [
     "关注后续数据是否确认当前跨资产信号。"
@@ -18,40 +16,58 @@
   "cards": [
     {
       "label": "美股 SPY",
-      "value": "-0.69%"
+      "value": "0.44%"
     },
     {
       "label": "QQQ",
-      "value": "-1.27%"
+      "value": "0.23%"
     },
     {
       "label": "VIX",
-      "value": "9.52%"
+      "value": "-6.98%"
     },
     {
       "label": "BTC",
-      "value": "-0.21%"
+      "value": "-1.78%"
     },
     {
       "label": "Gold",
-      "value": "-1.18%"
+      "value": "1.87%"
     },
     {
       "label": "Oil",
-      "value": "5.76%"
+      "value": "0.47%"
     }
   ],
   "top_themes": [
+    "central_bank_decision: New York Fed's Williams says yield surge due to strong economic prospects",
     "central_bank_decision: Fed Governor Barr says he'll support rate hike if inflation doesn't ease",
-    "central_bank_decision: Markets see Warsh endorsing a rate hike in September. Not everyone is convinced",
-    "regulation: SEC Announces Agenda and Panelists for Roundtable on Preparations for 24-Hour Trading"
+    "earnings: Nvidia’s stock is climbing as investors get more confidence in an expanding base of AI customers"
   ],
   "news_counts": {
     "must_read": 10,
-    "policy_watch": 10,
-    "background": 15
+    "policy_watch": 8,
+    "background": 19
   },
   "focus_news": [
+    {
+      "title": "New York Fed's Williams says yield surge due to strong economic prospects",
+      "source": "CNBC Economy",
+      "url": "https://www.cnbc.com/2026/09/02/new-york-feds-williams-says-yield-surge-due-to-strong-economic-prospects.html",
+      "event_type": "central_bank_decision",
+      "importance_tier": 1,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
+      "market_impact": "主要影响 QQQ，方向为 negative，强度 high；鹰派政策提高折现率，压制成长股估值。",
+      "assets": [
+        "BTC",
+        "DXY",
+        "QQQ",
+        "SPY",
+        "TLT"
+      ]
+    },
     {
       "title": "Fed Governor Barr says he'll support rate hike if inflation doesn't ease",
       "source": "CNBC Economy",
@@ -71,60 +87,62 @@
       ]
     },
     {
-      "title": "Markets see Warsh endorsing a rate hike in September. Not everyone is convinced",
-      "source": "CNBC Economy",
-      "url": "https://www.cnbc.com/2026/08/31/markets-see-warsh-endorsing-a-rate-hike-in-september-not-everyone-is-convinced.html",
-      "event_type": "central_bank_decision",
-      "importance_tier": 1,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
-      "market_impact": "主要影响 QQQ，方向为 negative，强度 high；鹰派政策提高折现率，压制成长股估值。",
-      "assets": [
-        "BTC",
-        "DXY",
-        "QQQ",
-        "SPY",
-        "TLT"
-      ]
-    },
-    {
-      "title": "SEC Announces Agenda and Panelists for Roundtable on Preparations for 24-Hour Trading",
-      "source": "SEC Press Releases",
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-83-sec-announces-agenda-panelists-roundtable-preparations-24-hour-trading",
-      "event_type": "regulation",
+      "title": "Nvidia’s stock is climbing as investors get more confidence in an expanding base of AI customers",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/nvidias-stock-is-climbing-as-investors-get-more-confidence-in-an-expanding-base-of-ai-customers-a6e297f1?mod=mw_rss_topstories",
+      "event_type": "earnings",
       "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
+      "market_impact": "主要影响 QQQ，方向为 mixed，强度 high；AI 资本开支会影响大型科技股盈利和估值预期。",
       "assets": [
-        "BTC",
-        "COIN",
-        "ETH",
-        "crypto market"
+        "AMZN",
+        "GOOGL",
+        "META",
+        "MSFT",
+        "NVDA"
       ]
     },
     {
-      "title": "SEC Charges San Francisco Bay Area Private Fund Executives with Multimillion Dollar Ponzi-Like Scheme",
-      "source": "SEC Press Releases",
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-82-sec-charges-san-francisco-bay-area-private-fund-executives-multimillion-dollar-ponzi-scheme",
-      "event_type": "regulation",
+      "title": "Palantir’s stock is slumping. Why bond yields and Google may be to blame.",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/why-palantirs-stock-is-suffering-its-worst-slump-since-february-7fb3b289?mod=mw_rss_topstories",
+      "event_type": "earnings",
       "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
+      "market_impact": "主要影响 QQQ，方向为 mixed，强度 high；AI 资本开支会影响大型科技股盈利和估值预期。",
       "assets": [
-        "BTC",
-        "COIN",
-        "ETH",
-        "crypto market"
+        "AMZN",
+        "GOOGL",
+        "META",
+        "MSFT",
+        "NVDA"
       ]
     }
   ],
   "policy_news": [
     {
+      "title": "New York Fed's Williams says yield surge due to strong economic prospects",
+      "source": "CNBC Economy",
+      "url": "https://www.cnbc.com/2026/09/02/new-york-feds-williams-says-yield-surge-due-to-strong-economic-prospects.html",
+      "event_type": "central_bank_decision",
+      "importance_tier": 1,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
+      "market_impact": "主要影响 QQQ，方向为 negative，强度 high；鹰派政策提高折现率，压制成长股估值。",
+      "assets": [
+        "BTC",
+        "DXY",
+        "QQQ",
+        "SPY",
+        "TLT"
+      ]
+    },
+    {
       "title": "Fed Governor Barr says he'll support rate hike if inflation doesn't ease",
       "source": "CNBC Economy",
       "url": "https://www.cnbc.com/2026/09/01/fed-governor-barr-says-hell-support-rate-hike-if-inflation-doesnt-ease.html",
@@ -140,24 +158,6 @@
         "GC=F",
         "QQQ",
         "SPY"
-      ]
-    },
-    {
-      "title": "Markets see Warsh endorsing a rate hike in September. Not everyone is convinced",
-      "source": "CNBC Economy",
-      "url": "https://www.cnbc.com/2026/08/31/markets-see-warsh-endorsing-a-rate-hike-in-september-not-everyone-is-convinced.html",
-      "event_type": "central_bank_decision",
-      "importance_tier": 1,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
-      "market_impact": "主要影响 QQQ，方向为 negative，强度 high；鹰派政策提高折现率，压制成长股估值。",
-      "assets": [
-        "BTC",
-        "DXY",
-        "QQQ",
-        "SPY",
-        "TLT"
       ]
     },
     {
@@ -182,93 +182,93 @@
     {
       "symbol": "^VIX",
       "group": "US_MACRO_MARKET",
-      "price": "16.34",
-      "one_day": "9.52%",
-      "five_day": "3.09%",
+      "price": "15.20",
+      "one_day": "-6.98%",
+      "five_day": "-0.07%",
+      "trend": "range_bound",
+      "direction": "down"
+    },
+    {
+      "symbol": "NG=F",
+      "group": "COMMODITIES",
+      "price": "3.01",
+      "one_day": "3.58%",
+      "five_day": "5.84%",
       "trend": "range_bound",
       "direction": "up"
     },
     {
-      "symbol": "CL=F",
-      "group": "COMMODITIES",
-      "price": "90.70",
-      "one_day": "5.76%",
-      "five_day": "10.13%",
+      "symbol": "1211.HK",
+      "group": "HK_MARKET",
+      "price": "85.25",
+      "one_day": "-3.40%",
+      "five_day": "-7.94%",
+      "trend": "range_bound",
+      "direction": "down"
+    },
+    {
+      "symbol": "ETH",
+      "group": "CRYPTO",
+      "price": "2,385.55",
+      "one_day": "-3.28%",
+      "five_day": "-5.01%",
       "trend": "strong_uptrend",
-      "direction": "up"
-    },
-    {
-      "symbol": "BZ=F",
-      "group": "COMMODITIES",
-      "price": "95.17",
-      "one_day": "5.17%",
-      "five_day": "7.44%",
-      "trend": "strong_uptrend",
-      "direction": "up"
-    },
-    {
-      "symbol": "9988.HK",
-      "group": "HK_MARKET",
-      "price": "110.40",
-      "one_day": "-3.33%",
-      "five_day": "-3.33%",
-      "trend": "range_bound",
-      "direction": "down"
-    },
-    {
-      "symbol": "3690.HK",
-      "group": "HK_MARKET",
-      "price": "76.65",
-      "one_day": "-2.85%",
-      "five_day": "-0.71%",
-      "trend": "range_bound",
-      "direction": "down"
-    },
-    {
-      "symbol": "0700.HK",
-      "group": "HK_MARKET",
-      "price": "441.40",
-      "one_day": "-2.56%",
-      "five_day": "-0.14%",
-      "trend": "range_bound",
-      "direction": "down"
-    },
-    {
-      "symbol": "SI=F",
-      "group": "COMMODITIES",
-      "price": "64.72",
-      "one_day": "-2.26%",
-      "five_day": "-5.70%",
-      "trend": "range_bound",
       "direction": "down"
     },
     {
       "symbol": "SOLANA",
       "group": "CRYPTO",
-      "price": "100.09",
-      "one_day": "-1.56%",
-      "five_day": "-1.92%",
+      "price": "99.97",
+      "one_day": "-2.96%",
+      "five_day": "-8.44%",
       "trend": "strong_uptrend",
       "direction": "down"
+    },
+    {
+      "symbol": "3690.HK",
+      "group": "HK_MARKET",
+      "price": "78.75",
+      "one_day": "2.74%",
+      "five_day": "0.90%",
+      "trend": "range_bound",
+      "direction": "up"
+    },
+    {
+      "symbol": "RIPPLE",
+      "group": "CRYPTO",
+      "price": "1.35",
+      "one_day": "-2.22%",
+      "five_day": "-7.22%",
+      "trend": "strong_uptrend",
+      "direction": "down"
+    },
+    {
+      "symbol": "SI=F",
+      "group": "COMMODITIES",
+      "price": "65.90",
+      "one_day": "1.99%",
+      "five_day": "-3.07%",
+      "trend": "range_bound",
+      "direction": "up"
     }
   ],
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-09-02/COMMODITIES_summary.png"
+      "src": "charts/2026-09-03/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-09-02/CRYPTO_summary.png"
+      "src": "charts/2026-09-03/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-09-02/HK_MARKET_summary.png"
+      "src": "charts/2026-09-03/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-09-02/US_EQUITY_summary.png"
+      "src": "charts/2026-09-03/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-09-02.html"
+  "latest_report_href": "reports/2026-09-03.html"
 }
