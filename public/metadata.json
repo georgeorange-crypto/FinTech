@@ -1,75 +1,76 @@
 {
-  "latest_date": "2026-09-04",
-  "market_data_date": "2026-09-04",
-  "chart_date": "2026-09-04",
-  "regime": "risk_on",
-  "regime_summary": "股指上涨、波动率或美元回落，市场更接近风险偏好改善。",
+  "latest_date": "2026-09-05",
+  "market_data_date": "2026-09-05",
+  "chart_date": "2026-09-05",
+  "regime": "crypto_specific",
+  "regime_summary": "BTC/ETH 明显走强但美股平淡，行情更像加密自身事件驱动。",
   "key_moves": [
-    "SPY 上涨 1.05%",
-    "QQQ 上涨 1.19%",
-    "VIX 下跌 -5.79%",
-    "DXY 下跌 -0.53%",
-    "Gold 上涨 3.63%",
-    "BTC 上涨 4.94%",
-    "ETH 上涨 3.70%"
+    "BTC 上涨 3.09%",
+    "ETH 上涨 2.65%"
   ],
   "watch_points": [
-    "确认风险偏好是否扩散到小盘股、信用利差和周期品。"
+    "关注 ETF、监管、稳定币或链上流动性新闻。"
   ],
   "cards": [
     {
       "label": "美股 SPY",
-      "value": "1.05%"
+      "value": "-0.39%"
     },
     {
       "label": "QQQ",
-      "value": "1.19%"
+      "value": "0.18%"
     },
     {
       "label": "VIX",
-      "value": "-5.79%"
+      "value": "1.47%"
     },
     {
       "label": "BTC",
-      "value": "4.94%"
+      "value": "3.09%"
     },
     {
       "label": "Gold",
-      "value": "3.63%"
+      "value": "-0.32%"
     },
     {
       "label": "Oil",
-      "value": "0.96%"
+      "value": "-0.09%"
     }
   ],
   "top_themes": [
-    "central_bank_decision: New York Fed's Williams says yield surge due to strong economic prospects",
-    "fiscal_policy: China hits back at G20 statement on its reliance on exports, accusing them of 'promoting protectionism'",
-    "earnings: Here’s what Nvidia’s $13 billion Hugging Face deal means for the world of AI"
+    "fiscal_policy: Financial Results of Japan's Banks for Fiscal 2025",
+    "macro_data: We checked 6 years of bitcoin data. The NFP report isn't big price mover",
+    "fiscal_policy: China hits back at G20 statement on its reliance on exports, accusing them of 'promoting protectionism'"
   ],
   "news_counts": {
     "must_read": 10,
     "policy_watch": 5,
-    "background": 20
+    "background": 16
   },
   "focus_news": [
     {
-      "title": "New York Fed's Williams says yield surge due to strong economic prospects",
-      "source": "CNBC Economy",
-      "url": "https://www.cnbc.com/2026/09/02/new-york-feds-williams-says-yield-surge-due-to-strong-economic-prospects.html",
-      "event_type": "central_bank_decision",
+      "title": "Financial Results of Japan's Banks for Fiscal 2025",
+      "source": "Bank of Japan Announcements",
+      "url": "http://www.boj.or.jp/en/research/brp/fsr/fsrb260904.htm",
+      "event_type": "fiscal_policy",
       "importance_tier": 1,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
-      "market_impact": "主要影响 QQQ，方向为 negative，强度 high；鹰派政策提高折现率，压制成长股估值。",
-      "assets": [
-        "BTC",
-        "DXY",
-        "QQQ",
-        "SPY",
-        "TLT"
-      ]
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "assets": []
+    },
+    {
+      "title": "We checked 6 years of bitcoin data. The NFP report isn't big price mover",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/daybook-us/2026/09/04/we-checked-6-years-of-bitcoin-data-the-nfp-report-isn-t-big-price-mover",
+      "event_type": "macro_data",
+      "importance_tier": 1,
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "这类宏观数据会直接改变市场对通胀、增长和政策路径的预期。",
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "assets": []
     },
     {
       "title": "China hits back at G20 statement on its reliance on exports, accusing them of 'promoting protectionism'",
@@ -84,60 +85,35 @@
       "assets": []
     },
     {
-      "title": "Here’s what Nvidia’s $13 billion Hugging Face deal means for the world of AI",
-      "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/heres-what-nvidias-13-billion-hugging-face-deal-means-for-the-world-of-ai-360e9fd1?mod=mw_rss_topstories",
-      "event_type": "earnings",
+      "title": "SEC Proposes Rescission of Political Contribution Rule for Investment Advisers",
+      "source": "SEC Press Releases",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-85-sec-proposes-rescission-political-contribution-rule-investment-advisers",
+      "event_type": "regulation",
       "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
-      "market_impact": "主要影响 QQQ，方向为 mixed，强度 high；AI 资本开支会影响大型科技股盈利和估值预期。",
-      "assets": [
-        "AMZN",
-        "GOOGL",
-        "META",
-        "MSFT",
-        "NVDA"
-      ]
-    },
-    {
-      "title": "Nvidia takes back control of the AI trade as Big Tech nears record highs",
-      "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/nvidia-takes-back-control-of-the-ai-trade-as-big-tech-nears-record-highs-c0dfed9d?mod=mw_rss_topstories",
-      "event_type": "earnings",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
+      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
       "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
       "assets": [
-        "AMZN",
         "BTC",
         "COIN",
         "ETH",
-        "GOOGL"
+        "crypto market"
       ]
     }
   ],
   "policy_news": [
     {
-      "title": "New York Fed's Williams says yield surge due to strong economic prospects",
-      "source": "CNBC Economy",
-      "url": "https://www.cnbc.com/2026/09/02/new-york-feds-williams-says-yield-surge-due-to-strong-economic-prospects.html",
-      "event_type": "central_bank_decision",
+      "title": "Financial Results of Japan's Banks for Fiscal 2025",
+      "source": "Bank of Japan Announcements",
+      "url": "http://www.boj.or.jp/en/research/brp/fsr/fsrb260904.htm",
+      "event_type": "fiscal_policy",
       "importance_tier": 1,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
-      "market_impact": "主要影响 QQQ，方向为 negative，强度 high；鹰派政策提高折现率，压制成长股估值。",
-      "assets": [
-        "BTC",
-        "DXY",
-        "QQQ",
-        "SPY",
-        "TLT"
-      ]
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "assets": []
     },
     {
       "title": "China hits back at G20 statement on its reliance on exports, accusing them of 'promoting protectionism'",
@@ -171,95 +147,95 @@
   ],
   "asset_movers": [
     {
-      "symbol": "RIPPLE",
-      "group": "CRYPTO",
-      "price": "1.45",
-      "one_day": "7.22%",
-      "five_day": "4.74%",
-      "trend": "strong_uptrend",
+      "symbol": "3690.HK",
+      "group": "HK_MARKET",
+      "price": "81.75",
+      "one_day": "5.28%",
+      "five_day": "5.48%",
+      "trend": "range_bound",
       "direction": "up"
     },
     {
       "symbol": "BINANCECOIN",
       "group": "CRYPTO",
-      "price": "724.49",
-      "one_day": "6.13%",
-      "five_day": "4.80%",
+      "price": "721.18",
+      "one_day": "4.79%",
+      "five_day": "4.14%",
       "trend": "strong_uptrend",
       "direction": "up"
     },
     {
-      "symbol": "^VIX",
-      "group": "US_MACRO_MARKET",
-      "price": "14.32",
-      "one_day": "-5.79%",
-      "five_day": "-1.31%",
-      "trend": "downtrend",
-      "direction": "down"
+      "symbol": "1810.HK",
+      "group": "HK_MARKET",
+      "price": "28.44",
+      "one_day": "3.64%",
+      "five_day": "2.23%",
+      "trend": "strong_uptrend",
+      "direction": "up"
+    },
+    {
+      "symbol": "RIPPLE",
+      "group": "CRYPTO",
+      "price": "1.40",
+      "one_day": "3.61%",
+      "five_day": "0.20%",
+      "trend": "strong_uptrend",
+      "direction": "up"
     },
     {
       "symbol": "BTC",
       "group": "CRYPTO",
-      "price": "81,242.50",
-      "one_day": "4.94%",
-      "five_day": "4.40%",
-      "trend": "strong_uptrend",
-      "direction": "up"
-    },
-    {
-      "symbol": "SI=F",
-      "group": "COMMODITIES",
-      "price": "67.59",
-      "one_day": "4.43%",
-      "five_day": "-2.65%",
-      "trend": "strong_uptrend",
-      "direction": "up"
-    },
-    {
-      "symbol": "SOLANA",
-      "group": "CRYPTO",
-      "price": "103.96",
-      "one_day": "4.00%",
-      "five_day": "-0.14%",
+      "price": "79,688.96",
+      "one_day": "3.09%",
+      "five_day": "1.87%",
       "trend": "strong_uptrend",
       "direction": "up"
     },
     {
       "symbol": "ETH",
       "group": "CRYPTO",
-      "price": "2,507.23",
-      "one_day": "3.70%",
-      "five_day": "2.65%",
+      "price": "2,454.03",
+      "one_day": "2.65%",
+      "five_day": "-0.12%",
       "trend": "strong_uptrend",
       "direction": "up"
     },
     {
-      "symbol": "GC=F",
-      "group": "COMMODITIES",
-      "price": "4,524.70",
-      "one_day": "3.63%",
-      "five_day": "-1.84%",
-      "trend": "strong_uptrend",
+      "symbol": "9988.HK",
+      "group": "HK_MARKET",
+      "price": "110.10",
+      "one_day": "2.42%",
+      "five_day": "-3.34%",
+      "trend": "range_bound",
+      "direction": "up"
+    },
+    {
+      "symbol": "0700.HK",
+      "group": "HK_MARKET",
+      "price": "442.80",
+      "one_day": "2.26%",
+      "five_day": "-2.72%",
+      "trend": "downtrend",
       "direction": "up"
     }
   ],
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-09-04/COMMODITIES_summary.png"
+      "src": "charts/2026-09-05/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-09-04/CRYPTO_summary.png"
+      "src": "charts/2026-09-05/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-09-04/HK_MARKET_summary.png"
+      "src": "charts/2026-09-05/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-09-04/US_EQUITY_summary.png"
+      "src": "charts/2026-09-05/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-09-04.html"
+  "latest_report_href": "reports/2026-09-05.html"
 }
