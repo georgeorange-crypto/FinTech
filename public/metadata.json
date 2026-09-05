@@ -1,15 +1,14 @@
 {
-  "latest_date": "2026-09-05",
-  "market_data_date": "2026-09-05",
-  "chart_date": "2026-09-05",
-  "regime": "crypto_specific",
-  "regime_summary": "BTC/ETH 明显走强但美股平淡，行情更像加密自身事件驱动。",
+  "latest_date": "2026-09-06",
+  "market_data_date": "2026-09-06",
+  "chart_date": "2026-09-06",
+  "regime": "unknown",
+  "regime_summary": "市场信号不足，暂不判断明确状态。",
   "key_moves": [
-    "BTC 上涨 3.09%",
-    "ETH 上涨 2.65%"
+    "Gold 下跌 -1.38%"
   ],
   "watch_points": [
-    "关注 ETF、监管、稳定币或链上流动性新闻。"
+    "关注后续数据是否确认当前跨资产信号。"
   ],
   "cards": [
     {
@@ -26,26 +25,26 @@
     },
     {
       "label": "BTC",
-      "value": "3.09%"
+      "value": "-1.80%"
     },
     {
       "label": "Gold",
-      "value": "-0.32%"
+      "value": "-1.38%"
     },
     {
       "label": "Oil",
-      "value": "-0.09%"
+      "value": "0.20%"
     }
   ],
   "top_themes": [
     "fiscal_policy: Financial Results of Japan's Banks for Fiscal 2025",
     "macro_data: We checked 6 years of bitcoin data. The NFP report isn't big price mover",
-    "fiscal_policy: China hits back at G20 statement on its reliance on exports, accusing them of 'promoting protectionism'"
+    "regulation: Federal Reserve Board announces termination of enforcement actions with United Texas Bank, Quontic Bank Acquisition Corp., and Quontic Bank Holdings Corp."
   ],
   "news_counts": {
-    "must_read": 10,
-    "policy_watch": 5,
-    "background": 16
+    "must_read": 5,
+    "policy_watch": 2,
+    "background": 12
   },
   "focus_news": [
     {
@@ -73,33 +72,28 @@
       "assets": []
     },
     {
-      "title": "China hits back at G20 statement on its reliance on exports, accusing them of 'promoting protectionism'",
-      "source": "CNBC Economy",
-      "url": "https://www.cnbc.com/2026/09/03/china-g20-exports-trade.html",
-      "event_type": "fiscal_policy",
-      "importance_tier": 1,
+      "title": "Federal Reserve Board announces termination of enforcement actions with United Texas Bank, Quontic Bank Acquisition Corp., and Quontic Bank Holdings Corp.",
+      "source": "Federal Reserve Press Releases",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260904a.htm",
+      "event_type": "regulation",
+      "importance_tier": 2,
       "impact_strength": "low",
       "impact_direction": "unknown",
-      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
+      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
       "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
       "assets": []
     },
     {
-      "title": "SEC Proposes Rescission of Political Contribution Rule for Investment Advisers",
-      "source": "SEC Press Releases",
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-85-sec-proposes-rescission-political-contribution-rule-investment-advisers",
-      "event_type": "regulation",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
-      "assets": [
-        "BTC",
-        "COIN",
-        "ETH",
-        "crypto market"
-      ]
+      "title": "Why crypto experts say buying and holding bitcoin easily beats trying to time the market",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/09/05/why-crypto-experts-say-buying-and-holding-bitcoin-easily-beats-trying-to-time-the-market",
+      "event_type": "other",
+      "importance_tier": 3,
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "market_impact": "更偏背景信息，短期市场影响可能有限。",
+      "assets": []
     }
   ],
   "policy_news": [
@@ -116,36 +110,28 @@
       "assets": []
     },
     {
-      "title": "China hits back at G20 statement on its reliance on exports, accusing them of 'promoting protectionism'",
-      "source": "CNBC Economy",
-      "url": "https://www.cnbc.com/2026/09/03/china-g20-exports-trade.html",
-      "event_type": "fiscal_policy",
-      "importance_tier": 1,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
-      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
-      "assets": []
-    },
-    {
-      "title": "SEC Proposes Rescission of Political Contribution Rule for Investment Advisers",
-      "source": "SEC Press Releases",
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-85-sec-proposes-rescission-political-contribution-rule-investment-advisers",
+      "title": "Federal Reserve Board announces termination of enforcement actions with United Texas Bank, Quontic Bank Acquisition Corp., and Quontic Bank Holdings Corp.",
+      "source": "Federal Reserve Press Releases",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260904a.htm",
       "event_type": "regulation",
       "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
+      "impact_strength": "low",
+      "impact_direction": "unknown",
       "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
-      "assets": [
-        "BTC",
-        "COIN",
-        "ETH",
-        "crypto market"
-      ]
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "assets": []
     }
   ],
   "asset_movers": [
+    {
+      "symbol": "BINANCECOIN",
+      "group": "CRYPTO",
+      "price": "765.80",
+      "one_day": "5.62%",
+      "five_day": "11.88%",
+      "trend": "strong_uptrend",
+      "direction": "up"
+    },
     {
       "symbol": "3690.HK",
       "group": "HK_MARKET",
@@ -153,15 +139,6 @@
       "one_day": "5.28%",
       "five_day": "5.48%",
       "trend": "range_bound",
-      "direction": "up"
-    },
-    {
-      "symbol": "BINANCECOIN",
-      "group": "CRYPTO",
-      "price": "721.18",
-      "one_day": "4.79%",
-      "five_day": "4.14%",
-      "trend": "strong_uptrend",
       "direction": "up"
     },
     {
@@ -176,29 +153,11 @@
     {
       "symbol": "RIPPLE",
       "group": "CRYPTO",
-      "price": "1.40",
-      "one_day": "3.61%",
-      "five_day": "0.20%",
-      "trend": "strong_uptrend",
-      "direction": "up"
-    },
-    {
-      "symbol": "BTC",
-      "group": "CRYPTO",
-      "price": "79,688.96",
-      "one_day": "3.09%",
-      "five_day": "1.87%",
-      "trend": "strong_uptrend",
-      "direction": "up"
-    },
-    {
-      "symbol": "ETH",
-      "group": "CRYPTO",
-      "price": "2,454.03",
-      "one_day": "2.65%",
-      "five_day": "-0.12%",
-      "trend": "strong_uptrend",
-      "direction": "up"
+      "price": "1.41",
+      "one_day": "-2.52%",
+      "five_day": "4.18%",
+      "trend": "uptrend",
+      "direction": "down"
     },
     {
       "symbol": "9988.HK",
@@ -217,25 +176,43 @@
       "five_day": "-2.72%",
       "trend": "downtrend",
       "direction": "up"
+    },
+    {
+      "symbol": "NG=F",
+      "group": "COMMODITIES",
+      "price": "2.97",
+      "one_day": "2.13%",
+      "five_day": "3.01%",
+      "trend": "range_bound",
+      "direction": "up"
+    },
+    {
+      "symbol": "BTC",
+      "group": "CRYPTO",
+      "price": "79,802.81",
+      "one_day": "-1.80%",
+      "five_day": "2.76%",
+      "trend": "uptrend",
+      "direction": "down"
     }
   ],
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-09-05/COMMODITIES_summary.png"
+      "src": "charts/2026-09-06/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-09-05/CRYPTO_summary.png"
+      "src": "charts/2026-09-06/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-09-05/HK_MARKET_summary.png"
+      "src": "charts/2026-09-06/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-09-05/US_EQUITY_summary.png"
+      "src": "charts/2026-09-06/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-09-05.html"
+  "latest_report_href": "reports/2026-09-06.html"
 }
