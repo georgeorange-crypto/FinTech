@@ -1,14 +1,15 @@
 {
-  "latest_date": "2026-09-06",
-  "market_data_date": "2026-09-06",
-  "chart_date": "2026-09-06",
-  "regime": "unknown",
-  "regime_summary": "市场信号不足，暂不判断明确状态。",
+  "latest_date": "2026-09-07",
+  "market_data_date": "2026-09-07",
+  "chart_date": "2026-09-07",
+  "regime": "crypto_specific",
+  "regime_summary": "BTC/ETH 明显走强但美股平淡，行情更像加密自身事件驱动。",
   "key_moves": [
-    "Gold 下跌 -1.38%"
+    "Gold 上涨 1.06%",
+    "ETH 上涨 2.25%"
   ],
   "watch_points": [
-    "关注后续数据是否确认当前跨资产信号。"
+    "关注 ETF、监管、稳定币或链上流动性新闻。"
   ],
   "cards": [
     {
@@ -25,68 +26,43 @@
     },
     {
       "label": "BTC",
-      "value": "-1.80%"
+      "value": "0.59%"
     },
     {
       "label": "Gold",
-      "value": "-1.38%"
+      "value": "1.06%"
     },
     {
       "label": "Oil",
-      "value": "0.20%"
+      "value": "0.00%"
     }
   ],
   "top_themes": [
-    "fiscal_policy: Financial Results of Japan's Banks for Fiscal 2025",
-    "macro_data: We checked 6 years of bitcoin data. The NFP report isn't big price mover",
-    "regulation: Federal Reserve Board announces termination of enforcement actions with United Texas Bank, Quontic Bank Acquisition Corp., and Quontic Bank Holdings Corp."
+    "‘Poverty doesn’t have to be my reality’: I thought I’d have to rely on Social Security. Then I taught myself how to invest.",
+    "Better and Coinbase’s bitcoin-backed mortgages can reuse borrowers’ collateral"
   ],
   "news_counts": {
-    "must_read": 5,
-    "policy_watch": 2,
-    "background": 12
+    "must_read": 2,
+    "policy_watch": 0,
+    "background": 7
   },
   "focus_news": [
     {
-      "title": "Financial Results of Japan's Banks for Fiscal 2025",
-      "source": "Bank of Japan Announcements",
-      "url": "http://www.boj.or.jp/en/research/brp/fsr/fsrb260904.htm",
-      "event_type": "fiscal_policy",
-      "importance_tier": 1,
+      "title": "‘Poverty doesn’t have to be my reality’: I thought I’d have to rely on Social Security. Then I taught myself how to invest.",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/i-didnt-know-what-i-didnt-know-i-thought-id-have-to-depend-on-social-security-then-i-taught-myself-how-to-invest-0129870b?mod=mw_rss_topstories",
+      "event_type": "other",
+      "importance_tier": 3,
       "impact_strength": "low",
       "impact_direction": "unknown",
-      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
-      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "market_impact": "更偏背景信息，短期市场影响可能有限。",
       "assets": []
     },
     {
-      "title": "We checked 6 years of bitcoin data. The NFP report isn't big price mover",
+      "title": "Better and Coinbase’s bitcoin-backed mortgages can reuse borrowers’ collateral",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/daybook-us/2026/09/04/we-checked-6-years-of-bitcoin-data-the-nfp-report-isn-t-big-price-mover",
-      "event_type": "macro_data",
-      "importance_tier": 1,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "这类宏观数据会直接改变市场对通胀、增长和政策路径的预期。",
-      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
-      "assets": []
-    },
-    {
-      "title": "Federal Reserve Board announces termination of enforcement actions with United Texas Bank, Quontic Bank Acquisition Corp., and Quontic Bank Holdings Corp.",
-      "source": "Federal Reserve Press Releases",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260904a.htm",
-      "event_type": "regulation",
-      "importance_tier": 2,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
-      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
-      "assets": []
-    },
-    {
-      "title": "Why crypto experts say buying and holding bitcoin easily beats trying to time the market",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/09/05/why-crypto-experts-say-buying-and-holding-bitcoin-easily-beats-trying-to-time-the-market",
+      "url": "https://www.coindesk.com/business/2026/09/06/better-and-coinbase-s-bitcoin-backed-mortgages-can-reuse-borrowers-collateral",
       "event_type": "other",
       "importance_tier": 3,
       "impact_strength": "low",
@@ -96,42 +72,8 @@
       "assets": []
     }
   ],
-  "policy_news": [
-    {
-      "title": "Financial Results of Japan's Banks for Fiscal 2025",
-      "source": "Bank of Japan Announcements",
-      "url": "http://www.boj.or.jp/en/research/brp/fsr/fsrb260904.htm",
-      "event_type": "fiscal_policy",
-      "importance_tier": 1,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
-      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
-      "assets": []
-    },
-    {
-      "title": "Federal Reserve Board announces termination of enforcement actions with United Texas Bank, Quontic Bank Acquisition Corp., and Quontic Bank Holdings Corp.",
-      "source": "Federal Reserve Press Releases",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260904a.htm",
-      "event_type": "regulation",
-      "importance_tier": 2,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
-      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
-      "assets": []
-    }
-  ],
+  "policy_news": [],
   "asset_movers": [
-    {
-      "symbol": "BINANCECOIN",
-      "group": "CRYPTO",
-      "price": "765.80",
-      "one_day": "5.62%",
-      "five_day": "11.88%",
-      "trend": "strong_uptrend",
-      "direction": "up"
-    },
     {
       "symbol": "3690.HK",
       "group": "HK_MARKET",
@@ -142,6 +84,24 @@
       "direction": "up"
     },
     {
+      "symbol": "SOLANA",
+      "group": "CRYPTO",
+      "price": "106.36",
+      "one_day": "4.35%",
+      "five_day": "3.25%",
+      "trend": "strong_uptrend",
+      "direction": "up"
+    },
+    {
+      "symbol": "BINANCECOIN",
+      "group": "CRYPTO",
+      "price": "752.05",
+      "one_day": "4.24%",
+      "five_day": "8.81%",
+      "trend": "strong_uptrend",
+      "direction": "up"
+    },
+    {
       "symbol": "1810.HK",
       "group": "HK_MARKET",
       "price": "28.44",
@@ -149,15 +109,6 @@
       "five_day": "2.23%",
       "trend": "strong_uptrend",
       "direction": "up"
-    },
-    {
-      "symbol": "RIPPLE",
-      "group": "CRYPTO",
-      "price": "1.41",
-      "one_day": "-2.52%",
-      "five_day": "4.18%",
-      "trend": "uptrend",
-      "direction": "down"
     },
     {
       "symbol": "9988.HK",
@@ -178,41 +129,41 @@
       "direction": "up"
     },
     {
-      "symbol": "NG=F",
-      "group": "COMMODITIES",
-      "price": "2.97",
-      "one_day": "2.13%",
-      "five_day": "3.01%",
-      "trend": "range_bound",
+      "symbol": "ETH",
+      "group": "CRYPTO",
+      "price": "2,511.35",
+      "one_day": "2.25%",
+      "five_day": "1.82%",
+      "trend": "strong_uptrend",
       "direction": "up"
     },
     {
-      "symbol": "BTC",
-      "group": "CRYPTO",
-      "price": "79,802.81",
-      "one_day": "-1.80%",
-      "five_day": "2.76%",
+      "symbol": "^HSI",
+      "group": "HK_MARKET",
+      "price": "25,650.87",
+      "one_day": "1.74%",
+      "five_day": "0.26%",
       "trend": "uptrend",
-      "direction": "down"
+      "direction": "up"
     }
   ],
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-09-06/COMMODITIES_summary.png"
+      "src": "charts/2026-09-07/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-09-06/CRYPTO_summary.png"
+      "src": "charts/2026-09-07/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-09-06/HK_MARKET_summary.png"
+      "src": "charts/2026-09-07/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-09-06/US_EQUITY_summary.png"
+      "src": "charts/2026-09-07/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-09-06.html"
+  "latest_report_href": "reports/2026-09-07.html"
 }
