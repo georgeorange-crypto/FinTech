@@ -1,15 +1,16 @@
 {
-  "latest_date": "2026-09-07",
-  "market_data_date": "2026-09-07",
-  "chart_date": "2026-09-07",
-  "regime": "crypto_specific",
-  "regime_summary": "BTC/ETH 明显走强但美股平淡，行情更像加密自身事件驱动。",
+  "latest_date": "2026-09-08",
+  "market_data_date": "2026-09-08",
+  "chart_date": "2026-09-08",
+  "regime": "unknown",
+  "regime_summary": "市场信号不足，暂不判断明确状态。",
   "key_moves": [
-    "Gold 上涨 1.06%",
-    "ETH 上涨 2.25%"
+    "VIX 上涨 5.30%",
+    "Gold 上涨 0.93%",
+    "Oil 上涨 1.16%"
   ],
   "watch_points": [
-    "关注 ETF、监管、稳定币或链上流动性新闻。"
+    "关注后续数据是否确认当前跨资产信号。"
   ],
   "cards": [
     {
@@ -22,118 +23,194 @@
     },
     {
       "label": "VIX",
-      "value": "1.47%"
+      "value": "5.30%"
     },
     {
       "label": "BTC",
-      "value": "0.59%"
+      "value": "-0.88%"
     },
     {
       "label": "Gold",
-      "value": "1.06%"
+      "value": "0.93%"
     },
     {
       "label": "Oil",
-      "value": "0.00%"
+      "value": "1.16%"
     }
   ],
   "top_themes": [
-    "‘Poverty doesn’t have to be my reality’: I thought I’d have to rely on Social Security. Then I taught myself how to invest.",
-    "Better and Coinbase’s bitcoin-backed mortgages can reuse borrowers’ collateral"
+    "central_bank_decision: No, Friday's jobs report hasn't materially boosted Fed rate hike odds",
+    "geopolitical_risk: Coldcard hacker moves $7.7 million in BTC, 45% of bitcoin stolen in third attack wave",
+    "crypto_market_structure: Stablecoin wallets challenge traditional bank accounts as main consumer money hub"
   ],
   "news_counts": {
-    "must_read": 2,
-    "policy_watch": 0,
-    "background": 7
+    "must_read": 6,
+    "policy_watch": 2,
+    "background": 16
   },
   "focus_news": [
     {
-      "title": "‘Poverty doesn’t have to be my reality’: I thought I’d have to rely on Social Security. Then I taught myself how to invest.",
-      "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/i-didnt-know-what-i-didnt-know-i-thought-id-have-to-depend-on-social-security-then-i-taught-myself-how-to-invest-0129870b?mod=mw_rss_topstories",
-      "event_type": "other",
-      "importance_tier": 3,
+      "title": "No, Friday's jobs report hasn't materially boosted Fed rate hike odds",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/09/07/no-friday-s-jobs-report-hasn-t-materially-boost-fed-rate-hike-odds",
+      "event_type": "central_bank_decision",
+      "importance_tier": 1,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
+      "market_impact": "主要影响 QQQ，方向为 negative，强度 high；鹰派政策提高折现率，压制成长股估值。",
+      "assets": [
+        "BTC",
+        "DXY",
+        "QQQ",
+        "SPY",
+        "TLT"
+      ]
+    },
+    {
+      "title": "Coldcard hacker moves $7.7 million in BTC, 45% of bitcoin stolen in third attack wave",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/09/07/coldcard-hacker-moves-45-of-bitcoin-stolen-in-third-attack-wave",
+      "event_type": "geopolitical_risk",
+      "importance_tier": 1,
       "impact_strength": "low",
       "impact_direction": "unknown",
-      "reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
-      "market_impact": "更偏背景信息，短期市场影响可能有限。",
+      "reason": "地缘风险可能推升避险需求、能源价格和市场波动率。",
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
       "assets": []
     },
     {
-      "title": "Better and Coinbase’s bitcoin-backed mortgages can reuse borrowers’ collateral",
+      "title": "Stablecoin wallets challenge traditional bank accounts as main consumer money hub",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/09/06/better-and-coinbase-s-bitcoin-backed-mortgages-can-reuse-borrowers-collateral",
-      "event_type": "other",
-      "importance_tier": 3,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
-      "market_impact": "更偏背景信息，短期市场影响可能有限。",
-      "assets": []
+      "url": "https://www.coindesk.com/business/2026/09/07/stablecoin-wallets-challenge-traditional-bank-accounts-as-main-consumer-money-hub",
+      "event_type": "crypto_market_structure",
+      "importance_tier": 2,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
+      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "assets": [
+        "BTC",
+        "COIN",
+        "ETH",
+        "crypto market"
+      ]
+    },
+    {
+      "title": "Oil up, bitcoin down as U.S. strikes Iranian crude carriers",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/09/07/oil-up-bitcoin-down-as-u-s-strikes-iranian-crude-carriers",
+      "event_type": "commodity_supply",
+      "importance_tier": 2,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "大宗商品供给变化会影响能源价格、通胀预期和资源股。",
+      "market_impact": "主要影响 CL=F，方向为 positive，强度 high；供给扰动或 OPEC 减产通常推升 WTI 原油。",
+      "assets": [
+        "BZ=F",
+        "CL=F",
+        "SPY"
+      ]
     }
   ],
-  "policy_news": [],
-  "asset_movers": [
+  "policy_news": [
     {
-      "symbol": "3690.HK",
-      "group": "HK_MARKET",
-      "price": "81.75",
-      "one_day": "5.28%",
-      "five_day": "5.48%",
-      "trend": "range_bound",
-      "direction": "up"
+      "title": "No, Friday's jobs report hasn't materially boosted Fed rate hike odds",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/09/07/no-friday-s-jobs-report-hasn-t-materially-boost-fed-rate-hike-odds",
+      "event_type": "central_bank_decision",
+      "importance_tier": 1,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
+      "market_impact": "主要影响 QQQ，方向为 negative，强度 high；鹰派政策提高折现率，压制成长股估值。",
+      "assets": [
+        "BTC",
+        "DXY",
+        "QQQ",
+        "SPY",
+        "TLT"
+      ]
     },
     {
-      "symbol": "SOLANA",
-      "group": "CRYPTO",
-      "price": "106.36",
-      "one_day": "4.35%",
-      "five_day": "3.25%",
-      "trend": "strong_uptrend",
+      "title": "Stablecoin wallets challenge traditional bank accounts as main consumer money hub",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/09/07/stablecoin-wallets-challenge-traditional-bank-accounts-as-main-consumer-money-hub",
+      "event_type": "crypto_market_structure",
+      "importance_tier": 2,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
+      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "assets": [
+        "BTC",
+        "COIN",
+        "ETH",
+        "crypto market"
+      ]
+    }
+  ],
+  "asset_movers": [
+    {
+      "symbol": "^VIX",
+      "group": "US_MACRO_MARKET",
+      "price": "15.30",
+      "one_day": "5.30%",
+      "five_day": "2.55%",
+      "trend": "range_bound",
       "direction": "up"
     },
     {
       "symbol": "BINANCECOIN",
       "group": "CRYPTO",
-      "price": "752.05",
-      "one_day": "4.24%",
-      "five_day": "8.81%",
+      "price": "739.95",
+      "one_day": "-3.45%",
+      "five_day": "8.39%",
       "trend": "strong_uptrend",
-      "direction": "up"
+      "direction": "down"
     },
     {
       "symbol": "1810.HK",
       "group": "HK_MARKET",
-      "price": "28.44",
-      "one_day": "3.64%",
-      "five_day": "2.23%",
-      "trend": "strong_uptrend",
-      "direction": "up"
+      "price": "27.50",
+      "one_day": "-3.31%",
+      "five_day": "-0.43%",
+      "trend": "uptrend",
+      "direction": "down"
     },
     {
-      "symbol": "9988.HK",
+      "symbol": "3690.HK",
       "group": "HK_MARKET",
-      "price": "110.10",
-      "one_day": "2.42%",
-      "five_day": "-3.34%",
+      "price": "80.05",
+      "one_day": "-2.08%",
+      "five_day": "1.46%",
       "trend": "range_bound",
+      "direction": "down"
+    },
+    {
+      "symbol": "HG=F",
+      "group": "COMMODITIES",
+      "price": "6.73",
+      "one_day": "2.05%",
+      "five_day": "2.10%",
+      "trend": "uptrend",
       "direction": "up"
     },
     {
-      "symbol": "0700.HK",
+      "symbol": "1211.HK",
       "group": "HK_MARKET",
-      "price": "442.80",
-      "one_day": "2.26%",
-      "five_day": "-2.72%",
-      "trend": "downtrend",
-      "direction": "up"
+      "price": "84.50",
+      "one_day": "-1.92%",
+      "five_day": "-3.10%",
+      "trend": "range_bound",
+      "direction": "down"
     },
     {
-      "symbol": "ETH",
-      "group": "CRYPTO",
-      "price": "2,511.35",
-      "one_day": "2.25%",
-      "five_day": "1.82%",
+      "symbol": "SI=F",
+      "group": "COMMODITIES",
+      "price": "67.24",
+      "one_day": "1.81%",
+      "five_day": "1.54%",
       "trend": "strong_uptrend",
       "direction": "up"
     },
@@ -150,20 +227,20 @@
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-09-07/COMMODITIES_summary.png"
+      "src": "charts/2026-09-08/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-09-07/CRYPTO_summary.png"
+      "src": "charts/2026-09-08/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-09-07/HK_MARKET_summary.png"
+      "src": "charts/2026-09-08/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-09-07/US_EQUITY_summary.png"
+      "src": "charts/2026-09-08/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-09-07.html"
+  "latest_report_href": "reports/2026-09-08.html"
 }
