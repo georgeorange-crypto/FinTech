@@ -1,107 +1,115 @@
 {
-  "latest_date": "2026-09-10",
-  "market_data_date": "2026-09-10",
-  "chart_date": "2026-09-10",
-  "regime": "unknown",
-  "regime_summary": "市场信号不足，暂不判断明确状态。",
+  "latest_date": "2026-09-11",
+  "market_data_date": "2026-09-11",
+  "chart_date": "2026-09-11",
+  "regime": "mixed",
+  "regime_summary": "长债下跌、美元走强且成长股承压，市场像是在交易利率冲击。 但存在信号冲突，需要降低单一叙事置信度。",
   "key_moves": [
-    "SPY 下跌 -0.46%",
-    "VIX 上涨 4.71%",
-    "TLT 下跌 -0.57%",
-    "Gold 上涨 1.01%",
-    "Oil 上涨 4.42%"
+    "SPY 下跌 -0.60%",
+    "QQQ 下跌 -1.06%",
+    "VIX 上涨 8.38%",
+    "TLT 下跌 -1.16%",
+    "DXY 上涨 0.32%",
+    "Gold 下跌 -1.32%",
+    "Oil 上涨 8.03%",
+    "BTC 下跌 -2.19%"
   ],
   "watch_points": [
-    "关注后续数据是否确认当前跨资产信号。"
+    "关注美债收益率、实际利率和成长股估值压力。"
   ],
   "cards": [
     {
       "label": "美股 SPY",
-      "value": "-0.46%"
+      "value": "-0.60%"
     },
     {
       "label": "QQQ",
-      "value": "-0.29%"
+      "value": "-1.06%"
     },
     {
       "label": "VIX",
-      "value": "4.71%"
+      "value": "8.38%"
     },
     {
       "label": "BTC",
-      "value": "-1.10%"
+      "value": "-2.19%"
     },
     {
       "label": "Gold",
-      "value": "1.01%"
+      "value": "-1.32%"
     },
     {
       "label": "Oil",
-      "value": "4.42%"
+      "value": "8.03%"
     }
   ],
   "top_themes": [
-    "macro_data: Diesel prices hit another record high. If you’re shocked, wait until you see your grocery bill.",
-    "fiscal_policy: U.S. Treasury sanctions another widespread cyber-scam hub, Xinbi Guarantee",
-    "fiscal_policy: Germany moves to tax bitcoin like stocks as new draft bill targets tax-free gains"
+    "geopolitical_risk: Crypto researchers cut Bitcoin and Ethereum quantum attack estimate by 50%",
+    "earnings: BIS chief warns AI capex arms race relies on opaque debt, posing systemic risks",
+    "regulation: SEC Charges Founder and His Two New Jersey-Based Companies in Alleged $16 Million Ponzi Scheme"
   ],
   "news_counts": {
-    "must_read": 9,
+    "must_read": 10,
     "policy_watch": 5,
-    "background": 13
+    "background": 16
   },
   "focus_news": [
     {
-      "title": "Diesel prices hit another record high. If you’re shocked, wait until you see your grocery bill.",
-      "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/diesel-prices-hit-another-record-high-if-youre-shocked-wait-until-you-see-your-grocery-bill-afee7076?mod=mw_rss_topstories",
-      "event_type": "macro_data",
-      "importance_tier": 1,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "这类宏观数据会直接改变市场对通胀、增长和政策路径的预期。",
-      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
-      "assets": [
-        "BTC",
-        "DXY",
-        "GC=F",
-        "QQQ",
-        "SPY"
-      ]
-    },
-    {
-      "title": "U.S. Treasury sanctions another widespread cyber-scam hub, Xinbi Guarantee",
+      "title": "Crypto researchers cut Bitcoin and Ethereum quantum attack estimate by 50%",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/09/09/u-s-treasury-sanctions-another-widespread-cyber-scam-hub-xinbi-guarantee",
-      "event_type": "fiscal_policy",
+      "url": "https://www.coindesk.com/tech/2026/09/10/crypto-researchers-cut-bitcoin-and-ethereum-quantum-attack-estimate-by-50",
+      "event_type": "geopolitical_risk",
       "importance_tier": 1,
       "impact_strength": "low",
       "impact_direction": "unknown",
-      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
+      "reason": "地缘风险可能推升避险需求、能源价格和市场波动率。",
       "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
       "assets": []
     },
     {
-      "title": "Germany moves to tax bitcoin like stocks as new draft bill targets tax-free gains",
+      "title": "BIS chief warns AI capex arms race relies on opaque debt, posing systemic risks",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/09/09/germany-moves-to-tax-bitcoin-like-stocks-as-new-draft-bill-targets-tax-free-gains",
-      "event_type": "fiscal_policy",
-      "importance_tier": 1,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
-      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
-      "assets": []
-    },
-    {
-      "title": "PayPal expands stablecoin rails with custom token issuance platform",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/09/09/paypal-expands-stablecoin-rails-with-launch-of-custom-token-issuance-platform",
-      "event_type": "crypto_market_structure",
+      "url": "https://www.coindesk.com/business/2026/09/10/ai-s-rapid-rise-poses-global-financial-stability-risks-says-head-of-the-bis",
+      "event_type": "earnings",
       "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
+      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
+      "market_impact": "主要影响 QQQ，方向为 mixed，强度 high；AI 资本开支会影响大型科技股盈利和估值预期。",
+      "assets": [
+        "AMZN",
+        "GOOGL",
+        "META",
+        "MSFT",
+        "NVDA"
+      ]
+    },
+    {
+      "title": "SEC Charges Founder and His Two New Jersey-Based Companies in Alleged $16 Million Ponzi Scheme",
+      "source": "SEC Press Releases",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-86-sec-charges-founder-his-two-new-jersey-based-companies-alleged-16-million-ponzi-scheme",
+      "event_type": "regulation",
+      "importance_tier": 2,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "assets": [
+        "BTC",
+        "COIN",
+        "ETH",
+        "crypto market"
+      ]
+    },
+    {
+      "title": "Why a new SEC plan could ease a legal headache for tokenized securities",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/09/10/why-a-new-sec-plan-could-end-the-legal-headaches-of-holding-tokenized-securities",
+      "event_type": "regulation",
+      "importance_tier": 2,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
       "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
       "assets": [
         "BTC",
@@ -113,33 +121,43 @@
   ],
   "policy_news": [
     {
-      "title": "U.S. Treasury sanctions another widespread cyber-scam hub, Xinbi Guarantee",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/09/09/u-s-treasury-sanctions-another-widespread-cyber-scam-hub-xinbi-guarantee",
-      "event_type": "fiscal_policy",
-      "importance_tier": 1,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
-      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
-      "assets": []
+      "title": "SEC Charges Founder and His Two New Jersey-Based Companies in Alleged $16 Million Ponzi Scheme",
+      "source": "SEC Press Releases",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-86-sec-charges-founder-his-two-new-jersey-based-companies-alleged-16-million-ponzi-scheme",
+      "event_type": "regulation",
+      "importance_tier": 2,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "assets": [
+        "BTC",
+        "COIN",
+        "ETH",
+        "crypto market"
+      ]
     },
     {
-      "title": "Germany moves to tax bitcoin like stocks as new draft bill targets tax-free gains",
+      "title": "Why a new SEC plan could ease a legal headache for tokenized securities",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/09/09/germany-moves-to-tax-bitcoin-like-stocks-as-new-draft-bill-targets-tax-free-gains",
-      "event_type": "fiscal_policy",
-      "importance_tier": 1,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
-      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
-      "assets": []
+      "url": "https://www.coindesk.com/business/2026/09/10/why-a-new-sec-plan-could-end-the-legal-headaches-of-holding-tokenized-securities",
+      "event_type": "regulation",
+      "importance_tier": 2,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "assets": [
+        "BTC",
+        "COIN",
+        "ETH",
+        "crypto market"
+      ]
     },
     {
-      "title": "PayPal expands stablecoin rails with custom token issuance platform",
+      "title": "MoneyGram unveils stablecoin-backed card as digital dollars move into everyday spending",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/09/09/paypal-expands-stablecoin-rails-with-launch-of-custom-token-issuance-platform",
+      "url": "https://www.coindesk.com/business/2026/09/08/moneygram-unveils-stablecoin-backed-card-as-digital-dollars-move-into-everyday-spending",
       "event_type": "crypto_market_structure",
       "importance_tier": 2,
       "impact_strength": "high",
@@ -158,93 +176,93 @@
     {
       "symbol": "^VIX",
       "group": "US_MACRO_MARKET",
-      "price": "16.46",
-      "one_day": "4.71%",
-      "five_day": "8.29%",
+      "price": "17.84",
+      "one_day": "8.38%",
+      "five_day": "24.58%",
       "trend": "range_bound",
       "direction": "up"
     },
     {
       "symbol": "CL=F",
       "group": "COMMODITIES",
-      "price": "97.14",
-      "one_day": "4.42%",
-      "five_day": "7.67%",
+      "price": "103.76",
+      "one_day": "8.03%",
+      "five_day": "14.01%",
       "trend": "strong_uptrend",
       "direction": "up"
     },
     {
       "symbol": "BZ=F",
       "group": "COMMODITIES",
-      "price": "102.08",
-      "one_day": "4.25%",
-      "five_day": "7.85%",
+      "price": "108.88",
+      "one_day": "7.58%",
+      "five_day": "13.86%",
       "trend": "strong_uptrend",
       "direction": "up"
-    },
-    {
-      "symbol": "NG=F",
-      "group": "COMMODITIES",
-      "price": "2.81",
-      "one_day": "-3.74%",
-      "five_day": "-3.34%",
-      "trend": "downtrend",
-      "direction": "down"
-    },
-    {
-      "symbol": "3690.HK",
-      "group": "HK_MARKET",
-      "price": "77.80",
-      "one_day": "-3.47%",
-      "five_day": "-1.21%",
-      "trend": "strong_downtrend",
-      "direction": "down"
-    },
-    {
-      "symbol": "1211.HK",
-      "group": "HK_MARKET",
-      "price": "81.80",
-      "one_day": "-2.44%",
-      "five_day": "-4.05%",
-      "trend": "range_bound",
-      "direction": "down"
     },
     {
       "symbol": "SI=F",
       "group": "COMMODITIES",
-      "price": "67.82",
-      "one_day": "2.29%",
-      "five_day": "4.95%",
-      "trend": "strong_uptrend",
-      "direction": "up"
+      "price": "64.03",
+      "one_day": "-5.76%",
+      "five_day": "-1.07%",
+      "trend": "range_bound",
+      "direction": "down"
     },
     {
       "symbol": "BINANCECOIN",
       "group": "CRYPTO",
-      "price": "722.75",
-      "one_day": "-2.29%",
-      "five_day": "-0.32%",
-      "trend": "strong_uptrend",
+      "price": "710.10",
+      "one_day": "-5.59%",
+      "five_day": "-1.57%",
+      "trend": "uptrend",
+      "direction": "down"
+    },
+    {
+      "symbol": "RIPPLE",
+      "group": "CRYPTO",
+      "price": "1.34",
+      "one_day": "-5.58%",
+      "five_day": "-4.32%",
+      "trend": "range_bound",
+      "direction": "down"
+    },
+    {
+      "symbol": "SOLANA",
+      "group": "CRYPTO",
+      "price": "99.12",
+      "one_day": "-4.10%",
+      "five_day": "-2.75%",
+      "trend": "range_bound",
+      "direction": "down"
+    },
+    {
+      "symbol": "HG=F",
+      "group": "COMMODITIES",
+      "price": "6.53",
+      "one_day": "-4.04%",
+      "five_day": "0.42%",
+      "trend": "range_bound",
       "direction": "down"
     }
   ],
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-09-10/COMMODITIES_summary.png"
+      "src": "charts/2026-09-11/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-09-10/CRYPTO_summary.png"
+      "src": "charts/2026-09-11/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-09-10/HK_MARKET_summary.png"
+      "src": "charts/2026-09-11/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-09-10/US_EQUITY_summary.png"
+      "src": "charts/2026-09-11/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-09-10.html"
+  "latest_report_href": "reports/2026-09-11.html"
 }
