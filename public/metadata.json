@@ -1,15 +1,15 @@
 {
-  "latest_date": "2026-09-12",
-  "market_data_date": "2026-09-12",
-  "chart_date": "2026-09-12",
+  "latest_date": "2026-09-13",
+  "market_data_date": "2026-09-13",
+  "chart_date": "2026-09-13",
   "regime": "risk_on",
   "regime_summary": "股指上涨、波动率或美元回落，市场更接近风险偏好改善。",
   "key_moves": [
     "SPY 上涨 0.85%",
     "QQQ 上涨 0.87%",
     "VIX 下跌 -11.21%",
-    "Gold 上涨 0.58%",
-    "Oil 下跌 -2.43%"
+    "Oil 下跌 -2.37%",
+    "ETH 上涨 3.55%"
   ],
   "watch_points": [
     "确认风险偏好是否扩散到小盘股、信用利差和周期品。"
@@ -29,15 +29,15 @@
     },
     {
       "label": "BTC",
-      "value": "-1.43%"
+      "value": "0.89%"
     },
     {
       "label": "Gold",
-      "value": "0.58%"
+      "value": "0.04%"
     },
     {
       "label": "Oil",
-      "value": "-2.43%"
+      "value": "-2.37%"
     }
   ],
   "top_themes": [
@@ -46,8 +46,8 @@
     "central_bank_decision: Bitcoin below $77,000, Zcash leads losses as traders bet on a Fed rate hike"
   ],
   "news_counts": {
-    "must_read": 10,
-    "policy_watch": 7,
+    "must_read": 7,
+    "policy_watch": 3,
     "background": 16
   },
   "focus_news": [
@@ -106,14 +106,14 @@
       ]
     },
     {
-      "title": "SEC Charges Founder and His Two New Jersey-Based Companies in Alleged $16 Million Ponzi Scheme",
-      "source": "SEC Press Releases",
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-86-sec-charges-founder-his-two-new-jersey-based-companies-alleged-16-million-ponzi-scheme",
-      "event_type": "regulation",
+      "title": "Ripple stablecoin chief sees $13 trillion corporate treasury opportunity for RLUSD",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/09/12/ripple-stablecoin-chief-sees-usd13-trillion-corporate-treasury-opportunity-for-rlusd",
+      "event_type": "crypto_market_structure",
       "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
       "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
       "assets": [
         "BTC",
@@ -161,14 +161,14 @@
       ]
     },
     {
-      "title": "SEC Charges Founder and His Two New Jersey-Based Companies in Alleged $16 Million Ponzi Scheme",
-      "source": "SEC Press Releases",
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-86-sec-charges-founder-his-two-new-jersey-based-companies-alleged-16-million-ponzi-scheme",
-      "event_type": "regulation",
+      "title": "Ripple stablecoin chief sees $13 trillion corporate treasury opportunity for RLUSD",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/09/12/ripple-stablecoin-chief-sees-usd13-trillion-corporate-treasury-opportunity-for-rlusd",
+      "event_type": "crypto_market_structure",
       "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
       "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
       "assets": [
         "BTC",
@@ -189,39 +189,57 @@
       "direction": "down"
     },
     {
+      "symbol": "ETH",
+      "group": "CRYPTO",
+      "price": "2,524.14",
+      "one_day": "3.55%",
+      "five_day": "0.40%",
+      "trend": "uptrend",
+      "direction": "up"
+    },
+    {
+      "symbol": "SOLANA",
+      "group": "CRYPTO",
+      "price": "101.71",
+      "one_day": "3.12%",
+      "five_day": "-4.49%",
+      "trend": "range_bound",
+      "direction": "up"
+    },
+    {
       "symbol": "BZ=F",
       "group": "COMMODITIES",
-      "price": "104.42",
-      "one_day": "-2.98%",
-      "five_day": "9.32%",
+      "price": "104.61",
+      "one_day": "-2.81%",
+      "five_day": "9.52%",
+      "trend": "strong_uptrend",
+      "direction": "down"
+    },
+    {
+      "symbol": "BINANCECOIN",
+      "group": "CRYPTO",
+      "price": "726.82",
+      "one_day": "2.60%",
+      "five_day": "-3.44%",
+      "trend": "strong_uptrend",
+      "direction": "up"
+    },
+    {
+      "symbol": "CL=F",
+      "group": "COMMODITIES",
+      "price": "100.05",
+      "one_day": "-2.37%",
+      "five_day": "9.58%",
       "trend": "strong_uptrend",
       "direction": "down"
     },
     {
       "symbol": "RIPPLE",
       "group": "CRYPTO",
-      "price": "1.36",
-      "one_day": "-2.76%",
-      "five_day": "-3.97%",
+      "price": "1.37",
+      "one_day": "2.37%",
+      "five_day": "-4.01%",
       "trend": "range_bound",
-      "direction": "down"
-    },
-    {
-      "symbol": "CL=F",
-      "group": "COMMODITIES",
-      "price": "99.99",
-      "one_day": "-2.43%",
-      "five_day": "9.52%",
-      "trend": "strong_uptrend",
-      "direction": "down"
-    },
-    {
-      "symbol": "ETH",
-      "group": "CRYPTO",
-      "price": "2,512.20",
-      "one_day": "1.81%",
-      "five_day": "1.30%",
-      "trend": "uptrend",
       "direction": "up"
     },
     {
@@ -232,43 +250,25 @@
       "five_day": "-7.31%",
       "trend": "range_bound",
       "direction": "up"
-    },
-    {
-      "symbol": "BTC",
-      "group": "CRYPTO",
-      "price": "77,160.05",
-      "one_day": "-1.43%",
-      "five_day": "-3.33%",
-      "trend": "range_bound",
-      "direction": "down"
-    },
-    {
-      "symbol": "HG=F",
-      "group": "COMMODITIES",
-      "price": "6.56",
-      "one_day": "1.39%",
-      "five_day": "-0.30%",
-      "trend": "range_bound",
-      "direction": "up"
     }
   ],
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-09-12/COMMODITIES_summary.png"
+      "src": "charts/2026-09-13/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-09-12/CRYPTO_summary.png"
+      "src": "charts/2026-09-13/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-09-12/HK_MARKET_summary.png"
+      "src": "charts/2026-09-13/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-09-12/US_EQUITY_summary.png"
+      "src": "charts/2026-09-13/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-09-12.html"
+  "latest_report_href": "reports/2026-09-13.html"
 }
