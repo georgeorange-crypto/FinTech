@@ -1,15 +1,14 @@
 {
-  "latest_date": "2026-09-13",
-  "market_data_date": "2026-09-13",
-  "chart_date": "2026-09-13",
+  "latest_date": "2026-09-14",
+  "market_data_date": "2026-09-14",
+  "chart_date": "2026-09-14",
   "regime": "risk_on",
   "regime_summary": "股指上涨、波动率或美元回落，市场更接近风险偏好改善。",
   "key_moves": [
     "SPY 上涨 0.85%",
     "QQQ 上涨 0.87%",
     "VIX 下跌 -11.21%",
-    "Oil 下跌 -2.37%",
-    "ETH 上涨 3.55%"
+    "Oil 上涨 2.43%"
   ],
   "watch_points": [
     "确认风险偏好是否扩散到小盘股、信用利差和周期品。"
@@ -29,37 +28,36 @@
     },
     {
       "label": "BTC",
-      "value": "0.89%"
+      "value": "-0.54%"
     },
     {
       "label": "Gold",
-      "value": "0.04%"
+      "value": "0.29%"
     },
     {
       "label": "Oil",
-      "value": "-2.37%"
+      "value": "2.43%"
     }
   ],
   "top_themes": [
-    "macro_data: Core CPI rose a faster-than-forecast 0.3% in August, setting up possible Fed rate hike",
-    "central_bank_decision: With Fed rate hike all but assured, here's how markets might react",
-    "central_bank_decision: Bitcoin below $77,000, Zcash leads losses as traders bet on a Fed rate hike"
+    "central_bank_decision: Fed rate hike is about Wall Street, not inflation, says economist",
+    "crypto_market_structure: Ripple stablecoin chief sees $13 trillion corporate treasury opportunity for RLUSD"
   ],
   "news_counts": {
-    "must_read": 7,
-    "policy_watch": 3,
-    "background": 16
+    "must_read": 4,
+    "policy_watch": 2,
+    "background": 9
   },
   "focus_news": [
     {
-      "title": "Core CPI rose a faster-than-forecast 0.3% in August, setting up possible Fed rate hike",
+      "title": "Fed rate hike is about Wall Street, not inflation, says economist",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/09/11/core-cpi-rose-a-faster-than-forecast-0-3-in-august-setting-up-fed-rate-hike",
-      "event_type": "macro_data",
+      "url": "https://www.coindesk.com/markets/2026/09/13/fed-rate-hike-is-about-wall-street-not-inflation-says-economist",
+      "event_type": "central_bank_decision",
       "importance_tier": 1,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "这类宏观数据会直接改变市场对通胀、增长和政策路径的预期。",
+      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
       "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
       "assets": [
         "BTC",
@@ -67,42 +65,6 @@
         "GC=F",
         "QQQ",
         "SPY"
-      ]
-    },
-    {
-      "title": "With Fed rate hike all but assured, here's how markets might react",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/09/11/hotter-cpi-complicates-fed-hold-as-warsh-s-preferred-inflation-gauge-tells-different-story",
-      "event_type": "central_bank_decision",
-      "importance_tier": 1,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
-      "market_impact": "主要影响 QQQ，方向为 negative，强度 high；鹰派政策提高折现率，压制成长股估值。",
-      "assets": [
-        "BTC",
-        "DXY",
-        "QQQ",
-        "SPY",
-        "TLT"
-      ]
-    },
-    {
-      "title": "Bitcoin below $77,000, Zcash leads losses as traders bet on a Fed rate hike",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/09/11/bitcoin-below-usd77-000-zcash-leads-losses-as-traders-bet-on-a-fed-rate-hike",
-      "event_type": "central_bank_decision",
-      "importance_tier": 1,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
-      "market_impact": "主要影响 QQQ，方向为 negative，强度 high；鹰派政策提高折现率，压制成长股估值。",
-      "assets": [
-        "BTC",
-        "DXY",
-        "QQQ",
-        "SPY",
-        "TLT"
       ]
     },
     {
@@ -121,43 +83,61 @@
         "ETH",
         "crypto market"
       ]
+    },
+    {
+      "title": "Your Social Security COLA could go up another $71 per month in 2027. That’s not necessarily good news.",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/your-social-security-check-could-go-up-another-71-next-year-thats-not-necessarily-good-news-f952c08a?mod=mw_rss_topstories",
+      "event_type": "other",
+      "importance_tier": 3,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
+      "assets": [
+        "BTC",
+        "DXY",
+        "GC=F",
+        "QQQ",
+        "SPY"
+      ]
+    },
+    {
+      "title": "Inflation is outpacing wage growth again, squeezing Americans’ paychecks",
+      "source": "CNBC Economy",
+      "url": "https://www.cnbc.com/2026/09/12/inflation-is-outpacing-wage-growth-again-squeezing-americans-paychecks.html",
+      "event_type": "other",
+      "importance_tier": 3,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
+      "assets": [
+        "BTC",
+        "DXY",
+        "GC=F",
+        "QQQ",
+        "SPY"
+      ]
     }
   ],
   "policy_news": [
     {
-      "title": "With Fed rate hike all but assured, here's how markets might react",
+      "title": "Fed rate hike is about Wall Street, not inflation, says economist",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/09/11/hotter-cpi-complicates-fed-hold-as-warsh-s-preferred-inflation-gauge-tells-different-story",
+      "url": "https://www.coindesk.com/markets/2026/09/13/fed-rate-hike-is-about-wall-street-not-inflation-says-economist",
       "event_type": "central_bank_decision",
       "importance_tier": 1,
       "impact_strength": "high",
       "impact_direction": "mixed",
       "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
-      "market_impact": "主要影响 QQQ，方向为 negative，强度 high；鹰派政策提高折现率，压制成长股估值。",
+      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
       "assets": [
         "BTC",
         "DXY",
+        "GC=F",
         "QQQ",
-        "SPY",
-        "TLT"
-      ]
-    },
-    {
-      "title": "Bitcoin below $77,000, Zcash leads losses as traders bet on a Fed rate hike",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/09/11/bitcoin-below-usd77-000-zcash-leads-losses-as-traders-bet-on-a-fed-rate-hike",
-      "event_type": "central_bank_decision",
-      "importance_tier": 1,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
-      "market_impact": "主要影响 QQQ，方向为 negative，强度 high；鹰派政策提高折现率，压制成长股估值。",
-      "assets": [
-        "BTC",
-        "DXY",
-        "QQQ",
-        "SPY",
-        "TLT"
+        "SPY"
       ]
     },
     {
@@ -189,57 +169,30 @@
       "direction": "down"
     },
     {
-      "symbol": "ETH",
-      "group": "CRYPTO",
-      "price": "2,524.14",
-      "one_day": "3.55%",
-      "five_day": "0.40%",
-      "trend": "uptrend",
+      "symbol": "BZ=F",
+      "group": "COMMODITIES",
+      "price": "107.65",
+      "one_day": "2.91%",
+      "five_day": "11.81%",
+      "trend": "strong_uptrend",
       "direction": "up"
     },
     {
       "symbol": "SOLANA",
       "group": "CRYPTO",
-      "price": "101.71",
-      "one_day": "3.12%",
-      "five_day": "-4.49%",
+      "price": "99.44",
+      "one_day": "-2.89%",
+      "five_day": "-4.18%",
       "trend": "range_bound",
-      "direction": "up"
-    },
-    {
-      "symbol": "BZ=F",
-      "group": "COMMODITIES",
-      "price": "104.61",
-      "one_day": "-2.81%",
-      "five_day": "9.52%",
-      "trend": "strong_uptrend",
       "direction": "down"
-    },
-    {
-      "symbol": "BINANCECOIN",
-      "group": "CRYPTO",
-      "price": "726.82",
-      "one_day": "2.60%",
-      "five_day": "-3.44%",
-      "trend": "strong_uptrend",
-      "direction": "up"
     },
     {
       "symbol": "CL=F",
       "group": "COMMODITIES",
-      "price": "100.05",
-      "one_day": "-2.37%",
-      "five_day": "9.58%",
+      "price": "102.48",
+      "one_day": "2.43%",
+      "five_day": "12.02%",
       "trend": "strong_uptrend",
-      "direction": "down"
-    },
-    {
-      "symbol": "RIPPLE",
-      "group": "CRYPTO",
-      "price": "1.37",
-      "one_day": "2.37%",
-      "five_day": "-4.01%",
-      "trend": "range_bound",
       "direction": "up"
     },
     {
@@ -250,25 +203,52 @@
       "five_day": "-7.31%",
       "trend": "range_bound",
       "direction": "up"
+    },
+    {
+      "symbol": "ETH",
+      "group": "CRYPTO",
+      "price": "2,475.55",
+      "one_day": "-1.56%",
+      "five_day": "-0.56%",
+      "trend": "uptrend",
+      "direction": "down"
+    },
+    {
+      "symbol": "BINANCECOIN",
+      "group": "CRYPTO",
+      "price": "716.54",
+      "one_day": "-1.37%",
+      "five_day": "-3.13%",
+      "trend": "strong_uptrend",
+      "direction": "down"
+    },
+    {
+      "symbol": "NG=F",
+      "group": "COMMODITIES",
+      "price": "2.86",
+      "one_day": "1.17%",
+      "five_day": "-3.73%",
+      "trend": "range_bound",
+      "direction": "up"
     }
   ],
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-09-13/COMMODITIES_summary.png"
+      "src": "charts/2026-09-14/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-09-13/CRYPTO_summary.png"
+      "src": "charts/2026-09-14/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-09-13/HK_MARKET_summary.png"
+      "src": "charts/2026-09-14/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-09-13/US_EQUITY_summary.png"
+      "src": "charts/2026-09-14/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-09-13.html"
+  "latest_report_href": "reports/2026-09-14.html"
 }
