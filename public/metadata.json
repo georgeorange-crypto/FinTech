@@ -1,16 +1,15 @@
 {
-  "latest_date": "2026-09-15",
-  "market_data_date": "2026-09-15",
-  "chart_date": "2026-09-15",
-  "regime": "mixed",
-  "regime_summary": "市场信号不足，暂不判断明确状态。 但存在信号冲突，需要降低单一叙事置信度。",
+  "latest_date": "2026-09-16",
+  "market_data_date": "2026-09-16",
+  "chart_date": "2026-09-16",
+  "regime": "unknown",
+  "regime_summary": "市场信号不足，暂不判断明确状态。",
   "key_moves": [
-    "SPY 上涨 0.85%",
-    "QQQ 上涨 0.87%",
-    "VIX 上涨 7.95%",
-    "DXY 上涨 0.39%",
-    "Gold 下跌 -1.87%",
-    "Oil 上涨 2.17%"
+    "SPY 下跌 -0.46%",
+    "QQQ 下跌 -0.65%",
+    "Gold 下跌 -0.58%",
+    "Oil 上涨 3.86%",
+    "ETH 下跌 -3.10%"
   ],
   "watch_points": [
     "关注后续数据是否确认当前跨资产信号。"
@@ -18,40 +17,58 @@
   "cards": [
     {
       "label": "美股 SPY",
-      "value": "0.85%"
+      "value": "-0.46%"
     },
     {
       "label": "QQQ",
-      "value": "0.87%"
+      "value": "-0.65%"
     },
     {
       "label": "VIX",
-      "value": "7.95%"
+      "value": "0.58%"
     },
     {
       "label": "BTC",
-      "value": "1.72%"
+      "value": "-1.54%"
     },
     {
       "label": "Gold",
-      "value": "-1.87%"
+      "value": "-0.58%"
     },
     {
       "label": "Oil",
-      "value": "2.17%"
+      "value": "3.86%"
     }
   ],
   "top_themes": [
+    "central_bank_decision: Why a Federal Reserve rate hike could be a ‘rare win’ for your retirement money",
     "fiscal_policy: Isabel Schnabel: Macroeconomic, fiscal and financial stability in a shock-prone world",
-    "regulation: SEC Grants Exemptive Relief from Certain Inline XBRL Filing or Submission Requirements",
-    "regulation: SEC's Atkins backs Clarity Act but says agency will keep pushing crypto rules without it"
+    "regulation: SEC Grants Exemptive Relief from Certain Inline XBRL Filing or Submission Requirements"
   ],
   "news_counts": {
-    "must_read": 6,
-    "policy_watch": 4,
+    "must_read": 5,
+    "policy_watch": 3,
     "background": 15
   },
   "focus_news": [
+    {
+      "title": "Why a Federal Reserve rate hike could be a ‘rare win’ for your retirement money",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/why-a-federal-reserve-rate-hike-could-be-a-rare-win-for-your-retirement-money-3ae337df?mod=mw_rss_topstories",
+      "event_type": "central_bank_decision",
+      "importance_tier": 1,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
+      "market_impact": "主要影响 QQQ，方向为 negative，强度 high；鹰派政策提高折现率，压制成长股估值。",
+      "assets": [
+        "BTC",
+        "DXY",
+        "QQQ",
+        "SPY",
+        "TLT"
+      ]
+    },
     {
       "title": "Isabel Schnabel: Macroeconomic, fiscal and financial stability in a shock-prone world",
       "source": "ECB Press Releases",
@@ -82,42 +99,44 @@
       ]
     },
     {
-      "title": "SEC's Atkins backs Clarity Act but says agency will keep pushing crypto rules without it",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/09/14/sec-s-atkins-backs-clarity-act-but-says-agency-will-keep-pushing-crypto-rules-without-it",
-      "event_type": "regulation",
-      "importance_tier": 2,
+      "title": "Inflation killed the penny. Now it’s coming for your dollar.",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/inflation-killed-the-penny-now-its-coming-for-your-dollar-78336cd8?mod=mw_rss_topstories",
+      "event_type": "other",
+      "importance_tier": 3,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
       "assets": [
         "BTC",
-        "COIN",
-        "ETH",
-        "crypto market"
-      ]
-    },
-    {
-      "title": "Banks escalate stablecoin rewards fight as Senate prepares for a Clarity Act vote",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/09/14/banks-escalate-stablecoin-rewards-fight-as-senate-prepares-for-a-clarity-act-vote",
-      "event_type": "crypto_market_structure",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
-      "assets": [
-        "BTC",
-        "COIN",
-        "ETH",
-        "crypto market"
+        "DXY",
+        "GC=F",
+        "QQQ",
+        "SPY"
       ]
     }
   ],
   "policy_news": [
     {
+      "title": "Why a Federal Reserve rate hike could be a ‘rare win’ for your retirement money",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/why-a-federal-reserve-rate-hike-could-be-a-rare-win-for-your-retirement-money-3ae337df?mod=mw_rss_topstories",
+      "event_type": "central_bank_decision",
+      "importance_tier": 1,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
+      "market_impact": "主要影响 QQQ，方向为 negative，强度 high；鹰派政策提高折现率，压制成长股估值。",
+      "assets": [
+        "BTC",
+        "DXY",
+        "QQQ",
+        "SPY",
+        "TLT"
+      ]
+    },
+    {
       "title": "Isabel Schnabel: Macroeconomic, fiscal and financial stability in a shock-prone world",
       "source": "ECB Press Releases",
       "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260914~0ffd556bc8.en.pdf",
@@ -133,23 +152,6 @@
       "title": "SEC Grants Exemptive Relief from Certain Inline XBRL Filing or Submission Requirements",
       "source": "SEC Press Releases",
       "url": "https://www.sec.gov/newsroom/press-releases/2026-88-sec-grants-exemptive-relief-certain-inline-xbrl-filing-or-submission-requirements",
-      "event_type": "regulation",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
-      "assets": [
-        "BTC",
-        "COIN",
-        "ETH",
-        "crypto market"
-      ]
-    },
-    {
-      "title": "SEC's Atkins backs Clarity Act but says agency will keep pushing crypto rules without it",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/09/14/sec-s-atkins-backs-clarity-act-but-says-agency-will-keep-pushing-crypto-rules-without-it",
       "event_type": "regulation",
       "importance_tier": 2,
       "impact_strength": "high",
@@ -166,95 +168,95 @@
   ],
   "asset_movers": [
     {
-      "symbol": "^VIX",
-      "group": "US_MACRO_MARKET",
-      "price": "17.10",
-      "one_day": "7.95%",
-      "five_day": "11.76%",
-      "trend": "range_bound",
-      "direction": "up"
-    },
-    {
       "symbol": "RIPPLE",
       "group": "CRYPTO",
-      "price": "1.42",
-      "one_day": "6.02%",
-      "five_day": "1.98%",
-      "trend": "uptrend",
-      "direction": "up"
-    },
-    {
-      "symbol": "SOLANA",
-      "group": "CRYPTO",
-      "price": "102.53",
-      "one_day": "3.23%",
-      "five_day": "0.95%",
+      "price": "1.29",
+      "one_day": "-4.16%",
+      "five_day": "-7.81%",
       "trend": "range_bound",
-      "direction": "up"
-    },
-    {
-      "symbol": "1810.HK",
-      "group": "HK_MARKET",
-      "price": "27.16",
-      "one_day": "3.03%",
-      "five_day": "-1.24%",
-      "trend": "range_bound",
-      "direction": "up"
+      "direction": "down"
     },
     {
       "symbol": "CL=F",
       "group": "COMMODITIES",
-      "price": "102.22",
-      "one_day": "2.17%",
-      "five_day": "11.74%",
+      "price": "105.30",
+      "one_day": "3.86%",
+      "five_day": "13.19%",
       "trend": "strong_uptrend",
       "direction": "up"
     },
     {
-      "symbol": "GC=F",
-      "group": "COMMODITIES",
-      "price": "4,326.50",
-      "one_day": "-1.87%",
-      "five_day": "-2.33%",
+      "symbol": "ETH",
+      "group": "CRYPTO",
+      "price": "2,399.83",
+      "one_day": "-3.10%",
+      "five_day": "-2.74%",
       "trend": "range_bound",
       "direction": "down"
     },
     {
       "symbol": "BZ=F",
       "group": "COMMODITIES",
-      "price": "106.55",
-      "one_day": "1.85%",
-      "five_day": "10.67%",
+      "price": "108.46",
+      "one_day": "2.63%",
+      "five_day": "10.76%",
       "trend": "strong_uptrend",
       "direction": "up"
     },
     {
-      "symbol": "NG=F",
-      "group": "COMMODITIES",
-      "price": "2.88",
-      "one_day": "1.80%",
-      "five_day": "-3.13%",
+      "symbol": "1810.HK",
+      "group": "HK_MARKET",
+      "price": "26.50",
+      "one_day": "-2.43%",
+      "five_day": "-1.56%",
       "trend": "range_bound",
+      "direction": "down"
+    },
+    {
+      "symbol": "SOLANA",
+      "group": "CRYPTO",
+      "price": "96.92",
+      "one_day": "-2.42%",
+      "five_day": "-4.58%",
+      "trend": "range_bound",
+      "direction": "down"
+    },
+    {
+      "symbol": "HG=F",
+      "group": "COMMODITIES",
+      "price": "6.46",
+      "one_day": "2.08%",
+      "five_day": "-4.12%",
+      "trend": "range_bound",
+      "direction": "up"
+    },
+    {
+      "symbol": "0700.HK",
+      "group": "HK_MARKET",
+      "price": "438.80",
+      "one_day": "1.90%",
+      "five_day": "0.78%",
+      "trend": "downtrend",
       "direction": "up"
     }
   ],
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-09-15/COMMODITIES_summary.png"
+      "src": "charts/2026-09-16/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-09-15/CRYPTO_summary.png"
+      "src": "charts/2026-09-16/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-09-15/HK_MARKET_summary.png"
+      "src": "charts/2026-09-16/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-09-15/US_EQUITY_summary.png"
+      "src": "charts/2026-09-16/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-09-15.html"
+  "latest_report_href": "reports/2026-09-16.html"
 }
