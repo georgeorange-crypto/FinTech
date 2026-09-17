@@ -1,18 +1,18 @@
 {
-  "latest_date": "2026-09-16",
-  "market_data_date": "2026-09-16",
-  "chart_date": "2026-09-16",
-  "regime": "unknown",
-  "regime_summary": "市场信号不足，暂不判断明确状态。",
+  "latest_date": "2026-09-17",
+  "market_data_date": "2026-09-17",
+  "chart_date": "2026-09-17",
+  "regime": "dollar_liquidity_tightening",
+  "regime_summary": "美元走强并压制风险资产，市场可能在交易美元流动性收紧。",
   "key_moves": [
     "SPY 下跌 -0.46%",
     "QQQ 下跌 -0.65%",
-    "Gold 下跌 -0.58%",
-    "Oil 上涨 3.86%",
-    "ETH 下跌 -3.10%"
+    "DXY 上涨 0.61%",
+    "Gold 下跌 -0.51%",
+    "Oil 下跌 -3.85%"
   ],
   "watch_points": [
-    "关注后续数据是否确认当前跨资产信号。"
+    "关注离岸美元、亚洲货币和新兴市场资产反应。"
   ],
   "cards": [
     {
@@ -25,88 +25,41 @@
     },
     {
       "label": "VIX",
-      "value": "0.58%"
+      "value": "2.97%"
     },
     {
       "label": "BTC",
-      "value": "-1.54%"
+      "value": "0.79%"
     },
     {
       "label": "Gold",
-      "value": "-0.58%"
+      "value": "-0.51%"
     },
     {
       "label": "Oil",
-      "value": "3.86%"
+      "value": "-3.85%"
     }
   ],
   "top_themes": [
-    "central_bank_decision: Why a Federal Reserve rate hike could be a ‘rare win’ for your retirement money",
-    "fiscal_policy: Isabel Schnabel: Macroeconomic, fiscal and financial stability in a shock-prone world",
-    "regulation: SEC Grants Exemptive Relief from Certain Inline XBRL Filing or Submission Requirements"
+    "central_bank_decision: Fed rate hike fails to calm troubled markets as Dow falls 600 points. Expect more sharp swings in stocks and bonds.",
+    "central_bank_decision: Here are five key takeaways from Wednesday's Fed rate hike",
+    "central_bank_decision: Fed approves interest rate hike, signals one more to come this year"
   ],
   "news_counts": {
-    "must_read": 5,
-    "policy_watch": 3,
-    "background": 15
+    "must_read": 10,
+    "policy_watch": 9,
+    "background": 14
   },
   "focus_news": [
     {
-      "title": "Why a Federal Reserve rate hike could be a ‘rare win’ for your retirement money",
+      "title": "Fed rate hike fails to calm troubled markets as Dow falls 600 points. Expect more sharp swings in stocks and bonds.",
       "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/why-a-federal-reserve-rate-hike-could-be-a-rare-win-for-your-retirement-money-3ae337df?mod=mw_rss_topstories",
+      "url": "https://www.marketwatch.com/story/fed-rate-hike-fails-to-calm-troubled-markets-as-dow-falls-600-points-expect-more-sharp-swings-in-stocks-and-bonds-5ffb55fe?mod=mw_rss_topstories",
       "event_type": "central_bank_decision",
       "importance_tier": 1,
       "impact_strength": "high",
       "impact_direction": "mixed",
       "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
-      "market_impact": "主要影响 QQQ，方向为 negative，强度 high；鹰派政策提高折现率，压制成长股估值。",
-      "assets": [
-        "BTC",
-        "DXY",
-        "QQQ",
-        "SPY",
-        "TLT"
-      ]
-    },
-    {
-      "title": "Isabel Schnabel: Macroeconomic, fiscal and financial stability in a shock-prone world",
-      "source": "ECB Press Releases",
-      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260914~0ffd556bc8.en.pdf",
-      "event_type": "fiscal_policy",
-      "importance_tier": 1,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
-      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
-      "assets": []
-    },
-    {
-      "title": "SEC Grants Exemptive Relief from Certain Inline XBRL Filing or Submission Requirements",
-      "source": "SEC Press Releases",
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-88-sec-grants-exemptive-relief-certain-inline-xbrl-filing-or-submission-requirements",
-      "event_type": "regulation",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
-      "assets": [
-        "BTC",
-        "COIN",
-        "ETH",
-        "crypto market"
-      ]
-    },
-    {
-      "title": "Inflation killed the penny. Now it’s coming for your dollar.",
-      "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/inflation-killed-the-penny-now-its-coming-for-your-dollar-78336cd8?mod=mw_rss_topstories",
-      "event_type": "other",
-      "importance_tier": 3,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
       "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
       "assets": [
         "BTC",
@@ -115,13 +68,11 @@
         "QQQ",
         "SPY"
       ]
-    }
-  ],
-  "policy_news": [
+    },
     {
-      "title": "Why a Federal Reserve rate hike could be a ‘rare win’ for your retirement money",
-      "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/why-a-federal-reserve-rate-hike-could-be-a-rare-win-for-your-retirement-money-3ae337df?mod=mw_rss_topstories",
+      "title": "Here are five key takeaways from Wednesday's Fed rate hike",
+      "source": "CNBC Economy",
+      "url": "https://www.cnbc.com/2026/09/16/here-are-five-key-takeaways-from-wednesdays-fed-rate-hike.html",
       "event_type": "central_bank_decision",
       "importance_tier": 1,
       "impact_strength": "high",
@@ -137,126 +88,189 @@
       ]
     },
     {
-      "title": "Isabel Schnabel: Macroeconomic, fiscal and financial stability in a shock-prone world",
-      "source": "ECB Press Releases",
-      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260914~0ffd556bc8.en.pdf",
-      "event_type": "fiscal_policy",
+      "title": "Fed approves interest rate hike, signals one more to come this year",
+      "source": "CNBC Economy",
+      "url": "https://www.cnbc.com/2026/09/16/fed-rate-decision-september-2026.html",
+      "event_type": "central_bank_decision",
       "importance_tier": 1,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
-      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
-      "assets": []
-    },
-    {
-      "title": "SEC Grants Exemptive Relief from Certain Inline XBRL Filing or Submission Requirements",
-      "source": "SEC Press Releases",
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-88-sec-grants-exemptive-relief-certain-inline-xbrl-filing-or-submission-requirements",
-      "event_type": "regulation",
-      "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
+      "market_impact": "主要影响 QQQ，方向为 negative，强度 high；鹰派政策提高折现率，压制成长股估值。",
       "assets": [
         "BTC",
-        "COIN",
-        "ETH",
-        "crypto market"
+        "DXY",
+        "QQQ",
+        "SPY",
+        "TLT"
+      ]
+    },
+    {
+      "title": "As Fed rolls out its first interest-rate hike in 3 years, market braces for more increases",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/warshs-fed-rolls-out-first-interest-rate-hike-in-3-years-with-one-more-increase-expected-cde3060d?mod=mw_rss_topstories",
+      "event_type": "central_bank_decision",
+      "importance_tier": 1,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
+      "market_impact": "主要影响 QQQ，方向为 negative，强度 high；鹰派政策提高折现率，压制成长股估值。",
+      "assets": [
+        "BTC",
+        "DXY",
+        "QQQ",
+        "SPY",
+        "TLT"
+      ]
+    }
+  ],
+  "policy_news": [
+    {
+      "title": "Fed rate hike fails to calm troubled markets as Dow falls 600 points. Expect more sharp swings in stocks and bonds.",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/fed-rate-hike-fails-to-calm-troubled-markets-as-dow-falls-600-points-expect-more-sharp-swings-in-stocks-and-bonds-5ffb55fe?mod=mw_rss_topstories",
+      "event_type": "central_bank_decision",
+      "importance_tier": 1,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
+      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
+      "assets": [
+        "BTC",
+        "DXY",
+        "GC=F",
+        "QQQ",
+        "SPY"
+      ]
+    },
+    {
+      "title": "Here are five key takeaways from Wednesday's Fed rate hike",
+      "source": "CNBC Economy",
+      "url": "https://www.cnbc.com/2026/09/16/here-are-five-key-takeaways-from-wednesdays-fed-rate-hike.html",
+      "event_type": "central_bank_decision",
+      "importance_tier": 1,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
+      "market_impact": "主要影响 QQQ，方向为 negative，强度 high；鹰派政策提高折现率，压制成长股估值。",
+      "assets": [
+        "BTC",
+        "DXY",
+        "QQQ",
+        "SPY",
+        "TLT"
+      ]
+    },
+    {
+      "title": "Fed approves interest rate hike, signals one more to come this year",
+      "source": "CNBC Economy",
+      "url": "https://www.cnbc.com/2026/09/16/fed-rate-decision-september-2026.html",
+      "event_type": "central_bank_decision",
+      "importance_tier": 1,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
+      "market_impact": "主要影响 QQQ，方向为 negative，强度 high；鹰派政策提高折现率，压制成长股估值。",
+      "assets": [
+        "BTC",
+        "DXY",
+        "QQQ",
+        "SPY",
+        "TLT"
       ]
     }
   ],
   "asset_movers": [
     {
-      "symbol": "RIPPLE",
-      "group": "CRYPTO",
-      "price": "1.29",
-      "one_day": "-4.16%",
-      "five_day": "-7.81%",
-      "trend": "range_bound",
-      "direction": "down"
-    },
-    {
       "symbol": "CL=F",
       "group": "COMMODITIES",
-      "price": "105.30",
-      "one_day": "3.86%",
-      "five_day": "13.19%",
+      "price": "101.76",
+      "one_day": "-3.85%",
+      "five_day": "5.94%",
       "trend": "strong_uptrend",
-      "direction": "up"
-    },
-    {
-      "symbol": "ETH",
-      "group": "CRYPTO",
-      "price": "2,399.83",
-      "one_day": "-3.10%",
-      "five_day": "-2.74%",
-      "trend": "range_bound",
       "direction": "down"
     },
     {
       "symbol": "BZ=F",
       "group": "COMMODITIES",
-      "price": "108.46",
-      "one_day": "2.63%",
-      "five_day": "10.76%",
+      "price": "105.20",
+      "one_day": "-3.26%",
+      "five_day": "3.94%",
       "trend": "strong_uptrend",
+      "direction": "down"
+    },
+    {
+      "symbol": "^VIX",
+      "group": "US_MACRO_MARKET",
+      "price": "17.71",
+      "one_day": "2.97%",
+      "five_day": "7.59%",
+      "trend": "range_bound",
       "direction": "up"
     },
     {
-      "symbol": "1810.HK",
-      "group": "HK_MARKET",
-      "price": "26.50",
-      "one_day": "-2.43%",
-      "five_day": "-1.56%",
-      "trend": "range_bound",
-      "direction": "down"
+      "symbol": "BINANCECOIN",
+      "group": "CRYPTO",
+      "price": "725.34",
+      "one_day": "1.91%",
+      "five_day": "-0.16%",
+      "trend": "uptrend",
+      "direction": "up"
     },
     {
       "symbol": "SOLANA",
       "group": "CRYPTO",
-      "price": "96.92",
-      "one_day": "-2.42%",
-      "five_day": "-4.58%",
+      "price": "98.50",
+      "one_day": "1.68%",
+      "five_day": "-3.81%",
       "trend": "range_bound",
-      "direction": "down"
+      "direction": "up"
     },
     {
       "symbol": "HG=F",
       "group": "COMMODITIES",
       "price": "6.46",
-      "one_day": "2.08%",
-      "five_day": "-4.12%",
+      "one_day": "1.44%",
+      "five_day": "-5.05%",
       "trend": "range_bound",
       "direction": "up"
     },
     {
       "symbol": "0700.HK",
       "group": "HK_MARKET",
-      "price": "438.80",
-      "one_day": "1.90%",
-      "five_day": "0.78%",
+      "price": "433.40",
+      "one_day": "-1.23%",
+      "five_day": "-0.14%",
       "trend": "downtrend",
-      "direction": "up"
+      "direction": "down"
+    },
+    {
+      "symbol": "1810.HK",
+      "group": "HK_MARKET",
+      "price": "26.18",
+      "one_day": "-1.21%",
+      "five_day": "-0.76%",
+      "trend": "range_bound",
+      "direction": "down"
     }
   ],
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-09-16/COMMODITIES_summary.png"
+      "src": "charts/2026-09-17/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-09-16/CRYPTO_summary.png"
+      "src": "charts/2026-09-17/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-09-16/HK_MARKET_summary.png"
+      "src": "charts/2026-09-17/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-09-16/US_EQUITY_summary.png"
+      "src": "charts/2026-09-17/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-09-16.html"
+  "latest_report_href": "reports/2026-09-17.html"
 }
