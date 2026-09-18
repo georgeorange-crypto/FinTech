@@ -1,135 +1,133 @@
 {
-  "latest_date": "2026-09-18",
-  "market_data_date": "2026-09-18",
-  "chart_date": "2026-09-18",
-  "regime": "risk_on",
-  "regime_summary": "股指上涨、波动率或美元回落，市场更接近风险偏好改善。",
+  "latest_date": "2026-09-19",
+  "market_data_date": "2026-09-19",
+  "chart_date": "2026-09-19",
+  "regime": "unknown",
+  "regime_summary": "市场信号不足，暂不判断明确状态。",
   "key_moves": [
-    "SPY 上涨 1.13%",
-    "QQQ 上涨 1.73%",
-    "VIX 下跌 -12.82%",
-    "TLT 上涨 1.11%",
-    "Oil 下跌 -1.26%",
-    "ETH 上涨 2.04%"
+    "QQQ 上涨 0.63%",
+    "VIX 下跌 -4.08%",
+    "TLT 下跌 -0.65%",
+    "Oil 下跌 -6.32%",
+    "BTC 上涨 6.22%",
+    "ETH 上涨 8.04%"
   ],
   "watch_points": [
-    "确认风险偏好是否扩散到小盘股、信用利差和周期品。"
+    "关注后续数据是否确认当前跨资产信号。"
   ],
   "cards": [
     {
       "label": "美股 SPY",
-      "value": "1.13%"
+      "value": "-0.12%"
     },
     {
       "label": "QQQ",
-      "value": "1.73%"
+      "value": "0.63%"
     },
     {
       "label": "VIX",
-      "value": "-12.82%"
+      "value": "-4.08%"
     },
     {
       "label": "BTC",
-      "value": "1.03%"
+      "value": "6.22%"
     },
     {
       "label": "Gold",
-      "value": "-0.11%"
+      "value": "0.37%"
     },
     {
       "label": "Oil",
-      "value": "-1.26%"
+      "value": "-6.32%"
     }
   ],
   "top_themes": [
-    "central_bank_decision: Live updates: Bitcoin edges higher as Nasdaq climbs 1.7% in wake of Fed rate hike",
-    "central_bank_decision: Goldman pivots, now forecasts Fed rate hike in October",
-    "central_bank_decision: Here are five key takeaways from Wednesday's Fed rate hike"
+    "central_bank_decision: My rental property is paid off, but I need cash. Is this a bad time to take out a $50,000 HELOC?",
+    "earnings: Amazon, Palantir and 12 more top tech stock picks from UBS analysts",
+    "regulation: Real stocks are finally coming on blockchain. Here’s how the SEC wants it to work"
   ],
   "news_counts": {
     "must_read": 10,
-    "policy_watch": 10,
-    "background": 12
+    "policy_watch": 7,
+    "background": 17
   },
   "focus_news": [
     {
-      "title": "Live updates: Bitcoin edges higher as Nasdaq climbs 1.7% in wake of Fed rate hike",
+      "title": "My rental property is paid off, but I need cash. Is this a bad time to take out a $50,000 HELOC?",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/my-rental-property-is-paid-off-but-i-need-cash-is-this-a-bad-time-to-take-out-a-50-000-heloc-d094bbc5?mod=mw_rss_topstories",
+      "event_type": "central_bank_decision",
+      "importance_tier": 1,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
+      "market_impact": "主要影响 QQQ，方向为 negative，强度 high；鹰派政策提高折现率，压制成长股估值。",
+      "assets": [
+        "BTC",
+        "DXY",
+        "QQQ",
+        "SPY",
+        "TLT"
+      ]
+    },
+    {
+      "title": "Amazon, Palantir and 12 more top tech stock picks from UBS analysts",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/amazon-palantir-and-12-more-top-tech-stock-picks-from-ubs-analysts-435244bb?mod=mw_rss_topstories",
+      "event_type": "earnings",
+      "importance_tier": 2,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
+      "market_impact": "主要影响 QQQ，方向为 mixed，强度 high；AI 资本开支会影响大型科技股盈利和估值预期。",
+      "assets": [
+        "AMZN",
+        "GOOGL",
+        "META",
+        "MSFT",
+        "NVDA"
+      ]
+    },
+    {
+      "title": "Real stocks are finally coming on blockchain. Here’s how the SEC wants it to work",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/tech/2026/09/17/live-updates-zcash-jumps-17-as-usd345-million-of-liquidations-hit-crypto-traders",
-      "event_type": "central_bank_decision",
-      "importance_tier": 1,
+      "url": "https://www.coindesk.com/business/2026/09/17/real-stocks-are-finally-coming-on-blockchain-here-s-how-the-sec-wants-it-to-work",
+      "event_type": "regulation",
+      "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
-      "market_impact": "主要影响 QQQ，方向为 negative，强度 high；鹰派政策提高折现率，压制成长股估值。",
+      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
       "assets": [
         "BTC",
-        "DXY",
-        "QQQ",
-        "SPY",
-        "TLT"
+        "COIN",
+        "ETH",
+        "crypto market"
       ]
     },
     {
-      "title": "Goldman pivots, now forecasts Fed rate hike in October",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/09/17/goldman-expects-another-fed-rate-hike-in-october",
-      "event_type": "central_bank_decision",
-      "importance_tier": 1,
+      "title": "SEC Issues “Innovation Exemption” to Facilitate the Trading of Tokenized NMS Stock and Request for Comment",
+      "source": "SEC Press Releases",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-90-sec-issues-innovation-exemption-facilitate-trading-tokenized-nms-stock-request-comment",
+      "event_type": "regulation",
+      "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
-      "market_impact": "主要影响 QQQ，方向为 negative，强度 high；鹰派政策提高折现率，压制成长股估值。",
+      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
       "assets": [
         "BTC",
-        "DXY",
-        "QQQ",
-        "SPY",
-        "TLT"
-      ]
-    },
-    {
-      "title": "Here are five key takeaways from Wednesday's Fed rate hike",
-      "source": "CNBC Economy",
-      "url": "https://www.cnbc.com/2026/09/16/here-are-five-key-takeaways-from-wednesdays-fed-rate-hike.html",
-      "event_type": "central_bank_decision",
-      "importance_tier": 1,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
-      "market_impact": "主要影响 QQQ，方向为 negative，强度 high；鹰派政策提高折现率，压制成长股估值。",
-      "assets": [
-        "BTC",
-        "DXY",
-        "QQQ",
-        "SPY",
-        "TLT"
-      ]
-    },
-    {
-      "title": "Fed approves interest rate hike, signals one more to come this year",
-      "source": "CNBC Economy",
-      "url": "https://www.cnbc.com/2026/09/16/fed-rate-decision-september-2026.html",
-      "event_type": "central_bank_decision",
-      "importance_tier": 1,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
-      "market_impact": "主要影响 QQQ，方向为 negative，强度 high；鹰派政策提高折现率，压制成长股估值。",
-      "assets": [
-        "BTC",
-        "DXY",
-        "QQQ",
-        "SPY",
-        "TLT"
+        "COIN",
+        "ETH",
+        "crypto market"
       ]
     }
   ],
   "policy_news": [
     {
-      "title": "Live updates: Bitcoin edges higher as Nasdaq climbs 1.7% in wake of Fed rate hike",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/tech/2026/09/17/live-updates-zcash-jumps-17-as-usd345-million-of-liquidations-hit-crypto-traders",
+      "title": "My rental property is paid off, but I need cash. Is this a bad time to take out a $50,000 HELOC?",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/my-rental-property-is-paid-off-but-i-need-cash-is-this-a-bad-time-to-take-out-a-50-000-heloc-d094bbc5?mod=mw_rss_topstories",
       "event_type": "central_bank_decision",
       "importance_tier": 1,
       "impact_strength": "high",
@@ -145,133 +143,131 @@
       ]
     },
     {
-      "title": "Goldman pivots, now forecasts Fed rate hike in October",
+      "title": "Real stocks are finally coming on blockchain. Here’s how the SEC wants it to work",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/09/17/goldman-expects-another-fed-rate-hike-in-october",
-      "event_type": "central_bank_decision",
-      "importance_tier": 1,
+      "url": "https://www.coindesk.com/business/2026/09/17/real-stocks-are-finally-coming-on-blockchain-here-s-how-the-sec-wants-it-to-work",
+      "event_type": "regulation",
+      "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
-      "market_impact": "主要影响 QQQ，方向为 negative，强度 high；鹰派政策提高折现率，压制成长股估值。",
+      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
       "assets": [
         "BTC",
-        "DXY",
-        "QQQ",
-        "SPY",
-        "TLT"
+        "COIN",
+        "ETH",
+        "crypto market"
       ]
     },
     {
-      "title": "Here are five key takeaways from Wednesday's Fed rate hike",
-      "source": "CNBC Economy",
-      "url": "https://www.cnbc.com/2026/09/16/here-are-five-key-takeaways-from-wednesdays-fed-rate-hike.html",
-      "event_type": "central_bank_decision",
-      "importance_tier": 1,
+      "title": "SEC Issues “Innovation Exemption” to Facilitate the Trading of Tokenized NMS Stock and Request for Comment",
+      "source": "SEC Press Releases",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-90-sec-issues-innovation-exemption-facilitate-trading-tokenized-nms-stock-request-comment",
+      "event_type": "regulation",
+      "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
-      "market_impact": "主要影响 QQQ，方向为 negative，强度 high；鹰派政策提高折现率，压制成长股估值。",
+      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
       "assets": [
         "BTC",
-        "DXY",
-        "QQQ",
-        "SPY",
-        "TLT"
+        "COIN",
+        "ETH",
+        "crypto market"
       ]
     }
   ],
   "asset_movers": [
     {
-      "symbol": "^VIX",
-      "group": "US_MACRO_MARKET",
-      "price": "15.44",
-      "one_day": "-12.82%",
-      "five_day": "-13.45%",
-      "trend": "downtrend",
-      "direction": "down"
-    },
-    {
       "symbol": "SOLANA",
       "group": "CRYPTO",
-      "price": "101.57",
-      "one_day": "4.85%",
-      "five_day": "-0.81%",
-      "trend": "range_bound",
-      "direction": "up"
-    },
-    {
-      "symbol": "BINANCECOIN",
-      "group": "CRYPTO",
-      "price": "738.05",
-      "one_day": "3.70%",
-      "five_day": "1.59%",
+      "price": "112.81",
+      "one_day": "14.47%",
+      "five_day": "10.86%",
       "trend": "strong_uptrend",
       "direction": "up"
     },
     {
-      "symbol": "HG=F",
-      "group": "COMMODITIES",
-      "price": "6.62",
-      "one_day": "2.92%",
-      "five_day": "2.36%",
+      "symbol": "ETH",
+      "group": "CRYPTO",
+      "price": "2,610.15",
+      "one_day": "8.04%",
+      "five_day": "3.36%",
+      "trend": "strong_uptrend",
+      "direction": "up"
+    },
+    {
+      "symbol": "RIPPLE",
+      "group": "CRYPTO",
+      "price": "1.40",
+      "one_day": "7.56%",
+      "five_day": "2.21%",
       "trend": "uptrend",
       "direction": "up"
     },
     {
-      "symbol": "1211.HK",
-      "group": "HK_MARKET",
-      "price": "81.15",
-      "one_day": "2.46%",
-      "five_day": "2.01%",
-      "trend": "strong_downtrend",
-      "direction": "up"
-    },
-    {
-      "symbol": "SI=F",
+      "symbol": "CL=F",
       "group": "COMMODITIES",
-      "price": "65.86",
-      "one_day": "2.45%",
-      "five_day": "2.46%",
-      "trend": "range_bound",
-      "direction": "up"
-    },
-    {
-      "symbol": "3690.HK",
-      "group": "HK_MARKET",
-      "price": "72.90",
-      "one_day": "-2.08%",
-      "five_day": "-2.47%",
-      "trend": "strong_downtrend",
+      "price": "95.47",
+      "one_day": "-6.32%",
+      "five_day": "-4.58%",
+      "trend": "strong_uptrend",
       "direction": "down"
     },
     {
-      "symbol": "ETH",
+      "symbol": "BTC",
       "group": "CRYPTO",
-      "price": "2,446.51",
-      "one_day": "2.04%",
-      "five_day": "-2.72%",
-      "trend": "range_bound",
+      "price": "80,886.68",
+      "one_day": "6.22%",
+      "five_day": "4.69%",
+      "trend": "uptrend",
       "direction": "up"
+    },
+    {
+      "symbol": "BZ=F",
+      "group": "COMMODITIES",
+      "price": "98.77",
+      "one_day": "-5.77%",
+      "five_day": "-5.58%",
+      "trend": "strong_uptrend",
+      "direction": "down"
+    },
+    {
+      "symbol": "BINANCECOIN",
+      "group": "CRYPTO",
+      "price": "761.44",
+      "one_day": "4.97%",
+      "five_day": "4.68%",
+      "trend": "strong_uptrend",
+      "direction": "up"
+    },
+    {
+      "symbol": "^VIX",
+      "group": "US_MACRO_MARKET",
+      "price": "14.81",
+      "one_day": "-4.08%",
+      "five_day": "-6.50%",
+      "trend": "downtrend",
+      "direction": "down"
     }
   ],
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-09-18/COMMODITIES_summary.png"
+      "src": "charts/2026-09-19/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-09-18/CRYPTO_summary.png"
+      "src": "charts/2026-09-19/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-09-18/HK_MARKET_summary.png"
+      "src": "charts/2026-09-19/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-09-18/US_EQUITY_summary.png"
+      "src": "charts/2026-09-19/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-09-18.html"
+  "latest_report_href": "reports/2026-09-19.html"
 }
