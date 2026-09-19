@@ -1,16 +1,17 @@
 {
-  "latest_date": "2026-09-19",
-  "market_data_date": "2026-09-19",
-  "chart_date": "2026-09-19",
+  "latest_date": "2026-09-20",
+  "market_data_date": "2026-09-20",
+  "chart_date": "2026-09-20",
   "regime": "unknown",
   "regime_summary": "市场信号不足，暂不判断明确状态。",
   "key_moves": [
     "QQQ 上涨 0.63%",
     "VIX 下跌 -4.08%",
     "TLT 下跌 -0.65%",
-    "Oil 下跌 -6.32%",
-    "BTC 上涨 6.22%",
-    "ETH 上涨 8.04%"
+    "Gold 上涨 0.57%",
+    "Oil 下跌 -1.58%",
+    "BTC 上涨 6.41%",
+    "ETH 上涨 7.67%"
   ],
   "watch_points": [
     "关注后续数据是否确认当前跨资产信号。"
@@ -30,214 +31,136 @@
     },
     {
       "label": "BTC",
-      "value": "6.22%"
+      "value": "6.41%"
     },
     {
       "label": "Gold",
-      "value": "0.37%"
+      "value": "0.57%"
     },
     {
       "label": "Oil",
-      "value": "-6.32%"
+      "value": "-1.58%"
     }
   ],
   "top_themes": [
-    "central_bank_decision: My rental property is paid off, but I need cash. Is this a bad time to take out a $50,000 HELOC?",
-    "earnings: Amazon, Palantir and 12 more top tech stock picks from UBS analysts",
-    "regulation: Real stocks are finally coming on blockchain. Here’s how the SEC wants it to work"
+    "regulation: Federal Reserve Board announces termination of enforcement action with SNB Bancshares and Bank of Eufaula",
+    "regulation: Federal Reserve Board issues enforcement actions with former employee of Northstar Bank, former employee of American Express Travel Related Services Company, Inc., and former employee of Regions Bank"
   ],
   "news_counts": {
-    "must_read": 10,
-    "policy_watch": 7,
+    "must_read": 4,
+    "policy_watch": 2,
     "background": 17
   },
   "focus_news": [
     {
-      "title": "My rental property is paid off, but I need cash. Is this a bad time to take out a $50,000 HELOC?",
-      "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/my-rental-property-is-paid-off-but-i-need-cash-is-this-a-bad-time-to-take-out-a-50-000-heloc-d094bbc5?mod=mw_rss_topstories",
-      "event_type": "central_bank_decision",
-      "importance_tier": 1,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
-      "market_impact": "主要影响 QQQ，方向为 negative，强度 high；鹰派政策提高折现率，压制成长股估值。",
-      "assets": [
-        "BTC",
-        "DXY",
-        "QQQ",
-        "SPY",
-        "TLT"
-      ]
-    },
-    {
-      "title": "Amazon, Palantir and 12 more top tech stock picks from UBS analysts",
-      "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/amazon-palantir-and-12-more-top-tech-stock-picks-from-ubs-analysts-435244bb?mod=mw_rss_topstories",
-      "event_type": "earnings",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
-      "market_impact": "主要影响 QQQ，方向为 mixed，强度 high；AI 资本开支会影响大型科技股盈利和估值预期。",
-      "assets": [
-        "AMZN",
-        "GOOGL",
-        "META",
-        "MSFT",
-        "NVDA"
-      ]
-    },
-    {
-      "title": "Real stocks are finally coming on blockchain. Here’s how the SEC wants it to work",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/09/17/real-stocks-are-finally-coming-on-blockchain-here-s-how-the-sec-wants-it-to-work",
+      "title": "Federal Reserve Board announces termination of enforcement action with SNB Bancshares and Bank of Eufaula",
+      "source": "Federal Reserve Press Releases",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260918b.htm",
       "event_type": "regulation",
       "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
+      "impact_strength": "low",
+      "impact_direction": "unknown",
       "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
-      "assets": [
-        "BTC",
-        "COIN",
-        "ETH",
-        "crypto market"
-      ]
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "assets": []
     },
     {
-      "title": "SEC Issues “Innovation Exemption” to Facilitate the Trading of Tokenized NMS Stock and Request for Comment",
-      "source": "SEC Press Releases",
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-90-sec-issues-innovation-exemption-facilitate-trading-tokenized-nms-stock-request-comment",
+      "title": "Federal Reserve Board issues enforcement actions with former employee of Northstar Bank, former employee of American Express Travel Related Services Company, Inc., and former employee of Regions Bank",
+      "source": "Federal Reserve Press Releases",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260918a.htm",
       "event_type": "regulation",
       "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
+      "impact_strength": "low",
+      "impact_direction": "unknown",
       "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
-      "assets": [
-        "BTC",
-        "COIN",
-        "ETH",
-        "crypto market"
-      ]
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "assets": []
+    },
+    {
+      "title": "The future of retirement? Work until you die.",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/the-future-of-retirement-work-until-you-die-6d0e5341?mod=mw_rss_topstories",
+      "event_type": "other",
+      "importance_tier": 3,
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "market_impact": "更偏背景信息，短期市场影响可能有限。",
+      "assets": []
+    },
+    {
+      "title": "‘There might be a silver lining’: My friend’s wife died at 60 after a high-earning career. Can he claim her Social Security?",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/there-might-be-a-silver-lining-my-friends-wife-died-at-60-after-a-high-earning-career-can-he-claim-her-social-security-eb95210a?mod=mw_rss_topstories",
+      "event_type": "other",
+      "importance_tier": 3,
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "market_impact": "更偏背景信息，短期市场影响可能有限。",
+      "assets": []
     }
   ],
   "policy_news": [
     {
-      "title": "My rental property is paid off, but I need cash. Is this a bad time to take out a $50,000 HELOC?",
-      "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/my-rental-property-is-paid-off-but-i-need-cash-is-this-a-bad-time-to-take-out-a-50-000-heloc-d094bbc5?mod=mw_rss_topstories",
-      "event_type": "central_bank_decision",
-      "importance_tier": 1,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
-      "market_impact": "主要影响 QQQ，方向为 negative，强度 high；鹰派政策提高折现率，压制成长股估值。",
-      "assets": [
-        "BTC",
-        "DXY",
-        "QQQ",
-        "SPY",
-        "TLT"
-      ]
-    },
-    {
-      "title": "Real stocks are finally coming on blockchain. Here’s how the SEC wants it to work",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/09/17/real-stocks-are-finally-coming-on-blockchain-here-s-how-the-sec-wants-it-to-work",
+      "title": "Federal Reserve Board announces termination of enforcement action with SNB Bancshares and Bank of Eufaula",
+      "source": "Federal Reserve Press Releases",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260918b.htm",
       "event_type": "regulation",
       "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
+      "impact_strength": "low",
+      "impact_direction": "unknown",
       "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
-      "assets": [
-        "BTC",
-        "COIN",
-        "ETH",
-        "crypto market"
-      ]
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "assets": []
     },
     {
-      "title": "SEC Issues “Innovation Exemption” to Facilitate the Trading of Tokenized NMS Stock and Request for Comment",
-      "source": "SEC Press Releases",
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-90-sec-issues-innovation-exemption-facilitate-trading-tokenized-nms-stock-request-comment",
+      "title": "Federal Reserve Board issues enforcement actions with former employee of Northstar Bank, former employee of American Express Travel Related Services Company, Inc., and former employee of Regions Bank",
+      "source": "Federal Reserve Press Releases",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260918a.htm",
       "event_type": "regulation",
       "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
+      "impact_strength": "low",
+      "impact_direction": "unknown",
       "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
-      "assets": [
-        "BTC",
-        "COIN",
-        "ETH",
-        "crypto market"
-      ]
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "assets": []
     }
   ],
   "asset_movers": [
     {
       "symbol": "SOLANA",
       "group": "CRYPTO",
-      "price": "112.81",
-      "one_day": "14.47%",
-      "five_day": "10.86%",
-      "trend": "strong_uptrend",
-      "direction": "up"
-    },
-    {
-      "symbol": "ETH",
-      "group": "CRYPTO",
-      "price": "2,610.15",
-      "one_day": "8.04%",
-      "five_day": "3.36%",
+      "price": "111.05",
+      "one_day": "9.33%",
+      "five_day": "11.80%",
       "trend": "strong_uptrend",
       "direction": "up"
     },
     {
       "symbol": "RIPPLE",
       "group": "CRYPTO",
-      "price": "1.40",
-      "one_day": "7.56%",
-      "five_day": "2.21%",
+      "price": "1.41",
+      "one_day": "8.93%",
+      "five_day": "5.19%",
       "trend": "uptrend",
       "direction": "up"
     },
     {
-      "symbol": "CL=F",
-      "group": "COMMODITIES",
-      "price": "95.47",
-      "one_day": "-6.32%",
-      "five_day": "-4.58%",
+      "symbol": "ETH",
+      "group": "CRYPTO",
+      "price": "2,633.83",
+      "one_day": "7.67%",
+      "five_day": "6.34%",
       "trend": "strong_uptrend",
-      "direction": "down"
+      "direction": "up"
     },
     {
       "symbol": "BTC",
       "group": "CRYPTO",
-      "price": "80,886.68",
-      "one_day": "6.22%",
-      "five_day": "4.69%",
-      "trend": "uptrend",
-      "direction": "up"
-    },
-    {
-      "symbol": "BZ=F",
-      "group": "COMMODITIES",
-      "price": "98.77",
-      "one_day": "-5.77%",
-      "five_day": "-5.58%",
-      "trend": "strong_uptrend",
-      "direction": "down"
-    },
-    {
-      "symbol": "BINANCECOIN",
-      "group": "CRYPTO",
-      "price": "761.44",
-      "one_day": "4.97%",
-      "five_day": "4.68%",
+      "price": "81,268.48",
+      "one_day": "6.41%",
+      "five_day": "5.79%",
       "trend": "strong_uptrend",
       "direction": "up"
     },
@@ -249,25 +172,52 @@
       "five_day": "-6.50%",
       "trend": "downtrend",
       "direction": "down"
+    },
+    {
+      "symbol": "9988.HK",
+      "group": "HK_MARKET",
+      "price": "109.30",
+      "one_day": "4.00%",
+      "five_day": "1.67%",
+      "trend": "strong_downtrend",
+      "direction": "up"
+    },
+    {
+      "symbol": "BINANCECOIN",
+      "group": "CRYPTO",
+      "price": "761.73",
+      "one_day": "3.24%",
+      "five_day": "6.35%",
+      "trend": "strong_uptrend",
+      "direction": "up"
+    },
+    {
+      "symbol": "SI=F",
+      "group": "COMMODITIES",
+      "price": "66.56",
+      "one_day": "1.66%",
+      "five_day": "3.10%",
+      "trend": "uptrend",
+      "direction": "up"
     }
   ],
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-09-19/COMMODITIES_summary.png"
+      "src": "charts/2026-09-20/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-09-19/CRYPTO_summary.png"
+      "src": "charts/2026-09-20/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-09-19/HK_MARKET_summary.png"
+      "src": "charts/2026-09-20/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-09-19/US_EQUITY_summary.png"
+      "src": "charts/2026-09-20/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-09-19.html"
+  "latest_report_href": "reports/2026-09-20.html"
 }
