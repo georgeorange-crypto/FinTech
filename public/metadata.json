@@ -1,16 +1,15 @@
 {
-  "latest_date": "2026-09-22",
-  "market_data_date": "2026-09-22",
-  "chart_date": "2026-09-22",
+  "latest_date": "2026-09-23",
+  "market_data_date": "2026-09-23",
+  "chart_date": "2026-09-23",
   "regime": "unknown",
   "regime_summary": "市场信号不足，暂不判断明确状态。",
   "key_moves": [
-    "QQQ 上涨 0.63%",
-    "TLT 下跌 -0.65%",
-    "Gold 下跌 -0.59%",
-    "Oil 下跌 -7.79%",
-    "BTC 上涨 6.48%",
-    "ETH 上涨 4.90%"
+    "QQQ 上涨 0.81%",
+    "VIX 下跌 -4.44%",
+    "Oil 下跌 -6.37%",
+    "BTC 上涨 6.15%",
+    "ETH 上涨 4.10%"
   ],
   "watch_points": [
     "关注后续数据是否确认当前跨资产信号。"
@@ -18,80 +17,56 @@
   "cards": [
     {
       "label": "美股 SPY",
-      "value": "-0.12%"
+      "value": "-0.02%"
     },
     {
       "label": "QQQ",
-      "value": "0.63%"
+      "value": "0.81%"
     },
     {
       "label": "VIX",
-      "value": "0.41%"
+      "value": "-4.44%"
     },
     {
       "label": "BTC",
-      "value": "6.48%"
+      "value": "6.15%"
     },
     {
       "label": "Gold",
-      "value": "-0.59%"
+      "value": "0.32%"
     },
     {
       "label": "Oil",
-      "value": "-7.79%"
+      "value": "-6.37%"
     }
   ],
   "top_themes": [
-    "central_bank_decision: Crypto enjoys bullish bounce post-Fed rate hike: Crypto Week Ahead",
-    "crypto_market_structure: Google and Apple seek crypto talent as Big Tech eyes stablecoin and tokenization rails",
-    "regulation: Why this investment bank expects little demand for tokenized stocks despite SEC’s new trading rules"
+    "fiscal_policy: Binance probed by U.S. federal prosecutors for sanctions violations: Bloomberg",
+    "regulation: SEC Censures OTC Link LLC for Repeated Compliance Failures Related to Regulation SCI",
+    "crypto_market_structure: Next for the U.S. SEC: Agency's chief crypto counsel illuminates path for custody"
   ],
   "news_counts": {
-    "must_read": 6,
-    "policy_watch": 4,
-    "background": 16
+    "must_read": 7,
+    "policy_watch": 5,
+    "background": 15
   },
   "focus_news": [
     {
-      "title": "Crypto enjoys bullish bounce post-Fed rate hike: Crypto Week Ahead",
+      "title": "Binance probed by U.S. federal prosecutors for sanctions violations: Bloomberg",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/09/21/crypto-week-ahead",
-      "event_type": "central_bank_decision",
+      "url": "https://www.coindesk.com/policy/2026/09/22/binance-probed-by-u-s-federal-prosecutors-for-sanctions-violations-bloomberg",
+      "event_type": "fiscal_policy",
       "importance_tier": 1,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
-      "market_impact": "主要影响 QQQ，方向为 negative，强度 high；鹰派政策提高折现率，压制成长股估值。",
-      "assets": [
-        "BTC",
-        "DXY",
-        "QQQ",
-        "SPY",
-        "TLT"
-      ]
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "assets": []
     },
     {
-      "title": "Google and Apple seek crypto talent as Big Tech eyes stablecoin and tokenization rails",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/09/21/google-and-apple-seek-crypto-talent-as-big-tech-eyes-stablecoin-and-tokenization-rails",
-      "event_type": "crypto_market_structure",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
-      "assets": [
-        "AMZN",
-        "BTC",
-        "COIN",
-        "ETH",
-        "GOOGL"
-      ]
-    },
-    {
-      "title": "Why this investment bank expects little demand for tokenized stocks despite SEC’s new trading rules",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/09/21/why-this-investment-bank-sees-little-demand-for-tokenized-stocks-despite-sec-s-new-trading-rules",
+      "title": "SEC Censures OTC Link LLC for Repeated Compliance Failures Related to Regulation SCI",
+      "source": "SEC Press Releases",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-91-sec-censures-otc-link-llc-repeated-compliance-failures-related-regulation-sci",
       "event_type": "regulation",
       "importance_tier": 2,
       "impact_strength": "high",
@@ -106,14 +81,31 @@
       ]
     },
     {
-      "title": "Coinbase, Robinhood, Circle could be early winners of SEC's tokenized-stock push, analysts say",
+      "title": "Next for the U.S. SEC: Agency's chief crypto counsel illuminates path for custody",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/09/20/coinbase-robinhood-circle-could-be-early-winners-of-sec-s-tokenized-stock-push-analysts-say",
-      "event_type": "regulation",
+      "url": "https://www.coindesk.com/policy/2026/09/22/next-for-the-u-s-sec-agency-s-chief-crypto-counsel-illuminates-path-for-custody",
+      "event_type": "crypto_market_structure",
       "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
+      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "assets": [
+        "BTC",
+        "COIN",
+        "ETH",
+        "crypto market"
+      ]
+    },
+    {
+      "title": "European central banks push to expand stablecoin yield ban to crypto lending and staking",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/09/22/european-central-banks-push-to-expand-stablecoin-yield-ban-to-crypto-lending-and-staking",
+      "event_type": "crypto_market_structure",
+      "importance_tier": 2,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
       "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
       "assets": [
         "BTC",
@@ -125,45 +117,21 @@
   ],
   "policy_news": [
     {
-      "title": "Crypto enjoys bullish bounce post-Fed rate hike: Crypto Week Ahead",
+      "title": "Binance probed by U.S. federal prosecutors for sanctions violations: Bloomberg",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/09/21/crypto-week-ahead",
-      "event_type": "central_bank_decision",
+      "url": "https://www.coindesk.com/policy/2026/09/22/binance-probed-by-u-s-federal-prosecutors-for-sanctions-violations-bloomberg",
+      "event_type": "fiscal_policy",
       "importance_tier": 1,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
-      "market_impact": "主要影响 QQQ，方向为 negative，强度 high；鹰派政策提高折现率，压制成长股估值。",
-      "assets": [
-        "BTC",
-        "DXY",
-        "QQQ",
-        "SPY",
-        "TLT"
-      ]
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "assets": []
     },
     {
-      "title": "Google and Apple seek crypto talent as Big Tech eyes stablecoin and tokenization rails",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/09/21/google-and-apple-seek-crypto-talent-as-big-tech-eyes-stablecoin-and-tokenization-rails",
-      "event_type": "crypto_market_structure",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
-      "assets": [
-        "AMZN",
-        "BTC",
-        "COIN",
-        "ETH",
-        "GOOGL"
-      ]
-    },
-    {
-      "title": "Why this investment bank expects little demand for tokenized stocks despite SEC’s new trading rules",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/09/21/why-this-investment-bank-sees-little-demand-for-tokenized-stocks-despite-sec-s-new-trading-rules",
+      "title": "SEC Censures OTC Link LLC for Repeated Compliance Failures Related to Regulation SCI",
+      "source": "SEC Press Releases",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-91-sec-censures-otc-link-llc-repeated-compliance-failures-related-regulation-sci",
       "event_type": "regulation",
       "importance_tier": 2,
       "impact_strength": "high",
@@ -176,78 +144,95 @@
         "ETH",
         "crypto market"
       ]
+    },
+    {
+      "title": "Next for the U.S. SEC: Agency's chief crypto counsel illuminates path for custody",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/09/22/next-for-the-u-s-sec-agency-s-chief-crypto-counsel-illuminates-path-for-custody",
+      "event_type": "crypto_market_structure",
+      "importance_tier": 2,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
+      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "assets": [
+        "BTC",
+        "COIN",
+        "ETH",
+        "crypto market"
+      ]
     }
   ],
   "asset_movers": [
     {
+      "symbol": "NG=F",
+      "group": "COMMODITIES",
+      "price": "3.17",
+      "one_day": "11.88%",
+      "five_day": "8.70%",
+      "trend": "strong_uptrend",
+      "direction": "up"
+    },
+    {
       "symbol": "RIPPLE",
       "group": "CRYPTO",
-      "price": "1.53",
-      "one_day": "8.75%",
-      "five_day": "18.12%",
+      "price": "1.57",
+      "one_day": "11.41%",
+      "five_day": "21.01%",
+      "trend": "strong_uptrend",
+      "direction": "up"
+    },
+    {
+      "symbol": "SOLANA",
+      "group": "CRYPTO",
+      "price": "118.53",
+      "one_day": "6.64%",
+      "five_day": "20.29%",
       "trend": "strong_uptrend",
       "direction": "up"
     },
     {
       "symbol": "CL=F",
       "group": "COMMODITIES",
-      "price": "92.49",
-      "one_day": "-7.79%",
-      "five_day": "-8.78%",
-      "trend": "range_bound",
-      "direction": "down"
-    },
-    {
-      "symbol": "SOLANA",
-      "group": "CRYPTO",
-      "price": "119.12",
-      "one_day": "7.16%",
-      "five_day": "20.88%",
-      "trend": "strong_uptrend",
-      "direction": "up"
-    },
-    {
-      "symbol": "BZ=F",
-      "group": "COMMODITIES",
-      "price": "96.46",
-      "one_day": "-7.13%",
-      "five_day": "-8.72%",
+      "price": "89.68",
+      "one_day": "-6.37%",
+      "five_day": "-15.26%",
       "trend": "range_bound",
       "direction": "down"
     },
     {
       "symbol": "BTC",
       "group": "CRYPTO",
-      "price": "86,427.61",
-      "one_day": "6.48%",
-      "five_day": "13.50%",
+      "price": "86,159.69",
+      "one_day": "6.15%",
+      "five_day": "13.15%",
       "trend": "strong_uptrend",
       "direction": "up"
+    },
+    {
+      "symbol": "0700.HK",
+      "group": "HK_MARKET",
+      "price": "451.60",
+      "one_day": "5.02%",
+      "five_day": "2.92%",
+      "trend": "range_bound",
+      "direction": "up"
+    },
+    {
+      "symbol": "^VIX",
+      "group": "US_MACRO_MARKET",
+      "price": "14.21",
+      "one_day": "-4.44%",
+      "five_day": "-17.38%",
+      "trend": "downtrend",
+      "direction": "down"
     },
     {
       "symbol": "ETH",
       "group": "CRYPTO",
-      "price": "2,774.28",
-      "one_day": "4.90%",
-      "five_day": "14.83%",
-      "trend": "strong_uptrend",
-      "direction": "up"
-    },
-    {
-      "symbol": "1810.HK",
-      "group": "HK_MARKET",
-      "price": "27.58",
-      "one_day": "4.47%",
-      "five_day": "1.55%",
-      "trend": "uptrend",
-      "direction": "up"
-    },
-    {
-      "symbol": "BINANCECOIN",
-      "group": "CRYPTO",
-      "price": "799.14",
-      "one_day": "3.49%",
-      "five_day": "10.17%",
+      "price": "2,753.06",
+      "one_day": "4.10%",
+      "five_day": "13.95%",
       "trend": "strong_uptrend",
       "direction": "up"
     }
@@ -255,20 +240,20 @@
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-09-22/COMMODITIES_summary.png"
+      "src": "charts/2026-09-23/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-09-22/CRYPTO_summary.png"
+      "src": "charts/2026-09-23/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-09-22/HK_MARKET_summary.png"
+      "src": "charts/2026-09-23/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-09-22/US_EQUITY_summary.png"
+      "src": "charts/2026-09-23/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-09-22.html"
+  "latest_report_href": "reports/2026-09-23.html"
 }
