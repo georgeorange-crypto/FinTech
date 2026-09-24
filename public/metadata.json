@@ -1,15 +1,16 @@
 {
-  "latest_date": "2026-09-23",
-  "market_data_date": "2026-09-23",
-  "chart_date": "2026-09-23",
+  "latest_date": "2026-09-24",
+  "market_data_date": "2026-09-24",
+  "chart_date": "2026-09-24",
   "regime": "unknown",
   "regime_summary": "市场信号不足，暂不判断明确状态。",
   "key_moves": [
     "QQQ 上涨 0.81%",
-    "VIX 下跌 -4.44%",
-    "Oil 下跌 -6.37%",
-    "BTC 上涨 6.15%",
-    "ETH 上涨 4.10%"
+    "DXY 上涨 0.69%",
+    "Gold 下跌 -1.16%",
+    "Oil 下跌 -2.69%",
+    "BTC 下跌 -2.18%",
+    "ETH 下跌 -2.51%"
   ],
   "watch_points": [
     "关注后续数据是否确认当前跨资产信号。"
@@ -25,48 +26,36 @@
     },
     {
       "label": "VIX",
-      "value": "-4.44%"
+      "value": "2.08%"
     },
     {
       "label": "BTC",
-      "value": "6.15%"
+      "value": "-2.18%"
     },
     {
       "label": "Gold",
-      "value": "0.32%"
+      "value": "-1.16%"
     },
     {
       "label": "Oil",
-      "value": "-6.37%"
+      "value": "-2.69%"
     }
   ],
   "top_themes": [
-    "fiscal_policy: Binance probed by U.S. federal prosecutors for sanctions violations: Bloomberg",
-    "regulation: SEC Censures OTC Link LLC for Repeated Compliance Failures Related to Regulation SCI",
-    "crypto_market_structure: Next for the U.S. SEC: Agency's chief crypto counsel illuminates path for custody"
+    "regulation: SEC Publishes Updated Market Statistics, Highlighting Increase in IPOs and Proceeds Raised",
+    "regulation: SEC Charges South Florida Resident and His Company for Alleged Investment Scheme Defrauding Law Enforcement",
+    "regulation: MoonPay to acquire SEC-registered North Capital in $60 million all-stock deal"
   ],
   "news_counts": {
-    "must_read": 7,
-    "policy_watch": 5,
-    "background": 15
+    "must_read": 10,
+    "policy_watch": 7,
+    "background": 18
   },
   "focus_news": [
     {
-      "title": "Binance probed by U.S. federal prosecutors for sanctions violations: Bloomberg",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/09/22/binance-probed-by-u-s-federal-prosecutors-for-sanctions-violations-bloomberg",
-      "event_type": "fiscal_policy",
-      "importance_tier": 1,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
-      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
-      "assets": []
-    },
-    {
-      "title": "SEC Censures OTC Link LLC for Repeated Compliance Failures Related to Regulation SCI",
+      "title": "SEC Publishes Updated Market Statistics, Highlighting Increase in IPOs and Proceeds Raised",
       "source": "SEC Press Releases",
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-91-sec-censures-otc-link-llc-repeated-compliance-failures-related-regulation-sci",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-93-sec-publishes-updated-market-statistics-highlighting-increase-ipos-proceeds-raised",
       "event_type": "regulation",
       "importance_tier": 2,
       "impact_strength": "high",
@@ -81,14 +70,14 @@
       ]
     },
     {
-      "title": "Next for the U.S. SEC: Agency's chief crypto counsel illuminates path for custody",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/09/22/next-for-the-u-s-sec-agency-s-chief-crypto-counsel-illuminates-path-for-custody",
-      "event_type": "crypto_market_structure",
+      "title": "SEC Charges South Florida Resident and His Company for Alleged Investment Scheme Defrauding Law Enforcement",
+      "source": "SEC Press Releases",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-92-sec-charges-south-florida-resident-his-company-alleged-investment-scheme-defrauding-law-enforcement",
+      "event_type": "regulation",
       "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
+      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
       "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
       "assets": [
         "BTC",
@@ -98,9 +87,26 @@
       ]
     },
     {
-      "title": "European central banks push to expand stablecoin yield ban to crypto lending and staking",
+      "title": "MoonPay to acquire SEC-registered North Capital in $60 million all-stock deal",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/09/22/european-central-banks-push-to-expand-stablecoin-yield-ban-to-crypto-lending-and-staking",
+      "url": "https://www.coindesk.com/business/2026/09/23/moonpay-to-acquire-sec-registered-north-capital-in-usd60-million-all-stock-deal",
+      "event_type": "regulation",
+      "importance_tier": 2,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "assets": [
+        "BTC",
+        "COIN",
+        "ETH",
+        "crypto market"
+      ]
+    },
+    {
+      "title": "BlackRock says AI agents could drive stablecoin and crypto adoption",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/09/23/ai-agents-will-soon-buy-their-own-computing-power-and-data-using-stablecoins-according-to-blackrock",
       "event_type": "crypto_market_structure",
       "importance_tier": 2,
       "impact_strength": "high",
@@ -117,21 +123,9 @@
   ],
   "policy_news": [
     {
-      "title": "Binance probed by U.S. federal prosecutors for sanctions violations: Bloomberg",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/09/22/binance-probed-by-u-s-federal-prosecutors-for-sanctions-violations-bloomberg",
-      "event_type": "fiscal_policy",
-      "importance_tier": 1,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
-      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
-      "assets": []
-    },
-    {
-      "title": "SEC Censures OTC Link LLC for Repeated Compliance Failures Related to Regulation SCI",
+      "title": "SEC Publishes Updated Market Statistics, Highlighting Increase in IPOs and Proceeds Raised",
       "source": "SEC Press Releases",
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-91-sec-censures-otc-link-llc-repeated-compliance-failures-related-regulation-sci",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-93-sec-publishes-updated-market-statistics-highlighting-increase-ipos-proceeds-raised",
       "event_type": "regulation",
       "importance_tier": 2,
       "impact_strength": "high",
@@ -146,14 +140,31 @@
       ]
     },
     {
-      "title": "Next for the U.S. SEC: Agency's chief crypto counsel illuminates path for custody",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/09/22/next-for-the-u-s-sec-agency-s-chief-crypto-counsel-illuminates-path-for-custody",
-      "event_type": "crypto_market_structure",
+      "title": "SEC Charges South Florida Resident and His Company for Alleged Investment Scheme Defrauding Law Enforcement",
+      "source": "SEC Press Releases",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-92-sec-charges-south-florida-resident-his-company-alleged-investment-scheme-defrauding-law-enforcement",
+      "event_type": "regulation",
       "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
+      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "assets": [
+        "BTC",
+        "COIN",
+        "ETH",
+        "crypto market"
+      ]
+    },
+    {
+      "title": "MoonPay to acquire SEC-registered North Capital in $60 million all-stock deal",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/09/23/moonpay-to-acquire-sec-registered-north-capital-in-usd60-million-all-stock-deal",
+      "event_type": "regulation",
+      "importance_tier": 2,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
       "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
       "assets": [
         "BTC",
@@ -168,92 +179,92 @@
       "symbol": "NG=F",
       "group": "COMMODITIES",
       "price": "3.17",
-      "one_day": "11.88%",
-      "five_day": "8.70%",
+      "one_day": "7.05%",
+      "five_day": "9.79%",
       "trend": "strong_uptrend",
       "direction": "up"
     },
     {
       "symbol": "RIPPLE",
       "group": "CRYPTO",
-      "price": "1.57",
-      "one_day": "11.41%",
-      "five_day": "21.01%",
+      "price": "1.50",
+      "one_day": "-4.61%",
+      "five_day": "7.37%",
       "trend": "strong_uptrend",
-      "direction": "up"
+      "direction": "down"
     },
     {
-      "symbol": "SOLANA",
-      "group": "CRYPTO",
-      "price": "118.53",
-      "one_day": "6.64%",
-      "five_day": "20.29%",
-      "trend": "strong_uptrend",
-      "direction": "up"
-    },
-    {
-      "symbol": "CL=F",
-      "group": "COMMODITIES",
-      "price": "89.68",
-      "one_day": "-6.37%",
-      "five_day": "-15.26%",
+      "symbol": "9988.HK",
+      "group": "HK_MARKET",
+      "price": "109.80",
+      "one_day": "-4.36%",
+      "five_day": "3.39%",
       "trend": "range_bound",
       "direction": "down"
     },
     {
-      "symbol": "BTC",
-      "group": "CRYPTO",
-      "price": "86,159.69",
-      "one_day": "6.15%",
-      "five_day": "13.15%",
-      "trend": "strong_uptrend",
-      "direction": "up"
-    },
-    {
-      "symbol": "0700.HK",
+      "symbol": "1810.HK",
       "group": "HK_MARKET",
-      "price": "451.60",
-      "one_day": "5.02%",
-      "five_day": "2.92%",
+      "price": "26.18",
+      "one_day": "-3.75%",
+      "five_day": "0.00%",
       "trend": "range_bound",
-      "direction": "up"
+      "direction": "down"
     },
     {
-      "symbol": "^VIX",
-      "group": "US_MACRO_MARKET",
-      "price": "14.21",
-      "one_day": "-4.44%",
-      "five_day": "-17.38%",
-      "trend": "downtrend",
+      "symbol": "SOLANA",
+      "group": "CRYPTO",
+      "price": "114.99",
+      "one_day": "-2.97%",
+      "five_day": "2.03%",
+      "trend": "strong_uptrend",
+      "direction": "down"
+    },
+    {
+      "symbol": "BINANCECOIN",
+      "group": "CRYPTO",
+      "price": "766.15",
+      "one_day": "-2.79%",
+      "five_day": "0.66%",
+      "trend": "strong_uptrend",
+      "direction": "down"
+    },
+    {
+      "symbol": "CL=F",
+      "group": "COMMODITIES",
+      "price": "92.05",
+      "one_day": "-2.69%",
+      "five_day": "-10.13%",
+      "trend": "range_bound",
       "direction": "down"
     },
     {
       "symbol": "ETH",
       "group": "CRYPTO",
-      "price": "2,753.06",
-      "one_day": "4.10%",
-      "five_day": "13.95%",
+      "price": "2,683.46",
+      "one_day": "-2.51%",
+      "five_day": "2.75%",
       "trend": "strong_uptrend",
-      "direction": "up"
+      "direction": "down"
     }
   ],
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-09-23/COMMODITIES_summary.png"
+      "src": "charts/2026-09-24/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-09-23/CRYPTO_summary.png"
+      "src": "charts/2026-09-24/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-09-23/HK_MARKET_summary.png"
+      "src": "charts/2026-09-24/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-09-23/US_EQUITY_summary.png"
+      "src": "charts/2026-09-24/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-09-23.html"
+  "latest_report_href": "reports/2026-09-24.html"
 }
