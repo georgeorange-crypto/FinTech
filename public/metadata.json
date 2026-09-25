@@ -1,16 +1,15 @@
 {
-  "latest_date": "2026-09-24",
-  "market_data_date": "2026-09-24",
-  "chart_date": "2026-09-24",
-  "regime": "unknown",
-  "regime_summary": "市场信号不足，暂不判断明确状态。",
+  "latest_date": "2026-09-25",
+  "market_data_date": "2026-09-25",
+  "chart_date": "2026-09-25",
+  "regime": "mixed",
+  "regime_summary": "市场信号不足，暂不判断明确状态。 但存在信号冲突，需要降低单一叙事置信度。",
   "key_moves": [
-    "QQQ 上涨 0.81%",
-    "DXY 上涨 0.69%",
-    "Gold 下跌 -1.16%",
-    "Oil 下跌 -2.69%",
-    "BTC 下跌 -2.18%",
-    "ETH 下跌 -2.51%"
+    "SPY 下跌 -0.72%",
+    "QQQ 下跌 -0.84%",
+    "VIX 上涨 3.23%",
+    "TLT 下跌 -1.58%",
+    "Oil 上涨 1.84%"
   ],
   "watch_points": [
     "关注后续数据是否确认当前跨资产信号。"
@@ -18,33 +17,33 @@
   "cards": [
     {
       "label": "美股 SPY",
-      "value": "-0.02%"
+      "value": "-0.72%"
     },
     {
       "label": "QQQ",
-      "value": "0.81%"
+      "value": "-0.84%"
     },
     {
       "label": "VIX",
-      "value": "2.08%"
+      "value": "3.23%"
     },
     {
       "label": "BTC",
-      "value": "-2.18%"
+      "value": "0.29%"
     },
     {
       "label": "Gold",
-      "value": "-1.16%"
+      "value": "-0.32%"
     },
     {
       "label": "Oil",
-      "value": "-2.69%"
+      "value": "1.84%"
     }
   ],
   "top_themes": [
-    "regulation: SEC Publishes Updated Market Statistics, Highlighting Increase in IPOs and Proceeds Raised",
-    "regulation: SEC Charges South Florida Resident and His Company for Alleged Investment Scheme Defrauding Law Enforcement",
-    "regulation: MoonPay to acquire SEC-registered North Capital in $60 million all-stock deal"
+    "fiscal_policy: Costco’s results beat expectations. Here’s why investors are still cautious.",
+    "crypto_market_structure: Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act",
+    "crypto_market_structure: European stablecoin issuer Qivalis sees transformation of global trade finance"
   ],
   "news_counts": {
     "must_read": 10,
@@ -53,14 +52,26 @@
   },
   "focus_news": [
     {
-      "title": "SEC Publishes Updated Market Statistics, Highlighting Increase in IPOs and Proceeds Raised",
-      "source": "SEC Press Releases",
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-93-sec-publishes-updated-market-statistics-highlighting-increase-ipos-proceeds-raised",
-      "event_type": "regulation",
+      "title": "Costco’s results beat expectations. Here’s why investors are still cautious.",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/costco-earnings-beat-expectations-thanks-to-tariff-refunds-e7270cfa?mod=mw_rss_topstories",
+      "event_type": "fiscal_policy",
+      "importance_tier": 1,
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "assets": []
+    },
+    {
+      "title": "Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act",
+      "source": "Federal Reserve Press Releases",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260924a.htm",
+      "event_type": "crypto_market_structure",
       "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
       "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
       "assets": [
         "BTC",
@@ -70,31 +81,14 @@
       ]
     },
     {
-      "title": "SEC Charges South Florida Resident and His Company for Alleged Investment Scheme Defrauding Law Enforcement",
-      "source": "SEC Press Releases",
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-92-sec-charges-south-florida-resident-his-company-alleged-investment-scheme-defrauding-law-enforcement",
-      "event_type": "regulation",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
-      "assets": [
-        "BTC",
-        "COIN",
-        "ETH",
-        "crypto market"
-      ]
-    },
-    {
-      "title": "MoonPay to acquire SEC-registered North Capital in $60 million all-stock deal",
+      "title": "European stablecoin issuer Qivalis sees transformation of global trade finance",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/09/23/moonpay-to-acquire-sec-registered-north-capital-in-usd60-million-all-stock-deal",
-      "event_type": "regulation",
+      "url": "https://www.coindesk.com/business/2026/09/24/european-stablecoin-issuer-qivalis-sees-transformation-of-global-trade-finance",
+      "event_type": "crypto_market_structure",
       "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
       "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
       "assets": [
         "BTC",
@@ -104,9 +98,9 @@
       ]
     },
     {
-      "title": "BlackRock says AI agents could drive stablecoin and crypto adoption",
+      "title": "Trump administration weighs a global stablecoin plan to cement dollar's dominance",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/09/23/ai-agents-will-soon-buy-their-own-computing-power-and-data-using-stablecoins-according-to-blackrock",
+      "url": "https://www.coindesk.com/markets/2026/09/24/trump-administration-weighs-a-global-stablecoin-plan-to-cement-dollar-s-dominance",
       "event_type": "crypto_market_structure",
       "importance_tier": 2,
       "impact_strength": "high",
@@ -123,14 +117,26 @@
   ],
   "policy_news": [
     {
-      "title": "SEC Publishes Updated Market Statistics, Highlighting Increase in IPOs and Proceeds Raised",
-      "source": "SEC Press Releases",
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-93-sec-publishes-updated-market-statistics-highlighting-increase-ipos-proceeds-raised",
-      "event_type": "regulation",
+      "title": "Costco’s results beat expectations. Here’s why investors are still cautious.",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/costco-earnings-beat-expectations-thanks-to-tariff-refunds-e7270cfa?mod=mw_rss_topstories",
+      "event_type": "fiscal_policy",
+      "importance_tier": 1,
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "assets": []
+    },
+    {
+      "title": "Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act",
+      "source": "Federal Reserve Press Releases",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260924a.htm",
+      "event_type": "crypto_market_structure",
       "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
       "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
       "assets": [
         "BTC",
@@ -140,31 +146,14 @@
       ]
     },
     {
-      "title": "SEC Charges South Florida Resident and His Company for Alleged Investment Scheme Defrauding Law Enforcement",
-      "source": "SEC Press Releases",
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-92-sec-charges-south-florida-resident-his-company-alleged-investment-scheme-defrauding-law-enforcement",
-      "event_type": "regulation",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
-      "assets": [
-        "BTC",
-        "COIN",
-        "ETH",
-        "crypto market"
-      ]
-    },
-    {
-      "title": "MoonPay to acquire SEC-registered North Capital in $60 million all-stock deal",
+      "title": "European stablecoin issuer Qivalis sees transformation of global trade finance",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/09/23/moonpay-to-acquire-sec-registered-north-capital-in-usd60-million-all-stock-deal",
-      "event_type": "regulation",
+      "url": "https://www.coindesk.com/business/2026/09/24/european-stablecoin-issuer-qivalis-sees-transformation-of-global-trade-finance",
+      "event_type": "crypto_market_structure",
       "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
       "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
       "assets": [
         "BTC",
@@ -178,93 +167,93 @@
     {
       "symbol": "NG=F",
       "group": "COMMODITIES",
-      "price": "3.17",
-      "one_day": "7.05%",
-      "five_day": "9.79%",
+      "price": "3.27",
+      "one_day": "8.04%",
+      "five_day": "12.58%",
       "trend": "strong_uptrend",
+      "direction": "up"
+    },
+    {
+      "symbol": "^VIX",
+      "group": "US_MACRO_MARKET",
+      "price": "15.67",
+      "one_day": "3.23%",
+      "five_day": "-11.52%",
+      "trend": "range_bound",
       "direction": "up"
     },
     {
       "symbol": "RIPPLE",
       "group": "CRYPTO",
-      "price": "1.50",
-      "one_day": "-4.61%",
-      "five_day": "7.37%",
+      "price": "1.55",
+      "one_day": "3.02%",
+      "five_day": "9.68%",
       "trend": "strong_uptrend",
-      "direction": "down"
+      "direction": "up"
     },
     {
-      "symbol": "9988.HK",
-      "group": "HK_MARKET",
-      "price": "109.80",
-      "one_day": "-4.36%",
-      "five_day": "3.39%",
-      "trend": "range_bound",
-      "direction": "down"
-    },
-    {
-      "symbol": "1810.HK",
-      "group": "HK_MARKET",
-      "price": "26.18",
-      "one_day": "-3.75%",
-      "five_day": "0.00%",
-      "trend": "range_bound",
-      "direction": "down"
+      "symbol": "BZ=F",
+      "group": "COMMODITIES",
+      "price": "106.09",
+      "one_day": "2.92%",
+      "five_day": "1.21%",
+      "trend": "strong_uptrend",
+      "direction": "up"
     },
     {
       "symbol": "SOLANA",
       "group": "CRYPTO",
-      "price": "114.99",
-      "one_day": "-2.97%",
-      "five_day": "2.03%",
+      "price": "117.58",
+      "one_day": "2.26%",
+      "five_day": "5.92%",
       "trend": "strong_uptrend",
-      "direction": "down"
-    },
-    {
-      "symbol": "BINANCECOIN",
-      "group": "CRYPTO",
-      "price": "766.15",
-      "one_day": "-2.79%",
-      "five_day": "0.66%",
-      "trend": "strong_uptrend",
-      "direction": "down"
+      "direction": "up"
     },
     {
       "symbol": "CL=F",
       "group": "COMMODITIES",
-      "price": "92.05",
-      "one_day": "-2.69%",
-      "five_day": "-10.13%",
+      "price": "93.86",
+      "one_day": "1.84%",
+      "five_day": "-7.90%",
       "trend": "range_bound",
+      "direction": "up"
+    },
+    {
+      "symbol": "IWM",
+      "group": "US_EQUITY",
+      "price": "281.92",
+      "one_day": "-1.84%",
+      "five_day": "-0.70%",
+      "trend": "strong_downtrend",
       "direction": "down"
     },
     {
-      "symbol": "ETH",
-      "group": "CRYPTO",
-      "price": "2,683.46",
-      "one_day": "-2.51%",
-      "five_day": "2.75%",
-      "trend": "strong_uptrend",
+      "symbol": "TLT",
+      "group": "US_MACRO_MARKET",
+      "price": "80.46",
+      "one_day": "-1.58%",
+      "five_day": "-0.52%",
+      "trend": "downtrend",
       "direction": "down"
     }
   ],
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-09-24/COMMODITIES_summary.png"
+      "src": "charts/2026-09-25/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-09-24/CRYPTO_summary.png"
+      "src": "charts/2026-09-25/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-09-24/HK_MARKET_summary.png"
+      "src": "charts/2026-09-25/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-09-24/US_EQUITY_summary.png"
+      "src": "charts/2026-09-25/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-09-24.html"
+  "latest_report_href": "reports/2026-09-25.html"
 }
