@@ -1,26 +1,28 @@
 {
-  "latest_date": "2026-09-26",
-  "market_data_date": "2026-09-26",
-  "chart_date": "2026-09-26",
-  "regime": "unknown",
-  "regime_summary": "市场信号不足，暂不判断明确状态。",
+  "latest_date": "2026-09-27",
+  "market_data_date": "2026-09-27",
+  "chart_date": "2026-09-27",
+  "regime": "risk_on",
+  "regime_summary": "股指上涨、波动率或美元回落，市场更接近风险偏好改善。",
   "key_moves": [
+    "SPY 上涨 0.54%",
+    "QQQ 上涨 0.46%",
     "VIX 下跌 -5.11%",
-    "TLT 下跌 -1.29%",
-    "Gold 上涨 0.52%",
-    "Oil 下跌 -2.29%"
+    "DXY 下跌 -0.32%",
+    "Gold 上涨 0.54%",
+    "Oil 下跌 -2.33%"
   ],
   "watch_points": [
-    "关注后续数据是否确认当前跨资产信号。"
+    "确认风险偏好是否扩散到小盘股、信用利差和周期品。"
   ],
   "cards": [
     {
       "label": "美股 SPY",
-      "value": "-0.08%"
+      "value": "0.54%"
     },
     {
       "label": "QQQ",
-      "value": "-0.01%"
+      "value": "0.46%"
     },
     {
       "label": "VIX",
@@ -28,26 +30,26 @@
     },
     {
       "label": "BTC",
-      "value": "-0.40%"
+      "value": "0.32%"
     },
     {
       "label": "Gold",
-      "value": "0.52%"
+      "value": "0.54%"
     },
     {
       "label": "Oil",
-      "value": "-2.29%"
+      "value": "-2.33%"
     }
   ],
   "top_themes": [
     "macro_data: Indicators for Core CPI",
     "geopolitical_risk: Live updates: Bitcoin moves to $84,000, oil slides on latest report of Middle East progress",
-    "regulation: U.S. SEC's steadiest crypto advocate, Hester Peirce, to depart next week"
+    "crypto_market_structure: Binance deal gives Circle a boost in stablecoin race with Tether, analysts say"
   ],
   "news_counts": {
-    "must_read": 7,
-    "policy_watch": 3,
-    "background": 20
+    "must_read": 6,
+    "policy_watch": 2,
+    "background": 17
   },
   "focus_news": [
     {
@@ -85,14 +87,14 @@
       ]
     },
     {
-      "title": "U.S. SEC's steadiest crypto advocate, Hester Peirce, to depart next week",
+      "title": "Binance deal gives Circle a boost in stablecoin race with Tether, analysts say",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/09/25/u-s-sec-s-steadiest-crypto-advocate-hester-peirce-to-depart-next-week",
-      "event_type": "regulation",
+      "url": "https://www.coindesk.com/business/2026/09/26/binance-deal-gives-circle-a-boost-in-stablecoin-race-with-tether-analysts-say",
+      "event_type": "crypto_market_structure",
       "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
       "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
       "assets": [
         "BTC",
@@ -102,14 +104,14 @@
       ]
     },
     {
-      "title": "Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act",
-      "source": "Federal Reserve Press Releases",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260924a.htm",
-      "event_type": "crypto_market_structure",
+      "title": "U.S. SEC's steadiest crypto advocate, Hester Peirce, to depart next week",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/09/25/u-s-sec-s-steadiest-crypto-advocate-hester-peirce-to-depart-next-week",
+      "event_type": "regulation",
       "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
+      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
       "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
       "assets": [
         "BTC",
@@ -121,6 +123,23 @@
   ],
   "policy_news": [
     {
+      "title": "Binance deal gives Circle a boost in stablecoin race with Tether, analysts say",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/09/26/binance-deal-gives-circle-a-boost-in-stablecoin-race-with-tether-analysts-say",
+      "event_type": "crypto_market_structure",
+      "importance_tier": 2,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
+      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "assets": [
+        "BTC",
+        "COIN",
+        "ETH",
+        "crypto market"
+      ]
+    },
+    {
       "title": "U.S. SEC's steadiest crypto advocate, Hester Peirce, to depart next week",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/policy/2026/09/25/u-s-sec-s-steadiest-crypto-advocate-hester-peirce-to-depart-next-week",
@@ -136,47 +155,9 @@
         "ETH",
         "crypto market"
       ]
-    },
-    {
-      "title": "Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act",
-      "source": "Federal Reserve Press Releases",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260924a.htm",
-      "event_type": "crypto_market_structure",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
-      "assets": [
-        "BTC",
-        "COIN",
-        "ETH",
-        "crypto market"
-      ]
-    },
-    {
-      "title": "Federal Reserve Board issues enforcement action with former employee of Sandy Spring Bank",
-      "source": "Federal Reserve Press Releases",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260924a.htm",
-      "event_type": "regulation",
-      "importance_tier": 2,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
-      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
-      "assets": []
     }
   ],
   "asset_movers": [
-    {
-      "symbol": "BZ=F",
-      "group": "COMMODITIES",
-      "price": "97.47",
-      "one_day": "-8.56%",
-      "five_day": "-6.16%",
-      "trend": "range_bound",
-      "direction": "down"
-    },
     {
       "symbol": "^VIX",
       "group": "US_MACRO_MARKET",
@@ -187,13 +168,22 @@
       "direction": "down"
     },
     {
-      "symbol": "SOLANA",
-      "group": "CRYPTO",
-      "price": "122.05",
-      "one_day": "4.30%",
-      "five_day": "9.80%",
+      "symbol": "NG=F",
+      "group": "COMMODITIES",
+      "price": "3.20",
+      "one_day": "-3.06%",
+      "five_day": "9.75%",
       "trend": "strong_uptrend",
-      "direction": "up"
+      "direction": "down"
+    },
+    {
+      "symbol": "RIPPLE",
+      "group": "CRYPTO",
+      "price": "1.53",
+      "one_day": "-2.71%",
+      "five_day": "-0.61%",
+      "trend": "strong_uptrend",
+      "direction": "down"
     },
     {
       "symbol": "1810.HK",
@@ -207,29 +197,20 @@
     {
       "symbol": "CL=F",
       "group": "COMMODITIES",
-      "price": "92.44",
-      "one_day": "-2.29%",
-      "five_day": "-7.84%",
+      "price": "92.41",
+      "one_day": "-2.33%",
+      "five_day": "-7.87%",
       "trend": "range_bound",
       "direction": "down"
     },
     {
-      "symbol": "RIPPLE",
-      "group": "CRYPTO",
-      "price": "1.56",
-      "one_day": "1.98%",
-      "five_day": "10.93%",
-      "trend": "strong_uptrend",
-      "direction": "up"
-    },
-    {
-      "symbol": "SI=F",
+      "symbol": "BZ=F",
       "group": "COMMODITIES",
-      "price": "64.71",
-      "one_day": "1.97%",
-      "five_day": "-2.77%",
-      "trend": "range_bound",
-      "direction": "up"
+      "price": "104.32",
+      "one_day": "-2.14%",
+      "five_day": "0.43%",
+      "trend": "strong_uptrend",
+      "direction": "down"
     },
     {
       "symbol": "1211.HK",
@@ -239,25 +220,34 @@
       "five_day": "-4.17%",
       "trend": "strong_downtrend",
       "direction": "down"
+    },
+    {
+      "symbol": "9988.HK",
+      "group": "HK_MARKET",
+      "price": "108.40",
+      "one_day": "-1.45%",
+      "five_day": "-0.82%",
+      "trend": "downtrend",
+      "direction": "down"
     }
   ],
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-09-26/COMMODITIES_summary.png"
+      "src": "charts/2026-09-27/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-09-26/CRYPTO_summary.png"
+      "src": "charts/2026-09-27/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-09-26/HK_MARKET_summary.png"
+      "src": "charts/2026-09-27/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-09-26/US_EQUITY_summary.png"
+      "src": "charts/2026-09-27/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-09-26.html"
+  "latest_report_href": "reports/2026-09-27.html"
 }
