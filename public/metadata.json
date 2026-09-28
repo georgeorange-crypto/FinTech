@@ -1,7 +1,7 @@
 {
-  "latest_date": "2026-09-27",
-  "market_data_date": "2026-09-27",
-  "chart_date": "2026-09-27",
+  "latest_date": "2026-09-28",
+  "market_data_date": "2026-09-28",
+  "chart_date": "2026-09-28",
   "regime": "risk_on",
   "regime_summary": "股指上涨、波动率或美元回落，市场更接近风险偏好改善。",
   "key_moves": [
@@ -9,8 +9,8 @@
     "QQQ 上涨 0.46%",
     "VIX 下跌 -5.11%",
     "DXY 下跌 -0.32%",
-    "Gold 上涨 0.54%",
-    "Oil 下跌 -2.33%"
+    "Gold 下跌 -0.70%",
+    "Oil 上涨 1.01%"
   ],
   "watch_points": [
     "确认风险偏好是否扩散到小盘股、信用利差和周期品。"
@@ -30,60 +30,43 @@
     },
     {
       "label": "BTC",
-      "value": "0.32%"
+      "value": "0.00%"
     },
     {
       "label": "Gold",
-      "value": "0.54%"
+      "value": "-0.70%"
     },
     {
       "label": "Oil",
-      "value": "-2.33%"
+      "value": "1.01%"
     }
   ],
   "top_themes": [
-    "macro_data: Indicators for Core CPI",
-    "geopolitical_risk: Live updates: Bitcoin moves to $84,000, oil slides on latest report of Middle East progress",
+    "earnings: Micron could dethrone Nvidia and become the biggest driver of S&P 500 profit growth",
     "crypto_market_structure: Binance deal gives Circle a boost in stablecoin race with Tether, analysts say"
   ],
   "news_counts": {
-    "must_read": 6,
-    "policy_watch": 2,
-    "background": 17
+    "must_read": 4,
+    "policy_watch": 1,
+    "background": 11
   },
   "focus_news": [
     {
-      "title": "Indicators for Core CPI",
-      "source": "Bank of Japan Announcements",
-      "url": "http://www.boj.or.jp/en/research/research_data/cpi/index.htm",
-      "event_type": "macro_data",
-      "importance_tier": 1,
+      "title": "Micron could dethrone Nvidia and become the biggest driver of S&P 500 profit growth",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/micron-could-dethrone-nvidia-and-become-the-biggest-driver-of-s-p-500-profit-growth-d62e0e68?mod=mw_rss_topstories",
+      "event_type": "earnings",
+      "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "这类宏观数据会直接改变市场对通胀、增长和政策路径的预期。",
-      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
+      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
+      "market_impact": "主要影响 QQQ，方向为 mixed，强度 high；AI 资本开支会影响大型科技股盈利和估值预期。",
       "assets": [
-        "BTC",
-        "DXY",
-        "GC=F",
-        "QQQ",
-        "SPY"
-      ]
-    },
-    {
-      "title": "Live updates: Bitcoin moves to $84,000, oil slides on latest report of Middle East progress",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/09/25/live-updates-bitcoin-steadies-near-usd84-000-as-the-bond-selloff-pauses",
-      "event_type": "geopolitical_risk",
-      "importance_tier": 1,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "地缘风险可能推升避险需求、能源价格和市场波动率。",
-      "market_impact": "主要影响 CL=F，方向为 positive，强度 high；供给扰动或 OPEC 减产通常推升 WTI 原油。",
-      "assets": [
-        "BZ=F",
-        "CL=F",
-        "SPY"
+        "AMZN",
+        "GOOGL",
+        "META",
+        "MSFT",
+        "NVDA"
       ]
     },
     {
@@ -104,20 +87,37 @@
       ]
     },
     {
-      "title": "U.S. SEC's steadiest crypto advocate, Hester Peirce, to depart next week",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/09/25/u-s-sec-s-steadiest-crypto-advocate-hester-peirce-to-depart-next-week",
-      "event_type": "regulation",
-      "importance_tier": 2,
+      "title": "The 10-year Treasury yield is at its highest in nearly two decades. How we got here",
+      "source": "CNBC Economy",
+      "url": "https://www.cnbc.com/2026/09/26/10-year-treasury-yield-is-at-its-highest-in-19-years-how-we-got-here.html",
+      "event_type": "other",
+      "importance_tier": 3,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
       "assets": [
         "BTC",
-        "COIN",
-        "ETH",
-        "crypto market"
+        "DXY",
+        "GC=F",
+        "QQQ",
+        "SPY"
+      ]
+    },
+    {
+      "title": "Look closer, and Wall Street’s rally is showing cracks",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/look-closer-and-wall-streets-rally-is-showing-cracks-94952048?mod=mw_rss_topstories",
+      "event_type": "other",
+      "importance_tier": 3,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "market_impact": "主要影响 CL=F，方向为 positive，强度 high；供给扰动或 OPEC 减产通常推升 WTI 原油。",
+      "assets": [
+        "BZ=F",
+        "CL=F",
+        "SPY"
       ]
     }
   ],
@@ -138,26 +138,18 @@
         "ETH",
         "crypto market"
       ]
-    },
-    {
-      "title": "U.S. SEC's steadiest crypto advocate, Hester Peirce, to depart next week",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/09/25/u-s-sec-s-steadiest-crypto-advocate-hester-peirce-to-depart-next-week",
-      "event_type": "regulation",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
-      "assets": [
-        "BTC",
-        "COIN",
-        "ETH",
-        "crypto market"
-      ]
     }
   ],
   "asset_movers": [
+    {
+      "symbol": "BZ=F",
+      "group": "COMMODITIES",
+      "price": "98.47",
+      "one_day": "-5.61%",
+      "five_day": "-1.86%",
+      "trend": "range_bound",
+      "direction": "down"
+    },
     {
       "symbol": "^VIX",
       "group": "US_MACRO_MARKET",
@@ -165,24 +157,6 @@
       "one_day": "-5.11%",
       "five_day": "0.41%",
       "trend": "downtrend",
-      "direction": "down"
-    },
-    {
-      "symbol": "NG=F",
-      "group": "COMMODITIES",
-      "price": "3.20",
-      "one_day": "-3.06%",
-      "five_day": "9.75%",
-      "trend": "strong_uptrend",
-      "direction": "down"
-    },
-    {
-      "symbol": "RIPPLE",
-      "group": "CRYPTO",
-      "price": "1.53",
-      "one_day": "-2.71%",
-      "five_day": "-0.61%",
-      "trend": "strong_uptrend",
       "direction": "down"
     },
     {
@@ -195,20 +169,11 @@
       "direction": "down"
     },
     {
-      "symbol": "CL=F",
+      "symbol": "NG=F",
       "group": "COMMODITIES",
-      "price": "92.41",
-      "one_day": "-2.33%",
-      "five_day": "-7.87%",
-      "trend": "range_bound",
-      "direction": "down"
-    },
-    {
-      "symbol": "BZ=F",
-      "group": "COMMODITIES",
-      "price": "104.32",
-      "one_day": "-2.14%",
-      "five_day": "0.43%",
+      "price": "3.12",
+      "one_day": "-2.35%",
+      "five_day": "10.05%",
       "trend": "strong_uptrend",
       "direction": "down"
     },
@@ -229,25 +194,43 @@
       "five_day": "-0.82%",
       "trend": "downtrend",
       "direction": "down"
+    },
+    {
+      "symbol": "^HSI",
+      "group": "HK_MARKET",
+      "price": "24,510.09",
+      "one_day": "-1.01%",
+      "five_day": "-0.97%",
+      "trend": "strong_downtrend",
+      "direction": "down"
+    },
+    {
+      "symbol": "CL=F",
+      "group": "COMMODITIES",
+      "price": "93.34",
+      "one_day": "1.01%",
+      "five_day": "-2.55%",
+      "trend": "range_bound",
+      "direction": "up"
     }
   ],
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-09-27/COMMODITIES_summary.png"
+      "src": "charts/2026-09-28/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-09-27/CRYPTO_summary.png"
+      "src": "charts/2026-09-28/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-09-27/HK_MARKET_summary.png"
+      "src": "charts/2026-09-28/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-09-27/US_EQUITY_summary.png"
+      "src": "charts/2026-09-28/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-09-27.html"
+  "latest_report_href": "reports/2026-09-28.html"
 }
