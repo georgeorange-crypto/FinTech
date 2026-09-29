@@ -1,83 +1,64 @@
 {
-  "latest_date": "2026-09-28",
-  "market_data_date": "2026-09-28",
-  "chart_date": "2026-09-28",
-  "regime": "risk_on",
-  "regime_summary": "股指上涨、波动率或美元回落，市场更接近风险偏好改善。",
+  "latest_date": "2026-09-29",
+  "market_data_date": "2026-09-29",
+  "chart_date": "2026-09-29",
+  "regime": "mixed",
+  "regime_summary": "市场信号不足，暂不判断明确状态。 但存在信号冲突，需要降低单一叙事置信度。",
   "key_moves": [
-    "SPY 上涨 0.54%",
-    "QQQ 上涨 0.46%",
-    "VIX 下跌 -5.11%",
-    "DXY 下跌 -0.32%",
-    "Gold 下跌 -0.70%",
-    "Oil 上涨 1.01%"
+    "SPY 下跌 -0.74%",
+    "QQQ 下跌 -1.07%",
+    "VIX 上涨 8.07%",
+    "TLT 下跌 -0.88%",
+    "Gold 下跌 -3.92%",
+    "Oil 上涨 1.14%"
   ],
   "watch_points": [
-    "确认风险偏好是否扩散到小盘股、信用利差和周期品。"
+    "关注后续数据是否确认当前跨资产信号。"
   ],
   "cards": [
     {
       "label": "美股 SPY",
-      "value": "0.54%"
+      "value": "-0.74%"
     },
     {
       "label": "QQQ",
-      "value": "0.46%"
+      "value": "-1.07%"
     },
     {
       "label": "VIX",
-      "value": "-5.11%"
+      "value": "8.07%"
     },
     {
       "label": "BTC",
-      "value": "0.00%"
+      "value": "-1.76%"
     },
     {
       "label": "Gold",
-      "value": "-0.70%"
+      "value": "-3.92%"
     },
     {
       "label": "Oil",
-      "value": "1.01%"
+      "value": "1.14%"
     }
   ],
   "top_themes": [
-    "earnings: Micron could dethrone Nvidia and become the biggest driver of S&P 500 profit growth",
-    "crypto_market_structure: Binance deal gives Circle a boost in stablecoin race with Tether, analysts say"
+    "geopolitical_risk: SEC Charges Registered Investment Adviser Zoe Financial for Failure to Disclose Conflict of Interest"
   ],
   "news_counts": {
-    "must_read": 4,
-    "policy_watch": 1,
-    "background": 11
+    "must_read": 3,
+    "policy_watch": 0,
+    "background": 15
   },
   "focus_news": [
     {
-      "title": "Micron could dethrone Nvidia and become the biggest driver of S&P 500 profit growth",
-      "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/micron-could-dethrone-nvidia-and-become-the-biggest-driver-of-s-p-500-profit-growth-d62e0e68?mod=mw_rss_topstories",
-      "event_type": "earnings",
-      "importance_tier": 2,
+      "title": "SEC Charges Registered Investment Adviser Zoe Financial for Failure to Disclose Conflict of Interest",
+      "source": "SEC Press Releases",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-94-sec-charges-registered-investment-adviser-zoe-financial-failure-disclose-conflict-interest",
+      "event_type": "geopolitical_risk",
+      "importance_tier": 1,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
-      "market_impact": "主要影响 QQQ，方向为 mixed，强度 high；AI 资本开支会影响大型科技股盈利和估值预期。",
-      "assets": [
-        "AMZN",
-        "GOOGL",
-        "META",
-        "MSFT",
-        "NVDA"
-      ]
-    },
-    {
-      "title": "Binance deal gives Circle a boost in stablecoin race with Tether, analysts say",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/09/26/binance-deal-gives-circle-a-boost-in-stablecoin-race-with-tether-analysts-say",
-      "event_type": "crypto_market_structure",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
+      "reason": "地缘风险可能推升避险需求、能源价格和市场波动率。",
       "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
       "assets": [
         "BTC",
@@ -87,150 +68,122 @@
       ]
     },
     {
-      "title": "The 10-year Treasury yield is at its highest in nearly two decades. How we got here",
-      "source": "CNBC Economy",
-      "url": "https://www.cnbc.com/2026/09/26/10-year-treasury-yield-is-at-its-highest-in-19-years-how-we-got-here.html",
+      "title": "‘I’m never selling’: I’m 47 and buy bitcoin with every dollar I earn. Am I crazy?",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/im-never-selling-im-47-and-buy-bitcoin-with-every-dollar-i-earn-am-i-crazy-364d2a64?mod=mw_rss_topstories",
       "event_type": "other",
       "importance_tier": 3,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
+      "impact_strength": "low",
+      "impact_direction": "unknown",
       "reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
-      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
-      "assets": [
-        "BTC",
-        "DXY",
-        "GC=F",
-        "QQQ",
-        "SPY"
-      ]
+      "market_impact": "更偏背景信息，短期市场影响可能有限。",
+      "assets": []
     },
     {
-      "title": "Look closer, and Wall Street’s rally is showing cracks",
-      "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/look-closer-and-wall-streets-rally-is-showing-cracks-94952048?mod=mw_rss_topstories",
+      "title": "Christine Lagarde: Hearing of the Committee on Economic and Monetary Affairs of the European Parliament",
+      "source": "ECB Press Releases",
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260928~a875675544.en.html",
       "event_type": "other",
       "importance_tier": 3,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
+      "impact_strength": "low",
+      "impact_direction": "unknown",
       "reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
-      "market_impact": "主要影响 CL=F，方向为 positive，强度 high；供给扰动或 OPEC 减产通常推升 WTI 原油。",
-      "assets": [
-        "BZ=F",
-        "CL=F",
-        "SPY"
-      ]
+      "market_impact": "更偏背景信息，短期市场影响可能有限。",
+      "assets": []
     }
   ],
-  "policy_news": [
-    {
-      "title": "Binance deal gives Circle a boost in stablecoin race with Tether, analysts say",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/09/26/binance-deal-gives-circle-a-boost-in-stablecoin-race-with-tether-analysts-say",
-      "event_type": "crypto_market_structure",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
-      "assets": [
-        "BTC",
-        "COIN",
-        "ETH",
-        "crypto market"
-      ]
-    }
-  ],
+  "policy_news": [],
   "asset_movers": [
+    {
+      "symbol": "^VIX",
+      "group": "US_MACRO_MARKET",
+      "price": "16.07",
+      "one_day": "8.07%",
+      "five_day": "8.07%",
+      "trend": "range_bound",
+      "direction": "up"
+    },
     {
       "symbol": "BZ=F",
       "group": "COMMODITIES",
-      "price": "98.47",
-      "one_day": "-5.61%",
-      "five_day": "-1.86%",
+      "price": "98.89",
+      "one_day": "-5.21%",
+      "five_day": "-1.45%",
       "trend": "range_bound",
       "direction": "down"
     },
     {
-      "symbol": "^VIX",
-      "group": "US_MACRO_MARKET",
-      "price": "14.87",
-      "one_day": "-5.11%",
-      "five_day": "0.41%",
-      "trend": "downtrend",
-      "direction": "down"
-    },
-    {
-      "symbol": "1810.HK",
-      "group": "HK_MARKET",
-      "price": "25.90",
-      "one_day": "-2.56%",
-      "five_day": "-1.89%",
-      "trend": "strong_downtrend",
-      "direction": "down"
-    },
-    {
-      "symbol": "NG=F",
+      "symbol": "SI=F",
       "group": "COMMODITIES",
-      "price": "3.12",
-      "one_day": "-2.35%",
-      "five_day": "10.05%",
+      "price": "60.97",
+      "one_day": "-5.09%",
+      "five_day": "-7.37%",
+      "trend": "range_bound",
+      "direction": "down"
+    },
+    {
+      "symbol": "GC=F",
+      "group": "COMMODITIES",
+      "price": "4,151.60",
+      "one_day": "-3.92%",
+      "five_day": "-5.30%",
+      "trend": "range_bound",
+      "direction": "down"
+    },
+    {
+      "symbol": "SOLANA",
+      "group": "CRYPTO",
+      "price": "117.19",
+      "one_day": "-3.91%",
+      "five_day": "1.91%",
       "trend": "strong_uptrend",
       "direction": "down"
     },
     {
-      "symbol": "1211.HK",
-      "group": "HK_MARKET",
-      "price": "78.10",
-      "one_day": "-1.76%",
-      "five_day": "-4.17%",
-      "trend": "strong_downtrend",
+      "symbol": "BINANCECOIN",
+      "group": "CRYPTO",
+      "price": "757.90",
+      "one_day": "-2.65%",
+      "five_day": "-1.22%",
+      "trend": "uptrend",
+      "direction": "down"
+    },
+    {
+      "symbol": "RIPPLE",
+      "group": "CRYPTO",
+      "price": "1.48",
+      "one_day": "-2.51%",
+      "five_day": "-1.51%",
+      "trend": "uptrend",
       "direction": "down"
     },
     {
       "symbol": "9988.HK",
       "group": "HK_MARKET",
-      "price": "108.40",
-      "one_day": "-1.45%",
-      "five_day": "-0.82%",
-      "trend": "downtrend",
-      "direction": "down"
-    },
-    {
-      "symbol": "^HSI",
-      "group": "HK_MARKET",
-      "price": "24,510.09",
-      "one_day": "-1.01%",
-      "five_day": "-0.97%",
+      "price": "105.00",
+      "one_day": "-2.51%",
+      "five_day": "-8.54%",
       "trend": "strong_downtrend",
       "direction": "down"
-    },
-    {
-      "symbol": "CL=F",
-      "group": "COMMODITIES",
-      "price": "93.34",
-      "one_day": "1.01%",
-      "five_day": "-2.55%",
-      "trend": "range_bound",
-      "direction": "up"
     }
   ],
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-09-28/COMMODITIES_summary.png"
+      "src": "charts/2026-09-29/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-09-28/CRYPTO_summary.png"
+      "src": "charts/2026-09-29/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-09-28/HK_MARKET_summary.png"
+      "src": "charts/2026-09-29/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-09-28/US_EQUITY_summary.png"
+      "src": "charts/2026-09-29/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-09-28.html"
+  "latest_report_href": "reports/2026-09-29.html"
 }
