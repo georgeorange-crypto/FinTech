@@ -1,16 +1,15 @@
 {
-  "latest_date": "2026-09-29",
-  "market_data_date": "2026-09-29",
-  "chart_date": "2026-09-29",
+  "latest_date": "2026-09-30",
+  "market_data_date": "2026-09-30",
+  "chart_date": "2026-09-30",
   "regime": "mixed",
   "regime_summary": "市场信号不足，暂不判断明确状态。 但存在信号冲突，需要降低单一叙事置信度。",
   "key_moves": [
     "SPY 下跌 -0.74%",
     "QQQ 下跌 -1.07%",
-    "VIX 上涨 8.07%",
     "TLT 下跌 -0.88%",
-    "Gold 下跌 -3.92%",
-    "Oil 上涨 1.14%"
+    "Gold 下跌 -2.55%",
+    "Oil 下跌 -3.43%"
   ],
   "watch_points": [
     "关注后续数据是否确认当前跨资产信号。"
@@ -26,28 +25,30 @@
     },
     {
       "label": "VIX",
-      "value": "8.07%"
+      "value": "-0.19%"
     },
     {
       "label": "BTC",
-      "value": "-1.76%"
+      "value": "-0.11%"
     },
     {
       "label": "Gold",
-      "value": "-3.92%"
+      "value": "-2.55%"
     },
     {
       "label": "Oil",
-      "value": "1.14%"
+      "value": "-3.43%"
     }
   ],
   "top_themes": [
-    "geopolitical_risk: SEC Charges Registered Investment Adviser Zoe Financial for Failure to Disclose Conflict of Interest"
+    "geopolitical_risk: SEC Charges Registered Investment Adviser Zoe Financial for Failure to Disclose Conflict of Interest",
+    "financial_stability: Polymarket taps Goldman Sachs veteran Lisa Mantil to attract Wall Street liquidity",
+    "regulation: SEC Charges Multiple Entities in Fraud Schemes Totaling at Least $15 Million That Used WhatsApp and Other Platforms to Lure Investors"
   ],
   "news_counts": {
-    "must_read": 3,
-    "policy_watch": 0,
-    "background": 15
+    "must_read": 6,
+    "policy_watch": 3,
+    "background": 18
   },
   "focus_news": [
     {
@@ -68,101 +69,160 @@
       ]
     },
     {
-      "title": "‘I’m never selling’: I’m 47 and buy bitcoin with every dollar I earn. Am I crazy?",
-      "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/im-never-selling-im-47-and-buy-bitcoin-with-every-dollar-i-earn-am-i-crazy-364d2a64?mod=mw_rss_topstories",
-      "event_type": "other",
-      "importance_tier": 3,
+      "title": "Polymarket taps Goldman Sachs veteran Lisa Mantil to attract Wall Street liquidity",
+      "source": "CNBC Economy",
+      "url": "https://www.cnbc.com/2026/09/29/polymarket-lisa-mantil-institutional-growth.html",
+      "event_type": "financial_stability",
+      "importance_tier": 1,
       "impact_strength": "low",
       "impact_direction": "unknown",
-      "reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
-      "market_impact": "更偏背景信息，短期市场影响可能有限。",
+      "reason": "金融稳定信号可能放大跨资产波动，并影响央行反应函数。",
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
       "assets": []
     },
     {
-      "title": "Christine Lagarde: Hearing of the Committee on Economic and Monetary Affairs of the European Parliament",
-      "source": "ECB Press Releases",
-      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260928~a875675544.en.html",
-      "event_type": "other",
-      "importance_tier": 3,
+      "title": "SEC Charges Multiple Entities in Fraud Schemes Totaling at Least $15 Million That Used WhatsApp and Other Platforms to Lure Investors",
+      "source": "SEC Press Releases",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-95-sec-charges-multiple-entities-fraud-schemes-totaling-least-15-million-used-whatsapp-other-platforms",
+      "event_type": "regulation",
+      "importance_tier": 2,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "assets": [
+        "BTC",
+        "COIN",
+        "ETH",
+        "crypto market"
+      ]
+    },
+    {
+      "title": "Goldman Sachs CEO succession planning faces one big problem",
+      "source": "CNBC Economy",
+      "url": "https://www.cnbc.com/2026/09/29/goldman-sachs-ceo-succession-planning.html",
+      "event_type": "central_bank_speech",
+      "importance_tier": 2,
       "impact_strength": "low",
       "impact_direction": "unknown",
-      "reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
-      "market_impact": "更偏背景信息，短期市场影响可能有限。",
+      "reason": "央行官员表态可能影响市场对下一次会议的定价。",
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
       "assets": []
     }
   ],
-  "policy_news": [],
-  "asset_movers": [
+  "policy_news": [
     {
-      "symbol": "^VIX",
-      "group": "US_MACRO_MARKET",
-      "price": "16.07",
-      "one_day": "8.07%",
-      "five_day": "8.07%",
-      "trend": "range_bound",
-      "direction": "up"
+      "title": "Polymarket taps Goldman Sachs veteran Lisa Mantil to attract Wall Street liquidity",
+      "source": "CNBC Economy",
+      "url": "https://www.cnbc.com/2026/09/29/polymarket-lisa-mantil-institutional-growth.html",
+      "event_type": "financial_stability",
+      "importance_tier": 1,
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "金融稳定信号可能放大跨资产波动，并影响央行反应函数。",
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "assets": []
     },
+    {
+      "title": "SEC Charges Multiple Entities in Fraud Schemes Totaling at Least $15 Million That Used WhatsApp and Other Platforms to Lure Investors",
+      "source": "SEC Press Releases",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-95-sec-charges-multiple-entities-fraud-schemes-totaling-least-15-million-used-whatsapp-other-platforms",
+      "event_type": "regulation",
+      "importance_tier": 2,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "assets": [
+        "BTC",
+        "COIN",
+        "ETH",
+        "crypto market"
+      ]
+    },
+    {
+      "title": "Goldman Sachs CEO succession planning faces one big problem",
+      "source": "CNBC Economy",
+      "url": "https://www.cnbc.com/2026/09/29/goldman-sachs-ceo-succession-planning.html",
+      "event_type": "central_bank_speech",
+      "importance_tier": 2,
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "央行官员表态可能影响市场对下一次会议的定价。",
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "assets": []
+    }
+  ],
+  "asset_movers": [
     {
       "symbol": "BZ=F",
       "group": "COMMODITIES",
-      "price": "98.89",
-      "one_day": "-5.21%",
-      "five_day": "-1.45%",
+      "price": "96.20",
+      "one_day": "-8.62%",
+      "five_day": "-3.07%",
       "trend": "range_bound",
       "direction": "down"
     },
     {
-      "symbol": "SI=F",
+      "symbol": "CL=F",
       "group": "COMMODITIES",
-      "price": "60.97",
-      "one_day": "-5.09%",
-      "five_day": "-7.37%",
+      "price": "89.42",
+      "one_day": "-3.43%",
+      "five_day": "-5.47%",
       "trend": "range_bound",
+      "direction": "down"
+    },
+    {
+      "symbol": "1810.HK",
+      "group": "HK_MARKET",
+      "price": "25.20",
+      "one_day": "-2.55%",
+      "five_day": "-7.35%",
+      "trend": "strong_downtrend",
       "direction": "down"
     },
     {
       "symbol": "GC=F",
       "group": "COMMODITIES",
-      "price": "4,151.60",
-      "one_day": "-3.92%",
-      "five_day": "-5.30%",
+      "price": "4,211.00",
+      "one_day": "-2.55%",
+      "five_day": "-3.94%",
       "trend": "range_bound",
       "direction": "down"
     },
     {
-      "symbol": "SOLANA",
-      "group": "CRYPTO",
-      "price": "117.19",
-      "one_day": "-3.91%",
-      "five_day": "1.91%",
-      "trend": "strong_uptrend",
-      "direction": "down"
-    },
-    {
-      "symbol": "BINANCECOIN",
-      "group": "CRYPTO",
-      "price": "757.90",
-      "one_day": "-2.65%",
-      "five_day": "-1.22%",
-      "trend": "uptrend",
-      "direction": "down"
-    },
-    {
-      "symbol": "RIPPLE",
-      "group": "CRYPTO",
-      "price": "1.48",
+      "symbol": "1211.HK",
+      "group": "HK_MARKET",
+      "price": "75.75",
       "one_day": "-2.51%",
-      "five_day": "-1.51%",
-      "trend": "uptrend",
+      "five_day": "-6.88%",
+      "trend": "strong_downtrend",
+      "direction": "down"
+    },
+    {
+      "symbol": "3690.HK",
+      "group": "HK_MARKET",
+      "price": "70.45",
+      "one_day": "-2.02%",
+      "five_day": "-3.76%",
+      "trend": "strong_downtrend",
+      "direction": "down"
+    },
+    {
+      "symbol": "0700.HK",
+      "group": "HK_MARKET",
+      "price": "432.00",
+      "one_day": "-1.77%",
+      "five_day": "-4.34%",
+      "trend": "downtrend",
       "direction": "down"
     },
     {
       "symbol": "9988.HK",
       "group": "HK_MARKET",
-      "price": "105.00",
-      "one_day": "-2.51%",
-      "five_day": "-8.54%",
+      "price": "106.20",
+      "one_day": "-1.39%",
+      "five_day": "-7.49%",
       "trend": "strong_downtrend",
       "direction": "down"
     }
@@ -170,20 +230,20 @@
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-09-29/COMMODITIES_summary.png"
+      "src": "charts/2026-09-30/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-09-29/CRYPTO_summary.png"
+      "src": "charts/2026-09-30/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-09-29/HK_MARKET_summary.png"
+      "src": "charts/2026-09-30/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-09-29/US_EQUITY_summary.png"
+      "src": "charts/2026-09-30/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-09-29.html"
+  "latest_report_href": "reports/2026-09-30.html"
 }
