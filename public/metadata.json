@@ -1,15 +1,12 @@
 {
-  "latest_date": "2026-09-30",
-  "market_data_date": "2026-09-30",
-  "chart_date": "2026-09-30",
-  "regime": "mixed",
-  "regime_summary": "市场信号不足，暂不判断明确状态。 但存在信号冲突，需要降低单一叙事置信度。",
+  "latest_date": "2026-10-01",
+  "market_data_date": "2026-10-01",
+  "chart_date": "2026-10-01",
+  "regime": "unknown",
+  "regime_summary": "市场信号不足，暂不判断明确状态。",
   "key_moves": [
-    "SPY 下跌 -0.74%",
-    "QQQ 下跌 -1.07%",
-    "TLT 下跌 -0.88%",
-    "Gold 下跌 -2.55%",
-    "Oil 下跌 -3.43%"
+    "TLT 下跌 -0.50%",
+    "Oil 上涨 1.26%"
   ],
   "watch_points": [
     "关注后续数据是否确认当前跨资产信号。"
@@ -17,56 +14,69 @@
   "cards": [
     {
       "label": "美股 SPY",
-      "value": "-0.74%"
+      "value": "-0.18%"
     },
     {
       "label": "QQQ",
-      "value": "-1.07%"
+      "value": "0.19%"
     },
     {
       "label": "VIX",
-      "value": "-0.19%"
+      "value": "1.87%"
     },
     {
       "label": "BTC",
-      "value": "-0.11%"
+      "value": "-0.19%"
     },
     {
       "label": "Gold",
-      "value": "-2.55%"
+      "value": "-0.21%"
     },
     {
       "label": "Oil",
-      "value": "-3.43%"
+      "value": "1.26%"
     }
   ],
   "top_themes": [
-    "geopolitical_risk: SEC Charges Registered Investment Adviser Zoe Financial for Failure to Disclose Conflict of Interest",
-    "financial_stability: Polymarket taps Goldman Sachs veteran Lisa Mantil to attract Wall Street liquidity",
-    "regulation: SEC Charges Multiple Entities in Fraud Schemes Totaling at Least $15 Million That Used WhatsApp and Other Platforms to Lure Investors"
+    "macro_data: Fed's Kashkari says inflation is 'still too high' even after softer-than-expected PCE data, labor market is 'pretty good'",
+    "financial_stability: Liquidity Indicators in the JGB Markets (August)",
+    "financial_stability: Polymarket taps Goldman Sachs veteran Lisa Mantil to attract Wall Street liquidity"
   ],
   "news_counts": {
-    "must_read": 6,
-    "policy_watch": 3,
-    "background": 18
+    "must_read": 10,
+    "policy_watch": 9,
+    "background": 20
   },
   "focus_news": [
     {
-      "title": "SEC Charges Registered Investment Adviser Zoe Financial for Failure to Disclose Conflict of Interest",
-      "source": "SEC Press Releases",
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-94-sec-charges-registered-investment-adviser-zoe-financial-failure-disclose-conflict-interest",
-      "event_type": "geopolitical_risk",
+      "title": "Fed's Kashkari says inflation is 'still too high' even after softer-than-expected PCE data, labor market is 'pretty good'",
+      "source": "CNBC Economy",
+      "url": "https://www.cnbc.com/2026/09/30/watch-minneapolis-fed-president-neel-kashkari.html",
+      "event_type": "macro_data",
       "importance_tier": 1,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "地缘风险可能推升避险需求、能源价格和市场波动率。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "reason": "这类宏观数据会直接改变市场对通胀、增长和政策路径的预期。",
+      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
       "assets": [
         "BTC",
-        "COIN",
-        "ETH",
-        "crypto market"
+        "DXY",
+        "GC=F",
+        "QQQ",
+        "SPY"
       ]
+    },
+    {
+      "title": "Liquidity Indicators in the JGB Markets (August)",
+      "source": "Bank of Japan Announcements",
+      "url": "http://www.boj.or.jp/en/paym/bond/ryudo.pdf",
+      "event_type": "financial_stability",
+      "importance_tier": 1,
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "金融稳定信号可能放大跨资产波动，并影响央行反应函数。",
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "assets": []
     },
     {
       "title": "Polymarket taps Goldman Sachs veteran Lisa Mantil to attract Wall Street liquidity",
@@ -81,9 +91,9 @@
       "assets": []
     },
     {
-      "title": "SEC Charges Multiple Entities in Fraud Schemes Totaling at Least $15 Million That Used WhatsApp and Other Platforms to Lure Investors",
+      "title": "SEC Charges Meyer Global Management and Its CEO With Defrauding Retail Investors in Private Funds That Held Interests in SpaceX and Other Pre-IPO Securities",
       "source": "SEC Press Releases",
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-95-sec-charges-multiple-entities-fraud-schemes-totaling-least-15-million-used-whatsapp-other-platforms",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-98-sec-charges-meyer-global-management-its-ceo-defrauding-retail-investors-private-funds-held-interests",
       "event_type": "regulation",
       "importance_tier": 2,
       "impact_strength": "high",
@@ -96,22 +106,22 @@
         "ETH",
         "crypto market"
       ]
-    },
-    {
-      "title": "Goldman Sachs CEO succession planning faces one big problem",
-      "source": "CNBC Economy",
-      "url": "https://www.cnbc.com/2026/09/29/goldman-sachs-ceo-succession-planning.html",
-      "event_type": "central_bank_speech",
-      "importance_tier": 2,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "央行官员表态可能影响市场对下一次会议的定价。",
-      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
-      "assets": []
     }
   ],
   "policy_news": [
     {
+      "title": "Liquidity Indicators in the JGB Markets (August)",
+      "source": "Bank of Japan Announcements",
+      "url": "http://www.boj.or.jp/en/paym/bond/ryudo.pdf",
+      "event_type": "financial_stability",
+      "importance_tier": 1,
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "金融稳定信号可能放大跨资产波动，并影响央行反应函数。",
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "assets": []
+    },
+    {
       "title": "Polymarket taps Goldman Sachs veteran Lisa Mantil to attract Wall Street liquidity",
       "source": "CNBC Economy",
       "url": "https://www.cnbc.com/2026/09/29/polymarket-lisa-mantil-institutional-growth.html",
@@ -124,9 +134,9 @@
       "assets": []
     },
     {
-      "title": "SEC Charges Multiple Entities in Fraud Schemes Totaling at Least $15 Million That Used WhatsApp and Other Platforms to Lure Investors",
+      "title": "SEC Charges Meyer Global Management and Its CEO With Defrauding Retail Investors in Private Funds That Held Interests in SpaceX and Other Pre-IPO Securities",
       "source": "SEC Press Releases",
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-95-sec-charges-multiple-entities-fraud-schemes-totaling-least-15-million-used-whatsapp-other-platforms",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-98-sec-charges-meyer-global-management-its-ceo-defrauding-retail-investors-private-funds-held-interests",
       "event_type": "regulation",
       "importance_tier": 2,
       "impact_strength": "high",
@@ -139,90 +149,78 @@
         "ETH",
         "crypto market"
       ]
-    },
-    {
-      "title": "Goldman Sachs CEO succession planning faces one big problem",
-      "source": "CNBC Economy",
-      "url": "https://www.cnbc.com/2026/09/29/goldman-sachs-ceo-succession-planning.html",
-      "event_type": "central_bank_speech",
-      "importance_tier": 2,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "央行官员表态可能影响市场对下一次会议的定价。",
-      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
-      "assets": []
     }
   ],
   "asset_movers": [
     {
       "symbol": "BZ=F",
       "group": "COMMODITIES",
-      "price": "96.20",
-      "one_day": "-8.62%",
-      "five_day": "-3.07%",
+      "price": "98.35",
+      "one_day": "-4.13%",
+      "five_day": "-4.59%",
       "trend": "range_bound",
       "direction": "down"
     },
     {
-      "symbol": "CL=F",
-      "group": "COMMODITIES",
-      "price": "89.42",
-      "one_day": "-3.43%",
-      "five_day": "-5.47%",
+      "symbol": "^VIX",
+      "group": "US_MACRO_MARKET",
+      "price": "16.34",
+      "one_day": "1.87%",
+      "five_day": "7.64%",
       "trend": "range_bound",
-      "direction": "down"
-    },
-    {
-      "symbol": "1810.HK",
-      "group": "HK_MARKET",
-      "price": "25.20",
-      "one_day": "-2.55%",
-      "five_day": "-7.35%",
-      "trend": "strong_downtrend",
-      "direction": "down"
-    },
-    {
-      "symbol": "GC=F",
-      "group": "COMMODITIES",
-      "price": "4,211.00",
-      "one_day": "-2.55%",
-      "five_day": "-3.94%",
-      "trend": "range_bound",
-      "direction": "down"
-    },
-    {
-      "symbol": "1211.HK",
-      "group": "HK_MARKET",
-      "price": "75.75",
-      "one_day": "-2.51%",
-      "five_day": "-6.88%",
-      "trend": "strong_downtrend",
-      "direction": "down"
+      "direction": "up"
     },
     {
       "symbol": "3690.HK",
       "group": "HK_MARKET",
-      "price": "70.45",
-      "one_day": "-2.02%",
-      "five_day": "-3.76%",
+      "price": "71.70",
+      "one_day": "1.77%",
+      "five_day": "-1.58%",
       "trend": "strong_downtrend",
+      "direction": "up"
+    },
+    {
+      "symbol": "BINANCECOIN",
+      "group": "CRYPTO",
+      "price": "769.81",
+      "one_day": "1.50%",
+      "five_day": "-0.92%",
+      "trend": "strong_uptrend",
+      "direction": "up"
+    },
+    {
+      "symbol": "CL=F",
+      "group": "COMMODITIES",
+      "price": "90.51",
+      "one_day": "1.26%",
+      "five_day": "-1.79%",
+      "trend": "range_bound",
+      "direction": "up"
+    },
+    {
+      "symbol": "HG=F",
+      "group": "COMMODITIES",
+      "price": "6.61",
+      "one_day": "0.94%",
+      "five_day": "-1.09%",
+      "trend": "uptrend",
+      "direction": "up"
+    },
+    {
+      "symbol": "SOLANA",
+      "group": "CRYPTO",
+      "price": "118.03",
+      "one_day": "-0.89%",
+      "five_day": "-3.32%",
+      "trend": "strong_uptrend",
       "direction": "down"
     },
     {
-      "symbol": "0700.HK",
-      "group": "HK_MARKET",
-      "price": "432.00",
-      "one_day": "-1.77%",
-      "five_day": "-4.34%",
-      "trend": "downtrend",
-      "direction": "down"
-    },
-    {
-      "symbol": "9988.HK",
-      "group": "HK_MARKET",
-      "price": "106.20",
-      "one_day": "-1.39%",
-      "five_day": "-7.49%",
+      "symbol": "TLT",
+      "group": "US_MACRO_MARKET",
+      "price": "78.23",
+      "one_day": "-0.50%",
+      "five_day": "-4.31%",
       "trend": "strong_downtrend",
       "direction": "down"
     }
@@ -230,20 +228,20 @@
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-09-30/COMMODITIES_summary.png"
+      "src": "charts/2026-10-01/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-09-30/CRYPTO_summary.png"
+      "src": "charts/2026-10-01/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-09-30/HK_MARKET_summary.png"
+      "src": "charts/2026-10-01/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-09-30/US_EQUITY_summary.png"
+      "src": "charts/2026-10-01/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-09-30.html"
+  "latest_report_href": "reports/2026-10-01.html"
 }
