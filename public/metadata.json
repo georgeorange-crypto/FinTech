@@ -1,12 +1,13 @@
 {
-  "latest_date": "2026-10-01",
-  "market_data_date": "2026-10-01",
-  "chart_date": "2026-10-01",
+  "latest_date": "2026-10-02",
+  "market_data_date": "2026-10-02",
+  "chart_date": "2026-10-02",
   "regime": "unknown",
   "regime_summary": "市场信号不足，暂不判断明确状态。",
   "key_moves": [
-    "TLT 下跌 -0.50%",
-    "Oil 上涨 1.26%"
+    "TLT 下跌 -0.58%",
+    "DXY 上涨 0.64%",
+    "Oil 上涨 2.72%"
   ],
   "watch_points": [
     "关注后续数据是否确认当前跨资产信号。"
@@ -14,33 +15,33 @@
   "cards": [
     {
       "label": "美股 SPY",
-      "value": "-0.18%"
-    },
-    {
-      "label": "QQQ",
-      "value": "0.19%"
-    },
-    {
-      "label": "VIX",
-      "value": "1.87%"
-    },
-    {
-      "label": "BTC",
-      "value": "-0.19%"
-    },
-    {
-      "label": "Gold",
       "value": "-0.21%"
     },
     {
+      "label": "QQQ",
+      "value": "0.25%"
+    },
+    {
+      "label": "VIX",
+      "value": "0.31%"
+    },
+    {
+      "label": "BTC",
+      "value": "1.28%"
+    },
+    {
+      "label": "Gold",
+      "value": "-0.31%"
+    },
+    {
       "label": "Oil",
-      "value": "1.26%"
+      "value": "2.72%"
     }
   ],
   "top_themes": [
     "macro_data: Fed's Kashkari says inflation is 'still too high' even after softer-than-expected PCE data, labor market is 'pretty good'",
-    "financial_stability: Liquidity Indicators in the JGB Markets (August)",
-    "financial_stability: Polymarket taps Goldman Sachs veteran Lisa Mantil to attract Wall Street liquidity"
+    "geopolitical_risk: Bond yields suddenly retreat from recent highs as buyers step back into the Treasury market",
+    "financial_stability: Liquidity Indicators in the JGB Markets (August)"
   ],
   "news_counts": {
     "must_read": 10,
@@ -67,6 +68,18 @@
       ]
     },
     {
+      "title": "Bond yields suddenly retreat from recent highs as buyers step back into the Treasury market",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/bond-yields-suddenly-retreat-from-recent-highs-as-buyers-step-back-into-the-treasury-market-e3840e3d?mod=mw_rss_topstories",
+      "event_type": "geopolitical_risk",
+      "importance_tier": 1,
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "地缘风险可能推升避险需求、能源价格和市场波动率。",
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "assets": []
+    },
+    {
       "title": "Liquidity Indicators in the JGB Markets (August)",
       "source": "Bank of Japan Announcements",
       "url": "http://www.boj.or.jp/en/paym/bond/ryudo.pdf",
@@ -79,26 +92,14 @@
       "assets": []
     },
     {
-      "title": "Polymarket taps Goldman Sachs veteran Lisa Mantil to attract Wall Street liquidity",
-      "source": "CNBC Economy",
-      "url": "https://www.cnbc.com/2026/09/29/polymarket-lisa-mantil-institutional-growth.html",
-      "event_type": "financial_stability",
-      "importance_tier": 1,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "金融稳定信号可能放大跨资产波动，并影响央行反应函数。",
-      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
-      "assets": []
-    },
-    {
-      "title": "SEC Charges Meyer Global Management and Its CEO With Defrauding Retail Investors in Private Funds That Held Interests in SpaceX and Other Pre-IPO Securities",
+      "title": "SEC Proposal Would Address How Investment Advisers and Funds Can Custody Crypto Assets Under the Federal Securities Laws",
       "source": "SEC Press Releases",
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-98-sec-charges-meyer-global-management-its-ceo-defrauding-retail-investors-private-funds-held-interests",
-      "event_type": "regulation",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-100-sec-proposal-would-address-how-investment-advisers-funds-can-custody-crypto-assets-under-federal",
+      "event_type": "crypto_market_structure",
       "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
       "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
       "assets": [
         "BTC",
@@ -122,21 +123,26 @@
       "assets": []
     },
     {
-      "title": "Polymarket taps Goldman Sachs veteran Lisa Mantil to attract Wall Street liquidity",
-      "source": "CNBC Economy",
-      "url": "https://www.cnbc.com/2026/09/29/polymarket-lisa-mantil-institutional-growth.html",
-      "event_type": "financial_stability",
-      "importance_tier": 1,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "金融稳定信号可能放大跨资产波动，并影响央行反应函数。",
-      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
-      "assets": []
+      "title": "SEC Proposal Would Address How Investment Advisers and Funds Can Custody Crypto Assets Under the Federal Securities Laws",
+      "source": "SEC Press Releases",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-100-sec-proposal-would-address-how-investment-advisers-funds-can-custody-crypto-assets-under-federal",
+      "event_type": "crypto_market_structure",
+      "importance_tier": 2,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
+      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "assets": [
+        "BTC",
+        "COIN",
+        "ETH",
+        "crypto market"
+      ]
     },
     {
-      "title": "SEC Charges Meyer Global Management and Its CEO With Defrauding Retail Investors in Private Funds That Held Interests in SpaceX and Other Pre-IPO Securities",
+      "title": "SEC’s Division of Examinations Announces New Exam Handbook",
       "source": "SEC Press Releases",
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-98-sec-charges-meyer-global-management-its-ceo-defrauding-retail-investors-private-funds-held-interests",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-99-secs-division-examinations-announces-new-exam-handbook",
       "event_type": "regulation",
       "importance_tier": 2,
       "impact_strength": "high",
@@ -153,95 +159,95 @@
   ],
   "asset_movers": [
     {
-      "symbol": "BZ=F",
+      "symbol": "9988.HK",
+      "group": "HK_MARKET",
+      "price": "102.00",
+      "one_day": "-4.32%",
+      "five_day": "-7.27%",
+      "trend": "strong_downtrend",
+      "direction": "down"
+    },
+    {
+      "symbol": "NG=F",
       "group": "COMMODITIES",
-      "price": "98.35",
-      "one_day": "-4.13%",
-      "five_day": "-4.59%",
+      "price": "2.93",
+      "one_day": "-3.30%",
+      "five_day": "-11.25%",
       "trend": "range_bound",
       "direction": "down"
     },
     {
-      "symbol": "^VIX",
-      "group": "US_MACRO_MARKET",
-      "price": "16.34",
-      "one_day": "1.87%",
-      "five_day": "7.64%",
-      "trend": "range_bound",
-      "direction": "up"
-    },
-    {
-      "symbol": "3690.HK",
+      "symbol": "1810.HK",
       "group": "HK_MARKET",
-      "price": "71.70",
-      "one_day": "1.77%",
-      "five_day": "-1.58%",
+      "price": "24.50",
+      "one_day": "-2.93%",
+      "five_day": "-7.83%",
       "trend": "strong_downtrend",
-      "direction": "up"
-    },
-    {
-      "symbol": "BINANCECOIN",
-      "group": "CRYPTO",
-      "price": "769.81",
-      "one_day": "1.50%",
-      "five_day": "-0.92%",
-      "trend": "strong_uptrend",
-      "direction": "up"
+      "direction": "down"
     },
     {
       "symbol": "CL=F",
       "group": "COMMODITIES",
-      "price": "90.51",
-      "one_day": "1.26%",
-      "five_day": "-1.79%",
+      "price": "92.88",
+      "one_day": "2.72%",
+      "five_day": "-1.83%",
       "trend": "range_bound",
       "direction": "up"
     },
     {
-      "symbol": "HG=F",
-      "group": "COMMODITIES",
-      "price": "6.61",
-      "one_day": "0.94%",
-      "five_day": "-1.09%",
-      "trend": "uptrend",
-      "direction": "up"
-    },
-    {
-      "symbol": "SOLANA",
-      "group": "CRYPTO",
-      "price": "118.03",
-      "one_day": "-0.89%",
-      "five_day": "-3.32%",
-      "trend": "strong_uptrend",
+      "symbol": "0700.HK",
+      "group": "HK_MARKET",
+      "price": "420.00",
+      "one_day": "-2.55%",
+      "five_day": "-4.20%",
+      "trend": "downtrend",
       "direction": "down"
     },
     {
-      "symbol": "TLT",
-      "group": "US_MACRO_MARKET",
-      "price": "78.23",
-      "one_day": "-0.50%",
-      "five_day": "-4.31%",
-      "trend": "strong_downtrend",
+      "symbol": "BTC",
+      "group": "CRYPTO",
+      "price": "84,649.02",
+      "one_day": "1.28%",
+      "five_day": "0.28%",
+      "trend": "strong_uptrend",
+      "direction": "up"
+    },
+    {
+      "symbol": "SI=F",
+      "group": "COMMODITIES",
+      "price": "60.76",
+      "one_day": "1.10%",
+      "five_day": "-4.25%",
+      "trend": "range_bound",
+      "direction": "up"
+    },
+    {
+      "symbol": "BZ=F",
+      "group": "COMMODITIES",
+      "price": "102.48",
+      "one_day": "-1.01%",
+      "five_day": "-3.86%",
+      "trend": "range_bound",
       "direction": "down"
     }
   ],
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-10-01/COMMODITIES_summary.png"
+      "src": "charts/2026-10-02/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-10-01/CRYPTO_summary.png"
+      "src": "charts/2026-10-02/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-10-01/HK_MARKET_summary.png"
+      "src": "charts/2026-10-02/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-10-01/US_EQUITY_summary.png"
+      "src": "charts/2026-10-02/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-10-01.html"
+  "latest_report_href": "reports/2026-10-02.html"
 }
