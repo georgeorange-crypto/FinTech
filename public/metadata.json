@@ -1,25 +1,27 @@
 {
-  "latest_date": "2026-10-03",
-  "market_data_date": "2026-10-03",
-  "chart_date": "2026-10-03",
-  "regime": "unknown",
-  "regime_summary": "市场信号不足，暂不判断明确状态。",
+  "latest_date": "2026-10-04",
+  "market_data_date": "2026-10-04",
+  "chart_date": "2026-10-04",
+  "regime": "risk_on",
+  "regime_summary": "股指上涨、波动率或美元回落，市场更接近风险偏好改善。",
   "key_moves": [
+    "SPY 上涨 0.74%",
+    "QQQ 上涨 1.02%",
     "VIX 下跌 -6.59%",
-    "Gold 下跌 -0.72%",
-    "Oil 下跌 -1.73%"
+    "Gold 下跌 -0.95%",
+    "Oil 下跌 -1.90%"
   ],
   "watch_points": [
-    "关注后续数据是否确认当前跨资产信号。"
+    "确认风险偏好是否扩散到小盘股、信用利差和周期品。"
   ],
   "cards": [
     {
       "label": "美股 SPY",
-      "value": "0.18%"
+      "value": "0.74%"
     },
     {
       "label": "QQQ",
-      "value": "0.31%"
+      "value": "1.02%"
     },
     {
       "label": "VIX",
@@ -27,15 +29,15 @@
     },
     {
       "label": "BTC",
-      "value": "-0.22%"
+      "value": "0.39%"
     },
     {
       "label": "Gold",
-      "value": "-0.72%"
+      "value": "-0.95%"
     },
     {
       "label": "Oil",
-      "value": "-1.73%"
+      "value": "-1.90%"
     }
   ],
   "top_themes": [
@@ -44,9 +46,9 @@
     "regulation: Trump’s potential AI czar, Jay Clayton, helped pioneer the SEC’s crypto crackdown"
   ],
   "news_counts": {
-    "must_read": 10,
-    "policy_watch": 7,
-    "background": 20
+    "must_read": 7,
+    "policy_watch": 4,
+    "background": 15
   },
   "focus_news": [
     {
@@ -97,21 +99,16 @@
       ]
     },
     {
-      "title": "SEC Proposal Would Address How Investment Advisers and Funds Can Custody Crypto Assets Under the Federal Securities Laws",
-      "source": "SEC Press Releases",
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-100-sec-proposal-would-address-how-investment-advisers-funds-can-custody-crypto-assets-under-federal",
-      "event_type": "crypto_market_structure",
+      "title": "Federal Reserve Board announces it will extend, until November 4, the comment period on its proposal to modernize Regulation O",
+      "source": "Federal Reserve Press Releases",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261002a.htm",
+      "event_type": "regulation",
       "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
-      "assets": [
-        "BTC",
-        "COIN",
-        "ETH",
-        "crypto market"
-      ]
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "assets": []
     }
   ],
   "policy_news": [
@@ -151,21 +148,16 @@
       ]
     },
     {
-      "title": "SEC Proposal Would Address How Investment Advisers and Funds Can Custody Crypto Assets Under the Federal Securities Laws",
-      "source": "SEC Press Releases",
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-100-sec-proposal-would-address-how-investment-advisers-funds-can-custody-crypto-assets-under-federal",
-      "event_type": "crypto_market_structure",
+      "title": "Federal Reserve Board announces it will extend, until November 4, the comment period on its proposal to modernize Regulation O",
+      "source": "Federal Reserve Press Releases",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261002a.htm",
+      "event_type": "regulation",
       "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
-      "assets": [
-        "BTC",
-        "COIN",
-        "ETH",
-        "crypto market"
-      ]
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "assets": []
     }
   ],
   "asset_movers": [
@@ -188,11 +180,29 @@
       "direction": "down"
     },
     {
+      "symbol": "^HSI",
+      "group": "HK_MARKET",
+      "price": "23,972.29",
+      "one_day": "-2.60%",
+      "five_day": "-3.19%",
+      "trend": "strong_downtrend",
+      "direction": "down"
+    },
+    {
+      "symbol": "BINANCECOIN",
+      "group": "CRYPTO",
+      "price": "786.54",
+      "one_day": "2.41%",
+      "five_day": "2.99%",
+      "trend": "strong_uptrend",
+      "direction": "up"
+    },
+    {
       "symbol": "NG=F",
       "group": "COMMODITIES",
       "price": "3.04",
-      "one_day": "2.43%",
-      "five_day": "-4.91%",
+      "one_day": "2.29%",
+      "five_day": "-5.04%",
       "trend": "uptrend",
       "direction": "up"
     },
@@ -222,43 +232,25 @@
       "five_day": "-2.84%",
       "trend": "strong_downtrend",
       "direction": "down"
-    },
-    {
-      "symbol": "9988.HK",
-      "group": "HK_MARKET",
-      "price": "104.40",
-      "one_day": "-2.06%",
-      "five_day": "-5.09%",
-      "trend": "strong_downtrend",
-      "direction": "down"
-    },
-    {
-      "symbol": "CL=F",
-      "group": "COMMODITIES",
-      "price": "91.26",
-      "one_day": "-1.73%",
-      "five_day": "-1.24%",
-      "trend": "range_bound",
-      "direction": "down"
     }
   ],
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-10-03/COMMODITIES_summary.png"
+      "src": "charts/2026-10-04/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-10-03/CRYPTO_summary.png"
+      "src": "charts/2026-10-04/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-10-03/HK_MARKET_summary.png"
+      "src": "charts/2026-10-04/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-10-03/US_EQUITY_summary.png"
+      "src": "charts/2026-10-04/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-10-03.html"
+  "latest_report_href": "reports/2026-10-04.html"
 }
