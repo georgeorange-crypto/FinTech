@@ -1,213 +1,258 @@
 {
-  "latest_date": "2026-10-05",
-  "market_data_date": "2026-10-05",
-  "chart_date": "2026-10-05",
-  "regime": "risk_on",
-  "regime_summary": "股指上涨、波动率或美元回落，市场更接近风险偏好改善。",
+  "latest_date": "2026-10-06",
+  "market_data_date": "2026-10-06",
+  "chart_date": "2026-10-06",
+  "regime": "unknown",
+  "regime_summary": "市场信号不足，暂不判断明确状态。",
   "key_moves": [
-    "SPY 上涨 0.74%",
-    "QQQ 上涨 1.02%",
-    "VIX 下跌 -6.59%"
+    "SPY 上涨 0.67%",
+    "QQQ 上涨 0.88%",
+    "TLT 下跌 -0.48%",
+    "Oil 下跌 -1.72%"
   ],
   "watch_points": [
-    "确认风险偏好是否扩散到小盘股、信用利差和周期品。"
+    "关注后续数据是否确认当前跨资产信号。"
   ],
   "cards": [
     {
       "label": "美股 SPY",
-      "value": "0.74%"
+      "value": "0.67%"
     },
     {
       "label": "QQQ",
-      "value": "1.02%"
+      "value": "0.88%"
     },
     {
       "label": "VIX",
-      "value": "-6.59%"
+      "value": "1.37%"
     },
     {
       "label": "BTC",
-      "value": "1.94%"
+      "value": "-1.03%"
     },
     {
       "label": "Gold",
-      "value": "0.43%"
+      "value": "-0.09%"
     },
     {
       "label": "Oil",
-      "value": "-0.56%"
+      "value": "-1.72%"
     }
   ],
   "top_themes": [
-    "central_bank_speech: Opening Remarks by Deputy Governor UCHIDA at the ECONDAT 2026 Fall Meeting (AI, Big Data, and Monetary Policy)",
-    "earnings: Corporate America has never been this upbeat about future profits"
+    "financial_stability: Ether's bitcoin-beating Q3 rally came with a catch. Liquidity thinned.",
+    "regulation: SEC Coordinates with Global Financial Regulators to Raise Fraud Awareness During World Investor Week",
+    "regulation: U.S. CFTC joins SEC in proposing crypto regulations, though spot-market gap lingers"
   ],
   "news_counts": {
-    "must_read": 4,
-    "policy_watch": 1,
-    "background": 7
+    "must_read": 8,
+    "policy_watch": 6,
+    "background": 15
   },
   "focus_news": [
     {
-      "title": "Opening Remarks by Deputy Governor UCHIDA at the ECONDAT 2026 Fall Meeting (AI, Big Data, and Monetary Policy)",
-      "source": "Bank of Japan Announcements",
-      "url": "http://www.boj.or.jp/en/about/press/koen_2026/ko261005a.htm",
-      "event_type": "central_bank_speech",
-      "importance_tier": 2,
+      "title": "Ether's bitcoin-beating Q3 rally came with a catch. Liquidity thinned.",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/10/05/ether-s-bitcoin-beating-q3-rally-came-with-a-catch-liquidity-thinned",
+      "event_type": "financial_stability",
+      "importance_tier": 1,
       "impact_strength": "low",
       "impact_direction": "unknown",
-      "reason": "央行官员表态可能影响市场对下一次会议的定价。",
+      "reason": "金融稳定信号可能放大跨资产波动，并影响央行反应函数。",
       "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
       "assets": []
     },
     {
-      "title": "Corporate America has never been this upbeat about future profits",
-      "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/corporate-america-has-never-been-this-upbeat-about-future-profits-fbaf8cd9?mod=mw_rss_topstories",
-      "event_type": "earnings",
+      "title": "SEC Coordinates with Global Financial Regulators to Raise Fraud Awareness During World Investor Week",
+      "source": "SEC Press Releases",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-101-sec-coordinates-global-financial-regulators-raise-fraud-awareness-during-world-investor-week",
+      "event_type": "regulation",
       "importance_tier": 2,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
-      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
-      "assets": []
-    },
-    {
-      "title": "Falling wages, soaring energy prices and inflation: It’s beginning to look a lot like the 1970s",
-      "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/falling-wages-soaring-energy-prices-and-inflation-its-beginning-to-look-a-lot-like-the-1970s-d645cbca?mod=mw_rss_topstories",
-      "event_type": "other",
-      "importance_tier": 3,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
-      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
+      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
       "assets": [
         "BTC",
-        "DXY",
-        "GC=F",
-        "QQQ",
-        "SPY"
+        "COIN",
+        "ETH",
+        "crypto market"
       ]
     },
     {
-      "title": "8th Conference on Nontraditional Data, Machine Learning, and Natural Language Processing in Macroeconomics (ECONDAT 2026 Fall Meeting)",
-      "source": "Bank of Japan Announcements",
-      "url": "http://www.boj.or.jp/en/research/conf/conf2610a.htm",
-      "event_type": "other",
-      "importance_tier": 3,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
-      "market_impact": "更偏背景信息，短期市场影响可能有限。",
-      "assets": []
+      "title": "U.S. CFTC joins SEC in proposing crypto regulations, though spot-market gap lingers",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/10/05/u-s-cftc-joins-sec-in-proposing-crypto-regulations-though-spot-market-gap-lingers",
+      "event_type": "regulation",
+      "importance_tier": 2,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "assets": [
+        "BTC",
+        "COIN",
+        "ETH",
+        "crypto market"
+      ]
+    },
+    {
+      "title": "Stripe to expand stablecoin cards to over 100 countries by the end of the year",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/10/01/stripe-to-expand-stablecoin-cards-to-over-100-countries-by-the-end-of-the-year",
+      "event_type": "crypto_market_structure",
+      "importance_tier": 2,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
+      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "assets": [
+        "BTC",
+        "COIN",
+        "ETH",
+        "crypto market"
+      ]
     }
   ],
   "policy_news": [
     {
-      "title": "Opening Remarks by Deputy Governor UCHIDA at the ECONDAT 2026 Fall Meeting (AI, Big Data, and Monetary Policy)",
-      "source": "Bank of Japan Announcements",
-      "url": "http://www.boj.or.jp/en/about/press/koen_2026/ko261005a.htm",
-      "event_type": "central_bank_speech",
-      "importance_tier": 2,
+      "title": "Ether's bitcoin-beating Q3 rally came with a catch. Liquidity thinned.",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/10/05/ether-s-bitcoin-beating-q3-rally-came-with-a-catch-liquidity-thinned",
+      "event_type": "financial_stability",
+      "importance_tier": 1,
       "impact_strength": "low",
       "impact_direction": "unknown",
-      "reason": "央行官员表态可能影响市场对下一次会议的定价。",
+      "reason": "金融稳定信号可能放大跨资产波动，并影响央行反应函数。",
       "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
       "assets": []
+    },
+    {
+      "title": "SEC Coordinates with Global Financial Regulators to Raise Fraud Awareness During World Investor Week",
+      "source": "SEC Press Releases",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-101-sec-coordinates-global-financial-regulators-raise-fraud-awareness-during-world-investor-week",
+      "event_type": "regulation",
+      "importance_tier": 2,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "assets": [
+        "BTC",
+        "COIN",
+        "ETH",
+        "crypto market"
+      ]
+    },
+    {
+      "title": "U.S. CFTC joins SEC in proposing crypto regulations, though spot-market gap lingers",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/10/05/u-s-cftc-joins-sec-in-proposing-crypto-regulations-though-spot-market-gap-lingers",
+      "event_type": "regulation",
+      "importance_tier": 2,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "assets": [
+        "BTC",
+        "COIN",
+        "ETH",
+        "crypto market"
+      ]
     }
   ],
   "asset_movers": [
     {
-      "symbol": "^VIX",
-      "group": "US_MACRO_MARKET",
-      "price": "15.31",
-      "one_day": "-6.59%",
-      "five_day": "2.96%",
-      "trend": "downtrend",
-      "direction": "down"
-    },
-    {
-      "symbol": "1810.HK",
+      "symbol": "9988.HK",
       "group": "HK_MARKET",
-      "price": "24.24",
-      "one_day": "-3.96%",
-      "five_day": "-8.80%",
-      "trend": "strong_downtrend",
-      "direction": "down"
-    },
-    {
-      "symbol": "^HSI",
-      "group": "HK_MARKET",
-      "price": "23,972.29",
-      "one_day": "-2.60%",
-      "five_day": "-3.19%",
-      "trend": "strong_downtrend",
-      "direction": "down"
-    },
-    {
-      "symbol": "0700.HK",
-      "group": "HK_MARKET",
-      "price": "421.20",
-      "one_day": "-2.27%",
-      "five_day": "-3.92%",
-      "trend": "downtrend",
-      "direction": "down"
-    },
-    {
-      "symbol": "1211.HK",
-      "group": "HK_MARKET",
-      "price": "73.90",
-      "one_day": "-2.25%",
-      "five_day": "-7.04%",
-      "trend": "strong_downtrend",
-      "direction": "down"
-    },
-    {
-      "symbol": "SI=F",
-      "group": "COMMODITIES",
-      "price": "61.27",
-      "one_day": "2.16%",
-      "five_day": "0.08%",
+      "price": "108.40",
+      "one_day": "2.85%",
+      "five_day": "0.65%",
       "trend": "range_bound",
       "direction": "up"
     },
     {
-      "symbol": "3690.HK",
-      "group": "HK_MARKET",
-      "price": "70.20",
-      "one_day": "-2.09%",
-      "five_day": "-2.84%",
-      "trend": "strong_downtrend",
+      "symbol": "HG=F",
+      "group": "COMMODITIES",
+      "price": "6.67",
+      "one_day": "2.68%",
+      "five_day": "1.52%",
+      "trend": "uptrend",
+      "direction": "up"
+    },
+    {
+      "symbol": "SI=F",
+      "group": "COMMODITIES",
+      "price": "61.05",
+      "one_day": "1.79%",
+      "five_day": "-0.28%",
+      "trend": "range_bound",
+      "direction": "up"
+    },
+    {
+      "symbol": "CL=F",
+      "group": "COMMODITIES",
+      "price": "89.54",
+      "one_day": "-1.72%",
+      "five_day": "-3.30%",
+      "trend": "range_bound",
       "direction": "down"
     },
     {
-      "symbol": "9988.HK",
-      "group": "HK_MARKET",
-      "price": "104.40",
-      "one_day": "-2.06%",
-      "five_day": "-5.09%",
-      "trend": "strong_downtrend",
+      "symbol": "BZ=F",
+      "group": "COMMODITIES",
+      "price": "100.50",
+      "one_day": "-1.71%",
+      "five_day": "-4.54%",
+      "trend": "range_bound",
       "direction": "down"
+    },
+    {
+      "symbol": "BINANCECOIN",
+      "group": "CRYPTO",
+      "price": "781.78",
+      "one_day": "-1.69%",
+      "five_day": "1.69%",
+      "trend": "uptrend",
+      "direction": "down"
+    },
+    {
+      "symbol": "NG=F",
+      "group": "COMMODITIES",
+      "price": "3.08",
+      "one_day": "1.42%",
+      "five_day": "2.60%",
+      "trend": "strong_uptrend",
+      "direction": "up"
+    },
+    {
+      "symbol": "^VIX",
+      "group": "US_MACRO_MARKET",
+      "price": "15.52",
+      "one_day": "1.37%",
+      "five_day": "-3.42%",
+      "trend": "downtrend",
+      "direction": "up"
     }
   ],
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-10-05/COMMODITIES_summary.png"
+      "src": "charts/2026-10-06/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-10-05/CRYPTO_summary.png"
+      "src": "charts/2026-10-06/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-10-05/HK_MARKET_summary.png"
+      "src": "charts/2026-10-06/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-10-05/US_EQUITY_summary.png"
+      "src": "charts/2026-10-06/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-10-05.html"
+  "latest_report_href": "reports/2026-10-06.html"
 }
