@@ -1,71 +1,59 @@
 {
-  "latest_date": "2026-10-06",
-  "market_data_date": "2026-10-06",
-  "chart_date": "2026-10-06",
-  "regime": "unknown",
-  "regime_summary": "市场信号不足，暂不判断明确状态。",
+  "latest_date": "2026-10-07",
+  "market_data_date": "2026-10-07",
+  "chart_date": "2026-10-07",
+  "regime": "risk_on",
+  "regime_summary": "股指上涨、波动率或美元回落，市场更接近风险偏好改善。",
   "key_moves": [
-    "SPY 上涨 0.67%",
-    "QQQ 上涨 0.88%",
-    "TLT 下跌 -0.48%",
-    "Oil 下跌 -1.72%"
+    "SPY 上涨 0.55%",
+    "QQQ 上涨 0.46%",
+    "VIX 下跌 -3.29%",
+    "Gold 上涨 0.57%"
   ],
   "watch_points": [
-    "关注后续数据是否确认当前跨资产信号。"
+    "确认风险偏好是否扩散到小盘股、信用利差和周期品。"
   ],
   "cards": [
     {
       "label": "美股 SPY",
-      "value": "0.67%"
+      "value": "0.55%"
     },
     {
       "label": "QQQ",
-      "value": "0.88%"
+      "value": "0.46%"
     },
     {
       "label": "VIX",
-      "value": "1.37%"
+      "value": "-3.29%"
     },
     {
       "label": "BTC",
-      "value": "-1.03%"
+      "value": "-0.38%"
     },
     {
       "label": "Gold",
-      "value": "-0.09%"
+      "value": "0.57%"
     },
     {
       "label": "Oil",
-      "value": "-1.72%"
+      "value": "0.96%"
     }
   ],
   "top_themes": [
-    "financial_stability: Ether's bitcoin-beating Q3 rally came with a catch. Liquidity thinned.",
-    "regulation: SEC Coordinates with Global Financial Regulators to Raise Fraud Awareness During World Investor Week",
-    "regulation: U.S. CFTC joins SEC in proposing crypto regulations, though spot-market gap lingers"
+    "regulation: SEC Seeks Final Judgment Against Former Western Asset Co-CIO Ken Leech in Cherry Picking Case",
+    "regulation: SEC to Host Virtual National Compliance Outreach Seminar for Investment Companies and Investment Advisers",
+    "crypto_market_structure: Arbitrum joins Paxos-led stablecoin group Global Dollar to capture digital dollar growth"
   ],
   "news_counts": {
-    "must_read": 8,
-    "policy_watch": 6,
-    "background": 15
+    "must_read": 10,
+    "policy_watch": 8,
+    "background": 20
   },
   "focus_news": [
     {
-      "title": "Ether's bitcoin-beating Q3 rally came with a catch. Liquidity thinned.",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/10/05/ether-s-bitcoin-beating-q3-rally-came-with-a-catch-liquidity-thinned",
-      "event_type": "financial_stability",
-      "importance_tier": 1,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "金融稳定信号可能放大跨资产波动，并影响央行反应函数。",
-      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
-      "assets": []
-    },
-    {
-      "title": "SEC Coordinates with Global Financial Regulators to Raise Fraud Awareness During World Investor Week",
+      "title": "SEC Seeks Final Judgment Against Former Western Asset Co-CIO Ken Leech in Cherry Picking Case",
       "source": "SEC Press Releases",
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-101-sec-coordinates-global-financial-regulators-raise-fraud-awareness-during-world-investor-week",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-103-sec-seeks-final-judgment-against-former-western-asset-co-cio-ken-leech-cherry-picking-case",
       "event_type": "regulation",
       "importance_tier": 2,
       "impact_strength": "high",
@@ -80,9 +68,9 @@
       ]
     },
     {
-      "title": "U.S. CFTC joins SEC in proposing crypto regulations, though spot-market gap lingers",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/10/05/u-s-cftc-joins-sec-in-proposing-crypto-regulations-though-spot-market-gap-lingers",
+      "title": "SEC to Host Virtual National Compliance Outreach Seminar for Investment Companies and Investment Advisers",
+      "source": "SEC Press Releases",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-102-sec-host-virtual-national-compliance-outreach-seminar-investment-companies-investment-advisers",
       "event_type": "regulation",
       "importance_tier": 2,
       "impact_strength": "high",
@@ -97,9 +85,26 @@
       ]
     },
     {
-      "title": "Stripe to expand stablecoin cards to over 100 countries by the end of the year",
+      "title": "Arbitrum joins Paxos-led stablecoin group Global Dollar to capture digital dollar growth",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/10/01/stripe-to-expand-stablecoin-cards-to-over-100-countries-by-the-end-of-the-year",
+      "url": "https://www.coindesk.com/business/2026/10/05/arbitrum-joins-paxos-led-stablecoin-group-global-dollar-to-capture-digital-dollar-growth",
+      "event_type": "crypto_market_structure",
+      "importance_tier": 2,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
+      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "assets": [
+        "BTC",
+        "COIN",
+        "ETH",
+        "crypto market"
+      ]
+    },
+    {
+      "title": "OKX looks to abstract blockchain mechanics to bring stablecoin balances to everyday consumers",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/10/06/okx-money-lets-users-save-earn-10-yield-and-spend-dollar-stablecoins-in-one-app",
       "event_type": "crypto_market_structure",
       "importance_tier": 2,
       "impact_strength": "high",
@@ -116,21 +121,9 @@
   ],
   "policy_news": [
     {
-      "title": "Ether's bitcoin-beating Q3 rally came with a catch. Liquidity thinned.",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/10/05/ether-s-bitcoin-beating-q3-rally-came-with-a-catch-liquidity-thinned",
-      "event_type": "financial_stability",
-      "importance_tier": 1,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "金融稳定信号可能放大跨资产波动，并影响央行反应函数。",
-      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
-      "assets": []
-    },
-    {
-      "title": "SEC Coordinates with Global Financial Regulators to Raise Fraud Awareness During World Investor Week",
+      "title": "SEC Seeks Final Judgment Against Former Western Asset Co-CIO Ken Leech in Cherry Picking Case",
       "source": "SEC Press Releases",
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-101-sec-coordinates-global-financial-regulators-raise-fraud-awareness-during-world-investor-week",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-103-sec-seeks-final-judgment-against-former-western-asset-co-cio-ken-leech-cherry-picking-case",
       "event_type": "regulation",
       "importance_tier": 2,
       "impact_strength": "high",
@@ -145,14 +138,31 @@
       ]
     },
     {
-      "title": "U.S. CFTC joins SEC in proposing crypto regulations, though spot-market gap lingers",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/10/05/u-s-cftc-joins-sec-in-proposing-crypto-regulations-though-spot-market-gap-lingers",
+      "title": "SEC to Host Virtual National Compliance Outreach Seminar for Investment Companies and Investment Advisers",
+      "source": "SEC Press Releases",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-102-sec-host-virtual-national-compliance-outreach-seminar-investment-companies-investment-advisers",
       "event_type": "regulation",
       "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
       "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "assets": [
+        "BTC",
+        "COIN",
+        "ETH",
+        "crypto market"
+      ]
+    },
+    {
+      "title": "Arbitrum joins Paxos-led stablecoin group Global Dollar to capture digital dollar growth",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/10/05/arbitrum-joins-paxos-led-stablecoin-group-global-dollar-to-capture-digital-dollar-growth",
+      "event_type": "crypto_market_structure",
+      "importance_tier": 2,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
       "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
       "assets": [
         "BTC",
@@ -164,95 +174,95 @@
   ],
   "asset_movers": [
     {
+      "symbol": "^VIX",
+      "group": "US_MACRO_MARKET",
+      "price": "15.01",
+      "one_day": "-3.29%",
+      "five_day": "-6.42%",
+      "trend": "downtrend",
+      "direction": "down"
+    },
+    {
       "symbol": "9988.HK",
       "group": "HK_MARKET",
-      "price": "108.40",
-      "one_day": "2.85%",
-      "five_day": "0.65%",
+      "price": "108.20",
+      "one_day": "2.66%",
+      "five_day": "0.46%",
       "trend": "range_bound",
       "direction": "up"
     },
     {
-      "symbol": "HG=F",
+      "symbol": "NG=F",
       "group": "COMMODITIES",
-      "price": "6.67",
-      "one_day": "2.68%",
-      "five_day": "1.52%",
-      "trend": "uptrend",
+      "price": "3.14",
+      "one_day": "2.32%",
+      "five_day": "4.18%",
+      "trend": "strong_uptrend",
+      "direction": "up"
+    },
+    {
+      "symbol": "1810.HK",
+      "group": "HK_MARKET",
+      "price": "24.26",
+      "one_day": "1.59%",
+      "five_day": "-6.19%",
+      "trend": "strong_downtrend",
+      "direction": "up"
+    },
+    {
+      "symbol": "0700.HK",
+      "group": "HK_MARKET",
+      "price": "428.20",
+      "one_day": "1.23%",
+      "five_day": "-2.64%",
+      "trend": "strong_downtrend",
+      "direction": "up"
+    },
+    {
+      "symbol": "BZ=F",
+      "group": "COMMODITIES",
+      "price": "101.55",
+      "one_day": "1.23%",
+      "five_day": "-1.01%",
+      "trend": "range_bound",
+      "direction": "up"
+    },
+    {
+      "symbol": "1211.HK",
+      "group": "HK_MARKET",
+      "price": "75.00",
+      "one_day": "1.21%",
+      "five_day": "-3.47%",
+      "trend": "strong_downtrend",
       "direction": "up"
     },
     {
       "symbol": "SI=F",
       "group": "COMMODITIES",
-      "price": "61.05",
-      "one_day": "1.79%",
-      "five_day": "-0.28%",
+      "price": "61.58",
+      "one_day": "1.17%",
+      "five_day": "1.50%",
       "trend": "range_bound",
-      "direction": "up"
-    },
-    {
-      "symbol": "CL=F",
-      "group": "COMMODITIES",
-      "price": "89.54",
-      "one_day": "-1.72%",
-      "five_day": "-3.30%",
-      "trend": "range_bound",
-      "direction": "down"
-    },
-    {
-      "symbol": "BZ=F",
-      "group": "COMMODITIES",
-      "price": "100.50",
-      "one_day": "-1.71%",
-      "five_day": "-4.54%",
-      "trend": "range_bound",
-      "direction": "down"
-    },
-    {
-      "symbol": "BINANCECOIN",
-      "group": "CRYPTO",
-      "price": "781.78",
-      "one_day": "-1.69%",
-      "five_day": "1.69%",
-      "trend": "uptrend",
-      "direction": "down"
-    },
-    {
-      "symbol": "NG=F",
-      "group": "COMMODITIES",
-      "price": "3.08",
-      "one_day": "1.42%",
-      "five_day": "2.60%",
-      "trend": "strong_uptrend",
-      "direction": "up"
-    },
-    {
-      "symbol": "^VIX",
-      "group": "US_MACRO_MARKET",
-      "price": "15.52",
-      "one_day": "1.37%",
-      "five_day": "-3.42%",
-      "trend": "downtrend",
       "direction": "up"
     }
   ],
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-10-06/COMMODITIES_summary.png"
+      "src": "charts/2026-10-07/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-10-06/CRYPTO_summary.png"
+      "src": "charts/2026-10-07/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-10-06/HK_MARKET_summary.png"
+      "src": "charts/2026-10-07/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-10-06/US_EQUITY_summary.png"
+      "src": "charts/2026-10-07/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-10-06.html"
+  "latest_report_href": "reports/2026-10-07.html"
 }
