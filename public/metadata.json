@@ -1,66 +1,108 @@
 {
-  "latest_date": "2026-10-08",
-  "market_data_date": "2026-10-08",
-  "chart_date": "2026-10-08",
-  "regime": "unknown",
-  "regime_summary": "市场信号不足，暂不判断明确状态。",
+  "latest_date": "2026-10-09",
+  "market_data_date": "2026-10-09",
+  "chart_date": "2026-10-09",
+  "regime": "risk_off",
+  "regime_summary": "股指回落、VIX 抬升且避险资产走强，市场偏风险规避。",
   "key_moves": [
-    "SPY 上涨 0.55%",
-    "QQQ 上涨 0.46%",
-    "DXY 上涨 0.39%",
-    "Gold 下跌 -0.99%",
-    "BTC 下跌 -2.73%",
-    "ETH 下跌 -4.38%"
+    "SPY 下跌 -0.42%",
+    "QQQ 下跌 -1.34%",
+    "TLT 上涨 0.93%",
+    "Gold 上涨 1.20%",
+    "Oil 上涨 3.13%",
+    "ETH 下跌 -3.61%"
   ],
   "watch_points": [
-    "关注后续数据是否确认当前跨资产信号。"
+    "关注避险是否演变为信用或流动性压力。"
   ],
   "cards": [
     {
       "label": "美股 SPY",
-      "value": "0.55%"
+      "value": "-0.42%"
     },
     {
       "label": "QQQ",
-      "value": "0.46%"
+      "value": "-1.34%"
     },
     {
       "label": "VIX",
-      "value": "0.47%"
+      "value": "2.19%"
     },
     {
       "label": "BTC",
-      "value": "-2.73%"
+      "value": "-1.76%"
     },
     {
       "label": "Gold",
-      "value": "-0.99%"
+      "value": "1.20%"
     },
     {
       "label": "Oil",
-      "value": "0.03%"
+      "value": "3.13%"
     }
   ],
   "top_themes": [
-    "central_bank_decision: Fed’s minutes show no appetite for a series of interest-rate hikes",
-    "financial_stability: Wells Fargo in talks with Kraken parent Payward for crypto trading liquidity",
-    "central_bank_decision: Robinhood adds $25 million of bitcoin to its balance sheet"
+    "fiscal_policy: Huawei doubles down on smartphones as EV sales slow",
+    "earnings: Securitize brings Apple, Nvidia and Tesla to Solana, with NYSE trading in the works",
+    "regulation: Federal Reserve Board announces enforcement action against American Express Company to address, among other things, the firm’s failure to sufficiently detect and report certain suspicious activity related to money laundering"
   ],
   "news_counts": {
-    "must_read": 10,
-    "policy_watch": 8,
+    "must_read": 5,
+    "policy_watch": 2,
     "background": 20
   },
   "focus_news": [
     {
-      "title": "Fed’s minutes show no appetite for a series of interest-rate hikes",
-      "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/fed-minutes-show-no-appetite-for-a-series-of-interest-rate-hikes-8b1c6436?mod=mw_rss_topstories",
-      "event_type": "central_bank_decision",
+      "title": "Huawei doubles down on smartphones as EV sales slow",
+      "source": "CNBC Economy",
+      "url": "https://www.cnbc.com/2026/10/08/huawei-china-smartphone-ev-slow.html",
+      "event_type": "fiscal_policy",
       "importance_tier": 1,
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "assets": []
+    },
+    {
+      "title": "Securitize brings Apple, Nvidia and Tesla to Solana, with NYSE trading in the works",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/10/08/securitize-brings-apple-nvidia-and-tesla-to-solana-with-nyse-trading-in-the-works",
+      "event_type": "earnings",
+      "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
+      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
+      "market_impact": "主要影响 QQQ，方向为 mixed，强度 high；AI 资本开支会影响大型科技股盈利和估值预期。",
+      "assets": [
+        "AMZN",
+        "GOOGL",
+        "META",
+        "MSFT",
+        "NVDA"
+      ]
+    },
+    {
+      "title": "Federal Reserve Board announces enforcement action against American Express Company to address, among other things, the firm’s failure to sufficiently detect and report certain suspicious activity related to money laundering",
+      "source": "Federal Reserve Press Releases",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261008a.htm",
+      "event_type": "regulation",
+      "importance_tier": 2,
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "assets": []
+    },
+    {
+      "title": "Why AI is both the hope and the hazard for world leaders, according to IMF chief Georgieva",
+      "source": "CNBC Economy",
+      "url": "https://www.cnbc.com/2026/10/07/economy-inflation-ai-trade-imf-iran-hormuz-trump-.html",
+      "event_type": "other",
+      "importance_tier": 3,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
       "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
       "assets": [
         "BTC",
@@ -68,164 +110,105 @@
         "GC=F",
         "QQQ",
         "SPY"
-      ]
-    },
-    {
-      "title": "Wells Fargo in talks with Kraken parent Payward for crypto trading liquidity",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/10/05/wells-fargo-in-talks-with-kraken-parent-payward-for-crypto-trading-liquidity",
-      "event_type": "financial_stability",
-      "importance_tier": 1,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "金融稳定信号可能放大跨资产波动，并影响央行反应函数。",
-      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
-      "assets": []
-    },
-    {
-      "title": "Robinhood adds $25 million of bitcoin to its balance sheet",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/10/07/robinhood-adds-bitcoin-worth-usd25-million-to-its-balance-sheet-report",
-      "event_type": "central_bank_decision",
-      "importance_tier": 1,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
-      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
-      "assets": []
-    },
-    {
-      "title": "Polygon taps TRON’s $94 billion stablecoin supply for seamless cross-border transfers",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/10/07/polygon-and-tron-partner-to-bridge-usd94-billion-usdt-ecosystem-with-u-s-banking-rails",
-      "event_type": "crypto_market_structure",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
-      "assets": [
-        "BTC",
-        "COIN",
-        "ETH",
-        "crypto market"
       ]
     }
   ],
   "policy_news": [
     {
-      "title": "Fed’s minutes show no appetite for a series of interest-rate hikes",
-      "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/fed-minutes-show-no-appetite-for-a-series-of-interest-rate-hikes-8b1c6436?mod=mw_rss_topstories",
-      "event_type": "central_bank_decision",
-      "importance_tier": 1,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
-      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
-      "assets": [
-        "BTC",
-        "DXY",
-        "GC=F",
-        "QQQ",
-        "SPY"
-      ]
-    },
-    {
-      "title": "Wells Fargo in talks with Kraken parent Payward for crypto trading liquidity",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/10/05/wells-fargo-in-talks-with-kraken-parent-payward-for-crypto-trading-liquidity",
-      "event_type": "financial_stability",
+      "title": "Huawei doubles down on smartphones as EV sales slow",
+      "source": "CNBC Economy",
+      "url": "https://www.cnbc.com/2026/10/08/huawei-china-smartphone-ev-slow.html",
+      "event_type": "fiscal_policy",
       "importance_tier": 1,
       "impact_strength": "low",
       "impact_direction": "unknown",
-      "reason": "金融稳定信号可能放大跨资产波动，并影响央行反应函数。",
+      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
       "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
       "assets": []
     },
     {
-      "title": "Robinhood adds $25 million of bitcoin to its balance sheet",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/10/07/robinhood-adds-bitcoin-worth-usd25-million-to-its-balance-sheet-report",
-      "event_type": "central_bank_decision",
-      "importance_tier": 1,
+      "title": "Federal Reserve Board announces enforcement action against American Express Company to address, among other things, the firm’s failure to sufficiently detect and report certain suspicious activity related to money laundering",
+      "source": "Federal Reserve Press Releases",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261008a.htm",
+      "event_type": "regulation",
+      "importance_tier": 2,
       "impact_strength": "low",
       "impact_direction": "unknown",
-      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
+      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
       "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
       "assets": []
     }
   ],
   "asset_movers": [
     {
-      "symbol": "RIPPLE",
+      "symbol": "SOLANA",
       "group": "CRYPTO",
-      "price": "1.42",
-      "one_day": "-4.84%",
-      "five_day": "-4.05%",
+      "price": "109.34",
+      "one_day": "-5.92%",
+      "five_day": "-8.58%",
       "trend": "range_bound",
       "direction": "down"
     },
     {
-      "symbol": "NG=F",
-      "group": "COMMODITIES",
-      "price": "3.26",
-      "one_day": "4.82%",
-      "five_day": "7.87%",
-      "trend": "strong_uptrend",
-      "direction": "up"
+      "symbol": "BINANCECOIN",
+      "group": "CRYPTO",
+      "price": "734.65",
+      "one_day": "-4.84%",
+      "five_day": "-6.63%",
+      "trend": "range_bound",
+      "direction": "down"
     },
     {
       "symbol": "ETH",
       "group": "CRYPTO",
-      "price": "2,579.01",
-      "one_day": "-4.38%",
-      "five_day": "-3.33%",
+      "price": "2,480.24",
+      "one_day": "-3.61%",
+      "five_day": "-7.69%",
       "trend": "range_bound",
       "direction": "down"
     },
     {
-      "symbol": "SOLANA",
-      "group": "CRYPTO",
-      "price": "116.37",
-      "one_day": "-3.57%",
-      "five_day": "-1.87%",
-      "trend": "range_bound",
-      "direction": "down"
-    },
-    {
-      "symbol": "BTC",
-      "group": "CRYPTO",
-      "price": "83,207.18",
-      "one_day": "-2.73%",
-      "five_day": "-1.54%",
-      "trend": "range_bound",
-      "direction": "down"
-    },
-    {
-      "symbol": "9988.HK",
-      "group": "HK_MARKET",
-      "price": "105.40",
-      "one_day": "-2.59%",
-      "five_day": "-0.75%",
-      "trend": "downtrend",
-      "direction": "down"
-    },
-    {
-      "symbol": "HG=F",
+      "symbol": "BZ=F",
       "group": "COMMODITIES",
-      "price": "6.73",
-      "one_day": "2.00%",
-      "five_day": "2.55%",
+      "price": "103.74",
+      "one_day": "3.53%",
+      "five_day": "1.40%",
       "trend": "uptrend",
+      "direction": "up"
+    },
+    {
+      "symbol": "CL=F",
+      "group": "COMMODITIES",
+      "price": "91.04",
+      "one_day": "3.13%",
+      "five_day": "-1.97%",
+      "trend": "range_bound",
+      "direction": "up"
+    },
+    {
+      "symbol": "1211.HK",
+      "group": "HK_MARKET",
+      "price": "72.90",
+      "one_day": "-2.21%",
+      "five_day": "-3.57%",
+      "trend": "strong_downtrend",
+      "direction": "down"
+    },
+    {
+      "symbol": "^VIX",
+      "group": "US_MACRO_MARKET",
+      "price": "15.41",
+      "one_day": "2.19%",
+      "five_day": "-5.98%",
+      "trend": "downtrend",
       "direction": "up"
     },
     {
       "symbol": "0700.HK",
       "group": "HK_MARKET",
-      "price": "420.60",
-      "one_day": "-1.77%",
-      "five_day": "-2.64%",
+      "price": "411.40",
+      "one_day": "-2.19%",
+      "five_day": "-4.55%",
       "trend": "strong_downtrend",
       "direction": "down"
     }
@@ -233,20 +216,20 @@
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-10-08/COMMODITIES_summary.png"
+      "src": "charts/2026-10-09/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-10-08/CRYPTO_summary.png"
+      "src": "charts/2026-10-09/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-10-08/HK_MARKET_summary.png"
+      "src": "charts/2026-10-09/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-10-08/US_EQUITY_summary.png"
+      "src": "charts/2026-10-09/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-10-08.html"
+  "latest_report_href": "reports/2026-10-09.html"
 }
