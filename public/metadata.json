@@ -1,19 +1,18 @@
 {
-  "latest_date": "2026-10-09",
-  "market_data_date": "2026-10-09",
-  "chart_date": "2026-10-09",
-  "regime": "risk_off",
-  "regime_summary": "股指回落、VIX 抬升且避险资产走强，市场偏风险规避。",
+  "latest_date": "2026-10-10",
+  "market_data_date": "2026-10-10",
+  "chart_date": "2026-10-10",
+  "regime": "unknown",
+  "regime_summary": "市场信号不足，暂不判断明确状态。",
   "key_moves": [
     "SPY 下跌 -0.42%",
     "QQQ 下跌 -1.34%",
+    "VIX 下跌 -3.70%",
     "TLT 上涨 0.93%",
-    "Gold 上涨 1.20%",
-    "Oil 上涨 3.13%",
-    "ETH 下跌 -3.61%"
+    "Gold 上涨 1.52%"
   ],
   "watch_points": [
-    "关注避险是否演变为信用或流动性压力。"
+    "关注后续数据是否确认当前跨资产信号。"
   ],
   "cards": [
     {
@@ -26,32 +25,56 @@
     },
     {
       "label": "VIX",
-      "value": "2.19%"
+      "value": "-3.70%"
     },
     {
       "label": "BTC",
-      "value": "-1.76%"
+      "value": "1.17%"
     },
     {
       "label": "Gold",
-      "value": "1.20%"
+      "value": "1.52%"
     },
     {
       "label": "Oil",
-      "value": "3.13%"
+      "value": "0.19%"
     }
   ],
   "top_themes": [
-    "fiscal_policy: Huawei doubles down on smartphones as EV sales slow",
-    "earnings: Securitize brings Apple, Nvidia and Tesla to Solana, with NYSE trading in the works",
-    "regulation: Federal Reserve Board announces enforcement action against American Express Company to address, among other things, the firm’s failure to sufficiently detect and report certain suspicious activity related to money laundering"
+    "financial_stability: Twenty-fifth Meeting of the \"Council for Cooperation on Financial Stability\"",
+    "fiscal_policy: UK slaps sanctions on three crypto exchanges over alleged Russia links",
+    "fiscal_policy: Huawei doubles down on smartphones as EV sales slow"
   ],
   "news_counts": {
-    "must_read": 5,
-    "policy_watch": 2,
+    "must_read": 7,
+    "policy_watch": 5,
     "background": 20
   },
   "focus_news": [
+    {
+      "title": "Twenty-fifth Meeting of the \"Council for Cooperation on Financial Stability\"",
+      "source": "Bank of Japan Announcements",
+      "url": "http://www.boj.or.jp/en/finsys/macpru/mac261009a.pdf",
+      "event_type": "financial_stability",
+      "importance_tier": 1,
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "金融稳定信号可能放大跨资产波动，并影响央行反应函数。",
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "assets": []
+    },
+    {
+      "title": "UK slaps sanctions on three crypto exchanges over alleged Russia links",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/10/09/uk-slaps-sanctions-on-three-crypto-exchanges-over-alleged-russia-links",
+      "event_type": "fiscal_policy",
+      "importance_tier": 1,
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "assets": []
+    },
     {
       "title": "Huawei doubles down on smartphones as EV sales slow",
       "source": "CNBC Economy",
@@ -65,59 +88,40 @@
       "assets": []
     },
     {
-      "title": "Securitize brings Apple, Nvidia and Tesla to Solana, with NYSE trading in the works",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/10/08/securitize-brings-apple-nvidia-and-tesla-to-solana-with-nyse-trading-in-the-works",
-      "event_type": "earnings",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
-      "market_impact": "主要影响 QQQ，方向为 mixed，强度 high；AI 资本开支会影响大型科技股盈利和估值预期。",
-      "assets": [
-        "AMZN",
-        "GOOGL",
-        "META",
-        "MSFT",
-        "NVDA"
-      ]
-    },
-    {
-      "title": "Federal Reserve Board announces enforcement action against American Express Company to address, among other things, the firm’s failure to sufficiently detect and report certain suspicious activity related to money laundering",
-      "source": "Federal Reserve Press Releases",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261008a.htm",
+      "title": "SEC Proposes Expanding Securities Eligible for Cross Trading by Registered Funds",
+      "source": "SEC Press Releases",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-104-sec-proposes-expanding-securities-eligible-cross-trading-registered-funds",
       "event_type": "regulation",
       "importance_tier": 2,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
-      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
-      "assets": []
-    },
-    {
-      "title": "Why AI is both the hope and the hazard for world leaders, according to IMF chief Georgieva",
-      "source": "CNBC Economy",
-      "url": "https://www.cnbc.com/2026/10/07/economy-inflation-ai-trade-imf-iran-hormuz-trump-.html",
-      "event_type": "other",
-      "importance_tier": 3,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
-      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
+      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
       "assets": [
         "BTC",
-        "DXY",
-        "GC=F",
-        "QQQ",
-        "SPY"
+        "COIN",
+        "ETH",
+        "crypto market"
       ]
     }
   ],
   "policy_news": [
     {
-      "title": "Huawei doubles down on smartphones as EV sales slow",
-      "source": "CNBC Economy",
-      "url": "https://www.cnbc.com/2026/10/08/huawei-china-smartphone-ev-slow.html",
+      "title": "Twenty-fifth Meeting of the \"Council for Cooperation on Financial Stability\"",
+      "source": "Bank of Japan Announcements",
+      "url": "http://www.boj.or.jp/en/finsys/macpru/mac261009a.pdf",
+      "event_type": "financial_stability",
+      "importance_tier": 1,
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "金融稳定信号可能放大跨资产波动，并影响央行反应函数。",
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "assets": []
+    },
+    {
+      "title": "UK slaps sanctions on three crypto exchanges over alleged Russia links",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/10/09/uk-slaps-sanctions-on-three-crypto-exchanges-over-alleged-russia-links",
       "event_type": "fiscal_policy",
       "importance_tier": 1,
       "impact_strength": "low",
@@ -127,109 +131,109 @@
       "assets": []
     },
     {
-      "title": "Federal Reserve Board announces enforcement action against American Express Company to address, among other things, the firm’s failure to sufficiently detect and report certain suspicious activity related to money laundering",
-      "source": "Federal Reserve Press Releases",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261008a.htm",
-      "event_type": "regulation",
-      "importance_tier": 2,
+      "title": "Huawei doubles down on smartphones as EV sales slow",
+      "source": "CNBC Economy",
+      "url": "https://www.cnbc.com/2026/10/08/huawei-china-smartphone-ev-slow.html",
+      "event_type": "fiscal_policy",
+      "importance_tier": 1,
       "impact_strength": "low",
       "impact_direction": "unknown",
-      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
       "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
       "assets": []
     }
   ],
   "asset_movers": [
     {
-      "symbol": "SOLANA",
-      "group": "CRYPTO",
-      "price": "109.34",
-      "one_day": "-5.92%",
-      "five_day": "-8.58%",
-      "trend": "range_bound",
-      "direction": "down"
-    },
-    {
-      "symbol": "BINANCECOIN",
-      "group": "CRYPTO",
-      "price": "734.65",
-      "one_day": "-4.84%",
-      "five_day": "-6.63%",
-      "trend": "range_bound",
-      "direction": "down"
-    },
-    {
-      "symbol": "ETH",
-      "group": "CRYPTO",
-      "price": "2,480.24",
-      "one_day": "-3.61%",
-      "five_day": "-7.69%",
-      "trend": "range_bound",
-      "direction": "down"
-    },
-    {
-      "symbol": "BZ=F",
-      "group": "COMMODITIES",
-      "price": "103.74",
-      "one_day": "3.53%",
-      "five_day": "1.40%",
-      "trend": "uptrend",
-      "direction": "up"
-    },
-    {
-      "symbol": "CL=F",
-      "group": "COMMODITIES",
-      "price": "91.04",
-      "one_day": "3.13%",
-      "five_day": "-1.97%",
+      "symbol": "1810.HK",
+      "group": "HK_MARKET",
+      "price": "25.96",
+      "one_day": "9.72%",
+      "five_day": "7.10%",
       "trend": "range_bound",
       "direction": "up"
     },
     {
       "symbol": "1211.HK",
       "group": "HK_MARKET",
-      "price": "72.90",
-      "one_day": "-2.21%",
-      "five_day": "-3.57%",
+      "price": "75.60",
+      "one_day": "3.70%",
+      "five_day": "2.30%",
       "trend": "strong_downtrend",
-      "direction": "down"
+      "direction": "up"
     },
     {
       "symbol": "^VIX",
       "group": "US_MACRO_MARKET",
-      "price": "15.41",
-      "one_day": "2.19%",
-      "five_day": "-5.98%",
+      "price": "14.84",
+      "one_day": "-3.70%",
+      "five_day": "-3.07%",
       "trend": "downtrend",
+      "direction": "down"
+    },
+    {
+      "symbol": "SI=F",
+      "group": "COMMODITIES",
+      "price": "61.11",
+      "one_day": "3.46%",
+      "five_day": "1.89%",
+      "trend": "strong_downtrend",
       "direction": "up"
     },
     {
       "symbol": "0700.HK",
       "group": "HK_MARKET",
-      "price": "411.40",
-      "one_day": "-2.19%",
-      "five_day": "-4.55%",
+      "price": "424.80",
+      "one_day": "3.26%",
+      "five_day": "0.85%",
+      "trend": "downtrend",
+      "direction": "up"
+    },
+    {
+      "symbol": "3690.HK",
+      "group": "HK_MARKET",
+      "price": "71.50",
+      "one_day": "3.03%",
+      "five_day": "1.85%",
       "trend": "strong_downtrend",
-      "direction": "down"
+      "direction": "up"
+    },
+    {
+      "symbol": "HG=F",
+      "group": "COMMODITIES",
+      "price": "6.71",
+      "one_day": "2.95%",
+      "five_day": "3.37%",
+      "trend": "uptrend",
+      "direction": "up"
+    },
+    {
+      "symbol": "9988.HK",
+      "group": "HK_MARKET",
+      "price": "107.00",
+      "one_day": "2.59%",
+      "five_day": "2.49%",
+      "trend": "downtrend",
+      "direction": "up"
     }
   ],
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-10-09/COMMODITIES_summary.png"
+      "src": "charts/2026-10-10/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-10-09/CRYPTO_summary.png"
+      "src": "charts/2026-10-10/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-10-09/HK_MARKET_summary.png"
+      "src": "charts/2026-10-10/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-10-09/US_EQUITY_summary.png"
+      "src": "charts/2026-10-10/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-10-09.html"
+  "latest_report_href": "reports/2026-10-10.html"
 }
