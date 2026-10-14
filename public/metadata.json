@@ -1,12 +1,14 @@
 {
-  "latest_date": "2026-10-13",
-  "market_data_date": "2026-10-13",
-  "chart_date": "2026-10-13",
+  "latest_date": "2026-10-14",
+  "market_data_date": "2026-10-14",
+  "chart_date": "2026-10-14",
   "regime": "unknown",
   "regime_summary": "市场信号不足，暂不判断明确状态。",
   "key_moves": [
     "QQQ 下跌 -0.70%",
-    "ETH 下跌 -2.11%"
+    "DXY 下跌 -0.41%",
+    "Oil 上涨 1.25%",
+    "ETH 上涨 2.68%"
   ],
   "watch_points": [
     "关注后续数据是否确认当前跨资产信号。"
@@ -22,31 +24,50 @@
     },
     {
       "label": "VIX",
-      "value": "2.49%"
+      "value": "0.39%"
     },
     {
       "label": "BTC",
-      "value": "-1.12%"
+      "value": "2.00%"
     },
     {
       "label": "Gold",
-      "value": "-0.42%"
+      "value": "-0.24%"
     },
     {
       "label": "Oil",
-      "value": "0.86%"
+      "value": "1.25%"
     }
   ],
   "top_themes": [
+    "central_bank_decision: Williams says Fed may not have to hike rates in 2027, at odds with traders",
     "central_bank_speech: Higher rates could be needed to avoid 'inflationary mindset' taking hold, says Fed's Hammack",
     "crypto_market_structure: Global financial watchdog calls for cross-border information sharing, planning for stablecoin crisis"
   ],
   "news_counts": {
-    "must_read": 4,
-    "policy_watch": 2,
-    "background": 9
+    "must_read": 5,
+    "policy_watch": 3,
+    "background": 20
   },
   "focus_news": [
+    {
+      "title": "Williams says Fed may not have to hike rates in 2027, at odds with traders",
+      "source": "CNBC Economy",
+      "url": "https://www.cnbc.com/2026/10/13/john-williams-fed-rate-hikes-2027.html",
+      "event_type": "central_bank_decision",
+      "importance_tier": 1,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
+      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
+      "assets": [
+        "BTC",
+        "DXY",
+        "GC=F",
+        "QQQ",
+        "SPY"
+      ]
+    },
     {
       "title": "Higher rates could be needed to avoid 'inflationary mindset' taking hold, says Fed's Hammack",
       "source": "CNBC Economy",
@@ -83,27 +104,9 @@
       ]
     },
     {
-      "title": "Inflation likely peaked for 2026 but will remain sticky, according to prediction markets",
-      "source": "CNBC Economy",
-      "url": "https://www.cnbc.com/2026/10/12/inflation-will-remain-sticky-in-2026-according-to-prediction-markets.html",
-      "event_type": "other",
-      "importance_tier": 3,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
-      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
-      "assets": [
-        "BTC",
-        "DXY",
-        "GC=F",
-        "QQQ",
-        "SPY"
-      ]
-    },
-    {
-      "title": "U.S. inflation, Ethereum upgrade talks: Crypto Week Ahead",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/10/12/u-s-inflation-ethereum-upgrade-talks-crypto-week-ahead",
+      "title": "My wife says we can’t afford to retire, yet she wants to take an $8,000 trip to Italy. We have $4 million. Do I keep working?",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/my-wife-says-we-cant-afford-to-retire-we-have-4-million-do-i-just-keep-working-f1b6b085?mod=mw_rss_topstories",
       "event_type": "other",
       "importance_tier": 3,
       "impact_strength": "high",
@@ -120,6 +123,24 @@
     }
   ],
   "policy_news": [
+    {
+      "title": "Williams says Fed may not have to hike rates in 2027, at odds with traders",
+      "source": "CNBC Economy",
+      "url": "https://www.cnbc.com/2026/10/13/john-williams-fed-rate-hikes-2027.html",
+      "event_type": "central_bank_decision",
+      "importance_tier": 1,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
+      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
+      "assets": [
+        "BTC",
+        "DXY",
+        "GC=F",
+        "QQQ",
+        "SPY"
+      ]
+    },
     {
       "title": "Higher rates could be needed to avoid 'inflationary mindset' taking hold, says Fed's Hammack",
       "source": "CNBC Economy",
@@ -158,95 +179,95 @@
   ],
   "asset_movers": [
     {
-      "symbol": "1810.HK",
-      "group": "HK_MARKET",
-      "price": "24.08",
-      "one_day": "-7.24%",
-      "five_day": "0.84%",
-      "trend": "strong_downtrend",
-      "direction": "down"
-    },
-    {
-      "symbol": "SOLANA",
-      "group": "CRYPTO",
-      "price": "106.42",
-      "one_day": "-4.34%",
-      "five_day": "-8.44%",
-      "trend": "range_bound",
-      "direction": "down"
-    },
-    {
-      "symbol": "1211.HK",
-      "group": "HK_MARKET",
-      "price": "72.65",
-      "one_day": "-3.90%",
-      "five_day": "-1.96%",
-      "trend": "strong_downtrend",
-      "direction": "down"
-    },
-    {
-      "symbol": "RIPPLE",
-      "group": "CRYPTO",
-      "price": "1.36",
-      "one_day": "-3.50%",
-      "five_day": "-4.30%",
-      "trend": "range_bound",
-      "direction": "down"
-    },
-    {
-      "symbol": "^VIX",
-      "group": "US_MACRO_MARKET",
-      "price": "15.21",
-      "one_day": "2.49%",
-      "five_day": "-2.00%",
-      "trend": "downtrend",
+      "symbol": "NG=F",
+      "group": "COMMODITIES",
+      "price": "3.33",
+      "one_day": "5.08%",
+      "five_day": "6.87%",
+      "trend": "strong_uptrend",
       "direction": "up"
     },
     {
       "symbol": "ETH",
       "group": "CRYPTO",
-      "price": "2,481.10",
-      "one_day": "-2.11%",
-      "five_day": "-3.58%",
+      "price": "2,511.44",
+      "one_day": "2.68%",
+      "five_day": "1.57%",
       "trend": "range_bound",
-      "direction": "down"
+      "direction": "up"
     },
     {
-      "symbol": "3690.HK",
+      "symbol": "RIPPLE",
+      "group": "CRYPTO",
+      "price": "1.37",
+      "one_day": "2.36%",
+      "five_day": "-0.48%",
+      "trend": "range_bound",
+      "direction": "up"
+    },
+    {
+      "symbol": "1810.HK",
       "group": "HK_MARKET",
-      "price": "70.05",
-      "one_day": "-2.03%",
-      "five_day": "-0.85%",
+      "price": "25.04",
+      "one_day": "2.12%",
+      "five_day": "3.22%",
       "trend": "strong_downtrend",
-      "direction": "down"
+      "direction": "up"
+    },
+    {
+      "symbol": "BTC",
+      "group": "CRYPTO",
+      "price": "83,427.73",
+      "one_day": "2.00%",
+      "five_day": "2.13%",
+      "trend": "range_bound",
+      "direction": "up"
+    },
+    {
+      "symbol": "SOLANA",
+      "group": "CRYPTO",
+      "price": "107.55",
+      "one_day": "1.81%",
+      "five_day": "-1.79%",
+      "trend": "range_bound",
+      "direction": "up"
     },
     {
       "symbol": "BINANCECOIN",
       "group": "CRYPTO",
-      "price": "739.37",
-      "one_day": "-1.87%",
-      "five_day": "-4.23%",
+      "price": "744.07",
+      "one_day": "1.61%",
+      "five_day": "1.18%",
       "trend": "range_bound",
+      "direction": "up"
+    },
+    {
+      "symbol": "1211.HK",
+      "group": "HK_MARKET",
+      "price": "73.25",
+      "one_day": "-1.48%",
+      "five_day": "-2.33%",
+      "trend": "strong_downtrend",
       "direction": "down"
     }
   ],
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-10-13/COMMODITIES_summary.png"
+      "src": "charts/2026-10-14/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-10-13/CRYPTO_summary.png"
+      "src": "charts/2026-10-14/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-10-13/HK_MARKET_summary.png"
+      "src": "charts/2026-10-14/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-10-13/US_EQUITY_summary.png"
+      "src": "charts/2026-10-14/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-10-13.html"
+  "latest_report_href": "reports/2026-10-14.html"
 }
