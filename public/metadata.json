@@ -1,14 +1,14 @@
 {
-  "latest_date": "2026-10-14",
-  "market_data_date": "2026-10-14",
-  "chart_date": "2026-10-14",
+  "latest_date": "2026-10-15",
+  "market_data_date": "2026-10-15",
+  "chart_date": "2026-10-15",
   "regime": "unknown",
   "regime_summary": "市场信号不足，暂不判断明确状态。",
   "key_moves": [
-    "QQQ 下跌 -0.70%",
-    "DXY 下跌 -0.41%",
-    "Oil 上涨 1.25%",
-    "ETH 上涨 2.68%"
+    "VIX 上涨 10.48%",
+    "TLT 上涨 0.41%",
+    "Gold 下跌 -0.99%",
+    "ETH 下跌 -2.94%"
   ],
   "watch_points": [
     "关注后续数据是否确认当前跨资产信号。"
@@ -16,40 +16,58 @@
   "cards": [
     {
       "label": "美股 SPY",
-      "value": "-0.06%"
+      "value": "-0.01%"
     },
     {
       "label": "QQQ",
-      "value": "-0.70%"
+      "value": "-0.33%"
     },
     {
       "label": "VIX",
-      "value": "0.39%"
+      "value": "10.48%"
     },
     {
       "label": "BTC",
-      "value": "2.00%"
+      "value": "-1.68%"
     },
     {
       "label": "Gold",
-      "value": "-0.24%"
+      "value": "-0.99%"
     },
     {
       "label": "Oil",
-      "value": "1.25%"
+      "value": "0.68%"
     }
   ],
   "top_themes": [
+    "macro_data: U.S. September CPI comes in hot, sending bitcoin sharply lower",
     "central_bank_decision: Williams says Fed may not have to hike rates in 2027, at odds with traders",
-    "central_bank_speech: Higher rates could be needed to avoid 'inflationary mindset' taking hold, says Fed's Hammack",
-    "crypto_market_structure: Global financial watchdog calls for cross-border information sharing, planning for stablecoin crisis"
+    "fiscal_policy: Proposed 31.4% French tax on regulated stablecoins could drive crypto traders offshore"
   ],
   "news_counts": {
-    "must_read": 5,
-    "policy_watch": 3,
+    "must_read": 9,
+    "policy_watch": 5,
     "background": 20
   },
   "focus_news": [
+    {
+      "title": "U.S. September CPI comes in hot, sending bitcoin sharply lower",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/10/14/u-s-september-cpi-comes-in-hot-sending-bitcoin-sharply-lower",
+      "event_type": "macro_data",
+      "importance_tier": 1,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "这类宏观数据会直接改变市场对通胀、增长和政策路径的预期。",
+      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
+      "assets": [
+        "BTC",
+        "DXY",
+        "GC=F",
+        "QQQ",
+        "SPY"
+      ]
+    },
     {
       "title": "Williams says Fed may not have to hike rates in 2027, at odds with traders",
       "source": "CNBC Economy",
@@ -69,56 +87,32 @@
       ]
     },
     {
-      "title": "Higher rates could be needed to avoid 'inflationary mindset' taking hold, says Fed's Hammack",
-      "source": "CNBC Economy",
-      "url": "https://www.cnbc.com/2026/10/12/beth-hammack-fed-inflation-policy.html",
-      "event_type": "central_bank_speech",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "央行官员表态可能影响市场对下一次会议的定价。",
-      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
-      "assets": [
-        "BTC",
-        "DXY",
-        "GC=F",
-        "QQQ",
-        "SPY"
-      ]
+      "title": "Proposed 31.4% French tax on regulated stablecoins could drive crypto traders offshore",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/10/14/proposed-french-tax-on-regulated-stablecoins-could-drive-crypto-traders-offshore",
+      "event_type": "fiscal_policy",
+      "importance_tier": 1,
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "assets": []
     },
     {
-      "title": "Global financial watchdog calls for cross-border information sharing, planning for stablecoin crisis",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/10/12/global-financial-watchdog-calls-for-cross-border-information-sharing-planning-for-stablecoin-crisis",
-      "event_type": "crypto_market_structure",
+      "title": "SEC Small Business Advisory Committee to Discuss IPO Modernization and Regulation Crowdfunding",
+      "source": "SEC Press Releases",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-105-sec-small-business-advisory-committee-discuss-ipo-modernization-regulation-crowdfunding",
+      "event_type": "regulation",
       "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
+      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
       "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
       "assets": [
         "BTC",
         "COIN",
         "ETH",
         "crypto market"
-      ]
-    },
-    {
-      "title": "My wife says we can’t afford to retire, yet she wants to take an $8,000 trip to Italy. We have $4 million. Do I keep working?",
-      "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/my-wife-says-we-cant-afford-to-retire-we-have-4-million-do-i-just-keep-working-f1b6b085?mod=mw_rss_topstories",
-      "event_type": "other",
-      "importance_tier": 3,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
-      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
-      "assets": [
-        "BTC",
-        "DXY",
-        "GC=F",
-        "QQQ",
-        "SPY"
       ]
     }
   ],
@@ -142,32 +136,26 @@
       ]
     },
     {
-      "title": "Higher rates could be needed to avoid 'inflationary mindset' taking hold, says Fed's Hammack",
-      "source": "CNBC Economy",
-      "url": "https://www.cnbc.com/2026/10/12/beth-hammack-fed-inflation-policy.html",
-      "event_type": "central_bank_speech",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "央行官员表态可能影响市场对下一次会议的定价。",
-      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
-      "assets": [
-        "BTC",
-        "DXY",
-        "GC=F",
-        "QQQ",
-        "SPY"
-      ]
+      "title": "Proposed 31.4% French tax on regulated stablecoins could drive crypto traders offshore",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/10/14/proposed-french-tax-on-regulated-stablecoins-could-drive-crypto-traders-offshore",
+      "event_type": "fiscal_policy",
+      "importance_tier": 1,
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "assets": []
     },
     {
-      "title": "Global financial watchdog calls for cross-border information sharing, planning for stablecoin crisis",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/10/12/global-financial-watchdog-calls-for-cross-border-information-sharing-planning-for-stablecoin-crisis",
-      "event_type": "crypto_market_structure",
+      "title": "SEC Small Business Advisory Committee to Discuss IPO Modernization and Regulation Crowdfunding",
+      "source": "SEC Press Releases",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-105-sec-small-business-advisory-committee-discuss-ipo-modernization-regulation-crowdfunding",
+      "event_type": "regulation",
       "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
+      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
       "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
       "assets": [
         "BTC",
@@ -179,95 +167,95 @@
   ],
   "asset_movers": [
     {
-      "symbol": "NG=F",
+      "symbol": "^VIX",
+      "group": "US_MACRO_MARKET",
+      "price": "16.87",
+      "one_day": "10.48%",
+      "five_day": "11.87%",
+      "trend": "range_bound",
+      "direction": "up"
+    },
+    {
+      "symbol": "3690.HK",
+      "group": "HK_MARKET",
+      "price": "77.10",
+      "one_day": "6.64%",
+      "five_day": "9.91%",
+      "trend": "range_bound",
+      "direction": "up"
+    },
+    {
+      "symbol": "SI=F",
       "group": "COMMODITIES",
-      "price": "3.33",
-      "one_day": "5.08%",
-      "five_day": "6.87%",
-      "trend": "strong_uptrend",
+      "price": "55.88",
+      "one_day": "-5.55%",
+      "five_day": "-6.72%",
+      "trend": "strong_downtrend",
+      "direction": "down"
+    },
+    {
+      "symbol": "1810.HK",
+      "group": "HK_MARKET",
+      "price": "26.38",
+      "one_day": "5.35%",
+      "five_day": "10.19%",
+      "trend": "range_bound",
+      "direction": "up"
+    },
+    {
+      "symbol": "9988.HK",
+      "group": "HK_MARKET",
+      "price": "110.50",
+      "one_day": "3.08%",
+      "five_day": "4.84%",
+      "trend": "range_bound",
       "direction": "up"
     },
     {
       "symbol": "ETH",
       "group": "CRYPTO",
-      "price": "2,511.44",
-      "one_day": "2.68%",
-      "five_day": "1.57%",
+      "price": "2,423.29",
+      "one_day": "-2.94%",
+      "five_day": "-2.51%",
       "trend": "range_bound",
-      "direction": "up"
+      "direction": "down"
     },
     {
       "symbol": "RIPPLE",
       "group": "CRYPTO",
-      "price": "1.37",
-      "one_day": "2.36%",
-      "five_day": "-0.48%",
+      "price": "1.33",
+      "one_day": "-2.41%",
+      "five_day": "-4.48%",
       "trend": "range_bound",
-      "direction": "up"
-    },
-    {
-      "symbol": "1810.HK",
-      "group": "HK_MARKET",
-      "price": "25.04",
-      "one_day": "2.12%",
-      "five_day": "3.22%",
-      "trend": "strong_downtrend",
-      "direction": "up"
-    },
-    {
-      "symbol": "BTC",
-      "group": "CRYPTO",
-      "price": "83,427.73",
-      "one_day": "2.00%",
-      "five_day": "2.13%",
-      "trend": "range_bound",
-      "direction": "up"
+      "direction": "down"
     },
     {
       "symbol": "SOLANA",
       "group": "CRYPTO",
-      "price": "107.55",
-      "one_day": "1.81%",
-      "five_day": "-1.79%",
+      "price": "104.33",
+      "one_day": "-2.27%",
+      "five_day": "-4.35%",
       "trend": "range_bound",
-      "direction": "up"
-    },
-    {
-      "symbol": "BINANCECOIN",
-      "group": "CRYPTO",
-      "price": "744.07",
-      "one_day": "1.61%",
-      "five_day": "1.18%",
-      "trend": "range_bound",
-      "direction": "up"
-    },
-    {
-      "symbol": "1211.HK",
-      "group": "HK_MARKET",
-      "price": "73.25",
-      "one_day": "-1.48%",
-      "five_day": "-2.33%",
-      "trend": "strong_downtrend",
       "direction": "down"
     }
   ],
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-10-14/COMMODITIES_summary.png"
+      "src": "charts/2026-10-15/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-10-14/CRYPTO_summary.png"
+      "src": "charts/2026-10-15/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-10-14/HK_MARKET_summary.png"
+      "src": "charts/2026-10-15/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-10-14/US_EQUITY_summary.png"
+      "src": "charts/2026-10-15/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-10-14.html"
+  "latest_report_href": "reports/2026-10-15.html"
 }
