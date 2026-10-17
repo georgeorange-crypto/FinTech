@@ -1,61 +1,58 @@
 {
-  "latest_date": "2026-10-16",
-  "market_data_date": "2026-10-16",
-  "chart_date": "2026-10-16",
-  "regime": "inflation_shock",
-  "regime_summary": "原油和黄金走强、股指承压，市场可能在交易通胀或地缘风险冲击。",
+  "latest_date": "2026-10-17",
+  "market_data_date": "2026-10-17",
+  "chart_date": "2026-10-17",
+  "regime": "unknown",
+  "regime_summary": "市场信号不足，暂不判断明确状态。",
   "key_moves": [
-    "SPY 下跌 -1.08%",
-    "QQQ 下跌 -1.97%",
-    "TLT 上涨 0.66%",
-    "DXY 下跌 -0.49%",
-    "Gold 上涨 1.72%",
-    "Oil 上涨 1.14%"
+    "VIX 上涨 21.45%",
+    "TLT 上涨 1.37%",
+    "Oil 上涨 1.09%"
   ],
   "watch_points": [
-    "关注能源价格是否传导到通胀预期和央行沟通。"
+    "关注后续数据是否确认当前跨资产信号。"
   ],
   "cards": [
     {
       "label": "美股 SPY",
-      "value": "-1.08%"
+      "value": "0.28%"
     },
     {
       "label": "QQQ",
-      "value": "-1.97%"
+      "value": "-0.13%"
     },
     {
       "label": "VIX",
-      "value": "-2.43%"
+      "value": "21.45%"
     },
     {
       "label": "BTC",
-      "value": "0.69%"
+      "value": "-0.78%"
     },
     {
       "label": "Gold",
-      "value": "1.72%"
+      "value": "0.40%"
     },
     {
       "label": "Oil",
-      "value": "1.14%"
+      "value": "1.09%"
     }
   ],
   "top_themes": [
-    "macro_data: U.S. September CPI comes in hot, sending bitcoin sharply lower",
-    "regulation: SEC Small Business Advisory Committee to Discuss IPO Modernization and Regulation Crowdfunding",
-    "regulation: Former FTX Europe chief targets U.S. tokenized stock trading with new SEC exemption"
+    "macro_data: The bond market shrugged off two inflation shocks. Why stock investors should pay attention.",
+    "regulation: New SEC rules would fleece everyday investors to enrich Wall Street",
+    "crypto_market_structure: Circle targets 40 new markets as stablecoin demand grows globally"
   ],
   "news_counts": {
-    "must_read": 6,
-    "policy_watch": 3,
-    "background": 18
+    "must_read": 7,
+    "policy_watch": 4,
+    "background": 19
   },
   "focus_news": [
     {
-      "title": "U.S. September CPI comes in hot, sending bitcoin sharply lower",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/10/14/u-s-september-cpi-comes-in-hot-sending-bitcoin-sharply-lower",
+      "title": "The bond market shrugged off two inflation shocks. Why stock investors should pay attention.",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/the-bond-market-shrugged-off-two-inflation-shocks-why-stock-investors-should-pay-attention-5da4f771?mod=mw_rss_topstories",
       "event_type": "macro_data",
       "importance_tier": 1,
       "impact_strength": "high",
@@ -71,9 +68,9 @@
       ]
     },
     {
-      "title": "SEC Small Business Advisory Committee to Discuss IPO Modernization and Regulation Crowdfunding",
-      "source": "SEC Press Releases",
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-105-sec-small-business-advisory-committee-discuss-ipo-modernization-regulation-crowdfunding",
+      "title": "New SEC rules would fleece everyday investors to enrich Wall Street",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/new-sec-rules-would-fleece-everyday-investors-to-enrich-wall-street-0a00fe03?mod=mw_rss_topstories",
       "event_type": "regulation",
       "importance_tier": 2,
       "impact_strength": "high",
@@ -88,14 +85,14 @@
       ]
     },
     {
-      "title": "Former FTX Europe chief targets U.S. tokenized stock trading with new SEC exemption",
+      "title": "Circle targets 40 new markets as stablecoin demand grows globally",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/10/14/former-ftx-europe-chief-targets-u-s-stock-tokenization-with-new-sec-exemption",
-      "event_type": "regulation",
+      "url": "https://www.coindesk.com/business/2026/10/16/circle-targets-40-new-markets-as-stablecoin-demand-grows-globally",
+      "event_type": "crypto_market_structure",
       "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
       "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
       "assets": [
         "BTC",
@@ -105,23 +102,23 @@
       ]
     },
     {
-      "title": "Speech by Board Member KOEDA in Kumamoto (Economic Activity, Prices, and Monetary Policy in Japan)",
-      "source": "Bank of Japan Announcements",
-      "url": "http://www.boj.or.jp/en/about/press/koen_2026/ko261015a.htm",
-      "event_type": "central_bank_speech",
+      "title": "Federal Reserve Board announces termination of enforcement actions with Gardner Bancshares, Inc. and Small Business Bank",
+      "source": "Federal Reserve Press Releases",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261016a.htm",
+      "event_type": "regulation",
       "importance_tier": 2,
       "impact_strength": "low",
       "impact_direction": "unknown",
-      "reason": "央行官员表态可能影响市场对下一次会议的定价。",
+      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
       "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
       "assets": []
     }
   ],
   "policy_news": [
     {
-      "title": "SEC Small Business Advisory Committee to Discuss IPO Modernization and Regulation Crowdfunding",
-      "source": "SEC Press Releases",
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-105-sec-small-business-advisory-committee-discuss-ipo-modernization-regulation-crowdfunding",
+      "title": "New SEC rules would fleece everyday investors to enrich Wall Street",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/new-sec-rules-would-fleece-everyday-investors-to-enrich-wall-street-0a00fe03?mod=mw_rss_topstories",
       "event_type": "regulation",
       "importance_tier": 2,
       "impact_strength": "high",
@@ -136,14 +133,14 @@
       ]
     },
     {
-      "title": "Former FTX Europe chief targets U.S. tokenized stock trading with new SEC exemption",
+      "title": "Circle targets 40 new markets as stablecoin demand grows globally",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/10/14/former-ftx-europe-chief-targets-u-s-stock-tokenization-with-new-sec-exemption",
-      "event_type": "regulation",
+      "url": "https://www.coindesk.com/business/2026/10/16/circle-targets-40-new-markets-as-stablecoin-demand-grows-globally",
+      "event_type": "crypto_market_structure",
       "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
       "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
       "assets": [
         "BTC",
@@ -153,88 +150,88 @@
       ]
     },
     {
-      "title": "Speech by Board Member KOEDA in Kumamoto (Economic Activity, Prices, and Monetary Policy in Japan)",
-      "source": "Bank of Japan Announcements",
-      "url": "http://www.boj.or.jp/en/about/press/koen_2026/ko261015a.htm",
-      "event_type": "central_bank_speech",
+      "title": "Federal Reserve Board announces termination of enforcement actions with Gardner Bancshares, Inc. and Small Business Bank",
+      "source": "Federal Reserve Press Releases",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261016a.htm",
+      "event_type": "regulation",
       "importance_tier": 2,
       "impact_strength": "low",
       "impact_direction": "unknown",
-      "reason": "央行官员表态可能影响市场对下一次会议的定价。",
+      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
       "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
       "assets": []
     }
   ],
   "asset_movers": [
     {
-      "symbol": "9988.HK",
-      "group": "HK_MARKET",
-      "price": "106.40",
-      "one_day": "-3.71%",
-      "five_day": "2.01%",
-      "trend": "downtrend",
+      "symbol": "^VIX",
+      "group": "US_MACRO_MARKET",
+      "price": "19.99",
+      "one_day": "21.45%",
+      "five_day": "34.70%",
+      "trend": "range_bound",
+      "direction": "up"
+    },
+    {
+      "symbol": "NG=F",
+      "group": "COMMODITIES",
+      "price": "3.12",
+      "one_day": "-3.68%",
+      "five_day": "-3.20%",
+      "trend": "strong_uptrend",
       "direction": "down"
     },
     {
-      "symbol": "SI=F",
+      "symbol": "BZ=F",
       "group": "COMMODITIES",
-      "price": "57.26",
-      "one_day": "3.08%",
-      "five_day": "-3.05%",
-      "trend": "strong_downtrend",
+      "price": "109.69",
+      "one_day": "3.56%",
+      "five_day": "4.75%",
+      "trend": "strong_uptrend",
       "direction": "up"
+    },
+    {
+      "symbol": "9988.HK",
+      "group": "HK_MARKET",
+      "price": "108.80",
+      "one_day": "2.26%",
+      "five_day": "1.68%",
+      "trend": "range_bound",
+      "direction": "up"
+    },
+    {
+      "symbol": "RIPPLE",
+      "group": "CRYPTO",
+      "price": "1.31",
+      "one_day": "-1.83%",
+      "five_day": "-7.09%",
+      "trend": "range_bound",
+      "direction": "down"
     },
     {
       "symbol": "1810.HK",
       "group": "HK_MARKET",
-      "price": "27.08",
-      "one_day": "2.65%",
-      "five_day": "14.45%",
+      "price": "26.66",
+      "one_day": "-1.55%",
+      "five_day": "2.70%",
+      "trend": "range_bound",
+      "direction": "down"
+    },
+    {
+      "symbol": "TLT",
+      "group": "US_MACRO_MARKET",
+      "price": "79.97",
+      "one_day": "1.37%",
+      "five_day": "2.70%",
       "trend": "range_bound",
       "direction": "up"
     },
     {
-      "symbol": "^VIX",
-      "group": "US_MACRO_MARKET",
-      "price": "16.46",
-      "one_day": "-2.43%",
-      "five_day": "6.81%",
-      "trend": "range_bound",
-      "direction": "down"
-    },
-    {
-      "symbol": "3690.HK",
-      "group": "HK_MARKET",
-      "price": "75.45",
-      "one_day": "-2.14%",
-      "five_day": "8.72%",
-      "trend": "range_bound",
-      "direction": "down"
-    },
-    {
-      "symbol": "QQQ",
-      "group": "US_EQUITY",
-      "price": "728.95",
-      "one_day": "-1.97%",
-      "five_day": "-3.80%",
-      "trend": "range_bound",
-      "direction": "down"
-    },
-    {
       "symbol": "IWM",
       "group": "US_EQUITY",
-      "price": "271.37",
-      "one_day": "-1.93%",
-      "five_day": "-2.28%",
-      "trend": "strong_downtrend",
-      "direction": "down"
-    },
-    {
-      "symbol": "GC=F",
-      "group": "COMMODITIES",
-      "price": "4,178.40",
-      "one_day": "1.72%",
-      "five_day": "0.51%",
+      "price": "275.08",
+      "one_day": "1.37%",
+      "five_day": "-0.90%",
       "trend": "strong_downtrend",
       "direction": "up"
     }
@@ -242,20 +239,20 @@
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-10-16/COMMODITIES_summary.png"
+      "src": "charts/2026-10-17/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-10-16/CRYPTO_summary.png"
+      "src": "charts/2026-10-17/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-10-16/HK_MARKET_summary.png"
+      "src": "charts/2026-10-17/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-10-16/US_EQUITY_summary.png"
+      "src": "charts/2026-10-17/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-10-16.html"
+  "latest_report_href": "reports/2026-10-17.html"
 }
