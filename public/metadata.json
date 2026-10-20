@@ -1,18 +1,18 @@
 {
-  "latest_date": "2026-10-19",
-  "market_data_date": "2026-10-19",
-  "chart_date": "2026-10-19",
-  "regime": "risk_off",
-  "regime_summary": "股指回落、VIX 抬升且避险资产走强，市场偏风险规避。",
+  "latest_date": "2026-10-20",
+  "market_data_date": "2026-10-20",
+  "chart_date": "2026-10-20",
+  "regime": "unknown",
+  "regime_summary": "市场信号不足，暂不判断明确状态。",
   "key_moves": [
     "SPY 下跌 -1.11%",
     "QQQ 下跌 -2.50%",
-    "VIX 上涨 21.45%",
-    "Gold 上涨 0.53%",
-    "Oil 下跌 -3.50%"
+    "VIX 下跌 -7.75%",
+    "Gold 下跌 -0.66%",
+    "Oil 下跌 -2.92%"
   ],
   "watch_points": [
-    "关注避险是否演变为信用或流动性压力。"
+    "关注后续数据是否确认当前跨资产信号。"
   ],
   "cards": [
     {
@@ -25,36 +25,48 @@
     },
     {
       "label": "VIX",
-      "value": "21.45%"
+      "value": "-7.75%"
     },
     {
       "label": "BTC",
-      "value": "0.55%"
+      "value": "-0.57%"
     },
     {
       "label": "Gold",
-      "value": "0.53%"
+      "value": "-0.66%"
     },
     {
       "label": "Oil",
-      "value": "-3.50%"
+      "value": "-2.92%"
     }
   ],
   "top_themes": [
-    "earnings: These surprising stocks could be some of the biggest drivers of S&P 500 earnings growth",
-    "regulation: SEC tokenized stock framework faces issuer pushback as Broadcom, Verizon object to OKX-ICE listing",
-    "earnings: Satoshi-era bitcoin faces a bigger quantum threat after Google’s new Willow breakthrough"
+    "macro_data: Bitcoin, Korea’s Kospi and Nasdaq futures rally as China GDP beats estimates",
+    "earnings: Micron and other chip stocks spring back to life after bruising selloff",
+    "earnings: Bitcoin mining offshoot Nscale loses Microsoft AI deal as power delay stretches into 2030s"
   ],
   "news_counts": {
     "must_read": 9,
-    "policy_watch": 4,
-    "background": 9
+    "policy_watch": 3,
+    "background": 10
   },
   "focus_news": [
     {
-      "title": "These surprising stocks could be some of the biggest drivers of S&P 500 earnings growth",
+      "title": "Bitcoin, Korea’s Kospi and Nasdaq futures rally as China GDP beats estimates",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/10/19/bitcoin-korea-s-kospi-and-nasdaq-futures-rally-as-china-gdp-beats-estimates",
+      "event_type": "macro_data",
+      "importance_tier": 1,
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "这类宏观数据会直接改变市场对通胀、增长和政策路径的预期。",
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "assets": []
+    },
+    {
+      "title": "Micron and other chip stocks spring back to life after bruising selloff",
       "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/these-surprising-stocks-could-be-some-of-the-biggest-drivers-of-s-p-500-earnings-growth-ea073a07?mod=mw_rss_topstories",
+      "url": "https://www.marketwatch.com/story/micron-and-other-chip-stocks-spring-back-to-life-after-bruising-selloff-16486541?mod=mw_rss_topstories",
       "event_type": "earnings",
       "importance_tier": 2,
       "impact_strength": "high",
@@ -70,49 +82,32 @@
       ]
     },
     {
-      "title": "SEC tokenized stock framework faces issuer pushback as Broadcom, Verizon object to OKX-ICE listing",
+      "title": "Bitcoin mining offshoot Nscale loses Microsoft AI deal as power delay stretches into 2030s",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/10/18/sec-tokenized-stock-framework-faces-issuer-pushback-as-broadcom-verizon-object-to-okx-ice-listing",
+      "url": "https://www.coindesk.com/tech/2026/10/19/bitcoin-mining-offshoot-nscale-loses-microsoft-ai-deal-as-power-delay-stretches-into-2030s",
+      "event_type": "earnings",
+      "importance_tier": 2,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
+      "market_impact": "主要影响 QQQ，方向为 mixed，强度 high；AI 资本开支会影响大型科技股盈利和估值预期。",
+      "assets": [
+        "AMZN",
+        "GOOGL",
+        "META",
+        "MSFT",
+        "NVDA"
+      ]
+    },
+    {
+      "title": "SEC Announces Roundtable on Machine-Understandable Data in the Age of Super Intelligence",
+      "source": "SEC Press Releases",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-106-sec-announces-roundtable-machine-understandable-data-age-super-intelligence",
       "event_type": "regulation",
       "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
       "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
-      "assets": [
-        "BTC",
-        "COIN",
-        "ETH",
-        "crypto market"
-      ]
-    },
-    {
-      "title": "Satoshi-era bitcoin faces a bigger quantum threat after Google’s new Willow breakthrough",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/tech/2026/10/16/satoshi-era-bitcoin-faces-a-bigger-quantum-threat-after-google-s-new-willow-breakthrough",
-      "event_type": "earnings",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
-      "market_impact": "主要影响 QQQ，方向为 mixed，强度 high；AI 资本开支会影响大型科技股盈利和估值预期。",
-      "assets": [
-        "AMZN",
-        "GOOGL",
-        "META",
-        "MSFT",
-        "NVDA"
-      ]
-    },
-    {
-      "title": "Stablecoin supply stalls, but payments jump 45% as Visa, Mastercard and Stripe connect crypto to cash",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/10/18/stablecoin-supply-stalls-but-payments-jump-45-as-visa-mastercard-and-stripe-connect-crypto-to-cash",
-      "event_type": "crypto_market_structure",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
       "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
       "assets": [
         "BTC",
@@ -124,6 +119,23 @@
   ],
   "policy_news": [
     {
+      "title": "SEC Announces Roundtable on Machine-Understandable Data in the Age of Super Intelligence",
+      "source": "SEC Press Releases",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-106-sec-announces-roundtable-machine-understandable-data-age-super-intelligence",
+      "event_type": "regulation",
+      "importance_tier": 2,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "assets": [
+        "BTC",
+        "COIN",
+        "ETH",
+        "crypto market"
+      ]
+    },
+    {
       "title": "SEC tokenized stock framework faces issuer pushback as Broadcom, Verizon object to OKX-ICE listing",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/business/2026/10/18/sec-tokenized-stock-framework-faces-issuer-pushback-as-broadcom-verizon-object-to-okx-ice-listing",
@@ -144,23 +156,6 @@
       "title": "Stablecoin supply stalls, but payments jump 45% as Visa, Mastercard and Stripe connect crypto to cash",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/business/2026/10/18/stablecoin-supply-stalls-but-payments-jump-45-as-visa-mastercard-and-stripe-connect-crypto-to-cash",
-      "event_type": "crypto_market_structure",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
-      "assets": [
-        "BTC",
-        "COIN",
-        "ETH",
-        "crypto market"
-      ]
-    },
-    {
-      "title": "Circle defends USDC economics as stablecoin rivals court its partners with bigger cut",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/10/17/circle-defends-usdc-economics-as-stablecoin-rivals-court-its-partners-with-bigger-cut",
       "event_type": "crypto_market_structure",
       "importance_tier": 2,
       "impact_strength": "high",
@@ -179,18 +174,27 @@
     {
       "symbol": "^VIX",
       "group": "US_MACRO_MARKET",
-      "price": "19.99",
-      "one_day": "21.45%",
-      "five_day": "34.70%",
+      "price": "18.44",
+      "one_day": "-7.75%",
+      "five_day": "21.24%",
+      "trend": "strong_uptrend",
+      "direction": "down"
+    },
+    {
+      "symbol": "NG=F",
+      "group": "COMMODITIES",
+      "price": "3.02",
+      "one_day": "-3.05%",
+      "five_day": "-4.61%",
       "trend": "range_bound",
-      "direction": "up"
+      "direction": "down"
     },
     {
       "symbol": "CL=F",
       "group": "COMMODITIES",
-      "price": "97.86",
-      "one_day": "-3.50%",
-      "five_day": "4.40%",
+      "price": "98.45",
+      "one_day": "-2.92%",
+      "five_day": "5.02%",
       "trend": "uptrend",
       "direction": "down"
     },
@@ -213,15 +217,6 @@
       "direction": "up"
     },
     {
-      "symbol": "NG=F",
-      "group": "COMMODITIES",
-      "price": "3.05",
-      "one_day": "-2.02%",
-      "five_day": "-3.60%",
-      "trend": "range_bound",
-      "direction": "down"
-    },
-    {
       "symbol": "IWM",
       "group": "US_EQUITY",
       "price": "270.44",
@@ -240,32 +235,32 @@
       "direction": "down"
     },
     {
-      "symbol": "BZ=F",
-      "group": "COMMODITIES",
-      "price": "108.44",
-      "one_day": "-1.29%",
-      "five_day": "1.68%",
-      "trend": "strong_uptrend",
+      "symbol": "VTI",
+      "group": "US_EQUITY",
+      "price": "374.07",
+      "one_day": "-1.15%",
+      "five_day": "-2.06%",
+      "trend": "range_bound",
       "direction": "down"
     }
   ],
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-10-19/COMMODITIES_summary.png"
+      "src": "charts/2026-10-20/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-10-19/CRYPTO_summary.png"
+      "src": "charts/2026-10-20/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-10-19/HK_MARKET_summary.png"
+      "src": "charts/2026-10-20/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-10-19/US_EQUITY_summary.png"
+      "src": "charts/2026-10-20/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-10-19.html"
+  "latest_report_href": "reports/2026-10-20.html"
 }
