@@ -1,32 +1,29 @@
 {
-  "latest_date": "2026-10-21",
-  "market_data_date": "2026-10-21",
-  "chart_date": "2026-10-21",
-  "regime": "risk_on",
-  "regime_summary": "股指上涨、波动率或美元回落，市场更接近风险偏好改善。",
+  "latest_date": "2026-10-22",
+  "market_data_date": "2026-10-22",
+  "chart_date": "2026-10-22",
+  "regime": "unknown",
+  "regime_summary": "市场信号不足，暂不判断明确状态。",
   "key_moves": [
-    "SPY 上涨 0.42%",
-    "QQQ 上涨 1.21%",
-    "VIX 下跌 -6.13%",
-    "TLT 下跌 -0.74%",
-    "Gold 下跌 -0.60%",
-    "Oil 下跌 -5.03%"
+    "VIX 下跌 -3.64%",
+    "TLT 上涨 0.84%",
+    "Oil 下跌 -3.67%"
   ],
   "watch_points": [
-    "确认风险偏好是否扩散到小盘股、信用利差和周期品。"
+    "关注后续数据是否确认当前跨资产信号。"
   ],
   "cards": [
     {
       "label": "美股 SPY",
-      "value": "0.42%"
+      "value": "0.34%"
     },
     {
       "label": "QQQ",
-      "value": "1.21%"
+      "value": "-0.10%"
     },
     {
       "label": "VIX",
-      "value": "-6.13%"
+      "value": "-3.64%"
     },
     {
       "label": "BTC",
@@ -34,40 +31,51 @@
     },
     {
       "label": "Gold",
-      "value": "-0.60%"
+      "value": "-0.11%"
     },
     {
       "label": "Oil",
-      "value": "-5.03%"
+      "value": "-3.67%"
     }
   ],
   "top_themes": [
-    "fiscal_policy: France's parliament approves vote to hit stablecoin trades with 31% capital gains tax",
-    "earnings: Microsoft, Alphabet and Goldman Sachs join objections to OKX-ICE tokenized stock trading",
-    "earnings: Bitcoin mining offshoot Nscale loses Microsoft AI deal as power delay stretches into 2030s"
+    "geopolitical_risk: Live updates: Bitcoin holds above $84,000 as Middle East worries resurface",
+    "financial_stability: Philip R. Lane: Euro liquidity lines and the international monetary system",
+    "earnings: Microsoft, Alphabet and Goldman Sachs join objections to OKX-ICE tokenized stock trading"
   ],
   "news_counts": {
-    "must_read": 8,
-    "policy_watch": 4,
-    "background": 17
+    "must_read": 10,
+    "policy_watch": 5,
+    "background": 12
   },
   "focus_news": [
     {
-      "title": "France's parliament approves vote to hit stablecoin trades with 31% capital gains tax",
+      "title": "Live updates: Bitcoin holds above $84,000 as Middle East worries resurface",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/10/20/france-s-parliament-approves-vote-to-hit-crypto-to-stablecoin-trades-with-31-levy",
-      "event_type": "fiscal_policy",
+      "url": "https://www.coindesk.com/markets/2026/10/21/live-updates-bitcoin-clings-to-usd82-500-as-spacex-results-lift-stock-futures",
+      "event_type": "geopolitical_risk",
       "importance_tier": 1,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "reason": "地缘风险可能推升避险需求、能源价格和市场波动率。",
+      "market_impact": "主要影响 CL=F，方向为 positive，强度 high；供给扰动或 OPEC 减产通常推升 WTI 原油。",
       "assets": [
-        "BTC",
-        "COIN",
-        "ETH",
-        "crypto market"
+        "BZ=F",
+        "CL=F",
+        "SPY"
       ]
+    },
+    {
+      "title": "Philip R. Lane: Euro liquidity lines and the international monetary system",
+      "source": "ECB Press Releases",
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261021~401d6c4b70.en.html",
+      "event_type": "financial_stability",
+      "importance_tier": 1,
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "金融稳定信号可能放大跨资产波动，并影响央行反应函数。",
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "assets": []
     },
     {
       "title": "Microsoft, Alphabet and Goldman Sachs join objections to OKX-ICE tokenized stock trading",
@@ -88,27 +96,9 @@
       ]
     },
     {
-      "title": "Bitcoin mining offshoot Nscale loses Microsoft AI deal as power delay stretches into 2030s",
+      "title": "Why centralized exchanges refuse to list legacy crypto tokens without explicit SEC immunity",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/tech/2026/10/19/bitcoin-mining-offshoot-nscale-loses-microsoft-ai-deal-as-power-delay-stretches-into-2030s",
-      "event_type": "earnings",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
-      "market_impact": "主要影响 QQQ，方向为 mixed，强度 high；AI 资本开支会影响大型科技股盈利和估值预期。",
-      "assets": [
-        "AMZN",
-        "GOOGL",
-        "META",
-        "MSFT",
-        "NVDA"
-      ]
-    },
-    {
-      "title": "SEC and AMF Announce Supervisory MOU To Enhance Cooperation for Investment Advisers and Investment Service Providers",
-      "source": "SEC Press Releases",
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-108-sec-amf-announce-supervisory-mou-enhance-cooperation-investment-advisers-investment-service",
+      "url": "https://www.coindesk.com/policy/2026/10/21/why-centralized-exchanges-refuse-to-list-legacy-crypto-tokens-without-explicit-sec-immunity",
       "event_type": "regulation",
       "importance_tier": 2,
       "impact_strength": "high",
@@ -125,26 +115,21 @@
   ],
   "policy_news": [
     {
-      "title": "France's parliament approves vote to hit stablecoin trades with 31% capital gains tax",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/10/20/france-s-parliament-approves-vote-to-hit-crypto-to-stablecoin-trades-with-31-levy",
-      "event_type": "fiscal_policy",
+      "title": "Philip R. Lane: Euro liquidity lines and the international monetary system",
+      "source": "ECB Press Releases",
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261021~401d6c4b70.en.html",
+      "event_type": "financial_stability",
       "importance_tier": 1,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
-      "assets": [
-        "BTC",
-        "COIN",
-        "ETH",
-        "crypto market"
-      ]
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "金融稳定信号可能放大跨资产波动，并影响央行反应函数。",
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "assets": []
     },
     {
-      "title": "SEC and AMF Announce Supervisory MOU To Enhance Cooperation for Investment Advisers and Investment Service Providers",
-      "source": "SEC Press Releases",
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-108-sec-amf-announce-supervisory-mou-enhance-cooperation-investment-advisers-investment-service",
+      "title": "Why centralized exchanges refuse to list legacy crypto tokens without explicit SEC immunity",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/10/21/why-centralized-exchanges-refuse-to-list-legacy-crypto-tokens-without-explicit-sec-immunity",
       "event_type": "regulation",
       "importance_tier": 2,
       "impact_strength": "high",
@@ -159,14 +144,14 @@
       ]
     },
     {
-      "title": "SEC, FSA Hold Autumn Financial Regulatory Dialogue",
-      "source": "SEC Press Releases",
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-107-sec-fsa-hold-autumn-financial-regulatory-dialogue",
-      "event_type": "regulation",
+      "title": "OCC's final rule to start fresh in weighing stablecoin rewards against GENIUS Act ban",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/10/21/occ-s-final-rule-to-start-fresh-in-weighing-stablecoin-rewards-against-genius-act-ban",
+      "event_type": "crypto_market_structure",
       "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
       "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
       "assets": [
         "BTC",
@@ -178,95 +163,95 @@
   ],
   "asset_movers": [
     {
-      "symbol": "^VIX",
-      "group": "US_MACRO_MARKET",
-      "price": "17.31",
-      "one_day": "-6.13%",
-      "five_day": "13.36%",
-      "trend": "uptrend",
+      "symbol": "NG=F",
+      "group": "COMMODITIES",
+      "price": "2.79",
+      "one_day": "-5.97%",
+      "five_day": "-12.88%",
+      "trend": "range_bound",
+      "direction": "down"
+    },
+    {
+      "symbol": "0700.HK",
+      "group": "HK_MARKET",
+      "price": "393.80",
+      "one_day": "-4.04%",
+      "five_day": "-7.38%",
+      "trend": "strong_downtrend",
       "direction": "down"
     },
     {
       "symbol": "CL=F",
       "group": "COMMODITIES",
-      "price": "98.45",
-      "one_day": "-5.03%",
-      "five_day": "4.58%",
+      "price": "98.05",
+      "one_day": "-3.67%",
+      "five_day": "3.11%",
+      "trend": "strong_uptrend",
+      "direction": "down"
+    },
+    {
+      "symbol": "^VIX",
+      "group": "US_MACRO_MARKET",
+      "price": "16.68",
+      "one_day": "-3.64%",
+      "five_day": "-1.13%",
       "trend": "uptrend",
       "direction": "down"
     },
     {
-      "symbol": "9988.HK",
+      "symbol": "1211.HK",
       "group": "HK_MARKET",
-      "price": "104.90",
-      "one_day": "-3.58%",
-      "five_day": "-3.05%",
-      "trend": "downtrend",
+      "price": "71.15",
+      "one_day": "-3.39%",
+      "five_day": "-2.87%",
+      "trend": "strong_downtrend",
       "direction": "down"
     },
     {
       "symbol": "RIPPLE",
       "group": "CRYPTO",
-      "price": "1.34",
-      "one_day": "2.53%",
-      "five_day": "0.19%",
+      "price": "1.36",
+      "one_day": "2.30%",
+      "five_day": "4.20%",
       "trend": "strong_downtrend",
       "direction": "up"
     },
     {
-      "symbol": "NG=F",
-      "group": "COMMODITIES",
-      "price": "2.98",
-      "one_day": "-2.45%",
-      "five_day": "-9.14%",
+      "symbol": "3690.HK",
+      "group": "HK_MARKET",
+      "price": "74.70",
+      "one_day": "-1.84%",
+      "five_day": "3.32%",
       "trend": "range_bound",
       "direction": "down"
     },
     {
-      "symbol": "ETH",
-      "group": "CRYPTO",
-      "price": "2,450.99",
-      "one_day": "1.87%",
-      "five_day": "0.45%",
-      "trend": "strong_downtrend",
+      "symbol": "IWM",
+      "group": "US_EQUITY",
+      "price": "275.78",
+      "one_day": "1.66%",
+      "five_day": "-0.33%",
+      "trend": "downtrend",
       "direction": "up"
-    },
-    {
-      "symbol": "SI=F",
-      "group": "COMMODITIES",
-      "price": "58.04",
-      "one_day": "1.87%",
-      "five_day": "-1.89%",
-      "trend": "strong_downtrend",
-      "direction": "up"
-    },
-    {
-      "symbol": "0700.HK",
-      "group": "HK_MARKET",
-      "price": "410.40",
-      "one_day": "-1.77%",
-      "five_day": "-3.62%",
-      "trend": "strong_downtrend",
-      "direction": "down"
     }
   ],
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-10-21/COMMODITIES_summary.png"
+      "src": "charts/2026-10-22/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-10-21/CRYPTO_summary.png"
+      "src": "charts/2026-10-22/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-10-21/HK_MARKET_summary.png"
+      "src": "charts/2026-10-22/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-10-21/US_EQUITY_summary.png"
+      "src": "charts/2026-10-22/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-10-21.html"
+  "latest_report_href": "reports/2026-10-22.html"
 }
