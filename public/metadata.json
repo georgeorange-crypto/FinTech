@@ -1,13 +1,17 @@
 {
-  "latest_date": "2026-10-22",
-  "market_data_date": "2026-10-22",
-  "chart_date": "2026-10-22",
-  "regime": "unknown",
-  "regime_summary": "市场信号不足，暂不判断明确状态。",
+  "latest_date": "2026-10-23",
+  "market_data_date": "2026-10-23",
+  "chart_date": "2026-10-23",
+  "regime": "mixed",
+  "regime_summary": "市场信号不足，暂不判断明确状态。 但存在信号冲突，需要降低单一叙事置信度。",
   "key_moves": [
-    "VIX 下跌 -3.64%",
-    "TLT 上涨 0.84%",
-    "Oil 下跌 -3.67%"
+    "SPY 上涨 0.53%",
+    "QQQ 上涨 1.05%",
+    "VIX 上涨 14.09%",
+    "Gold 下跌 -2.67%",
+    "Oil 上涨 2.04%",
+    "BTC 下跌 -3.53%",
+    "ETH 下跌 -3.57%"
   ],
   "watch_points": [
     "关注后续数据是否确认当前跨资产信号。"
@@ -15,44 +19,44 @@
   "cards": [
     {
       "label": "美股 SPY",
-      "value": "0.34%"
+      "value": "0.53%"
     },
     {
       "label": "QQQ",
-      "value": "-0.10%"
+      "value": "1.05%"
     },
     {
       "label": "VIX",
-      "value": "-3.64%"
+      "value": "14.09%"
     },
     {
       "label": "BTC",
-      "value": "1.45%"
+      "value": "-3.53%"
     },
     {
       "label": "Gold",
-      "value": "-0.11%"
+      "value": "-2.67%"
     },
     {
       "label": "Oil",
-      "value": "-3.67%"
+      "value": "2.04%"
     }
   ],
   "top_themes": [
-    "geopolitical_risk: Live updates: Bitcoin holds above $84,000 as Middle East worries resurface",
+    "geopolitical_risk: Oil prices approach Iran-war highs as soaring tanker rates trigger a second energy squeeze",
     "financial_stability: Philip R. Lane: Euro liquidity lines and the international monetary system",
-    "earnings: Microsoft, Alphabet and Goldman Sachs join objections to OKX-ICE tokenized stock trading"
+    "earnings: Bitcoin gives back its run at $85,000 as Tesla and Meta fail to calm AI nerves"
   ],
   "news_counts": {
-    "must_read": 10,
-    "policy_watch": 5,
-    "background": 12
+    "must_read": 6,
+    "policy_watch": 2,
+    "background": 17
   },
   "focus_news": [
     {
-      "title": "Live updates: Bitcoin holds above $84,000 as Middle East worries resurface",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/10/21/live-updates-bitcoin-clings-to-usd82-500-as-spacex-results-lift-stock-futures",
+      "title": "Oil prices approach Iran-war highs as soaring tanker rates trigger a second energy squeeze",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/oil-prices-approach-iran-war-highs-as-soaring-tanker-rates-trigger-a-second-energy-squeeze-2d726982?mod=mw_rss_topstories",
       "event_type": "geopolitical_risk",
       "importance_tier": 1,
       "impact_strength": "high",
@@ -78,9 +82,9 @@
       "assets": []
     },
     {
-      "title": "Microsoft, Alphabet and Goldman Sachs join objections to OKX-ICE tokenized stock trading",
+      "title": "Bitcoin gives back its run at $85,000 as Tesla and Meta fail to calm AI nerves",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/10/19/microsoft-alphabet-and-goldman-sachs-join-objections-to-okx-ice-tokenized-stock-trading",
+      "url": "https://www.coindesk.com/markets/2026/10/22/bitcoin-gives-back-its-run-at-usd85-000-as-tesla-and-meta-fail-to-calm-ai-nerves",
       "event_type": "earnings",
       "importance_tier": 2,
       "impact_strength": "high",
@@ -142,116 +146,99 @@
         "ETH",
         "crypto market"
       ]
-    },
-    {
-      "title": "OCC's final rule to start fresh in weighing stablecoin rewards against GENIUS Act ban",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/10/21/occ-s-final-rule-to-start-fresh-in-weighing-stablecoin-rewards-against-genius-act-ban",
-      "event_type": "crypto_market_structure",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
-      "assets": [
-        "BTC",
-        "COIN",
-        "ETH",
-        "crypto market"
-      ]
     }
   ],
   "asset_movers": [
     {
-      "symbol": "NG=F",
-      "group": "COMMODITIES",
-      "price": "2.79",
-      "one_day": "-5.97%",
-      "five_day": "-12.88%",
-      "trend": "range_bound",
-      "direction": "down"
-    },
-    {
-      "symbol": "0700.HK",
-      "group": "HK_MARKET",
-      "price": "393.80",
-      "one_day": "-4.04%",
-      "five_day": "-7.38%",
-      "trend": "strong_downtrend",
-      "direction": "down"
-    },
-    {
-      "symbol": "CL=F",
-      "group": "COMMODITIES",
-      "price": "98.05",
-      "one_day": "-3.67%",
-      "five_day": "3.11%",
-      "trend": "strong_uptrend",
-      "direction": "down"
-    },
-    {
       "symbol": "^VIX",
       "group": "US_MACRO_MARKET",
-      "price": "16.68",
-      "one_day": "-3.64%",
-      "five_day": "-1.13%",
-      "trend": "uptrend",
+      "price": "19.03",
+      "one_day": "14.09%",
+      "five_day": "15.61%",
+      "trend": "strong_uptrend",
+      "direction": "up"
+    },
+    {
+      "symbol": "9988.HK",
+      "group": "HK_MARKET",
+      "price": "97.35",
+      "one_day": "-6.12%",
+      "five_day": "-11.90%",
+      "trend": "strong_downtrend",
       "direction": "down"
     },
     {
       "symbol": "1211.HK",
       "group": "HK_MARKET",
-      "price": "71.15",
-      "one_day": "-3.39%",
-      "five_day": "-2.87%",
+      "price": "67.40",
+      "one_day": "-5.27%",
+      "five_day": "-7.48%",
       "trend": "strong_downtrend",
+      "direction": "down"
+    },
+    {
+      "symbol": "SI=F",
+      "group": "COMMODITIES",
+      "price": "54.52",
+      "one_day": "-5.05%",
+      "five_day": "-4.08%",
+      "trend": "strong_downtrend",
+      "direction": "down"
+    },
+    {
+      "symbol": "3690.HK",
+      "group": "HK_MARKET",
+      "price": "71.30",
+      "one_day": "-4.55%",
+      "five_day": "-7.52%",
+      "trend": "downtrend",
       "direction": "down"
     },
     {
       "symbol": "RIPPLE",
       "group": "CRYPTO",
-      "price": "1.36",
-      "one_day": "2.30%",
-      "five_day": "4.20%",
+      "price": "1.31",
+      "one_day": "-4.30%",
+      "five_day": "1.06%",
       "trend": "strong_downtrend",
-      "direction": "up"
+      "direction": "down"
     },
     {
-      "symbol": "3690.HK",
+      "symbol": "1810.HK",
       "group": "HK_MARKET",
-      "price": "74.70",
-      "one_day": "-1.84%",
-      "five_day": "3.32%",
+      "price": "25.80",
+      "one_day": "-3.73%",
+      "five_day": "-2.20%",
       "trend": "range_bound",
       "direction": "down"
     },
     {
-      "symbol": "IWM",
-      "group": "US_EQUITY",
-      "price": "275.78",
-      "one_day": "1.66%",
-      "five_day": "-0.33%",
-      "trend": "downtrend",
+      "symbol": "BZ=F",
+      "group": "COMMODITIES",
+      "price": "112.87",
+      "one_day": "3.72%",
+      "five_day": "6.56%",
+      "trend": "strong_uptrend",
       "direction": "up"
     }
   ],
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-10-22/COMMODITIES_summary.png"
+      "src": "charts/2026-10-23/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-10-22/CRYPTO_summary.png"
+      "src": "charts/2026-10-23/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-10-22/HK_MARKET_summary.png"
+      "src": "charts/2026-10-23/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-10-22/US_EQUITY_summary.png"
+      "src": "charts/2026-10-23/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-10-22.html"
+  "latest_report_href": "reports/2026-10-23.html"
 }
