@@ -1,90 +1,77 @@
 {
-  "latest_date": "2026-10-23",
-  "market_data_date": "2026-10-23",
-  "chart_date": "2026-10-23",
-  "regime": "mixed",
-  "regime_summary": "市场信号不足，暂不判断明确状态。 但存在信号冲突，需要降低单一叙事置信度。",
+  "latest_date": "2026-10-24",
+  "market_data_date": "2026-10-24",
+  "chart_date": "2026-10-24",
+  "regime": "risk_off",
+  "regime_summary": "股指回落、VIX 抬升且避险资产走强，市场偏风险规避。",
   "key_moves": [
-    "SPY 上涨 0.53%",
-    "QQQ 上涨 1.05%",
-    "VIX 上涨 14.09%",
-    "Gold 下跌 -2.67%",
-    "Oil 上涨 2.04%",
-    "BTC 下跌 -3.53%",
-    "ETH 下跌 -3.57%"
+    "SPY 下跌 -1.18%",
+    "QQQ 下跌 -2.86%",
+    "TLT 上涨 1.87%",
+    "Gold 下跌 -1.24%",
+    "Oil 上涨 3.99%"
   ],
   "watch_points": [
-    "关注后续数据是否确认当前跨资产信号。"
+    "关注避险是否演变为信用或流动性压力。"
   ],
   "cards": [
     {
       "label": "美股 SPY",
-      "value": "0.53%"
+      "value": "-1.18%"
     },
     {
       "label": "QQQ",
-      "value": "1.05%"
+      "value": "-2.86%"
     },
     {
       "label": "VIX",
-      "value": "14.09%"
+      "value": "2.21%"
     },
     {
       "label": "BTC",
-      "value": "-3.53%"
+      "value": "-0.51%"
     },
     {
       "label": "Gold",
-      "value": "-2.67%"
+      "value": "-1.24%"
     },
     {
       "label": "Oil",
-      "value": "2.04%"
+      "value": "3.99%"
     }
   ],
   "top_themes": [
-    "geopolitical_risk: Oil prices approach Iran-war highs as soaring tanker rates trigger a second energy squeeze",
-    "financial_stability: Philip R. Lane: Euro liquidity lines and the international monetary system",
-    "earnings: Bitcoin gives back its run at $85,000 as Tesla and Meta fail to calm AI nerves"
+    "fiscal_policy: SEC Announces Fiscal Year 2027 Examination Priorities",
+    "earnings: Bitcoin's price is as jumpy as Nvidia's and eight times more turbulent than the euro",
+    "crypto_market_structure: HSBC rolls out its first stablecoin to over 3 million everyday app users"
   ],
   "news_counts": {
     "must_read": 6,
     "policy_watch": 2,
-    "background": 17
+    "background": 20
   },
   "focus_news": [
     {
-      "title": "Oil prices approach Iran-war highs as soaring tanker rates trigger a second energy squeeze",
-      "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/oil-prices-approach-iran-war-highs-as-soaring-tanker-rates-trigger-a-second-energy-squeeze-2d726982?mod=mw_rss_topstories",
-      "event_type": "geopolitical_risk",
+      "title": "SEC Announces Fiscal Year 2027 Examination Priorities",
+      "source": "SEC Press Releases",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-109-sec-announces-fiscal-year-2027-examination-priorities",
+      "event_type": "fiscal_policy",
       "importance_tier": 1,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "地缘风险可能推升避险需求、能源价格和市场波动率。",
-      "market_impact": "主要影响 CL=F，方向为 positive，强度 high；供给扰动或 OPEC 减产通常推升 WTI 原油。",
+      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
+      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
       "assets": [
-        "BZ=F",
-        "CL=F",
-        "SPY"
+        "BTC",
+        "COIN",
+        "ETH",
+        "crypto market"
       ]
     },
     {
-      "title": "Philip R. Lane: Euro liquidity lines and the international monetary system",
-      "source": "ECB Press Releases",
-      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261021~401d6c4b70.en.html",
-      "event_type": "financial_stability",
-      "importance_tier": 1,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "金融稳定信号可能放大跨资产波动，并影响央行反应函数。",
-      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
-      "assets": []
-    },
-    {
-      "title": "Bitcoin gives back its run at $85,000 as Tesla and Meta fail to calm AI nerves",
+      "title": "Bitcoin's price is as jumpy as Nvidia's and eight times more turbulent than the euro",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/10/22/bitcoin-gives-back-its-run-at-usd85-000-as-tesla-and-meta-fail-to-calm-ai-nerves",
+      "url": "https://www.coindesk.com/daybook-us/2026/10/23/bitcoin-s-volatility-is-well-above-euro-dollar-gyrations-though-it-has-calmed-to-rival-nvidia-s",
       "event_type": "earnings",
       "importance_tier": 2,
       "impact_strength": "high",
@@ -100,14 +87,14 @@
       ]
     },
     {
-      "title": "Why centralized exchanges refuse to list legacy crypto tokens without explicit SEC immunity",
+      "title": "HSBC rolls out its first stablecoin to over 3 million everyday app users",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/10/21/why-centralized-exchanges-refuse-to-list-legacy-crypto-tokens-without-explicit-sec-immunity",
-      "event_type": "regulation",
+      "url": "https://www.coindesk.com/business/2026/10/23/hsbc-rolls-out-its-first-stablecoin-to-over-3-million-everyday-app-users",
+      "event_type": "crypto_market_structure",
       "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
       "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
       "assets": [
         "BTC",
@@ -115,30 +102,47 @@
         "ETH",
         "crypto market"
       ]
+    },
+    {
+      "title": "This hot AI-fueled stock has been in a rut. It just beat earnings expectations by 36%.",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/this-hot-ai-fueled-stock-has-been-in-a-rut-it-just-beat-earnings-expectations-by-36-4a4188cb?mod=mw_rss_topstories",
+      "event_type": "earnings",
+      "importance_tier": 2,
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "assets": []
     }
   ],
   "policy_news": [
     {
-      "title": "Philip R. Lane: Euro liquidity lines and the international monetary system",
-      "source": "ECB Press Releases",
-      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261021~401d6c4b70.en.html",
-      "event_type": "financial_stability",
+      "title": "SEC Announces Fiscal Year 2027 Examination Priorities",
+      "source": "SEC Press Releases",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-109-sec-announces-fiscal-year-2027-examination-priorities",
+      "event_type": "fiscal_policy",
       "importance_tier": 1,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "金融稳定信号可能放大跨资产波动，并影响央行反应函数。",
-      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
-      "assets": []
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
+      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "assets": [
+        "BTC",
+        "COIN",
+        "ETH",
+        "crypto market"
+      ]
     },
     {
-      "title": "Why centralized exchanges refuse to list legacy crypto tokens without explicit SEC immunity",
+      "title": "HSBC rolls out its first stablecoin to over 3 million everyday app users",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/10/21/why-centralized-exchanges-refuse-to-list-legacy-crypto-tokens-without-explicit-sec-immunity",
-      "event_type": "regulation",
+      "url": "https://www.coindesk.com/business/2026/10/23/hsbc-rolls-out-its-first-stablecoin-to-over-3-million-everyday-app-users",
+      "event_type": "crypto_market_structure",
       "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
       "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
       "assets": [
         "BTC",
@@ -150,95 +154,95 @@
   ],
   "asset_movers": [
     {
-      "symbol": "^VIX",
-      "group": "US_MACRO_MARKET",
-      "price": "19.03",
-      "one_day": "14.09%",
-      "five_day": "15.61%",
-      "trend": "strong_uptrend",
+      "symbol": "NG=F",
+      "group": "COMMODITIES",
+      "price": "3.05",
+      "one_day": "8.98%",
+      "five_day": "-2.21%",
+      "trend": "range_bound",
       "direction": "up"
-    },
-    {
-      "symbol": "9988.HK",
-      "group": "HK_MARKET",
-      "price": "97.35",
-      "one_day": "-6.12%",
-      "five_day": "-11.90%",
-      "trend": "strong_downtrend",
-      "direction": "down"
     },
     {
       "symbol": "1211.HK",
       "group": "HK_MARKET",
-      "price": "67.40",
-      "one_day": "-5.27%",
-      "five_day": "-7.48%",
+      "price": "71.60",
+      "one_day": "6.23%",
+      "five_day": "-1.85%",
       "trend": "strong_downtrend",
-      "direction": "down"
+      "direction": "up"
     },
     {
-      "symbol": "SI=F",
+      "symbol": "CL=F",
       "group": "COMMODITIES",
-      "price": "54.52",
-      "one_day": "-5.05%",
-      "five_day": "-4.08%",
-      "trend": "strong_downtrend",
-      "direction": "down"
-    },
-    {
-      "symbol": "3690.HK",
-      "group": "HK_MARKET",
-      "price": "71.30",
-      "one_day": "-4.55%",
-      "five_day": "-7.52%",
-      "trend": "downtrend",
-      "direction": "down"
-    },
-    {
-      "symbol": "RIPPLE",
-      "group": "CRYPTO",
-      "price": "1.31",
-      "one_day": "-4.30%",
-      "five_day": "1.06%",
-      "trend": "strong_downtrend",
-      "direction": "down"
+      "price": "103.44",
+      "one_day": "3.99%",
+      "five_day": "2.00%",
+      "trend": "strong_uptrend",
+      "direction": "up"
     },
     {
       "symbol": "1810.HK",
       "group": "HK_MARKET",
-      "price": "25.80",
-      "one_day": "-3.73%",
-      "five_day": "-2.20%",
+      "price": "26.80",
+      "one_day": "3.88%",
+      "five_day": "-1.03%",
+      "trend": "range_bound",
+      "direction": "up"
+    },
+    {
+      "symbol": "^HSI",
+      "group": "HK_MARKET",
+      "price": "22,934.68",
+      "one_day": "-3.03%",
+      "five_day": "-5.67%",
+      "trend": "strong_downtrend",
+      "direction": "down"
+    },
+    {
+      "symbol": "QQQ",
+      "group": "US_EQUITY",
+      "price": "704.47",
+      "one_day": "-2.86%",
+      "five_day": "-3.23%",
       "trend": "range_bound",
       "direction": "down"
     },
     {
-      "symbol": "BZ=F",
-      "group": "COMMODITIES",
-      "price": "112.87",
-      "one_day": "3.72%",
-      "five_day": "6.56%",
+      "symbol": "^VIX",
+      "group": "US_MACRO_MARKET",
+      "price": "19.45",
+      "one_day": "2.21%",
+      "five_day": "-2.70%",
       "trend": "strong_uptrend",
+      "direction": "up"
+    },
+    {
+      "symbol": "HG=F",
+      "group": "COMMODITIES",
+      "price": "6.50",
+      "one_day": "2.12%",
+      "five_day": "-0.51%",
+      "trend": "strong_downtrend",
       "direction": "up"
     }
   ],
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-10-23/COMMODITIES_summary.png"
+      "src": "charts/2026-10-24/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-10-23/CRYPTO_summary.png"
+      "src": "charts/2026-10-24/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-10-23/HK_MARKET_summary.png"
+      "src": "charts/2026-10-24/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-10-23/US_EQUITY_summary.png"
+      "src": "charts/2026-10-24/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-10-23.html"
+  "latest_report_href": "reports/2026-10-24.html"
 }
