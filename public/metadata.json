@@ -1,14 +1,14 @@
 {
-  "latest_date": "2026-10-25",
-  "market_data_date": "2026-10-25",
-  "chart_date": "2026-10-25",
+  "latest_date": "2026-10-26",
+  "market_data_date": "2026-10-26",
+  "chart_date": "2026-10-26",
   "regime": "unknown",
   "regime_summary": "市场信号不足，暂不判断明确状态。",
   "key_moves": [
     "SPY 下跌 -0.52%",
     "TLT 下跌 -0.49%",
-    "Gold 下跌 -1.29%",
-    "Oil 上涨 3.82%"
+    "Oil 下跌 -1.16%",
+    "ETH 下跌 -2.52%"
   ],
   "watch_points": [
     "关注后续数据是否确认当前跨资产信号。"
@@ -28,26 +28,25 @@
     },
     {
       "label": "BTC",
-      "value": "-0.60%"
+      "value": "-1.37%"
     },
     {
       "label": "Gold",
-      "value": "-1.29%"
+      "value": "0.18%"
     },
     {
       "label": "Oil",
-      "value": "3.82%"
+      "value": "-1.16%"
     }
   ],
   "top_themes": [
     "geopolitical_risk: Crypto under weekend pressure, bitcoin slides below $80,000 on U.S. Middle East evacuations",
-    "fiscal_policy: SEC Announces Fiscal Year 2027 Examination Priorities",
-    "earnings: Bitcoin's price is as jumpy as Nvidia's and eight times more turbulent than the euro"
+    "earnings: More than a third of S&P 500 companies are about to report earnings as market confidence cracks"
   ],
   "news_counts": {
-    "must_read": 6,
-    "policy_watch": 2,
-    "background": 14
+    "must_read": 4,
+    "policy_watch": 0,
+    "background": 3
   },
   "focus_news": [
     {
@@ -67,95 +66,53 @@
       ]
     },
     {
-      "title": "SEC Announces Fiscal Year 2027 Examination Priorities",
-      "source": "SEC Press Releases",
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-109-sec-announces-fiscal-year-2027-examination-priorities",
-      "event_type": "fiscal_policy",
-      "importance_tier": 1,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
-      "assets": [
-        "BTC",
-        "COIN",
-        "ETH",
-        "crypto market"
-      ]
-    },
-    {
-      "title": "Bitcoin's price is as jumpy as Nvidia's and eight times more turbulent than the euro",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/daybook-us/2026/10/23/bitcoin-s-volatility-is-well-above-euro-dollar-gyrations-though-it-has-calmed-to-rival-nvidia-s",
+      "title": "More than a third of S&P 500 companies are about to report earnings as market confidence cracks",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/more-than-a-third-of-s-p-500-companies-are-about-to-report-earnings-as-market-confidence-cracks-03b7a8f1?mod=mw_rss_topstories",
       "event_type": "earnings",
       "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
+      "impact_strength": "low",
+      "impact_direction": "unknown",
       "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
-      "market_impact": "主要影响 QQQ，方向为 mixed，强度 high；AI 资本开支会影响大型科技股盈利和估值预期。",
-      "assets": [
-        "AMZN",
-        "GOOGL",
-        "META",
-        "MSFT",
-        "NVDA"
-      ]
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "assets": []
     },
     {
-      "title": "HSBC rolls out its first stablecoin to over 3 million everyday app users",
+      "title": "Strategy, Strive face balancing act between bitcoin buying and preferred stock dividends",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/10/23/hsbc-rolls-out-its-first-stablecoin-to-over-3-million-everyday-app-users",
-      "event_type": "crypto_market_structure",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
-      "assets": [
-        "BTC",
-        "COIN",
-        "ETH",
-        "crypto market"
-      ]
-    }
-  ],
-  "policy_news": [
-    {
-      "title": "SEC Announces Fiscal Year 2027 Examination Priorities",
-      "source": "SEC Press Releases",
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-109-sec-announces-fiscal-year-2027-examination-priorities",
-      "event_type": "fiscal_policy",
-      "importance_tier": 1,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
-      "assets": [
-        "BTC",
-        "COIN",
-        "ETH",
-        "crypto market"
-      ]
+      "url": "https://www.coindesk.com/business/2026/10/24/strategy-strive-face-balancing-act-between-bitcoin-buying-and-preferred-stock-dividends",
+      "event_type": "other",
+      "importance_tier": 3,
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "market_impact": "更偏背景信息，短期市场影响可能有限。",
+      "assets": []
     },
     {
-      "title": "HSBC rolls out its first stablecoin to over 3 million everyday app users",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/10/23/hsbc-rolls-out-its-first-stablecoin-to-over-3-million-everyday-app-users",
-      "event_type": "crypto_market_structure",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
-      "assets": [
-        "BTC",
-        "COIN",
-        "ETH",
-        "crypto market"
-      ]
+      "title": "Piero Cipollone: Interview with Milano Finanza",
+      "source": "ECB Press Releases",
+      "url": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261024~ee2ba73cf3.en.html",
+      "event_type": "other",
+      "importance_tier": 3,
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "market_impact": "更偏背景信息，短期市场影响可能有限。",
+      "assets": []
     }
   ],
+  "policy_news": [],
   "asset_movers": [
+    {
+      "symbol": "NG=F",
+      "group": "COMMODITIES",
+      "price": "2.99",
+      "one_day": "13.22%",
+      "five_day": "-2.26%",
+      "trend": "range_bound",
+      "direction": "up"
+    },
     {
       "symbol": "1211.HK",
       "group": "HK_MARKET",
@@ -166,12 +123,12 @@
       "direction": "up"
     },
     {
-      "symbol": "NG=F",
+      "symbol": "BZ=F",
       "group": "COMMODITIES",
-      "price": "2.64",
-      "one_day": "-5.58%",
-      "five_day": "-15.28%",
-      "trend": "range_bound",
+      "price": "110.58",
+      "one_day": "-5.26%",
+      "five_day": "0.94%",
+      "trend": "strong_uptrend",
       "direction": "down"
     },
     {
@@ -184,22 +141,13 @@
       "direction": "up"
     },
     {
-      "symbol": "CL=F",
-      "group": "COMMODITIES",
-      "price": "103.27",
-      "one_day": "3.82%",
-      "five_day": "1.83%",
-      "trend": "strong_uptrend",
-      "direction": "up"
-    },
-    {
-      "symbol": "BZ=F",
-      "group": "COMMODITIES",
-      "price": "116.72",
-      "one_day": "3.14%",
-      "five_day": "6.24%",
-      "trend": "strong_uptrend",
-      "direction": "up"
+      "symbol": "ETH",
+      "group": "CRYPTO",
+      "price": "2,324.58",
+      "one_day": "-2.52%",
+      "five_day": "-3.38%",
+      "trend": "strong_downtrend",
+      "direction": "down"
     },
     {
       "symbol": "^VIX",
@@ -211,41 +159,41 @@
       "direction": "up"
     },
     {
-      "symbol": "SI=F",
-      "group": "COMMODITIES",
-      "price": "53.71",
-      "one_day": "-1.92%",
-      "five_day": "-5.76%",
+      "symbol": "SOLANA",
+      "group": "CRYPTO",
+      "price": "100.99",
+      "one_day": "-1.70%",
+      "five_day": "-3.80%",
       "trend": "strong_downtrend",
       "direction": "down"
     },
     {
-      "symbol": "HG=F",
-      "group": "COMMODITIES",
-      "price": "6.48",
-      "one_day": "1.78%",
-      "five_day": "-0.84%",
-      "trend": "strong_downtrend",
-      "direction": "up"
+      "symbol": "BTC",
+      "group": "CRYPTO",
+      "price": "79,994.54",
+      "one_day": "-1.37%",
+      "five_day": "-2.30%",
+      "trend": "range_bound",
+      "direction": "down"
     }
   ],
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-10-25/COMMODITIES_summary.png"
+      "src": "charts/2026-10-26/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-10-25/CRYPTO_summary.png"
+      "src": "charts/2026-10-26/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-10-25/HK_MARKET_summary.png"
+      "src": "charts/2026-10-26/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-10-25/US_EQUITY_summary.png"
+      "src": "charts/2026-10-26/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-10-25.html"
+  "latest_report_href": "reports/2026-10-26.html"
 }
