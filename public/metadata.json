@@ -1,27 +1,26 @@
 {
-  "latest_date": "2026-10-24",
-  "market_data_date": "2026-10-24",
-  "chart_date": "2026-10-24",
-  "regime": "risk_off",
-  "regime_summary": "股指回落、VIX 抬升且避险资产走强，市场偏风险规避。",
+  "latest_date": "2026-10-25",
+  "market_data_date": "2026-10-25",
+  "chart_date": "2026-10-25",
+  "regime": "unknown",
+  "regime_summary": "市场信号不足，暂不判断明确状态。",
   "key_moves": [
-    "SPY 下跌 -1.18%",
-    "QQQ 下跌 -2.86%",
-    "TLT 上涨 1.87%",
-    "Gold 下跌 -1.24%",
-    "Oil 上涨 3.99%"
+    "SPY 下跌 -0.52%",
+    "TLT 下跌 -0.49%",
+    "Gold 下跌 -1.29%",
+    "Oil 上涨 3.82%"
   ],
   "watch_points": [
-    "关注避险是否演变为信用或流动性压力。"
+    "关注后续数据是否确认当前跨资产信号。"
   ],
   "cards": [
     {
       "label": "美股 SPY",
-      "value": "-1.18%"
+      "value": "-0.52%"
     },
     {
       "label": "QQQ",
-      "value": "-2.86%"
+      "value": "-0.01%"
     },
     {
       "label": "VIX",
@@ -29,28 +28,44 @@
     },
     {
       "label": "BTC",
-      "value": "-0.51%"
+      "value": "-0.60%"
     },
     {
       "label": "Gold",
-      "value": "-1.24%"
+      "value": "-1.29%"
     },
     {
       "label": "Oil",
-      "value": "3.99%"
+      "value": "3.82%"
     }
   ],
   "top_themes": [
+    "geopolitical_risk: Crypto under weekend pressure, bitcoin slides below $80,000 on U.S. Middle East evacuations",
     "fiscal_policy: SEC Announces Fiscal Year 2027 Examination Priorities",
-    "earnings: Bitcoin's price is as jumpy as Nvidia's and eight times more turbulent than the euro",
-    "crypto_market_structure: HSBC rolls out its first stablecoin to over 3 million everyday app users"
+    "earnings: Bitcoin's price is as jumpy as Nvidia's and eight times more turbulent than the euro"
   ],
   "news_counts": {
     "must_read": 6,
     "policy_watch": 2,
-    "background": 20
+    "background": 14
   },
   "focus_news": [
+    {
+      "title": "Crypto under weekend pressure, bitcoin slides below $80,000 on U.S. Middle East evacuations",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/10/24/crypto-under-weekend-pressure-bitcoin-slides-below-usd80-000-on-u-s-middle-east-evacuations",
+      "event_type": "geopolitical_risk",
+      "importance_tier": 1,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "地缘风险可能推升避险需求、能源价格和市场波动率。",
+      "market_impact": "主要影响 CL=F，方向为 positive，强度 high；供给扰动或 OPEC 减产通常推升 WTI 原油。",
+      "assets": [
+        "BZ=F",
+        "CL=F",
+        "SPY"
+      ]
+    },
     {
       "title": "SEC Announces Fiscal Year 2027 Examination Priorities",
       "source": "SEC Press Releases",
@@ -102,18 +117,6 @@
         "ETH",
         "crypto market"
       ]
-    },
-    {
-      "title": "This hot AI-fueled stock has been in a rut. It just beat earnings expectations by 36%.",
-      "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/this-hot-ai-fueled-stock-has-been-in-a-rut-it-just-beat-earnings-expectations-by-36-4a4188cb?mod=mw_rss_topstories",
-      "event_type": "earnings",
-      "importance_tier": 2,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
-      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
-      "assets": []
     }
   ],
   "policy_news": [
@@ -154,15 +157,6 @@
   ],
   "asset_movers": [
     {
-      "symbol": "NG=F",
-      "group": "COMMODITIES",
-      "price": "3.05",
-      "one_day": "8.98%",
-      "five_day": "-2.21%",
-      "trend": "range_bound",
-      "direction": "up"
-    },
-    {
       "symbol": "1211.HK",
       "group": "HK_MARKET",
       "price": "71.60",
@@ -172,13 +166,13 @@
       "direction": "up"
     },
     {
-      "symbol": "CL=F",
+      "symbol": "NG=F",
       "group": "COMMODITIES",
-      "price": "103.44",
-      "one_day": "3.99%",
-      "five_day": "2.00%",
-      "trend": "strong_uptrend",
-      "direction": "up"
+      "price": "2.64",
+      "one_day": "-5.58%",
+      "five_day": "-15.28%",
+      "trend": "range_bound",
+      "direction": "down"
     },
     {
       "symbol": "1810.HK",
@@ -190,22 +184,22 @@
       "direction": "up"
     },
     {
-      "symbol": "^HSI",
-      "group": "HK_MARKET",
-      "price": "22,934.68",
-      "one_day": "-3.03%",
-      "five_day": "-5.67%",
-      "trend": "strong_downtrend",
-      "direction": "down"
+      "symbol": "CL=F",
+      "group": "COMMODITIES",
+      "price": "103.27",
+      "one_day": "3.82%",
+      "five_day": "1.83%",
+      "trend": "strong_uptrend",
+      "direction": "up"
     },
     {
-      "symbol": "QQQ",
-      "group": "US_EQUITY",
-      "price": "704.47",
-      "one_day": "-2.86%",
-      "five_day": "-3.23%",
-      "trend": "range_bound",
-      "direction": "down"
+      "symbol": "BZ=F",
+      "group": "COMMODITIES",
+      "price": "116.72",
+      "one_day": "3.14%",
+      "five_day": "6.24%",
+      "trend": "strong_uptrend",
+      "direction": "up"
     },
     {
       "symbol": "^VIX",
@@ -217,11 +211,20 @@
       "direction": "up"
     },
     {
+      "symbol": "SI=F",
+      "group": "COMMODITIES",
+      "price": "53.71",
+      "one_day": "-1.92%",
+      "five_day": "-5.76%",
+      "trend": "strong_downtrend",
+      "direction": "down"
+    },
+    {
       "symbol": "HG=F",
       "group": "COMMODITIES",
-      "price": "6.50",
-      "one_day": "2.12%",
-      "five_day": "-0.51%",
+      "price": "6.48",
+      "one_day": "1.78%",
+      "five_day": "-0.84%",
       "trend": "strong_downtrend",
       "direction": "up"
     }
@@ -229,20 +232,20 @@
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-10-24/COMMODITIES_summary.png"
+      "src": "charts/2026-10-25/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-10-24/CRYPTO_summary.png"
+      "src": "charts/2026-10-25/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-10-24/HK_MARKET_summary.png"
+      "src": "charts/2026-10-25/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-10-24/US_EQUITY_summary.png"
+      "src": "charts/2026-10-25/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-10-24.html"
+  "latest_report_href": "reports/2026-10-25.html"
 }
