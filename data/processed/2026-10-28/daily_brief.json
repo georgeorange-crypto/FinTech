@@ -1,0 +1,1440 @@
+{
+  "date": "2026-10-28",
+  "executive_summary": "今日晨报重点关注：这类宏观数据会直接改变市场对通胀、增长和政策路径的预期。；加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。。跨资产方面，SPY 1D 0.71%；QQQ 1D 1.11%；^VIX 1D -4.73%；TLT 1D 0.42%；GC=F 1D 0.87%；CL=F 1D -1.34%；BTC 1D 0.76%；ETH 1D 0.96%；股指上涨、波动率或美元回落，市场更接近风险偏好改善。 但存在信号冲突，需要降低单一叙事置信度。政策、通胀、利率、美元、美债、能源和加密监管仍是主要观察线索。所有结论仅基于公开数据与短摘要整理，不构成投资建议。",
+  "market_overview": [
+    {
+      "symbol": "SPY",
+      "name": "SPY",
+      "group": "US_EQUITY",
+      "latest_close": 765.3699951171875,
+      "one_day_return": 0.007105576038835215,
+      "five_day_return": -0.0014481596125754947,
+      "one_month_return": -0.00775261639725533,
+      "ytd_return": 0.12032146356442208,
+      "volatility_20d": 0.09789491963538288,
+      "ma_20": 770.1384979248047,
+      "ma_60": 768.1726633707682,
+      "rsi_14": 38.14380246017589,
+      "trend_label": "range_bound"
+    },
+    {
+      "symbol": "QQQ",
+      "name": "QQQ",
+      "group": "US_EQUITY",
+      "latest_close": 712.2000122070312,
+      "one_day_return": 0.011073236119571339,
+      "five_day_return": -0.008575050490203129,
+      "one_month_return": -0.043384805631925816,
+      "ytd_return": 0.1615997160081304,
+      "volatility_20d": 0.18748160827037655,
+      "ma_20": 734.0185028076172,
+      "ma_60": 724.6133341471354,
+      "rsi_14": 26.893873660138027,
+      "trend_label": "range_bound"
+    },
+    {
+      "symbol": "DIA",
+      "name": "DIA",
+      "group": "US_EQUITY",
+      "latest_close": 522.969970703125,
+      "one_day_return": 0.003068791071449972,
+      "five_day_return": 0.007804647973385093,
+      "one_month_return": 0.010589539067737519,
+      "ytd_return": 0.08134310407362944,
+      "volatility_20d": 0.09668171527314108,
+      "ma_20": 516.9919937133789,
+      "ma_60": 525.0961624145508,
+      "rsi_14": 61.18050574324653,
+      "trend_label": "range_bound"
+    },
+    {
+      "symbol": "IWM",
+      "name": "IWM",
+      "group": "US_EQUITY",
+      "latest_close": 276.989990234375,
+      "one_day_return": 0.004496791421124247,
+      "five_day_return": 0.021048331910837215,
+      "one_month_return": -0.017661492232395992,
+      "ytd_return": 0.11339332580391392,
+      "volatility_20d": 0.1459631623580071,
+      "ma_20": 277.0405014038086,
+      "ma_60": 288.37316843668617,
+      "rsi_14": 42.614586064286954,
+      "trend_label": "downtrend"
+    },
+    {
+      "symbol": "VTI",
+      "name": "VTI",
+      "group": "US_EQUITY",
+      "latest_close": 375.5899963378906,
+      "one_day_return": 0.006916668466582676,
+      "five_day_return": 0.00013310910111141716,
+      "one_month_return": -0.011006642959432877,
+      "ytd_return": 0.1167969999834848,
+      "volatility_20d": 0.10057213741110602,
+      "ma_20": 377.7940017700195,
+      "ma_60": 378.16883290608723,
+      "rsi_14": 38.458957840923375,
+      "trend_label": "downtrend"
+    },
+    {
+      "symbol": "^VIX",
+      "name": "^VIX",
+      "group": "US_MACRO_MARKET",
+      "latest_close": 17.520000457763672,
+      "one_day_return": -0.047308263227810676,
+      "five_day_return": 0.012131773443117,
+      "one_month_return": 0.09023029187775689,
+      "ytd_return": 0.2074431551620859,
+      "volatility_20d": 1.1616851854353085,
+      "ma_20": 16.726000118255616,
+      "ma_60": 15.878333393732706,
+      "rsi_14": 58.19892488624168,
+      "trend_label": "strong_uptrend"
+    },
+    {
+      "symbol": "DX-Y.NYB",
+      "name": "DX-Y.NYB",
+      "group": "US_MACRO_MARKET",
+      "latest_close": 102.36699676513672,
+      "one_day_return": 0.003991738763422958,
+      "five_day_return": 0.006261608052524625,
+      "one_month_return": 0.01153161909176137,
+      "ytd_return": 0.04010362395471789,
+      "volatility_20d": 0.04877628646546958,
+      "ma_20": 102.02284965515136,
+      "ma_60": 100.50178311665853,
+      "rsi_14": 51.87479445513153,
+      "trend_label": "uptrend"
+    },
+    {
+      "symbol": "TLT",
+      "name": "TLT",
+      "group": "US_MACRO_MARKET",
+      "latest_close": 81.68000030517578,
+      "one_day_return": 0.004180034209403827,
+      "five_day_return": 0.027938601136190178,
+      "one_month_return": 0.029752907456271238,
+      "ytd_return": -0.061473038597741336,
+      "volatility_20d": 0.10805817757284075,
+      "ma_20": 78.92550048828124,
+      "ma_60": 80.8611666361491,
+      "rsi_14": 83.13250658666536,
+      "trend_label": "range_bound"
+    },
+    {
+      "symbol": "IEF",
+      "name": "IEF",
+      "group": "US_MACRO_MARKET",
+      "latest_close": 91.12000274658203,
+      "one_day_return": 0.0007688049695553367,
+      "five_day_return": 0.01154530300163481,
+      "one_month_return": 0.0124444749620225,
+      "ytd_return": -0.05162363644824053,
+      "volatility_20d": 0.052947744011739954,
+      "ma_20": 89.825,
+      "ma_60": 91.36450030008952,
+      "rsi_14": 81.58775601154838,
+      "trend_label": "range_bound"
+    },
+    {
+      "symbol": "GC=F",
+      "name": "GC=F",
+      "group": "COMMODITIES",
+      "latest_close": 4073.39990234375,
+      "one_day_return": 0.008666798941751042,
+      "five_day_return": -0.016704531859508043,
+      "one_month_return": -0.022790519677966747,
+      "ytd_return": -0.05917410142594681,
+      "volatility_20d": 0.15643424687891969,
+      "ma_20": 4143.449975585938,
+      "ma_60": 4335.181656901042,
+      "rsi_14": 43.41097204069554,
+      "trend_label": "downtrend"
+    },
+    {
+      "symbol": "SI=F",
+      "name": "SI=F",
+      "group": "COMMODITIES",
+      "latest_close": 54.439998626708984,
+      "one_day_return": 0.00613581923631612,
+      "five_day_return": -0.05659727900887945,
+      "one_month_return": -0.11074816169231483,
+      "ytd_return": -0.22841432599517553,
+      "volatility_20d": 0.3421798817211114,
+      "ma_20": 58.01394958496094,
+      "ma_60": 62.79710000356038,
+      "rsi_14": 31.15376997296552,
+      "trend_label": "strong_downtrend"
+    },
+    {
+      "symbol": "CL=F",
+      "name": "CL=F",
+      "group": "COMMODITIES",
+      "latest_close": 100.4000015258789,
+      "one_day_return": -0.013364785591600814,
+      "five_day_return": -0.013655559260697503,
+      "one_month_return": 0.08423329568345173,
+      "ytd_return": 0.7515701685348168,
+      "volatility_20d": 0.3704071238903834,
+      "ma_20": 95.7370002746582,
+      "ma_60": 91.41516723632813,
+      "rsi_14": 69.62435852425557,
+      "trend_label": "strong_uptrend"
+    },
+    {
+      "symbol": "BZ=F",
+      "name": "BZ=F",
+      "group": "COMMODITIES",
+      "latest_close": 109.83999633789062,
+      "one_day_return": -0.05154996413571822,
+      "five_day_return": 0.009651580232806323,
+      "one_month_return": 0.04331304722137275,
+      "ytd_return": 0.8080657833397633,
+      "volatility_20d": 0.3490214069792276,
+      "ma_20": 106.75349960327148,
+      "ma_60": 99.07916615804037,
+      "rsi_14": 67.37562631706041,
+      "trend_label": "strong_uptrend"
+    },
+    {
+      "symbol": "NG=F",
+      "name": "NG=F",
+      "group": "COMMODITIES",
+      "latest_close": 3.068000078201294,
+      "one_day_return": 0.17909303629909124,
+      "five_day_return": 0.03543706276684788,
+      "one_month_return": 0.02266669273376465,
+      "ytd_return": -0.15201767486928497,
+      "volatility_20d": 0.7838263256420204,
+      "ma_20": 3.03580002784729,
+      "ma_60": 2.918683338165283,
+      "rsi_14": 45.47283859866201,
+      "trend_label": "uptrend"
+    },
+    {
+      "symbol": "HG=F",
+      "name": "HG=F",
+      "group": "COMMODITIES",
+      "latest_close": 6.66349983215332,
+      "one_day_return": 0.023893659743564388,
+      "five_day_return": 0.01477189407934043,
+      "one_month_return": 0.01484920006681234,
+      "ytd_return": 0.18147162941432637,
+      "volatility_20d": 0.19806084187681816,
+      "ma_20": 6.5579499959945675,
+      "ma_60": 6.577200015385945,
+      "rsi_14": 53.336648395827964,
+      "trend_label": "range_bound"
+    },
+    {
+      "symbol": "^HSI",
+      "name": "^HSI",
+      "group": "HK_MARKET",
+      "latest_close": 23211.810546875,
+      "one_day_return": 0.0051288058285805516,
+      "five_day_return": -0.04031200153557224,
+      "one_month_return": -0.06532579571530439,
+      "ytd_return": -0.11871077070086034,
+      "volatility_20d": 0.18986207142573222,
+      "ma_20": 24032.49384765625,
+      "ma_60": 24920.513313802083,
+      "rsi_14": 37.1757175826415,
+      "trend_label": "strong_downtrend"
+    },
+    {
+      "symbol": "0700.HK",
+      "name": "0700.HK",
+      "group": "HK_MARKET",
+      "latest_close": 385.20001220703125,
+      "one_day_return": -0.003105542723622845,
+      "five_day_return": -0.06140346506878691,
+      "one_month_return": -0.12135032488621522,
+      "ytd_return": -0.3817014250288423,
+      "volatility_20d": 0.2640043086596998,
+      "ma_20": 414.30999755859375,
+      "ma_60": 436.6599985758464,
+      "rsi_14": 23.057639988894366,
+      "trend_label": "strong_downtrend"
+    },
+    {
+      "symbol": "9988.HK",
+      "name": "9988.HK",
+      "group": "HK_MARKET",
+      "latest_close": 97.0,
+      "one_day_return": -0.009698795077494271,
+      "five_day_return": -0.07530983232569322,
+      "one_month_return": -0.11818181818181817,
+      "ytd_return": -0.3489932885906041,
+      "volatility_20d": 0.37661336350800256,
+      "ma_20": 104.74999961853027,
+      "ma_60": 111.99166653951009,
+      "rsi_14": 32.27848070704228,
+      "trend_label": "strong_downtrend"
+    },
+    {
+      "symbol": "3690.HK",
+      "name": "3690.HK",
+      "group": "HK_MARKET",
+      "latest_close": 71.8499984741211,
+      "one_day_return": -0.029709716231868466,
+      "five_day_return": -0.05584757010797148,
+      "one_month_return": -0.0055363532993619735,
+      "ytd_return": -0.3130975189077333,
+      "volatility_20d": 0.39454932652984037,
+      "ma_20": 72.4375,
+      "ma_60": 78.49583333333334,
+      "rsi_14": 52.482258502625925,
+      "trend_label": "downtrend"
+    },
+    {
+      "symbol": "1810.HK",
+      "name": "1810.HK",
+      "group": "HK_MARKET",
+      "latest_close": 25.65999984741211,
+      "one_day_return": -0.046096646420172416,
+      "five_day_return": -0.05173686792907395,
+      "one_month_return": -0.03461249356413354,
+      "ytd_return": -0.3629592694873456,
+      "volatility_20d": 0.5775072357556622,
+      "ma_20": 25.546999835968016,
+      "ma_60": 26.569999917348227,
+      "rsi_14": 56.18374510673151,
+      "trend_label": "range_bound"
+    },
+    {
+      "symbol": "1211.HK",
+      "name": "1211.HK",
+      "group": "HK_MARKET",
+      "latest_close": 70.05000305175781,
+      "one_day_return": -0.010593219882373717,
+      "five_day_return": -0.048879815336543286,
+      "one_month_return": -0.1188678861414112,
+      "ytd_return": -0.29063288048852853,
+      "volatility_20d": 0.388599311611073,
+      "ma_20": 73.34500007629394,
+      "ma_60": 82.29333330790202,
+      "rsi_14": 37.95620465055496,
+      "trend_label": "strong_downtrend"
+    },
+    {
+      "symbol": "BTC",
+      "name": "bitcoin",
+      "group": "CRYPTO",
+      "latest_close": 80638.97464275097,
+      "one_day_return": 0.007616457777147589,
+      "five_day_return": -0.008474685585831976,
+      "one_month_return": -0.05729608957219423,
+      "ytd_return": -0.07920146001732287,
+      "volatility_20d": 0.212719042179892,
+      "ma_20": 81866.96963078225,
+      "ma_60": 81352.56882264085,
+      "rsi_14": 38.13599445573861,
+      "trend_label": "range_bound"
+    },
+    {
+      "symbol": "ETH",
+      "name": "ethereum",
+      "group": "CRYPTO",
+      "latest_close": 2343.004272202568,
+      "one_day_return": 0.009622996808276385,
+      "five_day_return": -0.018218655870482436,
+      "one_month_return": -0.13131089601025903,
+      "ytd_return": -0.2111172911826409,
+      "volatility_20d": 0.2862667304192014,
+      "ma_20": 2423.580595550072,
+      "ma_60": 2523.7810053379217,
+      "rsi_14": 30.176551979023614,
+      "trend_label": "strong_downtrend"
+    },
+    {
+      "symbol": "SOLANA",
+      "name": "solana",
+      "group": "CRYPTO",
+      "latest_close": 101.16373531063668,
+      "one_day_return": 0.004060874363531308,
+      "five_day_return": -0.022947901277431737,
+      "one_month_return": -0.16172301836734615,
+      "ytd_return": -0.18757737979587685,
+      "volatility_20d": 0.32068514880311083,
+      "ma_20": 105.17196801684611,
+      "ma_60": 108.35508890449778,
+      "rsi_14": 32.38983846360556,
+      "trend_label": "strong_downtrend"
+    },
+    {
+      "symbol": "BINANCECOIN",
+      "name": "binancecoin",
+      "group": "CRYPTO",
+      "latest_close": 742.4155635408429,
+      "one_day_return": 0.0009396205463998442,
+      "five_day_return": 0.01640922365600317,
+      "one_month_return": -0.0472033243545229,
+      "ytd_return": -0.13941546886715528,
+      "volatility_20d": 0.25047222102907124,
+      "ma_20": 736.08161488366,
+      "ma_60": 743.6569130715471,
+      "rsi_14": 50.719047374287456,
+      "trend_label": "range_bound"
+    },
+    {
+      "symbol": "RIPPLE",
+      "name": "ripple",
+      "group": "CRYPTO",
+      "latest_close": 1.3267874943197364,
+      "one_day_return": 0.015310722521493236,
+      "five_day_return": 0.014374845051579044,
+      "one_month_return": -0.11358978032996003,
+      "ytd_return": -0.2791274557561172,
+      "volatility_20d": 0.3265326552500601,
+      "ma_20": 1.3346599361444336,
+      "ma_60": 1.3995680403075421,
+      "rsi_14": 42.845096347006105,
+      "trend_label": "strong_downtrend"
+    }
+  ],
+  "top_news": [
+    {
+      "title": "Indicators for Core CPI",
+      "source": "Bank of Japan Announcements",
+      "url": "http://www.boj.or.jp/en/research/research_data/cpi/index.htm",
+      "published_at": "2026-10-27T14:00:00+09:00",
+      "region": "Japan",
+      "category": "central_banks",
+      "language": "en",
+      "summary": "Indicators for Core CPI",
+      "credibility_weight": 1.0,
+      "relevance_score": 128.7804,
+      "related_assets": [
+        "BTC",
+        "DXY",
+        "GC=F",
+        "QQQ",
+        "SPY",
+        "TLT"
+      ],
+      "impact_direction": "mixed",
+      "impact_strength": "high",
+      "asset_impacts": [
+        {
+          "asset": "DXY",
+          "asset_class": "fx",
+          "direction": "positive",
+          "strength": "high",
+          "reason": "通胀压力可能推高政策利率预期并支撑美元。"
+        },
+        {
+          "asset": "TLT",
+          "asset_class": "rates",
+          "direction": "negative",
+          "strength": "high",
+          "reason": "通胀上行通常推升收益率、压低长债价格。"
+        },
+        {
+          "asset": "QQQ",
+          "asset_class": "equity",
+          "direction": "negative",
+          "strength": "high",
+          "reason": "更高利率对成长股估值折现率不利。"
+        },
+        {
+          "asset": "SPY",
+          "asset_class": "equity",
+          "direction": "mixed",
+          "strength": "medium",
+          "reason": "名义增长可能支撑收入，但更高利率压制估值。"
+        },
+        {
+          "asset": "GC=F",
+          "asset_class": "commodity",
+          "direction": "mixed",
+          "strength": "medium",
+          "reason": "通胀对黄金是支撑，但实际利率上行会形成压力。"
+        },
+        {
+          "asset": "BTC",
+          "asset_class": "crypto",
+          "direction": "mixed",
+          "strength": "medium",
+          "reason": "抗通胀叙事和流动性收紧可能相互抵消。"
+        }
+      ],
+      "event_type": "macro_data",
+      "importance_tier": 1,
+      "human_importance_reason": "这类宏观数据会直接改变市场对通胀、增长和政策路径的预期。",
+      "expected_market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
+      "affected_regions": [
+        "Japan",
+        "US",
+        "global"
+      ],
+      "affected_asset_classes": [
+        "commodity",
+        "crypto",
+        "equity",
+        "fx",
+        "rates"
+      ],
+      "is_routine": false,
+      "is_market_moving": true
+    },
+    {
+      "title": "Robinhood taps Ripple’s $2.5 billion RLUSD stablecoin despite backing rival USDG",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/10/27/ripple-s-rlusd-stablecoin-is-coming-to-robinhood-s-28-6-million-customer-platform",
+      "published_at": "2026-10-27T16:35:29Z",
+      "region": "global",
+      "category": "financial_media_public",
+      "language": "en",
+      "summary": "Robinhood taps Ripple’s $2.5 billion RLUSD stablecoin despite backing rival USDG",
+      "credibility_weight": 0.7,
+      "relevance_score": 75.1684,
+      "related_assets": [
+        "BTC",
+        "COIN",
+        "ETH",
+        "crypto market"
+      ],
+      "impact_direction": "mixed",
+      "impact_strength": "high",
+      "asset_impacts": [
+        {
+          "asset": "BTC",
+          "asset_class": "crypto",
+          "direction": "mixed",
+          "strength": "high",
+          "reason": "加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。"
+        },
+        {
+          "asset": "ETH",
+          "asset_class": "crypto",
+          "direction": "mixed",
+          "strength": "high",
+          "reason": "监管框架会影响 ETH 产品化和机构参与度。"
+        },
+        {
+          "asset": "COIN",
+          "asset_class": "equity",
+          "direction": "mixed",
+          "strength": "medium",
+          "reason": "监管清晰度和执法风险会影响交易平台估值。"
+        },
+        {
+          "asset": "crypto market",
+          "asset_class": "crypto",
+          "direction": "mixed",
+          "strength": "high",
+          "reason": "信息影响整个加密市场结构，但方向取决于细节。"
+        }
+      ],
+      "event_type": "crypto_market_structure",
+      "importance_tier": 2,
+      "human_importance_reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
+      "expected_market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "affected_regions": [
+        "US",
+        "global"
+      ],
+      "affected_asset_classes": [
+        "crypto",
+        "equity"
+      ],
+      "is_routine": false,
+      "is_market_moving": true
+    },
+    {
+      "title": "Japan's top yen stablecoin falls short of its target in a disappointing first year",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/10/27/japan-s-top-yen-stablecoin-falls-short-of-its-target-in-a-disappointing-first-year",
+      "published_at": "2026-10-27T11:37:52Z",
+      "region": "global",
+      "category": "financial_media_public",
+      "language": "en",
+      "summary": "Japan's top yen stablecoin falls short of its target in a disappointing first year",
+      "credibility_weight": 0.7,
+      "relevance_score": 74.6172,
+      "related_assets": [
+        "BTC",
+        "COIN",
+        "ETH",
+        "crypto market"
+      ],
+      "impact_direction": "mixed",
+      "impact_strength": "high",
+      "asset_impacts": [
+        {
+          "asset": "BTC",
+          "asset_class": "crypto",
+          "direction": "mixed",
+          "strength": "high",
+          "reason": "加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。"
+        },
+        {
+          "asset": "ETH",
+          "asset_class": "crypto",
+          "direction": "mixed",
+          "strength": "high",
+          "reason": "监管框架会影响 ETH 产品化和机构参与度。"
+        },
+        {
+          "asset": "COIN",
+          "asset_class": "equity",
+          "direction": "mixed",
+          "strength": "medium",
+          "reason": "监管清晰度和执法风险会影响交易平台估值。"
+        },
+        {
+          "asset": "crypto market",
+          "asset_class": "crypto",
+          "direction": "mixed",
+          "strength": "high",
+          "reason": "信息影响整个加密市场结构，但方向取决于细节。"
+        }
+      ],
+      "event_type": "crypto_market_structure",
+      "importance_tier": 2,
+      "human_importance_reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
+      "expected_market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "affected_regions": [
+        "US",
+        "global"
+      ],
+      "affected_asset_classes": [
+        "crypto",
+        "equity"
+      ],
+      "is_routine": false,
+      "is_market_moving": true
+    },
+    {
+      "title": "OCC calls on community banks to enter the stablecoin payments market",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/10/26/occ-calls-on-community-banks-to-enter-the-stablecoin-payments-market",
+      "published_at": "2026-10-26T15:45:51Z",
+      "region": "global",
+      "category": "financial_media_public",
+      "language": "en",
+      "summary": "OCC calls on community banks to enter the stablecoin payments market",
+      "credibility_weight": 0.7,
+      "relevance_score": 72.4098,
+      "related_assets": [
+        "BTC",
+        "COIN",
+        "ETH",
+        "crypto market"
+      ],
+      "impact_direction": "mixed",
+      "impact_strength": "high",
+      "asset_impacts": [
+        {
+          "asset": "BTC",
+          "asset_class": "crypto",
+          "direction": "mixed",
+          "strength": "high",
+          "reason": "加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。"
+        },
+        {
+          "asset": "ETH",
+          "asset_class": "crypto",
+          "direction": "mixed",
+          "strength": "high",
+          "reason": "监管框架会影响 ETH 产品化和机构参与度。"
+        },
+        {
+          "asset": "COIN",
+          "asset_class": "equity",
+          "direction": "mixed",
+          "strength": "medium",
+          "reason": "监管清晰度和执法风险会影响交易平台估值。"
+        },
+        {
+          "asset": "crypto market",
+          "asset_class": "crypto",
+          "direction": "mixed",
+          "strength": "high",
+          "reason": "信息影响整个加密市场结构，但方向取决于细节。"
+        }
+      ],
+      "event_type": "crypto_market_structure",
+      "importance_tier": 2,
+      "human_importance_reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
+      "expected_market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "affected_regions": [
+        "US",
+        "global"
+      ],
+      "affected_asset_classes": [
+        "crypto",
+        "equity"
+      ],
+      "is_routine": false,
+      "is_market_moving": true
+    },
+    {
+      "title": "The big reason Boeing’s stock is falling so hard after earnings",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/the-big-reason-boeings-stock-is-falling-so-hard-after-earnings-d31b400d?mod=mw_rss_topstories",
+      "published_at": "2026-10-27T20:43:00Z",
+      "region": "US",
+      "category": "financial_media_public",
+      "language": "en",
+      "summary": "Boeing will come up short on 737 Max deliveries, casting doubt on its turnaround plans.",
+      "credibility_weight": 0.7,
+      "relevance_score": 67.6267,
+      "related_assets": [],
+      "impact_direction": "unknown",
+      "impact_strength": "low",
+      "asset_impacts": [],
+      "event_type": "earnings",
+      "importance_tier": 2,
+      "human_importance_reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
+      "expected_market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "affected_regions": [
+        "US",
+        "global"
+      ],
+      "affected_asset_classes": [],
+      "is_routine": false,
+      "is_market_moving": true
+    },
+    {
+      "title": "Treasury's Bessent sees crypto as America's next tool for keeping the U.S. dollar on top",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/10/27/treasury-s-bessent-sees-crypto-as-america-s-next-tool-for-keeping-the-u-s-dollar-on-top",
+      "published_at": "2026-10-27T20:41:33Z",
+      "region": "global",
+      "category": "financial_media_public",
+      "language": "en",
+      "summary": "Treasury's Bessent sees crypto as America's next tool for keeping the U.S. dollar on top",
+      "credibility_weight": 0.7,
+      "relevance_score": 19.6241,
+      "related_assets": [],
+      "impact_direction": "unknown",
+      "impact_strength": "low",
+      "asset_impacts": [],
+      "event_type": "other",
+      "importance_tier": 3,
+      "human_importance_reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "expected_market_impact": "更偏背景信息，短期市场影响可能有限。",
+      "affected_regions": [
+        "global"
+      ],
+      "affected_asset_classes": [],
+      "is_routine": false,
+      "is_market_moving": false
+    },
+    {
+      "title": "Brazilian companies turned to stablecoins on election day to dodge a currency crash",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/10/27/brazilian-companies-turned-to-stablecoins-on-election-day-to-dodge-a-currency-crash",
+      "published_at": "2026-10-27T16:59:07Z",
+      "region": "global",
+      "category": "financial_media_public",
+      "language": "en",
+      "summary": "Brazilian companies turned to stablecoins on election day to dodge a currency crash",
+      "credibility_weight": 0.7,
+      "relevance_score": 19.2121,
+      "related_assets": [],
+      "impact_direction": "unknown",
+      "impact_strength": "low",
+      "asset_impacts": [],
+      "event_type": "other",
+      "importance_tier": 3,
+      "human_importance_reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "expected_market_impact": "更偏背景信息，短期市场影响可能有限。",
+      "affected_regions": [
+        "global"
+      ],
+      "affected_asset_classes": [],
+      "is_routine": false,
+      "is_market_moving": false
+    }
+  ],
+  "policy_watch": [
+    {
+      "title": "Robinhood taps Ripple’s $2.5 billion RLUSD stablecoin despite backing rival USDG",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/10/27/ripple-s-rlusd-stablecoin-is-coming-to-robinhood-s-28-6-million-customer-platform",
+      "published_at": "2026-10-27T16:35:29Z",
+      "region": "global",
+      "category": "financial_media_public",
+      "language": "en",
+      "summary": "Robinhood taps Ripple’s $2.5 billion RLUSD stablecoin despite backing rival USDG",
+      "credibility_weight": 0.7,
+      "relevance_score": 75.1684,
+      "related_assets": [
+        "BTC",
+        "COIN",
+        "ETH",
+        "crypto market"
+      ],
+      "impact_direction": "mixed",
+      "impact_strength": "high",
+      "asset_impacts": [
+        {
+          "asset": "BTC",
+          "asset_class": "crypto",
+          "direction": "mixed",
+          "strength": "high",
+          "reason": "加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。"
+        },
+        {
+          "asset": "ETH",
+          "asset_class": "crypto",
+          "direction": "mixed",
+          "strength": "high",
+          "reason": "监管框架会影响 ETH 产品化和机构参与度。"
+        },
+        {
+          "asset": "COIN",
+          "asset_class": "equity",
+          "direction": "mixed",
+          "strength": "medium",
+          "reason": "监管清晰度和执法风险会影响交易平台估值。"
+        },
+        {
+          "asset": "crypto market",
+          "asset_class": "crypto",
+          "direction": "mixed",
+          "strength": "high",
+          "reason": "信息影响整个加密市场结构，但方向取决于细节。"
+        }
+      ],
+      "event_type": "crypto_market_structure",
+      "importance_tier": 2,
+      "human_importance_reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
+      "expected_market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "affected_regions": [
+        "US",
+        "global"
+      ],
+      "affected_asset_classes": [
+        "crypto",
+        "equity"
+      ],
+      "is_routine": false,
+      "is_market_moving": true
+    },
+    {
+      "title": "Japan's top yen stablecoin falls short of its target in a disappointing first year",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/10/27/japan-s-top-yen-stablecoin-falls-short-of-its-target-in-a-disappointing-first-year",
+      "published_at": "2026-10-27T11:37:52Z",
+      "region": "global",
+      "category": "financial_media_public",
+      "language": "en",
+      "summary": "Japan's top yen stablecoin falls short of its target in a disappointing first year",
+      "credibility_weight": 0.7,
+      "relevance_score": 74.6172,
+      "related_assets": [
+        "BTC",
+        "COIN",
+        "ETH",
+        "crypto market"
+      ],
+      "impact_direction": "mixed",
+      "impact_strength": "high",
+      "asset_impacts": [
+        {
+          "asset": "BTC",
+          "asset_class": "crypto",
+          "direction": "mixed",
+          "strength": "high",
+          "reason": "加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。"
+        },
+        {
+          "asset": "ETH",
+          "asset_class": "crypto",
+          "direction": "mixed",
+          "strength": "high",
+          "reason": "监管框架会影响 ETH 产品化和机构参与度。"
+        },
+        {
+          "asset": "COIN",
+          "asset_class": "equity",
+          "direction": "mixed",
+          "strength": "medium",
+          "reason": "监管清晰度和执法风险会影响交易平台估值。"
+        },
+        {
+          "asset": "crypto market",
+          "asset_class": "crypto",
+          "direction": "mixed",
+          "strength": "high",
+          "reason": "信息影响整个加密市场结构，但方向取决于细节。"
+        }
+      ],
+      "event_type": "crypto_market_structure",
+      "importance_tier": 2,
+      "human_importance_reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
+      "expected_market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "affected_regions": [
+        "US",
+        "global"
+      ],
+      "affected_asset_classes": [
+        "crypto",
+        "equity"
+      ],
+      "is_routine": false,
+      "is_market_moving": true
+    },
+    {
+      "title": "OCC calls on community banks to enter the stablecoin payments market",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/10/26/occ-calls-on-community-banks-to-enter-the-stablecoin-payments-market",
+      "published_at": "2026-10-26T15:45:51Z",
+      "region": "global",
+      "category": "financial_media_public",
+      "language": "en",
+      "summary": "OCC calls on community banks to enter the stablecoin payments market",
+      "credibility_weight": 0.7,
+      "relevance_score": 72.4098,
+      "related_assets": [
+        "BTC",
+        "COIN",
+        "ETH",
+        "crypto market"
+      ],
+      "impact_direction": "mixed",
+      "impact_strength": "high",
+      "asset_impacts": [
+        {
+          "asset": "BTC",
+          "asset_class": "crypto",
+          "direction": "mixed",
+          "strength": "high",
+          "reason": "加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。"
+        },
+        {
+          "asset": "ETH",
+          "asset_class": "crypto",
+          "direction": "mixed",
+          "strength": "high",
+          "reason": "监管框架会影响 ETH 产品化和机构参与度。"
+        },
+        {
+          "asset": "COIN",
+          "asset_class": "equity",
+          "direction": "mixed",
+          "strength": "medium",
+          "reason": "监管清晰度和执法风险会影响交易平台估值。"
+        },
+        {
+          "asset": "crypto market",
+          "asset_class": "crypto",
+          "direction": "mixed",
+          "strength": "high",
+          "reason": "信息影响整个加密市场结构，但方向取决于细节。"
+        }
+      ],
+      "event_type": "crypto_market_structure",
+      "importance_tier": 2,
+      "human_importance_reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
+      "expected_market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "affected_regions": [
+        "US",
+        "global"
+      ],
+      "affected_asset_classes": [
+        "crypto",
+        "equity"
+      ],
+      "is_routine": false,
+      "is_market_moving": true
+    }
+  ],
+  "background_materials": [
+    {
+      "title": "Treasury's Bessent sees crypto as America's next tool for keeping the U.S. dollar on top",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/10/27/treasury-s-bessent-sees-crypto-as-america-s-next-tool-for-keeping-the-u-s-dollar-on-top",
+      "published_at": "2026-10-27T20:41:33Z",
+      "region": "global",
+      "category": "financial_media_public",
+      "language": "en",
+      "summary": "Treasury's Bessent sees crypto as America's next tool for keeping the U.S. dollar on top",
+      "credibility_weight": 0.7,
+      "relevance_score": 19.6241,
+      "related_assets": [],
+      "impact_direction": "unknown",
+      "impact_strength": "low",
+      "asset_impacts": [],
+      "event_type": "other",
+      "importance_tier": 3,
+      "human_importance_reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "expected_market_impact": "更偏背景信息，短期市场影响可能有限。",
+      "affected_regions": [
+        "global"
+      ],
+      "affected_asset_classes": [],
+      "is_routine": false,
+      "is_market_moving": false
+    },
+    {
+      "title": "Brazilian companies turned to stablecoins on election day to dodge a currency crash",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/10/27/brazilian-companies-turned-to-stablecoins-on-election-day-to-dodge-a-currency-crash",
+      "published_at": "2026-10-27T16:59:07Z",
+      "region": "global",
+      "category": "financial_media_public",
+      "language": "en",
+      "summary": "Brazilian companies turned to stablecoins on election day to dodge a currency crash",
+      "credibility_weight": 0.7,
+      "relevance_score": 19.2121,
+      "related_assets": [],
+      "impact_direction": "unknown",
+      "impact_strength": "low",
+      "asset_impacts": [],
+      "event_type": "other",
+      "importance_tier": 3,
+      "human_importance_reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "expected_market_impact": "更偏背景信息，短期市场影响可能有限。",
+      "affected_regions": [
+        "global"
+      ],
+      "affected_asset_classes": [],
+      "is_routine": false,
+      "is_market_moving": false
+    },
+    {
+      "title": "Bitcoin miners' move into AI is creating a new market for trading computing power",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/10/27/bitcoin-miners-move-into-ai-is-creating-a-new-market-for-trading-computing-power",
+      "published_at": "2026-10-27T13:13:50Z",
+      "region": "global",
+      "category": "financial_media_public",
+      "language": "en",
+      "summary": "Bitcoin miners' move into AI is creating a new market for trading computing power",
+      "credibility_weight": 0.7,
+      "relevance_score": 18.795,
+      "related_assets": [],
+      "impact_direction": "unknown",
+      "impact_strength": "low",
+      "asset_impacts": [],
+      "event_type": "other",
+      "importance_tier": 3,
+      "human_importance_reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "expected_market_impact": "更偏背景信息，短期市场影响可能有限。",
+      "affected_regions": [
+        "global"
+      ],
+      "affected_asset_classes": [],
+      "is_routine": false,
+      "is_market_moving": false
+    },
+    {
+      "title": "Bitcoin shows signs of weakness while Ripple's bank win fails to bolster XRP",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/daybook-us/2026/10/27/bitcoin-shows-signs-of-weakness-while-ripple-s-bank-win-fails-to-bolster-xrp",
+      "published_at": "2026-10-27T12:00:39Z",
+      "region": "global",
+      "category": "financial_media_public",
+      "language": "en",
+      "summary": "Bitcoin shows signs of weakness while Ripple's bank win fails to bolster XRP",
+      "credibility_weight": 0.7,
+      "relevance_score": 18.6594,
+      "related_assets": [],
+      "impact_direction": "unknown",
+      "impact_strength": "low",
+      "asset_impacts": [],
+      "event_type": "other",
+      "importance_tier": 3,
+      "human_importance_reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "expected_market_impact": "更偏背景信息，短期市场影响可能有限。",
+      "affected_regions": [
+        "global"
+      ],
+      "affected_asset_classes": [],
+      "is_routine": false,
+      "is_market_moving": false
+    },
+    {
+      "title": "Live updates: Bitcoin edges higher as Nasdaq surges 1.2%",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/tech/2026/10/27/live-updates-bitcoin-holds-below-usd80-000-as-ai-buildout-draws-more-capital",
+      "published_at": "2026-10-27T11:40:50Z",
+      "region": "global",
+      "category": "financial_media_public",
+      "language": "en",
+      "summary": "Live updates: Bitcoin edges higher as Nasdaq surges 1.2%",
+      "credibility_weight": 0.7,
+      "relevance_score": 18.6227,
+      "related_assets": [],
+      "impact_direction": "unknown",
+      "impact_strength": "low",
+      "asset_impacts": [],
+      "event_type": "other",
+      "importance_tier": 3,
+      "human_importance_reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "expected_market_impact": "更偏背景信息，短期市场影响可能有限。",
+      "affected_regions": [
+        "global"
+      ],
+      "affected_asset_classes": [],
+      "is_routine": false,
+      "is_market_moving": false
+    },
+    {
+      "title": "Bitcoin drops below $80,000 as crypto ignores Asian tech rally, Fed meeting begins",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/10/27/bitcoin-drops-below-usd80-000-as-crypto-ignores-asian-tech-rally-fed-meeting-begins",
+      "published_at": "2026-10-27T11:32:45Z",
+      "region": "global",
+      "category": "financial_media_public",
+      "language": "en",
+      "summary": "Bitcoin drops below $80,000 as crypto ignores Asian tech rally, Fed meeting begins",
+      "credibility_weight": 0.7,
+      "relevance_score": 18.6078,
+      "related_assets": [],
+      "impact_direction": "unknown",
+      "impact_strength": "low",
+      "asset_impacts": [],
+      "event_type": "other",
+      "importance_tier": 3,
+      "human_importance_reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "expected_market_impact": "更偏背景信息，短期市场影响可能有限。",
+      "affected_regions": [
+        "global"
+      ],
+      "affected_asset_classes": [],
+      "is_routine": false,
+      "is_market_moving": false
+    },
+    {
+      "title": "Crypto wallet maker Keystone to destroy almost 19,000 devices after security breach",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/10/27/crypto-wallet-maker-keystone-to-destroy-almost-19-000-devices-after-security-breach",
+      "published_at": "2026-10-27T11:13:54Z",
+      "region": "global",
+      "category": "financial_media_public",
+      "language": "en",
+      "summary": "Crypto wallet maker Keystone to destroy almost 19,000 devices after security breach",
+      "credibility_weight": 0.7,
+      "relevance_score": 18.5728,
+      "related_assets": [],
+      "impact_direction": "unknown",
+      "impact_strength": "low",
+      "asset_impacts": [],
+      "event_type": "other",
+      "importance_tier": 3,
+      "human_importance_reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "expected_market_impact": "更偏背景信息，短期市场影响可能有限。",
+      "affected_regions": [
+        "global"
+      ],
+      "affected_asset_classes": [],
+      "is_routine": false,
+      "is_market_moving": false
+    },
+    {
+      "title": "Investor who called for AI pivot in 2023 says bitcoin is going to $57,000",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/10/27/investor-who-called-for-ai-pivot-in-2023-says-bitcoin-is-going-to-usd57-000",
+      "published_at": "2026-10-27T10:57:51Z",
+      "region": "global",
+      "category": "financial_media_public",
+      "language": "en",
+      "summary": "Investor who called for AI pivot in 2023 says bitcoin is going to $57,000",
+      "credibility_weight": 0.7,
+      "relevance_score": 18.5431,
+      "related_assets": [],
+      "impact_direction": "unknown",
+      "impact_strength": "low",
+      "asset_impacts": [],
+      "event_type": "other",
+      "importance_tier": 3,
+      "human_importance_reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "expected_market_impact": "更偏背景信息，短期市场影响可能有限。",
+      "affected_regions": [
+        "global"
+      ],
+      "affected_asset_classes": [],
+      "is_routine": false,
+      "is_market_moving": false
+    },
+    {
+      "title": "Now is the time to accumulate bitcoin, Galaxy says",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/10/27/now-is-the-time-to-accumulate-bitcoin-galaxy-says",
+      "published_at": "2026-10-27T09:42:46Z",
+      "region": "global",
+      "category": "financial_media_public",
+      "language": "en",
+      "summary": "Now is the time to accumulate bitcoin, Galaxy says",
+      "credibility_weight": 0.7,
+      "relevance_score": 18.4041,
+      "related_assets": [],
+      "impact_direction": "unknown",
+      "impact_strength": "low",
+      "asset_impacts": [],
+      "event_type": "other",
+      "importance_tier": 3,
+      "human_importance_reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "expected_market_impact": "更偏背景信息，短期市场影响可能有限。",
+      "affected_regions": [
+        "global"
+      ],
+      "affected_asset_classes": [],
+      "is_routine": false,
+      "is_market_moving": false
+    },
+    {
+      "title": "Solana bug reports now cost 1 SOL as AI floods security teams with spam",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/tech/2026/10/27/solana-bug-reports-now-cost-1-sol-as-ai-floods-security-teams-with-spam",
+      "published_at": "2026-10-27T07:44:04Z",
+      "region": "global",
+      "category": "financial_media_public",
+      "language": "en",
+      "summary": "Solana bug reports now cost 1 SOL as AI floods security teams with spam",
+      "credibility_weight": 0.7,
+      "relevance_score": 18.1843,
+      "related_assets": [],
+      "impact_direction": "unknown",
+      "impact_strength": "low",
+      "asset_impacts": [],
+      "event_type": "other",
+      "importance_tier": 3,
+      "human_importance_reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "expected_market_impact": "更偏背景信息，短期市场影响可能有限。",
+      "affected_regions": [
+        "global"
+      ],
+      "affected_asset_classes": [],
+      "is_routine": false,
+      "is_market_moving": false
+    },
+    {
+      "title": "Zcash co-founder proposes ending grants funding, citing $125 million treasury",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/10/27/zcash-co-founder-proposes-ending-grants-funding-citing-usd125-million-treasury",
+      "published_at": "2026-10-27T06:14:41Z",
+      "region": "global",
+      "category": "financial_media_public",
+      "language": "en",
+      "summary": "Zcash co-founder proposes ending grants funding, citing $125 million treasury",
+      "credibility_weight": 0.7,
+      "relevance_score": 18.0187,
+      "related_assets": [],
+      "impact_direction": "unknown",
+      "impact_strength": "low",
+      "asset_impacts": [],
+      "event_type": "other",
+      "importance_tier": 3,
+      "human_importance_reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "expected_market_impact": "更偏背景信息，短期市场影响可能有限。",
+      "affected_regions": [
+        "global"
+      ],
+      "affected_asset_classes": [],
+      "is_routine": false,
+      "is_market_moving": false
+    },
+    {
+      "title": "October 2026 euro area bank lending survey",
+      "source": "ECB Press Releases",
+      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261027~506ef03145.en.html",
+      "published_at": "2026-10-27T01:00:00+01:00",
+      "region": "EU",
+      "category": "central_banks",
+      "language": "en",
+      "summary": "October 2026 euro area bank lending survey",
+      "credibility_weight": 1.0,
+      "relevance_score": 18.2249,
+      "related_assets": [],
+      "impact_direction": "unknown",
+      "impact_strength": "low",
+      "asset_impacts": [],
+      "event_type": "other",
+      "importance_tier": 3,
+      "human_importance_reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "expected_market_impact": "更偏背景信息，短期市场影响可能有限。",
+      "affected_regions": [
+        "EU"
+      ],
+      "affected_asset_classes": [],
+      "is_routine": false,
+      "is_market_moving": false
+    },
+    {
+      "title": "Services Producer Price Index (Sept.)",
+      "source": "Bank of Japan Announcements",
+      "url": "http://www.boj.or.jp/en/statistics/pi/cspi_release/sppi2609.pdf",
+      "published_at": "2026-10-27T08:50:00+09:00",
+      "region": "Japan",
+      "category": "central_banks",
+      "language": "en",
+      "summary": "Services Producer Price Index (Sept.)",
+      "credibility_weight": 1.0,
+      "relevance_score": 18.2064,
+      "related_assets": [],
+      "impact_direction": "unknown",
+      "impact_strength": "low",
+      "asset_impacts": [],
+      "event_type": "other",
+      "importance_tier": 3,
+      "human_importance_reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "expected_market_impact": "更偏背景信息，短期市场影响可能有限。",
+      "affected_regions": [
+        "Japan"
+      ],
+      "affected_asset_classes": [],
+      "is_routine": false,
+      "is_market_moving": false
+    },
+    {
+      "title": "Survey on the Access to Finance of Enterprises: lending conditions tightened",
+      "source": "ECB Press Releases",
+      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261026~bde7b6d11a.en.html",
+      "published_at": "2026-10-26T10:00:00+01:00",
+      "region": "EU",
+      "category": "central_banks",
+      "language": "en",
+      "summary": "Survey on the Access to Finance of Enterprises: lending conditions tightened",
+      "credibility_weight": 1.0,
+      "relevance_score": 16.5582,
+      "related_assets": [],
+      "impact_direction": "unknown",
+      "impact_strength": "low",
+      "asset_impacts": [],
+      "event_type": "other",
+      "importance_tier": 3,
+      "human_importance_reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "expected_market_impact": "更偏背景信息，短期市场影响可能有限。",
+      "affected_regions": [
+        "EU"
+      ],
+      "affected_asset_classes": [],
+      "is_routine": false,
+      "is_market_moving": false
+    },
+    {
+      "title": "Frank Elderson: Taking action for nature – investing in economic resilience and prosperity",
+      "source": "ECB Press Releases",
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261026~d903d7ad85.en.html",
+      "published_at": "2026-10-26T06:00:00+01:00",
+      "region": "EU",
+      "category": "central_banks",
+      "language": "en",
+      "summary": "Frank Elderson: Taking action for nature – investing in economic resilience and prosperity",
+      "credibility_weight": 1.0,
+      "relevance_score": 16.1138,
+      "related_assets": [],
+      "impact_direction": "unknown",
+      "impact_strength": "low",
+      "asset_impacts": [],
+      "event_type": "other",
+      "importance_tier": 3,
+      "human_importance_reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "expected_market_impact": "更偏背景信息，短期市场影响可能有限。",
+      "affected_regions": [
+        "EU"
+      ],
+      "affected_asset_classes": [],
+      "is_routine": false,
+      "is_market_moving": false
+    }
+  ],
+  "market_narrative": {
+    "regime": "mixed",
+    "summary_cn": "股指上涨、波动率或美元回落，市场更接近风险偏好改善。 但存在信号冲突，需要降低单一叙事置信度。",
+    "key_moves": [
+      "SPY 上涨 0.71%",
+      "QQQ 上涨 1.11%",
+      "VIX 下跌 -4.73%",
+      "TLT 上涨 0.42%",
+      "DXY 上涨 0.40%",
+      "Gold 上涨 0.87%",
+      "Oil 下跌 -1.34%"
+    ],
+    "contradictions": [
+      "黄金和美元同时上涨，可能反映避险或地缘风险。"
+    ],
+    "watch_points": [
+      "确认风险偏好是否扩散到小盘股、信用利差和周期品。"
+    ]
+  },
+  "top_themes": [
+    "macro_data: Indicators for Core CPI",
+    "crypto_market_structure: Robinhood taps Ripple’s $2.5 billion RLUSD stablecoin despite backing rival USDG",
+    "crypto_market_structure: Japan's top yen stablecoin falls short of its target in a disappointing first year"
+  ],
+  "asset_charts": {
+    "SPY": "/home/runner/work/FinTech/FinTech/charts/2026-10-28/SPY.png",
+    "QQQ": "/home/runner/work/FinTech/FinTech/charts/2026-10-28/QQQ.png",
+    "DIA": "/home/runner/work/FinTech/FinTech/charts/2026-10-28/DIA.png",
+    "IWM": "/home/runner/work/FinTech/FinTech/charts/2026-10-28/IWM.png",
+    "VTI": "/home/runner/work/FinTech/FinTech/charts/2026-10-28/VTI.png",
+    "^VIX": "/home/runner/work/FinTech/FinTech/charts/2026-10-28/VIX.png",
+    "DX-Y.NYB": "/home/runner/work/FinTech/FinTech/charts/2026-10-28/DX-Y.NYB.png",
+    "TLT": "/home/runner/work/FinTech/FinTech/charts/2026-10-28/TLT.png",
+    "IEF": "/home/runner/work/FinTech/FinTech/charts/2026-10-28/IEF.png",
+    "GC=F": "/home/runner/work/FinTech/FinTech/charts/2026-10-28/GC_F.png",
+    "SI=F": "/home/runner/work/FinTech/FinTech/charts/2026-10-28/SI_F.png",
+    "CL=F": "/home/runner/work/FinTech/FinTech/charts/2026-10-28/CL_F.png",
+    "BZ=F": "/home/runner/work/FinTech/FinTech/charts/2026-10-28/BZ_F.png",
+    "NG=F": "/home/runner/work/FinTech/FinTech/charts/2026-10-28/NG_F.png",
+    "HG=F": "/home/runner/work/FinTech/FinTech/charts/2026-10-28/HG_F.png",
+    "^HSI": "/home/runner/work/FinTech/FinTech/charts/2026-10-28/HSI.png",
+    "0700.HK": "/home/runner/work/FinTech/FinTech/charts/2026-10-28/0700.HK.png",
+    "9988.HK": "/home/runner/work/FinTech/FinTech/charts/2026-10-28/9988.HK.png",
+    "3690.HK": "/home/runner/work/FinTech/FinTech/charts/2026-10-28/3690.HK.png",
+    "1810.HK": "/home/runner/work/FinTech/FinTech/charts/2026-10-28/1810.HK.png",
+    "1211.HK": "/home/runner/work/FinTech/FinTech/charts/2026-10-28/1211.HK.png",
+    "BTC": "/home/runner/work/FinTech/FinTech/charts/2026-10-28/BTC.png",
+    "ETH": "/home/runner/work/FinTech/FinTech/charts/2026-10-28/ETH.png",
+    "SOLANA": "/home/runner/work/FinTech/FinTech/charts/2026-10-28/SOLANA.png",
+    "BINANCECOIN": "/home/runner/work/FinTech/FinTech/charts/2026-10-28/BINANCECOIN.png",
+    "RIPPLE": "/home/runner/work/FinTech/FinTech/charts/2026-10-28/RIPPLE.png",
+    "COMMODITIES_summary": "/home/runner/work/FinTech/FinTech/charts/2026-10-28/COMMODITIES_summary.png",
+    "CRYPTO_summary": "/home/runner/work/FinTech/FinTech/charts/2026-10-28/CRYPTO_summary.png",
+    "HK_MARKET_summary": "/home/runner/work/FinTech/FinTech/charts/2026-10-28/HK_MARKET_summary.png",
+    "US_EQUITY_summary": "/home/runner/work/FinTech/FinTech/charts/2026-10-28/US_EQUITY_summary.png",
+    "US_MACRO_MARKET_summary": "/home/runner/work/FinTech/FinTech/charts/2026-10-28/US_MACRO_MARKET_summary.png"
+  },
+  "wall_street_public_views": [],
+  "today_calendar": [
+    "经济数据：暂无可靠公开日历数据；如配置经济日历源后可自动填充。",
+    "央行讲话：暂无可靠公开日历数据；重点跟踪 Fed、ECB、BoJ、PBOC 官网 RSS。",
+    "财报：暂无可靠数据。",
+    "政策事件：暂无可靠数据。",
+    "风险提醒：关注数据源失败项、突发地缘风险、利率和美元的二阶反应。"
+  ],
+  "learning_notes": [
+    {
+      "term": "inflation expectations",
+      "zh": "通胀预期，指家庭、企业或市场对未来通胀的预估。",
+      "example": "Inflation expectations can shape wage bargaining and bond yields."
+    },
+    {
+      "term": "real yield",
+      "zh": "实际收益率，名义利率扣除通胀预期后的收益率。",
+      "example": "Gold often reacts more to real yields than nominal yields."
+    },
+    {
+      "term": "market structure",
+      "zh": "市场结构，指交易、托管、清算、ETF、监管等制度安排。",
+      "example": "Crypto market structure rules can affect institutional participation."
+    },
+    {
+      "term": "terminal rate",
+      "zh": "终端利率，市场预期本轮加息周期的最高政策利率。",
+      "example": "A higher terminal rate can pressure growth stocks."
+    },
+    {
+      "term": "soft landing",
+      "zh": "软着陆，指通胀回落而经济避免明显衰退。",
+      "example": "Markets often rally when data support a soft landing."
+    },
+    {
+      "term": "risk-off",
+      "zh": "避险模式，资金偏向美元、国债、黄金等防御资产。",
+      "example": "A geopolitical shock can push markets into risk-off mode."
+    }
+  ],
+  "disclaimers": [
+    "Not financial advice / 非投资建议。",
+    "仅使用公开数据、公开 RSS 摘要和用户自有文件；不绕过任何付费墙。"
+  ]
+}
