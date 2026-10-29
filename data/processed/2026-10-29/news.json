@@ -1,0 +1,811 @@
+[
+  {
+    "title": "Indicators for Core CPI",
+    "source": "Bank of Japan Announcements",
+    "url": "http://www.boj.or.jp/en/research/research_data/cpi/index.htm",
+    "published_at": "2026-10-27T14:00:00+09:00",
+    "region": "Japan",
+    "category": "central_banks",
+    "language": "en",
+    "summary": "Indicators for Core CPI",
+    "credibility_weight": 1.0,
+    "relevance_score": 126.0532,
+    "related_assets": [
+      "BTC",
+      "DXY",
+      "GC=F",
+      "QQQ",
+      "SPY",
+      "TLT"
+    ],
+    "impact_direction": "mixed",
+    "impact_strength": "high",
+    "asset_impacts": [
+      {
+        "asset": "DXY",
+        "asset_class": "fx",
+        "direction": "positive",
+        "strength": "high",
+        "reason": "通胀压力可能推高政策利率预期并支撑美元。"
+      },
+      {
+        "asset": "TLT",
+        "asset_class": "rates",
+        "direction": "negative",
+        "strength": "high",
+        "reason": "通胀上行通常推升收益率、压低长债价格。"
+      },
+      {
+        "asset": "QQQ",
+        "asset_class": "equity",
+        "direction": "negative",
+        "strength": "high",
+        "reason": "更高利率对成长股估值折现率不利。"
+      },
+      {
+        "asset": "SPY",
+        "asset_class": "equity",
+        "direction": "mixed",
+        "strength": "medium",
+        "reason": "名义增长可能支撑收入，但更高利率压制估值。"
+      },
+      {
+        "asset": "GC=F",
+        "asset_class": "commodity",
+        "direction": "mixed",
+        "strength": "medium",
+        "reason": "通胀对黄金是支撑，但实际利率上行会形成压力。"
+      },
+      {
+        "asset": "BTC",
+        "asset_class": "crypto",
+        "direction": "mixed",
+        "strength": "medium",
+        "reason": "抗通胀叙事和流动性收紧可能相互抵消。"
+      }
+    ],
+    "event_type": "macro_data",
+    "importance_tier": 1,
+    "human_importance_reason": "这类宏观数据会直接改变市场对通胀、增长和政策路径的预期。",
+    "expected_market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
+    "affected_regions": [
+      "Japan",
+      "US",
+      "global"
+    ],
+    "affected_asset_classes": [
+      "commodity",
+      "crypto",
+      "equity",
+      "fx",
+      "rates"
+    ],
+    "is_routine": false,
+    "is_market_moving": true
+  },
+  {
+    "title": "Federal Reserve issues FOMC statement",
+    "source": "Federal Reserve Press Releases",
+    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+    "published_at": "2026-10-28T18:00:00Z",
+    "region": "US",
+    "category": "central_banks",
+    "language": "en",
+    "summary": "Federal Reserve issues FOMC statement",
+    "credibility_weight": 1.0,
+    "relevance_score": 118.1643,
+    "related_assets": [],
+    "impact_direction": "unknown",
+    "impact_strength": "low",
+    "asset_impacts": [],
+    "event_type": "central_bank_decision",
+    "importance_tier": 1,
+    "human_importance_reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
+    "expected_market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+    "affected_regions": [
+      "China",
+      "EU",
+      "Japan",
+      "US",
+      "global"
+    ],
+    "affected_asset_classes": [],
+    "is_routine": false,
+    "is_market_moving": true
+  },
+  {
+    "title": "The major reason Microsoft’s stock is heading higher after earnings",
+    "source": "MarketWatch Top Stories",
+    "url": "https://www.marketwatch.com/story/the-major-reason-microsofts-stock-is-heading-higher-after-earnings-c019a036?mod=mw_rss_topstories",
+    "published_at": "2026-10-29T00:10:00Z",
+    "region": "US",
+    "category": "financial_media_public",
+    "language": "en",
+    "summary": "Microsoft showed investors that it’s able to grow rapidly while keeping spending in check.",
+    "credibility_weight": 0.7,
+    "relevance_score": 79.9495,
+    "related_assets": [
+      "AMZN",
+      "GOOGL",
+      "META",
+      "MSFT",
+      "NVDA",
+      "QQQ",
+      "SMH"
+    ],
+    "impact_direction": "mixed",
+    "impact_strength": "high",
+    "asset_impacts": [
+      {
+        "asset": "QQQ",
+        "asset_class": "equity",
+        "direction": "mixed",
+        "strength": "high",
+        "reason": "AI 资本开支会影响大型科技股盈利和估值预期。"
+      },
+      {
+        "asset": "SMH",
+        "asset_class": "equity",
+        "direction": "mixed",
+        "strength": "high",
+        "reason": "AI 投资周期直接影响半导体需求。"
+      },
+      {
+        "asset": "NVDA",
+        "asset_class": "equity",
+        "direction": "mixed",
+        "strength": "high",
+        "reason": "AI 训练和推理需求是英伟达收入预期核心变量。"
+      },
+      {
+        "asset": "MSFT",
+        "asset_class": "equity",
+        "direction": "mixed",
+        "strength": "medium",
+        "reason": "云和 AI 资本开支影响利润率与增长叙事。"
+      },
+      {
+        "asset": "GOOGL",
+        "asset_class": "equity",
+        "direction": "mixed",
+        "strength": "medium",
+        "reason": "AI 投资和搜索商业化影响估值。"
+      },
+      {
+        "asset": "META",
+        "asset_class": "equity",
+        "direction": "mixed",
+        "strength": "medium",
+        "reason": "AI 基建支出与广告效率共同影响市场预期。"
+      },
+      {
+        "asset": "AMZN",
+        "asset_class": "equity",
+        "direction": "mixed",
+        "strength": "medium",
+        "reason": "AWS AI 需求和资本开支影响利润路径。"
+      }
+    ],
+    "event_type": "earnings",
+    "importance_tier": 2,
+    "human_importance_reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
+    "expected_market_impact": "主要影响 QQQ，方向为 mixed，强度 high；AI 资本开支会影响大型科技股盈利和估值预期。",
+    "affected_regions": [
+      "US",
+      "global"
+    ],
+    "affected_asset_classes": [
+      "equity"
+    ],
+    "is_routine": false,
+    "is_market_moving": true
+  },
+  {
+    "title": "Google to preview crypto custody security system as AI threats grow",
+    "source": "CoinDesk",
+    "url": "https://www.coindesk.com/tech/2026/10/28/google-to-preview-crypto-custody-security-system-as-ai-threats-grow",
+    "published_at": "2026-10-28T11:00:00Z",
+    "region": "global",
+    "category": "financial_media_public",
+    "language": "en",
+    "summary": "Google to preview crypto custody security system as AI threats grow",
+    "credibility_weight": 0.7,
+    "relevance_score": 78.4865,
+    "related_assets": [
+      "AMZN",
+      "BTC",
+      "COIN",
+      "ETH",
+      "GOOGL",
+      "META",
+      "MSFT",
+      "NVDA",
+      "QQQ",
+      "SMH",
+      "crypto market"
+    ],
+    "impact_direction": "mixed",
+    "impact_strength": "high",
+    "asset_impacts": [
+      {
+        "asset": "BTC",
+        "asset_class": "crypto",
+        "direction": "mixed",
+        "strength": "high",
+        "reason": "加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。"
+      },
+      {
+        "asset": "ETH",
+        "asset_class": "crypto",
+        "direction": "mixed",
+        "strength": "high",
+        "reason": "监管框架会影响 ETH 产品化和机构参与度。"
+      },
+      {
+        "asset": "COIN",
+        "asset_class": "equity",
+        "direction": "mixed",
+        "strength": "medium",
+        "reason": "监管清晰度和执法风险会影响交易平台估值。"
+      },
+      {
+        "asset": "crypto market",
+        "asset_class": "crypto",
+        "direction": "mixed",
+        "strength": "high",
+        "reason": "信息影响整个加密市场结构，但方向取决于细节。"
+      },
+      {
+        "asset": "QQQ",
+        "asset_class": "equity",
+        "direction": "mixed",
+        "strength": "high",
+        "reason": "AI 资本开支会影响大型科技股盈利和估值预期。"
+      },
+      {
+        "asset": "SMH",
+        "asset_class": "equity",
+        "direction": "mixed",
+        "strength": "high",
+        "reason": "AI 投资周期直接影响半导体需求。"
+      },
+      {
+        "asset": "NVDA",
+        "asset_class": "equity",
+        "direction": "mixed",
+        "strength": "high",
+        "reason": "AI 训练和推理需求是英伟达收入预期核心变量。"
+      },
+      {
+        "asset": "MSFT",
+        "asset_class": "equity",
+        "direction": "mixed",
+        "strength": "medium",
+        "reason": "云和 AI 资本开支影响利润率与增长叙事。"
+      },
+      {
+        "asset": "GOOGL",
+        "asset_class": "equity",
+        "direction": "mixed",
+        "strength": "medium",
+        "reason": "AI 投资和搜索商业化影响估值。"
+      },
+      {
+        "asset": "META",
+        "asset_class": "equity",
+        "direction": "mixed",
+        "strength": "medium",
+        "reason": "AI 基建支出与广告效率共同影响市场预期。"
+      },
+      {
+        "asset": "AMZN",
+        "asset_class": "equity",
+        "direction": "mixed",
+        "strength": "medium",
+        "reason": "AWS AI 需求和资本开支影响利润路径。"
+      }
+    ],
+    "event_type": "crypto_market_structure",
+    "importance_tier": 2,
+    "human_importance_reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
+    "expected_market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+    "affected_regions": [
+      "US",
+      "global"
+    ],
+    "affected_asset_classes": [
+      "crypto",
+      "equity"
+    ],
+    "is_routine": false,
+    "is_market_moving": true
+  },
+  {
+    "title": "XRP Ledger developers propose creating wallets with zero XRP for stablecoin payments",
+    "source": "CoinDesk",
+    "url": "https://www.coindesk.com/tech/2026/10/28/xrp-ledger-developers-propose-creating-wallets-with-zero-xrp-for-stablecoin-payments",
+    "published_at": "2026-10-28T11:52:14Z",
+    "region": "global",
+    "category": "financial_media_public",
+    "language": "en",
+    "summary": "XRP Ledger developers propose creating wallets with zero XRP for stablecoin payments",
+    "credibility_weight": 0.7,
+    "relevance_score": 74.5833,
+    "related_assets": [
+      "BTC",
+      "COIN",
+      "ETH",
+      "crypto market"
+    ],
+    "impact_direction": "mixed",
+    "impact_strength": "high",
+    "asset_impacts": [
+      {
+        "asset": "BTC",
+        "asset_class": "crypto",
+        "direction": "mixed",
+        "strength": "high",
+        "reason": "加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。"
+      },
+      {
+        "asset": "ETH",
+        "asset_class": "crypto",
+        "direction": "mixed",
+        "strength": "high",
+        "reason": "监管框架会影响 ETH 产品化和机构参与度。"
+      },
+      {
+        "asset": "COIN",
+        "asset_class": "equity",
+        "direction": "mixed",
+        "strength": "medium",
+        "reason": "监管清晰度和执法风险会影响交易平台估值。"
+      },
+      {
+        "asset": "crypto market",
+        "asset_class": "crypto",
+        "direction": "mixed",
+        "strength": "high",
+        "reason": "信息影响整个加密市场结构，但方向取决于细节。"
+      }
+    ],
+    "event_type": "crypto_market_structure",
+    "importance_tier": 2,
+    "human_importance_reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
+    "expected_market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+    "affected_regions": [
+      "US",
+      "global"
+    ],
+    "affected_asset_classes": [
+      "crypto",
+      "equity"
+    ],
+    "is_routine": false,
+    "is_market_moving": true
+  },
+  {
+    "title": "Fortinet’s stock is taking a dive after earnings. Here’s why.",
+    "source": "MarketWatch Top Stories",
+    "url": "https://www.marketwatch.com/story/fortinets-stock-is-taking-a-dive-after-earnings-heres-why-d407896e?mod=mw_rss_topstories",
+    "published_at": "2026-10-28T23:18:00Z",
+    "region": "US",
+    "category": "financial_media_public",
+    "language": "en",
+    "summary": "Cybersecurity stocks are broadly falling as growth slows significantly in one of Fortinet’s business segments.",
+    "credibility_weight": 0.7,
+    "relevance_score": 67.8532,
+    "related_assets": [],
+    "impact_direction": "unknown",
+    "impact_strength": "low",
+    "asset_impacts": [],
+    "event_type": "earnings",
+    "importance_tier": 2,
+    "human_importance_reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
+    "expected_market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+    "affected_regions": [
+      "US",
+      "global"
+    ],
+    "affected_asset_classes": [],
+    "is_routine": false,
+    "is_market_moving": true
+  },
+  {
+    "title": "ServiceNow’s stock slides as earnings miss overshadows a raised AI outlook",
+    "source": "MarketWatch Top Stories",
+    "url": "https://www.marketwatch.com/story/servicenows-stock-slides-as-earnings-miss-clouds-a-raised-ai-outlook-96e48385?mod=mw_rss_topstories",
+    "published_at": "2026-10-28T23:02:00Z",
+    "region": "US",
+    "category": "financial_media_public",
+    "language": "en",
+    "summary": "Even with an uptick in multimillion-dollar AI deals, ServiceNow’s earnings results weren’t enough to win over software skeptics.",
+    "credibility_weight": 0.7,
+    "relevance_score": 67.8236,
+    "related_assets": [],
+    "impact_direction": "unknown",
+    "impact_strength": "low",
+    "asset_impacts": [],
+    "event_type": "earnings",
+    "importance_tier": 2,
+    "human_importance_reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
+    "expected_market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+    "affected_regions": [
+      "US",
+      "global"
+    ],
+    "affected_asset_classes": [],
+    "is_routine": false,
+    "is_market_moving": true
+  },
+  {
+    "title": "Coinbase earnings: Wall Street divided on trading rebound after Robinhood crypto revenue sinks 55%",
+    "source": "CoinDesk",
+    "url": "https://www.coindesk.com/markets/2026/10/28/coinbase-earnings-wall-street-divided-on-trading-rebound-as-robinhood-crypto-revenue-sinks-55",
+    "published_at": "2026-10-28T17:02:57Z",
+    "region": "global",
+    "category": "financial_media_public",
+    "language": "en",
+    "summary": "Coinbase earnings: Wall Street divided on trading rebound after Robinhood crypto revenue sinks 55%",
+    "credibility_weight": 0.7,
+    "relevance_score": 67.1587,
+    "related_assets": [],
+    "impact_direction": "unknown",
+    "impact_strength": "low",
+    "asset_impacts": [],
+    "event_type": "earnings",
+    "importance_tier": 2,
+    "human_importance_reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
+    "expected_market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+    "affected_regions": [
+      "US",
+      "global"
+    ],
+    "affected_asset_classes": [],
+    "is_routine": false,
+    "is_market_moving": true
+  },
+  {
+    "title": "Kospi surges 7% as SK Hynix earnings fuel AI stock rebound",
+    "source": "CoinDesk",
+    "url": "https://www.coindesk.com/markets/2026/10/28/kospi-surges-7-as-sk-hynix-earnings-fuel-ai-stock-rebound",
+    "published_at": "2026-10-28T09:59:25Z",
+    "region": "global",
+    "category": "financial_media_public",
+    "language": "en",
+    "summary": "Kospi surges 7% as SK Hynix earnings fuel AI stock rebound",
+    "credibility_weight": 0.7,
+    "relevance_score": 66.3743,
+    "related_assets": [],
+    "impact_direction": "unknown",
+    "impact_strength": "low",
+    "asset_impacts": [],
+    "event_type": "earnings",
+    "importance_tier": 2,
+    "human_importance_reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
+    "expected_market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+    "affected_regions": [
+      "US",
+      "global"
+    ],
+    "affected_asset_classes": [],
+    "is_routine": false,
+    "is_market_moving": true
+  },
+  {
+    "title": "Is it curtains for COLA? Saving Social Security could mean changing the cost-of-living adjustment.",
+    "source": "MarketWatch Top Stories",
+    "url": "https://www.marketwatch.com/story/is-it-curtains-for-cola-saving-social-security-could-mean-changing-the-cost-of-living-adjustment-867c6bd8?mod=mw_rss_topstories",
+    "published_at": "2026-10-28T22:41:00Z",
+    "region": "US",
+    "category": "financial_media_public",
+    "language": "en",
+    "summary": "Several proposals consider changing the way retirees receive inflation protection. Here’s what it could cost you.",
+    "credibility_weight": 0.7,
+    "relevance_score": 31.7847,
+    "related_assets": [
+      "BTC",
+      "DXY",
+      "GC=F",
+      "QQQ",
+      "SPY",
+      "TLT"
+    ],
+    "impact_direction": "mixed",
+    "impact_strength": "high",
+    "asset_impacts": [
+      {
+        "asset": "DXY",
+        "asset_class": "fx",
+        "direction": "positive",
+        "strength": "high",
+        "reason": "通胀压力可能推高政策利率预期并支撑美元。"
+      },
+      {
+        "asset": "TLT",
+        "asset_class": "rates",
+        "direction": "negative",
+        "strength": "high",
+        "reason": "通胀上行通常推升收益率、压低长债价格。"
+      },
+      {
+        "asset": "QQQ",
+        "asset_class": "equity",
+        "direction": "negative",
+        "strength": "high",
+        "reason": "更高利率对成长股估值折现率不利。"
+      },
+      {
+        "asset": "SPY",
+        "asset_class": "equity",
+        "direction": "mixed",
+        "strength": "medium",
+        "reason": "名义增长可能支撑收入，但更高利率压制估值。"
+      },
+      {
+        "asset": "GC=F",
+        "asset_class": "commodity",
+        "direction": "mixed",
+        "strength": "medium",
+        "reason": "通胀对黄金是支撑，但实际利率上行会形成压力。"
+      },
+      {
+        "asset": "BTC",
+        "asset_class": "crypto",
+        "direction": "mixed",
+        "strength": "medium",
+        "reason": "抗通胀叙事和流动性收紧可能相互抵消。"
+      }
+    ],
+    "event_type": "other",
+    "importance_tier": 3,
+    "human_importance_reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+    "expected_market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
+    "affected_regions": [
+      "US"
+    ],
+    "affected_asset_classes": [
+      "commodity",
+      "crypto",
+      "equity",
+      "fx",
+      "rates"
+    ],
+    "is_routine": false,
+    "is_market_moving": false
+  },
+  {
+    "title": "Bitcoin-backed mortgages are coming to Canada, but borrowers are still unaware of the cost",
+    "source": "CoinDesk",
+    "url": "https://www.coindesk.com/markets/2026/10/28/bitcoin-backed-mortgages-are-coming-to-canada-but-borrowers-are-still-unaware-of-the-cost",
+    "published_at": "2026-10-28T21:13:44Z",
+    "region": "global",
+    "category": "financial_media_public",
+    "language": "en",
+    "summary": "Bitcoin-backed mortgages are coming to Canada, but borrowers are still unaware of the cost",
+    "credibility_weight": 0.7,
+    "relevance_score": 19.6231,
+    "related_assets": [],
+    "impact_direction": "unknown",
+    "impact_strength": "low",
+    "asset_impacts": [],
+    "event_type": "other",
+    "importance_tier": 3,
+    "human_importance_reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+    "expected_market_impact": "更偏背景信息，短期市场影响可能有限。",
+    "affected_regions": [
+      "global"
+    ],
+    "affected_asset_classes": [],
+    "is_routine": false,
+    "is_market_moving": false
+  },
+  {
+    "title": "Wall Street backbone DTCC brings $30 trillion securities closer to blockchain with major banks",
+    "source": "CoinDesk",
+    "url": "https://www.coindesk.com/business/2026/10/28/wall-street-backbone-dtcc-brings-usd30-trillion-securities-closer-to-blockchain-with-major-banks",
+    "published_at": "2026-10-28T13:14:37Z",
+    "region": "global",
+    "category": "financial_media_public",
+    "language": "en",
+    "summary": "Wall Street backbone DTCC brings $30 trillion securities closer to blockchain with major banks",
+    "credibility_weight": 0.7,
+    "relevance_score": 18.7358,
+    "related_assets": [],
+    "impact_direction": "unknown",
+    "impact_strength": "low",
+    "asset_impacts": [],
+    "event_type": "other",
+    "importance_tier": 3,
+    "human_importance_reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+    "expected_market_impact": "更偏背景信息，短期市场影响可能有限。",
+    "affected_regions": [
+      "global"
+    ],
+    "affected_asset_classes": [],
+    "is_routine": false,
+    "is_market_moving": false
+  },
+  {
+    "title": "Bitcoin rebounds above $81,000 as Asian chip rally spills into crypto, pepe jumps 9%",
+    "source": "CoinDesk",
+    "url": "https://www.coindesk.com/markets/2026/10/28/bitcoin-rebounds-above-usd81-000-as-asian-chip-rally-spills-into-crypto-pepe-jumps-9",
+    "published_at": "2026-10-28T11:32:31Z",
+    "region": "global",
+    "category": "financial_media_public",
+    "language": "en",
+    "summary": "Bitcoin rebounds above $81,000 as Asian chip rally spills into crypto, pepe jumps 9%",
+    "credibility_weight": 0.7,
+    "relevance_score": 18.5467,
+    "related_assets": [],
+    "impact_direction": "unknown",
+    "impact_strength": "low",
+    "asset_impacts": [],
+    "event_type": "other",
+    "importance_tier": 3,
+    "human_importance_reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+    "expected_market_impact": "更偏背景信息，短期市场影响可能有限。",
+    "affected_regions": [
+      "global"
+    ],
+    "affected_asset_classes": [],
+    "is_routine": false,
+    "is_market_moving": false
+  },
+  {
+    "title": "Live updates: Bitcoin trading just above $81,000 as Fed delivers hold on rates",
+    "source": "CoinDesk",
+    "url": "https://www.coindesk.com/business/2026/10/28/live-updates-bitcoin-climbs-above-usd81-000-as-majors-rally-ahead-of-fed-decision",
+    "published_at": "2026-10-28T11:23:34Z",
+    "region": "global",
+    "category": "financial_media_public",
+    "language": "en",
+    "summary": "Live updates: Bitcoin trading just above $81,000 as Fed delivers hold on rates",
+    "credibility_weight": 0.7,
+    "relevance_score": 18.5302,
+    "related_assets": [],
+    "impact_direction": "unknown",
+    "impact_strength": "low",
+    "asset_impacts": [],
+    "event_type": "other",
+    "importance_tier": 3,
+    "human_importance_reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+    "expected_market_impact": "更偏背景信息，短期市场影响可能有限。",
+    "affected_regions": [
+      "global"
+    ],
+    "affected_asset_classes": [],
+    "is_routine": false,
+    "is_market_moving": false
+  },
+  {
+    "title": "Here's how much bitcoin and the S&P 500 could rally after midterms",
+    "source": "CoinDesk",
+    "url": "https://www.coindesk.com/markets/2026/10/28/bitcoin-averages-over-50-in-the-12-months-after-midterms-s-and-p-500-gains-15",
+    "published_at": "2026-10-28T09:15:22Z",
+    "region": "global",
+    "category": "financial_media_public",
+    "language": "en",
+    "summary": "Here's how much bitcoin and the S&P 500 could rally after midterms",
+    "credibility_weight": 0.7,
+    "relevance_score": 18.2928,
+    "related_assets": [],
+    "impact_direction": "unknown",
+    "impact_strength": "low",
+    "asset_impacts": [],
+    "event_type": "other",
+    "importance_tier": 3,
+    "human_importance_reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+    "expected_market_impact": "更偏背景信息，短期市场影响可能有限。",
+    "affected_regions": [
+      "global"
+    ],
+    "affected_asset_classes": [],
+    "is_routine": false,
+    "is_market_moving": false
+  },
+  {
+    "title": "Securitize adds Stellar blockchain as institutional tokenization gathers steam",
+    "source": "CoinDesk",
+    "url": "https://www.coindesk.com/business/2026/10/28/securitize-adds-stellar-blockchain-as-institutional-tokenization-gathers-steam",
+    "published_at": "2026-10-28T09:00:00Z",
+    "region": "global",
+    "category": "financial_media_public",
+    "language": "en",
+    "summary": "Securitize adds Stellar blockchain as institutional tokenization gathers steam",
+    "credibility_weight": 0.7,
+    "relevance_score": 18.2643,
+    "related_assets": [],
+    "impact_direction": "unknown",
+    "impact_strength": "low",
+    "asset_impacts": [],
+    "event_type": "other",
+    "importance_tier": 3,
+    "human_importance_reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+    "expected_market_impact": "更偏背景信息，短期市场影响可能有限。",
+    "affected_regions": [
+      "global"
+    ],
+    "affected_asset_classes": [],
+    "is_routine": false,
+    "is_market_moving": false
+  },
+  {
+    "title": "Bitcoin treasury Datavault AI plunges 50% after firm says it can’t access its BTC",
+    "source": "CoinDesk",
+    "url": "https://www.coindesk.com/markets/2026/10/28/bitcoin-treasury-datavault-ai-plunges-50-after-firm-says-it-can-t-access-its-btc",
+    "published_at": "2026-10-28T05:28:13Z",
+    "region": "global",
+    "category": "financial_media_public",
+    "language": "en",
+    "summary": "Bitcoin treasury Datavault AI plunges 50% after firm says it can’t access its BTC",
+    "credibility_weight": 0.7,
+    "relevance_score": 17.8721,
+    "related_assets": [],
+    "impact_direction": "unknown",
+    "impact_strength": "low",
+    "asset_impacts": [],
+    "event_type": "other",
+    "importance_tier": 3,
+    "human_importance_reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+    "expected_market_impact": "更偏背景信息，短期市场影响可能有限。",
+    "affected_regions": [
+      "global"
+    ],
+    "affected_asset_classes": [],
+    "is_routine": false,
+    "is_market_moving": false
+  },
+  {
+    "title": "Bitcoin nears $81,000 ahead of Fed decision as ZEC jumps 8%",
+    "source": "CoinDesk",
+    "url": "https://www.coindesk.com/markets/2026/10/28/bitcoin-nears-usd81-000-ahead-of-fed-decision-as-zec-jumps-8",
+    "published_at": "2026-10-28T04:15:20Z",
+    "region": "global",
+    "category": "financial_media_public",
+    "language": "en",
+    "summary": "Bitcoin nears $81,000 ahead of Fed decision as ZEC jumps 8%",
+    "credibility_weight": 0.7,
+    "relevance_score": 17.7371,
+    "related_assets": [],
+    "impact_direction": "unknown",
+    "impact_strength": "low",
+    "asset_impacts": [],
+    "event_type": "other",
+    "importance_tier": 3,
+    "human_importance_reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+    "expected_market_impact": "更偏背景信息，短期市场影响可能有限。",
+    "affected_regions": [
+      "global"
+    ],
+    "affected_asset_classes": [],
+    "is_routine": false,
+    "is_market_moving": false
+  },
+  {
+    "title": "Treasury's Bessent sees crypto as America's next tool for keeping the U.S. dollar on top",
+    "source": "CoinDesk",
+    "url": "https://www.coindesk.com/policy/2026/10/27/treasury-s-bessent-sees-crypto-as-america-s-next-tool-for-keeping-the-u-s-dollar-on-top",
+    "published_at": "2026-10-27T20:41:33Z",
+    "region": "global",
+    "category": "financial_media_public",
+    "language": "en",
+    "summary": "Treasury's Bessent sees crypto as America's next tool for keeping the U.S. dollar on top",
+    "credibility_weight": 0.7,
+    "relevance_score": 16.8968,
+    "related_assets": [],
+    "impact_direction": "unknown",
+    "impact_strength": "low",
+    "asset_impacts": [],
+    "event_type": "other",
+    "importance_tier": 3,
+    "human_importance_reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+    "expected_market_impact": "更偏背景信息，短期市场影响可能有限。",
+    "affected_regions": [
+      "global"
+    ],
+    "affected_asset_classes": [],
+    "is_routine": false,
+    "is_market_moving": false
+  }
+]

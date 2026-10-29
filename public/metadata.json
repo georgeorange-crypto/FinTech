@@ -1,17 +1,14 @@
 {
-  "latest_date": "2026-10-28",
-  "market_data_date": "2026-10-28",
-  "chart_date": "2026-10-28",
-  "regime": "mixed",
-  "regime_summary": "股指上涨、波动率或美元回落，市场更接近风险偏好改善。 但存在信号冲突，需要降低单一叙事置信度。",
+  "latest_date": "2026-10-29",
+  "market_data_date": "2026-10-29",
+  "chart_date": "2026-10-29",
+  "regime": "risk_on",
+  "regime_summary": "股指上涨、波动率或美元回落，市场更接近风险偏好改善。",
   "key_moves": [
-    "SPY 上涨 0.71%",
-    "QQQ 上涨 1.11%",
-    "VIX 下跌 -4.73%",
-    "TLT 上涨 0.42%",
-    "DXY 上涨 0.40%",
-    "Gold 上涨 0.87%",
-    "Oil 下跌 -1.34%"
+    "SPY 上涨 0.56%",
+    "QQQ 上涨 1.27%",
+    "VIX 下跌 -3.48%",
+    "Oil 上涨 2.14%"
   ],
   "watch_points": [
     "确认风险偏好是否扩散到小盘股、信用利差和周期品。"
@@ -19,38 +16,38 @@
   "cards": [
     {
       "label": "美股 SPY",
-      "value": "0.71%"
+      "value": "0.56%"
     },
     {
       "label": "QQQ",
-      "value": "1.11%"
+      "value": "1.27%"
     },
     {
       "label": "VIX",
-      "value": "-4.73%"
+      "value": "-3.48%"
     },
     {
       "label": "BTC",
-      "value": "0.76%"
+      "value": "0.04%"
     },
     {
       "label": "Gold",
-      "value": "0.87%"
+      "value": "0.00%"
     },
     {
       "label": "Oil",
-      "value": "-1.34%"
+      "value": "2.14%"
     }
   ],
   "top_themes": [
     "macro_data: Indicators for Core CPI",
-    "crypto_market_structure: Robinhood taps Ripple’s $2.5 billion RLUSD stablecoin despite backing rival USDG",
-    "crypto_market_structure: Japan's top yen stablecoin falls short of its target in a disappointing first year"
+    "central_bank_decision: Federal Reserve issues FOMC statement",
+    "earnings: The major reason Microsoft’s stock is heading higher after earnings"
   ],
   "news_counts": {
-    "must_read": 7,
+    "must_read": 10,
     "policy_watch": 3,
-    "background": 15
+    "background": 10
   },
   "focus_news": [
     {
@@ -72,26 +69,39 @@
       ]
     },
     {
-      "title": "Robinhood taps Ripple’s $2.5 billion RLUSD stablecoin despite backing rival USDG",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/10/27/ripple-s-rlusd-stablecoin-is-coming-to-robinhood-s-28-6-million-customer-platform",
-      "event_type": "crypto_market_structure",
+      "title": "Federal Reserve issues FOMC statement",
+      "source": "Federal Reserve Press Releases",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+      "event_type": "central_bank_decision",
+      "importance_tier": 1,
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "assets": []
+    },
+    {
+      "title": "The major reason Microsoft’s stock is heading higher after earnings",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/the-major-reason-microsofts-stock-is-heading-higher-after-earnings-c019a036?mod=mw_rss_topstories",
+      "event_type": "earnings",
       "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
+      "market_impact": "主要影响 QQQ，方向为 mixed，强度 high；AI 资本开支会影响大型科技股盈利和估值预期。",
       "assets": [
-        "BTC",
-        "COIN",
-        "ETH",
-        "crypto market"
+        "AMZN",
+        "GOOGL",
+        "META",
+        "MSFT",
+        "NVDA"
       ]
     },
     {
-      "title": "Japan's top yen stablecoin falls short of its target in a disappointing first year",
+      "title": "Google to preview crypto custody security system as AI threats grow",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/10/27/japan-s-top-yen-stablecoin-falls-short-of-its-target-in-a-disappointing-first-year",
+      "url": "https://www.coindesk.com/tech/2026/10/28/google-to-preview-crypto-custody-security-system-as-ai-threats-grow",
       "event_type": "crypto_market_structure",
       "importance_tier": 2,
       "impact_strength": "high",
@@ -99,35 +109,31 @@
       "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
       "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
       "assets": [
+        "AMZN",
         "BTC",
         "COIN",
         "ETH",
-        "crypto market"
-      ]
-    },
-    {
-      "title": "OCC calls on community banks to enter the stablecoin payments market",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/10/26/occ-calls-on-community-banks-to-enter-the-stablecoin-payments-market",
-      "event_type": "crypto_market_structure",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
-      "assets": [
-        "BTC",
-        "COIN",
-        "ETH",
-        "crypto market"
+        "GOOGL"
       ]
     }
   ],
   "policy_news": [
     {
-      "title": "Robinhood taps Ripple’s $2.5 billion RLUSD stablecoin despite backing rival USDG",
+      "title": "Federal Reserve issues FOMC statement",
+      "source": "Federal Reserve Press Releases",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+      "event_type": "central_bank_decision",
+      "importance_tier": 1,
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "assets": []
+    },
+    {
+      "title": "Google to preview crypto custody security system as AI threats grow",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/10/27/ripple-s-rlusd-stablecoin-is-coming-to-robinhood-s-28-6-million-customer-platform",
+      "url": "https://www.coindesk.com/tech/2026/10/28/google-to-preview-crypto-custody-security-system-as-ai-threats-grow",
       "event_type": "crypto_market_structure",
       "importance_tier": 2,
       "impact_strength": "high",
@@ -135,33 +141,17 @@
       "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
       "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
       "assets": [
+        "AMZN",
         "BTC",
         "COIN",
         "ETH",
-        "crypto market"
+        "GOOGL"
       ]
     },
     {
-      "title": "Japan's top yen stablecoin falls short of its target in a disappointing first year",
+      "title": "XRP Ledger developers propose creating wallets with zero XRP for stablecoin payments",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/10/27/japan-s-top-yen-stablecoin-falls-short-of-its-target-in-a-disappointing-first-year",
-      "event_type": "crypto_market_structure",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
-      "assets": [
-        "BTC",
-        "COIN",
-        "ETH",
-        "crypto market"
-      ]
-    },
-    {
-      "title": "OCC calls on community banks to enter the stablecoin payments market",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/10/26/occ-calls-on-community-banks-to-enter-the-stablecoin-payments-market",
+      "url": "https://www.coindesk.com/tech/2026/10/28/xrp-ledger-developers-propose-creating-wallets-with-zero-xrp-for-stablecoin-payments",
       "event_type": "crypto_market_structure",
       "importance_tier": 2,
       "impact_strength": "high",
@@ -180,93 +170,93 @@
     {
       "symbol": "NG=F",
       "group": "COMMODITIES",
-      "price": "3.07",
-      "one_day": "17.91%",
-      "five_day": "3.54%",
+      "price": "3.02",
+      "one_day": "12.05%",
+      "five_day": "8.32%",
       "trend": "uptrend",
       "direction": "up"
     },
     {
-      "symbol": "BZ=F",
-      "group": "COMMODITIES",
-      "price": "109.84",
-      "one_day": "-5.15%",
-      "five_day": "0.97%",
-      "trend": "strong_uptrend",
-      "direction": "down"
-    },
-    {
       "symbol": "^VIX",
       "group": "US_MACRO_MARKET",
-      "price": "17.52",
-      "one_day": "-4.73%",
-      "five_day": "1.21%",
+      "price": "16.91",
+      "one_day": "-3.48%",
+      "five_day": "1.38%",
+      "trend": "uptrend",
+      "direction": "down"
+    },
+    {
+      "symbol": "BZ=F",
+      "group": "COMMODITIES",
+      "price": "110.79",
+      "one_day": "-2.71%",
+      "five_day": "1.81%",
       "trend": "strong_uptrend",
       "direction": "down"
-    },
-    {
-      "symbol": "1810.HK",
-      "group": "HK_MARKET",
-      "price": "25.66",
-      "one_day": "-4.61%",
-      "five_day": "-5.17%",
-      "trend": "range_bound",
-      "direction": "down"
-    },
-    {
-      "symbol": "3690.HK",
-      "group": "HK_MARKET",
-      "price": "71.85",
-      "one_day": "-2.97%",
-      "five_day": "-5.58%",
-      "trend": "downtrend",
-      "direction": "down"
-    },
-    {
-      "symbol": "HG=F",
-      "group": "COMMODITIES",
-      "price": "6.66",
-      "one_day": "2.39%",
-      "five_day": "1.48%",
-      "trend": "range_bound",
-      "direction": "up"
-    },
-    {
-      "symbol": "RIPPLE",
-      "group": "CRYPTO",
-      "price": "1.33",
-      "one_day": "1.53%",
-      "five_day": "1.44%",
-      "trend": "strong_downtrend",
-      "direction": "up"
     },
     {
       "symbol": "CL=F",
       "group": "COMMODITIES",
-      "price": "100.40",
-      "one_day": "-1.34%",
-      "five_day": "-1.37%",
+      "price": "102.04",
+      "one_day": "2.14%",
+      "five_day": "5.03%",
       "trend": "strong_uptrend",
-      "direction": "down"
+      "direction": "up"
+    },
+    {
+      "symbol": "9988.HK",
+      "group": "HK_MARKET",
+      "price": "98.90",
+      "one_day": "1.96%",
+      "five_day": "-4.63%",
+      "trend": "strong_downtrend",
+      "direction": "up"
+    },
+    {
+      "symbol": "BINANCECOIN",
+      "group": "CRYPTO",
+      "price": "754.43",
+      "one_day": "1.40%",
+      "five_day": "2.12%",
+      "trend": "range_bound",
+      "direction": "up"
+    },
+    {
+      "symbol": "QQQ",
+      "group": "US_EQUITY",
+      "price": "721.25",
+      "one_day": "1.27%",
+      "five_day": "0.50%",
+      "trend": "range_bound",
+      "direction": "up"
+    },
+    {
+      "symbol": "IWM",
+      "group": "US_EQUITY",
+      "price": "280.18",
+      "one_day": "1.15%",
+      "five_day": "1.60%",
+      "trend": "range_bound",
+      "direction": "up"
     }
   ],
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-10-28/COMMODITIES_summary.png"
+      "src": "charts/2026-10-29/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-10-28/CRYPTO_summary.png"
+      "src": "charts/2026-10-29/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-10-28/HK_MARKET_summary.png"
+      "src": "charts/2026-10-29/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-10-28/US_EQUITY_summary.png"
+      "src": "charts/2026-10-29/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-10-28.html"
+  "latest_report_href": "reports/2026-10-29.html"
 }
