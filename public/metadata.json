@@ -1,73 +1,76 @@
 {
-  "latest_date": "2026-10-30",
-  "market_data_date": "2026-10-30",
-  "chart_date": "2026-10-30",
-  "regime": "unknown",
-  "regime_summary": "市场信号不足，暂不判断明确状态。",
+  "latest_date": "2026-10-31",
+  "market_data_date": "2026-10-31",
+  "chart_date": "2026-10-31",
+  "regime": "risk_off",
+  "regime_summary": "股指回落、VIX 抬升且避险资产走强，市场偏风险规避。",
   "key_moves": [
-    "QQQ 下跌 -1.42%",
-    "TLT 上涨 0.62%",
-    "DXY 下跌 -0.55%",
-    "Gold 下跌 -0.90%",
-    "BTC 下跌 -5.58%",
-    "ETH 下跌 -7.16%"
+    "SPY 下跌 -1.77%",
+    "QQQ 下跌 -3.47%",
+    "VIX 上涨 12.91%",
+    "TLT 上涨 0.43%",
+    "Gold 下跌 -3.63%"
   ],
   "watch_points": [
-    "关注后续数据是否确认当前跨资产信号。"
+    "关注避险是否演变为信用或流动性压力。"
   ],
   "cards": [
     {
       "label": "美股 SPY",
-      "value": "-0.38%"
+      "value": "-1.77%"
     },
     {
       "label": "QQQ",
-      "value": "-1.42%"
+      "value": "-3.47%"
     },
     {
       "label": "VIX",
-      "value": "1.71%"
+      "value": "12.91%"
     },
     {
       "label": "BTC",
-      "value": "-5.58%"
+      "value": "-0.46%"
     },
     {
       "label": "Gold",
-      "value": "-0.90%"
+      "value": "-3.63%"
     },
     {
       "label": "Oil",
-      "value": "-0.02%"
+      "value": "0.93%"
     }
   ],
   "top_themes": [
-    "fiscal_policy: U.S. sanctions Russian nationals for laundering millions in crypto for North Korean IT workers",
-    "earnings: Amazon’s stock drops — even in the face of a bold new cloud forecast",
-    "regulation: Two Entities Charged in $130 Million Fraud Scheme That Used False SEC Filings to Boost Investor Confidence"
+    "geopolitical_risk: Why gold plunged to its lowest price in a year despite renewed Iran jitters",
+    "earnings: Microsoft is winning the cloud wars and becoming Wall Street’s new golden child",
+    "regulation: SEC Issues Exemptive Relief from Treasury Clearing Requirements for Certain Inter-Affiliate and Non-U.S. Repo Transactions"
   ],
   "news_counts": {
-    "must_read": 10,
-    "policy_watch": 6,
-    "background": 12
+    "must_read": 9,
+    "policy_watch": 4,
+    "background": 20
   },
   "focus_news": [
     {
-      "title": "U.S. sanctions Russian nationals for laundering millions in crypto for North Korean IT workers",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/10/29/u-s-sanctions-russian-crypto-middlemen-tied-to-north-korean-it-worker-fraud",
-      "event_type": "fiscal_policy",
+      "title": "Why gold plunged to its lowest price in a year despite renewed Iran jitters",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/why-gold-plunged-to-its-lowest-price-in-a-year-despite-renewed-iran-jitters-365be0e2?mod=mw_rss_topstories",
+      "event_type": "geopolitical_risk",
       "importance_tier": 1,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
-      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
-      "assets": []
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "地缘风险可能推升避险需求、能源价格和市场波动率。",
+      "market_impact": "主要影响 CL=F，方向为 positive，强度 high；供给扰动或 OPEC 减产通常推升 WTI 原油。",
+      "assets": [
+        "BZ=F",
+        "CL=F",
+        "SPY"
+      ]
     },
     {
-      "title": "Amazon’s stock drops — even in the face of a bold new cloud forecast",
+      "title": "Microsoft is winning the cloud wars and becoming Wall Street’s new golden child",
       "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/amazons-bold-cloud-forecast-isnt-enough-to-stave-off-a-stock-drop-ee23c1bb?mod=mw_rss_topstories",
+      "url": "https://www.marketwatch.com/story/microsoft-is-winning-the-cloud-wars-and-becoming-wall-streets-new-golden-child-62eecbbd?mod=mw_rss_topstories",
       "event_type": "earnings",
       "importance_tier": 2,
       "impact_strength": "high",
@@ -80,6 +83,23 @@
         "META",
         "MSFT",
         "NVDA"
+      ]
+    },
+    {
+      "title": "SEC Issues Exemptive Relief from Treasury Clearing Requirements for Certain Inter-Affiliate and Non-U.S. Repo Transactions",
+      "source": "SEC Press Releases",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-111-sec-issues-exemptive-relief-treasury-clearing-requirements-certain-inter-affiliate-non-us-repo",
+      "event_type": "regulation",
+      "importance_tier": 2,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "assets": [
+        "BTC",
+        "COIN",
+        "ETH",
+        "crypto market"
       ]
     },
     {
@@ -98,16 +118,18 @@
         "ETH",
         "crypto market"
       ]
-    },
+    }
+  ],
+  "policy_news": [
     {
-      "title": "From rivals to partners: Polygon and Solana team to bring stablecoin payments to banks",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/10/29/from-rivals-to-partners-polygon-and-solana-team-to-bring-stablecoin-payments-to-banks",
-      "event_type": "crypto_market_structure",
+      "title": "SEC Issues Exemptive Relief from Treasury Clearing Requirements for Certain Inter-Affiliate and Non-U.S. Repo Transactions",
+      "source": "SEC Press Releases",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-111-sec-issues-exemptive-relief-treasury-clearing-requirements-certain-inter-affiliate-non-us-repo",
+      "event_type": "regulation",
       "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
+      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
       "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
       "assets": [
         "BTC",
@@ -115,20 +137,6 @@
         "ETH",
         "crypto market"
       ]
-    }
-  ],
-  "policy_news": [
-    {
-      "title": "U.S. sanctions Russian nationals for laundering millions in crypto for North Korean IT workers",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/10/29/u-s-sanctions-russian-crypto-middlemen-tied-to-north-korean-it-worker-fraud",
-      "event_type": "fiscal_policy",
-      "importance_tier": 1,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
-      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
-      "assets": []
     },
     {
       "title": "Two Entities Charged in $130 Million Fraud Scheme That Used False SEC Filings to Boost Investor Confidence",
@@ -167,95 +175,95 @@
   ],
   "asset_movers": [
     {
-      "symbol": "RIPPLE",
-      "group": "CRYPTO",
-      "price": "1.20",
-      "one_day": "-9.20%",
-      "five_day": "-7.36%",
-      "trend": "strong_downtrend",
-      "direction": "down"
-    },
-    {
-      "symbol": "SOLANA",
-      "group": "CRYPTO",
-      "price": "93.43",
-      "one_day": "-8.68%",
-      "five_day": "-8.64%",
-      "trend": "strong_downtrend",
-      "direction": "down"
-    },
-    {
-      "symbol": "BINANCECOIN",
-      "group": "CRYPTO",
-      "price": "693.19",
-      "one_day": "-8.68%",
-      "five_day": "-6.20%",
-      "trend": "strong_downtrend",
-      "direction": "down"
-    },
-    {
-      "symbol": "ETH",
-      "group": "CRYPTO",
-      "price": "2,188.71",
-      "one_day": "-7.16%",
-      "five_day": "-7.12%",
-      "trend": "strong_downtrend",
-      "direction": "down"
-    },
-    {
-      "symbol": "BTC",
-      "group": "CRYPTO",
-      "price": "76,740.65",
-      "one_day": "-5.58%",
-      "five_day": "-5.04%",
-      "trend": "range_bound",
-      "direction": "down"
+      "symbol": "^VIX",
+      "group": "US_MACRO_MARKET",
+      "price": "19.42",
+      "one_day": "12.91%",
+      "five_day": "-0.15%",
+      "trend": "strong_uptrend",
+      "direction": "up"
     },
     {
       "symbol": "SI=F",
       "group": "COMMODITIES",
-      "price": "51.45",
-      "one_day": "-3.75%",
-      "five_day": "-6.05%",
+      "price": "49.13",
+      "one_day": "-5.86%",
+      "five_day": "-8.52%",
       "trend": "strong_downtrend",
+      "direction": "down"
+    },
+    {
+      "symbol": "GC=F",
+      "group": "COMMODITIES",
+      "price": "3,884.90",
+      "one_day": "-3.63%",
+      "five_day": "-3.07%",
+      "trend": "strong_downtrend",
+      "direction": "down"
+    },
+    {
+      "symbol": "QQQ",
+      "group": "US_EQUITY",
+      "price": "690.49",
+      "one_day": "-3.47%",
+      "five_day": "-1.97%",
+      "trend": "range_bound",
+      "direction": "down"
+    },
+    {
+      "symbol": "3690.HK",
+      "group": "HK_MARKET",
+      "price": "71.60",
+      "one_day": "3.47%",
+      "five_day": "-0.07%",
+      "trend": "downtrend",
+      "direction": "up"
+    },
+    {
+      "symbol": "1810.HK",
+      "group": "HK_MARKET",
+      "price": "26.48",
+      "one_day": "3.12%",
+      "five_day": "-1.19%",
+      "trend": "range_bound",
+      "direction": "up"
+    },
+    {
+      "symbol": "NG=F",
+      "group": "COMMODITIES",
+      "price": "2.88",
+      "one_day": "-2.34%",
+      "five_day": "9.20%",
+      "trend": "range_bound",
       "direction": "down"
     },
     {
       "symbol": "BZ=F",
       "group": "COMMODITIES",
-      "price": "111.57",
-      "one_day": "-3.25%",
-      "five_day": "-1.41%",
+      "price": "112.33",
+      "one_day": "-2.22%",
+      "five_day": "-3.76%",
       "trend": "strong_uptrend",
       "direction": "down"
-    },
-    {
-      "symbol": "NG=F",
-      "group": "COMMODITIES",
-      "price": "2.90",
-      "one_day": "2.88%",
-      "five_day": "3.65%",
-      "trend": "range_bound",
-      "direction": "up"
     }
   ],
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-10-30/COMMODITIES_summary.png"
+      "src": "charts/2026-10-31/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-10-30/CRYPTO_summary.png"
+      "src": "charts/2026-10-31/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-10-30/HK_MARKET_summary.png"
+      "src": "charts/2026-10-31/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-10-30/US_EQUITY_summary.png"
+      "src": "charts/2026-10-31/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-10-30.html"
+  "latest_report_href": "reports/2026-10-31.html"
 }
