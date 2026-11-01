@@ -1,7 +1,7 @@
 {
-  "latest_date": "2026-10-31",
-  "market_data_date": "2026-10-31",
-  "chart_date": "2026-10-31",
+  "latest_date": "2026-11-01",
+  "market_data_date": "2026-11-01",
+  "chart_date": "2026-11-01",
   "regime": "risk_off",
   "regime_summary": "股指回落、VIX 抬升且避险资产走强，市场偏风险规避。",
   "key_moves": [
@@ -9,7 +9,8 @@
     "QQQ 下跌 -3.47%",
     "VIX 上涨 12.91%",
     "TLT 上涨 0.43%",
-    "Gold 下跌 -3.63%"
+    "Gold 下跌 -3.29%",
+    "Oil 上涨 2.08%"
   ],
   "watch_points": [
     "关注避险是否演变为信用或流动性压力。"
@@ -29,62 +30,26 @@
     },
     {
       "label": "BTC",
-      "value": "-0.46%"
+      "value": "0.44%"
     },
     {
       "label": "Gold",
-      "value": "-3.63%"
+      "value": "-3.29%"
     },
     {
       "label": "Oil",
-      "value": "0.93%"
+      "value": "2.08%"
     }
   ],
   "top_themes": [
-    "geopolitical_risk: Why gold plunged to its lowest price in a year despite renewed Iran jitters",
-    "earnings: Microsoft is winning the cloud wars and becoming Wall Street’s new golden child",
     "regulation: SEC Issues Exemptive Relief from Treasury Clearing Requirements for Certain Inter-Affiliate and Non-U.S. Repo Transactions"
   ],
   "news_counts": {
-    "must_read": 9,
-    "policy_watch": 4,
+    "must_read": 3,
+    "policy_watch": 1,
     "background": 20
   },
   "focus_news": [
-    {
-      "title": "Why gold plunged to its lowest price in a year despite renewed Iran jitters",
-      "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/why-gold-plunged-to-its-lowest-price-in-a-year-despite-renewed-iran-jitters-365be0e2?mod=mw_rss_topstories",
-      "event_type": "geopolitical_risk",
-      "importance_tier": 1,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "地缘风险可能推升避险需求、能源价格和市场波动率。",
-      "market_impact": "主要影响 CL=F，方向为 positive，强度 high；供给扰动或 OPEC 减产通常推升 WTI 原油。",
-      "assets": [
-        "BZ=F",
-        "CL=F",
-        "SPY"
-      ]
-    },
-    {
-      "title": "Microsoft is winning the cloud wars and becoming Wall Street’s new golden child",
-      "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/microsoft-is-winning-the-cloud-wars-and-becoming-wall-streets-new-golden-child-62eecbbd?mod=mw_rss_topstories",
-      "event_type": "earnings",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
-      "market_impact": "主要影响 QQQ，方向为 mixed，强度 high；AI 资本开支会影响大型科技股盈利和估值预期。",
-      "assets": [
-        "AMZN",
-        "GOOGL",
-        "META",
-        "MSFT",
-        "NVDA"
-      ]
-    },
     {
       "title": "SEC Issues Exemptive Relief from Treasury Clearing Requirements for Certain Inter-Affiliate and Non-U.S. Repo Transactions",
       "source": "SEC Press Releases",
@@ -103,20 +68,39 @@
       ]
     },
     {
-      "title": "Two Entities Charged in $130 Million Fraud Scheme That Used False SEC Filings to Boost Investor Confidence",
-      "source": "SEC Press Releases",
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-110-two-entities-charged-130-million-fraud-scheme-used-false-sec-filings-boost-investor-confidence",
-      "event_type": "regulation",
-      "importance_tier": 2,
+      "title": "Is it curtains for COLA? Saving Social Security could mean changing the cost-of-living adjustment.",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/is-it-curtains-for-cola-saving-social-security-could-mean-changing-the-cost-of-living-adjustment-867c6bd8?mod=mw_rss_topstories",
+      "event_type": "other",
+      "importance_tier": 3,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
       "assets": [
         "BTC",
-        "COIN",
-        "ETH",
-        "crypto market"
+        "DXY",
+        "GC=F",
+        "QQQ",
+        "SPY"
+      ]
+    },
+    {
+      "title": "(Reference) Outlook Report and Indicators Related to Underlying Inflation",
+      "source": "Bank of Japan Announcements",
+      "url": "http://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k261030b.pdf",
+      "event_type": "other",
+      "importance_tier": 3,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
+      "assets": [
+        "BTC",
+        "DXY",
+        "GC=F",
+        "QQQ",
+        "SPY"
       ]
     }
   ],
@@ -130,40 +114,6 @@
       "impact_strength": "high",
       "impact_direction": "mixed",
       "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
-      "assets": [
-        "BTC",
-        "COIN",
-        "ETH",
-        "crypto market"
-      ]
-    },
-    {
-      "title": "Two Entities Charged in $130 Million Fraud Scheme That Used False SEC Filings to Boost Investor Confidence",
-      "source": "SEC Press Releases",
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-110-two-entities-charged-130-million-fraud-scheme-used-false-sec-filings-boost-investor-confidence",
-      "event_type": "regulation",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
-      "assets": [
-        "BTC",
-        "COIN",
-        "ETH",
-        "crypto market"
-      ]
-    },
-    {
-      "title": "From rivals to partners: Polygon and Solana team to bring stablecoin payments to banks",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/10/29/from-rivals-to-partners-polygon-and-solana-team-to-bring-stablecoin-payments-to-banks",
-      "event_type": "crypto_market_structure",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
       "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
       "assets": [
         "BTC",
@@ -186,18 +136,9 @@
     {
       "symbol": "SI=F",
       "group": "COMMODITIES",
-      "price": "49.13",
-      "one_day": "-5.86%",
-      "five_day": "-8.52%",
-      "trend": "strong_downtrend",
-      "direction": "down"
-    },
-    {
-      "symbol": "GC=F",
-      "group": "COMMODITIES",
-      "price": "3,884.90",
-      "one_day": "-3.63%",
-      "five_day": "-3.07%",
+      "price": "49.10",
+      "one_day": "-5.93%",
+      "five_day": "-8.59%",
       "trend": "strong_downtrend",
       "direction": "down"
     },
@@ -220,6 +161,15 @@
       "direction": "up"
     },
     {
+      "symbol": "GC=F",
+      "group": "COMMODITIES",
+      "price": "3,898.90",
+      "one_day": "-3.29%",
+      "five_day": "-2.72%",
+      "trend": "strong_downtrend",
+      "direction": "down"
+    },
+    {
       "symbol": "1810.HK",
       "group": "HK_MARKET",
       "price": "26.48",
@@ -229,41 +179,41 @@
       "direction": "up"
     },
     {
-      "symbol": "NG=F",
-      "group": "COMMODITIES",
-      "price": "2.88",
-      "one_day": "-2.34%",
-      "five_day": "9.20%",
-      "trend": "range_bound",
-      "direction": "down"
-    },
-    {
       "symbol": "BZ=F",
       "group": "COMMODITIES",
-      "price": "112.33",
-      "one_day": "-2.22%",
-      "five_day": "-3.76%",
+      "price": "117.64",
+      "one_day": "2.40%",
+      "five_day": "0.79%",
       "trend": "strong_uptrend",
-      "direction": "down"
+      "direction": "up"
+    },
+    {
+      "symbol": "CL=F",
+      "group": "COMMODITIES",
+      "price": "104.12",
+      "one_day": "2.08%",
+      "five_day": "0.82%",
+      "trend": "strong_uptrend",
+      "direction": "up"
     }
   ],
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-10-31/COMMODITIES_summary.png"
+      "src": "charts/2026-11-01/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-10-31/CRYPTO_summary.png"
+      "src": "charts/2026-11-01/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-10-31/HK_MARKET_summary.png"
+      "src": "charts/2026-11-01/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-10-31/US_EQUITY_summary.png"
+      "src": "charts/2026-11-01/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-10-31.html"
+  "latest_report_href": "reports/2026-11-01.html"
 }
