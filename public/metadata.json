@@ -1,13 +1,18 @@
 {
-  "latest_date": "2026-11-04",
-  "market_data_date": "2026-11-04",
-  "chart_date": "2026-11-04",
+  "latest_date": "2026-11-05",
+  "market_data_date": "2026-11-05",
+  "chart_date": "2026-11-05",
   "regime": "unknown",
   "regime_summary": "市场信号不足，暂不判断明确状态。",
   "key_moves": [
-    "SPY 下跌 -0.48%",
-    "QQQ 下跌 -1.36%",
-    "DXY 下跌 -0.46%"
+    "QQQ 上涨 0.62%",
+    "VIX 下跌 -20.26%",
+    "TLT 下跌 -0.76%",
+    "DXY 下跌 -0.57%",
+    "Gold 上涨 5.07%",
+    "Oil 下跌 -9.17%",
+    "BTC 上涨 4.26%",
+    "ETH 上涨 6.88%"
   ],
   "watch_points": [
     "关注后续数据是否确认当前跨资产信号。"
@@ -15,61 +20,49 @@
   "cards": [
     {
       "label": "美股 SPY",
-      "value": "-0.48%"
+      "value": "0.30%"
     },
     {
       "label": "QQQ",
-      "value": "-1.36%"
+      "value": "0.62%"
     },
     {
       "label": "VIX",
-      "value": "-1.51%"
+      "value": "-20.26%"
     },
     {
       "label": "BTC",
-      "value": "0.20%"
+      "value": "4.26%"
     },
     {
       "label": "Gold",
-      "value": "0.09%"
+      "value": "5.07%"
     },
     {
       "label": "Oil",
-      "value": "-0.91%"
+      "value": "-9.17%"
     }
   ],
   "top_themes": [
-    "fiscal_policy: Justin Sun seeks sanctions against Trump-linked World Liberty Financial over UAE ties",
-    "crypto_market_structure: Stablecoin governance group behind OUSD sets out management fee, offers equity earning pool",
-    "earnings: Super Micro’s stock pops as earnings show booming demand for AI servers"
+    "regulation: SEC Adopts Amendments to Update Definitions of Small Entity for Investment Companies and Investment Advisers",
+    "earnings: This year’s worst-performing S&P 500 stock is finally seeing some major relief",
+    "earnings: Circle beats earnings expectations on strong revenue, but cuts 5% of its workforce"
   ],
   "news_counts": {
-    "must_read": 8,
-    "policy_watch": 3,
-    "background": 14
+    "must_read": 5,
+    "policy_watch": 1,
+    "background": 17
   },
   "focus_news": [
     {
-      "title": "Justin Sun seeks sanctions against Trump-linked World Liberty Financial over UAE ties",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/11/03/justin-sun-seeks-sanctions-against-trump-linked-world-liberty-financial-over-uae-ties",
-      "event_type": "fiscal_policy",
-      "importance_tier": 1,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
-      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
-      "assets": []
-    },
-    {
-      "title": "Stablecoin governance group behind OUSD sets out management fee, offers equity earning pool",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/11/03/stablecoin-governance-group-behind-ousd-sets-out-management-fee-offers-equity-earning-pool",
-      "event_type": "crypto_market_structure",
+      "title": "SEC Adopts Amendments to Update Definitions of Small Entity for Investment Companies and Investment Advisers",
+      "source": "SEC Press Releases",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-112-sec-adopts-amendments-update-definitions-small-entity-investment-companies-investment-advisers",
+      "event_type": "regulation",
       "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
+      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
       "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
       "assets": [
         "BTC",
@@ -79,9 +72,9 @@
       ]
     },
     {
-      "title": "Super Micro’s stock pops as earnings show booming demand for AI servers",
+      "title": "This year’s worst-performing S&P 500 stock is finally seeing some major relief",
       "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/super-micros-stock-pops-as-earnings-show-booming-demand-for-ai-servers-2d179658?mod=mw_rss_topstories",
+      "url": "https://www.marketwatch.com/story/this-years-worst-performing-s-p-500-stock-is-finally-seeing-some-major-relief-fff3fa85?mod=mw_rss_topstories",
       "event_type": "earnings",
       "importance_tier": 2,
       "impact_strength": "low",
@@ -91,9 +84,9 @@
       "assets": []
     },
     {
-      "title": "What analysts are telling us while Apple’s stock falls after earnings report",
-      "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/what-analysts-are-saying-as-apples-stock-falls-after-earnings-report-f0afa357?mod=mw_rss_topstories",
+      "title": "Circle beats earnings expectations on strong revenue, but cuts 5% of its workforce",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/11/04/circle-beats-earnings-and-revenue-estimates-on-soaring-usdc-transaction-volume",
       "event_type": "earnings",
       "importance_tier": 2,
       "impact_strength": "low",
@@ -101,30 +94,34 @@
       "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
       "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
       "assets": []
+    },
+    {
+      "title": "10-year Treasury yield slides as traders mull over Democrats' midterm victories, oil prices drop",
+      "source": "CNBC Economy",
+      "url": "https://www.cnbc.com/2026/11/03/treasury-yields-fall-as-democrats-win-big-in-us-midterm-elections.html",
+      "event_type": "other",
+      "importance_tier": 3,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "market_impact": "主要影响 CL=F，方向为 positive，强度 high；供给扰动或 OPEC 减产通常推升 WTI 原油。",
+      "assets": [
+        "BZ=F",
+        "CL=F",
+        "SPY"
+      ]
     }
   ],
   "policy_news": [
     {
-      "title": "Justin Sun seeks sanctions against Trump-linked World Liberty Financial over UAE ties",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/11/03/justin-sun-seeks-sanctions-against-trump-linked-world-liberty-financial-over-uae-ties",
-      "event_type": "fiscal_policy",
-      "importance_tier": 1,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
-      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
-      "assets": []
-    },
-    {
-      "title": "Stablecoin governance group behind OUSD sets out management fee, offers equity earning pool",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/11/03/stablecoin-governance-group-behind-ousd-sets-out-management-fee-offers-equity-earning-pool",
-      "event_type": "crypto_market_structure",
+      "title": "SEC Adopts Amendments to Update Definitions of Small Entity for Investment Companies and Investment Advisers",
+      "source": "SEC Press Releases",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-112-sec-adopts-amendments-update-definitions-small-entity-investment-companies-investment-advisers",
+      "event_type": "regulation",
       "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
+      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
       "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
       "assets": [
         "BTC",
@@ -132,111 +129,99 @@
         "ETH",
         "crypto market"
       ]
-    },
-    {
-      "title": "South Korea's president says country needs a ‘cybersecurity czar’ following $6.3 billion Binance hack",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/tech/2026/11/03/south-korea-s-president-says-country-needs-a-cybersecurity-czar-following-usd6-3-billion-binance-hack",
-      "event_type": "central_bank_speech",
-      "importance_tier": 2,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "央行官员表态可能影响市场对下一次会议的定价。",
-      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
-      "assets": []
     }
   ],
   "asset_movers": [
     {
-      "symbol": "HG=F",
-      "group": "COMMODITIES",
-      "price": "6.37",
-      "one_day": "-2.61%",
-      "five_day": "-3.76%",
-      "trend": "strong_downtrend",
-      "direction": "down"
-    },
-    {
-      "symbol": "1810.HK",
-      "group": "HK_MARKET",
-      "price": "28.00",
-      "one_day": "-2.10%",
-      "five_day": "9.29%",
-      "trend": "range_bound",
-      "direction": "down"
-    },
-    {
-      "symbol": "1211.HK",
-      "group": "HK_MARKET",
-      "price": "70.90",
-      "one_day": "-2.00%",
-      "five_day": "0.64%",
-      "trend": "downtrend",
-      "direction": "down"
-    },
-    {
       "symbol": "^VIX",
       "group": "US_MACRO_MARKET",
-      "price": "20.83",
-      "one_day": "-1.51%",
-      "five_day": "18.89%",
-      "trend": "strong_uptrend",
+      "price": "16.61",
+      "one_day": "-20.26%",
+      "five_day": "-1.77%",
+      "trend": "range_bound",
       "direction": "down"
     },
     {
       "symbol": "BZ=F",
       "group": "COMMODITIES",
-      "price": "103.27",
-      "one_day": "-1.43%",
-      "five_day": "-9.32%",
+      "price": "93.77",
+      "one_day": "-9.49%",
+      "five_day": "-18.69%",
       "trend": "range_bound",
       "direction": "down"
     },
     {
-      "symbol": "QQQ",
-      "group": "US_EQUITY",
-      "price": "681.09",
-      "one_day": "-1.36%",
-      "five_day": "-4.37%",
+      "symbol": "CL=F",
+      "group": "COMMODITIES",
+      "price": "87.28",
+      "one_day": "-9.17%",
+      "five_day": "-15.08%",
       "trend": "range_bound",
       "direction": "down"
     },
     {
       "symbol": "SI=F",
       "group": "COMMODITIES",
-      "price": "50.04",
-      "one_day": "-1.33%",
-      "five_day": "-7.82%",
+      "price": "53.24",
+      "one_day": "7.36%",
+      "five_day": "-0.42%",
       "trend": "strong_downtrend",
-      "direction": "down"
+      "direction": "up"
+    },
+    {
+      "symbol": "ETH",
+      "group": "CRYPTO",
+      "price": "2,430.14",
+      "one_day": "6.88%",
+      "five_day": "8.37%",
+      "trend": "range_bound",
+      "direction": "up"
+    },
+    {
+      "symbol": "3690.HK",
+      "group": "HK_MARKET",
+      "price": "80.20",
+      "one_day": "6.65%",
+      "five_day": "15.90%",
+      "trend": "range_bound",
+      "direction": "up"
     },
     {
       "symbol": "9988.HK",
       "group": "HK_MARKET",
-      "price": "98.30",
-      "one_day": "-1.26%",
-      "five_day": "-0.61%",
-      "trend": "strong_downtrend",
-      "direction": "down"
+      "price": "106.20",
+      "one_day": "5.57%",
+      "five_day": "10.51%",
+      "trend": "range_bound",
+      "direction": "up"
+    },
+    {
+      "symbol": "1810.HK",
+      "group": "HK_MARKET",
+      "price": "30.32",
+      "one_day": "5.42%",
+      "five_day": "18.07%",
+      "trend": "range_bound",
+      "direction": "up"
     }
   ],
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-11-04/COMMODITIES_summary.png"
+      "src": "charts/2026-11-05/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-11-04/CRYPTO_summary.png"
+      "src": "charts/2026-11-05/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-11-04/HK_MARKET_summary.png"
+      "src": "charts/2026-11-05/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-11-04/US_EQUITY_summary.png"
+      "src": "charts/2026-11-05/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-11-04.html"
+  "latest_report_href": "reports/2026-11-05.html"
 }
