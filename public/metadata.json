@@ -1,118 +1,150 @@
 {
-  "latest_date": "2026-11-05",
-  "market_data_date": "2026-11-05",
-  "chart_date": "2026-11-05",
-  "regime": "unknown",
-  "regime_summary": "市场信号不足，暂不判断明确状态。",
+  "latest_date": "2026-11-06",
+  "market_data_date": "2026-11-06",
+  "chart_date": "2026-11-06",
+  "regime": "mixed",
+  "regime_summary": "股指上涨、波动率或美元回落，市场更接近风险偏好改善。 但存在信号冲突，需要降低单一叙事置信度。",
   "key_moves": [
-    "QQQ 上涨 0.62%",
-    "VIX 下跌 -20.26%",
-    "TLT 下跌 -0.76%",
-    "DXY 下跌 -0.57%",
-    "Gold 上涨 5.07%",
-    "Oil 下跌 -9.17%",
-    "BTC 上涨 4.26%",
-    "ETH 上涨 6.88%"
+    "SPY 上涨 1.65%",
+    "QQQ 上涨 0.97%",
+    "VIX 上涨 69.66%",
+    "TLT 上涨 0.80%",
+    "Oil 上涨 3.25%",
+    "BTC 下跌 -5.45%",
+    "ETH 下跌 -7.68%"
   ],
   "watch_points": [
-    "关注后续数据是否确认当前跨资产信号。"
+    "确认风险偏好是否扩散到小盘股、信用利差和周期品。"
   ],
   "cards": [
     {
       "label": "美股 SPY",
-      "value": "0.30%"
+      "value": "1.65%"
     },
     {
       "label": "QQQ",
-      "value": "0.62%"
+      "value": "0.97%"
     },
     {
       "label": "VIX",
-      "value": "-20.26%"
+      "value": "69.66%"
     },
     {
       "label": "BTC",
-      "value": "4.26%"
+      "value": "-5.45%"
     },
     {
       "label": "Gold",
-      "value": "5.07%"
+      "value": "0.04%"
     },
     {
       "label": "Oil",
-      "value": "-9.17%"
+      "value": "3.25%"
     }
   ],
   "top_themes": [
-    "regulation: SEC Adopts Amendments to Update Definitions of Small Entity for Investment Companies and Investment Advisers",
-    "earnings: This year’s worst-performing S&P 500 stock is finally seeing some major relief",
-    "earnings: Circle beats earnings expectations on strong revenue, but cuts 5% of its workforce"
+    "fiscal_policy: The 2027 tax brackets are out. See what the standard deduction and SALT tax breaks will be.",
+    "geopolitical_risk: Mercado Bitcoin hack continued hours after exchange said attack was contained, report finds",
+    "fiscal_policy: Hong Kong passes law requiring crypto exchanges to report customer transactions to tax authorities"
   ],
   "news_counts": {
-    "must_read": 5,
-    "policy_watch": 1,
-    "background": 17
+    "must_read": 10,
+    "policy_watch": 4,
+    "background": 19
   },
   "focus_news": [
     {
-      "title": "SEC Adopts Amendments to Update Definitions of Small Entity for Investment Companies and Investment Advisers",
-      "source": "SEC Press Releases",
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-112-sec-adopts-amendments-update-definitions-small-entity-investment-companies-investment-advisers",
-      "event_type": "regulation",
-      "importance_tier": 2,
+      "title": "The 2027 tax brackets are out. See what the standard deduction and SALT tax breaks will be.",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/the-2027-tax-brackets-are-out-see-what-the-standard-deduction-and-salt-tax-breaks-will-be-5dd1d293?mod=mw_rss_topstories",
+      "event_type": "fiscal_policy",
+      "importance_tier": 1,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
+      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
       "assets": [
         "BTC",
-        "COIN",
-        "ETH",
-        "crypto market"
+        "DXY",
+        "GC=F",
+        "QQQ",
+        "SPY"
       ]
     },
     {
-      "title": "This year’s worst-performing S&P 500 stock is finally seeing some major relief",
-      "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/this-years-worst-performing-s-p-500-stock-is-finally-seeing-some-major-relief-fff3fa85?mod=mw_rss_topstories",
-      "event_type": "earnings",
-      "importance_tier": 2,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
-      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
-      "assets": []
-    },
-    {
-      "title": "Circle beats earnings expectations on strong revenue, but cuts 5% of its workforce",
+      "title": "Mercado Bitcoin hack continued hours after exchange said attack was contained, report finds",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/11/04/circle-beats-earnings-and-revenue-estimates-on-soaring-usdc-transaction-volume",
-      "event_type": "earnings",
-      "importance_tier": 2,
+      "url": "https://www.coindesk.com/business/2026/11/05/mercado-bitcoin-hack-continued-hours-after-exchange-said-attack-was-contained-report-finds",
+      "event_type": "geopolitical_risk",
+      "importance_tier": 1,
       "impact_strength": "low",
       "impact_direction": "unknown",
-      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
+      "reason": "地缘风险可能推升避险需求、能源价格和市场波动率。",
       "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
       "assets": []
     },
     {
-      "title": "10-year Treasury yield slides as traders mull over Democrats' midterm victories, oil prices drop",
-      "source": "CNBC Economy",
-      "url": "https://www.cnbc.com/2026/11/03/treasury-yields-fall-as-democrats-win-big-in-us-midterm-elections.html",
-      "event_type": "other",
-      "importance_tier": 3,
+      "title": "Hong Kong passes law requiring crypto exchanges to report customer transactions to tax authorities",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/11/04/hong-kong-passes-law-requiring-crypto-exchanges-to-report-customer-transactions-to-tax-authorities",
+      "event_type": "fiscal_policy",
+      "importance_tier": 1,
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "assets": []
+    },
+    {
+      "title": "Google could take stake in bitcoin miner TeraWulf’s $19 billion AI project if Anthropic defaults",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/tech/2026/11/05/google-could-take-ownership-stake-in-bitcoin-miner-terawulf-s-ai-project-if-anthropic-defaults",
+      "event_type": "earnings",
+      "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
-      "market_impact": "主要影响 CL=F，方向为 positive，强度 high；供给扰动或 OPEC 减产通常推升 WTI 原油。",
+      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
+      "market_impact": "主要影响 QQQ，方向为 mixed，强度 high；AI 资本开支会影响大型科技股盈利和估值预期。",
       "assets": [
-        "BZ=F",
-        "CL=F",
-        "SPY"
+        "AMZN",
+        "GOOGL",
+        "META",
+        "MSFT",
+        "NVDA"
       ]
     }
   ],
   "policy_news": [
+    {
+      "title": "The 2027 tax brackets are out. See what the standard deduction and SALT tax breaks will be.",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/the-2027-tax-brackets-are-out-see-what-the-standard-deduction-and-salt-tax-breaks-will-be-5dd1d293?mod=mw_rss_topstories",
+      "event_type": "fiscal_policy",
+      "importance_tier": 1,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
+      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
+      "assets": [
+        "BTC",
+        "DXY",
+        "GC=F",
+        "QQQ",
+        "SPY"
+      ]
+    },
+    {
+      "title": "Hong Kong passes law requiring crypto exchanges to report customer transactions to tax authorities",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/11/04/hong-kong-passes-law-requiring-crypto-exchanges-to-report-customer-transactions-to-tax-authorities",
+      "event_type": "fiscal_policy",
+      "importance_tier": 1,
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "assets": []
+    },
     {
       "title": "SEC Adopts Amendments to Update Definitions of Small Entity for Investment Companies and Investment Advisers",
       "source": "SEC Press Releases",
@@ -135,93 +167,93 @@
     {
       "symbol": "^VIX",
       "group": "US_MACRO_MARKET",
-      "price": "16.61",
-      "one_day": "-20.26%",
-      "five_day": "-1.77%",
-      "trend": "range_bound",
-      "direction": "down"
-    },
-    {
-      "symbol": "BZ=F",
-      "group": "COMMODITIES",
-      "price": "93.77",
-      "one_day": "-9.49%",
-      "five_day": "-18.69%",
-      "trend": "range_bound",
-      "direction": "down"
-    },
-    {
-      "symbol": "CL=F",
-      "group": "COMMODITIES",
-      "price": "87.28",
-      "one_day": "-9.17%",
-      "five_day": "-15.08%",
-      "trend": "range_bound",
-      "direction": "down"
-    },
-    {
-      "symbol": "SI=F",
-      "group": "COMMODITIES",
-      "price": "53.24",
-      "one_day": "7.36%",
-      "five_day": "-0.42%",
-      "trend": "strong_downtrend",
+      "price": "28.18",
+      "one_day": "69.66%",
+      "five_day": "63.84%",
+      "trend": "strong_uptrend",
       "direction": "up"
     },
     {
       "symbol": "ETH",
       "group": "CRYPTO",
-      "price": "2,430.14",
-      "one_day": "6.88%",
-      "five_day": "8.37%",
+      "price": "2,237.10",
+      "one_day": "-7.68%",
+      "five_day": "-0.76%",
+      "trend": "strong_downtrend",
+      "direction": "down"
+    },
+    {
+      "symbol": "RIPPLE",
+      "group": "CRYPTO",
+      "price": "1.22",
+      "one_day": "-6.81%",
+      "five_day": "-2.80%",
+      "trend": "strong_downtrend",
+      "direction": "down"
+    },
+    {
+      "symbol": "SOLANA",
+      "group": "CRYPTO",
+      "price": "90.09",
+      "one_day": "-5.67%",
+      "five_day": "-5.58%",
+      "trend": "strong_downtrend",
+      "direction": "down"
+    },
+    {
+      "symbol": "BTC",
+      "group": "CRYPTO",
+      "price": "76,057.91",
+      "one_day": "-5.45%",
+      "five_day": "-1.89%",
+      "trend": "strong_downtrend",
+      "direction": "down"
+    },
+    {
+      "symbol": "BZ=F",
+      "group": "COMMODITIES",
+      "price": "99.10",
+      "one_day": "4.73%",
+      "five_day": "-13.74%",
       "trend": "range_bound",
       "direction": "up"
     },
     {
-      "symbol": "3690.HK",
-      "group": "HK_MARKET",
-      "price": "80.20",
-      "one_day": "6.65%",
-      "five_day": "15.90%",
-      "trend": "range_bound",
-      "direction": "up"
+      "symbol": "BINANCECOIN",
+      "group": "CRYPTO",
+      "price": "693.12",
+      "one_day": "-3.65%",
+      "five_day": "-1.42%",
+      "trend": "strong_downtrend",
+      "direction": "down"
     },
     {
       "symbol": "9988.HK",
       "group": "HK_MARKET",
-      "price": "106.20",
-      "one_day": "5.57%",
-      "five_day": "10.51%",
+      "price": "105.30",
+      "one_day": "-3.48%",
+      "five_day": "8.50%",
       "trend": "range_bound",
-      "direction": "up"
-    },
-    {
-      "symbol": "1810.HK",
-      "group": "HK_MARKET",
-      "price": "30.32",
-      "one_day": "5.42%",
-      "five_day": "18.07%",
-      "trend": "range_bound",
-      "direction": "up"
+      "direction": "down"
     }
   ],
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-11-05/COMMODITIES_summary.png"
+      "src": "charts/2026-11-06/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-11-05/CRYPTO_summary.png"
+      "src": "charts/2026-11-06/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-11-05/HK_MARKET_summary.png"
+      "src": "charts/2026-11-06/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-11-05/US_EQUITY_summary.png"
+      "src": "charts/2026-11-06/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-11-05.html"
+  "latest_report_href": "reports/2026-11-06.html"
 }
