@@ -1,14 +1,14 @@
 {
-  "latest_date": "2026-11-07",
-  "market_data_date": "2026-11-07",
-  "chart_date": "2026-11-07",
+  "latest_date": "2026-11-08",
+  "market_data_date": "2026-11-08",
+  "chart_date": "2026-11-08",
   "regime": "risk_on",
   "regime_summary": "股指上涨、波动率或美元回落，市场更接近风险偏好改善。",
   "key_moves": [
     "QQQ 上涨 1.40%",
     "VIX 下跌 -9.01%",
-    "DXY 上涨 0.72%",
-    "Gold 下跌 -0.83%"
+    "DXY 上涨 0.74%",
+    "Gold 下跌 -0.94%"
   ],
   "watch_points": [
     "确认风险偏好是否扩散到小盘股、信用利差和周期品。"
@@ -28,28 +28,46 @@
     },
     {
       "label": "BTC",
-      "value": "-0.20%"
+      "value": "-0.07%"
     },
     {
       "label": "Gold",
-      "value": "-0.83%"
+      "value": "-0.94%"
     },
     {
       "label": "Oil",
-      "value": "-0.20%"
+      "value": "0.34%"
     }
   ],
   "top_themes": [
+    "fiscal_policy: The 2027 tax brackets are out. See what the standard deduction and SALT tax breaks will be.",
     "central_bank_speech: Americans are on a 'treadmill of high inflation' and more rate hikes are likely, Fed's Daly says",
-    "earnings: Google could take stake in bitcoin miner TeraWulf’s $19 billion AI project if Anthropic defaults",
-    "central_bank_speech: Speech by Governor UEDA at the 2026 Michel Camdessus Central Banking Lecture, International Monetary Fund"
+    "earnings: Berkshire Hathaway more than doubles buybacks in third quarter as earnings decline"
   ],
   "news_counts": {
-    "must_read": 8,
+    "must_read": 6,
     "policy_watch": 3,
-    "background": 18
+    "background": 13
   },
   "focus_news": [
+    {
+      "title": "The 2027 tax brackets are out. See what the standard deduction and SALT tax breaks will be.",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/the-2027-tax-brackets-are-out-see-what-the-standard-deduction-and-salt-tax-breaks-will-be-5dd1d293?mod=mw_rss_topstories",
+      "event_type": "fiscal_policy",
+      "importance_tier": 1,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
+      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
+      "assets": [
+        "BTC",
+        "DXY",
+        "GC=F",
+        "QQQ",
+        "SPY"
+      ]
+    },
     {
       "title": "Americans are on a 'treadmill of high inflation' and more rate hikes are likely, Fed's Daly says",
       "source": "CNBC Economy",
@@ -69,22 +87,16 @@
       ]
     },
     {
-      "title": "Google could take stake in bitcoin miner TeraWulf’s $19 billion AI project if Anthropic defaults",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/tech/2026/11/05/google-could-take-ownership-stake-in-bitcoin-miner-terawulf-s-ai-project-if-anthropic-defaults",
+      "title": "Berkshire Hathaway more than doubles buybacks in third quarter as earnings decline",
+      "source": "CNBC Economy",
+      "url": "https://www.cnbc.com/2026/11/07/berkshire-hathaway-q3-2026-earnings-buybacks.html",
       "event_type": "earnings",
       "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
+      "impact_strength": "low",
+      "impact_direction": "unknown",
       "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
-      "market_impact": "主要影响 QQQ，方向为 mixed，强度 high；AI 资本开支会影响大型科技股盈利和估值预期。",
-      "assets": [
-        "AMZN",
-        "GOOGL",
-        "META",
-        "MSFT",
-        "NVDA"
-      ]
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "assets": []
     },
     {
       "title": "Speech by Governor UEDA at the 2026 Michel Camdessus Central Banking Lecture, International Monetary Fund",
@@ -95,24 +107,30 @@
       "impact_strength": "low",
       "impact_direction": "unknown",
       "reason": "央行官员表态可能影响市场对下一次会议的定价。",
-      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
-      "assets": []
-    },
-    {
-      "title": "Micron’s stock is dirt cheap — and that’s igniting a fierce online debate",
-      "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/microns-stock-is-dirt-cheap-and-thats-igniting-a-fierce-online-debate-0626791d?mod=mw_rss_topstories",
-      "event_type": "earnings",
-      "importance_tier": 2,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
       "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
       "assets": []
     }
   ],
   "policy_news": [
     {
+      "title": "The 2027 tax brackets are out. See what the standard deduction and SALT tax breaks will be.",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/the-2027-tax-brackets-are-out-see-what-the-standard-deduction-and-salt-tax-breaks-will-be-5dd1d293?mod=mw_rss_topstories",
+      "event_type": "fiscal_policy",
+      "importance_tier": 1,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
+      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
+      "assets": [
+        "BTC",
+        "DXY",
+        "GC=F",
+        "QQQ",
+        "SPY"
+      ]
+    },
+    {
       "title": "Americans are on a 'treadmill of high inflation' and more rate hikes are likely, Fed's Daly says",
       "source": "CNBC Economy",
       "url": "https://www.cnbc.com/2026/11/06/fed-daly-interest-rates-inflation.html",
@@ -139,18 +157,6 @@
       "impact_strength": "low",
       "impact_direction": "unknown",
       "reason": "央行官员表态可能影响市场对下一次会议的定价。",
-      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
-      "assets": []
-    },
-    {
-      "title": "Federal Reserve Board announces termination of enforcement action with Allegiant United Holdings, LLC, Nano Financial Holdings, Inc., and Nano Banc",
-      "source": "Federal Reserve Press Releases",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261105a.htm",
-      "event_type": "regulation",
-      "importance_tier": 2,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
       "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
       "assets": []
     }
@@ -193,15 +199,6 @@
       "direction": "down"
     },
     {
-      "symbol": "RIPPLE",
-      "group": "CRYPTO",
-      "price": "1.18",
-      "one_day": "-2.22%",
-      "five_day": "-5.59%",
-      "trend": "strong_downtrend",
-      "direction": "down"
-    },
-    {
       "symbol": "1211.HK",
       "group": "HK_MARKET",
       "price": "74.15",
@@ -214,10 +211,19 @@
       "symbol": "NG=F",
       "group": "COMMODITIES",
       "price": "3.00",
-      "one_day": "1.90%",
-      "five_day": "3.62%",
+      "one_day": "1.73%",
+      "five_day": "3.45%",
       "trend": "uptrend",
       "direction": "up"
+    },
+    {
+      "symbol": "RIPPLE",
+      "group": "CRYPTO",
+      "price": "1.16",
+      "one_day": "-1.49%",
+      "five_day": "-7.03%",
+      "trend": "strong_downtrend",
+      "direction": "down"
     },
     {
       "symbol": "QQQ",
@@ -232,20 +238,20 @@
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-11-07/COMMODITIES_summary.png"
+      "src": "charts/2026-11-08/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-11-07/CRYPTO_summary.png"
+      "src": "charts/2026-11-08/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-11-07/HK_MARKET_summary.png"
+      "src": "charts/2026-11-08/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-11-07/US_EQUITY_summary.png"
+      "src": "charts/2026-11-08/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-11-07.html"
+  "latest_report_href": "reports/2026-11-08.html"
 }
