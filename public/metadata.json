@@ -1,14 +1,16 @@
 {
-  "latest_date": "2026-11-09",
-  "market_data_date": "2026-11-09",
-  "chart_date": "2026-11-09",
+  "latest_date": "2026-11-10",
+  "market_data_date": "2026-11-10",
+  "chart_date": "2026-11-10",
   "regime": "risk_on",
   "regime_summary": "股指上涨、波动率或美元回落，市场更接近风险偏好改善。",
   "key_moves": [
-    "QQQ 上涨 1.40%",
-    "VIX 下跌 -9.01%",
-    "Gold 上涨 0.97%",
-    "ETH 下跌 -4.74%"
+    "SPY 上涨 2.37%",
+    "QQQ 上涨 3.54%",
+    "VIX 下跌 -22.31%",
+    "DXY 下跌 -0.62%",
+    "Gold 上涨 1.09%",
+    "Oil 下跌 -5.74%"
   ],
   "watch_points": [
     "确认风险偏好是否扩散到小盘股、信用利差和周期品。"
@@ -16,48 +18,123 @@
   "cards": [
     {
       "label": "美股 SPY",
-      "value": "0.31%"
+      "value": "2.37%"
     },
     {
       "label": "QQQ",
-      "value": "1.40%"
+      "value": "3.54%"
     },
     {
       "label": "VIX",
-      "value": "-9.01%"
+      "value": "-22.31%"
     },
     {
       "label": "BTC",
-      "value": "-1.16%"
+      "value": "-0.37%"
     },
     {
       "label": "Gold",
-      "value": "0.97%"
+      "value": "1.09%"
     },
     {
       "label": "Oil",
-      "value": "-0.34%"
+      "value": "-5.74%"
     }
   ],
   "top_themes": [
-    "crypto_market_structure: Stablecoin growth has stalled. The payments boom hasn't",
-    "earnings: Berkshire Hathaway more than doubles buybacks in third quarter as earnings decline"
+    "macro_data: Bitcoin faces U.S. CPI test as analysts warn inflation relief may not be enough",
+    "macro_data: The stock-market rally keeps spreading beyond Big Tech. October inflation data could put it to the test.",
+    "earnings: U.S. inflation, corporate earnings: Crypto Week Ahead"
   ],
   "news_counts": {
-    "must_read": 4,
-    "policy_watch": 1,
-    "background": 7
+    "must_read": 8,
+    "policy_watch": 2,
+    "background": 17
   },
   "focus_news": [
     {
-      "title": "Stablecoin growth has stalled. The payments boom hasn't",
+      "title": "Bitcoin faces U.S. CPI test as analysts warn inflation relief may not be enough",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/11/08/stablecoin-growth-has-stalled-the-payments-boom-hasn-t",
-      "event_type": "crypto_market_structure",
+      "url": "https://www.coindesk.com/markets/2026/11/10/bitcoin-faces-u-s-cpi-test-as-analysts-warn-inflation-relief-may-not-be-enough",
+      "event_type": "macro_data",
+      "importance_tier": 1,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "这类宏观数据会直接改变市场对通胀、增长和政策路径的预期。",
+      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
+      "assets": [
+        "BTC",
+        "DXY",
+        "GC=F",
+        "QQQ",
+        "SPY"
+      ]
+    },
+    {
+      "title": "The stock-market rally keeps spreading beyond Big Tech. October inflation data could put it to the test.",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/the-stock-market-rally-keeps-spreading-beyond-big-tech-october-inflation-data-could-put-it-to-the-test-c1b87dcd?mod=mw_rss_topstories",
+      "event_type": "macro_data",
+      "importance_tier": 1,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "这类宏观数据会直接改变市场对通胀、增长和政策路径的预期。",
+      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
+      "assets": [
+        "BTC",
+        "DXY",
+        "GC=F",
+        "QQQ",
+        "SPY"
+      ]
+    },
+    {
+      "title": "U.S. inflation, corporate earnings: Crypto Week Ahead",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/11/09/u-s-inflation-corporate-earnings-crypto-week-ahead",
+      "event_type": "earnings",
       "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
+      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
+      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
+      "assets": [
+        "BTC",
+        "DXY",
+        "GC=F",
+        "QQQ",
+        "SPY"
+      ]
+    },
+    {
+      "title": "Bitcoin drops as Nvidia cheating scandal and failed Iran talks trigger volatility",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/11/09/bitcoin-drops-then-pops-as-nvidia-cheating-scandal-and-failed-iran-talks-trigger-volatility",
+      "event_type": "earnings",
+      "importance_tier": 2,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
+      "market_impact": "主要影响 QQQ，方向为 mixed，强度 high；AI 资本开支会影响大型科技股盈利和估值预期。",
+      "assets": [
+        "AMZN",
+        "GOOGL",
+        "META",
+        "MSFT",
+        "NVDA"
+      ]
+    }
+  ],
+  "policy_news": [
+    {
+      "title": "Solana set for its first tokenized stock venue under SEC framework, listing Galaxy",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/11/06/solana-lset-for-its-first-tokenized-stock-venue-under-sec-framework-listing-galaxy",
+      "event_type": "regulation",
+      "importance_tier": 2,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
       "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
       "assets": [
         "BTC",
@@ -66,44 +143,6 @@
         "crypto market"
       ]
     },
-    {
-      "title": "Berkshire Hathaway more than doubles buybacks in third quarter as earnings decline",
-      "source": "CNBC Economy",
-      "url": "https://www.cnbc.com/2026/11/07/berkshire-hathaway-q3-2026-earnings-buybacks.html",
-      "event_type": "earnings",
-      "importance_tier": 2,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
-      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
-      "assets": []
-    },
-    {
-      "title": "Market Operations by the Bank of Japan (Oct.)",
-      "source": "Bank of Japan Announcements",
-      "url": "http://www.boj.or.jp/en/statistics/boj/fm/ope/m_release/2026/ope2610.xlsx",
-      "event_type": "other",
-      "importance_tier": 3,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
-      "market_impact": "更偏背景信息，短期市场影响可能有限。",
-      "assets": []
-    },
-    {
-      "title": "Monetary Base and the Bank of Japan's Transactions (Oct.)",
-      "source": "Bank of Japan Announcements",
-      "url": "http://www.boj.or.jp/en/statistics/boj/other/mbt/mbt2610.pdf",
-      "event_type": "other",
-      "importance_tier": 3,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
-      "market_impact": "更偏背景信息，短期市场影响可能有限。",
-      "assets": []
-    }
-  ],
-  "policy_news": [
     {
       "title": "Stablecoin growth has stalled. The payments boom hasn't",
       "source": "CoinDesk",
@@ -126,93 +165,93 @@
     {
       "symbol": "^VIX",
       "group": "US_MACRO_MARKET",
-      "price": "25.64",
-      "one_day": "-9.01%",
-      "five_day": "32.03%",
-      "trend": "strong_uptrend",
+      "price": "19.92",
+      "one_day": "-22.31%",
+      "five_day": "-5.82%",
+      "trend": "uptrend",
       "direction": "down"
     },
     {
-      "symbol": "ETH",
-      "group": "CRYPTO",
-      "price": "2,130.93",
-      "one_day": "-4.74%",
-      "five_day": "-6.28%",
-      "trend": "strong_downtrend",
-      "direction": "down"
-    },
-    {
-      "symbol": "0700.HK",
-      "group": "HK_MARKET",
-      "price": "438.00",
-      "one_day": "4.34%",
-      "five_day": "11.68%",
-      "trend": "range_bound",
-      "direction": "up"
-    },
-    {
-      "symbol": "RIPPLE",
-      "group": "CRYPTO",
-      "price": "1.11",
-      "one_day": "-4.25%",
+      "symbol": "BZ=F",
+      "group": "COMMODITIES",
+      "price": "91.42",
+      "one_day": "-7.02%",
       "five_day": "-12.74%",
-      "trend": "strong_downtrend",
+      "trend": "range_bound",
       "direction": "down"
     },
     {
-      "symbol": "3690.HK",
-      "group": "HK_MARKET",
-      "price": "83.00",
-      "one_day": "3.23%",
-      "five_day": "13.62%",
+      "symbol": "NG=F",
+      "group": "COMMODITIES",
+      "price": "3.20",
+      "one_day": "6.77%",
+      "five_day": "12.08%",
       "trend": "range_bound",
       "direction": "up"
+    },
+    {
+      "symbol": "CL=F",
+      "group": "COMMODITIES",
+      "price": "85.62",
+      "one_day": "-5.74%",
+      "five_day": "-11.24%",
+      "trend": "range_bound",
+      "direction": "down"
     },
     {
       "symbol": "9988.HK",
       "group": "HK_MARKET",
-      "price": "107.90",
-      "one_day": "2.86%",
-      "five_day": "8.50%",
+      "price": "100.70",
+      "one_day": "-3.73%",
+      "five_day": "1.16%",
+      "trend": "downtrend",
+      "direction": "down"
+    },
+    {
+      "symbol": "QQQ",
+      "group": "US_EQUITY",
+      "price": "679.35",
+      "one_day": "3.54%",
+      "five_day": "-0.26%",
+      "trend": "strong_downtrend",
+      "direction": "up"
+    },
+    {
+      "symbol": "IWM",
+      "group": "US_EQUITY",
+      "price": "282.51",
+      "one_day": "3.23%",
+      "five_day": "1.21%",
       "trend": "range_bound",
       "direction": "up"
     },
     {
-      "symbol": "SOLANA",
-      "group": "CRYPTO",
-      "price": "87.21",
-      "one_day": "-2.77%",
-      "five_day": "-6.00%",
-      "trend": "strong_downtrend",
-      "direction": "down"
-    },
-    {
-      "symbol": "SI=F",
-      "group": "COMMODITIES",
-      "price": "53.03",
-      "one_day": "2.38%",
-      "five_day": "4.56%",
-      "trend": "strong_downtrend",
+      "symbol": "VTI",
+      "group": "US_EQUITY",
+      "price": "370.90",
+      "one_day": "2.48%",
+      "five_day": "0.24%",
+      "trend": "downtrend",
       "direction": "up"
     }
   ],
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-11-09/COMMODITIES_summary.png"
+      "src": "charts/2026-11-10/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-11-09/CRYPTO_summary.png"
+      "src": "charts/2026-11-10/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-11-09/HK_MARKET_summary.png"
+      "src": "charts/2026-11-10/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-11-09/US_EQUITY_summary.png"
+      "src": "charts/2026-11-10/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-11-09.html"
+  "latest_report_href": "reports/2026-11-10.html"
 }
