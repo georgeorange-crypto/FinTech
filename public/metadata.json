@@ -1,60 +1,60 @@
 {
-  "latest_date": "2026-11-11",
-  "market_data_date": "2026-11-11",
-  "chart_date": "2026-11-11",
-  "regime": "mixed",
-  "regime_summary": "长债下跌、美元走强且成长股承压，市场像是在交易利率冲击。 但存在信号冲突，需要降低单一叙事置信度。",
+  "latest_date": "2026-11-12",
+  "market_data_date": "2026-11-12",
+  "chart_date": "2026-11-12",
+  "regime": "risk_on",
+  "regime_summary": "股指上涨、波动率或美元回落，市场更接近风险偏好改善。",
   "key_moves": [
-    "QQQ 下跌 -0.68%",
-    "TLT 下跌 -1.32%",
-    "DXY 上涨 0.60%",
-    "Gold 下跌 -1.59%",
-    "ETH 下跌 -3.30%"
+    "SPY 上涨 1.32%",
+    "QQQ 上涨 2.31%",
+    "VIX 下跌 -10.12%",
+    "DXY 上涨 0.68%",
+    "Gold 下跌 -0.95%"
   ],
   "watch_points": [
-    "关注美债收益率、实际利率和成长股估值压力。"
+    "确认风险偏好是否扩散到小盘股、信用利差和周期品。"
   ],
   "cards": [
     {
       "label": "美股 SPY",
-      "value": "-0.37%"
+      "value": "1.32%"
     },
     {
       "label": "QQQ",
-      "value": "-0.68%"
+      "value": "2.31%"
     },
     {
       "label": "VIX",
-      "value": "-2.31%"
+      "value": "-10.12%"
     },
     {
       "label": "BTC",
-      "value": "-1.79%"
+      "value": "0.04%"
     },
     {
       "label": "Gold",
-      "value": "-1.59%"
+      "value": "-0.95%"
     },
     {
       "label": "Oil",
-      "value": "-0.75%"
+      "value": "-0.14%"
     }
   ],
   "top_themes": [
+    "macro_data: Bitcoin barely flinches at hot CPI as ETF selling slows",
     "macro_data: U.S. CPI rose stronger than expected 0.4% in October; core rate rose 0.3%",
-    "macro_data: Bitcoin faces U.S. CPI test as analysts warn inflation relief may not be enough",
     "fiscal_policy: SEC Announces Enforcement Annual Results for Fiscal Year 2026"
   ],
   "news_counts": {
-    "must_read": 9,
+    "must_read": 10,
     "policy_watch": 4,
-    "background": 20
+    "background": 18
   },
   "focus_news": [
     {
-      "title": "U.S. CPI rose stronger than expected 0.4% in October; core rate rose 0.3%",
+      "title": "Bitcoin barely flinches at hot CPI as ETF selling slows",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/11/10/u-s-cpi-rose-stronger-than-expected-0-4-in-october-core-rate-rose-0-3",
+      "url": "https://www.coindesk.com/daybook-us/2026/11/11/bitcoin-barely-flinches-at-hot-cpi-as-etf-selling-slows",
       "event_type": "macro_data",
       "importance_tier": 1,
       "impact_strength": "high",
@@ -63,16 +63,16 @@
       "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
       "assets": [
         "BTC",
+        "COIN",
         "DXY",
-        "GC=F",
-        "QQQ",
-        "SPY"
+        "ETH",
+        "GC=F"
       ]
     },
     {
-      "title": "Bitcoin faces U.S. CPI test as analysts warn inflation relief may not be enough",
+      "title": "U.S. CPI rose stronger than expected 0.4% in October; core rate rose 0.3%",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/11/10/bitcoin-faces-u-s-cpi-test-as-analysts-warn-inflation-relief-may-not-be-enough",
+      "url": "https://www.coindesk.com/markets/2026/11/10/u-s-cpi-rose-stronger-than-expected-0-4-in-october-core-rate-rose-0-3",
       "event_type": "macro_data",
       "importance_tier": 1,
       "impact_strength": "high",
@@ -105,9 +105,9 @@
       ]
     },
     {
-      "title": "Meet the former prosecutor Nvidia hired to investigate the Jensen Huang spy scandal",
-      "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/meet-the-former-prosecutor-nvidia-hired-to-investigate-the-jensen-huang-spy-scandal-e8078f67?mod=mw_rss_topstories",
+      "title": "Live news: Bitcoin remains under pressure as CoreWeave, Nvidia lead AI rebound",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/tech/2026/11/11/live-news-coreweave-jumps-14-as-earnings-fuel-rebound-across-battered-ai-stocks",
       "event_type": "earnings",
       "importance_tier": 2,
       "impact_strength": "high",
@@ -179,95 +179,95 @@
   ],
   "asset_movers": [
     {
-      "symbol": "RIPPLE",
-      "group": "CRYPTO",
-      "price": "1.06",
-      "one_day": "-3.35%",
-      "five_day": "-12.10%",
-      "trend": "strong_downtrend",
-      "direction": "down"
-    },
-    {
-      "symbol": "ETH",
-      "group": "CRYPTO",
-      "price": "2,061.84",
-      "one_day": "-3.30%",
-      "five_day": "-7.78%",
-      "trend": "strong_downtrend",
-      "direction": "down"
-    },
-    {
-      "symbol": "SOLANA",
-      "group": "CRYPTO",
-      "price": "83.80",
-      "one_day": "-3.24%",
-      "five_day": "-6.09%",
-      "trend": "strong_downtrend",
+      "symbol": "^VIX",
+      "group": "US_MACRO_MARKET",
+      "price": "17.49",
+      "one_day": "-10.12%",
+      "five_day": "5.30%",
+      "trend": "range_bound",
       "direction": "down"
     },
     {
       "symbol": "9988.HK",
       "group": "HK_MARKET",
-      "price": "101.60",
-      "one_day": "-2.87%",
-      "five_day": "2.06%",
+      "price": "96.65",
+      "one_day": "-3.93%",
+      "five_day": "-11.41%",
       "trend": "downtrend",
       "direction": "down"
     },
     {
-      "symbol": "NG=F",
-      "group": "COMMODITIES",
-      "price": "3.29",
-      "one_day": "2.33%",
-      "five_day": "13.75%",
-      "trend": "range_bound",
+      "symbol": "QQQ",
+      "group": "US_EQUITY",
+      "price": "690.38",
+      "one_day": "2.31%",
+      "five_day": "-0.23%",
+      "trend": "downtrend",
       "direction": "up"
     },
     {
-      "symbol": "^VIX",
-      "group": "US_MACRO_MARKET",
-      "price": "19.46",
-      "one_day": "-2.31%",
-      "five_day": "-6.58%",
-      "trend": "uptrend",
+      "symbol": "3690.HK",
+      "group": "HK_MARKET",
+      "price": "71.30",
+      "one_day": "-2.13%",
+      "five_day": "-11.21%",
+      "trend": "downtrend",
       "direction": "down"
     },
     {
-      "symbol": "BTC",
-      "group": "CRYPTO",
-      "price": "73,922.08",
-      "one_day": "-1.79%",
-      "five_day": "-2.74%",
+      "symbol": "1211.HK",
+      "group": "HK_MARKET",
+      "price": "67.85",
+      "one_day": "-1.95%",
+      "five_day": "-10.37%",
       "trend": "strong_downtrend",
       "direction": "down"
     },
     {
       "symbol": "1810.HK",
       "group": "HK_MARKET",
-      "price": "30.60",
-      "one_day": "1.66%",
-      "five_day": "6.99%",
+      "price": "29.62",
+      "one_day": "-1.59%",
+      "five_day": "-5.37%",
       "trend": "strong_uptrend",
+      "direction": "down"
+    },
+    {
+      "symbol": "0700.HK",
+      "group": "HK_MARKET",
+      "price": "403.20",
+      "one_day": "-1.56%",
+      "five_day": "-6.32%",
+      "trend": "range_bound",
+      "direction": "down"
+    },
+    {
+      "symbol": "SPY",
+      "group": "US_EQUITY",
+      "price": "759.81",
+      "one_day": "1.32%",
+      "five_day": "-0.91%",
+      "trend": "downtrend",
       "direction": "up"
     }
   ],
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-11-11/COMMODITIES_summary.png"
+      "src": "charts/2026-11-12/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-11-11/CRYPTO_summary.png"
+      "src": "charts/2026-11-12/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-11-11/HK_MARKET_summary.png"
+      "src": "charts/2026-11-12/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-11-11/US_EQUITY_summary.png"
+      "src": "charts/2026-11-12/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-11-11.html"
+  "latest_report_href": "reports/2026-11-12.html"
 }
