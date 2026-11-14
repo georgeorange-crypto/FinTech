@@ -1,17 +1,15 @@
 {
-  "latest_date": "2026-11-13",
-  "market_data_date": "2026-11-13",
-  "chart_date": "2026-11-13",
+  "latest_date": "2026-11-14",
+  "market_data_date": "2026-11-14",
+  "chart_date": "2026-11-14",
   "regime": "mixed",
   "regime_summary": "市场信号不足，暂不判断明确状态。 但存在信号冲突，需要降低单一叙事置信度。",
   "key_moves": [
-    "SPY 上涨 1.32%",
-    "QQQ 上涨 2.31%",
-    "VIX 上涨 6.92%",
-    "Gold 下跌 -2.15%",
-    "Oil 上涨 1.95%",
-    "BTC 下跌 -4.59%",
-    "ETH 下跌 -2.57%"
+    "QQQ 下跌 -1.20%",
+    "VIX 上涨 3.21%",
+    "TLT 下跌 -0.43%",
+    "BTC 下跌 -4.42%",
+    "ETH 下跌 -4.50%"
   ],
   "watch_points": [
     "关注后续数据是否确认当前跨资产信号。"
@@ -19,80 +17,56 @@
   "cards": [
     {
       "label": "美股 SPY",
-      "value": "1.32%"
+      "value": "-0.36%"
     },
     {
       "label": "QQQ",
-      "value": "2.31%"
+      "value": "-1.20%"
     },
     {
       "label": "VIX",
-      "value": "6.92%"
+      "value": "3.21%"
     },
     {
       "label": "BTC",
-      "value": "-4.59%"
+      "value": "-4.42%"
     },
     {
       "label": "Gold",
-      "value": "-2.15%"
+      "value": "0.06%"
     },
     {
       "label": "Oil",
-      "value": "1.95%"
+      "value": "0.20%"
     }
   ],
   "top_themes": [
-    "earnings: Bitcoin dips with Nvidia as ETF outflows reach day five",
-    "earnings: Live updates: Bitcoin slumps below $72,000 as Nvidia's Huang resigns, interest rates surge",
-    "earnings: China's Ministry of State Security thrust into the spotlight by Nvidia CEO affair"
+    "geopolitical_risk: FAA declares rare nationwide ground stop on flights, with more than 10,000 delayed or canceled",
+    "earnings: Lutnick faces questions over Nvidia spy scandal. His sons' firm has deep ties to the chipmaker",
+    "earnings: Nvidia’s stock is on a losing streak not seen in 14 years. What comes next?"
   ],
   "news_counts": {
     "must_read": 10,
-    "policy_watch": 6,
-    "background": 14
+    "policy_watch": 5,
+    "background": 20
   },
   "focus_news": [
     {
-      "title": "Bitcoin dips with Nvidia as ETF outflows reach day five",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/11/12/bitcoin-dips-with-nvidia-as-etf-outflows-reach-day-five",
-      "event_type": "earnings",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
-      "assets": [
-        "AMZN",
-        "BTC",
-        "COIN",
-        "ETH",
-        "GOOGL"
-      ]
+      "title": "FAA declares rare nationwide ground stop on flights, with more than 10,000 delayed or canceled",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/faa-declares-rare-widespread-ground-outage-bdc46393?mod=mw_rss_topstories",
+      "event_type": "geopolitical_risk",
+      "importance_tier": 1,
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "地缘风险可能推升避险需求、能源价格和市场波动率。",
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "assets": []
     },
     {
-      "title": "Live updates: Bitcoin slumps below $72,000 as Nvidia's Huang resigns, interest rates surge",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/tech/2026/11/12/live-news-strategy-kicked-out-of-msci-indexes-as-nvidia-slump-rattles-markets",
-      "event_type": "earnings",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
-      "market_impact": "主要影响 QQQ，方向为 mixed，强度 high；AI 资本开支会影响大型科技股盈利和估值预期。",
-      "assets": [
-        "AMZN",
-        "GOOGL",
-        "META",
-        "MSFT",
-        "NVDA"
-      ]
-    },
-    {
-      "title": "China's Ministry of State Security thrust into the spotlight by Nvidia CEO affair",
+      "title": "Lutnick faces questions over Nvidia spy scandal. His sons' firm has deep ties to the chipmaker",
       "source": "CNBC Economy",
-      "url": "https://www.cnbc.com/2026/11/12/china-ministry-state-security-nvidia-ceo.html",
+      "url": "https://www.cnbc.com/2026/11/13/howard-lutnick-nvidia-jensen-huang-china-cantor-fitzgerald.html",
       "event_type": "earnings",
       "importance_tier": 2,
       "impact_strength": "high",
@@ -108,25 +82,78 @@
       ]
     },
     {
-      "title": "U.S. President Trump names CFTC, SEC nominees for first time in a year",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/11/12/u-s-president-names-cftc-sec-nominees-for-first-time-in-a-year",
-      "event_type": "central_bank_speech",
+      "title": "Nvidia’s stock is on a losing streak not seen in 14 years. What comes next?",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/nvidias-stock-is-on-a-losing-streak-not-seen-in-14-years-what-comes-next-a07e801e?mod=mw_rss_topstories",
+      "event_type": "earnings",
       "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "央行官员表态可能影响市场对下一次会议的定价。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
+      "market_impact": "主要影响 QQQ，方向为 mixed，强度 high；AI 资本开支会影响大型科技股盈利和估值预期。",
       "assets": [
-        "BTC",
-        "COIN",
-        "ETH",
-        "crypto market"
+        "AMZN",
+        "GOOGL",
+        "META",
+        "MSFT",
+        "NVDA"
+      ]
+    },
+    {
+      "title": "AMD and other chip stocks slide as Wall Street rethinks the AI trade without Jensen Huang",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/amd-and-other-chip-stocks-slide-as-wall-street-rethinks-the-ai-trade-without-jensen-huang-2fb74547?mod=mw_rss_topstories",
+      "event_type": "earnings",
+      "importance_tier": 2,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
+      "market_impact": "主要影响 QQQ，方向为 mixed，强度 high；AI 资本开支会影响大型科技股盈利和估值预期。",
+      "assets": [
+        "AMZN",
+        "GOOGL",
+        "META",
+        "MSFT",
+        "NVDA"
       ]
     }
   ],
   "policy_news": [
     {
+      "title": "SEC Proposes Executive and Director Compensation Disclosure Reforms",
+      "source": "SEC Press Releases",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-114-sec-proposes-executive-director-compensation-disclosure-reforms",
+      "event_type": "regulation",
+      "importance_tier": 2,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "assets": [
+        "BTC",
+        "COIN",
+        "ETH",
+        "crypto market"
+      ]
+    },
+    {
+      "title": "U.S. Senate Banking Committee races toward hearing on new SEC nominations",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/11/13/u-s-senate-banking-committee-races-toward-hearing-on-new-sec-nominations",
+      "event_type": "regulation",
+      "importance_tier": 2,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "assets": [
+        "BTC",
+        "COIN",
+        "ETH",
+        "crypto market"
+      ]
+    },
+    {
       "title": "U.S. President Trump names CFTC, SEC nominees for first time in a year",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/policy/2026/11/12/u-s-president-names-cftc-sec-nominees-for-first-time-in-a-year",
@@ -135,40 +162,6 @@
       "impact_strength": "high",
       "impact_direction": "mixed",
       "reason": "央行官员表态可能影响市场对下一次会议的定价。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
-      "assets": [
-        "BTC",
-        "COIN",
-        "ETH",
-        "crypto market"
-      ]
-    },
-    {
-      "title": "UK bank Griffin raises $20 million to expand into stablecoin payments",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/11/12/uk-bank-griffin-raises-usd20-million-to-expand-into-stablecoin-payments",
-      "event_type": "crypto_market_structure",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
-      "assets": [
-        "BTC",
-        "COIN",
-        "ETH",
-        "crypto market"
-      ]
-    },
-    {
-      "title": "Gemini sells UK and European operations to stablecoin payments firm KAST for under $10 million",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/11/12/gemini-sells-uk-and-european-operations-to-stablecoin-payments-firm-kast-for-under-usd10-million",
-      "event_type": "crypto_market_structure",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
       "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
       "assets": [
         "BTC",
@@ -180,74 +173,74 @@
   ],
   "asset_movers": [
     {
-      "symbol": "^VIX",
-      "group": "US_MACRO_MARKET",
-      "price": "18.70",
-      "one_day": "6.92%",
-      "five_day": "-33.64%",
-      "trend": "range_bound",
-      "direction": "up"
-    },
-    {
-      "symbol": "BTC",
-      "group": "CRYPTO",
-      "price": "70,578.30",
-      "one_day": "-4.59%",
-      "five_day": "-6.86%",
-      "trend": "strong_downtrend",
-      "direction": "down"
-    },
-    {
-      "symbol": "NG=F",
-      "group": "COMMODITIES",
-      "price": "3.35",
-      "one_day": "4.14%",
-      "five_day": "13.61%",
-      "trend": "range_bound",
-      "direction": "up"
-    },
-    {
-      "symbol": "BINANCECOIN",
-      "group": "CRYPTO",
-      "price": "651.29",
-      "one_day": "-4.12%",
-      "five_day": "-6.33%",
-      "trend": "strong_downtrend",
-      "direction": "down"
-    },
-    {
       "symbol": "SOLANA",
       "group": "CRYPTO",
-      "price": "80.87",
-      "one_day": "-2.85%",
-      "five_day": "-9.84%",
+      "price": "77.05",
+      "one_day": "-5.62%",
+      "five_day": "-10.83%",
       "trend": "strong_downtrend",
       "direction": "down"
-    },
-    {
-      "symbol": "SI=F",
-      "group": "COMMODITIES",
-      "price": "50.44",
-      "one_day": "-2.79%",
-      "five_day": "-3.44%",
-      "trend": "strong_downtrend",
-      "direction": "down"
-    },
-    {
-      "symbol": "BZ=F",
-      "group": "COMMODITIES",
-      "price": "95.27",
-      "one_day": "2.71%",
-      "five_day": "-3.07%",
-      "trend": "range_bound",
-      "direction": "up"
     },
     {
       "symbol": "ETH",
       "group": "CRYPTO",
-      "price": "2,002.48",
-      "one_day": "-2.57%",
-      "five_day": "-10.49%",
+      "price": "1,926.58",
+      "one_day": "-4.50%",
+      "five_day": "-9.31%",
+      "trend": "strong_downtrend",
+      "direction": "down"
+    },
+    {
+      "symbol": "BTC",
+      "group": "CRYPTO",
+      "price": "68,219.26",
+      "one_day": "-4.42%",
+      "five_day": "-8.73%",
+      "trend": "strong_downtrend",
+      "direction": "down"
+    },
+    {
+      "symbol": "BINANCECOIN",
+      "group": "CRYPTO",
+      "price": "630.28",
+      "one_day": "-3.96%",
+      "five_day": "-7.84%",
+      "trend": "strong_downtrend",
+      "direction": "down"
+    },
+    {
+      "symbol": "1211.HK",
+      "group": "HK_MARKET",
+      "price": "65.00",
+      "one_day": "-3.77%",
+      "five_day": "-12.34%",
+      "trend": "strong_downtrend",
+      "direction": "down"
+    },
+    {
+      "symbol": "1810.HK",
+      "group": "HK_MARKET",
+      "price": "28.86",
+      "one_day": "-3.74%",
+      "five_day": "-5.00%",
+      "trend": "strong_uptrend",
+      "direction": "down"
+    },
+    {
+      "symbol": "9988.HK",
+      "group": "HK_MARKET",
+      "price": "90.55",
+      "one_day": "-3.46%",
+      "five_day": "-13.68%",
+      "trend": "strong_downtrend",
+      "direction": "down"
+    },
+    {
+      "symbol": "RIPPLE",
+      "group": "CRYPTO",
+      "price": "1.00",
+      "one_day": "-3.40%",
+      "five_day": "-9.68%",
       "trend": "strong_downtrend",
       "direction": "down"
     }
@@ -255,20 +248,20 @@
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-11-13/COMMODITIES_summary.png"
+      "src": "charts/2026-11-14/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-11-13/CRYPTO_summary.png"
+      "src": "charts/2026-11-14/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-11-13/HK_MARKET_summary.png"
+      "src": "charts/2026-11-14/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-11-13/US_EQUITY_summary.png"
+      "src": "charts/2026-11-14/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-11-13.html"
+  "latest_report_href": "reports/2026-11-14.html"
 }
