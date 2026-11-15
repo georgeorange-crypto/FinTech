@@ -1,0 +1,1657 @@
+{
+  "date": "2026-11-15",
+  "executive_summary": "今日晨报重点关注：大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。；大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。。跨资产方面，SPY 1D -0.36%；QQQ 1D -1.20%；^VIX 1D 3.21%；TLT 1D -0.43%；GC=F 1D 0.03%；CL=F 1D -0.20%；BTC 1D -8.46%；ETH 1D -10.62%；市场信号不足，暂不判断明确状态。 但存在信号冲突，需要降低单一叙事置信度。政策、通胀、利率、美元、美债、能源和加密监管仍是主要观察线索。所有结论仅基于公开数据与短摘要整理，不构成投资建议。",
+  "market_overview": [
+    {
+      "symbol": "SPY",
+      "name": "SPY",
+      "group": "US_EQUITY",
+      "latest_close": 754.3699951171875,
+      "one_day_return": -0.0036321851459943932,
+      "five_day_return": 0.025948969331843985,
+      "one_month_return": -0.022570885093222914,
+      "ytd_return": 0.1042200535564144,
+      "volatility_20d": 0.22071860437993104,
+      "ma_20": 759.0214904785156,
+      "ma_60": 764.8363271077474,
+      "rsi_14": 45.15248019021695,
+      "trend_label": "downtrend"
+    },
+    {
+      "symbol": "QQQ",
+      "name": "QQQ",
+      "group": "US_EQUITY",
+      "latest_close": 679.8900146484375,
+      "one_day_return": -0.012031864898704447,
+      "five_day_return": 0.03625977739330666,
+      "one_month_return": -0.06608514471368476,
+      "ytd_return": 0.1089020421173641,
+      "volatility_20d": 0.3539561784599649,
+      "ma_20": 695.4485015869141,
+      "ma_60": 717.0676666259766,
+      "rsi_14": 40.85686246129814,
+      "trend_label": "strong_downtrend"
+    },
+    {
+      "symbol": "DIA",
+      "name": "DIA",
+      "group": "US_EQUITY",
+      "latest_close": 523.1500244140625,
+      "one_day_return": 0.0013016130094947176,
+      "five_day_return": 0.021338593448306575,
+      "one_month_return": 0.003779945059223966,
+      "ytd_return": 0.08171540047608516,
+      "volatility_20d": 0.20706853208640916,
+      "ma_20": 522.1074981689453,
+      "ma_60": 521.5904963175456,
+      "rsi_14": 50.13092862570213,
+      "trend_label": "uptrend"
+    },
+    {
+      "symbol": "IWM",
+      "name": "IWM",
+      "group": "US_EQUITY",
+      "latest_close": 277.5400085449219,
+      "one_day_return": -0.0032322722618628452,
+      "five_day_return": 0.014141100329976064,
+      "one_month_return": 0.008942933302092504,
+      "ytd_return": 0.11560418806472939,
+      "volatility_20d": 0.24934405918778402,
+      "ma_20": 278.3760025024414,
+      "ma_60": 283.3916692097982,
+      "rsi_14": 50.535767050876316,
+      "trend_label": "downtrend"
+    },
+    {
+      "symbol": "VTI",
+      "name": "VTI",
+      "group": "US_EQUITY",
+      "latest_close": 371.1099853515625,
+      "one_day_return": -0.0040524120697015276,
+      "five_day_return": 0.025364000943698395,
+      "one_month_return": -0.019317234334298328,
+      "ytd_return": 0.10347592413426754,
+      "volatility_20d": 0.2192396754751209,
+      "ma_20": 373.0594985961914,
+      "ma_60": 376.1813329060872,
+      "rsi_14": 45.974117150198964,
+      "trend_label": "downtrend"
+    },
+    {
+      "symbol": "^VIX",
+      "name": "^VIX",
+      "group": "US_MACRO_MARKET",
+      "latest_close": 19.299999237060547,
+      "one_day_return": 0.032085478590471395,
+      "five_day_return": -0.24726990263297433,
+      "one_month_return": 0.17253950853903577,
+      "ytd_return": 0.33011708701729203,
+      "volatility_20d": 2.9610960076040325,
+      "ma_20": 19.381500053405762,
+      "ma_60": 16.940333382288614,
+      "rsi_14": 51.32537124962622,
+      "trend_label": "range_bound"
+    },
+    {
+      "symbol": "DX-Y.NYB",
+      "name": "DX-Y.NYB",
+      "group": "US_MACRO_MARKET",
+      "latest_close": 103.41000366210938,
+      "one_day_return": 0.0023263109181319575,
+      "five_day_return": 0.010850445525304231,
+      "one_month_return": 0.013823565314797781,
+      "ytd_return": 0.05070113377362939,
+      "volatility_20d": 0.05438023288697418,
+      "ma_20": 102.08250122070312,
+      "ma_60": 101.05133349100748,
+      "rsi_14": 65.72670266763538,
+      "trend_label": "uptrend"
+    },
+    {
+      "symbol": "TLT",
+      "name": "TLT",
+      "group": "US_MACRO_MARKET",
+      "latest_close": 79.37999725341797,
+      "one_day_return": -0.004264976945294596,
+      "five_day_return": -0.03100587124390608,
+      "one_month_return": -0.00737781615954769,
+      "ytd_return": -0.08790074265402292,
+      "volatility_20d": 0.12476619849376103,
+      "ma_20": 81.09249877929688,
+      "ma_60": 80.60466651916504,
+      "rsi_14": 30.17239791743947,
+      "trend_label": "range_bound"
+    },
+    {
+      "symbol": "IEF",
+      "name": "IEF",
+      "group": "US_MACRO_MARKET",
+      "latest_close": 90.04000091552734,
+      "one_day_return": -0.0018844714629264736,
+      "five_day_return": -0.01981275509178615,
+      "one_month_return": -0.0034310743091218177,
+      "ytd_return": -0.06286428809762068,
+      "volatility_20d": 0.07300676160802315,
+      "ma_20": 91.05200119018555,
+      "ma_60": 90.9400006612142,
+      "rsi_14": 38.05308838273867,
+      "trend_label": "range_bound"
+    },
+    {
+      "symbol": "GC=F",
+      "name": "GC=F",
+      "group": "COMMODITIES",
+      "latest_close": 3886.300048828125,
+      "one_day_return": 0.00025738037923273005,
+      "five_day_return": -0.04628330953777504,
+      "one_month_return": -0.06805593203569171,
+      "ytd_return": -0.10238822035044237,
+      "volatility_20d": 0.2524656159694382,
+      "ma_20": 4035.2049926757813,
+      "ma_60": 4247.134981282552,
+      "rsi_14": 40.41348437431237,
+      "trend_label": "strong_downtrend"
+    },
+    {
+      "symbol": "SI=F",
+      "name": "SI=F",
+      "group": "COMMODITIES",
+      "latest_close": 49.03099822998047,
+      "one_day_return": -0.018830582922260253,
+      "five_day_return": -0.05351047427194677,
+      "one_month_return": -0.13734017142478605,
+      "ytd_return": -0.30507684109587496,
+      "volatility_20d": 0.4193614325591962,
+      "ma_20": 52.7367504119873,
+      "ma_60": 59.956616719563804,
+      "rsi_14": 35.12625139416318,
+      "trend_label": "strong_downtrend"
+    },
+    {
+      "symbol": "CL=F",
+      "name": "CL=F",
+      "group": "COMMODITIES",
+      "latest_close": 88.55999755859375,
+      "one_day_return": -0.0020284010537402475,
+      "five_day_return": -0.02499178935043056,
+      "one_month_return": -0.09604984734981148,
+      "ytd_return": 0.5450104331837669,
+      "volatility_20d": 0.5375036563703003,
+      "ma_20": 95.73199996948242,
+      "ma_60": 93.8373338063558,
+      "rsi_14": 30.59963862411638,
+      "trend_label": "range_bound"
+    },
+    {
+      "symbol": "BZ=F",
+      "name": "BZ=F",
+      "group": "COMMODITIES",
+      "latest_close": 95.83999633789062,
+      "one_day_return": 0.00020868965904918824,
+      "five_day_return": -0.025223793375013015,
+      "one_month_return": -0.0951661820742935,
+      "ytd_return": 0.5776131084426441,
+      "volatility_20d": 0.6195990614641413,
+      "ma_20": 105.13299942016602,
+      "ma_60": 102.18949928283692,
+      "rsi_14": 27.546659913957853,
+      "trend_label": "range_bound"
+    },
+    {
+      "symbol": "NG=F",
+      "name": "NG=F",
+      "group": "COMMODITIES",
+      "latest_close": 3.2300000190734863,
+      "one_day_return": -0.032934101174425634,
+      "five_day_return": 0.07738496323081212,
+      "one_month_return": -0.0018541538468792584,
+      "ytd_return": -0.10724157218666075,
+      "volatility_20d": 0.5671005121956022,
+      "ma_20": 2.9583499908447264,
+      "ma_60": 2.981016667683919,
+      "rsi_14": 75.61174489524655,
+      "trend_label": "range_bound"
+    },
+    {
+      "symbol": "HG=F",
+      "name": "HG=F",
+      "group": "COMMODITIES",
+      "latest_close": 6.079500198364258,
+      "one_day_return": -0.0166598769270353,
+      "five_day_return": -0.022274001001986843,
+      "one_month_return": -0.06634411291187758,
+      "ytd_return": 0.07792559260334242,
+      "volatility_20d": 0.23744964192332385,
+      "ma_20": 6.408675003051758,
+      "ma_60": 6.525658329327901,
+      "rsi_14": 32.79807320135022,
+      "trend_label": "strong_downtrend"
+    },
+    {
+      "symbol": "^HSI",
+      "name": "^HSI",
+      "group": "HK_MARKET",
+      "latest_close": 23637.599609375,
+      "one_day_return": -0.015450793979814192,
+      "five_day_return": -0.03448511621168482,
+      "one_month_return": -0.027826173571786295,
+      "ytd_return": -0.10254471963057243,
+      "volatility_20d": 0.2281633445440208,
+      "ma_20": 23721.06044921875,
+      "ma_60": 24498.025651041666,
+      "rsi_14": 55.956640822241795,
+      "trend_label": "downtrend"
+    },
+    {
+      "symbol": "0700.HK",
+      "name": "0700.HK",
+      "group": "HK_MARKET",
+      "latest_close": 386.6000061035156,
+      "one_day_return": -0.030591730348263124,
+      "five_day_return": -0.07908523738649142,
+      "one_month_return": -0.08691541880835707,
+      "ytd_return": -0.3794542438145817,
+      "volatility_20d": 0.40152004507964456,
+      "ma_20": 399.15999908447264,
+      "ma_60": 422.69666544596356,
+      "rsi_14": 50.09074968042376,
+      "trend_label": "downtrend"
+    },
+    {
+      "symbol": "9988.HK",
+      "name": "9988.HK",
+      "group": "HK_MARKET",
+      "latest_close": 90.55000305175781,
+      "one_day_return": -0.03464818650599277,
+      "five_day_return": -0.136796932939805,
+      "one_month_return": -0.1805429588076216,
+      "ytd_return": -0.3922818587130348,
+      "volatility_20d": 0.5401333853214129,
+      "ma_20": 100.21500015258789,
+      "ma_60": 106.63999989827474,
+      "rsi_14": 40.05377082855642,
+      "trend_label": "strong_downtrend"
+    },
+    {
+      "symbol": "3690.HK",
+      "name": "3690.HK",
+      "group": "HK_MARKET",
+      "latest_close": 69.80000305175781,
+      "one_day_return": -0.0319000758812612,
+      "five_day_return": -0.13184077453915466,
+      "one_month_return": -0.0946821733701273,
+      "ytd_return": -0.3326959457936617,
+      "volatility_20d": 0.4942313340572367,
+      "ma_20": 73.80249977111816,
+      "ma_60": 74.82583325703939,
+      "rsi_14": 42.23034908307809,
+      "trend_label": "strong_downtrend"
+    },
+    {
+      "symbol": "1810.HK",
+      "name": "1810.HK",
+      "group": "HK_MARKET",
+      "latest_close": 28.860000610351562,
+      "one_day_return": -0.03735820376871224,
+      "five_day_return": -0.05003287005939083,
+      "one_month_return": 0.09401067204252689,
+      "ytd_return": -0.283515355388118,
+      "volatility_20d": 0.528875484665716,
+      "ma_20": 28.011999893188477,
+      "ma_60": 26.99399995803833,
+      "rsi_14": 59.42308549345238,
+      "trend_label": "strong_uptrend"
+    },
+    {
+      "symbol": "1211.HK",
+      "name": "1211.HK",
+      "group": "HK_MARKET",
+      "latest_close": 65.0,
+      "one_day_return": -0.037749858424195204,
+      "five_day_return": -0.12339853455951022,
+      "one_month_return": -0.10775564363134049,
+      "ytd_return": -0.3417721518987342,
+      "volatility_20d": 0.47129888924791064,
+      "ma_20": 70.84249992370606,
+      "ma_60": 77.93666636149088,
+      "rsi_14": 36.57405183473016,
+      "trend_label": "strong_downtrend"
+    },
+    {
+      "symbol": "BTC",
+      "name": "bitcoin",
+      "group": "CRYPTO",
+      "latest_close": 62535.96314032719,
+      "one_day_return": -0.08457666796542285,
+      "five_day_return": -0.16914243331938073,
+      "one_month_return": -0.22614130219835493,
+      "ytd_return": -0.28591572733743564,
+      "volatility_20d": 0.44977391378489456,
+      "ma_20": 75752.57611865661,
+      "ma_60": 80464.50742378285,
+      "rsi_14": 20.685336288032815,
+      "trend_label": "strong_downtrend"
+    },
+    {
+      "symbol": "ETH",
+      "name": "ethereum",
+      "group": "CRYPTO",
+      "latest_close": 1726.9800157167958,
+      "one_day_return": -0.10624937470020446,
+      "five_day_return": -0.1900243055984948,
+      "one_month_return": -0.2671632847787099,
+      "ytd_return": -0.41853086268964157,
+      "volatility_20d": 0.5910000298336557,
+      "ma_20": 2187.018929525314,
+      "ma_60": 2434.814946692441,
+      "rsi_14": 21.978198923906817,
+      "trend_label": "strong_downtrend"
+    },
+    {
+      "symbol": "SOLANA",
+      "name": "solana",
+      "group": "CRYPTO",
+      "latest_close": 68.58280662613069,
+      "one_day_return": -0.12361586233085253,
+      "five_day_return": -0.2080863344043361,
+      "one_month_return": -0.3293670729291862,
+      "ytd_return": -0.4492273017691213,
+      "volatility_20d": 0.5676714503144574,
+      "ma_20": 90.15183916153038,
+      "ma_60": 104.4340393823171,
+      "rsi_14": 12.948160056918425,
+      "trend_label": "strong_downtrend"
+    },
+    {
+      "symbol": "BINANCECOIN",
+      "name": "binancecoin",
+      "group": "CRYPTO",
+      "latest_close": 569.6650057540081,
+      "one_day_return": -0.09676805818568501,
+      "five_day_return": -0.17506735897490788,
+      "one_month_return": -0.22917943479037695,
+      "ytd_return": -0.3396624263351232,
+      "volatility_20d": 0.5172869830478273,
+      "ma_20": 692.1291166898279,
+      "ma_60": 734.1343609383531,
+      "rsi_14": 19.838417480490932,
+      "trend_label": "strong_downtrend"
+    },
+    {
+      "symbol": "RIPPLE",
+      "name": "ripple",
+      "group": "CRYPTO",
+      "latest_close": 0.9126271960723347,
+      "one_day_return": -0.09739509584312334,
+      "five_day_return": -0.16830891412472426,
+      "one_month_return": -0.29705648239559446,
+      "ytd_return": -0.504149766563685,
+      "volatility_20d": 0.524896240030165,
+      "ma_20": 1.1804750562170185,
+      "ma_60": 1.335293300497655,
+      "rsi_14": 12.375277295324011,
+      "trend_label": "strong_downtrend"
+    }
+  ],
+  "top_news": [
+    {
+      "title": "How Nvidia turmoil and a Democratic Congress could reshape the AI trade, according to ETF experts",
+      "source": "CNBC Economy",
+      "url": "https://www.cnbc.com/2026/11/14/nvidia-ai-trade-data-centers-congress.html",
+      "published_at": "2026-11-14T15:50:43Z",
+      "region": "US",
+      "category": "financial_media_public",
+      "language": "en",
+      "summary": "ETF experts say Nvidia’s leadership turmoil and Democratic control of Congress could shift AI demand to the benefit of other Big Tech stocks, rival chipmakers.",
+      "credibility_weight": 0.75,
+      "relevance_score": 79.1746,
+      "related_assets": [
+        "AMZN",
+        "BTC",
+        "COIN",
+        "ETH",
+        "GOOGL",
+        "META",
+        "MSFT",
+        "NVDA",
+        "QQQ",
+        "SMH",
+        "crypto market"
+      ],
+      "impact_direction": "mixed",
+      "impact_strength": "high",
+      "asset_impacts": [
+        {
+          "asset": "BTC",
+          "asset_class": "crypto",
+          "direction": "mixed",
+          "strength": "high",
+          "reason": "加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。"
+        },
+        {
+          "asset": "ETH",
+          "asset_class": "crypto",
+          "direction": "mixed",
+          "strength": "high",
+          "reason": "监管框架会影响 ETH 产品化和机构参与度。"
+        },
+        {
+          "asset": "COIN",
+          "asset_class": "equity",
+          "direction": "mixed",
+          "strength": "medium",
+          "reason": "监管清晰度和执法风险会影响交易平台估值。"
+        },
+        {
+          "asset": "crypto market",
+          "asset_class": "crypto",
+          "direction": "mixed",
+          "strength": "high",
+          "reason": "信息影响整个加密市场结构，但方向取决于细节。"
+        },
+        {
+          "asset": "QQQ",
+          "asset_class": "equity",
+          "direction": "mixed",
+          "strength": "high",
+          "reason": "AI 资本开支会影响大型科技股盈利和估值预期。"
+        },
+        {
+          "asset": "SMH",
+          "asset_class": "equity",
+          "direction": "mixed",
+          "strength": "high",
+          "reason": "AI 投资周期直接影响半导体需求。"
+        },
+        {
+          "asset": "NVDA",
+          "asset_class": "equity",
+          "direction": "mixed",
+          "strength": "high",
+          "reason": "AI 训练和推理需求是英伟达收入预期核心变量。"
+        },
+        {
+          "asset": "MSFT",
+          "asset_class": "equity",
+          "direction": "mixed",
+          "strength": "medium",
+          "reason": "云和 AI 资本开支影响利润率与增长叙事。"
+        },
+        {
+          "asset": "GOOGL",
+          "asset_class": "equity",
+          "direction": "mixed",
+          "strength": "medium",
+          "reason": "AI 投资和搜索商业化影响估值。"
+        },
+        {
+          "asset": "META",
+          "asset_class": "equity",
+          "direction": "mixed",
+          "strength": "medium",
+          "reason": "AI 基建支出与广告效率共同影响市场预期。"
+        },
+        {
+          "asset": "AMZN",
+          "asset_class": "equity",
+          "direction": "mixed",
+          "strength": "medium",
+          "reason": "AWS AI 需求和资本开支影响利润路径。"
+        }
+      ],
+      "event_type": "earnings",
+      "importance_tier": 2,
+      "human_importance_reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
+      "expected_market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "affected_regions": [
+        "US",
+        "global"
+      ],
+      "affected_asset_classes": [
+        "crypto",
+        "equity"
+      ],
+      "is_routine": false,
+      "is_market_moving": true
+    },
+    {
+      "title": "Lutnick faces questions over Nvidia spy scandal. His sons' firm has deep ties to the chipmaker",
+      "source": "CNBC Economy",
+      "url": "https://www.cnbc.com/2026/11/13/howard-lutnick-nvidia-jensen-huang-china-cantor-fitzgerald.html",
+      "published_at": "2026-11-13T23:42:18Z",
+      "region": "US",
+      "category": "financial_media_public",
+      "language": "en",
+      "summary": "Jensen Huang’s resignation as Nvidia CEO has brought renewed scrutiny to Commerce Secretary Howard Lutnick and his family's financial ties to the chipmaker.",
+      "credibility_weight": 0.75,
+      "relevance_score": 77.3812,
+      "related_assets": [
+        "AMZN",
+        "GOOGL",
+        "META",
+        "MSFT",
+        "NVDA",
+        "QQQ",
+        "SMH"
+      ],
+      "impact_direction": "mixed",
+      "impact_strength": "high",
+      "asset_impacts": [
+        {
+          "asset": "QQQ",
+          "asset_class": "equity",
+          "direction": "mixed",
+          "strength": "high",
+          "reason": "AI 资本开支会影响大型科技股盈利和估值预期。"
+        },
+        {
+          "asset": "SMH",
+          "asset_class": "equity",
+          "direction": "mixed",
+          "strength": "high",
+          "reason": "AI 投资周期直接影响半导体需求。"
+        },
+        {
+          "asset": "NVDA",
+          "asset_class": "equity",
+          "direction": "mixed",
+          "strength": "high",
+          "reason": "AI 训练和推理需求是英伟达收入预期核心变量。"
+        },
+        {
+          "asset": "MSFT",
+          "asset_class": "equity",
+          "direction": "mixed",
+          "strength": "medium",
+          "reason": "云和 AI 资本开支影响利润率与增长叙事。"
+        },
+        {
+          "asset": "GOOGL",
+          "asset_class": "equity",
+          "direction": "mixed",
+          "strength": "medium",
+          "reason": "AI 投资和搜索商业化影响估值。"
+        },
+        {
+          "asset": "META",
+          "asset_class": "equity",
+          "direction": "mixed",
+          "strength": "medium",
+          "reason": "AI 基建支出与广告效率共同影响市场预期。"
+        },
+        {
+          "asset": "AMZN",
+          "asset_class": "equity",
+          "direction": "mixed",
+          "strength": "medium",
+          "reason": "AWS AI 需求和资本开支影响利润路径。"
+        }
+      ],
+      "event_type": "earnings",
+      "importance_tier": 2,
+      "human_importance_reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
+      "expected_market_impact": "主要影响 QQQ，方向为 mixed，强度 high；AI 资本开支会影响大型科技股盈利和估值预期。",
+      "affected_regions": [
+        "US",
+        "global"
+      ],
+      "affected_asset_classes": [
+        "equity"
+      ],
+      "is_routine": false,
+      "is_market_moving": true
+    },
+    {
+      "title": "SEC Proposes Executive and Director Compensation Disclosure Reforms",
+      "source": "SEC Press Releases",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-114-sec-proposes-executive-director-compensation-disclosure-reforms",
+      "published_at": "2026-11-13T11:57:00-05:00",
+      "region": "US",
+      "category": "crypto_policy",
+      "language": "en",
+      "summary": "The Securities and Exchange Commission today proposed rule amendments to make its executive and director compensation disclosure requirements more principles-based and materiality-driven, providing investors with clearer, more concise, and less complex…",
+      "credibility_weight": 0.95,
+      "relevance_score": 73.2307,
+      "related_assets": [
+        "BTC",
+        "COIN",
+        "ETH",
+        "crypto market"
+      ],
+      "impact_direction": "mixed",
+      "impact_strength": "high",
+      "asset_impacts": [
+        {
+          "asset": "BTC",
+          "asset_class": "crypto",
+          "direction": "mixed",
+          "strength": "high",
+          "reason": "加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。"
+        },
+        {
+          "asset": "ETH",
+          "asset_class": "crypto",
+          "direction": "mixed",
+          "strength": "high",
+          "reason": "监管框架会影响 ETH 产品化和机构参与度。"
+        },
+        {
+          "asset": "COIN",
+          "asset_class": "equity",
+          "direction": "mixed",
+          "strength": "medium",
+          "reason": "监管清晰度和执法风险会影响交易平台估值。"
+        },
+        {
+          "asset": "crypto market",
+          "asset_class": "crypto",
+          "direction": "mixed",
+          "strength": "high",
+          "reason": "信息影响整个加密市场结构，但方向取决于细节。"
+        }
+      ],
+      "event_type": "regulation",
+      "importance_tier": 2,
+      "human_importance_reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "expected_market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "affected_regions": [
+        "China",
+        "EU",
+        "US",
+        "global"
+      ],
+      "affected_asset_classes": [
+        "crypto",
+        "equity"
+      ],
+      "is_routine": false,
+      "is_market_moving": true
+    },
+    {
+      "title": "U.S. Senate Banking Committee races toward hearing on new SEC nominations",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/11/13/u-s-senate-banking-committee-races-toward-hearing-on-new-sec-nominations",
+      "published_at": "2026-11-13T17:05:43Z",
+      "region": "global",
+      "category": "financial_media_public",
+      "language": "en",
+      "summary": "U.S. Senate Banking Committee races toward hearing on new SEC nominations",
+      "credibility_weight": 0.7,
+      "relevance_score": 72.4968,
+      "related_assets": [
+        "BTC",
+        "COIN",
+        "ETH",
+        "crypto market"
+      ],
+      "impact_direction": "mixed",
+      "impact_strength": "high",
+      "asset_impacts": [
+        {
+          "asset": "BTC",
+          "asset_class": "crypto",
+          "direction": "mixed",
+          "strength": "high",
+          "reason": "加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。"
+        },
+        {
+          "asset": "ETH",
+          "asset_class": "crypto",
+          "direction": "mixed",
+          "strength": "high",
+          "reason": "监管框架会影响 ETH 产品化和机构参与度。"
+        },
+        {
+          "asset": "COIN",
+          "asset_class": "equity",
+          "direction": "mixed",
+          "strength": "medium",
+          "reason": "监管清晰度和执法风险会影响交易平台估值。"
+        },
+        {
+          "asset": "crypto market",
+          "asset_class": "crypto",
+          "direction": "mixed",
+          "strength": "high",
+          "reason": "信息影响整个加密市场结构，但方向取决于细节。"
+        }
+      ],
+      "event_type": "regulation",
+      "importance_tier": 2,
+      "human_importance_reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "expected_market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "affected_regions": [
+        "China",
+        "EU",
+        "US",
+        "global"
+      ],
+      "affected_asset_classes": [
+        "crypto",
+        "equity"
+      ],
+      "is_routine": false,
+      "is_market_moving": true
+    },
+    {
+      "title": "Agencies extend comment period for proposed third-party risk management guidance",
+      "source": "Federal Reserve Press Releases",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261113a.htm",
+      "published_at": "2026-11-13T21:15:00Z",
+      "region": "US",
+      "category": "central_banks",
+      "language": "en",
+      "summary": "Agencies extend comment period for proposed third-party risk management guidance",
+      "credibility_weight": 1.0,
+      "relevance_score": 65.8584,
+      "related_assets": [],
+      "impact_direction": "unknown",
+      "impact_strength": "low",
+      "asset_impacts": [],
+      "event_type": "earnings",
+      "importance_tier": 2,
+      "human_importance_reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
+      "expected_market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "affected_regions": [
+        "US",
+        "global"
+      ],
+      "affected_asset_classes": [],
+      "is_routine": false,
+      "is_market_moving": true
+    },
+    {
+      "title": "Chicago Fed's Goolsbee says central bank 'has definitely got work to do' on inflation",
+      "source": "CNBC Economy",
+      "url": "https://www.cnbc.com/2026/11/13/chicago-feds-goolsbee-says-central-bank-has-definitely-got-work-to-do-on-inflation.html",
+      "published_at": "2026-11-13T14:22:07Z",
+      "region": "US",
+      "category": "financial_media_public",
+      "language": "en",
+      "summary": "The policymaker expressed concern about the latest inflation data, telling CNBC that the central bank likely will need to take action.",
+      "credibility_weight": 0.75,
+      "relevance_score": 28.3438,
+      "related_assets": [
+        "BTC",
+        "DXY",
+        "GC=F",
+        "QQQ",
+        "SPY",
+        "TLT"
+      ],
+      "impact_direction": "mixed",
+      "impact_strength": "high",
+      "asset_impacts": [
+        {
+          "asset": "DXY",
+          "asset_class": "fx",
+          "direction": "positive",
+          "strength": "high",
+          "reason": "通胀压力可能推高政策利率预期并支撑美元。"
+        },
+        {
+          "asset": "TLT",
+          "asset_class": "rates",
+          "direction": "negative",
+          "strength": "high",
+          "reason": "通胀上行通常推升收益率、压低长债价格。"
+        },
+        {
+          "asset": "QQQ",
+          "asset_class": "equity",
+          "direction": "negative",
+          "strength": "high",
+          "reason": "更高利率对成长股估值折现率不利。"
+        },
+        {
+          "asset": "SPY",
+          "asset_class": "equity",
+          "direction": "mixed",
+          "strength": "medium",
+          "reason": "名义增长可能支撑收入，但更高利率压制估值。"
+        },
+        {
+          "asset": "GC=F",
+          "asset_class": "commodity",
+          "direction": "mixed",
+          "strength": "medium",
+          "reason": "通胀对黄金是支撑，但实际利率上行会形成压力。"
+        },
+        {
+          "asset": "BTC",
+          "asset_class": "crypto",
+          "direction": "mixed",
+          "strength": "medium",
+          "reason": "抗通胀叙事和流动性收紧可能相互抵消。"
+        }
+      ],
+      "event_type": "other",
+      "importance_tier": 3,
+      "human_importance_reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "expected_market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
+      "affected_regions": [
+        "US"
+      ],
+      "affected_asset_classes": [
+        "commodity",
+        "crypto",
+        "equity",
+        "fx",
+        "rates"
+      ],
+      "is_routine": false,
+      "is_market_moving": false
+    },
+    {
+      "title": "Here’s how Bernie Sanders wants to keep Social Security solvent ‘for generations’",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/heres-how-bernie-sanders-wants-to-keep-social-security-solvent-for-generations-f5666a38?mod=mw_rss_topstories",
+      "published_at": "2026-11-14T17:50:00Z",
+      "region": "US",
+      "category": "financial_media_public",
+      "language": "en",
+      "summary": "The Vermont senator aims to eliminate the taxable maximum, making the wealthy pay more in taxes",
+      "credibility_weight": 0.7,
+      "relevance_score": 19.2455,
+      "related_assets": [],
+      "impact_direction": "unknown",
+      "impact_strength": "low",
+      "asset_impacts": [],
+      "event_type": "other",
+      "importance_tier": 3,
+      "human_importance_reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "expected_market_impact": "更偏背景信息，短期市场影响可能有限。",
+      "affected_regions": [
+        "US"
+      ],
+      "affected_asset_classes": [],
+      "is_routine": false,
+      "is_market_moving": false
+    }
+  ],
+  "policy_watch": [
+    {
+      "title": "SEC Proposes Executive and Director Compensation Disclosure Reforms",
+      "source": "SEC Press Releases",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-114-sec-proposes-executive-director-compensation-disclosure-reforms",
+      "published_at": "2026-11-13T11:57:00-05:00",
+      "region": "US",
+      "category": "crypto_policy",
+      "language": "en",
+      "summary": "The Securities and Exchange Commission today proposed rule amendments to make its executive and director compensation disclosure requirements more principles-based and materiality-driven, providing investors with clearer, more concise, and less complex…",
+      "credibility_weight": 0.95,
+      "relevance_score": 73.2307,
+      "related_assets": [
+        "BTC",
+        "COIN",
+        "ETH",
+        "crypto market"
+      ],
+      "impact_direction": "mixed",
+      "impact_strength": "high",
+      "asset_impacts": [
+        {
+          "asset": "BTC",
+          "asset_class": "crypto",
+          "direction": "mixed",
+          "strength": "high",
+          "reason": "加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。"
+        },
+        {
+          "asset": "ETH",
+          "asset_class": "crypto",
+          "direction": "mixed",
+          "strength": "high",
+          "reason": "监管框架会影响 ETH 产品化和机构参与度。"
+        },
+        {
+          "asset": "COIN",
+          "asset_class": "equity",
+          "direction": "mixed",
+          "strength": "medium",
+          "reason": "监管清晰度和执法风险会影响交易平台估值。"
+        },
+        {
+          "asset": "crypto market",
+          "asset_class": "crypto",
+          "direction": "mixed",
+          "strength": "high",
+          "reason": "信息影响整个加密市场结构，但方向取决于细节。"
+        }
+      ],
+      "event_type": "regulation",
+      "importance_tier": 2,
+      "human_importance_reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "expected_market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "affected_regions": [
+        "China",
+        "EU",
+        "US",
+        "global"
+      ],
+      "affected_asset_classes": [
+        "crypto",
+        "equity"
+      ],
+      "is_routine": false,
+      "is_market_moving": true
+    },
+    {
+      "title": "U.S. Senate Banking Committee races toward hearing on new SEC nominations",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/11/13/u-s-senate-banking-committee-races-toward-hearing-on-new-sec-nominations",
+      "published_at": "2026-11-13T17:05:43Z",
+      "region": "global",
+      "category": "financial_media_public",
+      "language": "en",
+      "summary": "U.S. Senate Banking Committee races toward hearing on new SEC nominations",
+      "credibility_weight": 0.7,
+      "relevance_score": 72.4968,
+      "related_assets": [
+        "BTC",
+        "COIN",
+        "ETH",
+        "crypto market"
+      ],
+      "impact_direction": "mixed",
+      "impact_strength": "high",
+      "asset_impacts": [
+        {
+          "asset": "BTC",
+          "asset_class": "crypto",
+          "direction": "mixed",
+          "strength": "high",
+          "reason": "加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。"
+        },
+        {
+          "asset": "ETH",
+          "asset_class": "crypto",
+          "direction": "mixed",
+          "strength": "high",
+          "reason": "监管框架会影响 ETH 产品化和机构参与度。"
+        },
+        {
+          "asset": "COIN",
+          "asset_class": "equity",
+          "direction": "mixed",
+          "strength": "medium",
+          "reason": "监管清晰度和执法风险会影响交易平台估值。"
+        },
+        {
+          "asset": "crypto market",
+          "asset_class": "crypto",
+          "direction": "mixed",
+          "strength": "high",
+          "reason": "信息影响整个加密市场结构，但方向取决于细节。"
+        }
+      ],
+      "event_type": "regulation",
+      "importance_tier": 2,
+      "human_importance_reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "expected_market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "affected_regions": [
+        "China",
+        "EU",
+        "US",
+        "global"
+      ],
+      "affected_asset_classes": [
+        "crypto",
+        "equity"
+      ],
+      "is_routine": false,
+      "is_market_moving": true
+    }
+  ],
+  "background_materials": [
+    {
+      "title": "Here’s how Bernie Sanders wants to keep Social Security solvent ‘for generations’",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/heres-how-bernie-sanders-wants-to-keep-social-security-solvent-for-generations-f5666a38?mod=mw_rss_topstories",
+      "published_at": "2026-11-14T17:50:00Z",
+      "region": "US",
+      "category": "financial_media_public",
+      "language": "en",
+      "summary": "The Vermont senator aims to eliminate the taxable maximum, making the wealthy pay more in taxes",
+      "credibility_weight": 0.7,
+      "relevance_score": 19.2455,
+      "related_assets": [],
+      "impact_direction": "unknown",
+      "impact_strength": "low",
+      "asset_impacts": [],
+      "event_type": "other",
+      "importance_tier": 3,
+      "human_importance_reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "expected_market_impact": "更偏背景信息，短期市场影响可能有限。",
+      "affected_regions": [
+        "US"
+      ],
+      "affected_asset_classes": [],
+      "is_routine": false,
+      "is_market_moving": false
+    },
+    {
+      "title": "Retirees should be big beneficiaries of the midterms: ‘Democrats will hold every gavel that matters for aging and public policy’",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/retirees-should-be-big-beneficiaries-of-the-midterms-democrats-will-hold-every-gavel-that-matters-for-aging-and-public-policy-71e966f0?mod=mw_rss_topstories",
+      "published_at": "2026-11-14T17:50:00Z",
+      "region": "US",
+      "category": "financial_media_public",
+      "language": "en",
+      "summary": "Here’s what might be coming for Social Security, Medicare and long-term care.",
+      "credibility_weight": 0.7,
+      "relevance_score": 19.2455,
+      "related_assets": [],
+      "impact_direction": "unknown",
+      "impact_strength": "low",
+      "asset_impacts": [],
+      "event_type": "other",
+      "importance_tier": 3,
+      "human_importance_reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "expected_market_impact": "更偏背景信息，短期市场影响可能有限。",
+      "affected_regions": [
+        "US"
+      ],
+      "affected_asset_classes": [],
+      "is_routine": false,
+      "is_market_moving": false
+    },
+    {
+      "title": "Bitcoin crashes to 3-month low below $64,000 as analyst flags fourth capitulation wave",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/11/14/bitcoin-drifts-back-to-usd65-000-deep-value-zone-says-analyst",
+      "published_at": "2026-11-14T16:33:29Z",
+      "region": "global",
+      "category": "financial_media_public",
+      "language": "en",
+      "summary": "Bitcoin crashes to 3-month low below $64,000 as analyst flags fourth capitulation wave",
+      "credibility_weight": 0.7,
+      "relevance_score": 19.1038,
+      "related_assets": [],
+      "impact_direction": "unknown",
+      "impact_strength": "low",
+      "asset_impacts": [],
+      "event_type": "other",
+      "importance_tier": 3,
+      "human_importance_reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "expected_market_impact": "更偏背景信息，短期市场影响可能有限。",
+      "affected_regions": [
+        "global"
+      ],
+      "affected_asset_classes": [],
+      "is_routine": false,
+      "is_market_moving": false
+    },
+    {
+      "title": "UK, Singapore, and Thailand central banks test cross-border FX settlement as stablecoins gain ground",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/11/14/uk-singapore-and-thailand-central-banks-test-cross-border-fx-settlement-as-stablecoins-gain-ground",
+      "published_at": "2026-11-14T15:00:00Z",
+      "region": "global",
+      "category": "financial_media_public",
+      "language": "en",
+      "summary": "UK, Singapore, and Thailand central banks test cross-border FX settlement as stablecoins gain ground",
+      "credibility_weight": 0.7,
+      "relevance_score": 18.9307,
+      "related_assets": [],
+      "impact_direction": "unknown",
+      "impact_strength": "low",
+      "asset_impacts": [],
+      "event_type": "other",
+      "importance_tier": 3,
+      "human_importance_reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "expected_market_impact": "更偏背景信息，短期市场影响可能有限。",
+      "affected_regions": [
+        "global"
+      ],
+      "affected_asset_classes": [],
+      "is_routine": false,
+      "is_market_moving": false
+    },
+    {
+      "title": "Britain could turn wasted Scottish wind power into bitcoin to cut its $1.3 billion grid bill",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/11/13/britain-could-turn-wasted-scottish-wind-power-into-bitcoin-to-cut-its-usd1-3-billion-grid-bill",
+      "published_at": "2026-11-14T13:00:00Z",
+      "region": "global",
+      "category": "financial_media_public",
+      "language": "en",
+      "summary": "Britain could turn wasted Scottish wind power into bitcoin to cut its $1.3 billion grid bill",
+      "credibility_weight": 0.7,
+      "relevance_score": 18.7084,
+      "related_assets": [],
+      "impact_direction": "unknown",
+      "impact_strength": "low",
+      "asset_impacts": [],
+      "event_type": "other",
+      "importance_tier": 3,
+      "human_importance_reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "expected_market_impact": "更偏背景信息，短期市场影响可能有限。",
+      "affected_regions": [
+        "global"
+      ],
+      "affected_asset_classes": [],
+      "is_routine": false,
+      "is_market_moving": false
+    },
+    {
+      "title": "A behind the scenes force may amplify bitcoin and ether price volatility",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/11/14/a-behind-the-scenes-force-may-amplify-bitcoin-and-ether-price-volatility",
+      "published_at": "2026-11-14T12:57:00Z",
+      "region": "global",
+      "category": "financial_media_public",
+      "language": "en",
+      "summary": "A behind the scenes force may amplify bitcoin and ether price volatility",
+      "credibility_weight": 0.7,
+      "relevance_score": 18.7029,
+      "related_assets": [],
+      "impact_direction": "unknown",
+      "impact_strength": "low",
+      "asset_impacts": [],
+      "event_type": "other",
+      "importance_tier": 3,
+      "human_importance_reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "expected_market_impact": "更偏背景信息，短期市场影响可能有限。",
+      "affected_regions": [
+        "global"
+      ],
+      "affected_asset_classes": [],
+      "is_routine": false,
+      "is_market_moving": false
+    },
+    {
+      "title": "Bitcoin miners pay Paraguay $350 million a year, but AI is pushing them out",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/tech/2026/11/13/bitcoin-miners-pay-paraguay-usd350-million-a-year-but-ai-is-pushing-them-out",
+      "published_at": "2026-11-13T23:30:00Z",
+      "region": "global",
+      "category": "financial_media_public",
+      "language": "en",
+      "summary": "Bitcoin miners pay Paraguay $350 million a year, but AI is pushing them out",
+      "credibility_weight": 0.7,
+      "relevance_score": 17.2084,
+      "related_assets": [],
+      "impact_direction": "unknown",
+      "impact_strength": "low",
+      "asset_impacts": [],
+      "event_type": "other",
+      "importance_tier": 3,
+      "human_importance_reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "expected_market_impact": "更偏背景信息，短期市场影响可能有限。",
+      "affected_regions": [
+        "global"
+      ],
+      "affected_asset_classes": [],
+      "is_routine": false,
+      "is_market_moving": false
+    },
+    {
+      "title": "Bitcoin plunges to $68,000 as Anthropic IPO frenzy adds to market jitters",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/11/13/bitcoin-slides-to-usd68k-as-nvidia-turmoil-anthropic-ipo-fuel-broader-market-sell-off",
+      "published_at": "2026-11-13T18:39:58Z",
+      "region": "global",
+      "category": "financial_media_public",
+      "language": "en",
+      "summary": "Bitcoin plunges to $68,000 as Anthropic IPO frenzy adds to market jitters",
+      "credibility_weight": 0.7,
+      "relevance_score": 16.6713,
+      "related_assets": [],
+      "impact_direction": "unknown",
+      "impact_strength": "low",
+      "asset_impacts": [],
+      "event_type": "other",
+      "importance_tier": 3,
+      "human_importance_reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "expected_market_impact": "更偏背景信息，短期市场影响可能有限。",
+      "affected_regions": [
+        "global"
+      ],
+      "affected_asset_classes": [],
+      "is_routine": false,
+      "is_market_moving": false
+    },
+    {
+      "title": "Bitcoin heads for sixth weekly loss as Anthropic’s blockbuster IPO looms",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/11/13/bitcoin-heads-for-sixth-weekly-loss-as-anthropic-s-blockbuster-ipo-looms",
+      "published_at": "2026-11-13T16:01:27Z",
+      "region": "global",
+      "category": "financial_media_public",
+      "language": "en",
+      "summary": "Bitcoin heads for sixth weekly loss as Anthropic’s blockbuster IPO looms",
+      "credibility_weight": 0.7,
+      "relevance_score": 16.3778,
+      "related_assets": [],
+      "impact_direction": "unknown",
+      "impact_strength": "low",
+      "asset_impacts": [],
+      "event_type": "other",
+      "importance_tier": 3,
+      "human_importance_reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "expected_market_impact": "更偏背景信息，短期市场影响可能有限。",
+      "affected_regions": [
+        "global"
+      ],
+      "affected_asset_classes": [],
+      "is_routine": false,
+      "is_market_moving": false
+    },
+    {
+      "title": "Chicago Fed's Goolsbee says central bank 'has definitely got work to do' on inflation",
+      "source": "CNBC Economy",
+      "url": "https://www.cnbc.com/2026/11/13/chicago-feds-goolsbee-says-central-bank-has-definitely-got-work-to-do-on-inflation.html",
+      "published_at": "2026-11-13T14:22:07Z",
+      "region": "US",
+      "category": "financial_media_public",
+      "language": "en",
+      "summary": "The policymaker expressed concern about the latest inflation data, telling CNBC that the central bank likely will need to take action.",
+      "credibility_weight": 0.75,
+      "relevance_score": 28.3438,
+      "related_assets": [
+        "BTC",
+        "DXY",
+        "GC=F",
+        "QQQ",
+        "SPY",
+        "TLT"
+      ],
+      "impact_direction": "mixed",
+      "impact_strength": "high",
+      "asset_impacts": [
+        {
+          "asset": "DXY",
+          "asset_class": "fx",
+          "direction": "positive",
+          "strength": "high",
+          "reason": "通胀压力可能推高政策利率预期并支撑美元。"
+        },
+        {
+          "asset": "TLT",
+          "asset_class": "rates",
+          "direction": "negative",
+          "strength": "high",
+          "reason": "通胀上行通常推升收益率、压低长债价格。"
+        },
+        {
+          "asset": "QQQ",
+          "asset_class": "equity",
+          "direction": "negative",
+          "strength": "high",
+          "reason": "更高利率对成长股估值折现率不利。"
+        },
+        {
+          "asset": "SPY",
+          "asset_class": "equity",
+          "direction": "mixed",
+          "strength": "medium",
+          "reason": "名义增长可能支撑收入，但更高利率压制估值。"
+        },
+        {
+          "asset": "GC=F",
+          "asset_class": "commodity",
+          "direction": "mixed",
+          "strength": "medium",
+          "reason": "通胀对黄金是支撑，但实际利率上行会形成压力。"
+        },
+        {
+          "asset": "BTC",
+          "asset_class": "crypto",
+          "direction": "mixed",
+          "strength": "medium",
+          "reason": "抗通胀叙事和流动性收紧可能相互抵消。"
+        }
+      ],
+      "event_type": "other",
+      "importance_tier": 3,
+      "human_importance_reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "expected_market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
+      "affected_regions": [
+        "US"
+      ],
+      "affected_asset_classes": [
+        "commodity",
+        "crypto",
+        "equity",
+        "fx",
+        "rates"
+      ],
+      "is_routine": false,
+      "is_market_moving": false
+    },
+    {
+      "title": "Bitcoin's momentum gauge is turning red, could send prices back below $60,000",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/daybook-us/2026/11/13/bitcoin-s-momentum-gauge-is-turning-red-could-send-prices-back-below-usd60-000",
+      "published_at": "2026-11-13T12:14:22Z",
+      "region": "global",
+      "category": "financial_media_public",
+      "language": "en",
+      "summary": "Bitcoin's momentum gauge is turning red, could send prices back below $60,000",
+      "credibility_weight": 0.7,
+      "relevance_score": 15.9573,
+      "related_assets": [],
+      "impact_direction": "unknown",
+      "impact_strength": "low",
+      "asset_impacts": [],
+      "event_type": "other",
+      "importance_tier": 3,
+      "human_importance_reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "expected_market_impact": "更偏背景信息，短期市场影响可能有限。",
+      "affected_regions": [
+        "global"
+      ],
+      "affected_asset_classes": [],
+      "is_routine": false,
+      "is_market_moving": false
+    },
+    {
+      "title": "Bitcoin hits 12-week low as dollar rallies on interest-rate outlook, liquidations top $1.6 billion",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/11/13/bitcoin-hits-12-week-low-as-dollar-rallies-on-interest-rate-outlook-liquidations-top-usd1-6-billion",
+      "published_at": "2026-11-13T11:52:25Z",
+      "region": "global",
+      "category": "financial_media_public",
+      "language": "en",
+      "summary": "Bitcoin hits 12-week low as dollar rallies on interest-rate outlook, liquidations top $1.6 billion",
+      "credibility_weight": 0.7,
+      "relevance_score": 15.9166,
+      "related_assets": [],
+      "impact_direction": "unknown",
+      "impact_strength": "low",
+      "asset_impacts": [],
+      "event_type": "other",
+      "importance_tier": 3,
+      "human_importance_reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "expected_market_impact": "更偏背景信息，短期市场影响可能有限。",
+      "affected_regions": [
+        "global"
+      ],
+      "affected_asset_classes": [],
+      "is_routine": false,
+      "is_market_moving": false
+    },
+    {
+      "title": "Live updates: Bitcoin eyes bear market lows as late summer rally mostly wiped out",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/tech/2026/11/13/live-news-bitcoin-drops-below-200-week-moving-average-as-dollar-strength-pressures-risk-assets",
+      "published_at": "2026-11-13T09:16:58Z",
+      "region": "global",
+      "category": "financial_media_public",
+      "language": "en",
+      "summary": "Live updates: Bitcoin eyes bear market lows as late summer rally mostly wiped out",
+      "credibility_weight": 0.7,
+      "relevance_score": 15.6287,
+      "related_assets": [],
+      "impact_direction": "unknown",
+      "impact_strength": "low",
+      "asset_impacts": [],
+      "event_type": "other",
+      "importance_tier": 3,
+      "human_importance_reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "expected_market_impact": "更偏背景信息，短期市场影响可能有限。",
+      "affected_regions": [
+        "global"
+      ],
+      "affected_asset_classes": [],
+      "is_routine": false,
+      "is_market_moving": false
+    },
+    {
+      "title": "Isabel Schnabel: Made in Europe",
+      "source": "ECB Press Releases",
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261113~3883f1f187.en.html",
+      "published_at": "2026-11-13T08:20:00+01:00",
+      "region": "EU",
+      "category": "central_banks",
+      "language": "en",
+      "summary": "Isabel Schnabel: Made in Europe",
+      "credibility_weight": 1.0,
+      "relevance_score": 16.3121,
+      "related_assets": [],
+      "impact_direction": "unknown",
+      "impact_strength": "low",
+      "asset_impacts": [],
+      "event_type": "other",
+      "importance_tier": 3,
+      "human_importance_reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "expected_market_impact": "更偏背景信息，短期市场影响可能有限。",
+      "affected_regions": [
+        "EU"
+      ],
+      "affected_asset_classes": [],
+      "is_routine": false,
+      "is_market_moving": false
+    },
+    {
+      "title": "Ethereum treasury firm BTCS sold ether at a loss to keep $64 million Aave loan healthy",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/11/13/ethereum-treasury-firm-btcs-sold-ether-at-a-loss-to-keep-usd64-million-aave-loan-healthy",
+      "published_at": "2026-11-13T07:05:29Z",
+      "region": "global",
+      "category": "financial_media_public",
+      "language": "en",
+      "summary": "Ethereum treasury firm BTCS sold ether at a loss to keep $64 million Aave loan healthy",
+      "credibility_weight": 0.7,
+      "relevance_score": 15.3852,
+      "related_assets": [],
+      "impact_direction": "unknown",
+      "impact_strength": "low",
+      "asset_impacts": [],
+      "event_type": "other",
+      "importance_tier": 3,
+      "human_importance_reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "expected_market_impact": "更偏背景信息，短期市场影响可能有限。",
+      "affected_regions": [
+        "global"
+      ],
+      "affected_asset_classes": [],
+      "is_routine": false,
+      "is_market_moving": false
+    },
+    {
+      "title": "Bitcoin firm Nakamoto pushes $60 million Kraken loan repayment to 2027 to extend its 'runway'",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/11/13/bitcoin-firm-nakamoto-owes-kraken-usd165-million-more-than-its-entire-market-value",
+      "published_at": "2026-11-13T06:03:41Z",
+      "region": "global",
+      "category": "financial_media_public",
+      "language": "en",
+      "summary": "Bitcoin firm Nakamoto pushes $60 million Kraken loan repayment to 2027 to extend its 'runway'",
+      "credibility_weight": 0.7,
+      "relevance_score": 15.2708,
+      "related_assets": [],
+      "impact_direction": "unknown",
+      "impact_strength": "low",
+      "asset_impacts": [],
+      "event_type": "other",
+      "importance_tier": 3,
+      "human_importance_reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "expected_market_impact": "更偏背景信息，短期市场影响可能有限。",
+      "affected_regions": [
+        "global"
+      ],
+      "affected_asset_classes": [],
+      "is_routine": false,
+      "is_market_moving": false
+    },
+    {
+      "title": "Bitcoin ETFs are now down over $1.5 billion in net outflows for the year",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/11/13/bitcoin-etfs-are-now-down-over-usd1-5-billion-in-net-outflows-for-the-year",
+      "published_at": "2026-11-13T05:45:26Z",
+      "region": "global",
+      "category": "financial_media_public",
+      "language": "en",
+      "summary": "Bitcoin ETFs are now down over $1.5 billion in net outflows for the year",
+      "credibility_weight": 0.7,
+      "relevance_score": 15.237,
+      "related_assets": [],
+      "impact_direction": "unknown",
+      "impact_strength": "low",
+      "asset_impacts": [],
+      "event_type": "other",
+      "importance_tier": 3,
+      "human_importance_reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "expected_market_impact": "更偏背景信息，短期市场影响可能有限。",
+      "affected_regions": [
+        "global"
+      ],
+      "affected_asset_classes": [],
+      "is_routine": false,
+      "is_market_moving": false
+    },
+    {
+      "title": "SpaceX-Tesla merger talks put 30,000 bitcoin back in focus",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/11/13/spacex-tesla-merger-talks-put-30-000-bitcoin-back-in-focus",
+      "published_at": "2026-11-13T05:08:59Z",
+      "region": "global",
+      "category": "financial_media_public",
+      "language": "en",
+      "summary": "SpaceX-Tesla merger talks put 30,000 bitcoin back in focus",
+      "credibility_weight": 0.7,
+      "relevance_score": 15.1695,
+      "related_assets": [],
+      "impact_direction": "unknown",
+      "impact_strength": "low",
+      "asset_impacts": [],
+      "event_type": "other",
+      "importance_tier": 3,
+      "human_importance_reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "expected_market_impact": "更偏背景信息，短期市场影响可能有限。",
+      "affected_regions": [
+        "global"
+      ],
+      "affected_asset_classes": [],
+      "is_routine": false,
+      "is_market_moving": false
+    },
+    {
+      "title": "Bitcoin dips below $70,000 as Dollar Index hits 19-month high",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/11/13/bitcoin-dips-below-usd70-000-as-selloff-gathers-pace",
+      "published_at": "2026-11-13T03:37:00Z",
+      "region": "global",
+      "category": "financial_media_public",
+      "language": "en",
+      "summary": "Bitcoin dips below $70,000 as Dollar Index hits 19-month high",
+      "credibility_weight": 0.7,
+      "relevance_score": 14.9992,
+      "related_assets": [],
+      "impact_direction": "unknown",
+      "impact_strength": "low",
+      "asset_impacts": [],
+      "event_type": "other",
+      "importance_tier": 3,
+      "human_importance_reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "expected_market_impact": "更偏背景信息，短期市场影响可能有限。",
+      "affected_regions": [
+        "global"
+      ],
+      "affected_asset_classes": [],
+      "is_routine": false,
+      "is_market_moving": false
+    }
+  ],
+  "market_narrative": {
+    "regime": "mixed",
+    "summary_cn": "市场信号不足，暂不判断明确状态。 但存在信号冲突，需要降低单一叙事置信度。",
+    "key_moves": [
+      "QQQ 下跌 -1.20%",
+      "VIX 上涨 3.21%",
+      "TLT 下跌 -0.43%",
+      "BTC 下跌 -8.46%",
+      "ETH 下跌 -10.62%"
+    ],
+    "contradictions": [
+      "股债同时承压，可能是利率或流动性冲击而非传统避险。"
+    ],
+    "watch_points": [
+      "关注后续数据是否确认当前跨资产信号。"
+    ]
+  },
+  "top_themes": [
+    "earnings: How Nvidia turmoil and a Democratic Congress could reshape the AI trade, according to ETF experts",
+    "earnings: Lutnick faces questions over Nvidia spy scandal. His sons' firm has deep ties to the chipmaker",
+    "regulation: SEC Proposes Executive and Director Compensation Disclosure Reforms"
+  ],
+  "asset_charts": {
+    "SPY": "/home/runner/work/FinTech/FinTech/charts/2026-11-15/SPY.png",
+    "QQQ": "/home/runner/work/FinTech/FinTech/charts/2026-11-15/QQQ.png",
+    "DIA": "/home/runner/work/FinTech/FinTech/charts/2026-11-15/DIA.png",
+    "IWM": "/home/runner/work/FinTech/FinTech/charts/2026-11-15/IWM.png",
+    "VTI": "/home/runner/work/FinTech/FinTech/charts/2026-11-15/VTI.png",
+    "^VIX": "/home/runner/work/FinTech/FinTech/charts/2026-11-15/VIX.png",
+    "DX-Y.NYB": "/home/runner/work/FinTech/FinTech/charts/2026-11-15/DX-Y.NYB.png",
+    "TLT": "/home/runner/work/FinTech/FinTech/charts/2026-11-15/TLT.png",
+    "IEF": "/home/runner/work/FinTech/FinTech/charts/2026-11-15/IEF.png",
+    "GC=F": "/home/runner/work/FinTech/FinTech/charts/2026-11-15/GC_F.png",
+    "SI=F": "/home/runner/work/FinTech/FinTech/charts/2026-11-15/SI_F.png",
+    "CL=F": "/home/runner/work/FinTech/FinTech/charts/2026-11-15/CL_F.png",
+    "BZ=F": "/home/runner/work/FinTech/FinTech/charts/2026-11-15/BZ_F.png",
+    "NG=F": "/home/runner/work/FinTech/FinTech/charts/2026-11-15/NG_F.png",
+    "HG=F": "/home/runner/work/FinTech/FinTech/charts/2026-11-15/HG_F.png",
+    "^HSI": "/home/runner/work/FinTech/FinTech/charts/2026-11-15/HSI.png",
+    "0700.HK": "/home/runner/work/FinTech/FinTech/charts/2026-11-15/0700.HK.png",
+    "9988.HK": "/home/runner/work/FinTech/FinTech/charts/2026-11-15/9988.HK.png",
+    "3690.HK": "/home/runner/work/FinTech/FinTech/charts/2026-11-15/3690.HK.png",
+    "1810.HK": "/home/runner/work/FinTech/FinTech/charts/2026-11-15/1810.HK.png",
+    "1211.HK": "/home/runner/work/FinTech/FinTech/charts/2026-11-15/1211.HK.png",
+    "BTC": "/home/runner/work/FinTech/FinTech/charts/2026-11-15/BTC.png",
+    "ETH": "/home/runner/work/FinTech/FinTech/charts/2026-11-15/ETH.png",
+    "SOLANA": "/home/runner/work/FinTech/FinTech/charts/2026-11-15/SOLANA.png",
+    "BINANCECOIN": "/home/runner/work/FinTech/FinTech/charts/2026-11-15/BINANCECOIN.png",
+    "RIPPLE": "/home/runner/work/FinTech/FinTech/charts/2026-11-15/RIPPLE.png",
+    "COMMODITIES_summary": "/home/runner/work/FinTech/FinTech/charts/2026-11-15/COMMODITIES_summary.png",
+    "CRYPTO_summary": "/home/runner/work/FinTech/FinTech/charts/2026-11-15/CRYPTO_summary.png",
+    "HK_MARKET_summary": "/home/runner/work/FinTech/FinTech/charts/2026-11-15/HK_MARKET_summary.png",
+    "US_EQUITY_summary": "/home/runner/work/FinTech/FinTech/charts/2026-11-15/US_EQUITY_summary.png",
+    "US_MACRO_MARKET_summary": "/home/runner/work/FinTech/FinTech/charts/2026-11-15/US_MACRO_MARKET_summary.png"
+  },
+  "wall_street_public_views": [],
+  "today_calendar": [
+    "经济数据：暂无可靠公开日历数据；如配置经济日历源后可自动填充。",
+    "央行讲话：暂无可靠公开日历数据；重点跟踪 Fed、ECB、BoJ、PBOC 官网 RSS。",
+    "财报：暂无可靠数据。",
+    "政策事件：暂无可靠数据。",
+    "风险提醒：关注数据源失败项、突发地缘风险、利率和美元的二阶反应。"
+  ],
+  "learning_notes": [
+    {
+      "term": "inflation expectations",
+      "zh": "通胀预期，指家庭、企业或市场对未来通胀的预估。",
+      "example": "Inflation expectations can shape wage bargaining and bond yields."
+    },
+    {
+      "term": "real yield",
+      "zh": "实际收益率，名义利率扣除通胀预期后的收益率。",
+      "example": "Gold often reacts more to real yields than nominal yields."
+    },
+    {
+      "term": "risk-off",
+      "zh": "避险模式，资金偏向美元、国债、黄金等防御资产。",
+      "example": "A geopolitical shock can push markets into risk-off mode."
+    },
+    {
+      "term": "supply disruption",
+      "zh": "供给扰动，通常指能源或商品供应受冲突、减产或天气影响。",
+      "example": "Supply disruption can lift oil prices and inflation expectations."
+    },
+    {
+      "term": "market structure",
+      "zh": "市场结构，指交易、托管、清算、ETF、监管等制度安排。",
+      "example": "Crypto market structure rules can affect institutional participation."
+    },
+    {
+      "term": "AI capex",
+      "zh": "AI 资本开支，指云厂商和科技公司投入 AI 基建的支出。",
+      "example": "AI capex guidance can move semiconductor stocks."
+    }
+  ],
+  "disclaimers": [
+    "Not financial advice / 非投资建议。",
+    "仅使用公开数据、公开 RSS 摘要和用户自有文件；不绕过任何付费墙。"
+  ]
+}

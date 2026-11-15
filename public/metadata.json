@@ -1,15 +1,15 @@
 {
-  "latest_date": "2026-11-14",
-  "market_data_date": "2026-11-14",
-  "chart_date": "2026-11-14",
+  "latest_date": "2026-11-15",
+  "market_data_date": "2026-11-15",
+  "chart_date": "2026-11-15",
   "regime": "mixed",
   "regime_summary": "市场信号不足，暂不判断明确状态。 但存在信号冲突，需要降低单一叙事置信度。",
   "key_moves": [
     "QQQ 下跌 -1.20%",
     "VIX 上涨 3.21%",
     "TLT 下跌 -0.43%",
-    "BTC 下跌 -4.42%",
-    "ETH 下跌 -4.50%"
+    "BTC 下跌 -8.46%",
+    "ETH 下跌 -10.62%"
   ],
   "watch_points": [
     "关注后续数据是否确认当前跨资产信号。"
@@ -29,39 +29,45 @@
     },
     {
       "label": "BTC",
-      "value": "-4.42%"
+      "value": "-8.46%"
     },
     {
       "label": "Gold",
-      "value": "0.06%"
+      "value": "0.03%"
     },
     {
       "label": "Oil",
-      "value": "0.20%"
+      "value": "-0.20%"
     }
   ],
   "top_themes": [
-    "geopolitical_risk: FAA declares rare nationwide ground stop on flights, with more than 10,000 delayed or canceled",
+    "earnings: How Nvidia turmoil and a Democratic Congress could reshape the AI trade, according to ETF experts",
     "earnings: Lutnick faces questions over Nvidia spy scandal. His sons' firm has deep ties to the chipmaker",
-    "earnings: Nvidia’s stock is on a losing streak not seen in 14 years. What comes next?"
+    "regulation: SEC Proposes Executive and Director Compensation Disclosure Reforms"
   ],
   "news_counts": {
-    "must_read": 10,
-    "policy_watch": 5,
-    "background": 20
+    "must_read": 7,
+    "policy_watch": 2,
+    "background": 19
   },
   "focus_news": [
     {
-      "title": "FAA declares rare nationwide ground stop on flights, with more than 10,000 delayed or canceled",
-      "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/faa-declares-rare-widespread-ground-outage-bdc46393?mod=mw_rss_topstories",
-      "event_type": "geopolitical_risk",
-      "importance_tier": 1,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "地缘风险可能推升避险需求、能源价格和市场波动率。",
-      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
-      "assets": []
+      "title": "How Nvidia turmoil and a Democratic Congress could reshape the AI trade, according to ETF experts",
+      "source": "CNBC Economy",
+      "url": "https://www.cnbc.com/2026/11/14/nvidia-ai-trade-data-centers-congress.html",
+      "event_type": "earnings",
+      "importance_tier": 2,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
+      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "assets": [
+        "AMZN",
+        "BTC",
+        "COIN",
+        "ETH",
+        "GOOGL"
+      ]
     },
     {
       "title": "Lutnick faces questions over Nvidia spy scandal. His sons' firm has deep ties to the chipmaker",
@@ -82,39 +88,37 @@
       ]
     },
     {
-      "title": "Nvidia’s stock is on a losing streak not seen in 14 years. What comes next?",
-      "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/nvidias-stock-is-on-a-losing-streak-not-seen-in-14-years-what-comes-next-a07e801e?mod=mw_rss_topstories",
-      "event_type": "earnings",
+      "title": "SEC Proposes Executive and Director Compensation Disclosure Reforms",
+      "source": "SEC Press Releases",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-114-sec-proposes-executive-director-compensation-disclosure-reforms",
+      "event_type": "regulation",
       "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
-      "market_impact": "主要影响 QQQ，方向为 mixed，强度 high；AI 资本开支会影响大型科技股盈利和估值预期。",
+      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
       "assets": [
-        "AMZN",
-        "GOOGL",
-        "META",
-        "MSFT",
-        "NVDA"
+        "BTC",
+        "COIN",
+        "ETH",
+        "crypto market"
       ]
     },
     {
-      "title": "AMD and other chip stocks slide as Wall Street rethinks the AI trade without Jensen Huang",
-      "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/amd-and-other-chip-stocks-slide-as-wall-street-rethinks-the-ai-trade-without-jensen-huang-2fb74547?mod=mw_rss_topstories",
-      "event_type": "earnings",
+      "title": "U.S. Senate Banking Committee races toward hearing on new SEC nominations",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/11/13/u-s-senate-banking-committee-races-toward-hearing-on-new-sec-nominations",
+      "event_type": "regulation",
       "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
-      "market_impact": "主要影响 QQQ，方向为 mixed，强度 high；AI 资本开支会影响大型科技股盈利和估值预期。",
+      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
       "assets": [
-        "AMZN",
-        "GOOGL",
-        "META",
-        "MSFT",
-        "NVDA"
+        "BTC",
+        "COIN",
+        "ETH",
+        "crypto market"
       ]
     }
   ],
@@ -152,59 +156,51 @@
         "ETH",
         "crypto market"
       ]
-    },
-    {
-      "title": "U.S. President Trump names CFTC, SEC nominees for first time in a year",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/11/12/u-s-president-names-cftc-sec-nominees-for-first-time-in-a-year",
-      "event_type": "central_bank_speech",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "央行官员表态可能影响市场对下一次会议的定价。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
-      "assets": [
-        "BTC",
-        "COIN",
-        "ETH",
-        "crypto market"
-      ]
     }
   ],
   "asset_movers": [
     {
       "symbol": "SOLANA",
       "group": "CRYPTO",
-      "price": "77.05",
-      "one_day": "-5.62%",
-      "five_day": "-10.83%",
+      "price": "68.58",
+      "one_day": "-12.36%",
+      "five_day": "-20.81%",
       "trend": "strong_downtrend",
       "direction": "down"
     },
     {
       "symbol": "ETH",
       "group": "CRYPTO",
-      "price": "1,926.58",
-      "one_day": "-4.50%",
-      "five_day": "-9.31%",
+      "price": "1,726.98",
+      "one_day": "-10.62%",
+      "five_day": "-19.00%",
       "trend": "strong_downtrend",
       "direction": "down"
     },
     {
-      "symbol": "BTC",
+      "symbol": "RIPPLE",
       "group": "CRYPTO",
-      "price": "68,219.26",
-      "one_day": "-4.42%",
-      "five_day": "-8.73%",
+      "price": "0.91",
+      "one_day": "-9.74%",
+      "five_day": "-16.83%",
       "trend": "strong_downtrend",
       "direction": "down"
     },
     {
       "symbol": "BINANCECOIN",
       "group": "CRYPTO",
-      "price": "630.28",
-      "one_day": "-3.96%",
-      "five_day": "-7.84%",
+      "price": "569.67",
+      "one_day": "-9.68%",
+      "five_day": "-17.51%",
+      "trend": "strong_downtrend",
+      "direction": "down"
+    },
+    {
+      "symbol": "BTC",
+      "group": "CRYPTO",
+      "price": "62,535.96",
+      "one_day": "-8.46%",
+      "five_day": "-16.91%",
       "trend": "strong_downtrend",
       "direction": "down"
     },
@@ -234,34 +230,25 @@
       "five_day": "-13.68%",
       "trend": "strong_downtrend",
       "direction": "down"
-    },
-    {
-      "symbol": "RIPPLE",
-      "group": "CRYPTO",
-      "price": "1.00",
-      "one_day": "-3.40%",
-      "five_day": "-9.68%",
-      "trend": "strong_downtrend",
-      "direction": "down"
     }
   ],
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-11-14/COMMODITIES_summary.png"
+      "src": "charts/2026-11-15/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-11-14/CRYPTO_summary.png"
+      "src": "charts/2026-11-15/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-11-14/HK_MARKET_summary.png"
+      "src": "charts/2026-11-15/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-11-14/US_EQUITY_summary.png"
+      "src": "charts/2026-11-15/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-11-14.html"
+  "latest_report_href": "reports/2026-11-15.html"
 }
