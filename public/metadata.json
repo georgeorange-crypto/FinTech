@@ -1,14 +1,14 @@
 {
-  "latest_date": "2026-11-17",
-  "market_data_date": "2026-11-17",
-  "chart_date": "2026-11-17",
+  "latest_date": "2026-11-18",
+  "market_data_date": "2026-11-18",
+  "chart_date": "2026-11-18",
   "regime": "unknown",
   "regime_summary": "市场信号不足，暂不判断明确状态。",
   "key_moves": [
-    "SPY 下跌 -1.91%",
-    "QQQ 下跌 -2.67%",
-    "VIX 上涨 18.70%",
-    "Oil 下跌 -4.08%"
+    "SPY 下跌 -1.01%",
+    "QQQ 下跌 -0.73%",
+    "VIX 上涨 11.13%",
+    "Gold 下跌 -1.33%"
   ],
   "watch_points": [
     "关注后续数据是否确认当前跨资产信号。"
@@ -16,141 +16,159 @@
   "cards": [
     {
       "label": "美股 SPY",
-      "value": "-1.91%"
+      "value": "-1.01%"
     },
     {
       "label": "QQQ",
-      "value": "-2.67%"
+      "value": "-0.73%"
     },
     {
       "label": "VIX",
-      "value": "18.70%"
+      "value": "11.13%"
     },
     {
       "label": "BTC",
-      "value": "-0.63%"
+      "value": "-0.72%"
     },
     {
       "label": "Gold",
-      "value": "-0.36%"
+      "value": "-1.33%"
     },
     {
       "label": "Oil",
-      "value": "-4.08%"
+      "value": "-0.49%"
     }
   ],
   "top_themes": [
-    "central_bank_decision: FOMC minutes, Nvidia earnings, Russia’s retail crypto rules: Crypto Week Ahead",
-    "earnings: Bitcoin risks falling below $60,000 as Nvidia earnings threaten to deepen crypto sell-off",
-    "earnings: Lutnick faces questions over Nvidia spy scandal. His sons' firm has ties to the chipmaker"
+    "central_bank_decision: Want to earn 5% on shorter-term Treasurys again? Watch for this shift.",
+    "central_bank_decision: Bitcoin could slide into the $50,000s as Fed rate hike bets build, Wintermute says",
+    "earnings: ‘Nvidia’s turmoil has me spooked’: Has the time come to sell my stocks?"
   ],
   "news_counts": {
-    "must_read": 9,
-    "policy_watch": 4,
+    "must_read": 10,
+    "policy_watch": 5,
     "background": 10
   },
   "focus_news": [
     {
-      "title": "FOMC minutes, Nvidia earnings, Russia’s retail crypto rules: Crypto Week Ahead",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/11/16/fomc-minutes-nvidia-earnings-russia-s-retail-crypto-rules-crypto-week-ahead",
+      "title": "Want to earn 5% on shorter-term Treasurys again? Watch for this shift.",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/want-to-earn-5-on-shorter-term-treasurys-again-watch-for-this-shift-d6ff42f2?mod=mw_rss_topstories",
       "event_type": "central_bank_decision",
       "importance_tier": 1,
       "impact_strength": "high",
       "impact_direction": "mixed",
       "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
-      "market_impact": "主要影响 QQQ，方向为 mixed，强度 high；AI 资本开支会影响大型科技股盈利和估值预期。",
+      "market_impact": "主要影响 QQQ，方向为 negative，强度 high；鹰派政策提高折现率，压制成长股估值。",
       "assets": [
-        "AMZN",
-        "GOOGL",
-        "META",
-        "MSFT",
-        "NVDA"
-      ]
-    },
-    {
-      "title": "Bitcoin risks falling below $60,000 as Nvidia earnings threaten to deepen crypto sell-off",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/11/16/bitcoin-risks-falling-below-usd60-000-as-nvidia-earnings-threaten-to-deepen-crypto-sell-off",
-      "event_type": "earnings",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
-      "market_impact": "主要影响 QQQ，方向为 mixed，强度 high；AI 资本开支会影响大型科技股盈利和估值预期。",
-      "assets": [
-        "AMZN",
-        "GOOGL",
-        "META",
-        "MSFT",
-        "NVDA"
-      ]
-    },
-    {
-      "title": "Lutnick faces questions over Nvidia spy scandal. His sons' firm has ties to the chipmaker",
-      "source": "CNBC Economy",
-      "url": "https://www.cnbc.com/2026/11/13/howard-lutnick-nvidia-jensen-huang-china-cantor-fitzgerald.html",
-      "event_type": "earnings",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
-      "market_impact": "主要影响 QQQ，方向为 mixed，强度 high；AI 资本开支会影响大型科技股盈利和估值预期。",
-      "assets": [
-        "AMZN",
-        "GOOGL",
-        "META",
-        "MSFT",
-        "NVDA"
-      ]
-    },
-    {
-      "title": "How Nvidia turmoil and a Democratic Congress could reshape the AI trade, according to ETF experts",
-      "source": "CNBC Economy",
-      "url": "https://www.cnbc.com/2026/11/14/nvidia-ai-trade-data-centers-congress.html",
-      "event_type": "earnings",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
-      "assets": [
-        "AMZN",
         "BTC",
-        "COIN",
-        "ETH",
-        "GOOGL"
+        "DXY",
+        "QQQ",
+        "SPY",
+        "TLT"
+      ]
+    },
+    {
+      "title": "Bitcoin could slide into the $50,000s as Fed rate hike bets build, Wintermute says",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/11/17/bitcoin-could-slide-into-the-usd50-000s-as-fed-rate-hike-bets-build-wintermute-says",
+      "event_type": "central_bank_decision",
+      "importance_tier": 1,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
+      "market_impact": "主要影响 QQQ，方向为 negative，强度 high；鹰派政策提高折现率，压制成长股估值。",
+      "assets": [
+        "BTC",
+        "DXY",
+        "QQQ",
+        "SPY",
+        "TLT"
+      ]
+    },
+    {
+      "title": "‘Nvidia’s turmoil has me spooked’: Has the time come to sell my stocks?",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/nvidia-spooked-me-should-i-sell-my-stocks-or-ride-out-the-market-turmoil-560583c6?mod=mw_rss_topstories",
+      "event_type": "earnings",
+      "importance_tier": 2,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
+      "market_impact": "主要影响 QQQ，方向为 mixed，强度 high；AI 资本开支会影响大型科技股盈利和估值预期。",
+      "assets": [
+        "AMZN",
+        "GOOGL",
+        "META",
+        "MSFT",
+        "NVDA"
+      ]
+    },
+    {
+      "title": "Nvidia shares rise on earnings beat, raised outlook despite leadership uncertainty",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/11/17/nvidia-tops-estimates-issues-strong-guidance-adds-usd150-billion-to-buyback-authorization",
+      "event_type": "earnings",
+      "importance_tier": 2,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
+      "market_impact": "主要影响 QQQ，方向为 mixed，强度 high；AI 资本开支会影响大型科技股盈利和估值预期。",
+      "assets": [
+        "AMZN",
+        "GOOGL",
+        "META",
+        "MSFT",
+        "NVDA"
       ]
     }
   ],
   "policy_news": [
     {
-      "title": "FOMC minutes, Nvidia earnings, Russia’s retail crypto rules: Crypto Week Ahead",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/11/16/fomc-minutes-nvidia-earnings-russia-s-retail-crypto-rules-crypto-week-ahead",
+      "title": "Want to earn 5% on shorter-term Treasurys again? Watch for this shift.",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/want-to-earn-5-on-shorter-term-treasurys-again-watch-for-this-shift-d6ff42f2?mod=mw_rss_topstories",
       "event_type": "central_bank_decision",
       "importance_tier": 1,
       "impact_strength": "high",
       "impact_direction": "mixed",
       "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
-      "market_impact": "主要影响 QQQ，方向为 mixed，强度 high；AI 资本开支会影响大型科技股盈利和估值预期。",
+      "market_impact": "主要影响 QQQ，方向为 negative，强度 high；鹰派政策提高折现率，压制成长股估值。",
       "assets": [
-        "AMZN",
-        "GOOGL",
-        "META",
-        "MSFT",
-        "NVDA"
+        "BTC",
+        "DXY",
+        "QQQ",
+        "SPY",
+        "TLT"
       ]
     },
     {
-      "title": "Brazil's central bank faces backlash over stablecoin money laundering remarks",
+      "title": "Bitcoin could slide into the $50,000s as Fed rate hike bets build, Wintermute says",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/11/16/brazil-s-central-bank-faces-backlash-over-stablecoin-money-laundering-remarks",
-      "event_type": "central_bank_speech",
+      "url": "https://www.coindesk.com/markets/2026/11/17/bitcoin-could-slide-into-the-usd50-000s-as-fed-rate-hike-bets-build-wintermute-says",
+      "event_type": "central_bank_decision",
+      "importance_tier": 1,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
+      "market_impact": "主要影响 QQQ，方向为 negative，强度 high；鹰派政策提高折现率，压制成长股估值。",
+      "assets": [
+        "BTC",
+        "DXY",
+        "QQQ",
+        "SPY",
+        "TLT"
+      ]
+    },
+    {
+      "title": "Hong Kong, Swift test tokenized deposits as banks chase stablecoin-style speed",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/11/17/hong-kong-swift-test-tokenized-deposits-as-banks-chase-stablecoin-style-speed",
+      "event_type": "crypto_market_structure",
       "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "央行官员表态可能影响市场对下一次会议的定价。",
+      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
       "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
       "assets": [
         "BTC",
@@ -158,90 +176,78 @@
         "ETH",
         "crypto market"
       ]
-    },
-    {
-      "title": "Speech by Board Member TAKATA at a Meeting Held by the Tokushima Association of Corporate Executives (Economic Activity, Prices, and Monetary Policy in Japan: Japan's Money and Capital Market Transformation -- Will a Paradigm Shift Occur?)",
-      "source": "Bank of Japan Announcements",
-      "url": "http://www.boj.or.jp/en/about/press/koen_2026/ko261116a.htm",
-      "event_type": "central_bank_speech",
-      "importance_tier": 2,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "央行官员表态可能影响市场对下一次会议的定价。",
-      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
-      "assets": []
     }
   ],
   "asset_movers": [
     {
       "symbol": "^VIX",
       "group": "US_MACRO_MARKET",
-      "price": "22.91",
-      "one_day": "18.70%",
-      "five_day": "15.01%",
+      "price": "25.46",
+      "one_day": "11.13%",
+      "five_day": "30.83%",
       "trend": "strong_uptrend",
       "direction": "up"
     },
     {
-      "symbol": "9988.HK",
-      "group": "HK_MARKET",
-      "price": "85.70",
-      "one_day": "-4.94%",
-      "five_day": "-15.65%",
+      "symbol": "SOLANA",
+      "group": "CRYPTO",
+      "price": "74.74",
+      "one_day": "4.50%",
+      "five_day": "-8.45%",
       "trend": "strong_downtrend",
-      "direction": "down"
+      "direction": "up"
+    },
+    {
+      "symbol": "RIPPLE",
+      "group": "CRYPTO",
+      "price": "0.98",
+      "one_day": "2.43%",
+      "five_day": "-6.00%",
+      "trend": "strong_downtrend",
+      "direction": "up"
     },
     {
       "symbol": "NG=F",
       "group": "COMMODITIES",
-      "price": "3.09",
-      "one_day": "-4.49%",
-      "five_day": "-4.13%",
+      "price": "3.19",
+      "one_day": "2.08%",
+      "five_day": "-3.31%",
       "trend": "range_bound",
-      "direction": "down"
-    },
-    {
-      "symbol": "BZ=F",
-      "group": "COMMODITIES",
-      "price": "91.63",
-      "one_day": "-4.39%",
-      "five_day": "-1.02%",
-      "trend": "range_bound",
-      "direction": "down"
-    },
-    {
-      "symbol": "CL=F",
-      "group": "COMMODITIES",
-      "price": "84.95",
-      "one_day": "-4.08%",
-      "five_day": "-2.19%",
-      "trend": "range_bound",
-      "direction": "down"
-    },
-    {
-      "symbol": "1810.HK",
-      "group": "HK_MARKET",
-      "price": "30.24",
-      "one_day": "3.99%",
-      "five_day": "-1.18%",
-      "trend": "strong_uptrend",
       "direction": "up"
     },
     {
       "symbol": "SI=F",
       "group": "COMMODITIES",
-      "price": "47.29",
-      "one_day": "-3.54%",
-      "five_day": "-10.02%",
+      "price": "45.92",
+      "one_day": "-1.85%",
+      "five_day": "-10.14%",
       "trend": "strong_downtrend",
       "direction": "down"
     },
     {
-      "symbol": "0700.HK",
-      "group": "HK_MARKET",
-      "price": "378.60",
-      "one_day": "-3.02%",
-      "five_day": "-9.38%",
+      "symbol": "DIA",
+      "group": "US_EQUITY",
+      "price": "507.31",
+      "one_day": "-1.62%",
+      "five_day": "-2.76%",
+      "trend": "range_bound",
+      "direction": "down"
+    },
+    {
+      "symbol": "HG=F",
+      "group": "COMMODITIES",
+      "price": "5.91",
+      "one_day": "-1.43%",
+      "five_day": "-4.95%",
+      "trend": "strong_downtrend",
+      "direction": "down"
+    },
+    {
+      "symbol": "IWM",
+      "group": "US_EQUITY",
+      "price": "269.05",
+      "one_day": "-1.43%",
+      "five_day": "-4.11%",
       "trend": "downtrend",
       "direction": "down"
     }
@@ -249,20 +255,20 @@
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-11-17/COMMODITIES_summary.png"
+      "src": "charts/2026-11-18/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-11-17/CRYPTO_summary.png"
+      "src": "charts/2026-11-18/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-11-17/HK_MARKET_summary.png"
+      "src": "charts/2026-11-18/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-11-17/US_EQUITY_summary.png"
+      "src": "charts/2026-11-18/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-11-17.html"
+  "latest_report_href": "reports/2026-11-18.html"
 }
