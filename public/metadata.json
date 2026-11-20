@@ -1,17 +1,16 @@
 {
-  "latest_date": "2026-11-19",
-  "market_data_date": "2026-11-19",
-  "chart_date": "2026-11-19",
+  "latest_date": "2026-11-20",
+  "market_data_date": "2026-11-20",
+  "chart_date": "2026-11-20",
   "regime": "unknown",
   "regime_summary": "市场信号不足，暂不判断明确状态。",
   "key_moves": [
-    "VIX 下跌 -3.53%",
-    "TLT 上涨 0.84%",
-    "DXY 上涨 0.36%",
-    "Gold 下跌 -3.44%",
-    "Oil 下跌 -4.46%",
-    "BTC 下跌 -3.50%",
-    "ETH 下跌 -2.83%"
+    "SPY 下跌 -1.96%",
+    "QQQ 下跌 -2.19%",
+    "VIX 上涨 15.80%",
+    "Gold 下跌 -5.17%",
+    "BTC 下跌 -2.18%",
+    "ETH 下跌 -2.25%"
   ],
   "watch_points": [
     "关注后续数据是否确认当前跨资产信号。"
@@ -19,38 +18,38 @@
   "cards": [
     {
       "label": "美股 SPY",
-      "value": "-0.31%"
+      "value": "-1.96%"
     },
     {
       "label": "QQQ",
-      "value": "0.39%"
+      "value": "-2.19%"
     },
     {
       "label": "VIX",
-      "value": "-3.53%"
+      "value": "15.80%"
     },
     {
       "label": "BTC",
-      "value": "-3.50%"
+      "value": "-2.18%"
     },
     {
       "label": "Gold",
-      "value": "-3.44%"
+      "value": "-5.17%"
     },
     {
       "label": "Oil",
-      "value": "-4.46%"
+      "value": "-0.40%"
     }
   ],
   "top_themes": [
     "central_bank_decision: Fed’s Waller says central bank may need to ‘shock people’ with half-point rate hike",
-    "central_bank_decision: Bitcoin outpaces gold even as both assets tumble ahead of a likely Fed rate hike",
+    "central_bank_decision: Fed's rate hike push may be a mistake. Here's why",
     "financial_stability: Boris Vujčić: Financial Stability Review - November 2026"
   ],
   "news_counts": {
     "must_read": 10,
-    "policy_watch": 6,
-    "background": 11
+    "policy_watch": 10,
+    "background": 15
   },
   "focus_news": [
     {
@@ -72,9 +71,9 @@
       ]
     },
     {
-      "title": "Bitcoin outpaces gold even as both assets tumble ahead of a likely Fed rate hike",
+      "title": "Fed's rate hike push may be a mistake. Here's why",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/11/18/bitcoin-outpaces-gold-even-as-both-assets-tumble-ahead-of-a-likely-fed-rate-hike",
+      "url": "https://www.coindesk.com/markets/2026/11/19/fed-s-push-for-more-rate-hikes-leans-on-backward-looking-data-as-gas-prices-slide-analysts-argue",
       "event_type": "central_bank_decision",
       "importance_tier": 1,
       "impact_strength": "high",
@@ -134,9 +133,9 @@
       ]
     },
     {
-      "title": "Bitcoin outpaces gold even as both assets tumble ahead of a likely Fed rate hike",
+      "title": "Fed's rate hike push may be a mistake. Here's why",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/11/18/bitcoin-outpaces-gold-even-as-both-assets-tumble-ahead-of-a-likely-fed-rate-hike",
+      "url": "https://www.coindesk.com/markets/2026/11/19/fed-s-push-for-more-rate-hikes-leans-on-backward-looking-data-as-gas-prices-slide-analysts-argue",
       "event_type": "central_bank_decision",
       "importance_tier": 1,
       "impact_strength": "high",
@@ -166,95 +165,95 @@
   ],
   "asset_movers": [
     {
-      "symbol": "0700.HK",
-      "group": "HK_MARKET",
-      "price": "350.40",
-      "one_day": "-6.01%",
-      "five_day": "-12.14%",
+      "symbol": "^VIX",
+      "group": "US_MACRO_MARKET",
+      "price": "28.44",
+      "one_day": "15.80%",
+      "five_day": "52.09%",
+      "trend": "strong_uptrend",
+      "direction": "up"
+    },
+    {
+      "symbol": "SI=F",
+      "group": "COMMODITIES",
+      "price": "41.89",
+      "one_day": "-6.91%",
+      "five_day": "-16.17%",
       "trend": "strong_downtrend",
       "direction": "down"
     },
     {
-      "symbol": "HG=F",
+      "symbol": "GC=F",
       "group": "COMMODITIES",
-      "price": "5.65",
-      "one_day": "-5.38%",
-      "five_day": "-9.88%",
+      "price": "3,548.50",
+      "one_day": "-5.17%",
+      "five_day": "-8.67%",
       "trend": "strong_downtrend",
       "direction": "down"
     },
     {
       "symbol": "NG=F",
       "group": "COMMODITIES",
-      "price": "3.38",
-      "one_day": "5.33%",
-      "five_day": "5.10%",
-      "trend": "range_bound",
-      "direction": "up"
-    },
-    {
-      "symbol": "9988.HK",
-      "group": "HK_MARKET",
-      "price": "81.05",
-      "one_day": "-4.93%",
-      "five_day": "-13.59%",
-      "trend": "strong_downtrend",
-      "direction": "down"
-    },
-    {
-      "symbol": "SI=F",
-      "group": "COMMODITIES",
-      "price": "45.03",
-      "one_day": "-4.79%",
-      "five_day": "-13.21%",
-      "trend": "strong_downtrend",
-      "direction": "down"
-    },
-    {
-      "symbol": "CL=F",
-      "group": "COMMODITIES",
-      "price": "82.17",
-      "one_day": "-4.46%",
-      "five_day": "-5.04%",
-      "trend": "strong_downtrend",
-      "direction": "down"
-    },
-    {
-      "symbol": "BZ=F",
-      "group": "COMMODITIES",
-      "price": "89.24",
-      "one_day": "-4.19%",
-      "five_day": "-3.79%",
-      "trend": "range_bound",
+      "price": "3.24",
+      "one_day": "-3.88%",
+      "five_day": "-2.96%",
+      "trend": "strong_uptrend",
       "direction": "down"
     },
     {
       "symbol": "1810.HK",
       "group": "HK_MARKET",
-      "price": "28.56",
-      "one_day": "-3.71%",
-      "five_day": "-4.74%",
-      "trend": "strong_uptrend",
+      "price": "27.72",
+      "one_day": "-2.81%",
+      "five_day": "-3.95%",
+      "trend": "range_bound",
+      "direction": "down"
+    },
+    {
+      "symbol": "9988.HK",
+      "group": "HK_MARKET",
+      "price": "82.50",
+      "one_day": "2.42%",
+      "five_day": "-8.89%",
+      "trend": "strong_downtrend",
+      "direction": "up"
+    },
+    {
+      "symbol": "HG=F",
+      "group": "COMMODITIES",
+      "price": "5.53",
+      "one_day": "-2.35%",
+      "five_day": "-10.61%",
+      "trend": "strong_downtrend",
+      "direction": "down"
+    },
+    {
+      "symbol": "ETH",
+      "group": "CRYPTO",
+      "price": "1,735.11",
+      "one_day": "-2.25%",
+      "five_day": "-1.89%",
+      "trend": "strong_downtrend",
       "direction": "down"
     }
   ],
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-11-19/COMMODITIES_summary.png"
+      "src": "charts/2026-11-20/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-11-19/CRYPTO_summary.png"
+      "src": "charts/2026-11-20/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-11-19/HK_MARKET_summary.png"
+      "src": "charts/2026-11-20/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-11-19/US_EQUITY_summary.png"
+      "src": "charts/2026-11-20/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-11-19.html"
+  "latest_report_href": "reports/2026-11-20.html"
 }
