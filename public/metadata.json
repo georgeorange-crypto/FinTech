@@ -1,17 +1,17 @@
 {
-  "latest_date": "2026-11-21",
-  "market_data_date": "2026-11-21",
-  "chart_date": "2026-11-21",
-  "regime": "risk_off",
-  "regime_summary": "股指回落、VIX 抬升且避险资产走强，市场偏风险规避。",
+  "latest_date": "2026-11-22",
+  "market_data_date": "2026-11-22",
+  "chart_date": "2026-11-22",
+  "regime": "mixed",
+  "regime_summary": "股指回落、VIX 抬升且避险资产走强，市场偏风险规避。 但存在信号冲突，需要降低单一叙事置信度。",
   "key_moves": [
     "SPY 下跌 -3.64%",
     "QQQ 下跌 -5.67%",
     "VIX 上涨 26.20%",
     "TLT 上涨 1.37%",
-    "Gold 下跌 -3.98%",
-    "BTC 下跌 -5.48%",
-    "ETH 下跌 -7.93%"
+    "Gold 下跌 -4.62%",
+    "BTC 上涨 2.14%",
+    "ETH 上涨 4.04%"
   ],
   "watch_points": [
     "关注避险是否演变为信用或流动性压力。"
@@ -31,28 +31,57 @@
     },
     {
       "label": "BTC",
-      "value": "-5.48%"
+      "value": "2.14%"
     },
     {
       "label": "Gold",
-      "value": "-3.98%"
+      "value": "-4.62%"
     },
     {
       "label": "Oil",
-      "value": "0.49%"
+      "value": "0.93%"
     }
   ],
   "top_themes": [
-    "regulation: SEC Issues Proposal to Restructure the Consolidated Audit Trail",
-    "regulation: Fairmint plans tokenized stock venue on Canton, Ethereum under SEC experiment",
-    "regulation: SEC Charges Indianapolis-Based Backward Hat Capital and Its Co-Founders With $560 Million Dollar Offering Fraud and Obtains Emergency Relief"
+    "fiscal_policy: America is definitely rich enough to fix Social Security and Medicare. Here’s how.",
+    "regulation: Ether treasury firm BTCS warns SEC its $54 million Aave loan could be liquidated",
+    "regulation: SEC Issues Proposal to Restructure the Consolidated Audit Trail"
   ],
   "news_counts": {
-    "must_read": 9,
-    "policy_watch": 7,
-    "background": 17
+    "must_read": 7,
+    "policy_watch": 5,
+    "background": 18
   },
   "focus_news": [
+    {
+      "title": "America is definitely rich enough to fix Social Security and Medicare. Here’s how.",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/america-is-definitely-rich-enough-to-fix-social-security-and-medicare-heres-how-30678aa5?mod=mw_rss_topstories",
+      "event_type": "fiscal_policy",
+      "importance_tier": 1,
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "assets": []
+    },
+    {
+      "title": "Ether treasury firm BTCS warns SEC its $54 million Aave loan could be liquidated",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/11/21/ether-treasury-firm-btcs-warns-sec-its-usd54-million-aave-loan-could-be-liquidated",
+      "event_type": "regulation",
+      "importance_tier": 2,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "assets": [
+        "BTC",
+        "COIN",
+        "ETH",
+        "crypto market"
+      ]
+    },
     {
       "title": "SEC Issues Proposal to Restructure the Consolidated Audit Trail",
       "source": "SEC Press Releases",
@@ -74,40 +103,6 @@
       "title": "Fairmint plans tokenized stock venue on Canton, Ethereum under SEC experiment",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/business/2026/11/20/fairmint-plans-tokenized-stock-venue-on-canton-ethereum-under-sec-experiment",
-      "event_type": "regulation",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
-      "assets": [
-        "BTC",
-        "COIN",
-        "ETH",
-        "crypto market"
-      ]
-    },
-    {
-      "title": "SEC Charges Indianapolis-Based Backward Hat Capital and Its Co-Founders With $560 Million Dollar Offering Fraud and Obtains Emergency Relief",
-      "source": "SEC Press Releases",
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-116-sec-charges-indianapolis-based-backward-hat-capital-its-co-founders-560-million-dollar-offering",
-      "event_type": "regulation",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
-      "assets": [
-        "BTC",
-        "COIN",
-        "ETH",
-        "crypto market"
-      ]
-    },
-    {
-      "title": "SEC: Eight Entities Used Fake Crypto Asset Trading Platforms to Steal More Than $37 Million From U.S. Investors",
-      "source": "SEC Press Releases",
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-115-sec-eight-entities-used-fake-crypto-asset-trading-platforms-steal-more-37-million-us-investors",
       "event_type": "regulation",
       "importance_tier": 2,
       "impact_strength": "high",
@@ -124,43 +119,38 @@
   ],
   "policy_news": [
     {
+      "title": "America is definitely rich enough to fix Social Security and Medicare. Here’s how.",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/america-is-definitely-rich-enough-to-fix-social-security-and-medicare-heres-how-30678aa5?mod=mw_rss_topstories",
+      "event_type": "fiscal_policy",
+      "importance_tier": 1,
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "assets": []
+    },
+    {
+      "title": "Ether treasury firm BTCS warns SEC its $54 million Aave loan could be liquidated",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/11/21/ether-treasury-firm-btcs-warns-sec-its-usd54-million-aave-loan-could-be-liquidated",
+      "event_type": "regulation",
+      "importance_tier": 2,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "assets": [
+        "BTC",
+        "COIN",
+        "ETH",
+        "crypto market"
+      ]
+    },
+    {
       "title": "SEC Issues Proposal to Restructure the Consolidated Audit Trail",
       "source": "SEC Press Releases",
       "url": "https://www.sec.gov/newsroom/press-releases/2026-117-sec-issues-proposal-restructure-consolidated-audit-trail",
-      "event_type": "regulation",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
-      "assets": [
-        "BTC",
-        "COIN",
-        "ETH",
-        "crypto market"
-      ]
-    },
-    {
-      "title": "Fairmint plans tokenized stock venue on Canton, Ethereum under SEC experiment",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/11/20/fairmint-plans-tokenized-stock-venue-on-canton-ethereum-under-sec-experiment",
-      "event_type": "regulation",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
-      "assets": [
-        "BTC",
-        "COIN",
-        "ETH",
-        "crypto market"
-      ]
-    },
-    {
-      "title": "SEC Charges Indianapolis-Based Backward Hat Capital and Its Co-Founders With $560 Million Dollar Offering Fraud and Obtains Emergency Relief",
-      "source": "SEC Press Releases",
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-116-sec-charges-indianapolis-based-backward-hat-capital-its-co-founders-560-million-dollar-offering",
       "event_type": "regulation",
       "importance_tier": 2,
       "impact_strength": "high",
@@ -186,56 +176,11 @@
       "direction": "up"
     },
     {
-      "symbol": "NG=F",
-      "group": "COMMODITIES",
-      "price": "3.79",
-      "one_day": "16.00%",
-      "five_day": "17.37%",
-      "trend": "strong_uptrend",
-      "direction": "up"
-    },
-    {
-      "symbol": "ETH",
-      "group": "CRYPTO",
-      "price": "1,616.44",
-      "one_day": "-7.93%",
-      "five_day": "-11.89%",
-      "trend": "strong_downtrend",
-      "direction": "down"
-    },
-    {
-      "symbol": "BINANCECOIN",
-      "group": "CRYPTO",
-      "price": "534.86",
-      "one_day": "-7.72%",
-      "five_day": "-10.32%",
-      "trend": "strong_downtrend",
-      "direction": "down"
-    },
-    {
       "symbol": "SI=F",
       "group": "COMMODITIES",
-      "price": "41.08",
-      "one_day": "-7.31%",
-      "five_day": "-16.22%",
-      "trend": "strong_downtrend",
-      "direction": "down"
-    },
-    {
-      "symbol": "SOLANA",
-      "group": "CRYPTO",
-      "price": "68.48",
-      "one_day": "-6.28%",
-      "five_day": "-5.82%",
-      "trend": "strong_downtrend",
-      "direction": "down"
-    },
-    {
-      "symbol": "RIPPLE",
-      "group": "CRYPTO",
-      "price": "0.90",
-      "one_day": "-6.16%",
-      "five_day": "-7.56%",
+      "price": "41.03",
+      "one_day": "-7.41%",
+      "five_day": "-16.31%",
       "trend": "strong_downtrend",
       "direction": "down"
     },
@@ -247,25 +192,70 @@
       "five_day": "-10.51%",
       "trend": "strong_downtrend",
       "direction": "down"
+    },
+    {
+      "symbol": "GC=F",
+      "group": "COMMODITIES",
+      "price": "3,515.40",
+      "one_day": "-4.62%",
+      "five_day": "-9.54%",
+      "trend": "strong_downtrend",
+      "direction": "down"
+    },
+    {
+      "symbol": "NG=F",
+      "group": "COMMODITIES",
+      "price": "3.41",
+      "one_day": "4.38%",
+      "five_day": "5.60%",
+      "trend": "strong_uptrend",
+      "direction": "up"
+    },
+    {
+      "symbol": "ETH",
+      "group": "CRYPTO",
+      "price": "1,684.95",
+      "one_day": "4.04%",
+      "five_day": "-7.39%",
+      "trend": "strong_downtrend",
+      "direction": "up"
+    },
+    {
+      "symbol": "SPY",
+      "group": "US_EQUITY",
+      "price": "689.81",
+      "one_day": "-3.64%",
+      "five_day": "-8.56%",
+      "trend": "strong_downtrend",
+      "direction": "down"
+    },
+    {
+      "symbol": "VTI",
+      "group": "US_EQUITY",
+      "price": "340.02",
+      "one_day": "-3.52%",
+      "five_day": "-8.38%",
+      "trend": "strong_downtrend",
+      "direction": "down"
     }
   ],
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-11-21/COMMODITIES_summary.png"
+      "src": "charts/2026-11-22/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-11-21/CRYPTO_summary.png"
+      "src": "charts/2026-11-22/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-11-21/HK_MARKET_summary.png"
+      "src": "charts/2026-11-22/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-11-21/US_EQUITY_summary.png"
+      "src": "charts/2026-11-22/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-11-21.html"
+  "latest_report_href": "reports/2026-11-22.html"
 }
