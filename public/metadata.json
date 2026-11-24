@@ -1,60 +1,75 @@
 {
-  "latest_date": "2026-11-23",
-  "market_data_date": "2026-11-23",
-  "chart_date": "2026-11-23",
-  "regime": "risk_off",
-  "regime_summary": "股指回落、VIX 抬升且避险资产走强，市场偏风险规避。",
+  "latest_date": "2026-11-24",
+  "market_data_date": "2026-11-24",
+  "chart_date": "2026-11-24",
+  "regime": "risk_on",
+  "regime_summary": "股指上涨、波动率或美元回落，市场更接近风险偏好改善。",
   "key_moves": [
-    "SPY 下跌 -3.64%",
-    "QQQ 下跌 -5.67%",
-    "VIX 上涨 26.20%",
-    "TLT 上涨 1.37%",
-    "Gold 上涨 2.52%"
+    "SPY 上涨 4.71%",
+    "QQQ 上涨 7.00%",
+    "VIX 下跌 -25.83%"
   ],
   "watch_points": [
-    "关注避险是否演变为信用或流动性压力。"
+    "确认风险偏好是否扩散到小盘股、信用利差和周期品。"
   ],
   "cards": [
     {
       "label": "美股 SPY",
-      "value": "-3.64%"
+      "value": "4.71%"
     },
     {
       "label": "QQQ",
-      "value": "-5.67%"
+      "value": "7.00%"
     },
     {
       "label": "VIX",
-      "value": "26.20%"
+      "value": "-25.83%"
     },
     {
       "label": "BTC",
-      "value": "0.96%"
+      "value": "-0.85%"
     },
     {
       "label": "Gold",
-      "value": "2.52%"
+      "value": "-0.45%"
     },
     {
       "label": "Oil",
-      "value": "-0.88%"
+      "value": "-0.74%"
     }
   ],
   "top_themes": [
-    "earnings: ‘Nvidia’s turmoil has me spooked’: Is it time to sell my stocks and buy real estate?",
-    "regulation: Ether treasury firm BTCS warns SEC its $54 million Aave loan could be liquidated",
-    "earnings: Corporate America hunts for ‘generational’ growth in AI, trading cards and the L.A. airport"
+    "central_bank_decision: Market rout kills 50 basis points December Fed rate hike bets",
+    "earnings: These stocks are the biggest gainers after Jensen Huang’s return to Nvidia"
   ],
   "news_counts": {
-    "must_read": 6,
-    "policy_watch": 2,
-    "background": 6
+    "must_read": 4,
+    "policy_watch": 1,
+    "background": 17
   },
   "focus_news": [
     {
-      "title": "‘Nvidia’s turmoil has me spooked’: Is it time to sell my stocks and buy real estate?",
+      "title": "Market rout kills 50 basis points December Fed rate hike bets",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/11/23/market-rout-kills-50-basis-points-december-fed-rate-hike-bets",
+      "event_type": "central_bank_decision",
+      "importance_tier": 1,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
+      "market_impact": "主要影响 QQQ，方向为 negative，强度 high；鹰派政策提高折现率，压制成长股估值。",
+      "assets": [
+        "BTC",
+        "DXY",
+        "QQQ",
+        "SPY",
+        "TLT"
+      ]
+    },
+    {
+      "title": "These stocks are the biggest gainers after Jensen Huang’s return to Nvidia",
       "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/nvidia-spooked-me-should-i-sell-my-stocks-or-ride-out-the-market-turmoil-560583c6?mod=mw_rss_topstories",
+      "url": "https://www.marketwatch.com/story/these-stocks-are-the-biggest-gainers-after-jensen-huangs-return-to-nvidia-bb886140?mod=mw_rss_topstories",
       "event_type": "earnings",
       "importance_tier": 2,
       "impact_strength": "high",
@@ -70,169 +85,153 @@
       ]
     },
     {
-      "title": "Ether treasury firm BTCS warns SEC its $54 million Aave loan could be liquidated",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/11/21/ether-treasury-firm-btcs-warns-sec-its-usd54-million-aave-loan-could-be-liquidated",
-      "event_type": "regulation",
-      "importance_tier": 2,
+      "title": "Fed's John Williams indicates higher interest rates likely 'over time' to address inflation",
+      "source": "CNBC Economy",
+      "url": "https://www.cnbc.com/2026/11/23/john-williams-fed-inflation-rate-hikes.html",
+      "event_type": "other",
+      "importance_tier": 3,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
       "assets": [
         "BTC",
-        "COIN",
-        "ETH",
-        "crypto market"
+        "DXY",
+        "GC=F",
+        "QQQ",
+        "SPY"
       ]
     },
     {
-      "title": "Corporate America hunts for ‘generational’ growth in AI, trading cards and the L.A. airport",
-      "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/corporate-america-hunts-for-generational-growth-in-ai-trading-cards-and-the-l-a-airport-3072eb1a?mod=mw_rss_topstories",
-      "event_type": "earnings",
-      "importance_tier": 2,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
-      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
-      "assets": []
-    },
-    {
-      "title": "Ron Johnson’s Social Security gaffe buried important news",
-      "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/ron-johnsons-social-security-gaffe-buried-important-news-b96e0ce8?mod=mw_rss_topstories",
-      "event_type": "central_bank_speech",
-      "importance_tier": 2,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "央行官员表态可能影响市场对下一次会议的定价。",
-      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
-      "assets": []
+      "title": "U.S. inflation, Thanksgiving trading: Crypto Week Ahead",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/11/23/u-s-inflation-thanksgiving-trading-crypto-week-ahead",
+      "event_type": "other",
+      "importance_tier": 3,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
+      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
+      "assets": [
+        "BTC",
+        "DXY",
+        "GC=F",
+        "QQQ",
+        "SPY"
+      ]
     }
   ],
   "policy_news": [
     {
-      "title": "Ether treasury firm BTCS warns SEC its $54 million Aave loan could be liquidated",
+      "title": "Market rout kills 50 basis points December Fed rate hike bets",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/11/21/ether-treasury-firm-btcs-warns-sec-its-usd54-million-aave-loan-could-be-liquidated",
-      "event_type": "regulation",
-      "importance_tier": 2,
+      "url": "https://www.coindesk.com/markets/2026/11/23/market-rout-kills-50-basis-points-december-fed-rate-hike-bets",
+      "event_type": "central_bank_decision",
+      "importance_tier": 1,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
+      "market_impact": "主要影响 QQQ，方向为 negative，强度 high；鹰派政策提高折现率，压制成长股估值。",
       "assets": [
         "BTC",
-        "COIN",
-        "ETH",
-        "crypto market"
+        "DXY",
+        "QQQ",
+        "SPY",
+        "TLT"
       ]
-    },
-    {
-      "title": "Ron Johnson’s Social Security gaffe buried important news",
-      "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/ron-johnsons-social-security-gaffe-buried-important-news-b96e0ce8?mod=mw_rss_topstories",
-      "event_type": "central_bank_speech",
-      "importance_tier": 2,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "央行官员表态可能影响市场对下一次会议的定价。",
-      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
-      "assets": []
     }
   ],
   "asset_movers": [
     {
       "symbol": "^VIX",
       "group": "US_MACRO_MARKET",
-      "price": "35.89",
-      "one_day": "26.20%",
-      "five_day": "85.96%",
+      "price": "26.62",
+      "one_day": "-25.83%",
+      "five_day": "16.19%",
       "trend": "strong_uptrend",
-      "direction": "up"
+      "direction": "down"
     },
     {
       "symbol": "NG=F",
       "group": "COMMODITIES",
-      "price": "3.61",
-      "one_day": "5.92%",
-      "five_day": "15.73%",
+      "price": "3.54",
+      "one_day": "11.21%",
+      "five_day": "10.38%",
       "trend": "strong_uptrend",
       "direction": "up"
     },
     {
       "symbol": "QQQ",
       "group": "US_EQUITY",
-      "price": "608.45",
-      "one_day": "-5.67%",
-      "five_day": "-10.51%",
+      "price": "651.03",
+      "one_day": "7.00%",
+      "five_day": "-1.62%",
       "trend": "strong_downtrend",
-      "direction": "down"
+      "direction": "up"
     },
     {
-      "symbol": "9988.HK",
+      "symbol": "1810.HK",
       "group": "HK_MARKET",
-      "price": "80.15",
-      "one_day": "-3.84%",
-      "five_day": "-11.09%",
-      "trend": "strong_downtrend",
-      "direction": "down"
-    },
-    {
-      "symbol": "1211.HK",
-      "group": "HK_MARKET",
-      "price": "60.00",
-      "one_day": "-3.77%",
-      "five_day": "-7.83%",
-      "trend": "strong_downtrend",
+      "price": "26.20",
+      "one_day": "-4.80%",
+      "five_day": "-11.78%",
+      "trend": "range_bound",
       "direction": "down"
     },
     {
       "symbol": "SPY",
       "group": "US_EQUITY",
-      "price": "689.81",
-      "one_day": "-3.64%",
-      "five_day": "-8.56%",
+      "price": "722.29",
+      "one_day": "4.71%",
+      "five_day": "-2.39%",
       "trend": "strong_downtrend",
-      "direction": "down"
-    },
-    {
-      "symbol": "3690.HK",
-      "group": "HK_MARKET",
-      "price": "64.15",
-      "one_day": "-3.53%",
-      "five_day": "-10.34%",
-      "trend": "strong_downtrend",
-      "direction": "down"
+      "direction": "up"
     },
     {
       "symbol": "VTI",
       "group": "US_EQUITY",
-      "price": "340.02",
-      "one_day": "-3.52%",
-      "five_day": "-8.38%",
+      "price": "355.27",
+      "one_day": "4.49%",
+      "five_day": "-2.48%",
+      "trend": "strong_downtrend",
+      "direction": "up"
+    },
+    {
+      "symbol": "BZ=F",
+      "group": "COMMODITIES",
+      "price": "86.18",
+      "one_day": "-3.57%",
+      "five_day": "-7.47%",
       "trend": "strong_downtrend",
       "direction": "down"
+    },
+    {
+      "symbol": "IWM",
+      "group": "US_EQUITY",
+      "price": "265.74",
+      "one_day": "3.56%",
+      "five_day": "-2.64%",
+      "trend": "strong_downtrend",
+      "direction": "up"
     }
   ],
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-11-23/COMMODITIES_summary.png"
+      "src": "charts/2026-11-24/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-11-23/CRYPTO_summary.png"
+      "src": "charts/2026-11-24/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-11-23/HK_MARKET_summary.png"
+      "src": "charts/2026-11-24/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-11-23/US_EQUITY_summary.png"
+      "src": "charts/2026-11-24/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-11-23.html"
+  "latest_report_href": "reports/2026-11-24.html"
 }
