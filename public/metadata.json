@@ -1,75 +1,73 @@
 {
-  "latest_date": "2026-11-24",
-  "market_data_date": "2026-11-24",
-  "chart_date": "2026-11-24",
-  "regime": "risk_on",
-  "regime_summary": "股指上涨、波动率或美元回落，市场更接近风险偏好改善。",
+  "latest_date": "2026-11-25",
+  "market_data_date": "2026-11-25",
+  "chart_date": "2026-11-25",
+  "regime": "unknown",
+  "regime_summary": "市场信号不足，暂不判断明确状态。",
   "key_moves": [
-    "SPY 上涨 4.71%",
-    "QQQ 上涨 7.00%",
-    "VIX 下跌 -25.83%"
+    "SPY 下跌 -0.49%",
+    "QQQ 下跌 -1.99%",
+    "DXY 下跌 -0.34%",
+    "Gold 下跌 -2.82%",
+    "BTC 下跌 -3.63%",
+    "ETH 下跌 -3.22%"
   ],
   "watch_points": [
-    "确认风险偏好是否扩散到小盘股、信用利差和周期品。"
+    "关注后续数据是否确认当前跨资产信号。"
   ],
   "cards": [
     {
       "label": "美股 SPY",
-      "value": "4.71%"
+      "value": "-0.49%"
     },
     {
       "label": "QQQ",
-      "value": "7.00%"
+      "value": "-1.99%"
     },
     {
       "label": "VIX",
-      "value": "-25.83%"
+      "value": "-0.98%"
     },
     {
       "label": "BTC",
-      "value": "-0.85%"
+      "value": "-3.63%"
     },
     {
       "label": "Gold",
-      "value": "-0.45%"
+      "value": "-2.82%"
     },
     {
       "label": "Oil",
-      "value": "-0.74%"
+      "value": "0.72%"
     }
   ],
   "top_themes": [
-    "central_bank_decision: Market rout kills 50 basis points December Fed rate hike bets",
-    "earnings: These stocks are the biggest gainers after Jensen Huang’s return to Nvidia"
+    "fiscal_policy: Micron boosted CEO Sanjay Mehrotra’s security budget by 2,000%, new filing shows",
+    "earnings: Bitcoin hands back Monday's Nvidia-driven gains, liquidations triple",
+    "earnings: Bitcoin falls below $60,000 as rally on Jensen Huang’s Nvidia return fades"
   ],
   "news_counts": {
-    "must_read": 4,
-    "policy_watch": 1,
-    "background": 17
+    "must_read": 6,
+    "policy_watch": 2,
+    "background": 20
   },
   "focus_news": [
     {
-      "title": "Market rout kills 50 basis points December Fed rate hike bets",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/11/23/market-rout-kills-50-basis-points-december-fed-rate-hike-bets",
-      "event_type": "central_bank_decision",
+      "title": "Micron boosted CEO Sanjay Mehrotra’s security budget by 2,000%, new filing shows",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/micron-boosted-ceo-sanjay-mehrotras-security-budget-by-2-000-new-filing-shows-d6202acc?mod=mw_rss_topstories",
+      "event_type": "fiscal_policy",
       "importance_tier": 1,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
-      "market_impact": "主要影响 QQQ，方向为 negative，强度 high；鹰派政策提高折现率，压制成长股估值。",
-      "assets": [
-        "BTC",
-        "DXY",
-        "QQQ",
-        "SPY",
-        "TLT"
-      ]
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "assets": []
     },
     {
-      "title": "These stocks are the biggest gainers after Jensen Huang’s return to Nvidia",
-      "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/these-stocks-are-the-biggest-gainers-after-jensen-huangs-return-to-nvidia-bb886140?mod=mw_rss_topstories",
+      "title": "Bitcoin hands back Monday's Nvidia-driven gains, liquidations triple",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/11/24/bitcoin-hands-back-monday-s-nvidia-driven-gains-liquidations-triple",
       "event_type": "earnings",
       "importance_tier": 2,
       "impact_strength": "high",
@@ -85,153 +83,163 @@
       ]
     },
     {
-      "title": "Fed's John Williams indicates higher interest rates likely 'over time' to address inflation",
-      "source": "CNBC Economy",
-      "url": "https://www.cnbc.com/2026/11/23/john-williams-fed-inflation-rate-hikes.html",
-      "event_type": "other",
-      "importance_tier": 3,
+      "title": "Bitcoin falls below $60,000 as rally on Jensen Huang’s Nvidia return fades",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/11/24/bitcoin-falls-below-usd60-000-as-rally-on-jensen-huang-s-nvidia-return-fades",
+      "event_type": "earnings",
+      "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
-      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
+      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
+      "market_impact": "主要影响 QQQ，方向为 mixed，强度 high；AI 资本开支会影响大型科技股盈利和估值预期。",
       "assets": [
-        "BTC",
-        "DXY",
-        "GC=F",
-        "QQQ",
-        "SPY"
+        "AMZN",
+        "GOOGL",
+        "META",
+        "MSFT",
+        "NVDA"
       ]
     },
     {
-      "title": "U.S. inflation, Thanksgiving trading: Crypto Week Ahead",
+      "title": "Bitcoin drops as November spot ETF outflows increase to record $4.71 billion",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/11/23/u-s-inflation-thanksgiving-trading-crypto-week-ahead",
-      "event_type": "other",
-      "importance_tier": 3,
+      "url": "https://www.coindesk.com/daybook-us/2026/11/24/bitcoin-drops-as-november-spot-etf-outflows-increase-to-record-usd4-71-billion",
+      "event_type": "crypto_market_structure",
+      "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "这条信息暂未匹配到重大宏观、政策或市场事件，更适合作为背景跟踪。",
-      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
+      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
+      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
       "assets": [
         "BTC",
-        "DXY",
-        "GC=F",
-        "QQQ",
-        "SPY"
+        "COIN",
+        "ETH",
+        "crypto market"
       ]
     }
   ],
   "policy_news": [
     {
-      "title": "Market rout kills 50 basis points December Fed rate hike bets",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/11/23/market-rout-kills-50-basis-points-december-fed-rate-hike-bets",
-      "event_type": "central_bank_decision",
+      "title": "Micron boosted CEO Sanjay Mehrotra’s security budget by 2,000%, new filing shows",
+      "source": "MarketWatch Top Stories",
+      "url": "https://www.marketwatch.com/story/micron-boosted-ceo-sanjay-mehrotras-security-budget-by-2-000-new-filing-shows-d6202acc?mod=mw_rss_topstories",
+      "event_type": "fiscal_policy",
       "importance_tier": 1,
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "assets": []
+    },
+    {
+      "title": "Bitcoin drops as November spot ETF outflows increase to record $4.71 billion",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/daybook-us/2026/11/24/bitcoin-drops-as-november-spot-etf-outflows-increase-to-record-usd4-71-billion",
+      "event_type": "crypto_market_structure",
+      "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "央行决策会重定价利率、汇率、久期资产和风险资产。",
-      "market_impact": "主要影响 QQQ，方向为 negative，强度 high；鹰派政策提高折现率，压制成长股估值。",
+      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
+      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
       "assets": [
         "BTC",
-        "DXY",
-        "QQQ",
-        "SPY",
-        "TLT"
+        "COIN",
+        "ETH",
+        "crypto market"
       ]
     }
   ],
   "asset_movers": [
     {
-      "symbol": "^VIX",
-      "group": "US_MACRO_MARKET",
-      "price": "26.62",
-      "one_day": "-25.83%",
-      "five_day": "16.19%",
+      "symbol": "NG=F",
+      "group": "COMMODITIES",
+      "price": "3.70",
+      "one_day": "16.17%",
+      "five_day": "15.31%",
       "trend": "strong_uptrend",
+      "direction": "up"
+    },
+    {
+      "symbol": "SI=F",
+      "group": "COMMODITIES",
+      "price": "40.58",
+      "one_day": "-5.94%",
+      "five_day": "-14.17%",
+      "trend": "strong_downtrend",
       "direction": "down"
     },
     {
-      "symbol": "NG=F",
-      "group": "COMMODITIES",
-      "price": "3.54",
-      "one_day": "11.21%",
-      "five_day": "10.38%",
-      "trend": "strong_uptrend",
-      "direction": "up"
-    },
-    {
-      "symbol": "QQQ",
-      "group": "US_EQUITY",
-      "price": "651.03",
-      "one_day": "7.00%",
-      "five_day": "-1.62%",
+      "symbol": "SOLANA",
+      "group": "CRYPTO",
+      "price": "68.67",
+      "one_day": "-4.61%",
+      "five_day": "-6.02%",
       "trend": "strong_downtrend",
-      "direction": "up"
+      "direction": "down"
     },
     {
       "symbol": "1810.HK",
       "group": "HK_MARKET",
-      "price": "26.20",
-      "one_day": "-4.80%",
-      "five_day": "-11.78%",
+      "price": "27.58",
+      "one_day": "4.08%",
+      "five_day": "-7.01%",
       "trend": "range_bound",
+      "direction": "up"
+    },
+    {
+      "symbol": "BTC",
+      "group": "CRYPTO",
+      "price": "59,003.73",
+      "one_day": "-3.63%",
+      "five_day": "-4.71%",
+      "trend": "strong_downtrend",
       "direction": "down"
     },
     {
-      "symbol": "SPY",
-      "group": "US_EQUITY",
-      "price": "722.29",
-      "one_day": "4.71%",
-      "five_day": "-2.39%",
+      "symbol": "ETH",
+      "group": "CRYPTO",
+      "price": "1,654.22",
+      "one_day": "-3.22%",
+      "five_day": "-5.77%",
       "trend": "strong_downtrend",
-      "direction": "up"
+      "direction": "down"
     },
     {
-      "symbol": "VTI",
-      "group": "US_EQUITY",
-      "price": "355.27",
-      "one_day": "4.49%",
-      "five_day": "-2.48%",
-      "trend": "strong_downtrend",
-      "direction": "up"
-    },
-    {
-      "symbol": "BZ=F",
+      "symbol": "HG=F",
       "group": "COMMODITIES",
-      "price": "86.18",
-      "one_day": "-3.57%",
-      "five_day": "-7.47%",
+      "price": "5.45",
+      "one_day": "-3.15%",
+      "five_day": "-8.80%",
       "trend": "strong_downtrend",
       "direction": "down"
     },
     {
-      "symbol": "IWM",
-      "group": "US_EQUITY",
-      "price": "265.74",
-      "one_day": "3.56%",
-      "five_day": "-2.64%",
+      "symbol": "BINANCECOIN",
+      "group": "CRYPTO",
+      "price": "540.41",
+      "one_day": "-2.83%",
+      "five_day": "-6.76%",
       "trend": "strong_downtrend",
-      "direction": "up"
+      "direction": "down"
     }
   ],
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-11-24/COMMODITIES_summary.png"
+      "src": "charts/2026-11-25/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-11-24/CRYPTO_summary.png"
+      "src": "charts/2026-11-25/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-11-24/HK_MARKET_summary.png"
+      "src": "charts/2026-11-25/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-11-24/US_EQUITY_summary.png"
+      "src": "charts/2026-11-25/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-11-24.html"
+  "latest_report_href": "reports/2026-11-25.html"
 }
