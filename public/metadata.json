@@ -1,16 +1,15 @@
 {
-  "latest_date": "2026-11-25",
-  "market_data_date": "2026-11-25",
-  "chart_date": "2026-11-25",
+  "latest_date": "2026-11-26",
+  "market_data_date": "2026-11-26",
+  "chart_date": "2026-11-26",
   "regime": "unknown",
   "regime_summary": "市场信号不足，暂不判断明确状态。",
   "key_moves": [
-    "SPY 下跌 -0.49%",
-    "QQQ 下跌 -1.99%",
-    "DXY 下跌 -0.34%",
-    "Gold 下跌 -2.82%",
-    "BTC 下跌 -3.63%",
-    "ETH 下跌 -3.22%"
+    "QQQ 下跌 -0.65%",
+    "VIX 上涨 7.32%",
+    "TLT 上涨 0.92%",
+    "Gold 上涨 1.33%",
+    "Oil 上涨 2.85%"
   ],
   "watch_points": [
     "关注后续数据是否确认当前跨资产信号。"
@@ -18,56 +17,62 @@
   "cards": [
     {
       "label": "美股 SPY",
-      "value": "-0.49%"
+      "value": "-0.29%"
     },
     {
       "label": "QQQ",
-      "value": "-1.99%"
+      "value": "-0.65%"
     },
     {
       "label": "VIX",
-      "value": "-0.98%"
+      "value": "7.32%"
     },
     {
       "label": "BTC",
-      "value": "-3.63%"
+      "value": "1.65%"
     },
     {
       "label": "Gold",
-      "value": "-2.82%"
+      "value": "1.33%"
     },
     {
       "label": "Oil",
-      "value": "0.72%"
+      "value": "2.85%"
     }
   ],
   "top_themes": [
-    "fiscal_policy: Micron boosted CEO Sanjay Mehrotra’s security budget by 2,000%, new filing shows",
-    "earnings: Bitcoin hands back Monday's Nvidia-driven gains, liquidations triple",
-    "earnings: Bitcoin falls below $60,000 as rally on Jensen Huang’s Nvidia return fades"
+    "macro_data: Indicators for Core CPI",
+    "earnings: Liesman: Nvidia whiplash tests Kevin Warsh’s push to read market signals",
+    "regulation: SEC Investor Advisory Committee to Host Dec. 3 Virtual Meeting"
   ],
   "news_counts": {
-    "must_read": 6,
-    "policy_watch": 2,
+    "must_read": 8,
+    "policy_watch": 3,
     "background": 20
   },
   "focus_news": [
     {
-      "title": "Micron boosted CEO Sanjay Mehrotra’s security budget by 2,000%, new filing shows",
-      "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/micron-boosted-ceo-sanjay-mehrotras-security-budget-by-2-000-new-filing-shows-d6202acc?mod=mw_rss_topstories",
-      "event_type": "fiscal_policy",
+      "title": "Indicators for Core CPI",
+      "source": "Bank of Japan Announcements",
+      "url": "http://www.boj.or.jp/en/research/research_data/cpi/index.htm",
+      "event_type": "macro_data",
       "importance_tier": 1,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
-      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
-      "assets": []
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "这类宏观数据会直接改变市场对通胀、增长和政策路径的预期。",
+      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
+      "assets": [
+        "BTC",
+        "DXY",
+        "GC=F",
+        "QQQ",
+        "SPY"
+      ]
     },
     {
-      "title": "Bitcoin hands back Monday's Nvidia-driven gains, liquidations triple",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/11/24/bitcoin-hands-back-monday-s-nvidia-driven-gains-liquidations-triple",
+      "title": "Liesman: Nvidia whiplash tests Kevin Warsh’s push to read market signals",
+      "source": "CNBC Economy",
+      "url": "https://www.cnbc.com/2026/11/25/nvidia-kevin-warsh-fed-market-signals.html",
       "event_type": "earnings",
       "importance_tier": 2,
       "impact_strength": "high",
@@ -83,21 +88,20 @@
       ]
     },
     {
-      "title": "Bitcoin falls below $60,000 as rally on Jensen Huang’s Nvidia return fades",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/11/24/bitcoin-falls-below-usd60-000-as-rally-on-jensen-huang-s-nvidia-return-fades",
-      "event_type": "earnings",
+      "title": "SEC Investor Advisory Committee to Host Dec. 3 Virtual Meeting",
+      "source": "SEC Press Releases",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-118-sec-investor-advisory-committee-host-dec-3-virtual-meeting",
+      "event_type": "regulation",
       "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
-      "market_impact": "主要影响 QQQ，方向为 mixed，强度 high；AI 资本开支会影响大型科技股盈利和估值预期。",
+      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
       "assets": [
-        "AMZN",
-        "GOOGL",
-        "META",
-        "MSFT",
-        "NVDA"
+        "BTC",
+        "COIN",
+        "ETH",
+        "crypto market"
       ]
     },
     {
@@ -120,16 +124,21 @@
   ],
   "policy_news": [
     {
-      "title": "Micron boosted CEO Sanjay Mehrotra’s security budget by 2,000%, new filing shows",
-      "source": "MarketWatch Top Stories",
-      "url": "https://www.marketwatch.com/story/micron-boosted-ceo-sanjay-mehrotras-security-budget-by-2-000-new-filing-shows-d6202acc?mod=mw_rss_topstories",
-      "event_type": "fiscal_policy",
-      "importance_tier": 1,
-      "impact_strength": "low",
-      "impact_direction": "unknown",
-      "reason": "财政和贸易政策会影响增长、通胀、企业利润和跨境资本流。",
-      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
-      "assets": []
+      "title": "SEC Investor Advisory Committee to Host Dec. 3 Virtual Meeting",
+      "source": "SEC Press Releases",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-118-sec-investor-advisory-committee-host-dec-3-virtual-meeting",
+      "event_type": "regulation",
+      "importance_tier": 2,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "assets": [
+        "BTC",
+        "COIN",
+        "ETH",
+        "crypto market"
+      ]
     },
     {
       "title": "Bitcoin drops as November spot ETF outflows increase to record $4.71 billion",
@@ -147,99 +156,111 @@
         "ETH",
         "crypto market"
       ]
+    },
+    {
+      "title": "Speech by Board Member TAMURA in Yamanashi (Economic Activity, Prices, and Monetary Policy in Japan)",
+      "source": "Bank of Japan Announcements",
+      "url": "http://www.boj.or.jp/en/about/press/koen_2026/ko261126a.htm",
+      "event_type": "central_bank_speech",
+      "importance_tier": 2,
+      "impact_strength": "low",
+      "impact_direction": "unknown",
+      "reason": "央行官员表态可能影响市场对下一次会议的定价。",
+      "market_impact": "可能影响利率、汇率、风险资产或大宗商品预期，但当前公开信息不足以判断明确方向。",
+      "assets": []
     }
   ],
   "asset_movers": [
     {
       "symbol": "NG=F",
       "group": "COMMODITIES",
-      "price": "3.70",
-      "one_day": "16.17%",
-      "five_day": "15.31%",
+      "price": "3.68",
+      "one_day": "10.80%",
+      "five_day": "9.19%",
       "trend": "strong_uptrend",
+      "direction": "up"
+    },
+    {
+      "symbol": "^VIX",
+      "group": "US_MACRO_MARKET",
+      "price": "28.29",
+      "one_day": "7.32%",
+      "five_day": "15.19%",
+      "trend": "uptrend",
+      "direction": "up"
+    },
+    {
+      "symbol": "3690.HK",
+      "group": "HK_MARKET",
+      "price": "63.90",
+      "one_day": "3.99%",
+      "five_day": "-5.40%",
+      "trend": "strong_downtrend",
+      "direction": "up"
+    },
+    {
+      "symbol": "RIPPLE",
+      "group": "CRYPTO",
+      "price": "0.96",
+      "one_day": "3.75%",
+      "five_day": "5.44%",
+      "trend": "strong_downtrend",
+      "direction": "up"
+    },
+    {
+      "symbol": "9988.HK",
+      "group": "HK_MARKET",
+      "price": "83.85",
+      "one_day": "3.26%",
+      "five_day": "4.10%",
+      "trend": "strong_downtrend",
       "direction": "up"
     },
     {
       "symbol": "SI=F",
       "group": "COMMODITIES",
-      "price": "40.58",
-      "one_day": "-5.94%",
-      "five_day": "-14.17%",
+      "price": "42.03",
+      "one_day": "3.10%",
+      "five_day": "-6.61%",
       "trend": "strong_downtrend",
-      "direction": "down"
-    },
-    {
-      "symbol": "SOLANA",
-      "group": "CRYPTO",
-      "price": "68.67",
-      "one_day": "-4.61%",
-      "five_day": "-6.02%",
-      "trend": "strong_downtrend",
-      "direction": "down"
-    },
-    {
-      "symbol": "1810.HK",
-      "group": "HK_MARKET",
-      "price": "27.58",
-      "one_day": "4.08%",
-      "five_day": "-7.01%",
-      "trend": "range_bound",
       "direction": "up"
     },
     {
-      "symbol": "BTC",
-      "group": "CRYPTO",
-      "price": "59,003.73",
-      "one_day": "-3.63%",
-      "five_day": "-4.71%",
+      "symbol": "CL=F",
+      "group": "COMMODITIES",
+      "price": "84.39",
+      "one_day": "2.85%",
+      "five_day": "1.36%",
       "trend": "strong_downtrend",
-      "direction": "down"
-    },
-    {
-      "symbol": "ETH",
-      "group": "CRYPTO",
-      "price": "1,654.22",
-      "one_day": "-3.22%",
-      "five_day": "-5.77%",
-      "trend": "strong_downtrend",
-      "direction": "down"
+      "direction": "up"
     },
     {
       "symbol": "HG=F",
       "group": "COMMODITIES",
-      "price": "5.45",
-      "one_day": "-3.15%",
-      "five_day": "-8.80%",
+      "price": "5.49",
+      "one_day": "2.42%",
+      "five_day": "-2.95%",
       "trend": "strong_downtrend",
-      "direction": "down"
-    },
-    {
-      "symbol": "BINANCECOIN",
-      "group": "CRYPTO",
-      "price": "540.41",
-      "one_day": "-2.83%",
-      "five_day": "-6.76%",
-      "trend": "strong_downtrend",
-      "direction": "down"
+      "direction": "up"
     }
   ],
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-11-25/COMMODITIES_summary.png"
+      "src": "charts/2026-11-26/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-11-25/CRYPTO_summary.png"
+      "src": "charts/2026-11-26/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-11-25/HK_MARKET_summary.png"
+      "src": "charts/2026-11-26/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-11-25/US_EQUITY_summary.png"
+      "src": "charts/2026-11-26/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-11-25.html"
+  "latest_report_href": "reports/2026-11-26.html"
 }
