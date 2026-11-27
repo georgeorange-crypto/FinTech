@@ -1,15 +1,16 @@
 {
-  "latest_date": "2026-11-26",
-  "market_data_date": "2026-11-26",
-  "chart_date": "2026-11-26",
+  "latest_date": "2026-11-27",
+  "market_data_date": "2026-11-27",
+  "chart_date": "2026-11-27",
   "regime": "unknown",
   "regime_summary": "市场信号不足，暂不判断明确状态。",
   "key_moves": [
     "QQQ 下跌 -0.65%",
-    "VIX 上涨 7.32%",
+    "VIX 下跌 -5.27%",
     "TLT 上涨 0.92%",
-    "Gold 上涨 1.33%",
-    "Oil 上涨 2.85%"
+    "Gold 上涨 3.42%",
+    "Oil 上涨 2.44%",
+    "ETH 上涨 2.16%"
   ],
   "watch_points": [
     "关注后续数据是否确认当前跨资产信号。"
@@ -25,29 +26,29 @@
     },
     {
       "label": "VIX",
-      "value": "7.32%"
+      "value": "-5.27%"
     },
     {
       "label": "BTC",
-      "value": "1.65%"
+      "value": "1.72%"
     },
     {
       "label": "Gold",
-      "value": "1.33%"
+      "value": "3.42%"
     },
     {
       "label": "Oil",
-      "value": "2.85%"
+      "value": "2.44%"
     }
   ],
   "top_themes": [
     "macro_data: Indicators for Core CPI",
-    "earnings: Liesman: Nvidia whiplash tests Kevin Warsh’s push to read market signals",
-    "regulation: SEC Investor Advisory Committee to Host Dec. 3 Virtual Meeting"
+    "earnings: Buyer beware? Nvidia's volatile swings expose risks of single-stock ETFs",
+    "earnings: Liesman: Nvidia whiplash tests Kevin Warsh’s push to read market signals"
   ],
   "news_counts": {
-    "must_read": 8,
-    "policy_watch": 3,
+    "must_read": 9,
+    "policy_watch": 4,
     "background": 20
   },
   "focus_news": [
@@ -70,6 +71,24 @@
       ]
     },
     {
+      "title": "Buyer beware? Nvidia's volatile swings expose risks of single-stock ETFs",
+      "source": "CNBC Economy",
+      "url": "https://www.cnbc.com/2026/11/26/nvidias-volatile-swings-expose-risks-of-single-stock-etfs.html",
+      "event_type": "earnings",
+      "importance_tier": 2,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
+      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "assets": [
+        "AMZN",
+        "BTC",
+        "COIN",
+        "ETH",
+        "GOOGL"
+      ]
+    },
+    {
       "title": "Liesman: Nvidia whiplash tests Kevin Warsh’s push to read market signals",
       "source": "CNBC Economy",
       "url": "https://www.cnbc.com/2026/11/25/nvidia-kevin-warsh-fed-market-signals.html",
@@ -88,31 +107,14 @@
       ]
     },
     {
-      "title": "SEC Investor Advisory Committee to Host Dec. 3 Virtual Meeting",
-      "source": "SEC Press Releases",
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-118-sec-investor-advisory-committee-host-dec-3-virtual-meeting",
+      "title": "Ripple is worth $90 a share to one fund and $300 to another, SEC filings show",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/11/26/ripple-is-worth-usd90-a-share-to-one-fund-and-usd300-to-another-sec-filings-show",
       "event_type": "regulation",
       "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
       "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
-      "assets": [
-        "BTC",
-        "COIN",
-        "ETH",
-        "crypto market"
-      ]
-    },
-    {
-      "title": "Bitcoin drops as November spot ETF outflows increase to record $4.71 billion",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/daybook-us/2026/11/24/bitcoin-drops-as-november-spot-etf-outflows-increase-to-record-usd4-71-billion",
-      "event_type": "crypto_market_structure",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
       "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
       "assets": [
         "BTC",
@@ -124,6 +126,23 @@
   ],
   "policy_news": [
     {
+      "title": "Ripple is worth $90 a share to one fund and $300 to another, SEC filings show",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/11/26/ripple-is-worth-usd90-a-share-to-one-fund-and-usd300-to-another-sec-filings-show",
+      "event_type": "regulation",
+      "importance_tier": 2,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "assets": [
+        "BTC",
+        "COIN",
+        "ETH",
+        "crypto market"
+      ]
+    },
+    {
       "title": "SEC Investor Advisory Committee to Host Dec. 3 Virtual Meeting",
       "source": "SEC Press Releases",
       "url": "https://www.sec.gov/newsroom/press-releases/2026-118-sec-investor-advisory-committee-host-dec-3-virtual-meeting",
@@ -141,26 +160,9 @@
       ]
     },
     {
-      "title": "Bitcoin drops as November spot ETF outflows increase to record $4.71 billion",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/daybook-us/2026/11/24/bitcoin-drops-as-november-spot-etf-outflows-increase-to-record-usd4-71-billion",
-      "event_type": "crypto_market_structure",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
-      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
-      "assets": [
-        "BTC",
-        "COIN",
-        "ETH",
-        "crypto market"
-      ]
-    },
-    {
-      "title": "Speech by Board Member TAMURA in Yamanashi (Economic Activity, Prices, and Monetary Policy in Japan)",
+      "title": "Keynote speech by Executive Director KAMIYAMA at the IMF MCM-OAP Seminar in Tokyo (Digital Money and Payments: Transitioning Toward a New Paradigm)",
       "source": "Bank of Japan Announcements",
-      "url": "http://www.boj.or.jp/en/about/press/koen_2026/ko261126a.htm",
+      "url": "http://www.boj.or.jp/en/about/press/koen_2026/ko261127a.htm",
       "event_type": "central_bank_speech",
       "importance_tier": 2,
       "impact_strength": "low",
@@ -174,72 +176,72 @@
     {
       "symbol": "NG=F",
       "group": "COMMODITIES",
-      "price": "3.68",
-      "one_day": "10.80%",
-      "five_day": "9.19%",
+      "price": "3.60",
+      "one_day": "10.19%",
+      "five_day": "10.22%",
       "trend": "strong_uptrend",
-      "direction": "up"
-    },
-    {
-      "symbol": "^VIX",
-      "group": "US_MACRO_MARKET",
-      "price": "28.29",
-      "one_day": "7.32%",
-      "five_day": "15.19%",
-      "trend": "uptrend",
-      "direction": "up"
-    },
-    {
-      "symbol": "3690.HK",
-      "group": "HK_MARKET",
-      "price": "63.90",
-      "one_day": "3.99%",
-      "five_day": "-5.40%",
-      "trend": "strong_downtrend",
-      "direction": "up"
-    },
-    {
-      "symbol": "RIPPLE",
-      "group": "CRYPTO",
-      "price": "0.96",
-      "one_day": "3.75%",
-      "five_day": "5.44%",
-      "trend": "strong_downtrend",
-      "direction": "up"
-    },
-    {
-      "symbol": "9988.HK",
-      "group": "HK_MARKET",
-      "price": "83.85",
-      "one_day": "3.26%",
-      "five_day": "4.10%",
-      "trend": "strong_downtrend",
       "direction": "up"
     },
     {
       "symbol": "SI=F",
       "group": "COMMODITIES",
-      "price": "42.03",
-      "one_day": "3.10%",
-      "five_day": "-6.61%",
-      "trend": "strong_downtrend",
-      "direction": "up"
-    },
-    {
-      "symbol": "CL=F",
-      "group": "COMMODITIES",
-      "price": "84.39",
-      "one_day": "2.85%",
-      "five_day": "1.36%",
+      "price": "43.81",
+      "one_day": "9.40%",
+      "five_day": "-1.13%",
       "trend": "strong_downtrend",
       "direction": "up"
     },
     {
       "symbol": "HG=F",
       "group": "COMMODITIES",
-      "price": "5.49",
-      "one_day": "2.42%",
-      "five_day": "-2.95%",
+      "price": "5.65",
+      "one_day": "5.92%",
+      "five_day": "0.41%",
+      "trend": "strong_downtrend",
+      "direction": "up"
+    },
+    {
+      "symbol": "^VIX",
+      "group": "US_MACRO_MARKET",
+      "price": "26.80",
+      "one_day": "-5.27%",
+      "five_day": "-5.77%",
+      "trend": "uptrend",
+      "direction": "down"
+    },
+    {
+      "symbol": "3690.HK",
+      "group": "HK_MARKET",
+      "price": "65.70",
+      "one_day": "4.78%",
+      "five_day": "-1.20%",
+      "trend": "strong_downtrend",
+      "direction": "up"
+    },
+    {
+      "symbol": "GC=F",
+      "group": "COMMODITIES",
+      "price": "3,656.60",
+      "one_day": "3.42%",
+      "five_day": "-0.78%",
+      "trend": "strong_downtrend",
+      "direction": "up"
+    },
+    {
+      "symbol": "SOLANA",
+      "group": "CRYPTO",
+      "price": "72.63",
+      "one_day": "3.20%",
+      "five_day": "3.46%",
+      "trend": "strong_downtrend",
+      "direction": "up"
+    },
+    {
+      "symbol": "9988.HK",
+      "group": "HK_MARKET",
+      "price": "85.00",
+      "one_day": "3.03%",
+      "five_day": "1.98%",
       "trend": "strong_downtrend",
       "direction": "up"
     }
@@ -247,20 +249,20 @@
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-11-26/COMMODITIES_summary.png"
+      "src": "charts/2026-11-27/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-11-26/CRYPTO_summary.png"
+      "src": "charts/2026-11-27/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-11-26/HK_MARKET_summary.png"
+      "src": "charts/2026-11-27/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-11-26/US_EQUITY_summary.png"
+      "src": "charts/2026-11-27/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-11-26.html"
+  "latest_report_href": "reports/2026-11-27.html"
 }
