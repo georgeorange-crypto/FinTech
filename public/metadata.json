@@ -1,73 +1,73 @@
 {
-  "latest_date": "2026-11-27",
-  "market_data_date": "2026-11-27",
-  "chart_date": "2026-11-27",
-  "regime": "unknown",
-  "regime_summary": "市场信号不足，暂不判断明确状态。",
+  "latest_date": "2026-11-28",
+  "market_data_date": "2026-11-28",
+  "chart_date": "2026-11-28",
+  "regime": "mixed",
+  "regime_summary": "股指上涨、波动率或美元回落，市场更接近风险偏好改善。 但存在信号冲突，需要降低单一叙事置信度。",
   "key_moves": [
-    "QQQ 下跌 -0.65%",
-    "VIX 下跌 -5.27%",
-    "TLT 上涨 0.92%",
-    "Gold 上涨 3.42%",
-    "Oil 上涨 2.44%",
-    "ETH 上涨 2.16%"
+    "SPY 上涨 1.62%",
+    "QQQ 上涨 2.69%",
+    "VIX 下跌 -11.16%",
+    "TLT 下跌 -1.18%",
+    "DXY 上涨 0.33%",
+    "Gold 上涨 3.75%"
   ],
   "watch_points": [
-    "关注后续数据是否确认当前跨资产信号。"
+    "确认风险偏好是否扩散到小盘股、信用利差和周期品。"
   ],
   "cards": [
     {
       "label": "美股 SPY",
-      "value": "-0.29%"
+      "value": "1.62%"
     },
     {
       "label": "QQQ",
-      "value": "-0.65%"
+      "value": "2.69%"
     },
     {
       "label": "VIX",
-      "value": "-5.27%"
+      "value": "-11.16%"
     },
     {
       "label": "BTC",
-      "value": "1.72%"
+      "value": "-0.98%"
     },
     {
       "label": "Gold",
-      "value": "3.42%"
+      "value": "3.75%"
     },
     {
       "label": "Oil",
-      "value": "2.44%"
+      "value": "-0.72%"
     }
   ],
   "top_themes": [
-    "macro_data: Indicators for Core CPI",
+    "earnings: Liesman: Nvidia whiplash tests Kevin Warsh’s push to read market signals",
     "earnings: Buyer beware? Nvidia's volatile swings expose risks of single-stock ETFs",
-    "earnings: Liesman: Nvidia whiplash tests Kevin Warsh’s push to read market signals"
+    "regulation: Injective asks SEC to allow order books for tokenized stock trading"
   ],
   "news_counts": {
-    "must_read": 9,
-    "policy_watch": 4,
-    "background": 20
+    "must_read": 7,
+    "policy_watch": 3,
+    "background": 19
   },
   "focus_news": [
     {
-      "title": "Indicators for Core CPI",
-      "source": "Bank of Japan Announcements",
-      "url": "http://www.boj.or.jp/en/research/research_data/cpi/index.htm",
-      "event_type": "macro_data",
-      "importance_tier": 1,
+      "title": "Liesman: Nvidia whiplash tests Kevin Warsh’s push to read market signals",
+      "source": "CNBC Economy",
+      "url": "https://www.cnbc.com/2026/11/25/nvidia-kevin-warsh-fed-market-signals.html",
+      "event_type": "earnings",
+      "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "这类宏观数据会直接改变市场对通胀、增长和政策路径的预期。",
-      "market_impact": "主要影响 DXY，方向为 positive，强度 high；通胀压力可能推高政策利率预期并支撑美元。",
+      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
+      "market_impact": "主要影响 QQQ，方向为 mixed，强度 high；AI 资本开支会影响大型科技股盈利和估值预期。",
       "assets": [
-        "BTC",
-        "DXY",
-        "GC=F",
-        "QQQ",
-        "SPY"
+        "AMZN",
+        "GOOGL",
+        "META",
+        "MSFT",
+        "NVDA"
       ]
     },
     {
@@ -89,32 +89,31 @@
       ]
     },
     {
-      "title": "Liesman: Nvidia whiplash tests Kevin Warsh’s push to read market signals",
-      "source": "CNBC Economy",
-      "url": "https://www.cnbc.com/2026/11/25/nvidia-kevin-warsh-fed-market-signals.html",
-      "event_type": "earnings",
-      "importance_tier": 2,
-      "impact_strength": "high",
-      "impact_direction": "mixed",
-      "reason": "大型科技股盈利和资本开支会影响纳指、半导体和 AI 交易主线。",
-      "market_impact": "主要影响 QQQ，方向为 mixed，强度 high；AI 资本开支会影响大型科技股盈利和估值预期。",
-      "assets": [
-        "AMZN",
-        "GOOGL",
-        "META",
-        "MSFT",
-        "NVDA"
-      ]
-    },
-    {
-      "title": "Ripple is worth $90 a share to one fund and $300 to another, SEC filings show",
+      "title": "Injective asks SEC to allow order books for tokenized stock trading",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/11/26/ripple-is-worth-usd90-a-share-to-one-fund-and-usd300-to-another-sec-filings-show",
+      "url": "https://www.coindesk.com/markets/2026/11/27/injective-asks-sec-to-allow-order-books-for-tokenized-stock-trading",
       "event_type": "regulation",
       "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
       "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
+      "assets": [
+        "BTC",
+        "COIN",
+        "ETH",
+        "crypto market"
+      ]
+    },
+    {
+      "title": "Brazil’s stock exchange teams up with major banks to launch real-pegged stablecoin",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/11/27/brazil-s-stock-exchange-teams-up-with-major-banks-to-launch-real-pegged-stablecoin",
+      "event_type": "crypto_market_structure",
+      "importance_tier": 2,
+      "impact_strength": "high",
+      "impact_direction": "mixed",
+      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
       "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
       "assets": [
         "BTC",
@@ -126,9 +125,9 @@
   ],
   "policy_news": [
     {
-      "title": "Ripple is worth $90 a share to one fund and $300 to another, SEC filings show",
+      "title": "Injective asks SEC to allow order books for tokenized stock trading",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/11/26/ripple-is-worth-usd90-a-share-to-one-fund-and-usd300-to-another-sec-filings-show",
+      "url": "https://www.coindesk.com/markets/2026/11/27/injective-asks-sec-to-allow-order-books-for-tokenized-stock-trading",
       "event_type": "regulation",
       "importance_tier": 2,
       "impact_strength": "high",
@@ -143,14 +142,14 @@
       ]
     },
     {
-      "title": "SEC Investor Advisory Committee to Host Dec. 3 Virtual Meeting",
-      "source": "SEC Press Releases",
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-118-sec-investor-advisory-committee-host-dec-3-virtual-meeting",
-      "event_type": "regulation",
+      "title": "Brazil’s stock exchange teams up with major banks to launch real-pegged stablecoin",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/11/27/brazil-s-stock-exchange-teams-up-with-major-banks-to-launch-real-pegged-stablecoin",
+      "event_type": "crypto_market_structure",
       "importance_tier": 2,
       "impact_strength": "high",
       "impact_direction": "mixed",
-      "reason": "监管变化会改变行业盈利预期和资产风险溢价。",
+      "reason": "加密市场结构和监管变化会影响 BTC、ETH 及相关股票的风险溢价。",
       "market_impact": "主要影响 BTC，方向为 mixed，强度 high；加密监管或 ETF 进展会改变 BTC 的资金流和风险溢价。",
       "assets": [
         "BTC",
@@ -174,95 +173,95 @@
   ],
   "asset_movers": [
     {
-      "symbol": "NG=F",
-      "group": "COMMODITIES",
-      "price": "3.60",
-      "one_day": "10.19%",
-      "five_day": "10.22%",
-      "trend": "strong_uptrend",
-      "direction": "up"
+      "symbol": "^VIX",
+      "group": "US_MACRO_MARKET",
+      "price": "23.81",
+      "one_day": "-11.16%",
+      "five_day": "-33.66%",
+      "trend": "range_bound",
+      "direction": "down"
     },
     {
       "symbol": "SI=F",
       "group": "COMMODITIES",
-      "price": "43.81",
-      "one_day": "9.40%",
-      "five_day": "-1.13%",
+      "price": "43.70",
+      "one_day": "9.11%",
+      "five_day": "-1.39%",
       "trend": "strong_downtrend",
       "direction": "up"
-    },
-    {
-      "symbol": "HG=F",
-      "group": "COMMODITIES",
-      "price": "5.65",
-      "one_day": "5.92%",
-      "five_day": "0.41%",
-      "trend": "strong_downtrend",
-      "direction": "up"
-    },
-    {
-      "symbol": "^VIX",
-      "group": "US_MACRO_MARKET",
-      "price": "26.80",
-      "one_day": "-5.27%",
-      "five_day": "-5.77%",
-      "trend": "uptrend",
-      "direction": "down"
     },
     {
       "symbol": "3690.HK",
       "group": "HK_MARKET",
-      "price": "65.70",
-      "one_day": "4.78%",
-      "five_day": "-1.20%",
-      "trend": "strong_downtrend",
-      "direction": "up"
-    },
-    {
-      "symbol": "GC=F",
-      "group": "COMMODITIES",
-      "price": "3,656.60",
-      "one_day": "3.42%",
-      "five_day": "-0.78%",
-      "trend": "strong_downtrend",
-      "direction": "up"
-    },
-    {
-      "symbol": "SOLANA",
-      "group": "CRYPTO",
-      "price": "72.63",
-      "one_day": "3.20%",
-      "five_day": "3.46%",
-      "trend": "strong_downtrend",
+      "price": "67.85",
+      "one_day": "8.21%",
+      "five_day": "2.03%",
+      "trend": "downtrend",
       "direction": "up"
     },
     {
       "symbol": "9988.HK",
       "group": "HK_MARKET",
-      "price": "85.00",
-      "one_day": "3.03%",
-      "five_day": "1.98%",
+      "price": "88.30",
+      "one_day": "7.03%",
+      "five_day": "5.94%",
       "trend": "strong_downtrend",
       "direction": "up"
+    },
+    {
+      "symbol": "NG=F",
+      "group": "COMMODITIES",
+      "price": "3.49",
+      "one_day": "6.79%",
+      "five_day": "6.82%",
+      "trend": "strong_uptrend",
+      "direction": "up"
+    },
+    {
+      "symbol": "HG=F",
+      "group": "COMMODITIES",
+      "price": "5.60",
+      "one_day": "5.03%",
+      "five_day": "-0.44%",
+      "trend": "strong_downtrend",
+      "direction": "up"
+    },
+    {
+      "symbol": "1810.HK",
+      "group": "HK_MARKET",
+      "price": "27.80",
+      "one_day": "4.51%",
+      "five_day": "0.58%",
+      "trend": "range_bound",
+      "direction": "up"
+    },
+    {
+      "symbol": "BZ=F",
+      "group": "COMMODITIES",
+      "price": "90.84",
+      "one_day": "-3.98%",
+      "five_day": "-1.24%",
+      "trend": "strong_downtrend",
+      "direction": "down"
     }
   ],
   "chart_tiles": [
     {
       "label": "COMMODITIES",
-      "src": "charts/2026-11-27/COMMODITIES_summary.png"
+      "src": "charts/2026-11-28/COMMODITIES_summary.png"
     },
     {
       "label": "CRYPTO",
-      "src": "charts/2026-11-27/CRYPTO_summary.png"
+      "src": "charts/2026-11-28/CRYPTO_summary.png"
     },
     {
       "label": "HK_MARKET",
-      "src": "charts/2026-11-27/HK_MARKET_summary.png"
+      "src": "charts/2026-11-28/HK_MARKET_summary.png"
     },
     {
       "label": "US_EQUITY",
-      "src": "charts/2026-11-27/US_EQUITY_summary.png"
+      "src": "charts/2026-11-28/US_EQUITY_summary.png"
     }
   ],
-  "latest_report_href": "reports/2026-11-27.html"
+  "latest_report_href": "reports/2026-11-28.html"
 }
